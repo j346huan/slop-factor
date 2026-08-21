@@ -1,0 +1,128 @@
+---
+import PaperTable from "@/components/PaperTable.astro";
+import StatsGrid from "@/components/StatsGrid.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getApprovedPapers } from "@/lib/data";
+import { sitePath } from "@/lib/paths";
+
+const papers = getApprovedPapers();
+const highest = papers.reduce(
+  (value, paper) => Math.max(value, paper.score),
+  0,
+);
+const totalPages = papers.reduce(
+  (sum, paper) => sum + paper.structural_counts.pages,
+  0,
+);
+const totalTheorems = papers.reduce(
+  (sum, paper) => sum + paper.structural_counts.theorems,
+  0,
+);
+const totalLemmas = papers.reduce(
+  (sum, paper) => sum + paper.structural_counts.lemmas,
+  0,
+);
+const recent = [...papers]
+  .sort((left, right) =>
+    right.dates.approved.localeCompare(left.dates.approved),
+  )
+  .slice(0, 5);
+const number = new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 });
+const stats = [
+  {
+    label: "Highest Slop Factor",
+    value: papers.length ? number.format(highest) : "—",
+    note: papers.length
+      ? "Highest verified record"
+      : "Awaiting approved records",
+  },
+  {
+    label: "Included papers",
+    value: number.format(papers.length),
+    note: "Human-verified disclosures",
+  },
+  {
+    label: "Analyzed pages",
+    value: number.format(totalPages),
+    note: "Across approved papers",
+  },
+  {
+    label: "Theorems + lemmas",
+    value: number.format(totalTheorems + totalLemmas),
+    note: `${number.format(totalTheorems)} theorems · ${number.format(totalLemmas)} lemmas`,
+  },
+];
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="shell hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow">Reviewed bibliometric dataset</p>
+        <h1>
+          Structural data for mathematics papers with explicit AI disclosures
+        </h1>
+        <p class="lede">
+          Slop Factor tracks measurable document characteristics only when
+          authors have explicitly disclosed AI or large-language-model
+          assistance and a human reviewer has verified the disclosure.
+        </p>
+        <div class="hero__actions">
+          <a class="button" href="#paper-index-title">Browse papers</a>
+          <a class="text-link" href={sitePath("methodology/")}
+            >Read the methodology</a
+          >
+        </div>
+      </div>
+      <aside class="principle-card" aria-labelledby="principle-title">
+        <p class="eyebrow">Inclusion standard</p>
+        <h2 id="principle-title">Disclosure, not detection</h2>
+        <p>
+          The project does not estimate whether AI was used. Every public record
+          preserves the exact author disclosure and its location.
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <div class="shell page-stack">
+    <StatsGrid stats={stats} />
+
+    <section class="recent" aria-labelledby="recent-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Collection updates</p>
+          <h2 id="recent-title">Recently added</h2>
+        </div>
+      </div>
+      {
+        recent.length ? (
+          <ol class="recent-list">
+            {recent.map((paper) => (
+              <li>
+                <a
+                  href={sitePath(`papers/${paper.arxiv_id.replace("/", "-")}/`)}
+                >
+                  {paper.title}
+                </a>
+                <span>{paper.authors.join(", ")}</span>
+                <time datetime={paper.dates.approved}>
+                  Added {paper.dates.approved}
+                </time>
+              </li>
+            ))}
+          </ol>
+        ) : (
+          <div class="compact-empty">
+            <p>
+              No papers have completed review. Candidate matches are never
+              published automatically.
+            </p>
+          </div>
+        )
+      }
+    </section>
+
+    <PaperTable papers={papers} />
+  </div>
+</BaseLayout>

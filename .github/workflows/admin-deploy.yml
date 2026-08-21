@@ -1,0 +1,32 @@
+name: Deploy administrator dashboard
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "admin-worker/**"
+      - ".github/workflows/admin-deploy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: administrator-dashboard
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Deploy Cloudflare Worker and static administrator assets
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy --config admin-worker/wrangler.jsonc

@@ -1,0 +1,411 @@
+const state = { candidates: [], selected: null };
+const classifications = {
+  proofreading_translation: ["Proofreading, grammar, or translation", 1],
+  brainstorming_literature_code: [
+    "Brainstorming, literature assistance, or code",
+    2,
+  ],
+  rewriting_drafting: ["Rewriting or drafting portions", 5],
+  substantial_generation: [
+    "Substantial text, proofs, or content generation",
+    10,
+  ],
+  mixed_or_other: ["Mixed or intermediate disclosed use", null],
+};
+
+const elements = Object.fromEntries(
+  [
+    "account",
+    "admin-count",
+    "approved-count",
+    "avatar",
+    "candidate-list",
+    "dashboard",
+    "empty-state",
+    "login-panel",
+    "notice",
+    "pending-count",
+    "rejected-count",
+    "review-content",
+    "review-dialog",
+    "review-title",
+    "scan-date",
+    "search",
+    "status-filter",
+    "submitted-count",
+    "username",
+  ].map((id) => [id, document.getElementById(id)]),
+);
+
+async function api(path, options = {}) {
+  const response = await fetch(path, {
+    ...options,
+    headers: { "Content-Type": "application/json", ...(options.headers ?? {}) },
+  });
+  const payload = response.headers.get("Content-Type")?.includes("json")
+    ? await response.json()
+    : { error: await response.text() };
+  if (!response.ok)
+    throw new Error(payload.error || `Request failed (${response.status})`);
+  return payload;
+}
+
+function showNotice(message, tone = "info") {
+  elements.notice.textContent = message;
+  elements.notice.dataset.tone = tone;
+  elements.notice.hidden = false;
+}
+
+function text(tag, content, className = "") {
+  const node = document.createElement(tag);
+  node.textContent = content;
+  if (className) node.className = className;
+  return node;
+}
+
+function score(counts, multiplier) {
+  if (!counts || !Number.isFinite(multiplier)) return null;
+  return (
+    multiplier *
+    (counts.pages +
+      6 * counts.theorems +
+      4 * counts.lemmas +
+      4 * counts.propositions +
+      3 * counts.corollaries +
+      2 * counts.definitions +
+      counts.displayed_equations / 4 +
+      counts.bibliography_entries / 10 +
+      2 * counts.appendix_pages)
+  );
+}
+
+function renderCandidates() {
+  const query = elements.search.value.trim().toLowerCase();
+  const status = elements["status-filter"].value;
+  const candidates = state.candidates.filter((candidate) => {
+    const haystack = [
+      candidate.candidate_id,
+      candidate.paper.title,
+      ...candidate.paper.authors,
+    ]
+      .join(" ")
+      .toLowerCase();
+    return (
+      (status === "all" || candidate.status === status) &&
+      haystack.includes(query)
+    );
+  });
+  elements["candidate-list"].replaceChildren();
+  elements["empty-state"].hidden = candidates.length !== 0;
+
+  for (const candidate of candidates) {
+    const article = document.createElement("article");
+    article.className = "candidate-row";
+    const summary = document.createElement("div");
+    summary.append(
+      text("p", candidate.candidate_id, "candidate-id"),
+      text("h3", candidate.paper.title),
+      text("p", candidate.paper.authors.join(", "), "authors"),
+    );
+    const metadata = document.createElement("div");
+    metadata.className = "candidate-meta";
+    metadata.append(
+      text("span", candidate.paper.primary_category),
+      text(
+        "span",
+        candidate.status.replaceAll("-", " "),
+        `status status--${candidate.status}`,
+      ),
+    );
+    const button = text("button", "Review", "secondary-button");
+    button.type = "button";
+    button.disabled = candidate.status !== "pending";
+    button.addEventListener("click", () => openReview(candidate));
+    article.append(summary, metadata, button);
+    elements["candidate-list"].append(article);
+  }
+}
+
+function labeledInput(labelText, input) {
+  const label = document.createElement("label");
+  label.append(text("span", labelText), input);
+  return label;
+}
+
+function openReview(candidate) {
+  state.selected = candidate;
+  elements["review-title"].textContent = candidate.paper.title;
+  const content = elements["review-content"];
+  content.replaceChildren();
+
+  const facts = document.createElement("dl");
+  facts.className = "review-facts";
+  for (const [label, value] of [
+    ["Authors", candidate.paper.authors.join(", ")],
+    ["arXiv", candidate.candidate_id],
+    ["Primary category", candidate.paper.primary_category],
+    ["Submitted", candidate.paper.submitted],
+  ]) {
+    facts.append(text("dt", label), text("dd", value));
+  }
+  content.append(facts);
+
+  const form = document.createElement("form");
+  form.className = "review-form";
+  form.addEventListener("submit", submitApproval);
+  form.append(text("h3", "Candidate disclosure passages"));
+  candidate.evidence.forEach((evidence, index) => {
+    const card = document.createElement("label");
+    card.className = "evidence-card";
+    const radio = document.createElement("input");
+    radio.type = "radio";
+    radio.name = "evidenceIndex";
+    radio.value = String(index + 1);
+    radio.required = true;
+    radio.addEventListener("change", () => fillEvidence(form, evidence));
+    card.append(
+      radio,
+      text("strong", `Passage ${index + 1} · ${evidence.location_value}`),
+      text("blockquote", evidence.quotation),
+    );
+    form.append(card);
+  });
+
+  const quotation = document.createElement("textarea");
+  quotation.name = "quotation";
+  quotation.rows = 5;
+  quotation.required = true;
+  const locationKind = document.createElement("select");
+  locationKind.name = "locationKind";
+  locationKind.required = true;
+  locationKind.append(
+    new Option("PDF page", "page"),
+    new Option("arXiv metadata", "metadata"),
+  );
+  const locationValue = document.createElement("input");
+  locationValue.name = "locationValue";
+  locationValue.required = true;
+  const page = document.createElement("input");
+  page.name = "page";
+  page.type = "number";
+  page.min = "1";
+  const classification = document.createElement("select");
+  classification.name = "classification";
+  classification.required = true;
+  classification.append(new Option("Select classification", ""));
+  for (const [value, [label]] of Object.entries(classifications)) {
+    classification.append(new Option(label, value));
+  }
+  const multiplier = document.createElement("input");
+  multiplier.name = "multiplier";
+  multiplier.type = "number";
+  multiplier.min = "1";
+  multiplier.max = "10";
+  multiplier.step = "0.1";
+  multiplier.required = true;
+  const rationale = document.createElement("textarea");
+  rationale.name = "rationale";
+  rationale.rows = 3;
+  rationale.required = true;
+  const scorePreview = text(
+    "output",
+    "Select a classification",
+    "score-preview",
+  );
+  classification.addEventListener("change", () => {
+    const fixed = classifications[classification.value]?.[1];
+    multiplier.value = fixed ?? "";
+    multiplier.readOnly = fixed !== null && fixed !== undefined;
+    updateScore(candidate, multiplier, scorePreview);
+  });
+  multiplier.addEventListener("input", () =>
+    updateScore(candidate, multiplier, scorePreview),
+  );
+
+  const fields = document.createElement("div");
+  fields.className = "form-grid";
+  fields.append(
+    labeledInput("Exact disclosure quotation", quotation),
+    labeledInput("Location type", locationKind),
+    labeledInput("Exact location", locationValue),
+    labeledInput("PDF page", page),
+    labeledInput("Disclosure classification", classification),
+    labeledInput("Multiplier", multiplier),
+    labeledInput("Classification rationale", rationale),
+  );
+  form.append(text("h3", "Verified publication fields"), fields, scorePreview);
+
+  const confirmation = document.createElement("input");
+  confirmation.name = "confirmation";
+  confirmation.autocomplete = "off";
+  confirmation.placeholder = "Type APPROVE";
+  confirmation.required = true;
+  const confirmationLabel = labeledInput(
+    "Confirm that the quotation explicitly discloses the authors’ own AI use",
+    confirmation,
+  );
+  confirmationLabel.className = "confirmation";
+
+  const actions = document.createElement("div");
+  actions.className = "review-actions";
+  const reject = text("button", "Reject candidate", "danger-button");
+  reject.type = "button";
+  reject.addEventListener("click", () => rejectCandidate(candidate));
+  const approve = text("button", "Prepare approval record", "button");
+  approve.type = "submit";
+  actions.append(reject, approve);
+  form.append(confirmationLabel, actions);
+  content.append(form);
+  elements["review-dialog"].showModal();
+}
+
+function fillEvidence(form, evidence) {
+  form.elements.quotation.value = evidence.quotation;
+  form.elements.locationKind.value = evidence.location_kind;
+  form.elements.locationValue.value = evidence.location_value;
+  form.elements.page.value = evidence.page ?? "";
+  form.elements.page.disabled = evidence.location_kind === "metadata";
+}
+
+function updateScore(candidate, multiplierInput, output) {
+  const value = score(
+    candidate.analysis?.structural_counts,
+    Number(multiplierInput.value),
+  );
+  output.textContent =
+    value === null
+      ? "Structural analysis unavailable"
+      : `Slop Factor: ${value}`;
+}
+
+async function submitApproval(event) {
+  event.preventDefault();
+  const form = event.currentTarget;
+  const data = new FormData(form);
+  if (data.get("confirmation") !== "APPROVE") {
+    showNotice("Type APPROVE exactly before preparing the record.", "error");
+    return;
+  }
+  const button = form.querySelector('button[type="submit"]');
+  button.disabled = true;
+  try {
+    await api(`/api/candidates/${state.selected.issueNumber}/approve`, {
+      method: "POST",
+      body: JSON.stringify({
+        evidenceIndex: Number(data.get("evidenceIndex")),
+        quotation: data.get("quotation"),
+        locationKind: data.get("locationKind"),
+        locationValue: data.get("locationValue"),
+        page: data.get("page") || null,
+        classification: data.get("classification"),
+        multiplier: Number(data.get("multiplier")),
+        rationale: data.get("rationale"),
+        confirmation: true,
+      }),
+    });
+    elements["review-dialog"].close();
+    showNotice(
+      "Approval workflow started. A pull request will appear after validation passes.",
+      "success",
+    );
+  } catch (error) {
+    showNotice(error.message, "error");
+  } finally {
+    button.disabled = false;
+  }
+}
+
+async function rejectCandidate(candidate) {
+  const reason = window.prompt(
+    "Enter the factual reason this candidate is not eligible:",
+  );
+  if (!reason?.trim()) return;
+  try {
+    await api(`/api/candidates/${candidate.issueNumber}/reject`, {
+      method: "POST",
+      body: JSON.stringify({ reason }),
+    });
+    elements["review-dialog"].close();
+    showNotice(
+      "Candidate rejected and removed from the pending queue.",
+      "success",
+    );
+    await loadCandidates();
+  } catch (error) {
+    showNotice(error.message, "error");
+  }
+}
+
+async function loadCandidates() {
+  const payload = await api("/api/candidates");
+  state.candidates = payload.candidates;
+  for (const status of [
+    "pending",
+    "approval-submitted",
+    "rejected",
+    "approved",
+  ]) {
+    const id =
+      status === "approval-submitted" ? "submitted-count" : `${status}-count`;
+    elements[id].textContent = String(
+      state.candidates.filter((item) => item.status === status).length,
+    );
+  }
+  renderCandidates();
+}
+
+async function initialize() {
+  elements["scan-date"].value = new Date().toISOString().slice(0, 10);
+  try {
+    const session = await api("/api/session");
+    elements.username.textContent = session.user.login;
+    elements.avatar.src = session.user.avatar_url;
+    elements.account.hidden = false;
+    elements.dashboard.hidden = false;
+    await loadCandidates();
+  } catch (error) {
+    if (error.message.includes("Authentication required")) {
+      elements["login-panel"].hidden = false;
+      return;
+    }
+    elements["login-panel"].hidden = false;
+    showNotice(error.message, "error");
+  }
+}
+
+document
+  .getElementById("scan-form")
+  .addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const button = form.querySelector("button");
+    button.disabled = true;
+    try {
+      const data = new FormData(form);
+      await api("/api/scan", {
+        method: "POST",
+        body: JSON.stringify({
+          scanDate: data.get("scanDate"),
+          maxResults: Number(data.get("maxResults")),
+        }),
+      });
+      showNotice(
+        "Scan started. Refresh the queue after the workflow completes.",
+        "success",
+      );
+    } catch (error) {
+      showNotice(error.message, "error");
+    } finally {
+      button.disabled = false;
+    }
+  });
+
+document.getElementById("refresh").addEventListener("click", loadCandidates);
+document.getElementById("logout").addEventListener("click", async () => {
+  await api("/auth/logout", { method: "POST", body: "{}" });
+  window.location.reload();
+});
+elements.search.addEventListener("input", renderCandidates);
+elements["status-filter"].addEventListener("change", renderCandidates);
+
+initialize();

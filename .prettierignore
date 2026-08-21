@@ -1,0 +1,9 @@
+.astro
+.venv
+coverage
+dist
+git-metadata
+node_modules
+package-lock.json
+pip-*
+private

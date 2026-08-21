@@ -1,0 +1,288 @@
+---
+import { disclosureLabels } from "@/lib/disclosure";
+import { sitePath } from "@/lib/paths";
+import type { ApprovedPaper } from "@/lib/types";
+
+interface Props {
+  papers: ApprovedPaper[];
+}
+
+const { papers } = Astro.props;
+const categories = [
+  ...new Set(papers.map((paper) => paper.categories.primary)),
+].sort();
+const classifications = [
+  ...new Set(papers.map((paper) => paper.disclosure.classification)),
+];
+---
+
+<section
+  class="paper-index"
+  aria-labelledby="paper-index-title"
+  data-paper-table
+>
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Verified collection</p>
+      <h2 id="paper-index-title">Paper index</h2>
+    </div>
+    <p class="result-count" aria-live="polite" data-result-count>
+      {papers.length}
+      {papers.length === 1 ? "paper" : "papers"}
+    </p>
+  </div>
+
+  <form class="filters" data-filter-form aria-label="Filter papers">
+    <div class="field field--wide">
+      <label for="paper-search">Search papers</label>
+      <input
+        id="paper-search"
+        name="query"
+        type="search"
+        placeholder="Title, author, abstract, or arXiv ID"
+        autocomplete="off"
+      />
+    </div>
+    <div class="field">
+      <label for="category-filter">Primary category</label>
+      <select id="category-filter" name="category">
+        <option value="">All categories</option>
+        {
+          categories.map((category) => (
+            <option value={category}>{category}</option>
+          ))
+        }
+      </select>
+    </div>
+    <div class="field">
+      <label for="role-filter">Disclosed AI role</label>
+      <select id="role-filter" name="classification">
+        <option value="">All disclosed roles</option>
+        {
+          classifications.map((classification) => (
+            <option value={classification}>
+              {disclosureLabels[classification]}
+            </option>
+          ))
+        }
+      </select>
+    </div>
+    <div class="field">
+      <label for="author-filter">Author</label>
+      <input
+        id="author-filter"
+        name="author"
+        type="search"
+        placeholder="Author name"
+      />
+    </div>
+    <div class="field">
+      <label for="date-from">Submitted from</label>
+      <input id="date-from" name="dateFrom" type="date" />
+    </div>
+    <div class="field">
+      <label for="date-to">Submitted through</label>
+      <input id="date-to" name="dateTo" type="date" />
+    </div>
+    <fieldset class="field field--range">
+      <legend>Slop Factor range</legend>
+      <label for="score-min">Minimum</label>
+      <input
+        id="score-min"
+        name="scoreMin"
+        type="number"
+        min="0"
+        step="0.1"
+        inputmode="decimal"
+      />
+      <span aria-hidden="true">–</span>
+      <label for="score-max">Maximum</label>
+      <input
+        id="score-max"
+        name="scoreMax"
+        type="number"
+        min="0"
+        step="0.1"
+        inputmode="decimal"
+      />
+    </fieldset>
+    <div class="field">
+      <label for="sort-papers">Sort by</label>
+      <select id="sort-papers" name="sort">
+        <option value="score-desc">Slop Factor, high to low</option>
+        <option value="score-asc">Slop Factor, low to high</option>
+        <option value="pages-desc">Pages, high to low</option>
+        <option value="pages-asc">Pages, low to high</option>
+        <option value="lemmas-desc">Lemmas, high to low</option>
+        <option value="lemmas-asc">Lemmas, low to high</option>
+        <option value="theorems-desc">Theorems, high to low</option>
+        <option value="theorems-asc">Theorems, low to high</option>
+        <option value="submitted-desc">Submission date, newest</option>
+        <option value="submitted-asc">Submission date, oldest</option>
+      </select>
+    </div>
+    <div class="filter-actions">
+      <button class="button button--quiet" type="reset">Clear filters</button>
+    </div>
+  </form>
+
+  <div class="table-frame" data-table-frame hidden={papers.length === 0}>
+    <table>
+      <caption class="visually-hidden"
+        >Approved mathematics papers with verified AI disclosures</caption
+      >
+      <thead>
+        <tr>
+          <th scope="col">Paper</th>
+          <th scope="col">Submitted</th>
+          <th scope="col">Category</th>
+          <th scope="col" class="numeric">Pages</th>
+          <th scope="col" class="numeric">Theorems</th>
+          <th scope="col" class="numeric">Lemmas</th>
+          <th scope="col" class="numeric">Slop Factor</th>
+        </tr>
+      </thead>
+      <tbody data-table-body>
+        {
+          papers.map((paper) => (
+            <tr
+              data-paper-row
+              data-id={`${paper.arxiv_id}v${paper.version}`}
+              data-search={`${paper.title} ${paper.authors.join(" ")} ${paper.abstract} ${paper.arxiv_id}`}
+              data-author={paper.authors.join(" ")}
+              data-category={paper.categories.primary}
+              data-classification={paper.disclosure.classification}
+              data-submitted={paper.dates.submitted.slice(0, 10)}
+              data-score={paper.score}
+              data-pages={paper.structural_counts.pages}
+              data-lemmas={paper.structural_counts.lemmas}
+              data-theorems={paper.structural_counts.theorems}
+            >
+              <th scope="row">
+                <a
+                  href={sitePath(`papers/${paper.arxiv_id.replace("/", "-")}/`)}
+                >
+                  {paper.title}
+                </a>
+                <span class="paper-authors">{paper.authors.join(", ")}</span>
+                <span class="paper-role">
+                  {disclosureLabels[paper.disclosure.classification]}
+                </span>
+              </th>
+              <td>
+                <time datetime={paper.dates.submitted}>
+                  {paper.dates.submitted.slice(0, 10)}
+                </time>
+              </td>
+              <td>
+                <span class="category-code">{paper.categories.primary}</span>
+              </td>
+              <td class="numeric">{paper.structural_counts.pages}</td>
+              <td class="numeric">{paper.structural_counts.theorems}</td>
+              <td class="numeric">{paper.structural_counts.lemmas}</td>
+              <td class="numeric score-cell">
+                {paper.score.toLocaleString("en-US", {
+                  maximumFractionDigits: 2,
+                })}
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <div class="empty-state" data-empty-state hidden={papers.length > 0}>
+    <h3 data-empty-title>No approved papers yet</h3>
+    <p data-empty-copy>
+      The public collection will populate after a reviewer verifies an explicit
+      disclosure and its location.
+    </p>
+  </div>
+</section>
+
+<script>
+  import {
+    filterAndSortPapers,
+    type FilterablePaper,
+    type PaperFilters,
+  } from "@/lib/paperTable";
+
+  const root = document.querySelector<HTMLElement>("[data-paper-table]");
+  const form = root?.querySelector<HTMLFormElement>("[data-filter-form]");
+  const body =
+    root?.querySelector<HTMLTableSectionElement>("[data-table-body]");
+  const frame = root?.querySelector<HTMLElement>("[data-table-frame]");
+  const empty = root?.querySelector<HTMLElement>("[data-empty-state]");
+  const emptyTitle = root?.querySelector<HTMLElement>("[data-empty-title]");
+  const emptyCopy = root?.querySelector<HTMLElement>("[data-empty-copy]");
+  const resultCount = root?.querySelector<HTMLElement>("[data-result-count]");
+  const rows = Array.from(
+    root?.querySelectorAll<HTMLTableRowElement>("[data-paper-row]") ?? [],
+  );
+
+  const papers = rows.map((row): FilterablePaper => ({
+    id: row.dataset.id ?? "",
+    search: row.dataset.search ?? "",
+    author: row.dataset.author ?? "",
+    category: row.dataset.category ?? "",
+    classification: row.dataset.classification ?? "",
+    submitted: row.dataset.submitted ?? "",
+    score: Number(row.dataset.score),
+    pages: Number(row.dataset.pages),
+    lemmas: Number(row.dataset.lemmas),
+    theorems: Number(row.dataset.theorems),
+  }));
+  const rowById = new Map(rows.map((row) => [row.dataset.id ?? "", row]));
+
+  function nullableNumber(value: FormDataEntryValue | null): number | null {
+    if (typeof value !== "string" || value.trim() === "") return null;
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : null;
+  }
+
+  function update(): void {
+    if (!form || !body || !frame || !empty || !resultCount) return;
+    const values = new FormData(form);
+    const filters: PaperFilters = {
+      query: String(values.get("query") ?? ""),
+      author: String(values.get("author") ?? ""),
+      category: String(values.get("category") ?? ""),
+      classification: String(values.get("classification") ?? ""),
+      dateFrom: String(values.get("dateFrom") ?? ""),
+      dateTo: String(values.get("dateTo") ?? ""),
+      scoreMin: nullableNumber(values.get("scoreMin")),
+      scoreMax: nullableNumber(values.get("scoreMax")),
+      sort: String(values.get("sort") ?? "score-desc"),
+    };
+    const visible = filterAndSortPapers(papers, filters);
+    const visibleIds = new Set(visible.map((paper) => paper.id));
+
+    for (const row of rows) row.hidden = !visibleIds.has(row.dataset.id ?? "");
+    for (const paper of visible) {
+      const row = rowById.get(paper.id);
+      if (row) body.append(row);
+    }
+
+    resultCount.textContent = `${visible.length} ${visible.length === 1 ? "paper" : "papers"}`;
+    frame.hidden = visible.length === 0;
+    empty.hidden = visible.length > 0;
+    if (visible.length === 0 && papers.length > 0) {
+      if (emptyTitle) emptyTitle.textContent = "No papers match these filters";
+      if (emptyCopy)
+        emptyCopy.textContent =
+          "Clear or broaden the filters to see more records.";
+    } else if (papers.length === 0) {
+      if (emptyTitle) emptyTitle.textContent = "No approved papers yet";
+      if (emptyCopy) {
+        emptyCopy.textContent =
+          "The public collection will populate after a reviewer verifies an explicit disclosure and its location.";
+      }
+    }
+  }
+
+  form?.addEventListener("input", update);
+  form?.addEventListener("change", update);
+  form?.addEventListener("reset", () => window.setTimeout(update, 0));
+  update();
+</script>

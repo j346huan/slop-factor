@@ -1,0 +1,150 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Methodology"
+  description="Eligibility, scoring, disclosure classification, and correction methods for Slop Factor."
+>
+  <article class="shell prose-page">
+    <header class="prose-header">
+      <p class="eyebrow">Documentation</p>
+      <h1>Methodology</h1>
+      <p class="lede">
+        Public records are based on explicit author disclosures and reproducible
+        structural counts. Candidate matching is only a review aid.
+      </p>
+    </header>
+
+    <nav class="on-this-page" aria-label="On this page">
+      <strong>On this page</strong>
+      <a href="#eligibility">Eligibility</a>
+      <a href="#score">Score</a>
+      <a href="#classification">Disclosure classification</a>
+      <a href="#counting">Counting methods</a>
+      <a href="#corrections">Corrections</a>
+    </nav>
+
+    <section id="eligibility">
+      <h2>Eligibility</h2>
+      <p>
+        A paper is eligible for the public dataset only when every condition
+        below is met:
+      </p>
+      <ul>
+        <li>Its primary arXiv category begins with <code>math.</code>.</li>
+        <li>
+          The paper or official arXiv metadata explicitly discloses author use
+          of AI or an LLM.
+        </li>
+        <li>
+          A human reviewer verifies that the passage is an author disclosure
+          rather than a citation or general discussion.
+        </li>
+        <li>
+          The exact disclosure quotation and its page or metadata location are
+          recorded.
+        </li>
+      </ul>
+      <p>
+        Search matches remain private review candidates. No detector,
+        probability estimate, or inferred use can make a paper eligible.
+      </p>
+    </section>
+
+    <section id="score">
+      <h2>Slop Factor</h2>
+      <div
+        class="formula"
+        role="img"
+        aria-label="Slop Factor equals M times the sum of P, six T, four L, four Q, three C, two D, E over four, R over ten, and two A."
+      >
+        <span
+          >Slop Factor = M × (P + 6T + 4L + 4Q + 3C + 2D + E/4 + R/10 + 2A)</span
+        >
+      </div>
+      <dl class="definition-list">
+        <div><dt>P</dt><dd>Total PDF pages</dd></div>
+        <div><dt>T</dt><dd>Theorems</dd></div>
+        <div><dt>L</dt><dd>Lemmas</dd></div>
+        <div><dt>Q</dt><dd>Propositions</dd></div>
+        <div><dt>C</dt><dd>Corollaries</dd></div>
+        <div><dt>D</dt><dd>Definitions</dd></div>
+        <div><dt>E</dt><dd>Displayed equations</dd></div>
+        <div><dt>R</dt><dd>Bibliography entries</dd></div>
+        <div><dt>A</dt><dd>Appendix pages</dd></div>
+        <div><dt>M</dt><dd>Disclosure multiplier</dd></div>
+      </dl>
+      <p>
+        The score is unbounded. It is not normalized and is not an AI
+        probability, an originality measure, or a judgment of correctness or
+        quality.
+      </p>
+    </section>
+
+    <section id="classification">
+      <h2>Disclosure classification</h2>
+      <div class="method-table">
+        <table>
+          <thead
+            ><tr
+              ><th scope="col">Multiplier</th><th scope="col">Disclosed role</th
+              ></tr
+            ></thead
+          >
+          <tbody>
+            <tr><td>1</td><td>Proofreading, grammar, or translation</td></tr>
+            <tr
+              ><td>2</td><td>Brainstorming, literature assistance, or code</td
+              ></tr
+            >
+            <tr><td>5</td><td>Rewriting or drafting portions</td></tr>
+            <tr
+              ><td>10</td><td
+                >Substantial text, proofs, or content generation</td
+              ></tr
+            >
+          </tbody>
+        </table>
+      </div>
+      <p>
+        When several disclosed uses apply, the highest applicable multiplier is
+        used. A reviewer may select an intermediate multiplier when the
+        disclosure falls materially between the listed categories; the record
+        must state the rationale.
+      </p>
+    </section>
+
+    <section id="counting">
+      <h2>Counting methods</h2>
+      <p>
+        The analysis prefers arXiv source files. It counts theorem-like and
+        displayed-equation LaTeX environments, bibliography entries, and page
+        structure after safely extracting the source archive. PDF pages and
+        appendix boundaries are obtained from the rendered PDF.
+      </p>
+      <p>
+        When source is unavailable or cannot be parsed, PDF-text patterns
+        provide fallback estimates. Each record identifies the method used for
+        every count and documents material limitations. Validation recalculates
+        every score from the stored counts and multiplier.
+      </p>
+    </section>
+
+    <section id="corrections">
+      <h2>Correction policy</h2>
+      <p>
+        Corrections are accepted for disclosure transcription, classification,
+        document counts, metadata, and version changes. A correction should
+        identify the arXiv record and provide the relevant page, source passage,
+        or reproducible count. Approved records are updated through reviewable
+        version-control changes, with the previous history retained.
+      </p>
+      <p>
+        Inclusion is not criticism of a paper or its authors. It records an
+        explicit disclosure and applies a documented structural formula; it does
+        not evaluate mathematical merit.
+      </p>
+    </section>
+  </article>
+</BaseLayout>
