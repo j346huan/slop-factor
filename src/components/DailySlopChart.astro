@@ -1,0 +1,97 @@
+---
+import type { DailySlop } from "@/lib/home";
+
+interface Props {
+  points: DailySlop[];
+}
+
+const { points } = Astro.props;
+const width = 1000;
+const height = 220;
+const left = 58;
+const right = 16;
+const top = 16;
+const bottom = 34;
+const chartWidth = width - left - right;
+const chartHeight = height - top - bottom;
+const maximum = Math.max(1, ...points.map((point) => point.total));
+const coordinates = points
+  .map((point, index) => {
+    const x =
+      left +
+      (points.length === 1
+        ? chartWidth / 2
+        : (index / (points.length - 1)) * chartWidth);
+    const y = top + chartHeight - (point.total / maximum) * chartHeight;
+    return `${x.toFixed(2)},${y.toFixed(2)}`;
+  })
+  .join(" ");
+const format = new Intl.NumberFormat("en-US", {
+  maximumFractionDigits: 1,
+  notation: "compact",
+});
+---
+
+<section class="daily-chart" aria-labelledby="daily-chart-title">
+  <h2 id="daily-chart-title">Total slop per day</h2>
+  {
+    points.length > 0 ? (
+      <svg
+        viewBox={`0 0 ${width} ${height}`}
+        role="img"
+        aria-labelledby="daily-chart-title daily-chart-description"
+      >
+        <desc id="daily-chart-description">
+          Daily sum of Slop Factor scores from {points[0].date} through{" "}
+          {points.at(-1)?.date}.
+        </desc>
+        <line
+          class="chart-axis"
+          x1={left}
+          y1={top}
+          x2={left}
+          y2={top + chartHeight}
+        />
+        <line
+          class="chart-axis"
+          x1={left}
+          y1={top + chartHeight}
+          x2={width - right}
+          y2={top + chartHeight}
+        />
+        <line
+          class="chart-grid"
+          x1={left}
+          y1={top}
+          x2={width - right}
+          y2={top}
+        />
+        <polyline class="chart-line" points={coordinates} />
+        <text class="chart-label" x={left - 8} y={top + 4} text-anchor="end">
+          {format.format(maximum)}
+        </text>
+        <text
+          class="chart-label"
+          x={left - 8}
+          y={top + chartHeight + 4}
+          text-anchor="end"
+        >
+          0
+        </text>
+        <text class="chart-label" x={left} y={height - 8}>
+          {points[0].date}
+        </text>
+        <text
+          class="chart-label"
+          x={width - right}
+          y={height - 8}
+          text-anchor="end"
+        >
+          {points.at(-1)?.date}
+        </text>
+      </svg>
+    ) : (
+      <p>No data</p>
+    )
+  }
+</section>
