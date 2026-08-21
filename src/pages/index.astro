@@ -1,9 +1,16 @@
 ---
+import DailySlopChart from "@/components/DailySlopChart.astro";
 import PaperTable from "@/components/PaperTable.astro";
+import PaperRanking from "@/components/PaperRanking.astro";
 import StatsGrid from "@/components/StatsGrid.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getApprovedPapers } from "@/lib/data";
-import { sitePath } from "@/lib/paths";
+import {
+  dailySlopSeries,
+  latestPapers,
+  topPapers,
+  topPapersThisWeek,
+} from "@/lib/home";
 
 const papers = getApprovedPapers();
 const highest = papers.reduce(
@@ -22,11 +29,11 @@ const totalLemmas = papers.reduce(
   (sum, paper) => sum + paper.structural_counts.lemmas,
   0,
 );
-const recent = [...papers]
-  .sort((left, right) =>
-    right.dates.approved.localeCompare(left.dates.approved),
-  )
-  .slice(0, 5);
+const today = new Date().toISOString().slice(0, 10);
+const latest = latestPapers(papers);
+const weekly = topPapersThisWeek(papers, today);
+const allTime = topPapers(papers);
+const dailySlop = dailySlopSeries(papers, today);
 const number = new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 });
 const stats = [
   {
@@ -57,30 +64,12 @@ const stats = [
 <BaseLayout>
   <div class="shell home-page">
     <StatsGrid stats={stats} />
-
-    {
-      recent.length > 0 && (
-        <section class="recent" aria-labelledby="recent-title">
-          <h2 id="recent-title">Recent</h2>
-          <ol class="recent-list">
-            {recent.map((paper) => (
-              <li>
-                <a
-                  href={sitePath(`papers/${paper.arxiv_id.replace("/", "-")}/`)}
-                >
-                  {paper.title}
-                </a>
-                <span>{paper.authors.join(", ")}</span>
-                <time datetime={paper.dates.approved}>
-                  Added {paper.dates.approved}
-                </time>
-              </li>
-            ))}
-          </ol>
-        </section>
-      )
-    }
-
+    <div class="rankings">
+      <PaperRanking title="Latest" papers={latest} />
+      <PaperRanking title="Top slops this week" papers={weekly} />
+      <PaperRanking title="Top slops of all time" papers={allTime} />
+    </div>
+    <DailySlopChart points={dailySlop} />
     <PaperTable papers={papers} />
   </div>
 </BaseLayout>
