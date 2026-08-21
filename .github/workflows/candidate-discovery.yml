@@ -1,0 +1,65 @@
+name: Private candidate discovery
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+    inputs:
+      max_results:
+        description: Maximum recent arXiv records to inspect
+        required: false
+        default: "50"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: candidate-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install pipeline and PDF text tools
+        run: |
+          python -m pip install -e .
+          sudo apt-get update
+          sudo apt-get install --yes poppler-utils
+
+      - name: Restore private query state
+        uses: actions/cache@v4
+        with:
+          path: private/state
+          key: arxiv-query-state-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            arxiv-query-state-${{ runner.os }}-
+
+      - name: Discover review candidates
+        env:
+          ARXIV_USER_AGENT: slop-factor/0.1 (${{ github.server_url }}/${{ github.repository }}; mailto:${{ github.repository_owner }}@users.noreply.github.com)
+          MAX_RESULTS: ${{ inputs.max_results || '50' }}
+        run: |
+          mkdir -p private/candidates
+          python scripts/discover_candidates.py \
+            --output "private/candidates/candidates-${GITHUB_RUN_ID}.json" \
+            --state private/state/last-query.json \
+            --max-results "${MAX_RESULTS}"
+
+      - name: Upload private review report
+        uses: actions/upload-artifact@v4
+        with:
+          name: candidate-review-${{ github.run_id }}
+          path: private/candidates/candidates-${{ github.run_id }}.json
+          if-no-files-found: error
+          retention-days: 7
