@@ -10,7 +10,8 @@
     "run_worker_first": ["/api/*", "/auth/*"],
   },
   "vars": {
-    "GITHUB_REPOSITORY": "j346huan/slop-factor",
+    "GITHUB_REPOSITORY": "j346huan/slop-factor-admin",
+    "PUBLIC_REPOSITORY": "j346huan/slop-factor",
     "ADMIN_LOGIN": "j346huan",
   },
 }

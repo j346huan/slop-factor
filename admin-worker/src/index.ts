@@ -4,6 +4,7 @@ interface Env {
   GITHUB_CLIENT_ID: string;
   GITHUB_CLIENT_SECRET: string;
   GITHUB_REPOSITORY: string;
+  PUBLIC_REPOSITORY: string;
   SESSION_SECRET: string;
 }
 
@@ -375,16 +376,24 @@ async function api(
     }
     const page =
       body.page === null || body.page === "" ? "" : String(Number(body.page));
+    const approvalPayload: CandidatePayload = {
+      ...payload,
+      evidence: [payload.evidence[evidenceIndex - 1]],
+    };
     await github(
       token,
-      `/repos/${env.GITHUB_REPOSITORY}/actions/workflows/approve-candidate.yml/dispatches`,
+      `/repos/${env.PUBLIC_REPOSITORY}/actions/workflows/approve-candidate.yml/dispatches`,
       "POST",
       {
         ref: "main",
         inputs: {
+          candidate_repository: env.GITHUB_REPOSITORY,
           candidate_issue: String(issueNumber),
+          candidate_payload: base64Url(
+            encoder.encode(JSON.stringify(approvalPayload)),
+          ),
           reviewer: user.login,
-          evidence_index: String(evidenceIndex),
+          evidence_index: "1",
           classification,
           multiplier: String(multiplier),
           quotation: String(body.quotation ?? ""),
@@ -394,6 +403,20 @@ async function api(
           rationale: String(body.rationale ?? ""),
           confirmation: "APPROVE",
         },
+      },
+    );
+    await github(
+      token,
+      `/repos/${env.GITHUB_REPOSITORY}/issues/${issueNumber}/comments`,
+      "POST",
+      { body: "Human review completed. Approval workflow dispatched." },
+    );
+    await github(
+      token,
+      `/repos/${env.GITHUB_REPOSITORY}/issues/${issueNumber}`,
+      "PATCH",
+      {
+        labels: ["paper-candidate", "candidate:approval-submitted"],
       },
     );
     return json({ accepted: true }, 202);

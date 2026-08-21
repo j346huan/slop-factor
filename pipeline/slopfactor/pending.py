@@ -48,6 +48,15 @@ def decode_candidate_payload(body: str) -> dict:
     return payload
 
 
+def decode_candidate_argument(value: str) -> dict:
+    """Decode a URL-safe candidate payload transferred after human approval."""
+    padding = "=" * (-len(value) % 4)
+    candidate = json.loads(base64.urlsafe_b64decode(value + padding))
+    if not isinstance(candidate, dict) or not candidate.get("candidate_id"):
+        raise ValueError("Candidate payload is invalid")
+    return candidate
+
+
 def _quote(text: str) -> str:
     return "\n".join(f"> {line}" if line else ">" for line in text.splitlines())
 

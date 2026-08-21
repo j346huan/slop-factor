@@ -3,8 +3,16 @@ name: Prepare approved paper
 on:
   workflow_dispatch:
     inputs:
+      candidate_repository:
+        description: Private candidate queue repository
+        required: true
+        type: string
       candidate_issue:
         description: Private pending candidate issue number
+        required: true
+        type: string
+      candidate_payload:
+        description: Human-confirmed candidate payload
         required: true
         type: string
       reviewer:
@@ -50,7 +58,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
   pull-requests: write
 
 concurrency:
@@ -74,6 +81,7 @@ jobs:
       - name: Install and create verified record
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          CANDIDATE_PAYLOAD: ${{ inputs.candidate_payload }}
           CANDIDATE_ISSUE: ${{ inputs.candidate_issue }}
           REVIEWER: ${{ inputs.reviewer }}
           EVIDENCE_INDEX: ${{ inputs.evidence_index }}
@@ -92,7 +100,7 @@ jobs:
             PAGE_ARGUMENTS=(--page "${PAGE}")
           fi
           python scripts/approve_issue_candidate.py \
-            --issue "${CANDIDATE_ISSUE}" \
+            --candidate-payload "${CANDIDATE_PAYLOAD}" \
             --reviewer "${REVIEWER}" \
             --evidence-index "${EVIDENCE_INDEX}" \
             --classification "${CLASSIFICATION}" \
@@ -124,17 +132,5 @@ jobs:
             --base main \
             --head "${BRANCH}" \
             --title "Add verified arXiv ${CANDIDATE_ID}" \
-            --body "Human-verified candidate from private review issue #${CANDIDATE_ISSUE}. Validation passed before this pull request was opened.")
+            --body "Human-verified candidate from the private review queue, reference #${CANDIDATE_ISSUE}. Validation passed before this pull request was opened.")
           echo "url=${PR_URL}" >> "${GITHUB_OUTPUT}"
-
-      - name: Update private candidate status
-        env:
-          GH_TOKEN: ${{ github.token }}
-          CANDIDATE_ISSUE: ${{ inputs.candidate_issue }}
-          PR_URL: ${{ steps.pull-request.outputs.url }}
-        run: |
-          gh issue edit "${CANDIDATE_ISSUE}" \
-            --remove-label "candidate:pending" \
-            --add-label "candidate:approval-submitted"
-          gh issue comment "${CANDIDATE_ISSUE}" \
-            --body "A human-confirmed approval record is ready for final review: ${PR_URL}"
