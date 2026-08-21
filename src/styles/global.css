@@ -186,11 +186,10 @@ code {
 
 .home-page {
   display: flex;
-  height: calc(100vh - 3.5rem);
-  min-height: 0;
   flex-direction: column;
-  gap: 0.65rem;
-  padding-block: 0.75rem;
+  gap: 1rem;
+  padding-block: 1rem 3rem;
+  font-size: 1.05rem;
 }
 
 .stats-grid {
@@ -204,8 +203,8 @@ code {
 .stat-card {
   display: flex;
   align-items: baseline;
-  gap: 0.45rem;
-  padding: 0.55rem 0.7rem;
+  gap: 0.6rem;
+  padding: 0.8rem 0.9rem;
   border-right: 1px solid var(--line);
 }
 
@@ -215,53 +214,57 @@ code {
 
 .stat-card dt {
   color: var(--muted);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 650;
 }
 
 .stat-card dd {
   order: -1;
   margin: 0;
-  font-size: 1rem;
+  font-size: clamp(1.6rem, 3vw, 2.15rem);
   font-variant-numeric: tabular-nums;
   font-weight: 750;
 }
 
-.recent {
+.rankings {
   display: grid;
-  flex: none;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.5rem 0.7rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ranking {
+  min-width: 0;
   border: 1px solid var(--line);
   background: var(--surface);
 }
 
-.recent h2 {
+.ranking h2 {
   margin: 0;
-  font-size: 0.75rem;
+  padding: 0.7rem 0.8rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
 }
 
-.recent-list {
-  display: flex;
-  min-width: 0;
+.ranking ol {
   margin: 0;
   padding: 0;
-  gap: 1rem;
-  overflow-x: auto;
   list-style: none;
 }
 
-.recent-list li {
-  display: flex;
-  min-width: min(24rem, 75vw);
-  align-items: baseline;
-  gap: 0.55rem;
-  font-size: 0.72rem;
+.ranking li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  padding: 0.55rem 0.8rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.82rem;
 }
 
-.recent-list a {
+.ranking li:last-child {
+  border-bottom: 0;
+}
+
+.ranking a {
   overflow: hidden;
   color: var(--ink);
   font-weight: 650;
@@ -269,16 +272,69 @@ code {
   white-space: nowrap;
 }
 
-.recent-list span,
-.recent-list time {
+.ranking li span,
+.ranking > p {
   color: var(--muted);
-  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.ranking > p {
+  margin: 0;
+  padding: 1rem 0.8rem;
+  font-size: 0.82rem;
+}
+
+.daily-chart {
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.daily-chart h2 {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.daily-chart > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.daily-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 15rem;
+}
+
+.chart-axis,
+.chart-grid {
+  vector-effect: non-scaling-stroke;
+  stroke: var(--line);
+  stroke-width: 1;
+}
+
+.chart-grid {
+  stroke-dasharray: 3 4;
+}
+
+.chart-line {
+  fill: none;
+  vector-effect: non-scaling-stroke;
+  stroke: var(--accent);
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.chart-label {
+  fill: var(--muted);
+  font-size: 12px;
 }
 
 .paper-index {
   display: grid;
-  min-height: 0;
-  flex: 1;
+  min-height: 36rem;
   grid-template-rows: auto auto minmax(0, 1fr);
 }
 
@@ -319,7 +375,7 @@ code {
 .field label,
 .field legend {
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 0.76rem;
   font-weight: 650;
 }
 
@@ -332,7 +388,7 @@ code {
   border-radius: 0.15rem;
   background: var(--surface);
   color: var(--ink);
-  font-size: 0.75rem;
+  font-size: 0.84rem;
 }
 
 .field--range {
@@ -398,7 +454,7 @@ thead {
 thead th {
   background: #ececea;
   color: var(--muted);
-  font-size: 0.66rem;
+  font-size: 0.75rem;
   font-weight: 750;
   white-space: nowrap;
 }
@@ -414,7 +470,7 @@ tbody th {
 
 tbody th a {
   color: var(--ink);
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   font-weight: 700;
 }
 
@@ -423,7 +479,7 @@ tbody th a {
   display: block;
   margin-top: 0.12rem;
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 0.76rem;
 }
 
 .numeric {
@@ -770,6 +826,10 @@ tbody th a {
   .stats-grid,
   .filters {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .rankings {
+    grid-template-columns: 1fr;
   }
 
   .stat-card:nth-child(2) {
