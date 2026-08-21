@@ -16,16 +16,8 @@ const classifications = [
 ];
 ---
 
-<section
-  class="paper-index"
-  aria-labelledby="paper-index-title"
-  data-paper-table
->
+<section class="paper-index" aria-label="Papers" data-paper-table>
   <div class="section-heading">
-    <div>
-      <p class="eyebrow">Verified collection</p>
-      <h2 id="paper-index-title">Paper index</h2>
-    </div>
     <p class="result-count" aria-live="polite" data-result-count>
       {papers.length}
       {papers.length === 1 ? "paper" : "papers"}
@@ -122,7 +114,7 @@ const classifications = [
       </select>
     </div>
     <div class="filter-actions">
-      <button class="button button--quiet" type="reset">Clear filters</button>
+      <button class="button button--quiet" type="reset">Clear</button>
     </div>
   </form>
 
@@ -194,10 +186,7 @@ const classifications = [
 
   <div class="empty-state" data-empty-state hidden={papers.length > 0}>
     <h3 data-empty-title>No approved papers yet</h3>
-    <p data-empty-copy>
-      The public collection will populate after a reviewer verifies an explicit
-      disclosure and its location.
-    </p>
+    <p data-empty-copy></p>
   </div>
 </section>
 
@@ -275,8 +264,7 @@ const classifications = [
     } else if (papers.length === 0) {
       if (emptyTitle) emptyTitle.textContent = "No approved papers yet";
       if (emptyCopy) {
-        emptyCopy.textContent =
-          "The public collection will populate after a reviewer verifies an explicit disclosure and its location.";
+        emptyCopy.textContent = "";
       }
     }
   }

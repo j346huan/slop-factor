@@ -1,50 +1,14 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { sitePath } from "@/lib/paths";
 ---
 
-<BaseLayout title="About" description="About the Slop Factor research dataset.">
+<BaseLayout title="About" description="About Slop Factor.">
   <article class="shell prose-page prose-page--short">
-    <header class="prose-header">
-      <p class="eyebrow">Project scope</p>
-      <h1>About Slop Factor</h1>
-      <p class="lede">
-        This project studies structural characteristics of AI-assisted
-        mathematics papers using only explicit author disclosures.
-      </p>
-    </header>
-
-    <section>
-      <h2>Purpose</h2>
-      <p>
-        The dataset supports transparent, reproducible study of how disclosed AI
-        assistance appears alongside document features such as length,
-        theorem-like statements, equations, bibliographies, and appendices. It
-        is descriptive rather than evaluative.
-      </p>
-    </section>
-
-    <section>
-      <h2>Review standard</h2>
-      <p>
-        Automated discovery narrows the review queue by locating disclosure
-        terms. A person must then confirm that the authors describe their own
-        use, preserve the exact quotation and location, choose the applicable
-        disclosure classification, and approve the structural analysis.
-      </p>
-    </section>
-
-    <section>
-      <h2>Interpretation</h2>
-      <p>
-        Inclusion says nothing about the paper’s correctness, originality,
-        significance, or authorial integrity. The Slop Factor is a transparent,
-        unbounded formula applied to document structure; it is not an AI
-        detector.
-      </p>
-      <a class="button" href={sitePath("methodology/")}
-        >Review the methodology</a
-      >
-    </section>
+    <h1>About</h1>
+    <p>
+      Slop Factor tracks structural characteristics of mathematics papers whose
+      authors explicitly disclose using AI. Records are added only after human
+      verification.
+    </p>
   </article>
 </BaseLayout>
