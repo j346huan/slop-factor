@@ -17,7 +17,6 @@ def main() -> int:
     parser.add_argument("--token", default=os.environ.get("GITHUB_TOKEN", ""))
     parser.add_argument("--report", type=Path)
     parser.add_argument("--check-private", action="store_true")
-    parser.add_argument("--request-issue", type=int)
     arguments = parser.parse_args()
 
     client = GitHubIssueClient(repository=arguments.repository, token=arguments.token)
@@ -30,8 +29,6 @@ def main() -> int:
 
     report = json.loads(arguments.report.read_text("utf8"))
     result = client.sync_report(report)
-    if arguments.request_issue is not None:
-        client.finish_scan_request(arguments.request_issue, result)
     print(
         f"Pending queue synchronized: {result.created} added, {result.updated} refreshed, "
         f"{result.unchanged} unchanged."

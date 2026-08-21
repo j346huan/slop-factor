@@ -8,9 +8,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
+    "check:admin": "tsc --noEmit && node --check admin-worker/public/app.js",
     "lint": "eslint .",
-    "format": "prettier --check .github/workflows data public src tests/frontend ADMIN_GUIDE.md astro.config.ts eslint.config.js package.json README.md tsconfig.json",
-    "format:fix": "prettier --write .github/workflows data public src tests/frontend ADMIN_GUIDE.md astro.config.ts eslint.config.js package.json README.md tsconfig.json",
+    "format": "prettier --check .github/workflows admin-worker data public src tests/frontend ADMIN_GUIDE.md astro.config.ts eslint.config.js package.json README.md tsconfig.json",
+    "format:fix": "prettier --write .github/workflows admin-worker data public src tests/frontend ADMIN_GUIDE.md astro.config.ts eslint.config.js package.json README.md tsconfig.json",
     "test": "node --import tsx --test tests/frontend/*.test.ts",
     "validate:data": "python scripts/validate_approved.py"
   },

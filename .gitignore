@@ -14,3 +14,5 @@ private/candidates/*.json
 private/state/*.json
 private/downloads/
 private/pending/
+admin-worker/.dev.vars*
+!admin-worker/.dev.vars.example

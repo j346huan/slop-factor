@@ -1,0 +1,140 @@
+name: Prepare approved paper
+
+on:
+  workflow_dispatch:
+    inputs:
+      candidate_issue:
+        description: Private pending candidate issue number
+        required: true
+        type: string
+      reviewer:
+        description: Accountable reviewer handle
+        required: true
+        type: string
+      evidence_index:
+        description: Confirmed disclosure passage number
+        required: true
+        type: string
+      classification:
+        description: Confirmed disclosure classification
+        required: true
+        type: string
+      multiplier:
+        description: Confirmed disclosure multiplier
+        required: true
+        type: string
+      quotation:
+        description: Exact confirmed quotation
+        required: true
+        type: string
+      location_kind:
+        description: page or metadata
+        required: true
+        type: string
+      location_value:
+        description: Exact confirmed location
+        required: true
+        type: string
+      page:
+        description: PDF page number; blank for metadata
+        required: false
+        type: string
+      rationale:
+        description: Classification rationale
+        required: true
+        type: string
+      confirmation:
+        description: Must equal APPROVE
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: approve-candidate-${{ inputs.candidate_issue }}
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install and create verified record
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CANDIDATE_ISSUE: ${{ inputs.candidate_issue }}
+          REVIEWER: ${{ inputs.reviewer }}
+          EVIDENCE_INDEX: ${{ inputs.evidence_index }}
+          CLASSIFICATION: ${{ inputs.classification }}
+          MULTIPLIER: ${{ inputs.multiplier }}
+          QUOTATION: ${{ inputs.quotation }}
+          LOCATION_KIND: ${{ inputs.location_kind }}
+          LOCATION_VALUE: ${{ inputs.location_value }}
+          PAGE: ${{ inputs.page }}
+          RATIONALE: ${{ inputs.rationale }}
+          CONFIRMATION: ${{ inputs.confirmation }}
+        run: |
+          python -m pip install -e .
+          PAGE_ARGUMENTS=()
+          if [[ -n "${PAGE}" ]]; then
+            PAGE_ARGUMENTS=(--page "${PAGE}")
+          fi
+          python scripts/approve_issue_candidate.py \
+            --issue "${CANDIDATE_ISSUE}" \
+            --reviewer "${REVIEWER}" \
+            --evidence-index "${EVIDENCE_INDEX}" \
+            --classification "${CLASSIFICATION}" \
+            --multiplier "${MULTIPLIER}" \
+            --quotation "${QUOTATION}" \
+            --location-kind "${LOCATION_KIND}" \
+            --location-value "${LOCATION_VALUE}" \
+            --rationale "${RATIONALE}" \
+            --confirmation "${CONFIRMATION}" \
+            --result private/approval-result.json \
+            "${PAGE_ARGUMENTS[@]}"
+          python scripts/validate_approved.py
+
+      - name: Open approval pull request
+        id: pull-request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CANDIDATE_ISSUE: ${{ inputs.candidate_issue }}
+        run: |
+          CANDIDATE_ID=$(python -c 'import json; data=json.load(open("private/approval-result.json")); print(data["candidate_id"].rsplit("v", 1)[0].replace("/", "-"))')
+          BRANCH="approval/${CANDIDATE_ID}-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "${BRANCH}"
+          git add -- data/approved/papers.json
+          git commit -m "data: add verified arXiv ${CANDIDATE_ID}"
+          git push origin "${BRANCH}"
+          PR_URL=$(gh pr create \
+            --base main \
+            --head "${BRANCH}" \
+            --title "Add verified arXiv ${CANDIDATE_ID}" \
+            --body "Human-verified candidate from private review issue #${CANDIDATE_ISSUE}. Validation passed before this pull request was opened.")
+          echo "url=${PR_URL}" >> "${GITHUB_OUTPUT}"
+
+      - name: Update private candidate status
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CANDIDATE_ISSUE: ${{ inputs.candidate_issue }}
+          PR_URL: ${{ steps.pull-request.outputs.url }}
+        run: |
+          gh issue edit "${CANDIDATE_ISSUE}" \
+            --remove-label "candidate:pending" \
+            --add-label "candidate:approval-submitted"
+          gh issue comment "${CANDIDATE_ISSUE}" \
+            --body "A human-confirmed approval record is ready for final review: ${PR_URL}"

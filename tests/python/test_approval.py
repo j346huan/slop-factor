@@ -1,5 +1,5 @@
 import pytest
-from slopfactor.approval import review_candidate, stored_analysis
+from slopfactor.approval import confirmed_disclosure, review_candidate, stored_analysis
 
 CANDIDATE = {
     "candidate_id": "9999.99999v1",
@@ -65,3 +65,26 @@ def test_loads_complete_discovery_time_analysis() -> None:
     assert analysis is not None
     assert analysis.counts["theorems"] == 1
     assert analysis.notes == ["Fictional fixture."]
+
+
+def test_dashboard_decision_requires_exact_confirmation() -> None:
+    with pytest.raises(PermissionError, match="APPROVE"):
+        confirmed_disclosure(
+            CANDIDATE,
+            evidence_index=1,
+            classification="proofreading_translation",
+            multiplier=1,
+            rationale="Confirmed proofreading disclosure.",
+            confirmation="yes",
+        )
+
+    disclosure = confirmed_disclosure(
+        CANDIDATE,
+        evidence_index=1,
+        classification="proofreading_translation",
+        multiplier=1,
+        rationale="Confirmed proofreading disclosure.",
+        confirmation="APPROVE",
+    )
+    assert disclosure["location"]["page"] == 2
+    assert disclosure["multiplier"] == 1

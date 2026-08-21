@@ -5,7 +5,13 @@ import tseslint from "typescript-eslint";
 
 export default [
   {
-    ignores: [".astro/**", "coverage/**", "dist/**", "node_modules/**"],
+    ignores: [
+      ".astro/**",
+      ".tmp/**",
+      "coverage/**",
+      "dist/**",
+      "node_modules/**",
+    ],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,
@@ -17,6 +23,12 @@ export default [
         ...globals.browser,
         ...globals.node,
       },
+    },
+  },
+  {
+    files: ["admin-worker/public/*.js"],
+    languageOptions: {
+      globals: globals.browser,
     },
   },
 ];

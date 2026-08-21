@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import base64
 import json
+import re
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -13,16 +15,37 @@ CANDIDATE_LABEL = "paper-candidate"
 PENDING_LABEL = "candidate:pending"
 APPROVED_LABEL = "candidate:approved"
 REJECTED_LABEL = "candidate:rejected"
+SUBMITTED_LABEL = "candidate:approval-submitted"
 QUEUE_LABELS = {
     CANDIDATE_LABEL: ("59636e", "Private AI-disclosure review candidate"),
     PENDING_LABEL: ("d4a72c", "Awaiting human review"),
     APPROVED_LABEL: ("2f6f55", "Human reviewer approved the disclosure"),
     REJECTED_LABEL: ("7b8491", "Human reviewer rejected or excluded the candidate"),
+    SUBMITTED_LABEL: ("4267b2", "An approval pull request is awaiting review"),
 }
+
+PAYLOAD = re.compile(r"<!-- slop-factor-payload:([A-Za-z0-9_-]+) -->")
 
 
 def candidate_marker(candidate_id: str) -> str:
     return f"<!-- slop-factor-candidate:{candidate_id} -->"
+
+
+def encode_candidate_payload(candidate: dict) -> str:
+    serialized = json.dumps(candidate, ensure_ascii=False, separators=(",", ":")).encode()
+    return base64.urlsafe_b64encode(serialized).decode().rstrip("=")
+
+
+def decode_candidate_payload(body: str) -> dict:
+    match = PAYLOAD.search(body)
+    if match is None:
+        raise ValueError("Candidate issue does not contain a machine-readable review payload")
+    encoded = match.group(1)
+    padding = "=" * (-len(encoded) % 4)
+    payload = json.loads(base64.urlsafe_b64decode(encoded + padding))
+    if not isinstance(payload, dict) or not payload.get("candidate_id"):
+        raise ValueError("Candidate issue contains an invalid review payload")
+    return payload
 
 
 def _quote(text: str) -> str:
@@ -35,6 +58,7 @@ def candidate_issue_body(candidate: dict, report: dict) -> str:
     query = report.get("query", {})
     lines = [
         candidate_marker(candidate["candidate_id"]),
+        f"<!-- slop-factor-payload:{encode_candidate_payload(candidate)} -->",
         "## Candidate metadata",
         "",
         f"- **Title:** {paper['title']}",
@@ -231,7 +255,7 @@ class GitHubIssueClient:
                 created += 1
                 continue
             label_names = {label["name"] for label in current.get("labels", [])}
-            if APPROVED_LABEL in label_names or REJECTED_LABEL in label_names:
+            if {APPROVED_LABEL, REJECTED_LABEL, SUBMITTED_LABEL} & label_names:
                 unchanged += 1
                 continue
             if current.get("body") == body:
@@ -244,20 +268,3 @@ class GitHubIssueClient:
             )
             updated += 1
         return QueueResult(created=created, updated=updated, unchanged=unchanged)
-
-    def finish_scan_request(self, issue_number: int, result: QueueResult) -> None:
-        message = (
-            "Private scan completed. "
-            f"Added {result.created}, refreshed {result.updated}, and left "
-            f"{result.unchanged} existing candidate(s) unchanged."
-        )
-        self.request(
-            "POST",
-            f"/repos/{self.repository}/issues/{issue_number}/comments",
-            {"body": message},
-        )
-        self.request(
-            "PATCH",
-            f"/repos/{self.repository}/issues/{issue_number}",
-            {"state": "closed", "state_reason": "completed"},
-        )

@@ -9,5 +9,6 @@ matches to private issues labeled `paper-candidate` and `candidate:pending`. It 
 GitHub API that the repository is private before discovery. It does not commit candidate data, modify
 approved data, or deploy candidates.
 
-The issue queue is the persistent administrator review state. Existing approved or rejected decisions
-are never reset by a later scan of the same arXiv version.
+The issue queue is the persistent administrator review state used by the authenticated website
+dashboard. Existing approval submissions, approvals, or rejections are never reset by a later scan of
+the same arXiv version. Neither the dashboard nor the scanning pipeline uses an AI service.

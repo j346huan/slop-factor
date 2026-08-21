@@ -40,9 +40,10 @@ The score is not normalized and is not an AI probability.
 - The production build reads only the version-controlled approved JSON collection.
 - Python queries the official arXiv API, finds review candidates, safely analyzes source archives,
   falls back to extracted PDF text when needed, and performs explicit local approval.
-- GitHub Actions validates changes, deploys GitHub Pages after validated changes reach `main`, and
-  produces a private daily candidate artifact without committing it.
-- No database, server application, paid API, detector, credential, or custom domain is required.
+- GitHub Actions validates changes, deploys GitHub Pages, discovers candidates, and prepares approval
+  pull requests after explicit human confirmation.
+- A small Cloudflare Worker provides GitHub authentication and the private administrator dashboard.
+  It uses no database, paid API, detector, language model, or custom domain.
 
 Astro derives its GitHub Pages base path from `GITHUB_REPOSITORY`, so the build works under a project
 path such as `https://USERNAME.github.io/slop-factor/`. Set `SITE_BASE=/slop-factor/` to reproduce that
@@ -99,10 +100,10 @@ synchronizes unique matches into a persistent private GitHub issue queue. It ver
 privacy before scanning and does not run against a public repository. Repository and Actions access
 should be limited to the administrators responsible for review.
 
-ChatGPT can request an exact-date scan by creating a private owner-authored issue titled
-`Scan request: YYYY-MM-DD`, list issues labeled `candidate:pending`, and guide the explicit review.
-The same date field is available under **Actions → Private candidate discovery → Run workflow**.
-See [the administrator guide](ADMIN_GUIDE.md) for the no-code workflow and privacy boundary.
+The browser-based administrator dashboard can dispatch exact-date scans, list the private queue, and
+guide explicit human review. It does not connect to ChatGPT or Codex and does not use an AI API. The
+same date field remains available under **Actions → Private candidate discovery → Run workflow**.
+See [the administrator guide](ADMIN_GUIDE.md) for deployment, operation, and security details.
 
 ## Structural analysis and approval
 
@@ -133,9 +134,11 @@ Run the validator and inspect the resulting diff before committing.
   type checks, and the production build on pushes and pull requests.
 - `pages.yml` validates approved data, builds the static site with the repository base path, and deploys
   to GitHub Pages only after changes reach `main`.
-- `candidate-discovery.yml` runs daily at 04:17 UTC, on manual dispatch, and for validated private scan
-  requests. It can write only private candidate issues; it cannot write repository contents, change
-  approved data, or deploy.
+- `candidate-discovery.yml` runs daily at 04:17 UTC or for a dashboard-selected date. It can write only
+  private candidate issues; it cannot write repository contents, change approved data, or deploy.
+- `approve-candidate.yml` accepts an explicit dashboard review decision, validates the generated record,
+  and opens a pull request without writing directly to `main`.
+- `admin-deploy.yml` deploys the authenticated dashboard and API to Cloudflare Workers.
 
 Configure the repository’s Pages source as **GitHub Actions**. Branch protection requiring the
 validation workflow is recommended for `main`.

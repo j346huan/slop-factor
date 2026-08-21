@@ -1,52 +1,83 @@
-# Administrator guide
+# Administrator dashboard
 
-The administrator interface is a private GitHub issue queue operated through ChatGPT. Candidate
-issues are never imported by the website, and discovery cannot run unless the queue repository is
-private.
+Slop Factor includes a private browser-based administrator dashboard. It scans arXiv, manages the
+candidate queue, records human review decisions, and prepares approval pull requests without using
+ChatGPT, Codex, a language model, or an AI API.
 
-## ChatGPT commands
+The public site remains a static GitHub Pages build. The administrator dashboard is served by a free
+Cloudflare Worker because GitHub Pages cannot securely hold GitHub credentials or provide private
+authentication. Candidate state remains in private GitHub issues; the Worker has no database.
 
-Use these requests in a ChatGPT conversation with the repository connected:
+## Administrator workflow
 
-- `Scan today's math submissions.`
-- `Scan 2026-08-15.`
-- `Show pending papers.`
-- `Review the next pending paper.`
-- `Keep this paper pending.`
-- `Reject this candidate.`
-- `Approve this paper.`
+1. Sign in to the dashboard with the configured GitHub administrator account.
+2. Select today's UTC date or any past date and start a deterministic arXiv scan.
+3. Review matched passages and preliminary structural counts in the private pending queue.
+4. Reject an ineligible match with a factual reason, or select the exact disclosure passage.
+5. Confirm the quotation, location, classification, multiplier, and rationale.
+6. Type `APPROVE`. The dashboard starts a GitHub Actions workflow that validates the record and opens
+   an approval pull request.
+7. Review and merge the approval pull request to publish the paper.
 
-For a dated scan, ChatGPT creates a private owner-authored issue titled
-`Scan request: YYYY-MM-DD`. The workflow validates the date, closes the request when complete, and
-adds each unique match to a private issue labeled `paper-candidate` and `candidate:pending`.
+Automated discovery never writes approved data. Approval never pushes directly to `main`.
 
-The Actions page also provides a **Run workflow** form. Leave the date blank for the rolling recent
-window or enter an exact UTC arXiv submission date in `YYYY-MM-DD` format. The scheduled scan retains
-the rolling window so delayed or updated submissions are not missed.
+## One-time deployment setup
 
-## Review and approval
+### 1. Create the GitHub App
 
-Each pending issue contains:
+In GitHub, open **Settings → Developer settings → GitHub Apps → New GitHub App**.
 
-- official arXiv metadata and source links;
-- every candidate disclosure passage and its location;
-- preliminary structural counts, methods, and fallback notes when analysis succeeds; and
-- a reminder that automated matching is not an eligibility decision.
+- GitHub App name: `Slop Factor Administrator`
+- Homepage URL: the Worker URL assigned after the first deployment
+- Callback URL: `https://YOUR-WORKER-URL/auth/callback`
+- Webhook: inactive
+- Actions permission: read and write
+- Issues permission: read and write
+- Metadata permission: read-only
 
-Before approval, the reviewer must confirm that the passage explicitly describes the authors' own AI
-use, then confirm the exact quotation, location, classification, and multiplier. ChatGPT prepares an
-approved JSON record on a feature branch, recalculates and validates the score, and opens a pull
-request. Only merging that pull request can publish the paper.
+Install the app only on the `slop-factor` repository. GitHub App permissions keep the dashboard scoped
+to that repository instead of granting access to the administrator's other repositories. Copy the
+generated Client ID and create a Client Secret.
 
-Rejected candidates receive `candidate:rejected`; approved candidates receive `candidate:approved`.
-Existing decisions are not reset if a later scan finds the same arXiv version again.
+### 2. Create the Cloudflare Worker
 
-## Privacy boundary
+Create a free Cloudflare account and connect this repository to Workers Builds, using:
 
-Candidate issue bodies and workflow artifacts contain unpublished review material. Keep the queue
-repository private and restrict repository access to administrators. The workflow verifies repository
-privacy through the GitHub API before any scan and stops if the repository is public.
+- Deploy command: `npx wrangler deploy --config admin-worker/wrangler.jsonc`
+- Root directory: `/`
 
-If the public site repository must be public for a GitHub Pages plan, move this workflow and all
-candidate issues to a separate private administrator repository before changing visibility. The public
-site repository should contain only code and approved records.
+Alternatively, configure the included `Deploy administrator dashboard` GitHub Action with repository
+secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+
+In the Worker settings, add these encrypted secrets:
+
+- `GITHUB_CLIENT_ID`
+- `GITHUB_CLIENT_SECRET`
+- `SESSION_SECRET` — a long random value used to encrypt HTTP-only session cookies
+
+The non-secret repository and administrator settings are already defined in
+`admin-worker/wrangler.jsonc`.
+
+### 3. Link the public site
+
+Create the GitHub repository variable `PUBLIC_ADMIN_URL` with the final Worker URL. The next public-site
+deployment adds an **Administrator** navigation link.
+
+### 4. Merge the application pull request
+
+The scan and approval workflows must exist on the default branch before the dashboard can dispatch
+them. After validation passes, merge the application pull request and wait for the public-site and
+administrator deployments to complete.
+
+## Security boundary
+
+- OAuth tokens are encrypted into secure, HTTP-only, same-site cookies and are never stored in the
+  browser's local storage or repository.
+- Every API request verifies the configured GitHub username and repository administrator permission.
+- Mutation requests require a same-origin browser request.
+- Candidate issues and reports remain in a private repository.
+- The Worker stops candidate discovery if the queue repository is public.
+- No secrets or candidate records are included in the production public-site build.
+
+If the public GitHub Pages repository must become public, move candidate issues and the discovery and
+approval workflows to a separate private administrator repository before changing visibility.

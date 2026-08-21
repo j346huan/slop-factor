@@ -2,11 +2,8 @@
 
 from __future__ import annotations
 
-import re
 from dataclasses import dataclass
 from datetime import date
-
-SCAN_REQUEST = re.compile(r"^Scan request: (\d{4}-\d{2}-\d{2})$")
 
 
 @dataclass(frozen=True)
@@ -19,19 +16,13 @@ def resolve_scan_parameters(
     *,
     event_name: str,
     manual_date: str = "",
-    issue_title: str = "",
     max_results: str = "50",
     today: date | None = None,
 ) -> ScanParameters:
-    """Resolve and validate scheduled, manual, or private issue scan inputs."""
+    """Resolve and validate scheduled or manual dashboard scan inputs."""
     current_date = today or date.today()
     raw_date = manual_date.strip()
-    if event_name == "issues":
-        match = SCAN_REQUEST.fullmatch(issue_title.strip())
-        if match is None:
-            raise ValueError("Issue title must be 'Scan request: YYYY-MM-DD'")
-        raw_date = match.group(1)
-    elif event_name not in {"schedule", "workflow_dispatch"}:
+    if event_name not in {"schedule", "workflow_dispatch"}:
         raise ValueError(f"Unsupported scan event: {event_name}")
 
     scan_date = date.fromisoformat(raw_date) if raw_date else None

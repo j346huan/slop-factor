@@ -46,6 +46,7 @@ jobs:
       - name: Build static site
         env:
           SITE_BASE: /${{ github.event.repository.name }}/
+          PUBLIC_ADMIN_URL: ${{ vars.PUBLIC_ADMIN_URL }}
         run: npm run build
 
       - name: Upload Pages artifact

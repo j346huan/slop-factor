@@ -43,6 +43,59 @@ def stored_analysis(candidate: dict) -> AnalysisResult | None:
     )
 
 
+def confirmed_disclosure(
+    candidate: dict,
+    *,
+    evidence_index: int,
+    classification: str,
+    multiplier: float,
+    rationale: str,
+    confirmation: str,
+    quotation: str = "",
+    location_kind: str = "",
+    location_value: str = "",
+    page: int | None = None,
+) -> dict:
+    """Validate a dashboard decision and return the canonical disclosure object."""
+    if confirmation != "APPROVE":
+        raise PermissionError("Explicit APPROVE confirmation is required")
+    if not 1 <= evidence_index <= len(candidate["evidence"]):
+        raise ValueError("Evidence index is outside the candidate passage list")
+    evidence = candidate["evidence"][evidence_index - 1]
+    if classification not in CLASSIFICATIONS:
+        raise ValueError("Unknown disclosure classification")
+    expected_multiplier = CLASSIFICATIONS[classification][0]
+    if expected_multiplier is not None and multiplier != expected_multiplier:
+        raise ValueError("Multiplier does not match the selected disclosure classification")
+    if not 1 <= multiplier <= 10:
+        raise ValueError("Multiplier must be from 1 through 10")
+    if classification == "mixed_or_other" and not rationale.strip():
+        raise ValueError("An intermediate multiplier requires a rationale")
+
+    resolved_kind = location_kind or evidence["location_kind"]
+    resolved_value = location_value or evidence["location_value"]
+    resolved_page = page if page is not None else evidence.get("page")
+    if resolved_kind not in {"page", "metadata"}:
+        raise ValueError("Location kind must be page or metadata")
+    if resolved_kind == "page" and (resolved_page is None or resolved_page < 1):
+        raise ValueError("A page disclosure requires a positive PDF page number")
+    if resolved_kind == "metadata":
+        resolved_page = None
+
+    return {
+        "quotation": quotation or evidence["quotation"],
+        "location": {"kind": resolved_kind, "value": resolved_value, "page": resolved_page},
+        "classification": classification,
+        "role_label": CLASSIFICATIONS[classification][1],
+        "multiplier": multiplier,
+        "rationale": rationale.strip()
+        or (
+            "Reviewer selected the documented "
+            f"{CLASSIFICATIONS[classification][1].lower()} category."
+        ),
+    }
+
+
 def _choose(prompt: str, maximum: int, input_fn: Input) -> int:
     while True:
         value = input_fn(prompt).strip()

@@ -3,8 +3,6 @@ name: Private candidate discovery
 on:
   schedule:
     - cron: "17 4 * * *"
-  issues:
-    types: [opened]
   workflow_dispatch:
     inputs:
       scan_date:
@@ -27,11 +25,6 @@ concurrency:
 
 jobs:
   discover:
-    if: >-
-      github.event_name != 'issues' ||
-      (github.event.repository.private &&
-      github.event.issue.author_association == 'OWNER' &&
-      startsWith(github.event.issue.title, 'Scan request: '))
     runs-on: ubuntu-latest
     timeout-minutes: 55
     steps:
@@ -60,13 +53,11 @@ jobs:
         env:
           EVENT_NAME: ${{ github.event_name }}
           MANUAL_DATE: ${{ inputs.scan_date || '' }}
-          ISSUE_TITLE: ${{ github.event.issue.title || '' }}
           MAX_RESULTS: ${{ inputs.max_results || '50' }}
         run: |
-          python scripts/resolve_scan_request.py \
+          python scripts/resolve_scan_parameters.py \
             --event-name "${EVENT_NAME}" \
             --manual-date "${MANUAL_DATE}" \
-            --issue-title "${ISSUE_TITLE}" \
             --max-results "${MAX_RESULTS}"
 
       - name: Restore private query state
@@ -97,15 +88,9 @@ jobs:
       - name: Add candidates to private pending queue
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          REQUEST_ISSUE: ${{ github.event.issue.number || '' }}
         run: |
-          REQUEST_ARGUMENTS=()
-          if [[ -n "${REQUEST_ISSUE}" ]]; then
-            REQUEST_ARGUMENTS=(--request-issue "${REQUEST_ISSUE}")
-          fi
           python scripts/sync_pending_issues.py \
-            --report "private/candidates/candidates-${GITHUB_RUN_ID}.json" \
-            "${REQUEST_ARGUMENTS[@]}"
+            --report "private/candidates/candidates-${GITHUB_RUN_ID}.json"
 
       - name: Upload private review report
         uses: actions/upload-artifact@v4

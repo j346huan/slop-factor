@@ -1,4 +1,8 @@
-from slopfactor.pending import candidate_issue_body, candidate_marker
+from slopfactor.pending import (
+    candidate_issue_body,
+    candidate_marker,
+    decode_candidate_payload,
+)
 
 
 def test_private_queue_packet_contains_review_evidence_and_analysis() -> None:
@@ -58,3 +62,4 @@ def test_private_queue_packet_contains_review_evidence_and_analysis() -> None:
     assert "> The fictional authors used an LLM" in body
     assert "| Theorems | 1 | source |" in body
     assert "human reviewer" in body
+    assert decode_candidate_payload(body) == candidate

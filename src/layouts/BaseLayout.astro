@@ -12,6 +12,7 @@ const {
   description = "A reviewed data tracker for mathematics papers with explicit author disclosures of AI use.",
 } = Astro.props;
 const pageTitle = title === "Slop Factor" ? title : `${title} · Slop Factor`;
+const adminUrl = import.meta.env.PUBLIC_ADMIN_URL;
 ---
 
 <!doctype html>
@@ -39,6 +40,7 @@ const pageTitle = title === "Slop Factor" ? title : `${title} · Slop Factor`;
           <a href={sitePath()}>Papers</a>
           <a href={sitePath("methodology/")}>Methodology</a>
           <a href={sitePath("about/")}>About</a>
+          {adminUrl && <a href={adminUrl}>Administrator</a>}
         </nav>
       </div>
     </header>

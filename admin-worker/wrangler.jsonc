@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "slop-factor-admin",
+  "main": "./src/index.ts",
+  "compatibility_date": "2026-08-22",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*", "/auth/*"],
+  },
+  "vars": {
+    "GITHUB_REPOSITORY": "j346huan/slop-factor",
+    "ADMIN_LOGIN": "j346huan",
+  },
+}
