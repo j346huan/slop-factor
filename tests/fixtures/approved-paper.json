@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "papers": [
+    {
+      "record_version": 1,
+      "arxiv_id": "9999.99999",
+      "version": 1,
+      "title": "A Fictional Study of Example Structures",
+      "authors": ["A. Example", "B. Example"],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": ["math.CO"]
+      },
+      "dates": {
+        "submitted": "2099-01-01T00:00:00Z",
+        "updated": "2099-01-02T00:00:00Z",
+        "approved": "2099-01-03"
+      },
+      "abstract": "This deliberately fictional fixture supports automated tests of the public record schema.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/9999.99999v1",
+        "pdf": "https://arxiv.org/pdf/9999.99999v1",
+        "source": "https://export.arxiv.org/e-print/9999.99999v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 2,
+        "displayed_equations": 20,
+        "bibliography_entries": 30,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "This is a fictional record used only as a test fixture."
+      ],
+      "disclosure": {
+        "quotation": "For this fictional fixture, the fictional authors used an AI system to draft portions of the fictional manuscript.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12, fictional acknowledgements",
+          "page": 12
+        },
+        "classification": "rewriting_drafting",
+        "role_label": "Rewriting or drafting portions",
+        "multiplier": 5,
+        "rationale": "The fixture represents a disclosure of drafting assistance."
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "fixture-reviewer",
+        "verified_at": "2099-01-03T00:00:00Z"
+      },
+      "score": 305,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 61,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 12,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 4,
+          "displayed_equations": 5,
+          "bibliography_entries": 3,
+          "appendix_pages": 4
+        }
+      }
+    }
+  ]
+}
