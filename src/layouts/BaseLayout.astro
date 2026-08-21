@@ -1,0 +1,61 @@
+---
+import { sitePath } from "@/lib/paths";
+import "@/styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Slop Factor",
+  description = "A reviewed data tracker for mathematics papers with explicit author disclosures of AI use.",
+} = Astro.props;
+const pageTitle = title === "Slop Factor" ? title : `${title} · Slop Factor`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#173f4f" />
+    <link rel="icon" href={sitePath("favicon.svg")} type="image/svg+xml" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header__inner shell">
+        <a class="wordmark" href={sitePath()} aria-label="Slop Factor home">
+          <span class="wordmark__title">Slop Factor</span>
+          <span class="wordmark__subtitle"
+            >AI disclosure data for mathematics papers</span
+          >
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href={sitePath()}>Papers</a>
+          <a href={sitePath("methodology/")}>Methodology</a>
+          <a href={sitePath("about/")}>About</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="shell site-footer__inner">
+        <p>
+          Records are published only after human verification of an explicit
+          author disclosure.
+        </p>
+        <nav aria-label="Footer navigation">
+          <a href={sitePath("methodology/#corrections")}>Correction policy</a>
+          <a href="https://arxiv.org" rel="external">arXiv</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

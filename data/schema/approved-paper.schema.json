@@ -1,0 +1,265 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/slop-factor/approved-paper.schema.json",
+  "title": "Slop Factor approved paper collection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "papers"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "papers": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/paper" }
+    }
+  },
+  "$defs": {
+    "nonNegativeInteger": { "type": "integer", "minimum": 0 },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pages",
+        "theorems",
+        "lemmas",
+        "propositions",
+        "corollaries",
+        "definitions",
+        "displayed_equations",
+        "bibliography_entries",
+        "appendix_pages"
+      ],
+      "properties": {
+        "pages": { "type": "integer", "minimum": 1 },
+        "theorems": { "$ref": "#/$defs/nonNegativeInteger" },
+        "lemmas": { "$ref": "#/$defs/nonNegativeInteger" },
+        "propositions": { "$ref": "#/$defs/nonNegativeInteger" },
+        "corollaries": { "$ref": "#/$defs/nonNegativeInteger" },
+        "definitions": { "$ref": "#/$defs/nonNegativeInteger" },
+        "displayed_equations": { "$ref": "#/$defs/nonNegativeInteger" },
+        "bibliography_entries": { "$ref": "#/$defs/nonNegativeInteger" },
+        "appendix_pages": { "$ref": "#/$defs/nonNegativeInteger" }
+      }
+    },
+    "methods": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pages",
+        "theorems",
+        "lemmas",
+        "propositions",
+        "corollaries",
+        "definitions",
+        "displayed_equations",
+        "bibliography_entries",
+        "appendix_pages"
+      ],
+      "properties": {
+        "pages": { "$ref": "#/$defs/method" },
+        "theorems": { "$ref": "#/$defs/method" },
+        "lemmas": { "$ref": "#/$defs/method" },
+        "propositions": { "$ref": "#/$defs/method" },
+        "corollaries": { "$ref": "#/$defs/method" },
+        "definitions": { "$ref": "#/$defs/method" },
+        "displayed_equations": { "$ref": "#/$defs/method" },
+        "bibliography_entries": { "$ref": "#/$defs/method" },
+        "appendix_pages": { "$ref": "#/$defs/method" }
+      }
+    },
+    "method": {
+      "enum": ["source", "pdf", "pdf_fallback", "estimated"]
+    },
+    "contributions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pages",
+        "theorems",
+        "lemmas",
+        "propositions",
+        "corollaries",
+        "definitions",
+        "displayed_equations",
+        "bibliography_entries",
+        "appendix_pages"
+      ],
+      "properties": {
+        "pages": { "type": "number", "minimum": 0 },
+        "theorems": { "type": "number", "minimum": 0 },
+        "lemmas": { "type": "number", "minimum": 0 },
+        "propositions": { "type": "number", "minimum": 0 },
+        "corollaries": { "type": "number", "minimum": 0 },
+        "definitions": { "type": "number", "minimum": 0 },
+        "displayed_equations": { "type": "number", "minimum": 0 },
+        "bibliography_entries": { "type": "number", "minimum": 0 },
+        "appendix_pages": { "type": "number", "minimum": 0 }
+      }
+    },
+    "paper": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record_version",
+        "arxiv_id",
+        "version",
+        "title",
+        "authors",
+        "categories",
+        "dates",
+        "abstract",
+        "urls",
+        "structural_counts",
+        "count_methods",
+        "count_notes",
+        "disclosure",
+        "verification",
+        "score",
+        "score_breakdown"
+      ],
+      "properties": {
+        "record_version": { "const": 1 },
+        "arxiv_id": {
+          "type": "string",
+          "pattern": "^(?:[0-9]{4}\\.[0-9]{4,5}|[A-Za-z.-]+/[0-9]{7})$"
+        },
+        "version": { "type": "integer", "minimum": 1 },
+        "title": { "type": "string", "minLength": 1, "maxLength": 1000 },
+        "authors": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1, "maxLength": 300 }
+        },
+        "categories": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["primary", "secondary"],
+          "properties": {
+            "primary": { "type": "string", "pattern": "^math\\.[A-Z]{2}$" },
+            "secondary": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": { "type": "string", "pattern": "^[A-Za-z0-9.-]+$" }
+            }
+          }
+        },
+        "dates": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["submitted", "updated", "approved"],
+          "properties": {
+            "submitted": { "type": "string", "format": "date-time" },
+            "updated": { "type": "string", "format": "date-time" },
+            "approved": { "type": "string", "format": "date" }
+          }
+        },
+        "abstract": { "type": "string", "minLength": 1, "maxLength": 20000 },
+        "urls": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["abstract", "pdf", "source"],
+          "properties": {
+            "abstract": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://arxiv\\.org/abs/"
+            },
+            "pdf": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://(?:export\\.)?arxiv\\.org/pdf/"
+            },
+            "source": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://export\\.arxiv\\.org/e-print/"
+            }
+          }
+        },
+        "structural_counts": { "$ref": "#/$defs/counts" },
+        "count_methods": { "$ref": "#/$defs/methods" },
+        "count_notes": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 2000 }
+        },
+        "disclosure": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "quotation",
+            "location",
+            "classification",
+            "role_label",
+            "multiplier",
+            "rationale"
+          ],
+          "properties": {
+            "quotation": {
+              "type": "string",
+              "minLength": 5,
+              "maxLength": 10000
+            },
+            "location": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["kind", "value", "page"],
+              "properties": {
+                "kind": { "enum": ["page", "metadata"] },
+                "value": { "type": "string", "minLength": 1, "maxLength": 500 },
+                "page": {
+                  "oneOf": [
+                    { "type": "integer", "minimum": 1 },
+                    { "type": "null" }
+                  ]
+                }
+              }
+            },
+            "classification": {
+              "enum": [
+                "proofreading_translation",
+                "brainstorming_literature_code",
+                "rewriting_drafting",
+                "substantial_generation",
+                "mixed_or_other"
+              ]
+            },
+            "role_label": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 300
+            },
+            "multiplier": { "type": "number", "minimum": 1, "maximum": 10 },
+            "rationale": { "type": "string", "minLength": 1, "maxLength": 2000 }
+          }
+        },
+        "verification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "reviewer", "verified_at"],
+          "properties": {
+            "status": { "const": "verified" },
+            "reviewer": { "type": "string", "minLength": 1, "maxLength": 200 },
+            "verified_at": { "type": "string", "format": "date-time" }
+          }
+        },
+        "score": { "type": "number", "minimum": 0 },
+        "score_breakdown": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "formula_version",
+            "base_score",
+            "multiplier",
+            "contributions"
+          ],
+          "properties": {
+            "formula_version": { "const": "1.0" },
+            "base_score": { "type": "number", "minimum": 0 },
+            "multiplier": { "type": "number", "minimum": 1, "maximum": 10 },
+            "contributions": { "$ref": "#/$defs/contributions" }
+          }
+        }
+      }
+    }
+  }
+}

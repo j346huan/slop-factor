@@ -1,0 +1,25 @@
+---
+interface Stat {
+  label: string;
+  value: string;
+  note: string;
+}
+
+interface Props {
+  stats: Stat[];
+}
+
+const { stats } = Astro.props;
+---
+
+<dl class="stats-grid" aria-label="Collection statistics">
+  {
+    stats.map((stat) => (
+      <div class="stat-card">
+        <dt>{stat.label}</dt>
+        <dd>{stat.value}</dd>
+        <span>{stat.note}</span>
+      </div>
+    ))
+  }
+</dl>

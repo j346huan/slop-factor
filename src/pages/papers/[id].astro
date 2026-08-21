@@ -1,0 +1,150 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getApprovedPapers } from "@/lib/data";
+import { disclosureLabels } from "@/lib/disclosure";
+import { sitePath } from "@/lib/paths";
+import { scoreCalculation } from "@/lib/score";
+import type { ApprovedPaper } from "@/lib/types";
+
+export function getStaticPaths() {
+  return getApprovedPapers().map((paper) => ({
+    params: { id: paper.arxiv_id.replace("/", "-") },
+    props: { paper },
+  }));
+}
+
+interface Props {
+  paper: ApprovedPaper;
+}
+
+const { paper } = Astro.props;
+const calculation = scoreCalculation(
+  paper.structural_counts,
+  paper.disclosure.multiplier,
+);
+const countLabels: Array<[keyof typeof paper.structural_counts, string]> = [
+  ["pages", "Pages"],
+  ["theorems", "Theorems"],
+  ["lemmas", "Lemmas"],
+  ["propositions", "Propositions"],
+  ["corollaries", "Corollaries"],
+  ["definitions", "Definitions"],
+  ["displayed_equations", "Displayed equations"],
+  ["bibliography_entries", "Bibliography entries"],
+  ["appendix_pages", "Appendix pages"],
+];
+---
+
+<BaseLayout title={paper.title} description={paper.abstract}>
+  <article class="shell paper-detail">
+    <header class="paper-header">
+      <p class="eyebrow">Approved paper record</p>
+      <h1>{paper.title}</h1>
+      <p class="paper-detail__authors">{paper.authors.join(", ")}</p>
+      <div class="paper-metadata">
+        <a href={paper.urls.abstract} rel="external"
+          >arXiv:{paper.arxiv_id}v{paper.version}</a
+        >
+        <span><strong>Primary:</strong> {paper.categories.primary}</span>
+        {
+          paper.categories.secondary.length > 0 && (
+            <span>
+              <strong>Secondary:</strong>{" "}
+              {paper.categories.secondary.join(", ")}
+            </span>
+          )
+        }
+      </div>
+    </header>
+
+    <div class="paper-detail__grid">
+      <div class="paper-detail__main">
+        <section aria-labelledby="abstract-title">
+          <h2 id="abstract-title">Abstract</h2>
+          <p class="abstract">{paper.abstract}</p>
+        </section>
+
+        <section aria-labelledby="disclosure-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Verified evidence</p>
+              <h2 id="disclosure-title">Author disclosure</h2>
+            </div>
+          </div>
+          <blockquote class="disclosure-quote">
+            <p>“{paper.disclosure.quotation}”</p>
+            <cite>{paper.disclosure.location.value}</cite>
+          </blockquote>
+          <dl class="record-facts">
+            <div>
+              <dt>Classification</dt><dd>
+                {disclosureLabels[paper.disclosure.classification]}
+              </dd>
+            </div>
+            <div><dt>Multiplier</dt><dd>{paper.disclosure.multiplier}</dd></div>
+            <div>
+              <dt>Verified</dt><dd>
+                <time datetime={paper.verification.verified_at}
+                  >{paper.verification.verified_at}</time
+                >
+              </dd>
+            </div>
+          </dl>
+        </section>
+
+        <section aria-labelledby="counts-title">
+          <h2 id="counts-title">Structural counts</h2>
+          <div class="count-grid">
+            {
+              countLabels.map(([key, label]) => (
+                <div>
+                  <span>{label}</span>
+                  <strong>{paper.structural_counts[key]}</strong>
+                  <small>{paper.count_methods[key].replace("_", " ")}</small>
+                </div>
+              ))
+            }
+          </div>
+          {
+            paper.count_notes.length > 0 && (
+              <div class="note-block">
+                <h3>Count notes</h3>
+                <ul>
+                  {paper.count_notes.map((note) => (
+                    <li>{note}</li>
+                  ))}
+                </ul>
+              </div>
+            )
+          }
+        </section>
+      </div>
+
+      <aside class="score-panel" aria-labelledby="score-title">
+        <p class="eyebrow">Document score</p>
+        <h2 id="score-title">Slop Factor</h2>
+        <p class="score-value">
+          {paper.score.toLocaleString("en-US", { maximumFractionDigits: 2 })}
+          <span class="calculation-tip">
+            <button
+              type="button"
+              aria-label="Show Slop Factor calculation"
+              aria-describedby="score-calculation">*</button
+            >
+            <span id="score-calculation" role="tooltip"
+              >{calculation} = {paper.score}</span
+            >
+          </span>
+        </p>
+        <p>
+          This unbounded structural score applies the verified disclosure
+          multiplier to document counts. It is not an estimate of AI use or
+          paper quality.
+        </p>
+        <a class="text-link" href={sitePath("methodology/")}
+          >Formula and counting methods</a
+        >
+      </aside>
+    </div>
+  </article>
+</BaseLayout>

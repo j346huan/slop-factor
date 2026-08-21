@@ -1,0 +1,13 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { sitePath } from "@/lib/paths";
+---
+
+<BaseLayout title="Page not found">
+  <section class="shell error-page">
+    <p class="eyebrow">404</p>
+    <h1>Page not found</h1>
+    <p>The requested record or page is not available.</p>
+    <a class="button" href={sitePath()}>Return to the paper index</a>
+  </section>
+</BaseLayout>
