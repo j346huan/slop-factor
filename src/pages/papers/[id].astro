@@ -2,7 +2,6 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getApprovedPapers } from "@/lib/data";
 import { disclosureLabels } from "@/lib/disclosure";
-import { sitePath } from "@/lib/paths";
 import { scoreCalculation } from "@/lib/score";
 import type { ApprovedPaper } from "@/lib/types";
 
@@ -38,7 +37,6 @@ const countLabels: Array<[keyof typeof paper.structural_counts, string]> = [
 <BaseLayout title={paper.title} description={paper.abstract}>
   <article class="shell paper-detail">
     <header class="paper-header">
-      <p class="eyebrow">Approved paper record</p>
       <h1>{paper.title}</h1>
       <p class="paper-detail__authors">{paper.authors.join(", ")}</p>
       <div class="paper-metadata">
@@ -65,12 +63,7 @@ const countLabels: Array<[keyof typeof paper.structural_counts, string]> = [
         </section>
 
         <section aria-labelledby="disclosure-title">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Verified evidence</p>
-              <h2 id="disclosure-title">Author disclosure</h2>
-            </div>
-          </div>
+          <h2 id="disclosure-title">Disclosure</h2>
           <blockquote class="disclosure-quote">
             <p>“{paper.disclosure.quotation}”</p>
             <cite>{paper.disclosure.location.value}</cite>
@@ -121,7 +114,6 @@ const countLabels: Array<[keyof typeof paper.structural_counts, string]> = [
       </div>
 
       <aside class="score-panel" aria-labelledby="score-title">
-        <p class="eyebrow">Document score</p>
         <h2 id="score-title">Slop Factor</h2>
         <p class="score-value">
           {paper.score.toLocaleString("en-US", { maximumFractionDigits: 2 })}
@@ -136,14 +128,6 @@ const countLabels: Array<[keyof typeof paper.structural_counts, string]> = [
             >
           </span>
         </p>
-        <p>
-          This unbounded structural score applies the verified disclosure
-          multiplier to document counts. It is not an estimate of AI use or
-          paper quality.
-        </p>
-        <a class="text-link" href={sitePath("methodology/")}
-          >Formula and counting methods</a
-        >
       </aside>
     </div>
   </article>
