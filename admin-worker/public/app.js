@@ -18,7 +18,6 @@ const elements = Object.fromEntries(
     "account",
     "admin-count",
     "approved-count",
-    "avatar",
     "candidate-list",
     "dashboard",
     "empty-state",
@@ -33,7 +32,6 @@ const elements = Object.fromEntries(
     "search",
     "status-filter",
     "submitted-count",
-    "username",
   ].map((id) => [id, document.getElementById(id)]),
 );
 
@@ -153,7 +151,6 @@ function openReview(candidate) {
   const form = document.createElement("form");
   form.className = "review-form";
   form.addEventListener("submit", submitApproval);
-  form.append(text("h3", "Candidate disclosure passages"));
   candidate.evidence.forEach((evidence, index) => {
     const card = document.createElement("label");
     card.className = "evidence-card";
@@ -233,7 +230,7 @@ function openReview(candidate) {
     labeledInput("Multiplier", multiplier),
     labeledInput("Classification rationale", rationale),
   );
-  form.append(text("h3", "Verified publication fields"), fields, scorePreview);
+  form.append(fields, scorePreview);
 
   const confirmation = document.createElement("input");
   confirmation.name = "confirmation";
@@ -357,9 +354,7 @@ async function loadCandidates() {
 async function initialize() {
   elements["scan-date"].value = new Date().toISOString().slice(0, 10);
   try {
-    const session = await api("/api/session");
-    elements.username.textContent = session.user.login;
-    elements.avatar.src = session.user.avatar_url;
+    await api("/api/session");
     elements.account.hidden = false;
     elements.dashboard.hidden = false;
     await loadCandidates();

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
-    <meta name="theme-color" content="#173f4f" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Administrator · Slop Factor</title>
     <link rel="stylesheet" href="/styles.css" />
     <script type="module" src="/app.js"></script>
@@ -13,13 +13,8 @@
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="masthead">
       <div class="shell masthead__inner">
-        <div>
-          <p class="wordmark">Slop Factor</p>
-          <p class="subtitle">Private administrator dashboard</p>
-        </div>
+        <p class="wordmark">Slop Factor</p>
         <div id="account" class="account" hidden>
-          <img id="avatar" alt="" />
-          <span id="username"></span>
           <button id="logout" class="text-button" type="button">
             Sign out
           </button>
@@ -28,32 +23,16 @@
     </header>
 
     <main id="main" class="shell">
-      <section id="login-panel" class="login-panel" hidden>
-        <p class="eyebrow">Restricted access</p>
-        <h1>Administrator sign in</h1>
-        <p>
-          Sign in with the repository administrator account. Scans use
-          deterministic arXiv, LaTeX, and PDF analysis; this dashboard does not
-          use an AI service.
-        </p>
+      <section
+        id="login-panel"
+        class="login-panel"
+        aria-label="Administrator sign in"
+        hidden
+      >
         <a class="button" href="/auth/start">Sign in with GitHub</a>
       </section>
 
       <div id="dashboard" hidden>
-        <section class="page-heading">
-          <div>
-            <p class="eyebrow">Review operations</p>
-            <h1>Paper administration</h1>
-            <p class="lede">
-              Scan a UTC submission date, review private candidates, and prepare
-              verified records for publication.
-            </p>
-          </div>
-          <button id="refresh" class="secondary-button" type="button">
-            Refresh data
-          </button>
-        </section>
-
         <div
           id="notice"
           class="notice"
@@ -62,22 +41,14 @@
           hidden
         ></div>
 
-        <section class="panel scan-panel" aria-labelledby="scan-title">
-          <div>
-            <p class="eyebrow">Deterministic discovery</p>
-            <h2 id="scan-title">Run an arXiv scan</h2>
-            <p>
-              Matches are added to the private pending queue. Nothing is
-              published automatically.
-            </p>
-          </div>
+        <section class="toolbar" aria-label="Scan and queue controls">
           <form id="scan-form" class="scan-form">
             <label>
-              Submission date (UTC)
+              Date (UTC)
               <input id="scan-date" name="scanDate" type="date" required />
             </label>
             <label>
-              Maximum papers
+              Limit
               <input
                 name="maxResults"
                 type="number"
@@ -87,8 +58,11 @@
                 required
               />
             </label>
-            <button class="button" type="submit">Start scan</button>
+            <button class="button" type="submit">Scan</button>
           </form>
+          <button id="refresh" class="secondary-button" type="button">
+            Refresh
+          </button>
         </section>
 
         <section class="stats" aria-label="Candidate queue statistics">
@@ -110,12 +84,8 @@
           </article>
         </section>
 
-        <section class="panel" aria-labelledby="queue-title">
+        <section class="queue" aria-label="Candidate papers">
           <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Private review queue</p>
-              <h2 id="queue-title">Candidate papers</h2>
-            </div>
             <div class="queue-controls">
               <label>
                 <span class="visually-hidden">Search candidates</span>
@@ -147,23 +117,12 @@
 
     <dialog id="review-dialog" class="review-dialog">
       <form method="dialog" class="dialog-header">
-        <div>
-          <p class="eyebrow">Human verification</p>
-          <h2 id="review-title">Review candidate</h2>
-        </div>
+        <h2 id="review-title">Review candidate</h2>
         <button class="close-button" value="cancel" aria-label="Close review">
           ×
         </button>
       </form>
       <div id="review-content"></div>
     </dialog>
-
-    <footer class="footer">
-      <div class="shell">
-        <p>
-          Private review data. Inclusion requires explicit human verification.
-        </p>
-      </div>
-    </footer>
   </body>
 </html>
