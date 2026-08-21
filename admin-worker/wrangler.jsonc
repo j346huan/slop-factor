@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "slop-factor-admin",
   "main": "./src/index.ts",
-  "compatibility_date": "2026-08-22",
+  "compatibility_date": "2026-08-21",
   "workers_dev": true,
   "assets": {
     "directory": "./public",
