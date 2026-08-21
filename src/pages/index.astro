@@ -55,48 +55,13 @@ const stats = [
 ---
 
 <BaseLayout>
-  <section class="hero">
-    <div class="shell hero__grid">
-      <div class="hero__copy">
-        <p class="eyebrow">Reviewed bibliometric dataset</p>
-        <h1>
-          Structural data for mathematics papers with explicit AI disclosures
-        </h1>
-        <p class="lede">
-          Slop Factor tracks measurable document characteristics only when
-          authors have explicitly disclosed AI or large-language-model
-          assistance and a human reviewer has verified the disclosure.
-        </p>
-        <div class="hero__actions">
-          <a class="button" href="#paper-index-title">Browse papers</a>
-          <a class="text-link" href={sitePath("methodology/")}
-            >Read the methodology</a
-          >
-        </div>
-      </div>
-      <aside class="principle-card" aria-labelledby="principle-title">
-        <p class="eyebrow">Inclusion standard</p>
-        <h2 id="principle-title">Disclosure, not detection</h2>
-        <p>
-          The project does not estimate whether AI was used. Every public record
-          preserves the exact author disclosure and its location.
-        </p>
-      </aside>
-    </div>
-  </section>
-
-  <div class="shell page-stack">
+  <div class="shell home-page">
     <StatsGrid stats={stats} />
 
-    <section class="recent" aria-labelledby="recent-title">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Collection updates</p>
-          <h2 id="recent-title">Recently added</h2>
-        </div>
-      </div>
-      {
-        recent.length ? (
+    {
+      recent.length > 0 && (
+        <section class="recent" aria-labelledby="recent-title">
+          <h2 id="recent-title">Recent</h2>
           <ol class="recent-list">
             {recent.map((paper) => (
               <li>
@@ -112,16 +77,9 @@ const stats = [
               </li>
             ))}
           </ol>
-        ) : (
-          <div class="compact-empty">
-            <p>
-              No papers have completed review. Candidate matches are never
-              published automatically.
-            </p>
-          </div>
-        )
-      }
-    </section>
+        </section>
+      )
+    }
 
     <PaperTable papers={papers} />
   </div>
