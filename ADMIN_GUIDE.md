@@ -6,7 +6,9 @@ ChatGPT, Codex, a language model, or an AI API.
 
 The public site remains a static GitHub Pages build. The administrator dashboard is served by a free
 Cloudflare Worker because GitHub Pages cannot securely hold GitHub credentials or provide private
-authentication. Candidate state remains in private GitHub issues; the Worker has no database.
+authentication. Candidate state remains in private GitHub issues in `j346huan/slop-factor-admin`;
+the Worker has no database. Approved records and the public website remain in
+`j346huan/slop-factor`.
 
 ## Administrator workflow
 
@@ -35,9 +37,9 @@ In GitHub, open **Settings → Developer settings → GitHub Apps → New GitHub
 - Issues permission: read and write
 - Metadata permission: read-only
 
-Install the app only on the `slop-factor` repository. GitHub App permissions keep the dashboard scoped
-to that repository instead of granting access to the administrator's other repositories. Copy the
-generated Client ID and create a Client Secret.
+Install the app only on the `slop-factor` and `slop-factor-admin` repositories. GitHub App permissions
+keep the dashboard scoped to those two repositories instead of granting access to the administrator's
+other repositories. Copy the generated Client ID and create a Client Secret.
 
 ### 2. Create the Cloudflare Worker
 
@@ -65,9 +67,10 @@ deployment adds an **Administrator** navigation link.
 
 ### 4. Merge the application pull request
 
-The scan and approval workflows must exist on the default branch before the dashboard can dispatch
-them. After validation passes, merge the application pull request and wait for the public-site and
-administrator deployments to complete.
+Merge the private administrator repository pull request first, then merge the public application pull
+request. The scan workflow must exist on the private repository's default branch and the approval
+workflow must exist on the public repository's default branch before the dashboard can dispatch them.
+Wait for the public-site and administrator deployments to complete.
 
 ## Security boundary
 
@@ -75,9 +78,9 @@ administrator deployments to complete.
   browser's local storage or repository.
 - Every API request verifies the configured GitHub username and repository administrator permission.
 - Mutation requests require a same-origin browser request.
-- Candidate issues and reports remain in a private repository.
+- Candidate issues, scan logs, and reports remain in `slop-factor-admin`, which must remain private.
 - The Worker stops candidate discovery if the queue repository is public.
 - No secrets or candidate records are included in the production public-site build.
 
-If the public GitHub Pages repository must become public, move candidate issues and the discovery and
-approval workflows to a separate private administrator repository before changing visibility.
+The public repository contains the approval workflow because only human-confirmed records are sent to
+it. Automated candidates never enter the public repository.
