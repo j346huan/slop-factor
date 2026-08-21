@@ -1,0 +1,38 @@
+---
+import { sitePath } from "@/lib/paths";
+import type { ApprovedPaper } from "@/lib/types";
+
+interface Props {
+  title: string;
+  papers: ApprovedPaper[];
+}
+
+const { title, papers } = Astro.props;
+---
+
+<section
+  class="ranking"
+  aria-labelledby={`ranking-${title.replaceAll(" ", "-").toLowerCase()}`}
+>
+  <h2 id={`ranking-${title.replaceAll(" ", "-").toLowerCase()}`}>{title}</h2>
+  {
+    papers.length > 0 ? (
+      <ol>
+        {papers.map((paper) => (
+          <li>
+            <a href={sitePath(`papers/${paper.arxiv_id.replace("/", "-")}/`)}>
+              {paper.title}
+            </a>
+            <span>
+              {paper.score.toLocaleString("en-US", {
+                maximumFractionDigits: 2,
+              })}
+            </span>
+          </li>
+        ))}
+      </ol>
+    ) : (
+      <p>No papers</p>
+    )
+  }
+</section>
