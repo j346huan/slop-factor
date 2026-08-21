@@ -11,7 +11,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 from slopfactor.approval import confirmed_disclosure, make_record, stored_analysis, upsert_record
-from slopfactor.pending import PENDING_LABEL, decode_candidate_payload
+from slopfactor.pending import PENDING_LABEL, decode_candidate_argument, decode_candidate_payload
 
 
 def fetch_issue(repository: str, issue_number: int, token: str) -> dict:
@@ -32,7 +32,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repository", default=os.environ.get("GITHUB_REPOSITORY", ""))
     parser.add_argument("--token", default=os.environ.get("GITHUB_TOKEN", ""))
-    parser.add_argument("--issue", type=int, required=True)
+    parser.add_argument("--issue", type=int)
+    parser.add_argument("--candidate-payload")
     parser.add_argument("--reviewer", required=True)
     parser.add_argument("--evidence-index", type=int, required=True)
     parser.add_argument("--classification", required=True)
@@ -47,11 +48,16 @@ def main() -> int:
     parser.add_argument("--result", type=Path)
     arguments = parser.parse_args()
 
-    issue = fetch_issue(arguments.repository, arguments.issue, arguments.token)
-    labels = {label["name"] for label in issue.get("labels", [])}
-    if PENDING_LABEL not in labels:
-        raise ValueError("Candidate issue is not pending human review")
-    candidate = decode_candidate_payload(issue.get("body") or "")
+    if arguments.candidate_payload:
+        candidate = decode_candidate_argument(arguments.candidate_payload)
+    elif arguments.issue is not None:
+        issue = fetch_issue(arguments.repository, arguments.issue, arguments.token)
+        labels = {label["name"] for label in issue.get("labels", [])}
+        if PENDING_LABEL not in labels:
+            raise ValueError("Candidate issue is not pending human review")
+        candidate = decode_candidate_payload(issue.get("body") or "")
+    else:
+        parser.error("--candidate-payload or --issue is required")
     if not candidate["paper"]["primary_category"].startswith("math."):
         raise ValueError("Only papers with a primary math.* category are eligible")
     analysis = stored_analysis(candidate)
