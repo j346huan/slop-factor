@@ -1,5 +1,9 @@
+import base64
+import json
+
 import pytest
 from slopfactor.approval import confirmed_disclosure, review_candidate, stored_analysis
+from slopfactor.pending import decode_candidate_argument
 
 CANDIDATE = {
     "candidate_id": "9999.99999v1",
@@ -88,3 +92,9 @@ def test_dashboard_decision_requires_exact_confirmation() -> None:
     )
     assert disclosure["location"]["page"] == 2
     assert disclosure["multiplier"] == 1
+
+
+def test_decodes_cross_repository_candidate_payload() -> None:
+    encoded = base64.urlsafe_b64encode(json.dumps(CANDIDATE).encode()).decode().rstrip("=")
+
+    assert decode_candidate_argument(encoded) == CANDIDATE
