@@ -354,7 +354,7 @@ async function loadCandidates() {
 async function initialize() {
   elements["scan-date"].value = new Date().toISOString().slice(0, 10);
   try {
-    const session = await api("/api/session");
+    await api("/api/session");
     elements.account.hidden = false;
     elements.dashboard.hidden = false;
     await loadCandidates();
