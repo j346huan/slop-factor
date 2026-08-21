@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import date
 from pathlib import Path
 
 from slopfactor.discovery import discover
@@ -18,6 +19,11 @@ def main() -> int:
     parser.add_argument("--lookback-hours", type=int, default=48)
     parser.add_argument("--minimum-query-interval-hours", type=int, default=6)
     parser.add_argument(
+        "--date",
+        type=date.fromisoformat,
+        help="Exact arXiv submission date to scan in UTC (YYYY-MM-DD)",
+    )
+    parser.add_argument(
         "--skip-pdf", action="store_true", help="Search metadata only (local diagnostics)"
     )
     arguments = parser.parse_args()
@@ -29,6 +35,8 @@ def main() -> int:
         lookback_hours=arguments.lookback_hours,
         minimum_query_interval_hours=arguments.minimum_query_interval_hours,
         include_pdf=not arguments.skip_pdf,
+        scan_date=arguments.date,
+        analyze_candidates=not arguments.skip_pdf,
     )
     print(
         f"Candidate report written to {arguments.output}: "

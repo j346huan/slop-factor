@@ -16,6 +16,33 @@ from .validate import CLASSIFICATIONS, validate_collection
 Input = Callable[[str], str]
 
 
+def stored_analysis(candidate: dict) -> AnalysisResult | None:
+    """Load discovery-time analysis so ChatGPT review does not repeat remote downloads."""
+    payload = candidate.get("analysis")
+    if payload is None:
+        return None
+    required = {
+        "pages",
+        "theorems",
+        "lemmas",
+        "propositions",
+        "corollaries",
+        "definitions",
+        "displayed_equations",
+        "bibliography_entries",
+        "appendix_pages",
+    }
+    counts = payload.get("structural_counts", {})
+    methods = payload.get("count_methods", {})
+    if set(counts) != required or set(methods) != required:
+        raise ValueError("Stored candidate analysis is incomplete")
+    return AnalysisResult(
+        counts=counts,
+        methods=methods,
+        notes=list(payload.get("count_notes", [])),
+    )
+
+
 def _choose(prompt: str, maximum: int, input_fn: Input) -> int:
     while True:
         value = input_fn(prompt).strip()
@@ -203,23 +230,24 @@ def approve(
         raise ValueError("Only papers with a primary math.* category are eligible")
 
     disclosure = review_candidate(candidate, input_fn)
-    work_directory.mkdir(parents=True, exist_ok=True)
-    downloader = DownloadClient(user_agent="slop-factor/0.1 (local human review)")
-    safe_id = candidate_id.replace("/", "-")
-    if pdf_path is None:
-        pdf_path = work_directory / f"{safe_id}.pdf"
-        if not pdf_path.is_file():
-            downloader.download(candidate["paper"]["pdf_url"], pdf_path)
-    if source_path is None:
-        source_path = work_directory / f"{safe_id}.source"
-        if not source_path.is_file():
-            try:
-                downloader.download(candidate["paper"]["source_url"], source_path)
-            except (OSError, ValueError, TimeoutError) as error:
-                print(f"Source unavailable; analysis will document PDF fallback: {error}")
-                source_path = None
-
-    analysis = analyze_document(pdf_path, source_path)
+    analysis = stored_analysis(candidate)
+    if analysis is None:
+        work_directory.mkdir(parents=True, exist_ok=True)
+        downloader = DownloadClient(user_agent="slop-factor/0.1 (local human review)")
+        safe_id = candidate_id.replace("/", "-")
+        if pdf_path is None:
+            pdf_path = work_directory / f"{safe_id}.pdf"
+            if not pdf_path.is_file():
+                downloader.download(candidate["paper"]["pdf_url"], pdf_path)
+        if source_path is None:
+            source_path = work_directory / f"{safe_id}.source"
+            if not source_path.is_file():
+                try:
+                    downloader.download(candidate["paper"]["source_url"], source_path)
+                except (OSError, ValueError, TimeoutError) as error:
+                    print(f"Source unavailable; analysis will document PDF fallback: {error}")
+                    source_path = None
+        analysis = analyze_document(pdf_path, source_path)
     record = make_record(candidate, disclosure, analysis, reviewer=reviewer)
     print(f"\nCalculated Slop Factor: {record['score']}")
     if input_fn("Type WRITE to update approved public data: ").strip() != "WRITE":

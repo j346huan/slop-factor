@@ -1,5 +1,5 @@
 import pytest
-from slopfactor.approval import review_candidate
+from slopfactor.approval import review_candidate, stored_analysis
 
 CANDIDATE = {
     "candidate_id": "9999.99999v1",
@@ -37,3 +37,31 @@ def test_requires_passage_location_and_classification_choices() -> None:
     assert disclosure["location"]["page"] == 2
     assert disclosure["classification"] == "proofreading_translation"
     assert disclosure["multiplier"] == 1
+
+
+def test_loads_complete_discovery_time_analysis() -> None:
+    fields = {
+        "pages": 4,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 3,
+        "bibliography_entries": 2,
+        "appendix_pages": 0,
+    }
+    candidate = {
+        **CANDIDATE,
+        "analysis": {
+            "structural_counts": fields,
+            "count_methods": dict.fromkeys(fields, "source"),
+            "count_notes": ["Fictional fixture."],
+        },
+    }
+
+    analysis = stored_analysis(candidate)
+
+    assert analysis is not None
+    assert analysis.counts["theorems"] == 1
+    assert analysis.notes == ["Fictional fixture."]

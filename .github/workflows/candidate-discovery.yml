@@ -3,15 +3,23 @@ name: Private candidate discovery
 on:
   schedule:
     - cron: "17 4 * * *"
+  issues:
+    types: [opened]
   workflow_dispatch:
     inputs:
+      scan_date:
+        description: Exact UTC submission date (YYYY-MM-DD); blank uses the recent rolling window
+        required: false
+        type: string
       max_results:
-        description: Maximum recent arXiv records to inspect
+        description: Maximum arXiv records to inspect (1-500)
         required: false
         default: "50"
+        type: string
 
 permissions:
   contents: read
+  issues: write
 
 concurrency:
   group: candidate-discovery
@@ -19,6 +27,11 @@ concurrency:
 
 jobs:
   discover:
+    if: >-
+      github.event_name != 'issues' ||
+      (github.event.repository.private &&
+      github.event.issue.author_association == 'OWNER' &&
+      startsWith(github.event.issue.title, 'Scan request: '))
     runs-on: ubuntu-latest
     timeout-minutes: 55
     steps:
@@ -37,6 +50,25 @@ jobs:
           sudo apt-get update
           sudo apt-get install --yes poppler-utils
 
+      - name: Confirm private administrator queue
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/sync_pending_issues.py --check-private
+
+      - name: Resolve scan request
+        id: scan
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          MANUAL_DATE: ${{ inputs.scan_date || '' }}
+          ISSUE_TITLE: ${{ github.event.issue.title || '' }}
+          MAX_RESULTS: ${{ inputs.max_results || '50' }}
+        run: |
+          python scripts/resolve_scan_request.py \
+            --event-name "${EVENT_NAME}" \
+            --manual-date "${MANUAL_DATE}" \
+            --issue-title "${ISSUE_TITLE}" \
+            --max-results "${MAX_RESULTS}"
+
       - name: Restore private query state
         uses: actions/cache@v4
         with:
@@ -48,13 +80,32 @@ jobs:
       - name: Discover review candidates
         env:
           ARXIV_USER_AGENT: slop-factor/0.1 (${{ github.server_url }}/${{ github.repository }}; mailto:${{ github.repository_owner }}@users.noreply.github.com)
-          MAX_RESULTS: ${{ inputs.max_results || '50' }}
+          MAX_RESULTS: ${{ steps.scan.outputs.max_results }}
+          SCAN_DATE: ${{ steps.scan.outputs.scan_date }}
         run: |
           mkdir -p private/candidates
+          DATE_ARGUMENTS=()
+          if [[ -n "${SCAN_DATE}" ]]; then
+            DATE_ARGUMENTS=(--date "${SCAN_DATE}")
+          fi
           python scripts/discover_candidates.py \
             --output "private/candidates/candidates-${GITHUB_RUN_ID}.json" \
             --state private/state/last-query.json \
-            --max-results "${MAX_RESULTS}"
+            --max-results "${MAX_RESULTS}" \
+            "${DATE_ARGUMENTS[@]}"
+
+      - name: Add candidates to private pending queue
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          REQUEST_ISSUE: ${{ github.event.issue.number || '' }}
+        run: |
+          REQUEST_ARGUMENTS=()
+          if [[ -n "${REQUEST_ISSUE}" ]]; then
+            REQUEST_ARGUMENTS=(--request-issue "${REQUEST_ISSUE}")
+          fi
+          python scripts/sync_pending_issues.py \
+            --report "private/candidates/candidates-${GITHUB_RUN_ID}.json" \
+            "${REQUEST_ARGUMENTS[@]}"
 
       - name: Upload private review report
         uses: actions/upload-artifact@v4
@@ -62,4 +113,4 @@ jobs:
           name: candidate-review-${{ github.run_id }}
           path: private/candidates/candidates-${{ github.run_id }}.json
           if-no-files-found: error
-          retention-days: 7
+          retention-days: 30

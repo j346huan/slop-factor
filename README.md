@@ -73,7 +73,7 @@ npm test
 npm run build
 ```
 
-## Candidate discovery
+## Candidate discovery and administrator queue
 
 The client uses one persistent connection for the official arXiv Atom API and starts requests at least
 three seconds apart. It records the last successful query in an ignored local state file so repeated
@@ -85,15 +85,24 @@ python scripts/discover_candidates.py \
   --state private/state/last-query.json
 ```
 
+Scan one exact UTC arXiv submission date with `--date YYYY-MM-DD`. Exact-date scans bypass the rolling
+query cooldown without changing its last-success state.
+
 Discovery searches official metadata and page-separated PDF text for terms including ChatGPT, Claude,
 Gemini, LLM, large language model, and generative AI. Conservative context rules remove obvious
 bibliography entries, general discussions, and statements of non-use where possible. Every surviving
 match remains an unreviewed candidate.
 
 Candidate JSON, downloaded papers, and query state under `private/` are ignored by Git and excluded
-from the Astro import graph. The scheduled workflow uploads only the candidate report as a short-lived
-Actions artifact. Repository Actions access should be limited to the administrators responsible for
-review.
+from the Astro import graph. The workflow uploads the report as a restricted Actions artifact and
+synchronizes unique matches into a persistent private GitHub issue queue. It verifies repository
+privacy before scanning and does not run against a public repository. Repository and Actions access
+should be limited to the administrators responsible for review.
+
+ChatGPT can request an exact-date scan by creating a private owner-authored issue titled
+`Scan request: YYYY-MM-DD`, list issues labeled `candidate:pending`, and guide the explicit review.
+The same date field is available under **Actions → Private candidate discovery → Run workflow**.
+See [the administrator guide](ADMIN_GUIDE.md) for the no-code workflow and privacy boundary.
 
 ## Structural analysis and approval
 
@@ -124,8 +133,9 @@ Run the validator and inspect the resulting diff before committing.
   type checks, and the production build on pushes and pull requests.
 - `pages.yml` validates approved data, builds the static site with the repository base path, and deploys
   to GitHub Pages only after changes reach `main`.
-- `candidate-discovery.yml` runs daily at 04:17 UTC and on manual dispatch. It uploads a candidate JSON
-  report but cannot write repository contents, open issues, change approved data, or deploy.
+- `candidate-discovery.yml` runs daily at 04:17 UTC, on manual dispatch, and for validated private scan
+  requests. It can write only private candidate issues; it cannot write repository contents, change
+  approved data, or deploy.
 
 Configure the repository’s Pages source as **GitHub Actions**. Branch protection requiring the
 validation workflow is recommended for `main`.

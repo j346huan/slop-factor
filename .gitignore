@@ -13,3 +13,4 @@ __pycache__/
 private/candidates/*.json
 private/state/*.json
 private/downloads/
+private/pending/
