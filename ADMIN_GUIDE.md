@@ -16,7 +16,7 @@ the Worker has no database. Approved records and the public website remain in
 2. Select an arXiv release date or date range and start a deterministic scan.
 3. Review matched passages and preliminary structural counts in the private pending queue.
 4. Reject an ineligible match with a factual reason, or select the exact disclosure passage.
-5. Confirm the quotation, location, classification, multiplier, and rationale, then click **Approve**.
+5. Confirm the quotation, location, classification, and multiplier, then click **Approve**.
 6. Review and merge the resulting approval pull request to publish the paper.
 
 Automated discovery never writes approved data. Approval never pushes directly to `main`.

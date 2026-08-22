@@ -41,6 +41,7 @@ def test_requires_passage_location_and_classification_choices() -> None:
     assert disclosure["location"]["page"] == 2
     assert disclosure["classification"] == "proofreading_grammar"
     assert disclosure["multiplier"] == 1
+    assert "rationale" not in disclosure
 
 
 def test_loads_complete_discovery_time_analysis() -> None:
@@ -78,7 +79,6 @@ def test_dashboard_decision_requires_exact_confirmation() -> None:
             evidence_index=1,
             classification="proofreading_grammar",
             multiplier=1,
-            rationale="Confirmed proofreading disclosure.",
             confirmation="yes",
         )
 
@@ -87,11 +87,11 @@ def test_dashboard_decision_requires_exact_confirmation() -> None:
         evidence_index=1,
         classification="proofreading_grammar",
         multiplier=1,
-        rationale="Confirmed proofreading disclosure.",
         confirmation="APPROVE",
     )
     assert disclosure["location"]["page"] == 2
     assert disclosure["multiplier"] == 1
+    assert "rationale" not in disclosure
 
 
 def test_decodes_cross_repository_candidate_payload() -> None:

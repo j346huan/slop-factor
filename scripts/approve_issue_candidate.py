@@ -38,7 +38,6 @@ def main() -> int:
     parser.add_argument("--evidence-index", type=int, required=True)
     parser.add_argument("--classification", required=True)
     parser.add_argument("--multiplier", type=float, required=True)
-    parser.add_argument("--rationale", default="")
     parser.add_argument("--quotation", default="")
     parser.add_argument("--location-kind", default="")
     parser.add_argument("--location-value", default="")
@@ -68,7 +67,6 @@ def main() -> int:
         evidence_index=arguments.evidence_index,
         classification=arguments.classification,
         multiplier=arguments.multiplier,
-        rationale=arguments.rationale,
         confirmation=arguments.confirmation,
         quotation=arguments.quotation,
         location_kind=arguments.location_kind,

@@ -49,7 +49,6 @@ def confirmed_disclosure(
     evidence_index: int,
     classification: str,
     multiplier: float,
-    rationale: str,
     confirmation: str,
     quotation: str = "",
     location_kind: str = "",
@@ -69,9 +68,6 @@ def confirmed_disclosure(
         raise ValueError("Multiplier does not match the selected disclosure classification")
     if not 1 <= multiplier <= 10:
         raise ValueError("Multiplier must be from 1 through 10")
-    if classification == "mixed_or_other" and not rationale.strip():
-        raise ValueError("An intermediate multiplier requires a rationale")
-
     resolved_kind = location_kind or evidence["location_kind"]
     resolved_value = location_value or evidence["location_value"]
     resolved_page = page if page is not None else evidence.get("page")
@@ -88,11 +84,6 @@ def confirmed_disclosure(
         "classification": classification,
         "role_label": CLASSIFICATIONS[classification][1],
         "multiplier": multiplier,
-        "rationale": rationale.strip()
-        or (
-            "Reviewer selected the documented "
-            f"{CLASSIFICATIONS[classification][1].lower()} category."
-        ),
     }
 
 
@@ -104,7 +95,7 @@ def _choose(prompt: str, maximum: int, input_fn: Input) -> int:
         print(f"Enter a number from 1 to {maximum}.")
 
 
-def select_disclosure(input_fn: Input = input) -> tuple[str, float, str, str]:
+def select_disclosure(input_fn: Input = input) -> tuple[str, float, str]:
     choices = [(classification, values[0]) for classification, values in CLASSIFICATIONS.items()]
     print("\nDisclosure classification (select the highest applicable disclosed use):")
     for index, (classification, multiplier) in enumerate(choices, start=1):
@@ -124,13 +115,7 @@ def select_disclosure(input_fn: Input = input) -> tuple[str, float, str, str]:
             if 1 <= multiplier <= 10:
                 break
             print("Enter a number from 1 through 10.")
-        rationale = input_fn("Required rationale for the intermediate classification: ").strip()
-        while not rationale:
-            rationale = input_fn("Rationale cannot be empty: ").strip()
-    else:
-        label = CLASSIFICATIONS[classification][1].lower()
-        rationale = f"Reviewer selected the documented {label} category."
-    return classification, float(multiplier), CLASSIFICATIONS[classification][1], rationale
+    return classification, float(multiplier), CLASSIFICATIONS[classification][1]
 
 
 def review_candidate(candidate: dict, input_fn: Input = input) -> dict:
@@ -179,14 +164,13 @@ def review_candidate(candidate: dict, input_fn: Input = input) -> dict:
     if not location_value or (location_kind == "page" and page is None):
         raise ValueError("A confirmed disclosure location is required")
 
-    classification, multiplier, role_label, rationale = select_disclosure(input_fn)
+    classification, multiplier, role_label = select_disclosure(input_fn)
     return {
         "quotation": quotation,
         "location": {"kind": location_kind, "value": location_value, "page": page},
         "classification": classification,
         "role_label": role_label,
         "multiplier": multiplier,
-        "rationale": rationale,
     }
 
 

@@ -47,10 +47,6 @@ on:
         description: PDF page number; blank for metadata
         required: false
         type: string
-      rationale:
-        description: Classification rationale
-        required: true
-        type: string
       confirmation:
         description: Must equal APPROVE
         required: true
@@ -91,7 +87,6 @@ jobs:
           LOCATION_KIND: ${{ inputs.location_kind }}
           LOCATION_VALUE: ${{ inputs.location_value }}
           PAGE: ${{ inputs.page }}
-          RATIONALE: ${{ inputs.rationale }}
           CONFIRMATION: ${{ inputs.confirmation }}
         run: |
           python -m pip install -e .
@@ -108,7 +103,6 @@ jobs:
             --quotation "${QUOTATION}" \
             --location-kind "${LOCATION_KIND}" \
             --location-value "${LOCATION_VALUE}" \
-            --rationale "${RATIONALE}" \
             --confirmation "${CONFIRMATION}" \
             --result private/approval-result.json \
             "${PAGE_ARGUMENTS[@]}"

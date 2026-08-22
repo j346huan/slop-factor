@@ -262,10 +262,6 @@ function openReview(candidate) {
   multiplier.max = "10";
   multiplier.step = "0.1";
   multiplier.required = true;
-  const rationale = document.createElement("textarea");
-  rationale.name = "rationale";
-  rationale.rows = 3;
-  rationale.required = true;
   const scorePreview = text(
     "output",
     "Select a classification",
@@ -290,7 +286,6 @@ function openReview(candidate) {
     labeledInput("PDF page", page),
     labeledInput("Disclosure classification", classification),
     labeledInput("Multiplier", multiplier),
-    labeledInput("Classification rationale", rationale),
   );
   form.append(fields, scorePreview);
 
@@ -343,7 +338,6 @@ async function submitApproval(event) {
         page: data.get("page") || null,
         classification: data.get("classification"),
         multiplier: Number(data.get("multiplier")),
-        rationale: data.get("rationale"),
       }),
     });
     elements["review-dialog"].close();

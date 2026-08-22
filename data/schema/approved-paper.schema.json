@@ -190,8 +190,7 @@
             "location",
             "classification",
             "role_label",
-            "multiplier",
-            "rationale"
+            "multiplier"
           ],
           "properties": {
             "quotation": {
@@ -240,8 +239,7 @@
               "minLength": 1,
               "maxLength": 300
             },
-            "multiplier": { "type": "number", "minimum": 1, "maximum": 10 },
-            "rationale": { "type": "string", "minLength": 1, "maxLength": 2000 }
+            "multiplier": { "type": "number", "minimum": 1, "maximum": 10 }
           }
         },
         "verification": {
