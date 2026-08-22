@@ -3909,6 +3909,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19089",
+      "version": 1,
+      "title": "Improved bounds on the oriented diameter of planar triangulations",
+      "authors": [
+        "Xiaonan Liu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T16:38:45Z",
+        "updated": "2026-08-19T16:38:45Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "The oriented diameter of a connected bridgeless graph $G$, denoted by $\\overrightarrow{\\operatorname{diam}}(G)$, is the minimum diameter among all strong orientations of $G$. We study the oriented diameter of planar triangulations, and show that $\\overrightarrow{\\operatorname{diam}}(G)\\leq \\frac{2n+44}{5}$ for any $n$-vertex planar triangulation $G$. This improves the leading constant in the previous best general upper bound $\\lceil \\frac{n}{2}\\rceil$, due to Ge, Liu, and Wang, from $1/2$ to $2/5$. We also prove that every $n$-vertex $4$-connected planar triangulation satisfies $\\overrightarrow{\\operatorname{diam}}(G)\\leq \\frac{n+17}{3}$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19089v1",
+        "pdf": "https://arxiv.org/pdf/2608.19089v1",
+        "source": "https://export.arxiv.org/e-print/2608.19089v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 4,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 40,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "t every n-vertex 5-connected planar triangulation −−−→ G has diam(G) ≤ 10 31 n + O(1). Acknowledgments The author is grateful to Xingxing Yu and Zhiyu Wang for helpful discussions on this prob- lem. The author used ChatGPT (OpenAI) in developing the face-coloring argument leading to Theorem 1.2 and language polishing. 15",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:19:55.981643Z"
+      },
+      "score": 477.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 59.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 24,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 10,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19060",
       "version": 1,
       "title": "Activated switching between coexisting limit cycles",
