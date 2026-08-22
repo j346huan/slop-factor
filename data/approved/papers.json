@@ -426,6 +426,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.20023",
+      "version": 1,
+      "title": "A Variational Characterization of Positive Scalar Curvature Kähler metrics",
+      "authors": [
+        "Zehao Sha"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T13:32:36Z",
+        "updated": "2026-08-20T13:32:36Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We introduce the prescribed scalar curvature measure equation on a compact Kähler manifold. For a Kähler class of positive total scalar curvature, we prove that the following are equivalent: the existence of a positive scalar curvature Kähler metric, solvability of this equation for every admissible measure, $d_1$-coercivity of the associated functionals, and uniform geodesic stability along finite-energy $d_1$-geodesic rays. As a consequence, in each fixed Kähler class, the space of positive scalar curvature Kähler metrics is either empty or contractible. We further prove that every Kähler class on a positive-dimensional compact smooth toric Kähler manifold contains a torus-invariant metric of positive scalar curvature. Therefore, for every Kähler class, the prescribed scalar curvature measure equation admits a smooth solution for every admissible measure, unique modulo constants.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.20023v1",
+        "pdf": "https://arxiv.org/pdf/2608.20023v1",
+        "source": "https://export.arxiv.org/e-print/2608.20023v1"
+      },
+      "structural_counts": {
+        "pages": 45,
+        "theorems": 7,
+        "lemmas": 10,
+        "propositions": 13,
+        "corollaries": 8,
+        "definitions": 2,
+        "displayed_equations": 429,
+        "bibliography_entries": 54,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file PSC_variational_approach.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "KX = TX+ = KX . In particular, Questions 1.1 have an affirmative answer for X. On the use of AI. All mathematical ideas, arguments, and results presented in this man- uscript were developed by the author. ChatGPT 5.5 Plus and 5.6 Sol were utilized as an assisting tool to refine the writing and presentation, and to help verify the mathematical logic. Organization of the paper. The paper is organized as follows. Section 2 introduces the F- functiona",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:15:24.418591Z"
+      },
+      "score": 1278.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 319.65,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 45,
+          "theorems": 42,
+          "lemmas": 40,
+          "propositions": 52,
+          "corollaries": 24,
+          "definitions": 4,
+          "displayed_equations": 107.25,
+          "bibliography_entries": 5.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19991",
       "version": 1,
       "title": "Mean curvature bounds for the obstacle problem",
