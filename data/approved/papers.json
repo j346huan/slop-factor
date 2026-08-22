@@ -4336,6 +4336,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19024",
+      "version": 1,
+      "title": "On the odd independence number of the Queen graph",
+      "authors": [
+        "Martin Knor",
+        "Jelena Sedlar",
+        "Riste Škrekovski"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T15:20:05Z",
+        "updated": "2026-08-19T15:20:05Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "A set S of vertices of a graph is odd independent if it is independent and every vertex outside S has either zero or an odd number of neighbors in S. The largest size of such a set is the odd independence number alpha_od. Caro, Petrusevski, Skrekovski and Tuza [2] conjectured that alpha_od = 1 for every finite Queen graph. They also asked whether the infinite Queen graph has alpha_od = 1 or alpha_od = infinity. We prove that alpha_od = 1 in both cases. In particular, in the case of an infinite board we prove that alpha_od = 1 holds on the quarter plane and on the whole plane.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19024v1",
+        "pdf": "https://arxiv.org/pdf/2608.19024v1",
+        "source": "https://export.arxiv.org/e-print/2608.19024v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 2,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 21,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file KingConjecture_v16.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ian Ministry of Science, Education and Youth through the bilateral Croatian-Slovenian project 2025- 26, and by the NextGeneration EU foundation via IP-UNIST-17 (GEORAZ). AI declaration. Results in this manuscript were obtained with help of Claude AI. References [1] Y. Caro, M. Petruševski, R. Škrekovski, Zs. Tuza, The odd independence number of graphs, I: Foundations and classical classes, arXiv:2509.20763, 2025. [2] Y. Caro, M. Petruševski, R. Škrekovski, Zs. Tuza, The",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:21:26.180325Z"
+      },
+      "score": 589.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.95,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 11,
+          "theorems": 12,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 5.25,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18967",
       "version": 1,
       "title": "Exact random covers of metric trees: balanced rounding, duality, and sharp thresholds",
