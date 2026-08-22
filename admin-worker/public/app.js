@@ -156,6 +156,19 @@ function openReview(candidate) {
   ]) {
     facts.append(text("dt", label), text("dd", value));
   }
+  const keywords = [
+    ...new Set(
+      candidate.evidence.map((evidence) => evidence.term).filter(Boolean),
+    ),
+  ];
+  const keywordList = document.createElement("ul");
+  keywordList.className = "review-keywords";
+  for (const keyword of keywords) keywordList.append(text("li", keyword));
+  const keywordValue = document.createElement("dd");
+  keywordValue.append(
+    keywordList.childElementCount ? keywordList : text("span", "Not recorded"),
+  );
+  facts.append(text("dt", "Detected keywords"), keywordValue);
   content.append(facts);
 
   const form = document.createElement("form");
@@ -178,7 +191,18 @@ function openReview(candidate) {
       ),
       text("blockquote", evidence.matched_sentence ?? evidence.quotation),
     );
-    form.append(card);
+    const pdfLink = text(
+      "a",
+      evidence.page ? `Open PDF page ${evidence.page}` : "Open PDF",
+      "evidence-pdf-link",
+    );
+    pdfLink.href = `${
+      candidate.paper.pdf_url ??
+      `https://arxiv.org/pdf/${candidate.candidate_id}`
+    }#page=${evidence.page ?? 1}`;
+    pdfLink.target = "_blank";
+    pdfLink.rel = "noopener noreferrer";
+    form.append(card, pdfLink);
   });
 
   const quotation = document.createElement("textarea");
@@ -245,26 +269,15 @@ function openReview(candidate) {
   );
   form.append(fields, scorePreview);
 
-  const confirmation = document.createElement("input");
-  confirmation.name = "confirmation";
-  confirmation.autocomplete = "off";
-  confirmation.placeholder = "Type APPROVE";
-  confirmation.required = true;
-  const confirmationLabel = labeledInput(
-    "Confirm that the quotation explicitly discloses the authors’ own AI use",
-    confirmation,
-  );
-  confirmationLabel.className = "confirmation";
-
   const actions = document.createElement("div");
   actions.className = "review-actions";
   const reject = text("button", "Reject candidate", "danger-button");
   reject.type = "button";
   reject.addEventListener("click", () => rejectCandidate(candidate));
-  const approve = text("button", "Prepare approval record", "button");
+  const approve = text("button", "Approve", "button");
   approve.type = "submit";
   actions.append(reject, approve);
-  form.append(confirmationLabel, actions);
+  form.append(actions);
   content.append(form);
   elements["review-dialog"].showModal();
 }
@@ -292,10 +305,6 @@ async function submitApproval(event) {
   event.preventDefault();
   const form = event.currentTarget;
   const data = new FormData(form);
-  if (data.get("confirmation") !== "APPROVE") {
-    showNotice("Type APPROVE exactly before preparing the record.", "error");
-    return;
-  }
   const button = form.querySelector('button[type="submit"]');
   button.disabled = true;
   try {
@@ -310,7 +319,6 @@ async function submitApproval(event) {
         classification: data.get("classification"),
         multiplier: Number(data.get("multiplier")),
         rationale: data.get("rationale"),
-        confirmation: true,
       }),
     });
     elements["review-dialog"].close();
