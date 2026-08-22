@@ -70,7 +70,6 @@ export interface ApprovedPaper {
     classification: DisclosureClassification;
     role_label: string;
     multiplier: number;
-    rationale: string;
   };
   verification: {
     status: "verified";
