@@ -1104,6 +1104,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19931",
+      "version": 1,
+      "title": "Energy rigidity and weak-strong uniqueness for the 2D anisotropic Navier-Stokes equations",
+      "authors": [
+        "Josef Demmel",
+        "Emil Wiedemann"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T11:43:11Z",
+        "updated": "2026-08-20T11:43:11Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "In two dimensions, we show that dissipation in one spatial direction is sufficient to enforce the energy equality for every weak solution at the natural energy level. In particular, neither anomalous energy loss nor creation can occur. The main difficulty is that the missing directional regularity prevents the usual self-testing argument. We overcome this obstruction through two observations: The pressure is square-integrable by a directional Riesz-transform estimate, and the less regular component is still a renormalized solution. As an application of energy rigidity, we derive a weak-strong uniqueness principle.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19931v1",
+        "pdf": "https://arxiv.org/pdf/2608.19931v1",
+        "source": "https://export.arxiv.org/e-print/2608.19931v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 2,
+        "lemmas": 5,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 69,
+        "bibliography_entries": 21,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ans-energy-rigidity-and-weak-strong-uniqueness.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2) for weak solutions. The additional regularity of U is sufficient to control the nonlinear terms. The resulting relative energy inequality closes by Grönwall’s lemma. Declaration of AI Use. During the research, the authors used OpenAI’s GPT-5.5 Pro and GPT- 5.6 Sol to generate candidate proof strategies and intermediate arguments for Theorem 1.2. The authors independently reconstructed and verified every step, checked all references against the orig- inal sources, wrote the manus",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:12:14.822483Z"
+      },
+      "score": 730.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 91.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 12,
+          "lemmas": 20,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 17.25,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19872",
       "version": 1,
       "title": "New upper bounds on covering codes K_q(n,R) for alphabets of size six and seven",
