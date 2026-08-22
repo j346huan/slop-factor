@@ -50,7 +50,9 @@ describe("pending decision files", () => {
   });
 
   it("accepts reject decisions without additional fields", () => {
-    const [result] = validateDecisionInput(
+    const {
+      decisions: [result],
+    } = validateDecisionInput(
       [{ arxiv_id: pending.candidate_id, decision: "reject" }],
       [pending],
       classifications,
@@ -60,7 +62,9 @@ describe("pending decision files", () => {
   });
 
   it("matches an approval to one exact exported passage", () => {
-    const [result] = validateDecisionInput(
+    const {
+      decisions: [result],
+    } = validateDecisionInput(
       [
         {
           arxiv_id: pending.candidate_id,
@@ -91,7 +95,9 @@ describe("pending decision files", () => {
         },
       ],
     };
-    const [result] = validateDecisionInput(
+    const {
+      decisions: [result],
+    } = validateDecisionInput(
       [
         {
           arxiv_id: metadata.candidate_id,
@@ -110,42 +116,38 @@ describe("pending decision files", () => {
     assert.equal(result.multiplier, 5);
   });
 
-  it("rejects mismatched evidence and variable classifications", () => {
-    assert.throws(
-      () =>
-        validateDecisionInput(
-          [
-            {
-              arxiv_id: pending.candidate_id,
-              decision: "approve",
-              quotation: "Different passage",
-              location: evidence.location_value,
-              page: 7,
-              disclosure_classification: "proofreading_grammar",
-            },
-          ],
-          [pending],
-          classifications,
-        ),
-      /do not match exported evidence/,
+  it("skips non-pending papers and collects errors without stopping", () => {
+    const approved = {
+      ...pending,
+      candidate_id: "2608.00002v1",
+      status: "approved",
+    };
+    const laterPending = {
+      ...pending,
+      candidate_id: "2608.00003v1",
+    };
+    const result = validateDecisionInput(
+      [
+        { arxiv_id: approved.candidate_id, decision: "reject" },
+        {
+          arxiv_id: pending.candidate_id,
+          decision: "approve",
+          quotation: "Different passage",
+          location: evidence.location_value,
+          page: 7,
+          disclosure_classification: "proofreading_grammar",
+        },
+        { arxiv_id: laterPending.candidate_id, decision: "reject" },
+      ],
+      [pending, approved, laterPending],
+      classifications,
     );
-    assert.throws(
-      () =>
-        validateDecisionInput(
-          [
-            {
-              arxiv_id: pending.candidate_id,
-              decision: "approve",
-              quotation: evidence.quotation,
-              location: evidence.location_value,
-              page: 7,
-              disclosure_classification: "mixed_or_other",
-            },
-          ],
-          [pending],
-          classifications,
-        ),
-      /fixed disclosure_classification/,
-    );
+    assert.deepEqual(result.skipped, [
+      { arxiv_id: approved.candidate_id, reason: "not pending" },
+    ]);
+    assert.equal(result.errors.length, 1);
+    assert.match(result.errors[0].error, /do not match exported evidence/);
+    assert.equal(result.decisions.length, 1);
+    assert.equal(result.decisions[0].candidate, laterPending);
   });
 });
