@@ -1189,6 +1189,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18928",
+      "version": 1,
+      "title": "Regularity and the Gelfand Property for Complex Symmetric Pairs",
+      "authors": [
+        "Yufeng Li",
+        "Junyan Xiao",
+        "Jun Yu"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T13:57:22Z",
+        "updated": "2026-08-19T13:57:22Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We prove that every symmetric pair of a connected complex reductive group is regular in the sense of Aizenbud--Gourevitch. This settles the Aizenbud--Gourevitch regularity conjecture over the complex numbers. Generalized Harish--Chandra descent then makes the canonical central cover of every complex symmetric pair a Gelfand--Kazhdan pair. An anti-automorphism arising from a compatible Chevalley involution upgrades the resulting GP2 bound to GP1 on the cover, and finite central descent transfers GP1 to the original pair. In particular, van Dijk's conjecture on complex symmetric pairs follows. Rubio reduced the unresolved irreducible regularity problem to four families: the DIII family $(D_r,A_{r-1}+\\mathbb{C})$, the balanced CII family $(C_{2r},C_r+C_r)$, some remaining Spin block pairs, and the EVII pair $(E_7,E_6+\\mathbb{C})$. We treat these cases by four different mechanisms. For DIII we construct a sign-equivariant Schwartz distribution on the regular set and extend it across a common orbit boundary by the Chen--Sun theorem. For balanced CII we combine homogeneity, distinguished nilpotent orbits, and a stable-density theorem for the centralizer representation. For Spin blocks we prove pleasantness for unequal odd--odd blocks, use Przebinda's orthogonal-distribution theorem in odd smaller rank, and construct a finite orbit closure with automatic extension in even smaller rank. For EVII we compute the graded-$\\mathfrak{sl}_2$ data for all twenty-two nilpotent orbits and use central-torus characters to eliminate the remaining resonances, including the two residual triple-centralizer cases. A finite-component assembly theorem then handles arbitrary connected central quotients and diagonal couplings among simple factors.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18928v1",
+        "pdf": "https://arxiv.org/pdf/2608.18928v1",
+        "source": "https://export.arxiv.org/e-print/2608.18928v1"
+      },
+      "structural_counts": {
+        "pages": 61,
+        "theorems": 11,
+        "lemmas": 46,
+        "propositions": 24,
+        "corollaries": 14,
+        "definitions": 2,
+        "displayed_equations": 495,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Regularity.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "its underlying real Nash manifold. Thus complexification of a real normal space contains both holomorphic and antiholomorphic summands. We use |z|C = z z̄. 1.4. Acknowledgements and disclosure. The proof was developed with assistance from ChatGPT 5.6 Sol. The system was used for proof exploration and drafting. The third named author (Jun Yu) would like to thank Professors Binyong Sun and Dmitry Gourevitch for helpful communication. 2. Regularity, homogeneity, and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:03:16.638934Z"
+      },
+      "score": 5783.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 578.35,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 61,
+          "theorems": 66,
+          "lemmas": 184,
+          "propositions": 96,
+          "corollaries": 42,
+          "definitions": 4,
+          "displayed_equations": 123.75,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18815",
       "version": 1,
       "title": "The number of groups of cubefree order",
