@@ -139,7 +139,7 @@ async function applyDecisionFile(file) {
           body: JSON.stringify({
             evidenceIndex: item.evidenceIndex,
             quotation: item.quotation,
-            locationKind: "page",
+            locationKind: item.locationKind,
             locationValue: item.location,
             page: item.page,
             classification: item.classification,
