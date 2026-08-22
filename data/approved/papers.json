@@ -3740,6 +3740,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19132",
+      "version": 1,
+      "title": "Norm bounds on Fourier series with polynomial spectra and constrained coefficients",
+      "authors": [
+        "Ioann Vasilyev"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T17:27:09Z",
+        "updated": "2026-08-19T17:27:09Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "The goal of this paper is to prove an upper bound for the $L^4$ norm of a trigonometric polynomial whose spectrum is a nontrivial strictly monotone polynomial with integer coefficients of degree three and higher, via its $L^2$ norm. Our condition on the coefficients of the trigonometric polynomial in question is that they form a complex sequence whose modulus is decreasing. Second, we obtain a similar result in the case where the spectrum is formed by perfect squares, under a more strict condition on the coefficients. Our results strengthen and complement those by S. Bochkarev and A. Córdoba. We also give an answer to a conjecture of Eceizabarrena and Da Rocha and determine the sharp order of growth of the $L^4$ norm of the trigonometric polynomial in this conjecture.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19132v1",
+        "pdf": "https://arxiv.org/pdf/2608.19132v1",
+        "source": "https://export.arxiv.org/e-print/2608.19132v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 3,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 79,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Polynomial_spectrum_4_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "N 2 j=0 and we are done. Acknowledgments The author is grateful to Sergey Kislyakov and to Mikhail Vasilyev for a number of helpful discussions. The author acknowledges the use of ChatGPT 5.6 Plus (OpenAI) as a research tool in developing and checking some technical parts of the proof of Theorem 3. Namely: in the arithmetic estimates used in the argument, and in locating relevant references. The author has independently che",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:19:02.476363Z"
+      },
+      "score": 452.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 56.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 11,
+          "theorems": 18,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 19.75,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19060",
       "version": 1,
       "title": "Activated switching between coexisting limit cycles",
