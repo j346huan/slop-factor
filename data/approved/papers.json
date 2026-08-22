@@ -6,7 +6,9 @@
       "arxiv_id": "2608.20303",
       "version": 1,
       "title": "Kahn--Lovász-type inequalities for graph factors",
-      "authors": ["Hyunwoo Lee"],
+      "authors": [
+        "Hyunwoo Lee"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
@@ -87,10 +89,17 @@
       "arxiv_id": "2608.20266",
       "version": 1,
       "title": "Necessary conditions for deterministic and stochastic maximal regularity",
-      "authors": ["Emiel Lorist", "Jan van Neerven", "Mark Veraar"],
+      "authors": [
+        "Emiel Lorist",
+        "Jan van Neerven",
+        "Mark Veraar"
+      ],
       "categories": {
         "primary": "math.FA",
-        "secondary": ["math.AP", "math.PR"]
+        "secondary": [
+          "math.AP",
+          "math.PR"
+        ]
       },
       "dates": {
         "submitted": "2026-08-20T17:05:24Z",
@@ -168,7 +177,11 @@
       "arxiv_id": "2608.20215",
       "version": 1,
       "title": "On the proof of Bray's conjecture",
-      "authors": ["Xumin Jiang", "Mingxiang Li", "Zhehui Wang"],
+      "authors": [
+        "Xumin Jiang",
+        "Mingxiang Li",
+        "Zhehui Wang"
+      ],
       "categories": {
         "primary": "math.DG",
         "secondary": []
@@ -249,7 +262,9 @@
       "arxiv_id": "2608.20101",
       "version": 1,
       "title": "Largest bulk gap of the complex Ginibre ensemble",
-      "authors": ["Philippe Moreillon"],
+      "authors": [
+        "Philippe Moreillon"
+      ],
       "categories": {
         "primary": "math.PR",
         "secondary": []
@@ -330,7 +345,10 @@
       "arxiv_id": "2608.20068",
       "version": 1,
       "title": "Flexibility for the Three-Dimensional Navier-Stokes Equations via Moving Hill Vortices",
-      "authors": ["Quoc-Hung Nguyen", "Zexi Wang"],
+      "authors": [
+        "Quoc-Hung Nguyen",
+        "Zexi Wang"
+      ],
       "categories": {
         "primary": "math.AP",
         "secondary": []
@@ -411,7 +429,10 @@
       "arxiv_id": "2608.19991",
       "version": 1,
       "title": "Mean curvature bounds for the obstacle problem",
-      "authors": ["Giacomo Colombo", "Federico Franceschini"],
+      "authors": [
+        "Giacomo Colombo",
+        "Federico Franceschini"
+      ],
       "categories": {
         "primary": "math.AP",
         "secondary": []
@@ -492,10 +513,14 @@
       "arxiv_id": "2608.19872",
       "version": 1,
       "title": "New upper bounds on covering codes K_q(n,R) for alphabets of size six and seven",
-      "authors": ["Mark Marosi"],
+      "authors": [
+        "Mark Marosi"
+      ],
       "categories": {
         "primary": "math.CO",
-        "secondary": ["cs.IT"]
+        "secondary": [
+          "cs.IT"
+        ]
       },
       "dates": {
         "submitted": "2026-08-20T10:31:38Z",
@@ -573,7 +598,9 @@
       "arxiv_id": "2608.19844",
       "version": 1,
       "title": "Circles determined by planar point sets",
-      "authors": ["Liyan Wang"],
+      "authors": [
+        "Liyan Wang"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
@@ -654,7 +681,10 @@
       "arxiv_id": "2608.19627",
       "version": 1,
       "title": "Uniformly Rotating Vortex Patches with Arbitrarily Many Genuine Holes",
-      "authors": ["Zhilong Xue", "Weicheng Zhan"],
+      "authors": [
+        "Zhilong Xue",
+        "Weicheng Zhan"
+      ],
       "categories": {
         "primary": "math.AP",
         "secondary": []
@@ -735,10 +765,15 @@
       "arxiv_id": "2608.19618",
       "version": 1,
       "title": "Borelness of Moduli Spaces of Metrics Implies Separability",
-      "authors": ["Yoshito Ishiki", "Tomoki Uda"],
+      "authors": [
+        "Yoshito Ishiki",
+        "Tomoki Uda"
+      ],
       "categories": {
         "primary": "math.GN",
-        "secondary": ["math.MG"]
+        "secondary": [
+          "math.MG"
+        ]
       },
       "dates": {
         "submitted": "2026-08-20T04:01:07Z",
@@ -824,7 +859,9 @@
       ],
       "categories": {
         "primary": "math.NT",
-        "secondary": ["math.CO"]
+        "secondary": [
+          "math.CO"
+        ]
       },
       "dates": {
         "submitted": "2026-08-20T00:48:23Z",
@@ -902,10 +939,15 @@
       "arxiv_id": "2608.19483",
       "version": 1,
       "title": "Global Well-Posedness near Rayleigh-Jeans Equilibria for the Cubic NLS Wave Kinetic Equation",
-      "authors": ["Miguel Escobedo", "Angeliki Menegaki"],
+      "authors": [
+        "Miguel Escobedo",
+        "Angeliki Menegaki"
+      ],
       "categories": {
         "primary": "math.AP",
-        "secondary": ["math-ph"]
+        "secondary": [
+          "math-ph"
+        ]
       },
       "dates": {
         "submitted": "2026-08-19T22:41:36Z",
@@ -983,7 +1025,9 @@
       "arxiv_id": "2608.19455",
       "version": 1,
       "title": "Connected Counterexamples to the Henning--Yeo Conjecture on Identifying Vertex Covers",
-      "authors": ["Yufeng Wang"],
+      "authors": [
+        "Yufeng Wang"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
@@ -1061,13 +1105,102 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18362",
+      "version": 1,
+      "title": "A new unconditional lower bound for shoreline search",
+      "authors": [
+        "Alexander Temerev"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T22:27:32Z",
+        "updated": "2026-08-18T22:27:32Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "A unit-speed searcher starts at the origin of the Euclidean plane and must hit an unknown straight line whose direction and distance from the origin are both unknown. We prove that every deterministic search path has competitive ratio at least $C_{\\log}\\approx 12.5937096701246675$. The bound is unconditional: the path need not be cyclic, self-similar, spiral-like, or monotone in angle. For each projection direction, we compare the path with a zigzag obtained by sorting its alternating record turns. The resulting completion constraints are interpreted as jobs with scale-dependent deadlines and lower-bounded through a finite-window scheduling argument in logarithmic time. Averaging these directional bounds then uses the exact Euclidean velocity budget. In one dimension, the same method recovers the optimal cow-path constant $9$. Finally, Arb ball arithmetic provides a rigorous numerical enclosure of the constant.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18362v1",
+        "pdf": "https://arxiv.org/pdf/2608.18362v1",
+        "source": "https://export.arxiv.org/e-print/2608.18362v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 52,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the analytic compactness and integration arguments remain the paper proof rather than a claim of complete formalization. Disclosure of AI assistance Large language models were used in the preparation of this work: OpenAI GPT 5.6 Sol and Anthropic Claude Fable 5 assisted with numerical experiments, exploration of proof strategies, and editing of the text. All definitions, statements, and proofs were checked by the author, who takes full responsibility for the content. A Proof of Lemm",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:01:50.719755Z"
+      },
+      "score": 466.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 13,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 13,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18338",
       "version": 1,
       "title": "Existence and qualitative theory for nonlinear accretive evolutions with Carathéodory forcing",
-      "authors": ["Dieter Bothe"],
+      "authors": [
+        "Dieter Bothe"
+      ],
       "categories": {
         "primary": "math.FA",
-        "secondary": ["math.AP"]
+        "secondary": [
+          "math.AP"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T21:42:30Z",
@@ -1145,7 +1278,11 @@
       "arxiv_id": "2608.18320",
       "version": 1,
       "title": "Asymptotics for Beta-Splitting Trees via Homogeneous Fragmentations and Meromorphic Potential Theory",
-      "authors": ["Yoana R. Chorbadzhiyska", "Martin Minchev", "Mladen Savov"],
+      "authors": [
+        "Yoana R. Chorbadzhiyska",
+        "Martin Minchev",
+        "Mladen Savov"
+      ],
       "categories": {
         "primary": "math.PR",
         "secondary": []
@@ -1226,10 +1363,14 @@
       "arxiv_id": "2608.18302",
       "version": 1,
       "title": "Schur polynomials twisted by roots of unity and reciprocal pairs: torsion filters, fusion quotients, and an equal-rank reduction at odd order",
-      "authors": ["Carles Marín"],
+      "authors": [
+        "Carles Marín"
+      ],
       "categories": {
         "primary": "math.CO",
-        "secondary": ["math.RT"]
+        "secondary": [
+          "math.RT"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T20:27:46Z",
@@ -1307,10 +1448,15 @@
       "arxiv_id": "2608.18288",
       "version": 1,
       "title": "Anytime Solver Evaluation with a Normalized Signed Primal Integral and Explicit Reference Policies - Extended Version",
-      "authors": ["Florian Rascoussier"],
+      "authors": [
+        "Florian Rascoussier"
+      ],
       "categories": {
         "primary": "math.OC",
-        "secondary": ["cs.MS", "cs.PF"]
+        "secondary": [
+          "cs.MS",
+          "cs.PF"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T20:13:45Z",
@@ -1388,10 +1534,17 @@
       "arxiv_id": "2608.18282",
       "version": 1,
       "title": "Self-supervised In-context Operator Learning for Stochastic Mean-Field Control",
-      "authors": ["Suyi Gao", "Mo Zhou", "Rongjie Lai"],
+      "authors": [
+        "Suyi Gao",
+        "Mo Zhou",
+        "Rongjie Lai"
+      ],
       "categories": {
         "primary": "math.OC",
-        "secondary": ["cs.LG", "eess.SY"]
+        "secondary": [
+          "cs.LG",
+          "eess.SY"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T20:03:48Z",
@@ -1469,7 +1622,10 @@
       "arxiv_id": "2608.18257",
       "version": 1,
       "title": "Banach's Isometric Conjecture over the Complex Field",
-      "authors": ["Antonio Acuaviva", "Tomasz Kania"],
+      "authors": [
+        "Antonio Acuaviva",
+        "Tomasz Kania"
+      ],
       "categories": {
         "primary": "math.FA",
         "secondary": []
@@ -1550,10 +1706,14 @@
       "arxiv_id": "2608.18236",
       "version": 2,
       "title": "Exceptional eigenvalue density for thin groups",
-      "authors": ["Christopher Lutsko"],
+      "authors": [
+        "Christopher Lutsko"
+      ],
       "categories": {
         "primary": "math.SP",
-        "secondary": ["math.GT"]
+        "secondary": [
+          "math.GT"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T18:23:28Z",
@@ -1631,7 +1791,10 @@
       "arxiv_id": "2608.18225",
       "version": 1,
       "title": "On the enumeration of polymatroids",
-      "authors": ["Seonghyuk Im", "Donggyu Kim"],
+      "authors": [
+        "Seonghyuk Im",
+        "Donggyu Kim"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
