@@ -4506,6 +4506,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18999",
+      "version": 1,
+      "title": "A Sharp Joint Bias-Energy Envelope for Radial Clipping",
+      "authors": [
+        "Danila Litvinov"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T15:02:00Z",
+        "updated": "2026-08-19T15:02:00Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Radial clipping does two things at once: it removes the part of a vector outside a ball and retains a bounded vector inside the ball. The removed part produces bias, while the squared norm of the retained part produces energy. We determine the exact joint price of these effects when only a $p$-moment, $1<p\\le2$, is available. The problem turns out to be one-dimensional: everything is decided by the position of one point along a ray. At $α=pβ$, the extremal configuration changes. On one side a worst point can be chosen on the clipping sphere; on the other the unique positive extremal radius moves outside. When $p=2$, all inner radii tie in the first regime. The resulting constant is optimal both in the deterministic inequality and in the corresponding Hilbert-space stochastic problem. In the first regime, a symmetric law attains the bound. In the second, the supremum is not attained, but a two-point family with an increasingly rare outlier approaches it. We also show how the same transition determines the sharp bias-energy frontier. We conclude with statistical consequences and an application to online learning.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18999v1",
+        "pdf": "https://arxiv.org/pdf/2608.18999v1",
+        "source": "https://export.arxiv.org/e-print/2608.18999v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 3,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 128,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "int axioms reports only propext, Classical.choice, and Quot.sound; no sorryAx is present. The formalization is a repro- ducibility and consistency check, not independent peer review. Author responsibility. In preparing this article, I used generative AI tools as auxiliary technical aids: for discussion and error detection, assistance with encoding the arguments in Lean 4, language editing and synchronization of the Russian and English versions, LATEX source prepa- ration, computational ch",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:22:21.123063Z"
+      },
+      "score": 279,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 93,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 25,
+          "theorems": 18,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 32,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18967",
       "version": 1,
       "title": "Exact random covers of metric trees: balanced rounding, duality, and sharp thresholds",
