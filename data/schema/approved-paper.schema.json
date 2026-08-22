@@ -216,10 +216,22 @@
             },
             "classification": {
               "enum": [
-                "proofreading_translation",
-                "brainstorming_literature_code",
-                "rewriting_drafting",
-                "substantial_generation",
+                "proofreading_grammar",
+                "translation",
+                "formatting_typesetting",
+                "literature_search",
+                "citation_assistance",
+                "brainstorming_outlining",
+                "code_assistance",
+                "computational_support",
+                "rewriting_existing_text",
+                "limited_text_drafting",
+                "mathematical_examples_conjectures",
+                "substantial_text_generation",
+                "proof_ideas_steps",
+                "complete_proof_drafting",
+                "substantial_proof_generation",
+                "substantial_mathematical_content",
                 "mixed_or_other"
               ]
             },
