@@ -3,6 +3,90 @@
   "papers": [
     {
       "record_version": 1,
+      "arxiv_id": "2608.19991",
+      "version": 1,
+      "title": "Mean curvature bounds for the obstacle problem",
+      "authors": [
+        "Giacomo Colombo",
+        "Federico Franceschini"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T13:05:52Z",
+        "updated": "2026-08-20T13:05:52Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We prove optimal $(n-1)$-semiconvexity estimates for solutions to the classical obstacle problem, possibly with a smooth right-hand side. We deduce that the mean curvature of the free boundary is universally bounded above in all dimensions. Existing examples show that full curvature bounds fail in dimensions three and higher. Noticeably, these results are novel even for a constant right-hand side in the $n=2$ case.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19991v1",
+        "pdf": "https://arxiv.org/pdf/2608.19991v1",
+        "source": "https://export.arxiv.org/e-print/2608.19991v1"
+      },
+      "structural_counts": {
+        "pages": 59,
+        "theorems": 4,
+        "lemmas": 35,
+        "propositions": 7,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 581,
+        "bibliography_entries": 40,
+        "appendix_pages": 59
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper_ND_RHS.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "to the reader. At the same time, presenting only the general case from the start would likely obscure the main ideas. This motivates our two-step presentation. 1.5. Use of AI. Beside minor editing tasks, the authors acknowledge some use of AI models exclusively in the following: to speed up computations for the proof of Theorem 4.11, to prove the technical Theorem 2.7 and for adapting classical monotonicity formulas to the case with right hand side. The paper has entirely been written",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:11:21.810084Z"
+      },
+      "score": 4146,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 518.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 59,
+          "theorems": 24,
+          "lemmas": 140,
+          "propositions": 28,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 145.25,
+          "bibliography_entries": 4,
+          "appendix_pages": 118
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19872",
       "version": 1,
       "title": "New upper bounds on covering codes K_q(n,R) for alphabets of size six and seven",
