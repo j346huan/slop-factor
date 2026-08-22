@@ -343,7 +343,7 @@ async function submitApproval(event) {
       }),
     });
     state.selected.status = "approval-submitted";
-    elements["status-filter"].value = "approval-submitted";
+    elements["status-filter"].value = "pending";
     elements["review-dialog"].close();
     renderCandidates();
     showNotice("Publishing approved paper.", "success");
