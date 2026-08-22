@@ -848,6 +848,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19594",
+      "version": 1,
+      "title": "Mesoscopic Rectangular Spikes under Subspace Local Laws: Outlier Values and Singular Subspaces",
+      "authors": [
+        "Yitzchak Shmalo"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T03:18:51Z",
+        "updated": "2026-08-20T03:18:51Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "A rectangular data matrix is often modelled as noise plus a signal of low rank. When that rank is fixed the picture is classical: a signal direction must exceed a critical strength before it produces a singular value outside the noise bulk, and above the threshold the singular vectors of the observation retain a definite, computable fraction of the planted direction. We ask what survives when the number of signal directions grows with the dimension. Everything here rests on one hypothesis, which we call a subspace local law: seen from inside the signal subspace, the resolvent of the noise should look like a scalar. We show that this hypothesis alone locates the outliers and counts them, and, in a holomorphic form, determines the outlier singular subspaces as well. The conclusions are stated through spectral projectors rather than individual singular vectors, so they remain meaningful when spike strengths collide or come closer together than the error of the approximation, which at growing rank they must. We then verify the hypothesis in four genuinely different settings, from deterministic noise viewed through randomly oriented signal directions to independent entries with fixed deterministic ones, and for Marchenko--Pastur noise we compute every constant explicitly.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19594v1",
+        "pdf": "https://arxiv.org/pdf/2608.19594v1",
+        "source": "https://export.arxiv.org/e-print/2608.19594v1"
+      },
+      "structural_counts": {
+        "pages": 35,
+        "theorems": 8,
+        "lemmas": 16,
+        "propositions": 4,
+        "corollaries": 7,
+        "definitions": 1,
+        "displayed_equations": 174,
+        "bibliography_entries": 21,
+        "appendix_pages": 35
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file RMT_spike_OVERLEAF_2026-08-20.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ience Foundation (grants 2258/19 and 4101/25). Conflicts of interest Y. Shmalo holds equity interests in Heights Labs and Convex Nexus Capital. Declaration of generative AI use Generative-AI tools were used for language editing, organizational assistance, and checking algebraic presentation during manuscript preparation. The author independently reviewed the mathematical statements, proofs, and references",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 34",
+          "page": 34
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:04:27.889013Z"
+      },
+      "score": 603.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 301.6,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 35,
+          "theorems": 48,
+          "lemmas": 64,
+          "propositions": 16,
+          "corollaries": 21,
+          "definitions": 2,
+          "displayed_equations": 43.5,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 70
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19525",
       "version": 1,
       "title": "Quantitative bounds for sets lacking polynomial progressions with shifted prime difference",
