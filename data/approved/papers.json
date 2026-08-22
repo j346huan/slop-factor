@@ -4932,6 +4932,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18942",
+      "version": 1,
+      "title": "Inversion Diameter of Planar Graphs",
+      "authors": [
+        "Yichen Wang",
+        "Yuxuan Yang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T14:08:42Z",
+        "updated": "2026-08-19T14:08:42Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Given an oriented graph $\\vec{G}$ and a subset of vertices $X \\subseteq V(\\vec{G})$, the \\emph{inversion} of $X$ is the operation that reverses the orientation of every arc with both endpoints in $X$. For a simple graph $G$, the inversion diameter $\\operatorname{diam}(I(G))$ is the maximum distance between two orientations of $G$ under inversions of vertex sets. We prove the sharp bound \\[ \\operatorname{diam}(I(G))\\le 2χ_a(G)-2, \\] where $χ_a(G)$ is the acyclic chromatic number. Consequently, every planar graph has inversion diameter at most $8$, improving the previously known bound $12$. Using strong-degeneracy arguments, we also obtain upper bounds $7$, $5$, and $4$ for planar graphs of girth at least $4$, $5$, and $6$, respectively.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18942v1",
+        "pdf": "https://arxiv.org/pdf/2608.18942v1",
+        "source": "https://export.arxiv.org/e-print/2608.18942v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 13,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 64,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ng the preparation of the manuscript. It was used to improve the language, organization, and presentation of the manuscript and to assist in revising preliminary drafts. In particular, the idea in Theorem 1.1 arose from an interaction with ChatGPT. After using this tool the authors reviewed and edited the content as needed and take full responsibility for the content of the publication. No mathematical statement, proof, constant, numerical value or reference in this paper was genera",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:23:37.717313Z"
+      },
+      "score": 254.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 127.3,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 16,
+          "theorems": 78,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 16,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18928",
       "version": 1,
       "title": "Regularity and the Gelfand Property for Complex Symmetric Pairs",
