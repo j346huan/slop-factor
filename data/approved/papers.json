@@ -3,6 +3,92 @@
   "papers": [
     {
       "record_version": 1,
+      "arxiv_id": "2608.19618",
+      "version": 1,
+      "title": "Borelness of Moduli Spaces of Metrics Implies Separability",
+      "authors": [
+        "Yoshito Ishiki",
+        "Tomoki Uda"
+      ],
+      "categories": {
+        "primary": "math.GN",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-20T04:01:07Z",
+        "updated": "2026-08-20T04:01:07Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let X be a metrizable space, and let Met(X) denote the space of metrics compatible with the topology of X, regarded as a subspace of the space of continuous pseudometrics with the supremum-metric topology. We first prove that if Z is a discrete space of cardinality aleph-one, then Met(Z) is not Borel. As a consequence, if Met(X) is Borel, then X is separable. Combined with a theorem of Koshino, our result yields that the space of bounded compatible metrics on a metrizable space X is completely metrizable if and only if X is sigma-compact. We also establish non-Archimedean analogues for spaces of ultrametrics.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19618v1",
+        "pdf": "https://arxiv.org/pdf/2608.19618v1",
+        "source": "https://export.arxiv.org/e-print/2608.19618v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 8,
+        "lemmas": 4,
+        "propositions": 2,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 41,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "t-theoretic facts used in the sequel. In Section 3, we es- tablish the metric coding on discrete spaces and prove the Borel separa- bility theorems, their complete-metric variants, and the corresponding non- Archimedean results. Use of AI. OpenAI Codex was used in the preparation of this manuscript for language editing, LATEX typesetting assistance, and exploration of proof constructions. In particular, Codex suggested the initial construction in Theorem 3.1, which the authors then",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:05:31.287428Z"
+      },
+      "score": 214.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 107.25,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 10,
+          "theorems": 48,
+          "lemmas": 16,
+          "propositions": 8,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 10.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19525",
       "version": 1,
       "title": "Quantitative bounds for sets lacking polynomial progressions with shifted prime difference",
