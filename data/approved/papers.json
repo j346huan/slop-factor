@@ -1105,6 +1105,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18320",
+      "version": 1,
+      "title": "Asymptotics for Beta-Splitting Trees via Homogeneous Fragmentations and Meromorphic Potential Theory",
+      "authors": [
+        "Yoana R. Chorbadzhiyska",
+        "Martin Minchev",
+        "Mladen Savov"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T21:14:45Z",
+        "updated": "2026-08-18T21:14:45Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Inspired by recent work of Aldous, Janson, and Pittel on the critical beta-splitting model, we study the full beta-splitting family for beta greater than minus two through a canonical continuous-time embedding into a homogeneous exchangeable fragmentation. In this representation, the frequency of a tagged fragment is described by a subordinator. We express the continuous height of a typical leaf, its occupation probabilities, the discrete height, and the total continuous-time length in terms of the potential measure of this subordinator. Renewal theory yields first-order asymptotics and a central limit theorem for the continuous height. A regenerative-composition representation gives Gaussian limits for the discrete height above and at the critical value, and a non-Gaussian power-law limit below it. We also obtain residue expansions for the potential measure and the mean continuous height using meromorphic potential theory and generalized Nevanlinna functions. Finally, we study the maximum continuous-time height, proving a law of large numbers and a mixed Gumbel limit. At the critical parameter value, this resolves an open problem of Aldous and Janson.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18320v1",
+        "pdf": "https://arxiv.org/pdf/2608.18320v1",
+        "source": "https://export.arxiv.org/e-print/2608.18320v1"
+      },
+      "structural_counts": {
+        "pages": 53,
+        "theorems": 7,
+        "lemmas": 10,
+        "propositions": 5,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 413,
+        "bibliography_entries": 35,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv_submission_v1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Use of artificial intelligence The main ideas and results of this work were developed in 2025 without the use of artificial- intelligence tools. At a later stage, OpenAI’s ChatGPT 5.6 was used for language editing and as an additional check of the arguments. It suggested using the Poisson approximation of Arratia, Goldstein, and Gordon [AGG89, Theorem 1] in place of the factorial-moment argument initially considered",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 30",
+          "page": 30
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:23:46.254022Z"
+      },
+      "score": 2166,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 270.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 53,
+          "theorems": 42,
+          "lemmas": 40,
+          "propositions": 20,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 103.25,
+          "bibliography_entries": 3.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18302",
       "version": 1,
       "title": "Schur polynomials twisted by roots of unity and reciprocal pairs: torsion filters, fusion quotients, and an equal-rank reduction at odd order",
