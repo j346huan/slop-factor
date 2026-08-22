@@ -5611,6 +5611,96 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18769",
+      "version": 1,
+      "title": "An Integer Programming Approach to Compute Lower Bounds for Ramsey Numbers Using Circulant Graphs",
+      "authors": [
+        "Stefano Coniglio",
+        "Fabio Furini",
+        "Ivana Ljubić",
+        "Pablo San Segundo",
+        "Johannes Thüerauf",
+        "Emiliano Traversi"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T10:26:23Z",
+        "updated": "2026-08-19T10:26:23Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "The Ramsey number $R(m,n)$ is the smallest order at which every red-blue edge coloring of a complete graph must contain a blue clique (a complete subgraph) of size $m$ or a red clique of size $n$. Determining these numbers exactly is extremely hard, and even certifying a lower bound requires exhibiting an explicit coloring that avoids both cliques. We develop an integer programming framework for certifying such lower bounds, restricting the search to circulant graphs, whose rotational symmetry lets us reformulate the problem in a projected distance space, reducing the number of binary variables from quadratic to linear in the graph order. We strengthen this projected model through coefficient reduction and solve it with a branch-and-cut algorithm whose separation routine exploits the common neighborhood structure of circulant graphs, combining heuristic and exact maximum-clique algorithms. In an extensive computational campaign on circulant graphs with up to 410 vertices, we improve the best lower bounds previously obtained by other methods by up to 11 points for 25 values of $R(3,n)$ with $24\\le n\\le49$ and $n\\neq27$, each backed by an explicit graph certificate that can be independently verified with a stand-alone exact clique solver. To the best of our knowledge, our method also provides the first reproducible optimization-based procedure for certifying circulant Ramsey numbers $R_C(m,n)$, which we use to establish eight new values of $R_C(3,n)$ with $13\\le n\\le20$. Our framework, graph certificates, and stand-alone checker are provided as supplementary material to support independent verification and reuse.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18769v1",
+        "pdf": "https://arxiv.org/pdf/2608.18769v1",
+        "source": "https://export.arxiv.org/e-print/2608.18769v1"
+      },
+      "structural_counts": {
+        "pages": 52,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 9,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 85,
+        "bibliography_entries": 42,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ramsey_circulant_public.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "github.com/fabiofurini/ramsey-number-lower- bounds. Acknowledgments The authors acknowledge the use of Codex and OpenAI’s ChatGPT for editing and polishing text and tables for spelling, grammar, and stylistic improvements. Additionally, ChatGPT and Codex were used to support basic coding tasks. The authors gratefully acknowledge the scientific sup- port and HPC resources provided by the Erlangen National High Performance Computing Center (NHR@FAU) of the Friedrich-Alexander-Unive",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 47",
+          "page": 47
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:26:00.402035Z"
+      },
+      "score": 234.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 117.45,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 52,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 36,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 21.25,
+          "bibliography_entries": 4.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18620",
       "version": 1,
       "title": "Superlinear separation between linear and centered colorings",
