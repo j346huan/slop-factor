@@ -44,25 +44,50 @@
         <section class="toolbar" aria-label="Scan and queue controls">
           <form id="scan-form" class="scan-form">
             <label>
-              Date (UTC)
-              <input id="scan-date" name="scanDate" type="date" required />
-            </label>
-            <label>
-              Limit
+              From (UTC)
               <input
-                name="maxResults"
-                type="number"
-                min="1"
-                max="500"
-                value="50"
+                id="scan-start-date"
+                name="startDate"
+                type="date"
                 required
               />
+            </label>
+            <label>
+              To (UTC)
+              <input id="scan-end-date" name="endDate" type="date" required />
             </label>
             <button class="button" type="submit">Scan</button>
           </form>
           <button id="refresh" class="secondary-button" type="button">
             Refresh
           </button>
+        </section>
+
+        <section id="scan-session" class="scan-session" hidden>
+          <div class="scan-session__header">
+            <strong id="scan-stage">Waiting</strong>
+            <span id="scan-percent">0%</span>
+          </div>
+          <progress id="scan-progress" max="1"></progress>
+          <dl class="scan-metrics">
+            <div>
+              <dt>Total</dt>
+              <dd id="scan-total">—</dd>
+            </div>
+            <div>
+              <dt>Processed</dt>
+              <dd id="scan-processed">0</dd>
+            </div>
+            <div>
+              <dt>Candidates</dt>
+              <dd id="scan-candidates">0</dd>
+            </div>
+            <div>
+              <dt>Errors</dt>
+              <dd id="scan-errors">0</dd>
+            </div>
+          </dl>
+          <p id="scan-current" class="scan-current"></p>
         </section>
 
         <section class="stats" aria-label="Candidate queue statistics">

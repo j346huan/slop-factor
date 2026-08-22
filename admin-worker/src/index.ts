@@ -50,6 +50,24 @@ interface CandidatePayload {
   };
 }
 
+interface ScanSession {
+  version: number;
+  session_id: string;
+  issue_number?: number;
+  status: "queued" | "running" | "completed" | "failed";
+  stage: string;
+  start_date: string | null;
+  end_date: string | null;
+  total: number | null;
+  processed: number;
+  candidates: number;
+  errors: number;
+  current: string;
+  created_at: string;
+  updated_at: string;
+  completed_at?: string;
+}
+
 const API_VERSION = "2022-11-28";
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
@@ -221,6 +239,35 @@ function candidatePayload(body: string): CandidatePayload {
   ) as CandidatePayload;
 }
 
+function scanIssueBody(session: ScanSession): string {
+  return `<!-- slop-factor-scan:${base64Url(
+    encoder.encode(JSON.stringify(session)),
+  )} -->\n`;
+}
+
+function scanSession(body: string): ScanSession {
+  const match = body.match(/<!-- slop-factor-scan:([A-Za-z0-9_-]+) -->/);
+  if (!match) throw new Error("Scan issue is missing progress data");
+  return JSON.parse(decoder.decode(fromBase64Url(match[1]))) as ScanSession;
+}
+
+async function ensureScanLabel(token: string, repository: string) {
+  try {
+    await github(
+      token,
+      `/repos/${repository}/labels/${encodeURIComponent("scan-session")}`,
+    );
+  } catch (error) {
+    if (!(error instanceof Error) || !error.message.includes("returned 404"))
+      throw error;
+    await github(token, `/repos/${repository}/labels`, "POST", {
+      name: "scan-session",
+      color: "6f7781",
+      description: "Private candidate scan progress",
+    });
+  }
+}
+
 function candidateStatus(issue: GitHubIssue): string {
   const names = new Set(issue.labels.map((label) => label.name));
   if (names.has("candidate:approval-submitted")) return "approval-submitted";
@@ -295,23 +342,100 @@ async function api(
     return json(runs);
   }
 
+  if (pathname === "/api/scans/current" && request.method === "GET") {
+    const issues = await github<GitHubIssue[]>(
+      token,
+      `/repos/${env.GITHUB_REPOSITORY}/issues?state=all&labels=scan-session&sort=created&direction=desc&per_page=1`,
+    );
+    if (!issues[0]) return json({ scan: null });
+    const scan = scanSession(issues[0].body ?? "");
+    return json({ scan: { ...scan, issue_number: issues[0].number } });
+  }
+
   if (pathname === "/api/scan" && request.method === "POST") {
     const body = await requestBody(request);
-    const scanDate = validDate(body.scanDate);
-    const maxResults = Number(body.maxResults ?? 50);
-    if (!Number.isInteger(maxResults) || maxResults < 1 || maxResults > 500) {
-      return json({ error: "Maximum results must be from 1 through 500" }, 400);
+    const startDate = validDate(body.startDate);
+    const endDate = validDate(body.endDate);
+    if (endDate < startDate) {
+      return json({ error: "End date cannot be before start date" }, 400);
     }
-    const result = await github<unknown>(
+    const openIssues = await github<GitHubIssue[]>(
       token,
-      `/repos/${env.GITHUB_REPOSITORY}/actions/workflows/candidate-discovery.yml/dispatches`,
+      `/repos/${env.GITHUB_REPOSITORY}/issues?state=open&labels=scan-session&per_page=10`,
+    );
+    const active = openIssues
+      .map((issue) => scanSession(issue.body ?? ""))
+      .find((scan) => scan.status === "queued" || scan.status === "running");
+    if (active) return json({ error: "A scan is already in progress" }, 409);
+
+    await ensureScanLabel(token, env.GITHUB_REPOSITORY);
+    const createdAt = new Date().toISOString();
+    const session: ScanSession = {
+      version: 1,
+      session_id: crypto.randomUUID(),
+      status: "queued",
+      stage: "Waiting for runner",
+      start_date: startDate,
+      end_date: endDate,
+      total: null,
+      processed: 0,
+      candidates: 0,
+      errors: 0,
+      current: "",
+      created_at: createdAt,
+      updated_at: createdAt,
+    };
+    const issue = await github<GitHubIssue>(
+      token,
+      `/repos/${env.GITHUB_REPOSITORY}/issues`,
       "POST",
       {
-        ref: "main",
-        inputs: { scan_date: scanDate, max_results: String(maxResults) },
+        title:
+          startDate === endDate
+            ? `Scan ${startDate}`
+            : `Scan ${startDate} to ${endDate}`,
+        body: scanIssueBody(session),
+        labels: ["scan-session"],
       },
     );
-    return json({ accepted: true, workflow: result ?? null }, 202);
+    try {
+      await github<unknown>(
+        token,
+        `/repos/${env.GITHUB_REPOSITORY}/actions/workflows/candidate-discovery.yml/dispatches`,
+        "POST",
+        {
+          ref: "main",
+          inputs: {
+            start_date: startDate,
+            end_date: endDate,
+            scan_issue: String(issue.number),
+          },
+        },
+      );
+    } catch (error) {
+      const failedAt = new Date().toISOString();
+      await github(
+        token,
+        `/repos/${env.GITHUB_REPOSITORY}/issues/${issue.number}`,
+        "PATCH",
+        {
+          state: "closed",
+          state_reason: "completed",
+          body: scanIssueBody({
+            ...session,
+            status: "failed",
+            stage: "Dispatch failed",
+            updated_at: failedAt,
+            completed_at: failedAt,
+          }),
+        },
+      );
+      throw error;
+    }
+    return json(
+      { accepted: true, scan: { ...session, issue_number: issue.number } },
+      202,
+    );
   }
 
   const candidateRoute = pathname.match(
