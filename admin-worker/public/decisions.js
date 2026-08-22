@@ -27,7 +27,9 @@ export function validateDecisionInput(value, candidates, classifications) {
       throw new Error(`Decision ${index + 1} must be a JSON object`);
     }
     const arxivId = String(entry.arxiv_id ?? "").trim();
-    const decision = String(entry.decision ?? "").trim().toLowerCase();
+    const decision = String(entry.decision ?? "")
+      .trim()
+      .toLowerCase();
     if (!arxivId) throw new Error(`Decision ${index + 1} has no arxiv_id`);
     if (seen.has(arxivId)) {
       throw new Error(`Duplicate decision for ${arxivId}`);
@@ -45,9 +47,7 @@ export function validateDecisionInput(value, candidates, classifications) {
     const quotation = String(entry.quotation ?? "");
     const location = String(entry.location ?? "");
     const page = Number(entry.page);
-    const classification = String(
-      entry.disclosure_classification ?? "",
-    ).trim();
+    const classification = String(entry.disclosure_classification ?? "").trim();
     const multiplier = classifications[classification]?.[1];
     if (!quotation || !location || !Number.isInteger(page) || page < 1) {
       throw new Error(
