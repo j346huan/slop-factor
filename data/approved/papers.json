@@ -3141,6 +3141,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19198",
+      "version": 1,
+      "title": "Probabilistic Representation and Convergence of Gromov-Wasserstein Gradient Flows",
+      "authors": [
+        "Venkatkrishna Karumanchi",
+        "Ziv Goldfeld",
+        "Kengo Kato",
+        "Zhengxin Zhang"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T17:59:27Z",
+        "updated": "2026-08-19T17:59:27Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Wasserstein gradient flows are intimately connected with evolution partial differential equations and diffusion processes. We take the first step in developing such connections for inner product Gromov--Wasserstein (IGW) gradient flows by studying the IGW gradient flow of the relative entropy $\\mathsf{H}(\\cdot\\|γ)$ with respect to the standard Gaussian measure $γ$. We first show that $\\mathsf{H}(\\cdot\\|γ)$ fails to be $λ$-convex along generalized or modified generalized IGW geodesics for any $λ\\in \\mathbb{R}$, and therefore falls outside the scope of the existing IGW gradient flow theory from Zhang et al. (2026). We bridge this gap by establishing a suitable \\emph{local} convexity estimate that enables the construction of the gradient flow and its extension to the infinite time horizon. We then obtain increasingly explicit representations of the resulting dynamics. Starting from a partial integro-differential equation, we derive a nonlinear Fokker--Planck equation and show that its second-moment dynamics decouple from the law as they satisfy an autonomous matrix ODE. This reduces the IGW dynamics to a linear, time-inhomogeneous Fokker--Planck equation, yielding a probabilistic representation as the time-marginal flow of a linear stochastic differential equation resembling the Ornstein--Uhlenbeck process. Finally, we study its asymptotic behavior by establishing exponential convergence of the flow to $γ$ in relative entropy.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19198v1",
+        "pdf": "https://arxiv.org/pdf/2608.19198v1",
+        "source": "https://export.arxiv.org/e-print/2608.19198v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 6,
+        "lemmas": 7,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 6,
+        "displayed_equations": 169,
+        "bibliography_entries": 68,
+        "appendix_pages": 9
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "LYS+ 23, CLGL+ 20] . Finally, it remains an open question whether the FPE or SDE identified here arises naturally as a model for a physical or biological phenomenon. 8. Acknowledgements The authors used ChatGPT 5.6 Sol plus to calibrate numerical values used in the coun- terexample in Section B. They independently verified the argument therein.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:16:40.553238Z"
+      },
+      "score": 564.15,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 188.05,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 32,
+          "theorems": 36,
+          "lemmas": 28,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 12,
+          "displayed_equations": 42.25,
+          "bibliography_entries": 6.8,
+          "appendix_pages": 18
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19160",
       "version": 1,
       "title": "Second-Level Concavity of the Riemann $Ξ$ Kernel",
