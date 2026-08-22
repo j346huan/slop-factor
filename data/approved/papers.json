@@ -7316,6 +7316,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18407",
+      "version": 1,
+      "title": "Linear stability of traveling Maxwellians for Landau equation with very soft potentials",
+      "authors": [
+        "Sanchit Chaturvedi",
+        "Jonathan Luk"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T00:27:00Z",
+        "updated": "2026-08-19T00:27:00Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Consider the Landau equation with a Coulomb potential linearized around traveling Maxwellians. We prove that the microscopic part of the linear solution decays with an inverse polynomial rate, while the macroscopic part remains bounded but in general does not decay. In particular, the long-time dynamics are different from the linearization around either (1) traveling Maxwellians for moderately soft or hard potentials or (2) global (non-traveling) Maxwellians (for any potentials).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18407v1",
+        "pdf": "https://arxiv.org/pdf/2608.18407v1",
+        "source": "https://export.arxiv.org/e-print/2608.18407v1"
+      },
+      "structural_counts": {
+        "pages": 58,
+        "theorems": 5,
+        "lemmas": 23,
+        "propositions": 29,
+        "corollaries": 8,
+        "definitions": 4,
+        "displayed_equations": 384,
+        "bibliography_entries": 846,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Traveling.Maxwellians.260818.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the microscopic part of the solution. Acknowledgement. SC acknowledges support by the Simons Foundation Award 1141490. JL gratefully acknowledges the support of a National Science Foundation Grant under DMS-2304445. AI Disclosure. We used Anthropic Claude to proofread earlier versions of the paper. The paper is completely written by the authors and the mathematical content is the authors’ own. 2. Notations We introduce the notations we use in the re",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:33:02.029759Z"
+      },
+      "score": 508.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 508.6,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 58,
+          "theorems": 30,
+          "lemmas": 92,
+          "propositions": 116,
+          "corollaries": 24,
+          "definitions": 8,
+          "displayed_equations": 96,
+          "bibliography_entries": 84.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18362",
       "version": 1,
       "title": "A new unconditional lower bound for shoreline search",
