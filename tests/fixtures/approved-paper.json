@@ -56,8 +56,7 @@
         },
         "classification": "limited_text_drafting",
         "role_label": "Drafting limited passages",
-        "multiplier": 5,
-        "rationale": "The fixture represents a disclosure of drafting assistance."
+        "multiplier": 5
       },
       "verification": {
         "status": "verified",
