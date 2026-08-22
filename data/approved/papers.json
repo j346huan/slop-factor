@@ -3058,6 +3058,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19354",
+      "version": 1,
+      "title": "On the Finiteness of Isolated $j$-invariants for $X_1(N)$",
+      "authors": [
+        "Abbey Bourdon"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T18:18:26Z",
+        "updated": "2026-08-19T18:18:26Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Characterizing isolated points on the modular curve $X_1(N)$ is a key obstruction to classifying all points of a fixed degree. These points do not lie in infinite parameterized families, making them difficult to obtain through geometric constructions. In this paper, we focus on the collection of \"isolated $j$-invariants\" for $X_1(N)$, which are the values obtained by mapping isolated points to the $j$-line. Prior work of the author in collaboration with Ejder, Liu, Odumodu, and Viray asks whether there are only finitely many isolated $j$-invariants lying in extensions of bounded degree. Here, we explore how this question relates to other uniformity problems in the field and give new finiteness results for isolated $j$-invariants in $\\mathbb{Q}$. As an application, we show similar methods give sharpened polynomial bounds on torsion for non-CM elliptic curves having rational $j$-invariant.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19354v1",
+        "pdf": "https://arxiv.org/pdf/2608.19354v1",
+        "source": "https://export.arxiv.org/e-print/2608.19354v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 9,
+        "lemmas": 3,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 41,
+        "bibliography_entries": 64,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "It created initial Latex code for Table 1 and Figure 1. Finally, it provided feedback on the initial version of small sections of the article with suspected subtle grammar errors (namely, the abstract and the first paragraph of page 2). Claude Sonnet 4.6 was used to speed up preliminary data collection for the second paragraph of Remark 11. For specific primes p and q, it was asked to return a list of modular curves in the LMFDB database covering +",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:16:20.592240Z"
+      },
+      "score": 367.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 122.65,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 15,
+          "theorems": 54,
+          "lemmas": 12,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 10.25,
+          "bibliography_entries": 6.4,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19160",
       "version": 1,
       "title": "Second-Level Concavity of the Riemann $Ξ$ Kernel",
