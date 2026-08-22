@@ -5272,6 +5272,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18828",
+      "version": 1,
+      "title": "Counterexample to the Bougard-Joret Conjecture",
+      "authors": [
+        "Joyentanuj Das",
+        "Sayan Gupta"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T11:39:39Z",
+        "updated": "2026-08-19T11:39:39Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "For admissible integers $n,α,k$, let $f(n,α,k)$ be the minimum number of edges in a $k$-connected graph of order $n$ and independence number $α$. A conjecture of Bougard and Joret predicts that $f(n,α,k)=\\lceil nk/2\\rceil$ when $n\\leq kα$, under the assumptions $n\\geq2α$, $n\\geqα+k$, $α\\geq2$, and $k\\geq3$. We disprove this prediction, determine $f(n,α,k)$ throughout the boundary $n=α+k$, and characterize every extremal graph on that boundary. In particular, for every $k\\geq4$, \\[ f(2k-1,k-1,k)=k^2-1, \\] whereas the conjectured value is $k^2-\\lfloor k/2\\rfloor$. The extremal graphs in this family are precisely $\\overline K_{k-1}\\join T$, where $T$ is an arbitrary tree of order $k$. The smallest-order failure has parameters $(n,α,k)=(7,3,4)$, and no admissible counterexample has smaller order.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18828v1",
+        "pdf": "https://arxiv.org/pdf/2608.18828v1",
+        "source": "https://export.arxiv.org/e-print/2608.18828v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 3,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 61,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Counterexample_to_the_Bougard--Joret_Conjecture.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "+ k is completely determined by (3.2), and Corollary 3.2 determines every equality case there. Any corrected conjecture must therefore include the exceptional value k 2 − 1 and the extremal family K k−1 ∨ T when α = k − 1. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used AI to discuss proof strategies, organize and check bibliographic information, check algebraic calculations and proof e",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:24:48.473491Z"
+      },
+      "score": 417.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 52.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 12,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 15.25,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18815",
       "version": 1,
       "title": "The number of groups of cubefree order",
