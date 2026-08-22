@@ -6382,6 +6382,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18468",
+      "version": 1,
+      "title": "New Nonexistence Results for Circulant Weighing Matrices",
+      "authors": [
+        "Ming Ming Tan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.RA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T02:45:55Z",
+        "updated": "2026-08-19T02:45:55Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We prove the nonexistence of eight circulant weighing matrices from the remaining table of orders at most $200$ and weights at most $100$. The proofs combine contraction, character evaluation on the kernel of a contraction, multiplier methods, and exact finite computations. For $CW(105,36)$, the contracted matrix is unique up to equivalence. Applying a nonprincipal character of the $C_3$ kernel gives an element over the Eisenstein integers; reduction modulo $1-ω$ gives a word in a ternary cyclic code of length $35$, and exact enumeration rules out every required Eisenstein-unit lift. For $CW(140,36)$, the real-valued character $Y\\mapsto-1$ of the $C_4$ kernel is incompatible with the same contracted class. For weight $64$, the faithful character $Y\\mapsto i$ of a $C_4$ kernel first gives an element of $\\mathbb{Z}[i][C_m]$; a generalized multiplier then forces constancy on multiplication-by-$2$ orbits, and exact correlation calculations eliminate orders $140$, $180$, and $196$. The three weight-$49$ cases are settled by the ordinary prime-power multiplier, with contraction where needed. Consequently none of $CW(105,36)$, $CW(140,36)$, $CW(116,49)$, $CW(120,49)$, $CW(192,49)$, $CW(140,64)$, $CW(180,64)$, and $CW(196,64)$ exists.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18468v1",
+        "pdf": "https://arxiv.org/pdf/2608.18468v1",
+        "source": "https://export.arxiv.org/e-print/2608.18468v1"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 9,
+        "lemmas": 4,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 95,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main5.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "which contraction leaves only a small number of candidate integer circulant weighing matrices. 9 AI usage disclosure Use of generative AI. The research process for this work involved extensive AI-assisted collaboration using OpenAI’s GPT-5.6 Pro. The author supplied the open cases under investi- gation, the relevant literature, partial proofs, technical observations, and specific mathematical obstructions and gaps encountered during the development of the arguments. Through mu",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:29:06.013912Z"
+      },
+      "score": 1237.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 123.75,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 20,
+          "theorems": 54,
+          "lemmas": 16,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 23.75,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18408",
       "version": 1,
       "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
