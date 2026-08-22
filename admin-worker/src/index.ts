@@ -420,7 +420,11 @@ async function api(
     for (const scan of scans) {
       if (scan.status !== "completed" || !scan.start_date || !scan.end_date)
         continue;
-      for (let date = scan.start_date; date <= scan.end_date; date = nextDate(date)) {
+      for (
+        let date = scan.start_date;
+        date <= scan.end_date;
+        date = nextDate(date)
+      ) {
         completedDates.add(date);
       }
     }
