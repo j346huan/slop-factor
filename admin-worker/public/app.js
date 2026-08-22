@@ -1,4 +1,9 @@
-const state = { candidates: [], selected: null, scanTimer: null };
+const state = {
+  candidates: [],
+  latestAvailable: null,
+  selected: null,
+  scanTimer: null,
+};
 const classifications = {
   proofreading_grammar: ["Proofreading, grammar, or spelling", 1],
   translation: ["Translation", 1],
@@ -34,10 +39,12 @@ const elements = Object.fromEntries(
     "dashboard",
     "empty-state",
     "login-panel",
+    "latest-arxiv-date",
     "notice",
     "next-unscanned",
     "pending-count",
     "rejected-count",
+    "refresh-available",
     "review-content",
     "review-dialog",
     "review-title",
@@ -434,13 +441,31 @@ async function loadScan() {
   }
 }
 
-async function loadScanHistory() {
-  const payload = await api("/api/scans/history");
+async function loadScanHistory(refreshAvailable = false) {
+  const query = refreshAvailable
+    ? "?refresh=available"
+    : state.latestAvailable
+      ? `?available=${encodeURIComponent(state.latestAvailable)}`
+      : "";
+  const payload = await api(`/api/scans/history${query}`);
+  if (payload.latest_available)
+    state.latestAvailable = payload.latest_available;
   elements["next-unscanned"].textContent =
-    payload.next_unscanned ?? "Up to date";
+    payload.next_unscanned ??
+    (state.latestAvailable ? "Up to date" : "Refresh dates");
+  elements["latest-arxiv-date"].textContent = state.latestAvailable ?? "—";
   elements["scanned-dates"].textContent = payload.scanned_dates.length
     ? payload.scanned_dates.join(", ")
     : "No completed dates.";
+  if (state.latestAvailable) {
+    for (const id of ["scan-start-date", "scan-end-date"]) {
+      elements[id].max = state.latestAvailable;
+    }
+    if (refreshAvailable && payload.next_unscanned) {
+      elements["scan-start-date"].value = payload.next_unscanned;
+      elements["scan-end-date"].value = payload.next_unscanned;
+    }
+  }
 }
 
 async function initialize() {
@@ -491,6 +516,18 @@ document
 
 document.getElementById("refresh").addEventListener("click", async () => {
   await Promise.all([loadCandidates(), loadScan(), loadScanHistory()]);
+});
+elements["refresh-available"].addEventListener("click", async () => {
+  const button = elements["refresh-available"];
+  button.disabled = true;
+  try {
+    await loadScanHistory(true);
+    showNotice(`Latest arXiv date: ${state.latestAvailable}.`, "success");
+  } catch (error) {
+    showNotice(error.message, "error");
+  } finally {
+    button.disabled = false;
+  }
 });
 elements["scan-start-date"].addEventListener("change", () => {
   if (elements["scan-end-date"].value < elements["scan-start-date"].value) {
