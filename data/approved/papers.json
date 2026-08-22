@@ -6293,6 +6293,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18648",
+      "version": 1,
+      "title": "The induced-$P_4$-free process",
+      "authors": [
+        "Hongyi Lou",
+        "Xinzhe Song",
+        "Guiying Yan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T07:54:37Z",
+        "updated": "2026-08-19T07:54:37Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We study the random induced-$P_4$-free graph process. Let $e_1,\\ldots,e_N$, where $N=\\binom{n}{2}$, be a uniformly random ordering of the edges of $K_n$. Starting from the empty graph $G_0$, we add $e_{m+1}$ whenever $G_m+e_{m+1}$ contains no induced $P_4$, and otherwise leave the graph unchanged. We show that the terminal graph is a trivially perfect graph and we describe the structure and distribution of the connected components of the terminal graph $G_N$. Consequently, we derive the limiting values of several natural graph parameters. In particular, the terminal graph $G_N$ has $Θ(n)$ edges.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18648v1",
+        "pdf": "https://arxiv.org/pdf/2608.18648v1",
+        "source": "https://export.arxiv.org/e-print/2608.18648v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 4,
+        "lemmas": 16,
+        "propositions": 4,
+        "corollaries": 5,
+        "definitions": 1,
+        "displayed_equations": 154,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "laws. 7 Acknowledgements This work was supported by the Key Program of the National Natural Science Foundation of China (NSFC) under Grant No. 12231018. 8 Declaration on the use of AI During the preparation of this manuscript, ChatGPT 5.6 was used to assist with computational tasks and language polishing. All research ideas, proof strategies, theoretical arguments, and conclusions were independently developed by the authors. References [1] F. Bassino, M. Bouvel, V. F",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:31:25.311644Z"
+      },
+      "score": 580.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 193.4,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 32,
+          "theorems": 24,
+          "lemmas": 64,
+          "propositions": 16,
+          "corollaries": 15,
+          "definitions": 2,
+          "displayed_equations": 38.5,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18620",
       "version": 1,
       "title": "Superlinear separation between linear and centered colorings",
