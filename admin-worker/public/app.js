@@ -142,7 +142,9 @@ function renderCandidates() {
       text("span", candidate.paper.primary_category),
       text(
         "span",
-        candidate.status.replaceAll("-", " "),
+        candidate.status === "approval-submitted"
+          ? "publishing"
+          : candidate.status.replaceAll("-", " "),
         `status status--${candidate.status}`,
       ),
     );
@@ -340,11 +342,12 @@ async function submitApproval(event) {
         multiplier: Number(data.get("multiplier")),
       }),
     });
+    state.selected.status = "approval-submitted";
+    elements["status-filter"].value = "approval-submitted";
     elements["review-dialog"].close();
-    showNotice(
-      "Approval workflow started. A pull request will appear after validation passes.",
-      "success",
-    );
+    renderCandidates();
+    showNotice("Publishing approved paper.", "success");
+    loadCandidates().catch((error) => showNotice(error.message, "error"));
   } catch (error) {
     showNotice(error.message, "error");
   } finally {

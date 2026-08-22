@@ -1,7 +1,7 @@
 # Administrator dashboard
 
 Slop Factor includes a private browser-based administrator dashboard. It scans arXiv, manages the
-candidate queue, records human review decisions, and prepares approval pull requests without using
+candidate queue, records human review decisions, and publishes approved records without using
 ChatGPT, Codex, a language model, or an AI API.
 
 The public site remains a static GitHub Pages build. The administrator dashboard is served by a free
@@ -17,9 +17,9 @@ the Worker has no database. Approved records and the public website remain in
 3. Review matched passages and preliminary structural counts in the private pending queue.
 4. Reject an ineligible match with a factual reason, or select the exact disclosure passage.
 5. Confirm the quotation, location, classification, and multiplier, then click **Approve**.
-6. Review and merge the resulting approval pull request to publish the paper.
+6. The approved record is validated, published, and deployed automatically.
 
-Automated discovery never writes approved data. Approval never pushes directly to `main`.
+Automated discovery never writes approved data. Only an explicit human approval publishes a record.
 
 ## One-time deployment setup
 

@@ -40,8 +40,8 @@ The score is not normalized and is not an AI probability.
 - The production build reads only the version-controlled approved JSON collection.
 - Python queries the official arXiv API, finds review candidates, safely analyzes source archives,
   falls back to extracted PDF text when needed, and performs explicit local approval.
-- GitHub Actions validates changes, deploys GitHub Pages, discovers candidates, and prepares approval
-  pull requests after explicit human confirmation.
+- GitHub Actions validates changes, deploys GitHub Pages, discovers candidates, and publishes records
+  after explicit human confirmation.
 - A small Cloudflare Worker provides GitHub authentication and the private administrator dashboard.
   It uses no database, paid API, detector, language model, or custom domain.
 
@@ -137,7 +137,7 @@ Run the validator and inspect the resulting diff before committing.
 - `candidate-discovery.yml` runs daily at 04:17 UTC or for a dashboard-selected date. It can write only
   private candidate issues; it cannot write repository contents, change approved data, or deploy.
 - `approve-candidate.yml` accepts an explicit dashboard review decision, validates the generated record,
-  and opens a pull request without writing directly to `main`.
+  publishes it to `main`, and starts the Pages deployment.
 - `admin-deploy.yml` deploys the authenticated dashboard and API to Cloudflare Workers.
 
 Configure the repository’s Pages source as **GitHub Actions**. Branch protection requiring the

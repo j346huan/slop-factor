@@ -1,4 +1,86 @@
 {
   "schema_version": 1,
-  "papers": []
+  "papers": [
+    {
+      "record_version": 1,
+      "arxiv_id": "2608.18225",
+      "version": 1,
+      "title": "On the enumeration of polymatroids",
+      "authors": ["Seonghyuk Im", "Donggyu Kim"],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T18:11:25Z",
+        "updated": "2026-08-18T18:11:25Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $p_k(n)$ be the number of $k$-polymatroids on $[n]$. We show that for every fixed $k \\geq 1$, we have \\[ \\left\\lfloor \\frac{k}{2} \\right\\rfloor \\cdot \\binom{n}{\\lfloor n/2 \\rfloor} \\cdot (1+o(1)) \\le \\log_2 p_k(n) \\le k \\cdot \\binom{n}{\\lfloor n/2 \\rfloor} \\cdot (1+o(1)). \\] We also show that for $k \\geq 2$, almost all $k$-polymatroids are (i) connected, (ii) proper, and (iii) not linearly representable over any field.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18225v1",
+        "pdf": "https://arxiv.org/pdf/2608.18225v1",
+        "source": "https://export.arxiv.org/e-print/2608.18225v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 11,
+        "lemmas": 6,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 3,
+        "displayed_equations": 56,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "any field in the sense of [1]. Acknowledgments SI was supported by a KIAS Individual Grant (AP109501) at the Korea Institute for Advanced Study. DK was partially supported by an AMS–Simons Travel Grant. AI Declaration The authors used Gemini and GPT to develop the initial idea of the proof of Theorem 1.1. The full proof of Theorem 1.1 was written and verified by the authors. In the rest of the paper, LLM-based tools are only used to polish the writing. References [1] Matthe",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T02:23:52.192532Z"
+      },
+      "score": 1018.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 127.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 11,
+          "theorems": 66,
+          "lemmas": 24,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 6,
+          "displayed_equations": 14,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    }
+  ]
 }
