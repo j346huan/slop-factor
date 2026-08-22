@@ -3657,6 +3657,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19138",
+      "version": 1,
+      "title": "Universal braids for elliptic fibrations: from character varieties to Coxeter's factor groups",
+      "authors": [
+        "Faye Jackson"
+      ],
+      "categories": {
+        "primary": "math.GT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T17:29:27Z",
+        "updated": "2026-08-19T17:29:27Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $π: M \\to B$ be an elliptic fibration over $B = D^2$ or $B = S^2$ with $n$ nodal fibers over $Δ\\subseteq B$. We study the universal liftable braids for $π$: those braids that admit a fiber-preserving lift to $M$ for all choices of coordinates on $(B,Δ)$. When $B = S^2$, we show that nontrivial universal braids do not exist by proving a Zariski-density theorem on the $\\mathrm{SL}_2$-character variety for $(S^2,Δ)$. When $B = D^2$ we classify when the subgroup of universal braids has finite index in the braid group $B_n = \\mathrm{Mod}(D^2,Δ)$, and relate these examples to Coxeter's factor groups of braid groups, which in turn are related to the platonic solids. Finally, we generalize the results derived in the finite-index cases by considering a canonical family of branched covers of the base $B$ associated to any elliptic fibration. The generalization naturally connects the universal braids to the integral Burau representation reduced modulo 3.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19138v1",
+        "pdf": "https://arxiv.org/pdf/2608.19138v1",
+        "source": "https://export.arxiv.org/e-print/2608.19138v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 0,
+        "lemmas": 4,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 57,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file branched.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "https://github.com/FayeAlephNil/solomon (††) or, upon reasonable request, from the author. Gemini Pro was used to improve the figure in Figure 1 from a hand-drawn picture into professional TikZ code. Gemini Pro was also used to perform literature searches for references before being hand-checked by the author. Claude Opus was used in the editing process to detect typos and check proofs. Acknowledgements. The author would like to thank Benson",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:18:40.548888Z"
+      },
+      "score": 152.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 76.25,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 30,
+          "theorems": 0,
+          "lemmas": 16,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 14.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19060",
       "version": 1,
       "title": "Activated switching between coexisting limit cycles",
