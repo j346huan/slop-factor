@@ -1189,6 +1189,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18620",
+      "version": 1,
+      "title": "Superlinear separation between linear and centered colorings",
+      "authors": [
+        "Jędrzej Hodor",
+        "Piotr Micek"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T07:15:21Z",
+        "updated": "2026-08-19T07:15:21Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "A vertex-coloring of a graph is centered if every connected subgraph has a vertex with a unique color. A vertex-coloring of a graph is linear if every path in the graph has a vertex with a unique color. Let $χ_{\\mathrm{cen}}(G)$ and $χ_{\\mathrm{lin}}(G)$ be the minimum number of colors in a centered (resp. linear) coloring of $G$. We present a family of graphs witnessing that if $f$ is a nondecreasing function such that $χ_{\\mathrm{cen}}(G) \\leq f(χ_{\\mathrm{lin}}(G))$ for every graph $G$, then $f(k) = Ω(k^2 / \\log k)$. The construction was found by OpenAI's GPT-5.6 Sol Pro.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18620v1",
+        "pdf": "https://arxiv.org/pdf/2608.18620v1",
+        "source": "https://export.arxiv.org/e-print/2608.18620v1"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 13,
+        "bibliography_entries": 5,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "χcen (G) = O(χlin (G)2 ) for all chordal graphs G. Thus, we obtain an almost tight bound on the optimal binding function for this class. Statement of AI use The construction was found by OpenAI’s GPT-5.6 Sol Pro. The authors take responsibility for the mathematical correctness of the presented arguments. References [1] Prosenjit Bose, Vida Dujmović, Hussein Houdrouge, Mehrnoosh Javarsineh, an",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:02:44.112097Z"
+      },
+      "score": 257.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 25.75,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 4,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3.25,
+          "bibliography_entries": 0.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18408",
       "version": 1,
       "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
