@@ -6043,6 +6043,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18568",
+      "version": 1,
+      "title": "An Improved Degree Condition for Connectivity-Preserving Spanning $(u,v)$-Paths",
+      "authors": [
+        "Heng Yang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T05:53:51Z",
+        "updated": "2026-08-19T05:53:51Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Teng and Tian proved the following result. Let $k\\ge 2$ and $t\\ge 3$, and let $G$ be a $k$-connected graph of order $n$. If $n\\ge 6k+1$ and $δ(G)\\ge \\lceil(n+6)/2\\rceil$ when $t=3$, while $n\\ge 6k+7t-17$ and $δ(G)\\ge \\lceil(n+t+2)/2\\rceil$ when $t\\ge 4$, then, for any two distinct vertices $u,v$ and every integer $s$ with $1\\le s\\le t$, there exist $s$ internally vertex-disjoint $(u,v)$-paths $P_1,\\dots,P_s$ whose union spans $G$ and such that $G-E(P_1\\cup\\cdots\\cup P_s)$ is $k$-connected. They asked whether the minimum-degree condition could be lowered to $δ(G)\\ge \\lceil(n+t)/2\\rceil$ for every $t\\ge 3$. We answer this question affirmatively and further reduce the required order to $n\\ge \\max\\{6k+9-3t,\\,2k+t+3\\}$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18568v1",
+        "pdf": "https://arxiv.org/pdf/2608.18568v1",
+        "source": "https://export.arxiv.org/e-print/2608.18568v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 6,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 53,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file spanning.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rder hypothesis. The resulting order bound n ≥ max{6k + 9 − 3t, 2k + t + 3} cannot be lowered using the estimates in the present proof; any further improvement would require sharper estimates or a different argument. Declaration of AI Use. ChatGPT was used to assist in developing and checking the con- structions and proofs. The author independently verified all mathematical arguments, wrote the paper, and takes full responsibility for its content. References [1] G. Chartrand, S.F",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:27:34.017360Z"
+      },
+      "score": 603.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 75.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 9,
+          "theorems": 36,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 13.25,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18408",
       "version": 1,
       "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
