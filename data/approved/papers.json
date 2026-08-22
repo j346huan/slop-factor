@@ -4075,6 +4075,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19065",
+      "version": 1,
+      "title": "Boundedly exchangeable graphs",
+      "authors": [
+        "Leon-Roman Rinke",
+        "Stefan Weber"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T16:07:44Z",
+        "updated": "2026-08-19T16:07:44Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "An infinite jointly exchangeable adjacency matrix is a mixture of graphon models, and its graph is almost surely empty or dense; classical matrix exchangeability therefore excludes sparse nonempty graphs. We study a point-process alternative, graph processes, whose vertices are identified with the atoms of a locally finite point process on a Polish latent space and whose edges are drawn conditionally independently from a symmetric connection kernel $W$. For a Poisson graph process with diffuse $σ$-finite intensity, we show that its edge measure is jointly exchangeable as a random measure if and only if $W$ is essentially constant. Non-constant kernels therefore require a different exchangeability notion. We introduce bounded exchangeability, under which every nontrivial bounded restriction determines an infinite jointly exchangeable adjacency matrix that is unique in distribution, with an associated local graphon representation. We then study threshold models on homogeneous Riemannian manifolds, in which Poisson-distributed vertices are connected whenever their intrinsic distance is at most a fixed threshold. On every infinite-volume manifold in this class, the model is sparse, its empirical degree distribution converges to a Poisson law, and its limiting clustering coefficient depends on an additional geometric parameter that can vary while the limiting degree law is held fixed.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19065v1",
+        "pdf": "https://arxiv.org/pdf/2608.19065v1",
+        "source": "https://export.arxiv.org/e-print/2608.19065v1"
+      },
+      "structural_counts": {
+        "pages": 39,
+        "theorems": 3,
+        "lemmas": 7,
+        "propositions": 13,
+        "corollaries": 1,
+        "definitions": 9,
+        "displayed_equations": 154,
+        "bibliography_entries": 53,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tical applicability. Acknowledgements The authors acknowledge the use of the AI-assisted tools ChatGPT (OpenAI; several versions of GPT-5; accessed via chatgpt.com) and Claude (Anthropic; Claude 4.8 Opus and Claude 5 Sonnet, accessed via claude.ai). These tools were used to suggest improvements to wording and grammar, to flag possible minor errors or omissions in the mathematical exposition for subsequent independent review, and to assist with LaTeX table formatting and code u",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:20:42.398038Z"
+      },
+      "score": 403.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 201.8,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 39,
+          "theorems": 18,
+          "lemmas": 28,
+          "propositions": 52,
+          "corollaries": 3,
+          "definitions": 18,
+          "displayed_equations": 38.5,
+          "bibliography_entries": 5.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19060",
       "version": 1,
       "title": "Activated switching between coexisting limit cycles",
