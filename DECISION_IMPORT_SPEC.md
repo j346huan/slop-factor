@@ -85,4 +85,4 @@ Supported `disclosure_classification` values:
 | `substantial_proof_generation` | 10 |
 | `substantial_mathematical_content` | 10 |
 
-The dashboard validates the complete file before applying any decision. It processes valid decisions in file order and stays on the pending list afterward.
+The dashboard processes entries independently in file order and stays on the pending list afterward. Papers that are no longer pending are skipped. Invalid entries and request failures are reported after all other valid decisions have been attempted.
