@@ -3,6 +3,91 @@
   "papers": [
     {
       "record_version": 1,
+      "arxiv_id": "2608.20215",
+      "version": 1,
+      "title": "On the proof of Bray's conjecture",
+      "authors": [
+        "Xumin Jiang",
+        "Mingxiang Li",
+        "Zhehui Wang"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T16:11:53Z",
+        "updated": "2026-08-20T16:11:53Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $(M^n,g)$ be a connected, closed, smooth Riemannian manifold with dimension $n\\geq 3$. There exists a positive constant $\\varepsilon_n<1$ such that, if Ricci curvature $\\operatorname{Ric}_g\\geq \\varepsilon_n(n-1)g$ and the scalar curvature $R_g\\geq n(n-1)$, then the volume $V_g(M^n)$ is less than or equal to the volume of standard $n$-sphere. This confirms a conjecture by Bray in 1997.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.20215v1",
+        "pdf": "https://arxiv.org/pdf/2608.20215v1",
+        "source": "https://export.arxiv.org/e-print/2608.20215v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 5,
+        "lemmas": 2,
+        "propositions": 3,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 80,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file On_the_proof_of_Bray_s_conjecture_1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s inequality, we show that if (1.6) fails, then ν(g) is strictly greater than the entropy limit of the n-sphere. However, by applying Ma–Wang’s result [9], we prove that this cannot happen. Disclosure on AI assistance The authors used AI-assisted tools, principally ChatGPT. The authors verified all theorem statements, proofs, and take full responsibility for the contents of the paper. 2. Preliminaries In this section, we introduce four ke",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "mixed_or_other",
+        "role_label": "Mixed or intermediate disclosed use",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:16:43.727629Z"
+      },
+      "score": 433,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 86.6,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 9,
+          "theorems": 30,
+          "lemmas": 8,
+          "propositions": 12,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 20,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.20101",
       "version": 1,
       "title": "Largest bulk gap of the complex Ginibre ensemble",
