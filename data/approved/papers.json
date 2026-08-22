@@ -5186,6 +5186,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19286",
+      "version": 1,
+      "title": "Minimum attaining operators on reducing subspaces: Spectral structure and density",
+      "authors": [
+        "Puspendu Nag",
+        "Golla Ramesh"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.OA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T12:03:59Z",
+        "updated": "2026-08-19T12:03:59Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "In this article, we introduce and investigate a new subclass $\\mathcal{M}_r(H)$ of minimum attaining operators on a separable Hilbert space $H$. This class contains the absolutely minimum attaining operators and is properly contained in the class of minimum attaining operators. We establish several structural and spectral characterizations of operators in $\\mathcal{M}_r(H)$. In particular, we characterize positive operators in $\\mathcal{M}_r(H)$ in terms of their spectral representations. We prove that $\\mathcal{M}_r(H)$ is dense in $\\mathcal{B}(H)$ in the operator norm and, moreover, that the operators in $\\mathcal{M}_r(H)$ having a nontrivial invariant half-space are also dense in $\\mathcal{B}(H)$ in the operator norm. We further obtain a representation theorem for normal operators in $\\mathcal{M}_r(H)$ and establish additional structural properties of this class.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19286v1",
+        "pdf": "https://arxiv.org/pdf/2608.19286v1",
+        "source": "https://export.arxiv.org/e-print/2608.19286v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 11,
+        "lemmas": 4,
+        "propositions": 13,
+        "corollaries": 10,
+        "definitions": 3,
+        "displayed_equations": 107,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file minattainingreducingsubspaces.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "MINIMUM ATTAINING OPERATORS ON REDUCING SUBSPACES 29 Acknowledgements The authors used ChatGPT (OpenAI) to assist with improving the language and polishing the grammar. All mathematical ideas, results, proofs, and conclusions are the authors’ own, and the authors take full responsibility for the contents of the manuscript.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 29",
+          "page": 29
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:24:26.172889Z"
+      },
+      "score": 229.05,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 229.05,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 30,
+          "theorems": 66,
+          "lemmas": 16,
+          "propositions": 52,
+          "corollaries": 30,
+          "definitions": 6,
+          "displayed_equations": 26.75,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18815",
       "version": 1,
       "title": "The number of groups of cubefree order",
