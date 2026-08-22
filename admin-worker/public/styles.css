@@ -482,6 +482,11 @@ textarea {
   margin: 0;
 }
 
+.review-keywords {
+  margin: 0;
+  padding-left: 1rem;
+}
+
 .evidence-card {
   position: relative;
   margin-bottom: 0.55rem;
@@ -508,6 +513,12 @@ textarea {
   font-weight: 400;
 }
 
+.evidence-pdf-link {
+  display: inline-block;
+  margin: -0.2rem 0 0.75rem 2.25rem;
+  font-size: 0.82rem;
+}
+
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -525,12 +536,6 @@ textarea {
   padding: 0.65rem;
   background: #f1f1ef;
   font-weight: 750;
-}
-
-.confirmation {
-  margin: 1rem 0;
-  padding: 0.75rem;
-  border: 1px solid var(--line);
 }
 
 .review-actions {
