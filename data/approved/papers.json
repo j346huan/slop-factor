@@ -2038,6 +2038,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19623",
+      "version": 1,
+      "title": "Palette Sparsification for General Uniform Hypergraphs",
+      "authors": [
+        "Ruizhe Shi"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM",
+          "cs.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-20T04:16:33Z",
+        "updated": "2026-08-20T04:16:33Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We prove a palette sparsification theorem for general $r$-uniform hypergraphs. For all sufficiently large $n$, every $r\\ge 3$, and every $α\\ge 7.1$, we show that an $n$-vertex $r$-uniform hypergraph of maximum degree $Δ$ is w.h.p. colorable from independently sampled lists of size $O(\\sqrt{\\log n})$ drawn from an ambient palette of size $\\lceil αΔ^{1/(r-1)}\\rceil$. The $\\sqrt{\\log n}$ dependence is asymptotically tight.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19623v1",
+        "pdf": "https://arxiv.org/pdf/2608.19623v1",
+        "source": "https://export.arxiv.org/e-print/2608.19623v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 1,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 37,
+        "bibliography_entries": 11,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "AI disclosure GPT-5.6 Sol was used to quickly test intuitions, to help improve the constant coefficients, and to check for typos. It also found that the lower bound was already established in prior literature. The author takes full responsibility for all statem",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:14:37.381363Z"
+      },
+      "score": 458.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 57.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 9,
+          "theorems": 6,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 9.25,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19618",
       "version": 1,
       "title": "Borelness of Moduli Spaces of Metrics Implies Separability",
