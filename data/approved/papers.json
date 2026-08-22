@@ -7057,6 +7057,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18432",
+      "version": 1,
+      "title": "Donaldson-Sun Theory in the Conic Case",
+      "authors": [
+        "Arka Karmakar"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math.AG",
+          "math.CV"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T01:46:29Z",
+        "updated": "2026-08-19T01:46:29Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We extend the Donaldson-Sun theory of metric tangent cones to non-collapsing Gromov-Hausdorff limits of conical Kahler-Einstein pairs whose boundary coefficients lie in a fixed finite subset of Q, and prove uniqueness of the log metric tangent cone. Furthermore, under a mild lc compatibility condition, we relate this with the Li-Xu and Li-Liu-Xu stable degeneration machinery. We also construct polarized smooth Kaehler metrics on CP^2 with a uniform lower Ricci bound and volume non-collapsing, whose limit has nonunique tangent cones, showing that the Kahler-Einstein assumption is crucial for rigidity.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18432v1",
+        "pdf": "https://arxiv.org/pdf/2608.18432v1",
+        "source": "https://export.arxiv.org/e-print/2608.18432v1"
+      },
+      "structural_counts": {
+        "pages": 44,
+        "theorems": 11,
+        "lemmas": 17,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 7,
+        "displayed_equations": 41,
+        "bibliography_entries": 34,
+        "appendix_pages": 9
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "upport, and also for suggesting this topic. The author also thanks Colin Fan and Prof. Yuchen Liu for helpful discussions on algebraic geometry; especially the section on special test configurations. The author also acknowledges the use of GPT-5.6 Sol for proofreading and for assistance in developing the construction in Appendix A. The author takes full responsibility for all mathematical claims and any errors.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:32:14.720655Z"
+      },
+      "score": 459.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 229.65,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 44,
+          "theorems": 66,
+          "lemmas": 68,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 14,
+          "displayed_equations": 10.25,
+          "bibliography_entries": 3.4,
+          "appendix_pages": 18
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18408",
       "version": 1,
       "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
