@@ -19,6 +19,7 @@ const pending = {
 };
 const classifications = {
   proofreading_grammar: ["Proofreading, grammar, or spelling", 1],
+  limited_text_drafting: ["Drafting limited passages", 5],
   mixed_or_other: ["Mixed or intermediate disclosed use", null],
 };
 
@@ -75,6 +76,38 @@ describe("pending decision files", () => {
     );
     assert.equal(result.evidenceIndex, 1);
     assert.equal(result.multiplier, 1);
+    assert.equal(result.locationKind, "page");
+  });
+
+  it("accepts an arXiv metadata disclosure with a null page", () => {
+    const metadata = {
+      ...pending,
+      candidate_id: "2608.19074v1",
+      evidence: [
+        {
+          quotation: "ChatGPT was used in developing and drafting this result.",
+          location_value: "arXiv metadata: abstract",
+          page: null,
+        },
+      ],
+    };
+    const [result] = validateDecisionInput(
+      [
+        {
+          arxiv_id: metadata.candidate_id,
+          decision: "approve",
+          quotation: metadata.evidence[0].quotation,
+          location: metadata.evidence[0].location_value,
+          page: null,
+          disclosure_classification: "limited_text_drafting",
+        },
+      ],
+      [metadata],
+      classifications,
+    );
+    assert.equal(result.page, null);
+    assert.equal(result.locationKind, "metadata");
+    assert.equal(result.multiplier, 5);
   });
 
   it("rejects mismatched evidence and variable classifications", () => {
