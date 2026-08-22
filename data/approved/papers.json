@@ -850,6 +850,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19989",
+      "version": 1,
+      "title": "On facet gaps of order and chain polytopes",
+      "authors": [
+        "Ghislain Fourier"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T13:04:19Z",
+        "updated": "2026-08-20T13:04:19Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We discuss three questions from a recent paper of Bhandari, Cunningham, Morrell, Oh and Smith. We obtain an exact local formula for the facet gap between the order and the chain polytope of a finite poset. This gives a classification of the case $\\gap(P)=2$ in terms of star elements. For marked chain--order polytopes, the same local weights determine the facet differences between all admissible decompositions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19989v1",
+        "pdf": "https://arxiv.org/pdf/2608.19989v1",
+        "source": "https://export.arxiv.org/e-print/2608.19989v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 33,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main__1_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "]. Acknowledgment. The author gratefully acknowledges financial support by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) through Symbolic Tools in Math- ematics and their Application (TRR 195, project-ID 286237555). ChatGPT (OpenAI) was used for language editing and for computations in examples. 2. The facet gap and star elements We add a smallest element b 1 to P and write Pb = P ⊔ {b",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:11:39.019754Z"
+      },
+      "score": 89.85,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 29.95,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 8.25,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19986",
       "version": 1,
       "title": "Weakly stable solutions of Serrin's problem",
