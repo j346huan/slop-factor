@@ -3992,6 +3992,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19074",
+      "version": 1,
+      "title": "A Mini-Batch Counterexample to Last-Iterate Convergence in Definable Optimization",
+      "authors": [
+        "Weiwei Kong"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T16:23:46Z",
+        "updated": "2026-08-19T16:23:46Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We give a counterexample to the convergence conjecture in Remark 12 of [Bolte & Pauwels, 2021] for mini-batch stochastic approximation with definable potentials. The construction uses two convex piecewise-affine, hence semialgebraic, summands on $\\mathbb{R}$. We choose a deterministic nonincreasing block stepsize sequence satisfying $α_k = o(1/\\log k)$ and an admissible minimum-norm selection from each aggregate batch field. On successive blocks, the iterates form lazy reflected random walks on nested dyadic lattices. An explicit endpoint-cover-time estimate, Markov's inequality, and the first Borel-Cantelli lemma imply that almost surely every sufficiently late block's iterates visit their entire lattice. Consequently, the iterates remain in $[-1,1]$ but do not converge, and their accumulation set is exactly $[-1,1]$, on which the averaged objective is constant. Finally, the construction has $\\sum_k α_k^2 =\\infty$. Both Chat-GPT 5.6 (Sol) and Gemini Pro 3.1 (DeepThink) were used in the development and drafting of this result.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19074v1",
+        "pdf": "https://arxiv.org/pdf/2608.19074v1",
+        "source": "https://export.arxiv.org/e-print/2608.19074v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 40,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nsequently, the iterates remain in $[-1,1]$ but do not converge, and their accumulation set is exactly $[-1,1]$, on which the averaged objective is constant. Finally, the construction has $\\sum_k α_k^2 =\\infty$. Both Chat-GPT 5.6 (Sol) and Gemini Pro 3.1 (DeepThink) were used in the development and drafting of this result.",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:20:18.404746Z"
+      },
+      "score": 208,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 41.6,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 9,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 10,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19060",
       "version": 1,
       "title": "Activated switching between coexisting limit cycles",
