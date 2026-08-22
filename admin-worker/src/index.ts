@@ -376,6 +376,7 @@ function publicCandidate(
 ): object {
   const payload = candidatePayload(issue.body ?? "");
   return {
+    ...payload,
     issueNumber: issue.number,
     issueUrl: issue.html_url,
     createdAt: issue.created_at,
@@ -383,7 +384,6 @@ function publicCandidate(
     status: approvedCandidateIds.has(payload.candidate_id)
       ? "approved"
       : candidateStatus(issue),
-    ...payload,
   };
 }
 
