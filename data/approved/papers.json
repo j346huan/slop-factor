@@ -6,10 +6,7 @@
       "arxiv_id": "2608.18225",
       "version": 1,
       "title": "On the enumeration of polymatroids",
-      "authors": [
-        "Seonghyuk Im",
-        "Donggyu Kim"
-      ],
+      "authors": ["Seonghyuk Im", "Donggyu Kim"],
       "categories": {
         "primary": "math.CO",
         "secondary": []
