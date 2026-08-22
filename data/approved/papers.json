@@ -1787,6 +1787,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19733",
+      "version": 1,
+      "title": "Real polynomials with given multiplicities of real roots: Complete conjectural description of homology",
+      "authors": [
+        "Boris Shapiro"
+      ],
+      "categories": {
+        "primary": "math.AT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T07:34:23Z",
+        "updated": "2026-08-20T07:34:23Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Following \\cite {KSW} we continue the study the cellular complexes formed by polynomials of a given degree having a given sequence of multiplicities of real roots. A computer-assisted calculation disproves the earlier conjecture that homology of one point compactification of the closure of such cell is concentrated in at most one degree. Namely, for $ω=(3,1,1,3)$ in degree $d=18$, the reduced homology is $\\ZZ^2$ in degree $7$. The obstruction is already visible in a signed cell count, whose value is $-2$. We relate that count to the rational signed weight enumerator $F_ω(t)=\\sum_{η\\preceqω}(-1)^{\\elln(η)}t^{|η|}$. For the counterexample, $F_ω(t)=-t^{14}/(1+t^2)^2$, which gives an exact linear formula for the Euler characteristic and forces the total rational Betti number to be unbounded. We prove a number of results and formulate a complete conjecture describing the above homology.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19733v1",
+        "pdf": "https://arxiv.org/pdf/2608.19733v1",
+        "source": "https://export.arxiv.org/e-print/2608.19733v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 45,
+        "bibliography_entries": 1,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file principal_poset_merged.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ith |ω| ≤ 11, d ≤ 16. These checks establish the finite computations stated as theorems or computer-assisted results. AI-statement The main counterexample in Theorem 1 was discovered by Claude Opus 5 and the author formulated the main conjecture Conjecture 5 of this note which he then check using Claude Opus 5 and GPT 5.6 Sol. Although most of the claims here remain conjectural they provide a complete description of homology of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:13:57.574788Z"
+      },
+      "score": 593.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 59.35,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 10,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 11.25,
+          "bibliography_entries": 0.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19627",
       "version": 1,
       "title": "Uniformly Rotating Vortex Patches with Arbitrarily Many Genuine Holes",
