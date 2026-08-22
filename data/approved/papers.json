@@ -5101,6 +5101,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18879",
+      "version": 1,
+      "title": "Adaptive resolution frames: A multilevel framework in Hilbert spaces",
+      "authors": [
+        "Jahangir Cheshmavar"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.NA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T12:59:39Z",
+        "updated": "2026-08-19T12:59:39Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We introduce adaptive resolution frames (AR-frames), a class of weighted frames equipped with a partitioned index structure that models multiple resolution levels in Hilbert spaces. We establish a block-triangular representation of the associated operators and prove the convergence of an iterative reconstruction method with explicit error estimates. We further derive optimal block-diagonal preconditioners that minimize the iteration error and obtain stability results showing that AR-frames and their canonical reconstruction operators remain stable under sufficiently small weighted perturbations. These results provide a unified framework for efficient reconstruction and perturbation analysis of AR-frames.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18879v1",
+        "pdf": "https://arxiv.org/pdf/2608.18879v1",
+        "source": "https://export.arxiv.org/e-print/2608.18879v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 94,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file AR-Frames.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2 3. Acknowledgment The author would like to thank the anonymous reviewers for their comments and suggestions, which improved the presentation of the results. Also, the author ac- knowledge the use of generative AI for assistance in reviewing and improving this manuscript. 4. Statements and Declarations Conﬂict of interest statement. The author declares that there are no conﬂicts of interest. Data availability. No datasets",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:24:03.524427Z"
+      },
+      "score": 236,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 59,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 16,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 23.5,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18815",
       "version": 1,
       "title": "The number of groups of cubefree order",
