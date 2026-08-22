@@ -510,6 +510,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19986",
+      "version": 1,
+      "title": "Weakly stable solutions of Serrin's problem",
+      "authors": [
+        "Michael Eichmair",
+        "Thomas Koerber"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T13:01:39Z",
+        "updated": "2026-08-20T13:01:39Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We prove that weakly stable solutions of Serrin's problem are compact and therefore round balls.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19986v1",
+        "pdf": "https://arxiv.org/pdf/2608.19986v1",
+        "source": "https://export.arxiv.org/e-print/2608.19986v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 2,
+        "lemmas": 14,
+        "propositions": 2,
+        "corollaries": 4,
+        "definitions": 0,
+        "displayed_equations": 111,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file serrin.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e see that Ω is connected. On the use of artificial intelligence (A.I.). None of the arguments employed here have been suggested by or discussed with A.I. tools. The paper does not contain text written by A.I. tools. The authors have used Claude Opus 5 to check the typesetting of this paper. Acknowledgments. This research was funded in whole or in part by the Austrian Science Fund (FWF) [10.55776/PAT1307525, 10.55776/PAT2423724]. 2. Gradien",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "formatting_typesetting",
+        "role_label": "Formatting or typesetting",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:15:05.745477Z"
+      },
+      "score": 131.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 131.75,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 16,
+          "theorems": 12,
+          "lemmas": 56,
+          "propositions": 8,
+          "corollaries": 12,
+          "definitions": 0,
+          "displayed_equations": 27.75,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19872",
       "version": 1,
       "title": "New upper bounds on covering codes K_q(n,R) for alphabets of size six and seven",
