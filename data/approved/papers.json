@@ -1105,6 +1105,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18967",
+      "version": 1,
+      "title": "Exact random covers of metric trees: balanced rounding, duality, and sharp thresholds",
+      "authors": [
+        "Qi Wu",
+        "Yong Lu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T14:33:55Z",
+        "updated": "2026-08-19T14:33:55Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Norin and Turcotte's asymptotically sharp bound for graph burning [J. Combin. Theory Ser. B 168 (2024), 208--235] led them to an exact random-cover conjecture for finite metric trees. Let $U[0,r]$ be the uniform probability measure on $[0,r]$. They conjectured that every finite metric tree $T$ of length $L\\ge2r$ admits a probability measure on $0$-good ball covers whose expected radius measure is at most $(L/r)U[0,r]$. We prove the conjecture for every finite metric tree. We recast the bootstrapping calculation of Norin and Turcotte as a zero-error replacement certificate. The resulting local scale reduction, together with a three-piece decomposition and a macro-recursion, produces a fractional marked-ball cover with the exact radius budget. We then pass from the fractional cover to random finite covers by a compact rounding argument. For metric-tree balls, Tamir's balancedness theorem and standard balanced-matrix ideality provide the finite-dimensional integrality input. We also prove an arbitrary-budget duality criterion. If $0<R\\le L$ and $β$ is a finite positive Borel measure on $[0,R]$, then $β$ dominates the expected radius measure of a random $0$-good cover if and only if $σ(T)\\le\\int_{[0,R]}\\max_{v\\in T}σ(B_T(v,s))\\,dβ(s)$ for every finite positive Borel measure $σ$ on $T$; it is enough to test finite atomic measures. We use this criterion to extend the uniform range to every $r\\le L-\\operatorname{diam}(T)/2$, determine the exact range for equal-arm metric stars, and derive deterministic bounds, interval rigidity, and a diameter-defect stability estimate.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18967v1",
+        "pdf": "https://arxiv.org/pdf/2608.18967v1",
+        "source": "https://export.arxiv.org/e-print/2608.18967v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 7,
+        "lemmas": 21,
+        "propositions": 7,
+        "corollaries": 12,
+        "definitions": 8,
+        "displayed_equations": 53,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file exact_random_covers_metric_trees.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r personal relationships that could have appeared to influence the work reported in this paper. Data availability We did not use or generate data for this study. Declaration on the use of AI During the preparation of this work, we used ChatGPT 5.6 Pro to discuss possible proof strategies, audit intermediate arguments, and improve the exposition. We reviewed and verified every suggestion used in the manuscript, revised the text where necessary, and accept full responsibility for",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:02:28.066425Z"
+      },
+      "score": 1950.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 243.85,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 22,
+          "theorems": 42,
+          "lemmas": 84,
+          "propositions": 28,
+          "corollaries": 36,
+          "definitions": 16,
+          "displayed_equations": 13.25,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18408",
       "version": 1,
       "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
