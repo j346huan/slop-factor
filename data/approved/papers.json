@@ -6,7 +6,9 @@
       "arxiv_id": "2608.20303",
       "version": 1,
       "title": "Kahn--Lovász-type inequalities for graph factors",
-      "authors": ["Hyunwoo Lee"],
+      "authors": [
+        "Hyunwoo Lee"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
@@ -87,10 +89,17 @@
       "arxiv_id": "2608.20266",
       "version": 1,
       "title": "Necessary conditions for deterministic and stochastic maximal regularity",
-      "authors": ["Emiel Lorist", "Jan van Neerven", "Mark Veraar"],
+      "authors": [
+        "Emiel Lorist",
+        "Jan van Neerven",
+        "Mark Veraar"
+      ],
       "categories": {
         "primary": "math.FA",
-        "secondary": ["math.AP", "math.PR"]
+        "secondary": [
+          "math.AP",
+          "math.PR"
+        ]
       },
       "dates": {
         "submitted": "2026-08-20T17:05:24Z",
@@ -168,7 +177,11 @@
       "arxiv_id": "2608.20215",
       "version": 1,
       "title": "On the proof of Bray's conjecture",
-      "authors": ["Xumin Jiang", "Mingxiang Li", "Zhehui Wang"],
+      "authors": [
+        "Xumin Jiang",
+        "Mingxiang Li",
+        "Zhehui Wang"
+      ],
       "categories": {
         "primary": "math.DG",
         "secondary": []
@@ -249,7 +262,9 @@
       "arxiv_id": "2608.20101",
       "version": 1,
       "title": "Largest bulk gap of the complex Ginibre ensemble",
-      "authors": ["Philippe Moreillon"],
+      "authors": [
+        "Philippe Moreillon"
+      ],
       "categories": {
         "primary": "math.PR",
         "secondary": []
@@ -330,7 +345,10 @@
       "arxiv_id": "2608.20068",
       "version": 1,
       "title": "Flexibility for the Three-Dimensional Navier-Stokes Equations via Moving Hill Vortices",
-      "authors": ["Quoc-Hung Nguyen", "Zexi Wang"],
+      "authors": [
+        "Quoc-Hung Nguyen",
+        "Zexi Wang"
+      ],
       "categories": {
         "primary": "math.AP",
         "secondary": []
@@ -411,7 +429,10 @@
       "arxiv_id": "2608.19991",
       "version": 1,
       "title": "Mean curvature bounds for the obstacle problem",
-      "authors": ["Giacomo Colombo", "Federico Franceschini"],
+      "authors": [
+        "Giacomo Colombo",
+        "Federico Franceschini"
+      ],
       "categories": {
         "primary": "math.AP",
         "secondary": []
@@ -492,10 +513,14 @@
       "arxiv_id": "2608.19872",
       "version": 1,
       "title": "New upper bounds on covering codes K_q(n,R) for alphabets of size six and seven",
-      "authors": ["Mark Marosi"],
+      "authors": [
+        "Mark Marosi"
+      ],
       "categories": {
         "primary": "math.CO",
-        "secondary": ["cs.IT"]
+        "secondary": [
+          "cs.IT"
+        ]
       },
       "dates": {
         "submitted": "2026-08-20T10:31:38Z",
@@ -573,7 +598,9 @@
       "arxiv_id": "2608.19844",
       "version": 1,
       "title": "Circles determined by planar point sets",
-      "authors": ["Liyan Wang"],
+      "authors": [
+        "Liyan Wang"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
@@ -654,7 +681,10 @@
       "arxiv_id": "2608.19627",
       "version": 1,
       "title": "Uniformly Rotating Vortex Patches with Arbitrarily Many Genuine Holes",
-      "authors": ["Zhilong Xue", "Weicheng Zhan"],
+      "authors": [
+        "Zhilong Xue",
+        "Weicheng Zhan"
+      ],
       "categories": {
         "primary": "math.AP",
         "secondary": []
@@ -735,10 +765,15 @@
       "arxiv_id": "2608.19618",
       "version": 1,
       "title": "Borelness of Moduli Spaces of Metrics Implies Separability",
-      "authors": ["Yoshito Ishiki", "Tomoki Uda"],
+      "authors": [
+        "Yoshito Ishiki",
+        "Tomoki Uda"
+      ],
       "categories": {
         "primary": "math.GN",
-        "secondary": ["math.MG"]
+        "secondary": [
+          "math.MG"
+        ]
       },
       "dates": {
         "submitted": "2026-08-20T04:01:07Z",
@@ -813,10 +848,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19609",
+      "version": 1,
+      "title": "The integer point enumerator of one irrational translate of P is a complete invariant",
+      "authors": [
+        "Sinai Robins"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T03:48:43Z",
+        "updated": "2026-08-20T03:48:43Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "For a full-dimensional rational polytope $P\\subset\\mathbb{R}^d$ and a real dilation parameter $t>0$, the integer point enumerator is defined by $L_{P}(t):= |tP\\cap\\mathbb{Z}^d|$. We determine exactly which translation vectors $\\mathbf y=(y_1,\\ldots,y_d)\\in\\mathbb{R}^d$ have the property that the single translated counting function $t\\longmapsto L_{P+\\mathbf y}(t)$, with $t\\in\\mathbb{Q}_{>0}$, uniquely determines $P$ among all full-dimensional rational polytopes in $\\mathbb{R}^d$. The necessary and sufficient condition is that $1,y_1,\\ldots,y_d$ be linearly independent over $\\mathbb{Q}$. In particular, we may use the explicit algebraic vector $\\mathbf y^* := (2^{1/(d+1)},2^{2/(d+1)},\\ldots,2^{d/(d+1)})$ in every dimension $d$. The sufficiency proof recovers the primitive facet inequalities from isolated discontinuities of the counting function, while necessity follows from an affine-unimodular obstruction.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19609v1",
+        "pdf": "https://arxiv.org/pdf/2608.19609v1",
+        "source": "https://export.arxiv.org/e-print/2608.19609v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 74,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "AI Usage The author used ChatGPT 5.6 Sol for editorial assistance, proofreading, suggestions, and some discovery, during the writing of this paper. The author independently provided and re- checked all mathematical arguments, statements, and references, and takes full res",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:14:28.720884Z"
+      },
+      "score": 126.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 63.3,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 18.5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19594",
       "version": 1,
       "title": "Mesoscopic Rectangular Spikes under Subspace Local Laws: Outlier Values and Singular Subspaces",
-      "authors": ["Yitzchak Shmalo"],
+      "authors": [
+        "Yitzchak Shmalo"
+      ],
       "categories": {
         "primary": "math.PR",
         "secondary": []
@@ -905,7 +1025,9 @@
       ],
       "categories": {
         "primary": "math.NT",
-        "secondary": ["math.CO"]
+        "secondary": [
+          "math.CO"
+        ]
       },
       "dates": {
         "submitted": "2026-08-20T00:48:23Z",
@@ -983,10 +1105,15 @@
       "arxiv_id": "2608.19483",
       "version": 1,
       "title": "Global Well-Posedness near Rayleigh-Jeans Equilibria for the Cubic NLS Wave Kinetic Equation",
-      "authors": ["Miguel Escobedo", "Angeliki Menegaki"],
+      "authors": [
+        "Miguel Escobedo",
+        "Angeliki Menegaki"
+      ],
       "categories": {
         "primary": "math.AP",
-        "secondary": ["math-ph"]
+        "secondary": [
+          "math-ph"
+        ]
       },
       "dates": {
         "submitted": "2026-08-19T22:41:36Z",
@@ -1064,7 +1191,9 @@
       "arxiv_id": "2608.19455",
       "version": 1,
       "title": "Connected Counterexamples to the Henning--Yeo Conjecture on Identifying Vertex Covers",
-      "authors": ["Yufeng Wang"],
+      "authors": [
+        "Yufeng Wang"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
@@ -1145,10 +1274,14 @@
       "arxiv_id": "2608.19414",
       "version": 1,
       "title": "The Non-Cancelling-Intersections Conjecture Fails for Left-Linear Trees",
-      "authors": ["Hermann Wilhelm"],
+      "authors": [
+        "Hermann Wilhelm"
+      ],
       "categories": {
         "primary": "math.CO",
-        "secondary": ["cs.DM"]
+        "secondary": [
+          "cs.DM"
+        ]
       },
       "dates": {
         "submitted": "2026-08-19T19:53:03Z",
@@ -1226,10 +1359,15 @@
       "arxiv_id": "2608.19160",
       "version": 1,
       "title": "Second-Level Concavity of the Riemann $Ξ$ Kernel",
-      "authors": ["Michel Planat", "Patrick Solé"],
+      "authors": [
+        "Michel Planat",
+        "Patrick Solé"
+      ],
       "categories": {
         "primary": "math.CV",
-        "secondary": ["math.CA"]
+        "secondary": [
+          "math.CA"
+        ]
       },
       "dates": {
         "submitted": "2026-08-19T17:43:05Z",
@@ -1315,7 +1453,10 @@
       ],
       "categories": {
         "primary": "math.DS",
-        "secondary": ["nlin.CD", "physics.class-ph"]
+        "secondary": [
+          "nlin.CD",
+          "physics.class-ph"
+        ]
       },
       "dates": {
         "submitted": "2026-08-19T16:00:04Z",
@@ -1393,7 +1534,10 @@
       "arxiv_id": "2608.18967",
       "version": 1,
       "title": "Exact random covers of metric trees: balanced rounding, duality, and sharp thresholds",
-      "authors": ["Qi Wu", "Yong Lu"],
+      "authors": [
+        "Qi Wu",
+        "Yong Lu"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
@@ -1474,7 +1618,11 @@
       "arxiv_id": "2608.18928",
       "version": 1,
       "title": "Regularity and the Gelfand Property for Complex Symmetric Pairs",
-      "authors": ["Yufeng Li", "Junyan Xiao", "Jun Yu"],
+      "authors": [
+        "Yufeng Li",
+        "Junyan Xiao",
+        "Jun Yu"
+      ],
       "categories": {
         "primary": "math.RT",
         "secondary": []
@@ -1555,7 +1703,10 @@
       "arxiv_id": "2608.18815",
       "version": 1,
       "title": "The number of groups of cubefree order",
-      "authors": ["Heiko Dietrich", "David Jefferies"],
+      "authors": [
+        "Heiko Dietrich",
+        "David Jefferies"
+      ],
       "categories": {
         "primary": "math.GR",
         "secondary": []
@@ -1636,7 +1787,10 @@
       "arxiv_id": "2608.18620",
       "version": 1,
       "title": "Superlinear separation between linear and centered colorings",
-      "authors": ["Jędrzej Hodor", "Piotr Micek"],
+      "authors": [
+        "Jędrzej Hodor",
+        "Piotr Micek"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
@@ -1717,7 +1871,10 @@
       "arxiv_id": "2608.18408",
       "version": 1,
       "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
-      "authors": ["Sinai Robins", "André Rosenbaum Coelho"],
+      "authors": [
+        "Sinai Robins",
+        "André Rosenbaum Coelho"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
@@ -1798,10 +1955,14 @@
       "arxiv_id": "2608.18362",
       "version": 1,
       "title": "A new unconditional lower bound for shoreline search",
-      "authors": ["Alexander Temerev"],
+      "authors": [
+        "Alexander Temerev"
+      ],
       "categories": {
         "primary": "math.MG",
-        "secondary": ["math.OC"]
+        "secondary": [
+          "math.OC"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T22:27:32Z",
@@ -1879,10 +2040,14 @@
       "arxiv_id": "2608.18338",
       "version": 1,
       "title": "Existence and qualitative theory for nonlinear accretive evolutions with Carathéodory forcing",
-      "authors": ["Dieter Bothe"],
+      "authors": [
+        "Dieter Bothe"
+      ],
       "categories": {
         "primary": "math.FA",
-        "secondary": ["math.AP"]
+        "secondary": [
+          "math.AP"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T21:42:30Z",
@@ -1960,7 +2125,11 @@
       "arxiv_id": "2608.18320",
       "version": 1,
       "title": "Asymptotics for Beta-Splitting Trees via Homogeneous Fragmentations and Meromorphic Potential Theory",
-      "authors": ["Yoana R. Chorbadzhiyska", "Martin Minchev", "Mladen Savov"],
+      "authors": [
+        "Yoana R. Chorbadzhiyska",
+        "Martin Minchev",
+        "Mladen Savov"
+      ],
       "categories": {
         "primary": "math.PR",
         "secondary": []
@@ -2041,10 +2210,14 @@
       "arxiv_id": "2608.18302",
       "version": 1,
       "title": "Schur polynomials twisted by roots of unity and reciprocal pairs: torsion filters, fusion quotients, and an equal-rank reduction at odd order",
-      "authors": ["Carles Marín"],
+      "authors": [
+        "Carles Marín"
+      ],
       "categories": {
         "primary": "math.CO",
-        "secondary": ["math.RT"]
+        "secondary": [
+          "math.RT"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T20:27:46Z",
@@ -2122,10 +2295,15 @@
       "arxiv_id": "2608.18288",
       "version": 1,
       "title": "Anytime Solver Evaluation with a Normalized Signed Primal Integral and Explicit Reference Policies - Extended Version",
-      "authors": ["Florian Rascoussier"],
+      "authors": [
+        "Florian Rascoussier"
+      ],
       "categories": {
         "primary": "math.OC",
-        "secondary": ["cs.MS", "cs.PF"]
+        "secondary": [
+          "cs.MS",
+          "cs.PF"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T20:13:45Z",
@@ -2203,10 +2381,17 @@
       "arxiv_id": "2608.18282",
       "version": 1,
       "title": "Self-supervised In-context Operator Learning for Stochastic Mean-Field Control",
-      "authors": ["Suyi Gao", "Mo Zhou", "Rongjie Lai"],
+      "authors": [
+        "Suyi Gao",
+        "Mo Zhou",
+        "Rongjie Lai"
+      ],
       "categories": {
         "primary": "math.OC",
-        "secondary": ["cs.LG", "eess.SY"]
+        "secondary": [
+          "cs.LG",
+          "eess.SY"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T20:03:48Z",
@@ -2284,7 +2469,10 @@
       "arxiv_id": "2608.18257",
       "version": 1,
       "title": "Banach's Isometric Conjecture over the Complex Field",
-      "authors": ["Antonio Acuaviva", "Tomasz Kania"],
+      "authors": [
+        "Antonio Acuaviva",
+        "Tomasz Kania"
+      ],
       "categories": {
         "primary": "math.FA",
         "secondary": []
@@ -2365,10 +2553,14 @@
       "arxiv_id": "2608.18236",
       "version": 2,
       "title": "Exceptional eigenvalue density for thin groups",
-      "authors": ["Christopher Lutsko"],
+      "authors": [
+        "Christopher Lutsko"
+      ],
       "categories": {
         "primary": "math.SP",
-        "secondary": ["math.GT"]
+        "secondary": [
+          "math.GT"
+        ]
       },
       "dates": {
         "submitted": "2026-08-18T18:23:28Z",
@@ -2446,7 +2638,10 @@
       "arxiv_id": "2608.18225",
       "version": 1,
       "title": "On the enumeration of polymatroids",
-      "authors": ["Seonghyuk Im", "Donggyu Kim"],
+      "authors": [
+        "Seonghyuk Im",
+        "Donggyu Kim"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
