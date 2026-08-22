@@ -214,6 +214,29 @@ h3 {
   gap: 0.55rem;
 }
 
+.scan-history {
+  min-width: 11rem;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--strong-line);
+  border-radius: 0.2rem;
+  background: white;
+  font-size: 0.75rem;
+}
+
+.scan-history summary {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.scan-history p {
+  max-width: 22rem;
+  max-height: 7rem;
+  margin: 0.45rem 0 0;
+  overflow: auto;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
 label {
   display: grid;
   gap: 0.2rem;
