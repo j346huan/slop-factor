@@ -38,6 +38,8 @@ interface CandidatePayload {
     abstract_url: string;
   };
   evidence: Array<{
+    term?: string;
+    matched_sentence?: string;
     quotation: string;
     location_kind: "page" | "metadata";
     location_value: string;
