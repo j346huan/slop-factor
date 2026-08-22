@@ -4761,6 +4761,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18963",
+      "version": 1,
+      "title": "Hitting Maximum Independent Sets in Dense and Highly Connected Graphs",
+      "authors": [
+        "Hanzhi Bai",
+        "Yufei Chang",
+        "Jin Yan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T14:28:40Z",
+        "updated": "2026-08-19T14:28:40Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "For a graph $G$, let $h(G)$ be the minimum cardinality of a vertex set meeting every maximum independent set of $G$. We establish two complementary reduction principles for the Bollobás--Erdős--Tuza conjecture: the conjecture for arbitrary graphs is equivalent to its restriction to regular graphs of any fixed positive linear degree, and, within every hereditary graph class, a uniform sublinear bound is equivalent to a sublinear bound on graphs of every fixed positive linear vertex connectivity. We prove the sharp general estimate \\[ h(G)\\le \\left\\lfloor\\frac{|V(G)|}{2α(G)+δ(G)-|V(G)|}\\right\\rfloor \\] whenever the denominator is positive, with equality for balanced complete multipartite graphs. Consequently, every $3$-colorable graph of order $n$ with $κ(G)\\geρn$ and $ρ>1/3$ has a hitting set of size at most $\\lfloor(ρ-1/3)^{-1}\\rfloor$; direct use of a $3$-coloring improves this to $6$ when $κ(G)>4n/9$ and to the sharp bound $3$ when $κ(G)>n/2$. For dense regular graphs with independence ratio greater than $1/4$, we obtain a logarithmic bound, while constructions with linear degree and linear independence number show that $h(G)=Ω(\\sqrt n)$ can still occur. We also prove a logarithmic bound for near-regular $3$-colorable graphs and exhibit a critical family at connectivity $n/3$ that explains the limitations of the degree-surplus and degree-ratio methods.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18963v1",
+        "pdf": "https://arxiv.org/pdf/2608.18963v1",
+        "source": "https://export.arxiv.org/e-print/2608.18963v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 7,
+        "lemmas": 6,
+        "propositions": 6,
+        "corollaries": 6,
+        "definitions": 0,
+        "displayed_equations": 46,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file hitting_set.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "all eligible G? An affirmative answer for all positive ρ ≤ 1/3, together with Corollary 5.1, would prove the Bollobás–Erdős–Tuza conjecture for all 3-colorable graphs. Acknowledgment. During the preparation of this work, the authors used ChatGPT 5.6 to improve the readability and language of the paper and to locate important references. The authors take full responsibility for all content of this work. References [1] J. Ai, H. Liu, Z. Xu and Q. Zhou, Piercing independent sets i",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:23:04.086118Z"
+      },
+      "score": 558.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 139.7,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 18,
+          "theorems": 42,
+          "lemmas": 24,
+          "propositions": 24,
+          "corollaries": 18,
+          "definitions": 0,
+          "displayed_equations": 11.5,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18928",
       "version": 1,
       "title": "Regularity and the Gelfand Property for Complex Symmetric Pairs",
