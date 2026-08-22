@@ -2972,6 +2972,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19358",
+      "version": 1,
+      "title": "An optimal Poincaré inequality for the complex Ginibre log-gas",
+      "authors": [
+        "Djalil Chafaï"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math-ph",
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T18:20:55Z",
+        "updated": "2026-08-19T18:20:55Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We establish an optimal Poincaré inequality for real-valued symmetric observables of the complex Ginibre log-gas. Equality is attained by the real and imaginary parts of the center-of-mass observable. Equivalently, we determine the exact spectral gap of the associated overdamped Langevin dynamics, for real symmetric observables. The Hessian of the energy of this log-gas is unbounded below, so standard convexity arguments do not directly apply. Our proof instead combines a Vandermonde transform, a holomorphic projection, and a complex Gaussian d-bar spectral-gap estimate, corresponding to the constant-curvature case of the Hörmander-Berndtsson estimate.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19358v1",
+        "pdf": "https://arxiv.org/pdf/2608.19358v1",
+        "source": "https://export.arxiv.org/e-print/2608.19358v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 47,
+        "bibliography_entries": 41,
+        "appendix_pages": 12
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file poing.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "his note in January 2026, and decided to explore more related questions before making it public. Although the final version of this note was written by the author, the OpenAI ChatGPT AI was used for mathematical exploration, and the Google Gemini AI was used as a second proofreading tool. We had in mind already the statement of the theorem, which is the analogue of the one for GUE, and the possible usage of holomorphicity via Hörmander–Berndtsson. However, the final idea of the de",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:15:57.102652Z"
+      },
+      "score": 155.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 77.85,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 11.75,
+          "bibliography_entries": 4.1,
+          "appendix_pages": 24
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19160",
       "version": 1,
       "title": "Second-Level Concavity of the Riemann $Ξ$ Kernel",
