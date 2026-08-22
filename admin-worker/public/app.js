@@ -1,3 +1,5 @@
+import { buildPendingExport, validateDecisionInput } from "./decisions.js";
+
 const state = {
   candidates: [],
   latestAvailable: null,
@@ -37,7 +39,10 @@ const elements = Object.fromEntries(
     "approved-count",
     "candidate-list",
     "dashboard",
+    "decision-file",
     "empty-state",
+    "export-pending",
+    "import-decisions",
     "login-panel",
     "latest-arxiv-date",
     "notice",
@@ -83,6 +88,80 @@ function showNotice(message, tone = "info") {
   elements.notice.textContent = message;
   elements.notice.dataset.tone = tone;
   elements.notice.hidden = false;
+}
+
+function pendingExport() {
+  return buildPendingExport(state.candidates);
+}
+
+function downloadPending() {
+  const pending = pendingExport();
+  const blob = new Blob([JSON.stringify(pending, null, 2) + "\n"], {
+    type: "application/json",
+  });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `slop-factor-pending-${new Date().toISOString().slice(0, 10)}.json`;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+  showNotice(`Exported ${pending.length} pending papers.`, "success");
+}
+
+function validatedDecisions(value) {
+  return validateDecisionInput(value, state.candidates, classifications);
+}
+
+async function applyDecisionFile(file) {
+  let value;
+  try {
+    value = JSON.parse(await file.text());
+  } catch {
+    throw new Error("Decision file is not valid JSON");
+  }
+  const decisions = validatedDecisions(value);
+  let applied = 0;
+  try {
+    for (const item of decisions) {
+      if (item.decision === "reject") {
+        await api(`/api/candidates/${item.candidate.issueNumber}/reject`, {
+          method: "POST",
+          body: JSON.stringify({
+            reason: "Rejected through imported decision file.",
+          }),
+        });
+        item.candidate.status = "rejected";
+      } else {
+        await api(`/api/candidates/${item.candidate.issueNumber}/approve`, {
+          method: "POST",
+          body: JSON.stringify({
+            evidenceIndex: item.evidenceIndex,
+            quotation: item.quotation,
+            locationKind: "page",
+            locationValue: item.location,
+            page: item.page,
+            classification: item.classification,
+            multiplier: item.multiplier,
+          }),
+        });
+        item.candidate.status = "approval-submitted";
+      }
+      applied += 1;
+    }
+  } catch (error) {
+    elements["status-filter"].value = "pending";
+    renderCandidates();
+    loadCandidates().catch(() => {});
+    throw new Error(
+      `Applied ${applied} of ${decisions.length} decisions. ${error.message}`,
+    );
+  }
+  elements["status-filter"].value = "pending";
+  renderCandidates();
+  await loadCandidates();
+  showNotice(`Applied ${applied} decisions.`, "success");
 }
 
 function text(tag, content, className = "") {
@@ -531,6 +610,24 @@ elements["scan-start-date"].addEventListener("change", () => {
 document.getElementById("logout").addEventListener("click", async () => {
   await api("/auth/logout", { method: "POST", body: "{}" });
   window.location.reload();
+});
+elements["export-pending"].addEventListener("click", downloadPending);
+elements["import-decisions"].addEventListener("click", () => {
+  elements["decision-file"].click();
+});
+elements["decision-file"].addEventListener("change", async () => {
+  const file = elements["decision-file"].files?.[0];
+  if (!file) return;
+  const button = elements["import-decisions"];
+  button.disabled = true;
+  try {
+    await applyDecisionFile(file);
+  } catch (error) {
+    showNotice(error.message, "error");
+  } finally {
+    button.disabled = false;
+    elements["decision-file"].value = "";
+  }
 });
 elements.search.addEventListener("input", renderCandidates);
 elements["status-filter"].addEventListener("change", renderCandidates);

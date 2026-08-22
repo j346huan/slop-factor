@@ -122,6 +122,28 @@
 
         <section class="queue" aria-label="Candidate papers">
           <div class="panel-heading">
+            <div class="decision-controls">
+              <button
+                id="export-pending"
+                class="secondary-button"
+                type="button"
+              >
+                Output pending
+              </button>
+              <input
+                id="decision-file"
+                class="visually-hidden"
+                type="file"
+                accept="application/json,.json"
+              />
+              <button
+                id="import-decisions"
+                class="secondary-button"
+                type="button"
+              >
+                Input decisions
+              </button>
+            </div>
             <div class="queue-controls">
               <label>
                 <span class="visually-hidden">Search candidates</span>

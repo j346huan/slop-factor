@@ -21,6 +21,10 @@ the Worker has no database. Approved records and the public website remain in
 
 Automated discovery never writes approved data. Only an explicit human approval publishes a record.
 
+## JSON batch decisions
+
+Use **Output pending** to download every pending arXiv ID and its detected disclosure passages. Complete a decision file and use **Input decisions** to apply approvals and rejections. The exact schema and supported classifications are in [`DECISION_IMPORT_SPEC.md`](DECISION_IMPORT_SPEC.md).
+
 ## One-time deployment setup
 
 ### 1. Create the GitHub App
