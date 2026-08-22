@@ -593,6 +593,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.20010",
+      "version": 1,
+      "title": "Graphs with connectivity $3/4 - \\varepsilon$ are globally synchronizing",
+      "authors": [
+        "Saba Lepsveridze",
+        "Sam Zhang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-20T13:24:53Z",
+        "updated": "2026-08-20T13:24:53Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We study synchronization in the Kuramoto model on finite graphs. We prove that there is an absolute constant $η>0$ such that every finite simple graph $G$ on $n$ vertices with minimum degree at least $(3/4-η)n$ has no local minima of the Kuramoto energy other than the fully synchronized states. This strictly improves the previous $3/4$ upper bound and refutes a conjecture of Bandeira, Kireeva, Maillard, and Rödder.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.20010v1",
+        "pdf": "https://arxiv.org/pdf/2608.20010v1",
+        "source": "https://export.arxiv.org/e-print/2608.20010v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 2,
+        "lemmas": 11,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 111,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "was completed at the SPUR program at Massachusetts Institute of Technology. We are grateful to David Jerison, Jonathan Bloom, and Oriol Solé Pi for their insightful discussions and feedback, as well as Nike Sun for suggesting the problem. ChatGPT-5.6 Sol was used in editing and proofreading, as well as refining technical proofs. The proof strategy and any errors are entirely our own. 2. Order parameter estimates In this section, following th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:10:57.752605Z"
+      },
+      "score": 922.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 115.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 17,
+          "theorems": 12,
+          "lemmas": 44,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 27.75,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19991",
       "version": 1,
       "title": "Mean curvature bounds for the obstacle problem",
