@@ -46,12 +46,16 @@ export function validateDecisionInput(value, candidates, classifications) {
 
     const quotation = String(entry.quotation ?? "");
     const location = String(entry.location ?? "");
-    const page = Number(entry.page);
+    const page = entry.page === null ? null : Number(entry.page);
     const classification = String(entry.disclosure_classification ?? "").trim();
     const multiplier = classifications[classification]?.[1];
-    if (!quotation || !location || !Number.isInteger(page) || page < 1) {
+    if (
+      !quotation ||
+      !location ||
+      (page !== null && (!Number.isInteger(page) || page < 1))
+    ) {
       throw new Error(
-        `${arxivId} approval requires quotation, location, and PDF page`,
+        `${arxivId} approval requires quotation, location, and page number or null`,
       );
     }
     if (!Number.isFinite(multiplier)) {
@@ -63,7 +67,9 @@ export function validateDecisionInput(value, candidates, classifications) {
       (evidence) =>
         evidence.quotation === quotation &&
         evidence.location_value === location &&
-        Number(evidence.page) === page,
+        (page === null
+          ? evidence.page === null || evidence.page === undefined
+          : Number(evidence.page) === page),
     );
     if (evidenceIndex < 0) {
       throw new Error(
@@ -77,6 +83,7 @@ export function validateDecisionInput(value, candidates, classifications) {
       quotation,
       location,
       page,
+      locationKind: page === null ? "metadata" : "page",
       classification,
       multiplier,
     };

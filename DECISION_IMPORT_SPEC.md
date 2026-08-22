@@ -49,7 +49,20 @@ Approve:
 ]
 ```
 
-For approval, `quotation`, `location`, and `page` must exactly match one disclosure entry from the exported pending file.
+For approval, `quotation`, `location`, and `page` must exactly match one disclosure entry from the exported pending file. Use a positive page number for a PDF disclosure. Use `null` for an arXiv metadata disclosure:
+
+```json
+[
+  {
+    "arxiv_id": "2608.19074v1",
+    "decision": "approve",
+    "quotation": "Exact metadata disclosure passage",
+    "location": "arXiv metadata: abstract",
+    "page": null,
+    "disclosure_classification": "limited_text_drafting"
+  }
+]
+```
 
 Supported `disclosure_classification` values:
 
