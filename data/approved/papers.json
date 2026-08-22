@@ -1105,6 +1105,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18282",
+      "version": 1,
+      "title": "Self-supervised In-context Operator Learning for Stochastic Mean-Field Control",
+      "authors": [
+        "Suyi Gao",
+        "Mo Zhou",
+        "Rongjie Lai"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.LG",
+          "eess.SY"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T20:03:48Z",
+        "updated": "2026-08-18T20:03:48Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Stochastic mean-field control (MFC) provides a fundamental framework for coordinating large populations of interacting agents under uncertainty, with a wide range of applications. Existing numerical and deep-learning methods solve one MFC problem instance at a time and must be re-optimized whenever the task changes. In this work, we formulate stochastic MFC as an operator-learning problem and develop, to the best of our knowledge, the first mesh-free, self-supervised neural operator for stochastic MFC. The main challenge is that the diffusion term in the controlled Fokker--Planck equation precludes deterministic transport-map representations. We address this challenge by combining the probability-flow ODE with an invertible normalizing-flow-based transformer, which recasts the dynamics as a deterministic continuity equation and enables closed-form score evaluation through the exact inverse and analytical log-determinant of the normalizing flow, with $\\mathcal{O}(d)$ cost per particle for networks of fixed size. Through transformer-based in-context learning, task prompts, represented by compact distribution parameters or raw particle clouds, condition the transport map, enabling a single pretrained operator to solve unseen tasks in one forward pass. The resulting \\emph{Normalizing Flow Invertible Solution Transformer} (NFIST) is trained end-to-end by minimizing the stochastic control objective directly, requiring no precomputed numerical solutions for training. We further prove the consistency of the proposed operator-learning formulation with task-by-task optimization. Numerical experiments on stochastic optimal control, Schrödinger bridge, systemic-risk control, and obstacle-avoiding path planning demonstrate effective zero-shot generalization while substantially reducing the computational cost of solving large families of stochastic MFC problems.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18282v1",
+        "pdf": "https://arxiv.org/pdf/2608.18282v1",
+        "source": "https://export.arxiv.org/e-print/2608.18282v1"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 0,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 66,
+        "bibliography_entries": 67,
+        "appendix_pages": 19
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "learning as an effective framework for learning solution operators for stochastic mean-field control. Declaration of AI-assisted technologies in the manuscript preparation process During the preparation of this work the authors used Claude (Anthropic) and ChatGPT (OpenAI) in order to assist with the aspects of the numerical implementation and to improve the language and readability of the manuscript. After using this tool, the authors reviewed and edited the content as neede",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:19:31.960332Z"
+      },
+      "score": 318.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 106.2,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 33,
+          "theorems": 0,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 16.5,
+          "bibliography_entries": 6.7,
+          "appendix_pages": 38
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18257",
       "version": 1,
       "title": "Banach's Isometric Conjecture over the Complex Field",
