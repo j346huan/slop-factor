@@ -3,6 +3,94 @@
   "papers": [
     {
       "record_version": 1,
+      "arxiv_id": "2608.19525",
+      "version": 1,
+      "title": "Quantitative bounds for sets lacking polynomial progressions with shifted prime difference",
+      "authors": [
+        "Ben Krause",
+        "Hamed Mousavi",
+        "Terence Tao",
+        "Joni Teräväinen"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-20T00:48:23Z",
+        "updated": "2026-08-20T00:48:23Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We prove quantitative polynomial Szemerédi-type theorems involving polynomial progressions with shift parameter restricted to the set of shifted primes $\\mathbb{P}-1$. The types of configurations covered are distinct degree progressions and progressions involving integer multiples of a fixed polynomial. For nonlinear configurations of length at least three, these results provide the first quantitative versions of such theorems. In the linear case, our results improve on work by the last two authors. Our density bounds are strongest in the case of distinct degree polynomials, where they give polylogarithmic bounds, of the same shape as recent bounds by Shao and Wang with integer shifts. The proofs combine recent quantitative results for polynomial configurations in the integers with quantitative Gowers uniformity bounds of the primes. For multiples of a fixed polynomial, we adapt a comparison argument of Altman and Sawhney to obtain uniformity over the polynomial families produced by the $W$-trick. For distinct degree progressions, we establish a comparison between prime-weighted and unweighted polynomial counts that is uniform throughout the density increment argument and accounts for a possible Siegel zero.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19525v1",
+        "pdf": "https://arxiv.org/pdf/2608.19525v1",
+        "source": "https://export.arxiv.org/e-print/2608.19525v1"
+      },
+      "structural_counts": {
+        "pages": 60,
+        "theorems": 2,
+        "lemmas": 9,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 2,
+        "displayed_equations": 456,
+        "bibliography_entries": 41,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Main__17_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ematical Analysis & Application Re- search Fund. TT is particularly grateful to recent donors to that fund. JT is supported by the European Union’s Horizon Europe research and innovation pro- gramme under ERC grant agreement no. 101162746. ChatGPT was used as an auxiliary editorial tool for proofreading and preliminary literature search assistance. All mathematical statements, references, arguments, and final wording were checked and approved by the authors.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:04:37.454841Z"
+      },
+      "score": 506.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 253.1,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 60,
+          "theorems": 12,
+          "lemmas": 36,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 4,
+          "displayed_equations": 114,
+          "bibliography_entries": 4.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19483",
       "version": 1,
       "title": "Global Well-Posedness near Rayleigh-Jeans Equilibria for the Cubic NLS Wave Kinetic Equation",
