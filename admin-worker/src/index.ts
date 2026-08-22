@@ -36,6 +36,7 @@ interface CandidatePayload {
     secondary_categories: string[];
     submitted: string;
     abstract_url: string;
+    pdf_url: string;
   };
   evidence: Array<{
     term?: string;
@@ -77,20 +78,56 @@ const classifications: Record<
   string,
   { label: string; multiplier: number | null }
 > = {
-  proofreading_translation: {
-    label: "Proofreading, grammar, or translation",
+  proofreading_grammar: {
+    label: "Proofreading, grammar, or spelling",
     multiplier: 1,
   },
-  brainstorming_literature_code: {
-    label: "Brainstorming, literature assistance, or code",
+  translation: { label: "Translation", multiplier: 1 },
+  formatting_typesetting: { label: "Formatting or typesetting", multiplier: 1 },
+  literature_search: { label: "Literature search", multiplier: 2 },
+  citation_assistance: { label: "Citation assistance", multiplier: 2 },
+  brainstorming_outlining: {
+    label: "Brainstorming or outlining",
     multiplier: 2,
   },
-  rewriting_drafting: {
-    label: "Rewriting or drafting portions",
+  code_assistance: {
+    label: "Code generation, completion, or debugging",
+    multiplier: 2,
+  },
+  computational_support: {
+    label: "Computational experiments or data processing",
+    multiplier: 3,
+  },
+  rewriting_existing_text: {
+    label: "Rewriting existing author-written text",
+    multiplier: 4,
+  },
+  limited_text_drafting: {
+    label: "Drafting limited passages",
     multiplier: 5,
   },
-  substantial_generation: {
-    label: "Substantial text, proofs, or content generation",
+  mathematical_examples_conjectures: {
+    label: "Suggesting mathematical examples or conjectures",
+    multiplier: 6,
+  },
+  substantial_text_generation: {
+    label: "Substantial text generation",
+    multiplier: 7,
+  },
+  proof_ideas_steps: {
+    label: "Proof ideas or individual proof-step assistance",
+    multiplier: 8,
+  },
+  complete_proof_drafting: {
+    label: "Drafting a complete proof for author revision",
+    multiplier: 9,
+  },
+  substantial_proof_generation: {
+    label: "Substantial proof generation",
+    multiplier: 10,
+  },
+  substantial_mathematical_content: {
+    label: "Substantial mathematical content or result generation",
     multiplier: 10,
   },
   mixed_or_other: {
@@ -207,6 +244,22 @@ async function github<T>(
   }
   if (response.status === 204) return undefined as T;
   return response.json() as Promise<T>;
+}
+
+async function githubPages<T>(token: string, path: string): Promise<T[]> {
+  const results: T[] = [];
+  for (let page = 1; ; page += 1) {
+    const separator = path.includes("?") ? "&" : "?";
+    const batch = await github<T[]>(token, `${path}${separator}page=${page}`);
+    results.push(...batch);
+    if (batch.length < 100) return results;
+  }
+}
+
+function nextDate(value: string): string {
+  const date = new Date(`${value}T00:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + 1);
+  return date.toISOString().slice(0, 10);
 }
 
 async function administrator(
@@ -354,6 +407,39 @@ async function api(
     return json({ scan: { ...scan, issue_number: issues[0].number } });
   }
 
+  if (pathname === "/api/scans/history" && request.method === "GET") {
+    const issues = await githubPages<GitHubIssue>(
+      token,
+      `/repos/${env.GITHUB_REPOSITORY}/issues?state=all&labels=scan-session&sort=created&direction=asc&per_page=100`,
+    );
+    const scans = issues.map((issue) => scanSession(issue.body ?? ""));
+    const completedDates = new Set<string>();
+    const requestedDates = scans
+      .flatMap((scan) => [scan.start_date, scan.end_date])
+      .filter((value): value is string => Boolean(value));
+    for (const scan of scans) {
+      if (scan.status !== "completed" || !scan.start_date || !scan.end_date)
+        continue;
+      for (
+        let date = scan.start_date;
+        date <= scan.end_date;
+        date = nextDate(date)
+      ) {
+        completedDates.add(date);
+      }
+    }
+    const scannedDates = [...completedDates].sort();
+    const today = new Date().toISOString().slice(0, 10);
+    let nextUnscanned = requestedDates.sort()[0] ?? today;
+    while (nextUnscanned <= today && completedDates.has(nextUnscanned)) {
+      nextUnscanned = nextDate(nextUnscanned);
+    }
+    return json({
+      scanned_dates: scannedDates,
+      next_unscanned: nextUnscanned <= today ? nextUnscanned : null,
+    });
+  }
+
   if (pathname === "/api/scan" && request.method === "POST") {
     const body = await requestBody(request);
     const startDate = validDate(body.startDate);
@@ -496,9 +582,6 @@ async function api(
         { error: "Multiplier does not match the classification" },
         400,
       );
-    }
-    if (body.confirmation !== true) {
-      return json({ error: "Explicit human confirmation is required" }, 400);
     }
     const page =
       body.page === null || body.page === "" ? "" : String(Number(body.page));

@@ -39,7 +39,7 @@ def test_requires_passage_location_and_classification_choices() -> None:
 
     assert disclosure["quotation"].startswith("The fictional authors")
     assert disclosure["location"]["page"] == 2
-    assert disclosure["classification"] == "proofreading_translation"
+    assert disclosure["classification"] == "proofreading_grammar"
     assert disclosure["multiplier"] == 1
 
 
@@ -76,7 +76,7 @@ def test_dashboard_decision_requires_exact_confirmation() -> None:
         confirmed_disclosure(
             CANDIDATE,
             evidence_index=1,
-            classification="proofreading_translation",
+            classification="proofreading_grammar",
             multiplier=1,
             rationale="Confirmed proofreading disclosure.",
             confirmation="yes",
@@ -85,7 +85,7 @@ def test_dashboard_decision_requires_exact_confirmation() -> None:
     disclosure = confirmed_disclosure(
         CANDIDATE,
         evidence_index=1,
-        classification="proofreading_translation",
+        classification="proofreading_grammar",
         multiplier=1,
         rationale="Confirmed proofreading disclosure.",
         confirmation="APPROVE",

@@ -13,7 +13,7 @@ const papers: FilterablePaper[] = [
     search: "Fictional topology Ada Example",
     author: "Ada Example",
     category: "math.GT",
-    classification: "proofreading_translation",
+    classification: "proofreading_grammar",
     submitted: "2099-01-01",
     score: 10,
     pages: 8,
@@ -25,7 +25,7 @@ const papers: FilterablePaper[] = [
     search: "Fictional logic Benoit Example",
     author: "Benoit Example",
     category: "math.LO",
-    classification: "rewriting_drafting",
+    classification: "limited_text_drafting",
     submitted: "2099-02-01",
     score: 40,
     pages: 12,
@@ -51,7 +51,7 @@ describe("paper table", () => {
     const result = filterAndSortPapers(papers, {
       ...defaults,
       query: "logic",
-      classification: "rewriting_drafting",
+      classification: "limited_text_drafting",
       dateFrom: "2099-01-15",
       scoreMin: 30,
     });

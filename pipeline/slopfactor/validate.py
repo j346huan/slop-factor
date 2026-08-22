@@ -10,21 +10,27 @@ from jsonschema import Draft202012Validator, FormatChecker
 from .score import calculate_score
 
 CLASSIFICATIONS = {
-    "proofreading_translation": (
-        1,
-        "Proofreading, grammar, or translation",
+    "proofreading_grammar": (1, "Proofreading, grammar, or spelling"),
+    "translation": (1, "Translation"),
+    "formatting_typesetting": (1, "Formatting or typesetting"),
+    "literature_search": (2, "Literature search"),
+    "citation_assistance": (2, "Citation assistance"),
+    "brainstorming_outlining": (2, "Brainstorming or outlining"),
+    "code_assistance": (2, "Code generation, completion, or debugging"),
+    "computational_support": (3, "Computational experiments or data processing"),
+    "rewriting_existing_text": (4, "Rewriting existing author-written text"),
+    "limited_text_drafting": (5, "Drafting limited passages"),
+    "mathematical_examples_conjectures": (
+        6,
+        "Suggesting mathematical examples or conjectures",
     ),
-    "brainstorming_literature_code": (
-        2,
-        "Brainstorming, literature assistance, or code",
-    ),
-    "rewriting_drafting": (
-        5,
-        "Rewriting or drafting portions",
-    ),
-    "substantial_generation": (
+    "substantial_text_generation": (7, "Substantial text generation"),
+    "proof_ideas_steps": (8, "Proof ideas or individual proof-step assistance"),
+    "complete_proof_drafting": (9, "Drafting a complete proof for author revision"),
+    "substantial_proof_generation": (10, "Substantial proof generation"),
+    "substantial_mathematical_content": (
         10,
-        "Substantial text, proofs, or content generation",
+        "Substantial mathematical content or result generation",
     ),
     "mixed_or_other": (
         None,

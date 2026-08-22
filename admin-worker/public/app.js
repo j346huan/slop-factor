@@ -1,13 +1,25 @@
 const state = { candidates: [], selected: null, scanTimer: null };
 const classifications = {
-  proofreading_translation: ["Proofreading, grammar, or translation", 1],
-  brainstorming_literature_code: [
-    "Brainstorming, literature assistance, or code",
-    2,
+  proofreading_grammar: ["Proofreading, grammar, or spelling", 1],
+  translation: ["Translation", 1],
+  formatting_typesetting: ["Formatting or typesetting", 1],
+  literature_search: ["Literature search", 2],
+  citation_assistance: ["Citation assistance", 2],
+  brainstorming_outlining: ["Brainstorming or outlining", 2],
+  code_assistance: ["Code generation, completion, or debugging", 2],
+  computational_support: ["Computational experiments or data processing", 3],
+  rewriting_existing_text: ["Rewriting existing author-written text", 4],
+  limited_text_drafting: ["Drafting limited passages", 5],
+  mathematical_examples_conjectures: [
+    "Suggesting mathematical examples or conjectures",
+    6,
   ],
-  rewriting_drafting: ["Rewriting or drafting portions", 5],
-  substantial_generation: [
-    "Substantial text, proofs, or content generation",
+  substantial_text_generation: ["Substantial text generation", 7],
+  proof_ideas_steps: ["Proof ideas or individual proof-step assistance", 8],
+  complete_proof_drafting: ["Drafting a complete proof for author revision", 9],
+  substantial_proof_generation: ["Substantial proof generation", 10],
+  substantial_mathematical_content: [
+    "Substantial mathematical content or result generation",
     10,
   ],
   mixed_or_other: ["Mixed or intermediate disclosed use", null],
@@ -23,6 +35,7 @@ const elements = Object.fromEntries(
     "empty-state",
     "login-panel",
     "notice",
+    "next-unscanned",
     "pending-count",
     "rejected-count",
     "review-content",
@@ -39,6 +52,7 @@ const elements = Object.fromEntries(
     "scan-stage",
     "scan-start-date",
     "scan-total",
+    "scanned-dates",
     "search",
     "status-filter",
     "submitted-count",
@@ -156,6 +170,19 @@ function openReview(candidate) {
   ]) {
     facts.append(text("dt", label), text("dd", value));
   }
+  const keywords = [
+    ...new Set(
+      candidate.evidence.map((evidence) => evidence.term).filter(Boolean),
+    ),
+  ];
+  const keywordList = document.createElement("ul");
+  keywordList.className = "review-keywords";
+  for (const keyword of keywords) keywordList.append(text("li", keyword));
+  const keywordValue = document.createElement("dd");
+  keywordValue.append(
+    keywordList.childElementCount ? keywordList : text("span", "Not recorded"),
+  );
+  facts.append(text("dt", "Detected keywords"), keywordValue);
   content.append(facts);
 
   const form = document.createElement("form");
@@ -178,7 +205,18 @@ function openReview(candidate) {
       ),
       text("blockquote", evidence.matched_sentence ?? evidence.quotation),
     );
-    form.append(card);
+    const pdfLink = text(
+      "a",
+      evidence.page ? `Open PDF page ${evidence.page}` : "Open PDF",
+      "evidence-pdf-link",
+    );
+    pdfLink.href = `${
+      candidate.paper.pdf_url ??
+      `https://arxiv.org/pdf/${candidate.candidate_id}`
+    }#page=${evidence.page ?? 1}`;
+    pdfLink.target = "_blank";
+    pdfLink.rel = "noopener noreferrer";
+    form.append(card, pdfLink);
   });
 
   const quotation = document.createElement("textarea");
@@ -203,8 +241,12 @@ function openReview(candidate) {
   classification.name = "classification";
   classification.required = true;
   classification.append(new Option("Select classification", ""));
-  for (const [value, [label]] of Object.entries(classifications)) {
-    classification.append(new Option(label, value));
+  for (const [value, [label, fixedMultiplier]] of Object.entries(
+    classifications,
+  )) {
+    const suffix =
+      fixedMultiplier === null ? "reviewer-selected M" : `M=${fixedMultiplier}`;
+    classification.append(new Option(`${label} — ${suffix}`, value));
   }
   const multiplier = document.createElement("input");
   multiplier.name = "multiplier";
@@ -245,26 +287,15 @@ function openReview(candidate) {
   );
   form.append(fields, scorePreview);
 
-  const confirmation = document.createElement("input");
-  confirmation.name = "confirmation";
-  confirmation.autocomplete = "off";
-  confirmation.placeholder = "Type APPROVE";
-  confirmation.required = true;
-  const confirmationLabel = labeledInput(
-    "Confirm that the quotation explicitly discloses the authors’ own AI use",
-    confirmation,
-  );
-  confirmationLabel.className = "confirmation";
-
   const actions = document.createElement("div");
   actions.className = "review-actions";
   const reject = text("button", "Reject candidate", "danger-button");
   reject.type = "button";
   reject.addEventListener("click", () => rejectCandidate(candidate));
-  const approve = text("button", "Prepare approval record", "button");
+  const approve = text("button", "Approve", "button");
   approve.type = "submit";
   actions.append(reject, approve);
-  form.append(confirmationLabel, actions);
+  form.append(actions);
   content.append(form);
   elements["review-dialog"].showModal();
 }
@@ -292,10 +323,6 @@ async function submitApproval(event) {
   event.preventDefault();
   const form = event.currentTarget;
   const data = new FormData(form);
-  if (data.get("confirmation") !== "APPROVE") {
-    showNotice("Type APPROVE exactly before preparing the record.", "error");
-    return;
-  }
   const button = form.querySelector('button[type="submit"]');
   button.disabled = true;
   try {
@@ -310,7 +337,6 @@ async function submitApproval(event) {
         classification: data.get("classification"),
         multiplier: Number(data.get("multiplier")),
         rationale: data.get("rationale"),
-        confirmation: true,
       }),
     });
     elements["review-dialog"].close();
@@ -403,9 +429,18 @@ async function loadScan() {
         showNotice(error.message, "error");
       }
     }, 5000);
-  } else if (payload.scan?.status === "completed") {
-    await loadCandidates();
+  } else if (["completed", "failed"].includes(payload.scan?.status)) {
+    await Promise.all([loadCandidates(), loadScanHistory()]);
   }
+}
+
+async function loadScanHistory() {
+  const payload = await api("/api/scans/history");
+  elements["next-unscanned"].textContent =
+    payload.next_unscanned ?? "Up to date";
+  elements["scanned-dates"].textContent = payload.scanned_dates.length
+    ? payload.scanned_dates.join(", ")
+    : "No completed dates.";
 }
 
 async function initialize() {
@@ -418,7 +453,7 @@ async function initialize() {
     await api("/api/session");
     elements.account.hidden = false;
     elements.dashboard.hidden = false;
-    await Promise.all([loadCandidates(), loadScan()]);
+    await Promise.all([loadCandidates(), loadScan(), loadScanHistory()]);
   } catch (error) {
     if (error.message.includes("Authentication required")) {
       elements["login-panel"].hidden = false;
@@ -455,7 +490,7 @@ document
   });
 
 document.getElementById("refresh").addEventListener("click", async () => {
-  await Promise.all([loadCandidates(), loadScan()]);
+  await Promise.all([loadCandidates(), loadScan(), loadScanHistory()]);
 });
 elements["scan-start-date"].addEventListener("change", () => {
   if (elements["scan-end-date"].value < elements["scan-start-date"].value) {

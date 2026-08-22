@@ -105,13 +105,7 @@ def _choose(prompt: str, maximum: int, input_fn: Input) -> int:
 
 
 def select_disclosure(input_fn: Input = input) -> tuple[str, float, str, str]:
-    choices = [
-        ("proofreading_translation", 1),
-        ("brainstorming_literature_code", 2),
-        ("rewriting_drafting", 5),
-        ("substantial_generation", 10),
-        ("mixed_or_other", None),
-    ]
+    choices = [(classification, values[0]) for classification, values in CLASSIFICATIONS.items()]
     print("\nDisclosure classification (select the highest applicable disclosed use):")
     for index, (classification, multiplier) in enumerate(choices, start=1):
         label = CLASSIFICATIONS[classification][1]
