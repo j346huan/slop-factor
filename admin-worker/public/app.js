@@ -1,7 +1,4 @@
-import {
-  buildPendingExport,
-  validateDecisionInput,
-} from "./decisions.js";
+import { buildPendingExport, validateDecisionInput } from "./decisions.js";
 
 const state = {
   candidates: [],
