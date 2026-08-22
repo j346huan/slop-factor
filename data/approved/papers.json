@@ -1105,6 +1105,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18408",
+      "version": 1,
+      "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
+      "authors": [
+        "Sinai Robins",
+        "André Rosenbaum Coelho"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T00:34:39Z",
+        "updated": "2026-08-19T00:34:39Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We study the Ehrhart theory of half-open $d$-dimensional integer parallelepipeds $Π$. Although the lattice-point count $tΠ\\cap \\Z^d$ is known to be simply $\\vol Πt^d$ for positive integer $t$, the corresponding counting function for arbitrary real dilations $t$ has subtle, nontrivial periodic structure. We give explicit formulas for this real Ehrhart quasi-polynomial, and more generally for all the discrete moments of the real dilates of $Π$: $\\sum_{p\\in tΠ\\cap\\mathbb Z^d}\\langle p,z\\rangle^m$. The formulas are expressed in terms of Barnes polynomials and polytope Dedekind sums, which encode the periodic lattice flow of translated integer lattices on the flat torus determined by $Π$. Our approach develops further the study of polytope Dedekind sums, introduced recently in \\cite{Robins2026}. In particular, we obtain novel identities for polytope Dedekind sums by using iterated discrete derivatives. Moreover, we show that the Ehrhart quasi-coefficients of $L_Π(t)$ are precisely alternating sums of polytope Dedekind sums. Finally, we give an Ehrhart-type reciprocity law relating $L_Π(t)$ at negative arguments to the lattice-point count of the `opposite' half-open parallelepiped.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18408v1",
+        "pdf": "https://arxiv.org/pdf/2608.18408v1",
+        "source": "https://export.arxiv.org/e-print/2608.18408v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 4,
+        "lemmas": 4,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 3,
+        "displayed_equations": 148,
+        "bibliography_entries": 79,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "l≥0 I⊆[d] l! Equating the coefficient of xn+d gives identity (110). AI Usage The authors used ChatGPT for editorial assistance, proofreading, and suggestions during the writing of this paper. The authors independently provided and re-checked all mathematical arguments, statements, and references, and take full responsibility for the final",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:02:07.254103Z"
+      },
+      "score": 122.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 122.9,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 25,
+          "theorems": 24,
+          "lemmas": 16,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 6,
+          "displayed_equations": 37,
+          "bibliography_entries": 7.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18362",
       "version": 1,
       "title": "A new unconditional lower bound for shoreline search",
