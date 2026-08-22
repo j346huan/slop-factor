@@ -3823,6 +3823,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19301",
+      "version": 1,
+      "title": "Disproof of the Yau--Tian--Donaldson conjecture",
+      "authors": [
+        "Jihao Liu"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math.AG",
+          "math.CV"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T17:19:43Z",
+        "updated": "2026-08-19T17:19:43Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We construct a polarized smooth projective fivefold and prove that it is K-polystable but does not admit a constant scalar curvature Kähler metric. This disproves the Yau--Tian--Donaldson conjecture for constant scalar curvature metrics. The main result of this paper was obtained using generative AI, particularly GPT-5.6-sol, Fable 5, and the Danus system. A detailed report on the use of generative AI in this paper is enclosed in the appendix, joint with Bin Dong and Guoxiong Gao.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19301v1",
+        "pdf": "https://arxiv.org/pdf/2608.19301v1",
+        "source": "https://export.arxiv.org/e-print/2608.19301v1"
+      },
+      "structural_counts": {
+        "pages": 79,
+        "theorems": 26,
+        "lemmas": 30,
+        "propositions": 8,
+        "corollaries": 4,
+        "definitions": 3,
+        "displayed_equations": 540,
+        "bibliography_entries": 122,
+        "appendix_pages": 79
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file YTD_disproof.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ng a solution; Codex produced a proof, rejected it in its own verification, and gave no valid result within the time limit; Claude Code reported that this is a well-known conjecture and offered some possible approaches but no solution, and GPT-5.6-sol Pro, after 133 minutes of thinking, reached much the same assessment and likewise claimed no solution. On the easier task of being given the counterexample of this paper and asked only for a proof that it is one, none of the six produc",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 73",
+          "page": 73
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:19:29.497841Z"
+      },
+      "score": 2130.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 710.2,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 79,
+          "theorems": 156,
+          "lemmas": 120,
+          "propositions": 32,
+          "corollaries": 12,
+          "definitions": 6,
+          "displayed_equations": 135,
+          "bibliography_entries": 12.2,
+          "appendix_pages": 158
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19060",
       "version": 1,
       "title": "Activated switching between coexisting limit cycles",
