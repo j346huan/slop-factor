@@ -1870,6 +1870,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19676",
+      "version": 1,
+      "title": "Nonexistence of Frame Measures for Separated Uniform Consecutive-Digit Bernoulli Convolutions",
+      "authors": [
+        "Xiao-Ye Fu",
+        "Wei-Jie Wang"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T06:11:51Z",
+        "updated": "2026-08-20T06:11:51Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We investigate the existence problem of frame measures for uniform consecutive-digit Bernoulli convolutions under the separated scaling condition. Given parameters $N\\geq 2$ and $0<ρ<1/N$, we prove that if $ρ^{-m}=B$ for some integers $m\\geq 1$ and $B\\geq 2$, with $N\\nmid B$, then the associated $N$-Bernoulli convolution $μ_{ρ,N}$ admits no frame measure. The proof introduces a new cyclic mask-quotient obstruction adapted to the multi-character structure of the consecutive-digit framework.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19676v1",
+        "pdf": "https://arxiv.org/pdf/2608.19676v1",
+        "source": "https://export.arxiv.org/e-print/2608.19676v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 2,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 50,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Nonexistence_of_Frame_Measures_for_Separated_Uniform_Consecutive-Digit_Bernoulli_Convolutions6.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "he lower frame inequality for the sequence {Fs }. Therefore, no frame measure Γ for µ can exist. Declaration of Generative AI and AI-Assisted Tech- nologies in the Manuscript Preparation Process During the preparation of this manuscript, generative AI was used for linguistic polishing of the introduction and for checking the formatting of the reference list. All authors thoroughly reviewed, revised, and finalized the manuscript and take full responsibility for the content of the article",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:14:18.369868Z"
+      },
+      "score": 70.1,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 70.1,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 14,
+          "theorems": 12,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 12.5,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19627",
       "version": 1,
       "title": "Uniformly Rotating Vortex Patches with Arbitrarily Many Genuine Holes",
