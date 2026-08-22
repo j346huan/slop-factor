@@ -10,13 +10,11 @@ import {
   latestPapers,
   topPapers,
   topPapersThisWeek,
+  totalSlop,
 } from "@/lib/home";
 
 const papers = getApprovedPapers();
-const highest = papers.reduce(
-  (value, paper) => Math.max(value, paper.score),
-  0,
-);
+const totalSlopScore = totalSlop(papers);
 const totalPages = papers.reduce(
   (sum, paper) => sum + paper.structural_counts.pages,
   0,
@@ -37,10 +35,10 @@ const dailySlop = dailySlopSeries(papers, today);
 const number = new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 });
 const stats = [
   {
-    label: "Highest Slop Factor",
-    value: papers.length ? number.format(highest) : "—",
+    label: "Total Slop",
+    value: papers.length ? number.format(totalSlopScore) : "—",
     note: papers.length
-      ? "Highest verified record"
+      ? "Sum of approved paper scores"
       : "Awaiting approved records",
   },
   {
