@@ -678,6 +678,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19785",
+      "version": 1,
+      "title": "Learning piecewise-smooth dynamical systems",
+      "authors": [
+        "Davide Murari",
+        "Erik Jansson",
+        "Chris Budd OBE",
+        "Carola-Bibiane Schönlieb"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": [
+          "cs.LG",
+          "math.NA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-20T08:29:17Z",
+        "updated": "2026-08-20T08:29:17Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Discovering dynamical systems from trajectory data is a central problem in applied mathematics and engineering. Whilst recent advances in machine learning have led to strong progress in data-driven system identification, much less attention has been given to systems with discontinuous dynamics. These systems are nevertheless highly relevant in applications, including climate dynamics and mechanical systems with friction. In this work, we consider the problem of identifying piecewise-smooth dynamical systems directly from trajectory data. Compared with the smooth setting, this requires recovering the governing equations and detecting the switching hyperplanes that separate different dynamical regimes and characterising their behaviour, such as sliding motion. We present a modular framework for discovering such systems by first estimating switching hyperplanes from data and then learning smooth dynamics within each region using geometry-constrained neural networks. The geometry-learning phase is studied from a statistical perspective, analysing the identifiability of the discontinuities and the robustness of the procedure. We also introduce a novel neural network architecture with a prescribed discontinuity set, and provide a theoretical analysis of its approximation properties. The approach is tested on low-dimensional benchmark problems, including dry-friction oscillators and the PP04 climate model for the ice ages.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19785v1",
+        "pdf": "https://arxiv.org/pdf/2608.19785v1",
+        "source": "https://export.arxiv.org/e-print/2608.19785v1"
+      },
+      "structural_counts": {
+        "pages": 31,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 108,
+        "bibliography_entries": 36,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file mainArxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "CBS acknowledge support from the EPSRC programme grant EP/Y028783/1. All the authors acknowledge support from the EU through the Marie Skłodowska-Curie Actions Staff Exchanges project REMODEL, grant agreement 101131557. AI use declaration ChatGPT was used to assist in checking mathematical proofs and identifying notation issues and inconsistencies across the manuscript prior to submission. Codex was used to assist with the preparation of the research code, under direct and substant",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:14:46.329234Z"
+      },
+      "score": 187.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 93.6,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 31,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 27,
+          "bibliography_entries": 3.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19627",
       "version": 1,
       "title": "Uniformly Rotating Vortex Patches with Arbitrarily Many Genuine Holes",
