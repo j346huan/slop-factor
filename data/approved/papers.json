@@ -6210,6 +6210,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18651",
+      "version": 1,
+      "title": "A Uniform Proof for the Small Davenport Constant of the Exponent-$p$ Heisenberg Group",
+      "authors": [
+        "Andreas Volkmann"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T07:56:30Z",
+        "updated": "2026-08-19T07:56:30Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $p$ be an odd prime and let $H_{p^3}=\\operatorname{UT}_3(\\mathbb{F}_p)$ be the Heisenberg group of order $p^3$ and exponent $p$. We prove $\\mathsf{d}(H_{p^3})=3p-3$. The main ingredient of the proof is an order-value growth theorem. If $B$ is a noncollinear zero-sum sequence of $n$ nonzero vectors in $\\mathbb{F}_p^2$, then the alternating areas obtained by ordering $B$ assume at least $\\min(p,n-1)$ distinct values. Its proof is a short contraction induction: contract a suitable independent pair, replace the contracted vector in both orders, and apply Cauchy--Davenport. A polynomial relative-subsum theorem and a sharp representation-rigidity lemma then turn this local growth into a uniform spread bound. Combined with the standard product-one criterion for $H_{p^3}$, the spread bound yields the upper bound; the usual sequence $x^{p-1}y^{p-1}v^{p-1}$ gives the lower bound.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18651v1",
+        "pdf": "https://arxiv.org/pdf/2608.18651v1",
+        "source": "https://export.arxiv.org/e-print/2608.18651v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 4,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 36,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Volkmann_Uniform_Heisenberg_Davenport_Proof.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "l consistency checks during discovery; no computation is part of the logical argument. The proof itself uses only Cauchy–Davenport, elementary linear algebra, and the Boolean-cube degree argument given above. AI-assisted tools disclosure. AI-assisted tools were used during exploration, drafting, and adversarial consistency checking. The mathematical argument presented here is self-contained; no output of an AI system is invoked as an external authority. References [1] N. K. Godara an",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:30:51.911497Z"
+      },
+      "score": 318,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 63.6,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 7,
+          "theorems": 24,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 9,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18620",
       "version": 1,
       "title": "Superlinear separation between linear and centered colorings",
