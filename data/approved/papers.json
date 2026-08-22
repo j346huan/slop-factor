@@ -1105,6 +1105,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18338",
+      "version": 1,
+      "title": "Existence and qualitative theory for nonlinear accretive evolutions with Carathéodory forcing",
+      "authors": [
+        "Dieter Bothe"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.AP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T21:42:30Z",
+        "updated": "2026-08-18T21:42:30Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $A$ be $m$-accretive in a real Banach space $X$. Given closed sets $K(t)\\subset X$, we develop an existence theory for mild solutions of the constrained problem \\[ u'(t)+Au(t)\\ni f(t,u(t)), \\qquad u(t)\\in K_A(t):=K(t)\\cap\\overline{D(A)}, \\] where the forcing is Carathéodory on the effective tube $K_A$. We also assume joint measurability of $f$ on the moving graph or a Carathéodory extension to a fixed cylinder. Under a linear-growth hypothesis and the corresponding regular- and exceptional-time subtangential conditions, we reduce the problem to a bounded effective tube with a common integrable bound. % A first central result constructs a closed separable resolvent-invariant subspace preserving distances to the moving sets and the subtangential conditions, permitting use of the Scorza--Dragoni property for the reduced forcing. A second central ingredient is a two-level approximation. Mild solutions $u_\\varepsilon$ driven by $w_\\varepsilon$ are accompanied by auxiliary paths $v_\\varepsilon$ and current-time selectors $x_\\varepsilon$ satisfying $x_\\varepsilon(t)\\in K_A(t)$ and $w_\\varepsilon(t)=f(t,x_\\varepsilon(t))$ for almost every $t$ in a closed regularity set of almost full measure. For every $t$ there is also $σ_\\varepsilon(t)\\in[(t-\\varepsilon)^+,t]$ with $v_\\varepsilon(σ_\\varepsilon(t))\\in K_A(σ_\\varepsilon(t))$. The current-time selectors identify the limiting forcing, while the lagged nodes guarantee viability. % This yields well-posedness under time-dependent constraints for such forcings $f$ when they are locally Lipschitz in the state variable. Further viability results follow under various compactness conditions. Application of the abstract viability theory yields comparison principles, nonautonomous Lyapunov pairs, periodic solutions, and time-dependent bounds for abstract reaction--diffusion systems.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18338v1",
+        "pdf": "https://arxiv.org/pdf/2608.18338v1",
+        "source": "https://export.arxiv.org/e-print/2608.18338v1"
+      },
+      "structural_counts": {
+        "pages": 60,
+        "theorems": 11,
+        "lemmas": 16,
+        "propositions": 9,
+        "corollaries": 10,
+        "definitions": 6,
+        "displayed_equations": 242,
+        "bibliography_entries": 71,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file nonlinear_evolutions_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Statements and Declarations Competing interests. The author declares no competing interests. Data availability. No data were generated or analysed in this study. Use of generative AI. OpenAI’s ChatGPT was used for language and structural editing and for auxiliary consistency checks. The author reviewed and verified the resulting text and assumes full responsibility for its content. References [1] S. Adly, A. Hantoute, B.T. Nguyen, In",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 57",
+          "page": 57
+        },
+        "classification": "formatting_typesetting",
+        "role_label": "Formatting or typesetting",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:24:34.232518Z"
+      },
+      "score": 335.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 335.6,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 60,
+          "theorems": 66,
+          "lemmas": 64,
+          "propositions": 36,
+          "corollaries": 30,
+          "definitions": 12,
+          "displayed_equations": 60.5,
+          "bibliography_entries": 7.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18320",
       "version": 1,
       "title": "Asymptotics for Beta-Splitting Trees via Homogeneous Fragmentations and Meromorphic Potential Theory",
