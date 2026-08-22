@@ -37,7 +37,10 @@ const elements = Object.fromEntries(
     "approved-count",
     "candidate-list",
     "dashboard",
+    "decision-file",
     "empty-state",
+    "export-pending",
+    "import-decisions",
     "login-panel",
     "latest-arxiv-date",
     "notice",
@@ -83,6 +86,157 @@ function showNotice(message, tone = "info") {
   elements.notice.textContent = message;
   elements.notice.dataset.tone = tone;
   elements.notice.hidden = false;
+}
+
+function pendingExport() {
+  return state.candidates
+    .filter((candidate) => candidate.status === "pending")
+    .map((candidate) => ({
+      arxiv_id: candidate.candidate_id,
+      disclosures: candidate.evidence.map((evidence) => ({
+        quotation: evidence.quotation,
+        location: evidence.location_value,
+        page: evidence.page ?? null,
+      })),
+    }));
+}
+
+function downloadPending() {
+  const pending = pendingExport();
+  const blob = new Blob([JSON.stringify(pending, null, 2) + "\n"], {
+    type: "application/json",
+  });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `slop-factor-pending-${new Date().toISOString().slice(0, 10)}.json`;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+  showNotice(`Exported ${pending.length} pending papers.`, "success");
+}
+
+function validatedDecisions(value) {
+  if (!Array.isArray(value)) {
+    throw new Error("Decision file must contain a JSON array");
+  }
+  const pending = new Map(
+    state.candidates
+      .filter((candidate) => candidate.status === "pending")
+      .map((candidate) => [candidate.candidate_id, candidate]),
+  );
+  const seen = new Set();
+
+  return value.map((entry, index) => {
+    if (!entry || typeof entry !== "object" || Array.isArray(entry)) {
+      throw new Error(`Decision ${index + 1} must be a JSON object`);
+    }
+    const arxivId = String(entry.arxiv_id ?? "").trim();
+    const decision = String(entry.decision ?? "").trim().toLowerCase();
+    if (!arxivId) throw new Error(`Decision ${index + 1} has no arxiv_id`);
+    if (seen.has(arxivId)) {
+      throw new Error(`Duplicate decision for ${arxivId}`);
+    }
+    seen.add(arxivId);
+    const candidate = pending.get(arxivId);
+    if (!candidate) {
+      throw new Error(`${arxivId} is not pending`);
+    }
+    if (decision === "reject") return { candidate, decision };
+    if (decision !== "approve") {
+      throw new Error(`${arxivId} decision must be approve or reject`);
+    }
+
+    const quotation = String(entry.quotation ?? "");
+    const location = String(entry.location ?? "");
+    const page = Number(entry.page);
+    const classification = String(
+      entry.disclosure_classification ?? "",
+    ).trim();
+    const multiplier = classifications[classification]?.[1];
+    if (!quotation || !location || !Number.isInteger(page) || page < 1) {
+      throw new Error(
+        `${arxivId} approval requires quotation, location, and PDF page`,
+      );
+    }
+    if (!Number.isFinite(multiplier)) {
+      throw new Error(
+        `${arxivId} requires a fixed disclosure_classification from the specification`,
+      );
+    }
+    const evidenceIndex = candidate.evidence.findIndex(
+      (evidence) =>
+        evidence.quotation === quotation &&
+        evidence.location_value === location &&
+        Number(evidence.page) === page,
+    );
+    if (evidenceIndex < 0) {
+      throw new Error(
+        `${arxivId} quotation, location, and page do not match exported evidence`,
+      );
+    }
+    return {
+      candidate,
+      decision,
+      evidenceIndex: evidenceIndex + 1,
+      quotation,
+      location,
+      page,
+      classification,
+      multiplier,
+    };
+  });
+}
+
+async function applyDecisionFile(file) {
+  let value;
+  try {
+    value = JSON.parse(await file.text());
+  } catch {
+    throw new Error("Decision file is not valid JSON");
+  }
+  const decisions = validatedDecisions(value);
+  let applied = 0;
+  try {
+    for (const item of decisions) {
+      if (item.decision === "reject") {
+        await api(`/api/candidates/${item.candidate.issueNumber}/reject`, {
+          method: "POST",
+          body: JSON.stringify({
+            reason: "Rejected through imported decision file.",
+          }),
+        });
+        item.candidate.status = "rejected";
+      } else {
+        await api(`/api/candidates/${item.candidate.issueNumber}/approve`, {
+          method: "POST",
+          body: JSON.stringify({
+            evidenceIndex: item.evidenceIndex,
+            quotation: item.quotation,
+            locationKind: "page",
+            locationValue: item.location,
+            page: item.page,
+            classification: item.classification,
+            multiplier: item.multiplier,
+          }),
+        });
+        item.candidate.status = "approval-submitted";
+      }
+      applied += 1;
+    }
+  } catch (error) {
+    elements["status-filter"].value = "pending";
+    renderCandidates();
+    loadCandidates().catch(() => {});
+    throw new Error(
+      `Applied ${applied} of ${decisions.length} decisions. ${error.message}`,
+    );
+  }
+  elements["status-filter"].value = "pending";
+  renderCandidates();
+  await loadCandidates();
+  showNotice(`Applied ${applied} decisions.`, "success");
 }
 
 function text(tag, content, className = "") {
@@ -531,6 +685,24 @@ elements["scan-start-date"].addEventListener("change", () => {
 document.getElementById("logout").addEventListener("click", async () => {
   await api("/auth/logout", { method: "POST", body: "{}" });
   window.location.reload();
+});
+elements["export-pending"].addEventListener("click", downloadPending);
+elements["import-decisions"].addEventListener("click", () => {
+  elements["decision-file"].click();
+});
+elements["decision-file"].addEventListener("change", async () => {
+  const file = elements["decision-file"].files?.[0];
+  if (!file) return;
+  const button = elements["import-decisions"];
+  button.disabled = true;
+  try {
+    await applyDecisionFile(file);
+  } catch (error) {
+    showNotice(error.message, "error");
+  } finally {
+    button.disabled = false;
+    elements["decision-file"].value = "";
+  }
 });
 elements.search.addEventListener("input", renderCandidates);
 elements["status-filter"].addEventListener("change", renderCandidates);
