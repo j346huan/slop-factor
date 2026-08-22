@@ -246,6 +246,22 @@ async function github<T>(
   return response.json() as Promise<T>;
 }
 
+async function githubPages<T>(token: string, path: string): Promise<T[]> {
+  const results: T[] = [];
+  for (let page = 1; ; page += 1) {
+    const separator = path.includes("?") ? "&" : "?";
+    const batch = await github<T[]>(token, `${path}${separator}page=${page}`);
+    results.push(...batch);
+    if (batch.length < 100) return results;
+  }
+}
+
+function nextDate(value: string): string {
+  const date = new Date(`${value}T00:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + 1);
+  return date.toISOString().slice(0, 10);
+}
+
 async function administrator(
   request: Request,
   env: Env,
@@ -389,6 +405,35 @@ async function api(
     if (!issues[0]) return json({ scan: null });
     const scan = scanSession(issues[0].body ?? "");
     return json({ scan: { ...scan, issue_number: issues[0].number } });
+  }
+
+  if (pathname === "/api/scans/history" && request.method === "GET") {
+    const issues = await githubPages<GitHubIssue>(
+      token,
+      `/repos/${env.GITHUB_REPOSITORY}/issues?state=all&labels=scan-session&sort=created&direction=asc&per_page=100`,
+    );
+    const scans = issues.map((issue) => scanSession(issue.body ?? ""));
+    const completedDates = new Set<string>();
+    const requestedDates = scans
+      .flatMap((scan) => [scan.start_date, scan.end_date])
+      .filter((value): value is string => Boolean(value));
+    for (const scan of scans) {
+      if (scan.status !== "completed" || !scan.start_date || !scan.end_date)
+        continue;
+      for (let date = scan.start_date; date <= scan.end_date; date = nextDate(date)) {
+        completedDates.add(date);
+      }
+    }
+    const scannedDates = [...completedDates].sort();
+    const today = new Date().toISOString().slice(0, 10);
+    let nextUnscanned = requestedDates.sort()[0] ?? today;
+    while (nextUnscanned <= today && completedDates.has(nextUnscanned)) {
+      nextUnscanned = nextDate(nextUnscanned);
+    }
+    return json({
+      scanned_dates: scannedDates,
+      next_unscanned: nextUnscanned <= today ? nextUnscanned : null,
+    });
   }
 
   if (pathname === "/api/scan" && request.method === "POST") {
