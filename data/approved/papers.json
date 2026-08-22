@@ -3909,6 +3909,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19118",
+      "version": 1,
+      "title": "A Near-Optimal Linear Range for the Erdős Matching Conjecture",
+      "authors": [
+        "Mengyu Cao",
+        "Hong Liu",
+        "Haixiang Zhang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T17:15:35Z",
+        "updated": "2026-08-19T17:15:35Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "The Erdős Matching Conjecture is governed by two competing ways of excluding $s+1$ disjoint edges: one may concentrate all edges on fewer than $k(s+1)$ vertices, or force every edge to meet a fixed $s$-set. We determine a near-optimal range in which the second construction is extremal. For every fixed $k\\ge2$, there is $s_0(k)$ such that, whenever $s\\ge s_0(k)$ and $n\\ge(k+1)s$, every $\\mathcal{F}\\subseteq\\binom{[n]}k$ with $ν(\\mathcal{F})\\le s$ satisfies\\[ |\\mathcal{F}|\\le\\binom nk-\\binom{n-s}k, \\]with equality only for the family of all $k$-sets meeting a fixed $s$-set. This lowers the best previous general linear coefficient from $(5k-2)/3$ to $k+1$. Since the two conjectured constructions exchange asymptotic dominance at $n=(ρ_k+o(1))s$ for a coefficient $ρ_k\\in(k,k+1)$, our range lies less than one unit above the unavoidable barrier. We also prove a stability theorem showing that cover families are the only near-extremal configurations throughout this range. A key ingredient in our proof is a probabilistic rigidity statement which forces near-extremal fractional covers to be almost integral.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19118v1",
+        "pdf": "https://arxiv.org/pdf/2608.19118v1",
+        "source": "https://export.arxiv.org/e-print/2608.19118v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 4,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 121,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file A_Near_Optimal_Linear_Range_for_EMC.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgement The first and third authors gratefully acknowledge the Fourth ECOPRO Student Research Program, held at the Institute for Basic Science (IBS) in summer 2026, for its support. The authors acknowledge the use of AI tools during the exploratory stage of this project. All mathematical arguments and proofs presented in the final manuscript were developed and rigorously verified by the authors. The authors take full responsibility for the content of the manusc",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:29:45.275879Z"
+      },
+      "score": 212.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 106.25,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 19,
+          "theorems": 24,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 30.25,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19089",
       "version": 1,
       "title": "Improved bounds on the oriented diameter of planar triangulations",
