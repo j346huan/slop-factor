@@ -5,6 +5,7 @@ interface Env {
   GITHUB_CLIENT_SECRET: string;
   GITHUB_REPOSITORY: string;
   PUBLIC_REPOSITORY: string;
+  SCAN_HISTORY_START: string;
   SESSION_SECRET: string;
 }
 
@@ -262,6 +263,35 @@ function nextDate(value: string): string {
   return date.toISOString().slice(0, 10);
 }
 
+function isWeekend(value: string): boolean {
+  const day = new Date(`${value}T00:00:00Z`).getUTCDay();
+  return day === 0 || day === 6;
+}
+
+async function latestMathSubmissionDate(): Promise<string> {
+  const url = new URL("https://export.arxiv.org/api/query");
+  url.searchParams.set("search_query", "cat:math.*");
+  url.searchParams.set("start", "0");
+  url.searchParams.set("max_results", "1");
+  url.searchParams.set("sortBy", "submittedDate");
+  url.searchParams.set("sortOrder", "descending");
+  const response = await fetch(url, {
+    headers: {
+      Accept: "application/atom+xml",
+      "User-Agent": "slop-factor-admin/0.1",
+    },
+  });
+  if (!response.ok) {
+    throw new Error(`arXiv API returned ${response.status}`);
+  }
+  const atom = await response.text();
+  const published = atom.match(
+    /<entry>[\s\S]*?<published>(\d{4}-\d{2}-\d{2})T/,
+  )?.[1];
+  if (!published) throw new Error("arXiv returned no mathematics papers");
+  return published;
+}
+
 async function administrator(
   request: Request,
   env: Env,
@@ -412,7 +442,9 @@ async function api(
       token,
       `/repos/${env.GITHUB_REPOSITORY}/issues?state=all&labels=scan-session&sort=created&direction=asc&per_page=100`,
     );
-    const scans = issues.map((issue) => scanSession(issue.body ?? ""));
+    const scans = issues
+      .filter((issue) => issue.created_at >= env.SCAN_HISTORY_START)
+      .map((issue) => scanSession(issue.body ?? ""));
     const completedDates = new Set<string>();
     const requestedDates = scans
       .flatMap((scan) => [scan.start_date, scan.end_date])
@@ -429,14 +461,31 @@ async function api(
       }
     }
     const scannedDates = [...completedDates].sort();
-    const today = new Date().toISOString().slice(0, 10);
-    let nextUnscanned = requestedDates.sort()[0] ?? today;
-    while (nextUnscanned <= today && completedDates.has(nextUnscanned)) {
+    const url = new URL(request.url);
+    const suppliedAvailable = url.searchParams.get("available");
+    const latestAvailable =
+      url.searchParams.get("refresh") === "available"
+        ? await latestMathSubmissionDate()
+        : /^\d{4}-\d{2}-\d{2}$/.test(suppliedAvailable ?? "")
+          ? suppliedAvailable
+          : null;
+    const cutoff = latestAvailable ?? requestedDates.sort().at(-1) ?? null;
+    let nextUnscanned = requestedDates.sort()[0] ?? cutoff;
+    while (
+      nextUnscanned &&
+      cutoff &&
+      nextUnscanned <= cutoff &&
+      (completedDates.has(nextUnscanned) || isWeekend(nextUnscanned))
+    ) {
       nextUnscanned = nextDate(nextUnscanned);
     }
     return json({
       scanned_dates: scannedDates,
-      next_unscanned: nextUnscanned <= today ? nextUnscanned : null,
+      latest_available: latestAvailable,
+      next_unscanned:
+        nextUnscanned && cutoff && nextUnscanned <= cutoff
+          ? nextUnscanned
+          : null,
     });
   }
 
