@@ -1188,6 +1188,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19905",
+      "version": 1,
+      "title": "Ramanujan Cayley Graphs with Normal Connection Sets in Ratio-One Frobenius Groups",
+      "authors": [
+        "Ming-Hsuan Kang",
+        "Chi-Jung Yang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T11:17:19Z",
+        "updated": "2026-08-20T11:17:19Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $G=N\\rtimes H$ be a finite Frobenius group with $|N|=q$ and $|H|=q-1$. We classify all Ramanujan Cayley graphs of $G$ whose connection sets are normal, in the sense of being unions of conjugacy classes. The group-theoretic input is a simple blow-up phenomenon: every such Cayley graph is either $Y[\\overline{K_q}]$ or $Y[K_q]$ for a connected regular Cayley graph $Y$ on the complement $H$. We first prove a graph-theoretic result classifying all Ramanujan graphs of these two forms when $Y$ is an arbitrary connected regular graph on $q-1$ vertices. The proof combines the classical characterization of regular graphs with least eigenvalue greater than $-2$ with a second-moment identity in the bipartite case. Translating the resulting five graph types back to $G$ yields a complete classification for all ratio-one Frobenius groups, and in particular for $\\operatorname{AGL}(1,q)$ over every finite field.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19905v1",
+        "pdf": "https://arxiv.org/pdf/2608.19905v1",
+        "source": "https://export.arxiv.org/e-print/2608.19905v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 36,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Ramanujan_Cayley_Graphs_with_Normal_Connection_Sets.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "igid because N \\ {1} is a single conjugacy class. For larger ratios it splits into several classes, so one should expect a matrix-valued or multi-fiber analogue rather than a single lexicographic blow-up. Declaration of generative AI use Generative AI tools were used during manuscript preparation to assist with drafting portions of the exposition and with mathematical reasoning. All arguments and conclusions were independently checked by the authors, who take full responsibility for the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:12:31.807729Z"
+      },
+      "score": 454.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 56.8,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 8,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 9,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19872",
       "version": 1,
       "title": "New upper bounds on covering codes K_q(n,R) for alphabets of size six and seven",
