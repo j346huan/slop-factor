@@ -3,6 +3,94 @@
   "papers": [
     {
       "record_version": 1,
+      "arxiv_id": "2608.20266",
+      "version": 1,
+      "title": "Necessary conditions for deterministic and stochastic maximal regularity",
+      "authors": [
+        "Emiel Lorist",
+        "Jan van Neerven",
+        "Mark Veraar"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.AP",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-20T17:05:24Z",
+        "updated": "2026-08-20T17:05:24Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We study the role of Banach space geometry in deterministic and stochastic maximal regularity. We first construct an example showing that the UMD assumption in Weis' characterisation of maximal $L^p$-regularity in terms of $R$-sectoriality cannot be omitted. Combining this construction with an equivalence between stochastic maximal regularity and deterministic maximal regularity on the $2$-concavification of the underlying space, we obtain an operator on a UMD Banach function space of type $2$ that has a bounded $H^\\infty$-calculus of angle zero, but fails stochastic maximal $L^p$-regularity (SMR$_p$) for every $p\\in[2,\\infty)$. Motivated by this example, we study the Banach space geometry hypothesis underlying SMR$_p$ more closely. This is an $R$-boundedness condition $(S_p)$ for stochastic convolution operators. For UMD spaces $X$ of type $2$, we show that this condition is not only sufficient, but also necessary for two canonical test operators: a diagonal multiplier on a Rademacher space and, for $q>2$, the Laplacian on $L^q(\\mathbb R^d;X)$. Finally, we prove that its interval-kernel and exponential-kernel formulations are equivalent and that, at the endpoint $p=2$, condition $(S_2)$ holds if and only if $X$ is isomorphic to a Hilbert space.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.20266v1",
+        "pdf": "https://arxiv.org/pdf/2608.20266v1",
+        "source": "https://export.arxiv.org/e-print/2608.20266v1"
+      },
+      "structural_counts": {
+        "pages": 31,
+        "theorems": 6,
+        "lemmas": 5,
+        "propositions": 7,
+        "corollaries": 6,
+        "definitions": 1,
+        "displayed_equations": 180,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Necessary_conditions_for_DMR_and_SMR-v4.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "uivalent when p “ q “ 2. If exactly one of p and q equals 2, the extrapolation argument does not apply at the endpoint, and the proof above does not give the converse implication. AI disclosure statement GPT 5.5 Pro, GPT 5.6 Pro, and Codex were used during the preparation of this manuscript to explore proof strategies, organise intermediate LaTeX drafts, and check elementary estimates. The authors reviewed all mathematical arguments and are respon",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 30",
+          "page": 30
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:17:12.083917Z"
+      },
+      "score": 730,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 182.5,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 31,
+          "theorems": 36,
+          "lemmas": 20,
+          "propositions": 28,
+          "corollaries": 18,
+          "definitions": 2,
+          "displayed_equations": 45,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.20215",
       "version": 1,
       "title": "On the proof of Bray's conjecture",
