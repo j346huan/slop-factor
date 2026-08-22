@@ -35,6 +35,7 @@ const elements = Object.fromEntries(
     "empty-state",
     "login-panel",
     "notice",
+    "next-unscanned",
     "pending-count",
     "rejected-count",
     "review-content",
@@ -51,6 +52,7 @@ const elements = Object.fromEntries(
     "scan-stage",
     "scan-start-date",
     "scan-total",
+    "scanned-dates",
     "search",
     "status-filter",
     "submitted-count",
@@ -426,9 +428,17 @@ async function loadScan() {
         showNotice(error.message, "error");
       }
     }, 5000);
-  } else if (payload.scan?.status === "completed") {
-    await loadCandidates();
+  } else if (["completed", "failed"].includes(payload.scan?.status)) {
+    await Promise.all([loadCandidates(), loadScanHistory()]);
   }
+}
+
+async function loadScanHistory() {
+  const payload = await api("/api/scans/history");
+  elements["next-unscanned"].textContent = payload.next_unscanned ?? "Up to date";
+  elements["scanned-dates"].textContent = payload.scanned_dates.length
+    ? payload.scanned_dates.join(", ")
+    : "No completed dates.";
 }
 
 async function initialize() {
@@ -441,7 +451,7 @@ async function initialize() {
     await api("/api/session");
     elements.account.hidden = false;
     elements.dashboard.hidden = false;
-    await Promise.all([loadCandidates(), loadScan()]);
+    await Promise.all([loadCandidates(), loadScan(), loadScanHistory()]);
   } catch (error) {
     if (error.message.includes("Authentication required")) {
       elements["login-panel"].hidden = false;
@@ -478,7 +488,7 @@ document
   });
 
 document.getElementById("refresh").addEventListener("click", async () => {
-  await Promise.all([loadCandidates(), loadScan()]);
+  await Promise.all([loadCandidates(), loadScan(), loadScanHistory()]);
 });
 elements["scan-start-date"].addEventListener("change", () => {
   if (elements["scan-end-date"].value < elements["scan-start-date"].value) {
