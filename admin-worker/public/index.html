@@ -44,7 +44,7 @@
         <section class="toolbar" aria-label="Scan and queue controls">
           <form id="scan-form" class="scan-form">
             <label>
-              From (UTC)
+              Release from
               <input
                 id="scan-start-date"
                 name="startDate"
@@ -53,7 +53,7 @@
               />
             </label>
             <label>
-              To (UTC)
+              Release to
               <input id="scan-end-date" name="endDate" type="date" required />
             </label>
             <details class="scan-history">
@@ -61,7 +61,7 @@
                 Next unscanned: <strong id="next-unscanned">—</strong>
               </summary>
               <p>
-                Latest arXiv date: <strong id="latest-arxiv-date">—</strong>
+                Latest release: <strong id="latest-arxiv-date">—</strong>
               </p>
               <p id="scanned-dates">No completed dates.</p>
             </details>
