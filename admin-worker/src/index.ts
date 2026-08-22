@@ -78,20 +78,56 @@ const classifications: Record<
   string,
   { label: string; multiplier: number | null }
 > = {
-  proofreading_translation: {
-    label: "Proofreading, grammar, or translation",
+  proofreading_grammar: {
+    label: "Proofreading, grammar, or spelling",
     multiplier: 1,
   },
-  brainstorming_literature_code: {
-    label: "Brainstorming, literature assistance, or code",
+  translation: { label: "Translation", multiplier: 1 },
+  formatting_typesetting: { label: "Formatting or typesetting", multiplier: 1 },
+  literature_search: { label: "Literature search", multiplier: 2 },
+  citation_assistance: { label: "Citation assistance", multiplier: 2 },
+  brainstorming_outlining: {
+    label: "Brainstorming or outlining",
     multiplier: 2,
   },
-  rewriting_drafting: {
-    label: "Rewriting or drafting portions",
+  code_assistance: {
+    label: "Code generation, completion, or debugging",
+    multiplier: 2,
+  },
+  computational_support: {
+    label: "Computational experiments or data processing",
+    multiplier: 3,
+  },
+  rewriting_existing_text: {
+    label: "Rewriting existing author-written text",
+    multiplier: 4,
+  },
+  limited_text_drafting: {
+    label: "Drafting limited passages",
     multiplier: 5,
   },
-  substantial_generation: {
-    label: "Substantial text, proofs, or content generation",
+  mathematical_examples_conjectures: {
+    label: "Suggesting mathematical examples or conjectures",
+    multiplier: 6,
+  },
+  substantial_text_generation: {
+    label: "Substantial text generation",
+    multiplier: 7,
+  },
+  proof_ideas_steps: {
+    label: "Proof ideas or individual proof-step assistance",
+    multiplier: 8,
+  },
+  complete_proof_drafting: {
+    label: "Drafting a complete proof for author revision",
+    multiplier: 9,
+  },
+  substantial_proof_generation: {
+    label: "Substantial proof generation",
+    multiplier: 10,
+  },
+  substantial_mathematical_content: {
+    label: "Substantial mathematical content or result generation",
     multiplier: 10,
   },
   mixed_or_other: {
