@@ -519,7 +519,7 @@ elements["refresh-available"].addEventListener("click", async () => {
   button.disabled = true;
   try {
     await loadScanHistory(true);
-    showNotice(`Latest arXiv date: ${state.latestAvailable}.`, "success");
+    showNotice(`Latest submitted date: ${state.latestAvailable}.`, "success");
   } catch (error) {
     showNotice(error.message, "error");
   } finally {
