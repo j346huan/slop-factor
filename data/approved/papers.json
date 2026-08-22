@@ -1105,6 +1105,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19060",
+      "version": 1,
+      "title": "Activated switching between coexisting limit cycles",
+      "authors": [
+        "Gabriel Margiani",
+        "Orjan Ameye",
+        "Oded Zilberberg",
+        "Alexander Eichler"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": [
+          "nlin.CD",
+          "physics.class-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T16:00:04Z",
+        "updated": "2026-08-19T16:00:04Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Noise-activated switching between coexisting stable states is a fundamental mechanism underlying stochastic dynamics in systems ranging from chemical reactions to neural networks. While this phenomenon is well understood for stationary attractors, it remains largely unexplored for limit cycles, whose periodic motion cannot be described by a static potential landscape. Here we experimentally demonstrate activated switching between two coexisting limit-cycle attractors in a driven nonlinear system of coupled resonators. Specifically, we introduce controlled fluctuations to directly observe the rare stochastic transitions between two limit cycles and measure their dependence on noise intensity and driving strength. The measured switching rates are well described by a large-deviation theory, which replaces the conventional activation barrier by the action along the most probable transition path. Our results extend the concept of activated dynamics from stationary to limit-cycle attractors and establish a framework for modeling stochastic transitions between limit cycles in driven-dissipative systems.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19060v1",
+        "pdf": "https://arxiv.org/pdf/2608.19060v1",
+        "source": "https://export.arxiv.org/e-print/2608.19060v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 36,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file SM.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "FOR5688), and the switching rate between limit cycles depends on the 545605411 (ANR). We acknowledge the help of Vincent drive in a richer, geometry-controlled way than the cor- Dumont in proof-reading the manuscript. Claude Opus responding rate between fixed points, such machines of- was used to present the human-produced mathematical fer an additional tuning knob over the annealing dynam- results of our work in the supplemental material",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "substantial_text_generation",
+        "role_label": "Substantial text generation",
+        "multiplier": 7.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:03:36.159283Z"
+      },
+      "score": 189,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 27,
+        "multiplier": 7,
+        "contributions": {
+          "pages": 18,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 9,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18967",
       "version": 1,
       "title": "Exact random covers of metric trees: balanced rounding, duality, and sharp thresholds",
