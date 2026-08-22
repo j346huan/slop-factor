@@ -514,9 +514,6 @@ document
     }
   });
 
-document.getElementById("refresh").addEventListener("click", async () => {
-  await Promise.all([loadCandidates(), loadScan(), loadScanHistory()]);
-});
 elements["refresh-available"].addEventListener("click", async () => {
   const button = elements["refresh-available"];
   button.disabled = true;

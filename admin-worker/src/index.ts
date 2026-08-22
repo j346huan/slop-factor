@@ -268,28 +268,29 @@ function isWeekend(value: string): boolean {
   return day === 0 || day === 6;
 }
 
-async function latestMathSubmissionDate(): Promise<string> {
-  const url = new URL("https://export.arxiv.org/api/query");
-  url.searchParams.set("search_query", "cat:math.*");
-  url.searchParams.set("start", "0");
-  url.searchParams.set("max_results", "1");
-  url.searchParams.set("sortBy", "submittedDate");
-  url.searchParams.set("sortOrder", "descending");
-  const response = await fetch(url, {
-    headers: {
-      Accept: "application/atom+xml",
-      "User-Agent": "slop-factor-admin/0.1",
-    },
-  });
-  if (!response.ok) {
-    throw new Error(`arXiv API returned ${response.status}`);
-  }
-  const atom = await response.text();
+export function latestDateFromFeed(atom: string): string {
   const published = atom.match(
-    /<entry>[\s\S]*?<published>(\d{4}-\d{2}-\d{2})T/,
+    /<entry\b[\s\S]*?<published>(\d{4}-\d{2}-\d{2})T/,
   )?.[1];
   if (!published) throw new Error("arXiv returned no mathematics papers");
   return published;
+}
+
+async function latestMathSubmissionDate(): Promise<string> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 10_000);
+  try {
+    const response = await fetch("https://rss.arxiv.org/atom/math", {
+      headers: { Accept: "application/atom+xml" },
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      throw new Error(`arXiv feed returned ${response.status}`);
+    }
+    return latestDateFromFeed(await response.text());
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 async function administrator(
