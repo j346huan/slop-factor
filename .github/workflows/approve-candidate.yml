@@ -1,4 +1,5 @@
 name: Prepare approved paper
+run-name: Publish candidate ${{ inputs.candidate_repository }}#${{ inputs.candidate_issue }}
 
 on:
   workflow_dispatch:
@@ -57,7 +58,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: approve-candidate
+  group: approve-candidate-${{ inputs.candidate_issue }}
   cancel-in-progress: false
 
 jobs:
@@ -74,11 +75,12 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: Install and create verified record
+      - name: Install approval tooling
+        run: python -m pip install -e .
+
+      - name: Publish approved record
         env:
-          GITHUB_TOKEN: ${{ github.token }}
           CANDIDATE_PAYLOAD: ${{ inputs.candidate_payload }}
-          CANDIDATE_ISSUE: ${{ inputs.candidate_issue }}
           REVIEWER: ${{ inputs.reviewer }}
           EVIDENCE_INDEX: ${{ inputs.evidence_index }}
           CLASSIFICATION: ${{ inputs.classification }}
@@ -89,38 +91,44 @@ jobs:
           PAGE: ${{ inputs.page }}
           CONFIRMATION: ${{ inputs.confirmation }}
         run: |
-          git pull --ff-only origin main
-          python -m pip install -e .
-          PAGE_ARGUMENTS=()
-          if [[ -n "${PAGE}" ]]; then
-            PAGE_ARGUMENTS=(--page "${PAGE}")
-          fi
-          python scripts/approve_issue_candidate.py \
-            --candidate-payload "${CANDIDATE_PAYLOAD}" \
-            --reviewer "${REVIEWER}" \
-            --evidence-index "${EVIDENCE_INDEX}" \
-            --classification "${CLASSIFICATION}" \
-            --multiplier "${MULTIPLIER}" \
-            --quotation "${QUOTATION}" \
-            --location-kind "${LOCATION_KIND}" \
-            --location-value "${LOCATION_VALUE}" \
-            --confirmation "${CONFIRMATION}" \
-            --result private/approval-result.json \
-            "${PAGE_ARGUMENTS[@]}"
-          python scripts/validate_approved.py
-
-      - name: Publish approved record
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          CANDIDATE_ID=$(python -c 'import json; data=json.load(open("private/approval-result.json")); print(data["candidate_id"].rsplit("v", 1)[0].replace("/", "-"))')
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- data/approved/papers.json
-          if git diff --cached --quiet; then
-            echo "arXiv ${CANDIDATE_ID} is already published."
-          else
+          for ATTEMPT in $(seq 1 40); do
+            git fetch origin main
+            git reset --hard origin/main
+            rm -f private/approval-result.json
+
+            PAGE_ARGUMENTS=()
+            if [[ -n "${PAGE}" ]]; then
+              PAGE_ARGUMENTS=(--page "${PAGE}")
+            fi
+            python scripts/approve_issue_candidate.py \
+              --candidate-payload "${CANDIDATE_PAYLOAD}" \
+              --reviewer "${REVIEWER}" \
+              --evidence-index "${EVIDENCE_INDEX}" \
+              --classification "${CLASSIFICATION}" \
+              --multiplier "${MULTIPLIER}" \
+              --quotation "${QUOTATION}" \
+              --location-kind "${LOCATION_KIND}" \
+              --location-value "${LOCATION_VALUE}" \
+              --confirmation "${CONFIRMATION}" \
+              --result private/approval-result.json \
+              "${PAGE_ARGUMENTS[@]}"
+            python scripts/validate_approved.py
+
+            CANDIDATE_ID=$(python -c 'import json; data=json.load(open("private/approval-result.json")); print(data["candidate_id"].rsplit("v", 1)[0].replace("/", "-"))')
+            git add -- data/approved/papers.json
+            if git diff --cached --quiet; then
+              echo "arXiv ${CANDIDATE_ID} is already published."
+              exit 0
+            fi
             git commit -m "data: add verified arXiv ${CANDIDATE_ID}"
-            git push origin HEAD:main
-          fi
-          gh workflow run pages.yml --ref main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "main advanced during approval; retrying (${ATTEMPT}/40)."
+            sleep $((1 + RANDOM % 5))
+          done
+          echo "Could not publish after 40 conflict retries." >&2
+          exit 1

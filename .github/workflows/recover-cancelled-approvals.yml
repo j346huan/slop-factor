@@ -1,0 +1,65 @@
+name: Recover canceled approvals
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/recover-cancelled-approvals.yml
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: recover-cancelled-approvals
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Rerun canceled approvals sequentially
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          mapfile -t RUN_IDS < <(
+            gh api --paginate \
+              "repos/${REPOSITORY}/actions/workflows/approve-candidate.yml/runs?per_page=100" \
+              --jq '.workflow_runs[] | select(.conclusion == "cancelled") | .id'
+          )
+          echo "Found ${#RUN_IDS[@]} canceled approval runs."
+          FAILURES=0
+          for RUN_ID in "${RUN_IDS[@]}"; do
+            echo "Recovering run ${RUN_ID}."
+            if ! gh api --method POST "repos/${REPOSITORY}/actions/runs/${RUN_ID}/rerun"; then
+              echo "Could not rerun ${RUN_ID}." >&2
+              FAILURES=$((FAILURES + 1))
+              continue
+            fi
+
+            for POLL in $(seq 1 180); do
+              RUN=$(gh api "repos/${REPOSITORY}/actions/runs/${RUN_ID}")
+              ATTEMPT=$(jq -r '.run_attempt' <<<"${RUN}")
+              STATUS=$(jq -r '.status' <<<"${RUN}")
+              if [[ "${ATTEMPT}" -gt 1 && "${STATUS}" == "completed" ]]; then
+                CONCLUSION=$(jq -r '.conclusion' <<<"${RUN}")
+                if [[ "${CONCLUSION}" != "success" ]]; then
+                  echo "Run ${RUN_ID} finished with ${CONCLUSION}." >&2
+                  FAILURES=$((FAILURES + 1))
+                fi
+                break
+              fi
+              if [[ "${POLL}" -eq 180 ]]; then
+                echo "Timed out waiting for run ${RUN_ID}." >&2
+                FAILURES=$((FAILURES + 1))
+              else
+                sleep 5
+              fi
+            done
+          done
+          echo "Recovery finished with ${FAILURES} failures."
+          test "${FAILURES}" -eq 0
