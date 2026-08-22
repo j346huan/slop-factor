@@ -3,6 +3,89 @@
   "papers": [
     {
       "record_version": 1,
+      "arxiv_id": "2608.19844",
+      "version": 1,
+      "title": "Circles determined by planar point sets",
+      "authors": [
+        "Liyan Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T09:46:02Z",
+        "updated": "2026-08-20T09:46:02Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "For $n\\geq 4$, let $c(n)$ be the minimum number of distinct circles containing at least three points of an $n$-point set in the Euclidean plane, where the set is neither collinear nor concyclic. Put[F(n)=1+\\binom{n-1}{2}-\\left\\lfloor\\frac{n-1}{2}\\right\\rfloor.]We determine $c(n)$ for every $n\\geq 4$: it equals $F(n)$ apart from three exceptional orders. We also solve the variant in which no three points are collinear; that variant has a single exceptional order. The proofs and exact finite verifications were developed through a collaboration between human researchers and artificial-intelligence systems.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19844v1",
+        "pdf": "https://arxiv.org/pdf/2608.19844v1",
+        "source": "https://export.arxiv.org/e-print/2608.19844v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 2,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 137,
+        "bibliography_entries": 12,
+        "appendix_pages": 12
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file erdos506_paper_en.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Eureka, an AI-assisted mathematical research system developed by the JiuChong team at the University of Science and Technology of China, supplied the initial numerical verification for n ≥ 16. After a human proof for n ≥ 92 had been found, OpenAI Codex helped sharpen it to the uniform range n ≥ 15 and carried out the exact small-order verifications and searches for exceptional configurations. The mathematical part of the argument has also been translated into Lean 4 and checked aga",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:09:28.605346Z"
+      },
+      "score": 1314.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 131.45,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 27,
+          "theorems": 12,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 34.25,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 24
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19627",
       "version": 1,
       "title": "Uniformly Rotating Vortex Patches with Arbitrarily Many Genuine Holes",
