@@ -1612,6 +1612,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19806",
+      "version": 1,
+      "title": "Boundary-Weighted Fourier Inequalities for Convex Domains",
+      "authors": [
+        "Konstantinos Bampouras",
+        "Karl-Mikael Perfekt"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-20T08:59:50Z",
+        "updated": "2026-08-20T08:59:50Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We consider the natural family of Fourier inequalities for the Paley--Wiener space $\\mathrm{PW}^q(Ω)$, consisting of $L^q$-functions with Fourier support in a convex set $Ω\\subset \\mathbb{R}^n$, $n \\geq 2$, free of affine lines. Namely, \\[ \\int_Ω\\dfrac{|\\hat{f}(x)|^p}{ω_Ω^d(x)}dx\\leq C\\|f\\|_{L^q}^p,\\quad f\\in \\mathrm{PW}^q(Ω). \\] Here $\\hat{f}$ is the Fourier transform of $f$, $1 \\leq p, q < \\infty$, $d \\in \\mathbb{R}$, and $ω_Ω$ is the frequency multiplier weight associated with the Paley--Wiener space of $Ω$, \\[ ω_Ω(x)=m(Ω\\cap (2x-Ω)), \\qquad x \\in Ω. \\] For an arbitrary polyhedron $P$, we completely characterize the triples $(p,q,d)$ which yield valid Fourier inequalities. For a ball $B$, we characterize the valid triples when $p \\geq 2$. When $p < 2$, the situation is different for the ball, and natural critical inequalities fail. However, we show that the spherical restriction conjecture implies a family of subcritical Fourier inequalities for the ball, which in turn imply the Kakeya conjecture (in its Minkowski-form). Finally, we link our family of Fourier inequalities to the theory of truncated Hankel operators acting on the Paley--Wiener space of $Ω$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19806v1",
+        "pdf": "https://arxiv.org/pdf/2608.19806v1",
+        "source": "https://export.arxiv.org/e-print/2608.19806v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 16,
+        "lemmas": 18,
+        "propositions": 4,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 220,
+        "bibliography_entries": 29,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file HelsonIneq_arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "6 K. BAMPOURAS AND K.-M. PERFEKT 1.2. Acknowledgments. The second author was supported by grant no. 334466 of the Research Council of Norway, ”Fourier Methods and Multiplicative Analysis”. The authors used ChatGPT 5.4/5.5/5.6 by OpenAI as a tool in the development of this paper. However, as a project started quite a while ago, it was primarily produced in the old-school way. The authors independently wrote and verified all parts of the article.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:13:34.821593Z"
+      },
+      "score": 581.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 290.9,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 34,
+          "theorems": 96,
+          "lemmas": 72,
+          "propositions": 16,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 55,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19785",
       "version": 1,
       "title": "Learning piecewise-smooth dynamical systems",
