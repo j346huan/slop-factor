@@ -6,6 +6,7 @@ import {
   latestPapers,
   topPapers,
   topPapersThisWeek,
+  totalSlop,
 } from "../../src/lib/home";
 import type { ApprovedPaper } from "../../src/lib/types";
 
@@ -41,6 +42,11 @@ describe("home rankings", () => {
       topPapersThisWeek(papers, "2026-08-22").map((item) => item.arxiv_id),
       ["week-high", "week-low"],
     );
+  });
+
+  it("sums the Slop Factor of every approved paper", () => {
+    assert.equal(totalSlop(papers), 1500);
+    assert.equal(totalSlop([]), 0);
   });
 
   it("returns one daily total for every date in the requested range", () => {

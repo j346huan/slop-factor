@@ -26,6 +26,10 @@ export function topPapers(papers: ApprovedPaper[], limit = 8): ApprovedPaper[] {
   return [...papers].sort(byScore).slice(0, limit);
 }
 
+export function totalSlop(papers: ApprovedPaper[]): number {
+  return papers.reduce((sum, paper) => sum + paper.score, 0);
+}
+
 export function topPapersThisWeek(
   papers: ApprovedPaper[],
   today: string,
