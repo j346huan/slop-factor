@@ -1105,6 +1105,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18257",
+      "version": 1,
+      "title": "Banach's Isometric Conjecture over the Complex Field",
+      "authors": [
+        "Antonio Acuaviva",
+        "Tomasz Kania"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T19:17:09Z",
+        "updated": "2026-08-18T19:17:09Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We complete Banach's isometric conjecture over the complex field. More precisely, if \\(X\\) is a complex normed space and, for some \\(2\\leqslant n<\\dim_{\\C}X\\), all its \\(n\\)-dimensional complex subspaces are isometric as metric spaces, then the norm is induced by a Hermitian inner product. We also prove the quaternionic counterpart. The central geometric argument first treats real star bodies without convexity or central symmetry; applied to circled complex or quaternionic bodies, it shows that mutually real-linearly equivalent hyperplane sections force the ambient body to be a Hermitian ellipsoid. The proof adapts the bundle-degree mechanism introduced by Lu and Yang for the real case. Finally, we obtain extensions to absolutely homogeneous functions, graded Fréchet spaces, metrisable locally convex spaces, and compatible translation-invariant metrics.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18257v1",
+        "pdf": "https://arxiv.org/pdf/2608.18257v1",
+        "source": "https://export.arxiv.org/e-print/2608.18257v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 7,
+        "lemmas": 4,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 34,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-isometric.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "OpenAI’s ChatGPT 5.6 Sol was used during the development of this work. After reading the recent article of Lu and Yang [17], the authors observed that the techniques developed there could be extended to substantially more general settings. ChatGPT 5.6 Sol assisted with certain technical details needed to carry out these extensions. References [1] D. Alpay, F. Colombo, and I. Sabadini, Inner product spaces and Krein spaces in the quate",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:18:57.124102Z"
+      },
+      "score": 580.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 96.7,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 17,
+          "theorems": 42,
+          "lemmas": 16,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 8.5,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18236",
       "version": 2,
       "title": "Exceptional eigenvalue density for thin groups",
