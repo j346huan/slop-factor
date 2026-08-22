@@ -1,13 +1,25 @@
 const state = { candidates: [], selected: null, scanTimer: null };
 const classifications = {
-  proofreading_translation: ["Proofreading, grammar, or translation", 1],
-  brainstorming_literature_code: [
-    "Brainstorming, literature assistance, or code",
-    2,
+  proofreading_grammar: ["Proofreading, grammar, or spelling", 1],
+  translation: ["Translation", 1],
+  formatting_typesetting: ["Formatting or typesetting", 1],
+  literature_search: ["Literature search", 2],
+  citation_assistance: ["Citation assistance", 2],
+  brainstorming_outlining: ["Brainstorming or outlining", 2],
+  code_assistance: ["Code generation, completion, or debugging", 2],
+  computational_support: ["Computational experiments or data processing", 3],
+  rewriting_existing_text: ["Rewriting existing author-written text", 4],
+  limited_text_drafting: ["Drafting limited passages", 5],
+  mathematical_examples_conjectures: [
+    "Suggesting mathematical examples or conjectures",
+    6,
   ],
-  rewriting_drafting: ["Rewriting or drafting portions", 5],
-  substantial_generation: [
-    "Substantial text, proofs, or content generation",
+  substantial_text_generation: ["Substantial text generation", 7],
+  proof_ideas_steps: ["Proof ideas or individual proof-step assistance", 8],
+  complete_proof_drafting: ["Drafting a complete proof for author revision", 9],
+  substantial_proof_generation: ["Substantial proof generation", 10],
+  substantial_mathematical_content: [
+    "Substantial mathematical content or result generation",
     10,
   ],
   mixed_or_other: ["Mixed or intermediate disclosed use", null],
@@ -227,8 +239,11 @@ function openReview(candidate) {
   classification.name = "classification";
   classification.required = true;
   classification.append(new Option("Select classification", ""));
-  for (const [value, [label]] of Object.entries(classifications)) {
-    classification.append(new Option(label, value));
+  for (const [value, [label, fixedMultiplier]] of Object.entries(
+    classifications,
+  )) {
+    const suffix = fixedMultiplier === null ? "reviewer-selected M" : `M=${fixedMultiplier}`;
+    classification.append(new Option(`${label} — ${suffix}`, value));
   }
   const multiplier = document.createElement("input");
   multiplier.name = "multiplier";
