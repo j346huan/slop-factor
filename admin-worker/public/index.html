@@ -56,6 +56,12 @@
               To (UTC)
               <input id="scan-end-date" name="endDate" type="date" required />
             </label>
+            <details class="scan-history">
+              <summary>
+                Next unscanned: <strong id="next-unscanned">—</strong>
+              </summary>
+              <p id="scanned-dates">No completed dates.</p>
+            </details>
             <button class="button" type="submit">Scan</button>
           </form>
           <button id="refresh" class="secondary-button" type="button">
