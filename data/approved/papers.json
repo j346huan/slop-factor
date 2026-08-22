@@ -3313,6 +3313,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19173",
+      "version": 1,
+      "title": "The Unfair 0-1 Polynomial Problem and High-Degree Trinomials",
+      "authors": [
+        "Alexander Dvorsky"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T17:51:29Z",
+        "updated": "2026-08-19T17:51:29Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "The unfair $0$--$1$ polynomial conjecture asks whether a factorization \\[C(x)=A(x)B(x),\\] with $A$ and $B$ monic and having nonnegative real coefficients, must already be a factorization into $0$--$1$ polynomials. Let $k$ be odd and $0<a<1$. We study the possibility that \\[1+a x^2+x^k\\] divides a $0$--$1$ polynomial with a nonzero cofactor having nonnegative real coefficients. Ghidelli settled the first nontrivial case $k=5$, and the cases $k=7,9,11$ were treated subsequently by finite recurrence and spectral arguments. We prove that no such factorization exists for any odd $k\\ge 341$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19173v1",
+        "pdf": "https://arxiv.org/pdf/2608.19173v1",
+        "source": "https://export.arxiv.org/e-print/2608.19173v1"
+      },
+      "structural_counts": {
+        "pages": 43,
+        "theorems": 5,
+        "lemmas": 29,
+        "propositions": 5,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 343,
+        "bibliography_entries": 15,
+        "appendix_pages": 31
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file large_k_unfair_trinomials_revA2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the common pre-zero interior profile, after which Sections 9 and 10 finish the proof. All genuinely numerical material is collected in the appendices. Use of AI tools. During the preparation of this paper, the author used OpenAI ChatGPT (GPT-5.6 Sol) as an interactive research assistant. Its roles included exploratory numerical work, discovering and checking quantitative estimates, generating verification code, checking the consistency of the exposition with the numerical evidence",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:17:30.791983Z"
+      },
+      "score": 2938,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 367.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 43,
+          "theorems": 30,
+          "lemmas": 116,
+          "propositions": 20,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 85.75,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 62
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19160",
       "version": 1,
       "title": "Second-Level Concavity of the Riemann $Ξ$ Kernel",
