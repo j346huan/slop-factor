@@ -5693,6 +5693,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18805",
+      "version": 1,
+      "title": "Power-kernel fractional Sturm--Liouville operators: a graph realization and boundary-independent singular-value asymptotics",
+      "authors": [
+        "Niyaz Tokmagambetov"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T11:03:22Z",
+        "updated": "2026-08-19T11:03:22Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "For $\\tfrac12<α<1$ we construct a closed realization of $\\mathcal L u=\\mathcal D_1^αD_0^αu$ in $L^2(0,1)$ whose domain contains the singular mode $x^{α-1}$. The domain, defined via the distributional Caputo composition, is characterized by $I_0^{1-α}u\\in H^1(0,1)$ and $D_0^αu-c\\in\\operatorname{ran}I_1^α$; we prove a Volterra representation for its elements, graph-norm completeness, and that $\\mathcal L$ is the adjoint of its zero-trace restriction. Four bounded endpoint traces give an ordinary boundary triplet, so all self-adjoint extensions correspond to Lagrangian planes in $\\mathbb C^4$, including coupled endpoint conditions. For each we give an exact zero-eigenvalue criterion and, when $0\\inρ(\\mathcal L_ω)$, an inverse of the form $I_0^αI_1^α$ plus an explicit finite-rank correction. Sharp singular-value asymptotics $s_n(\\mathcal L_ω^{-1})=(πn)^{-2α}\\bigl(1+O(n^{-1})\\bigr)$ yield $\\mathcal L_ω^{-1}\\in\\mathfrak S_p\\iff p>1/(2α)$, with weak-Schatten endpoint and Weyl asymptotics --- now for \\emph{every} invertible boundary plane, not only the positive reference problem. As an application we obtain a mild-solution theorem for a Caputo-time diffusion equation in $C([0,T];L^2(0,1))$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18805v1",
+        "pdf": "https://arxiv.org/pdf/2608.18805v1",
+        "source": "https://export.arxiv.org/e-print/2608.18805v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 5,
+        "lemmas": 5,
+        "propositions": 3,
+        "corollaries": 2,
+        "definitions": 6,
+        "displayed_equations": 155,
+        "bibliography_entries": 29,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file v4-main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nt financial or non-financial interests to disclose. Data availability. No datasets were generated or analyzed during the present study. Use of generative artificial intelligence. During the preparation of this work the author used Claude (Anthropic, August 2026) as an editorial and checking aid: for consistency checks of the mathematical exposition, identification of points requiring additional justification, suggestions of relevant literature, and improvement of presentation. All ma",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:30:29.839836Z"
+      },
+      "score": 578.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 144.65,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 23,
+          "theorems": 30,
+          "lemmas": 20,
+          "propositions": 12,
+          "corollaries": 6,
+          "definitions": 12,
+          "displayed_equations": 38.75,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18789",
       "version": 1,
       "title": "Finite-coefficient K-theory of henselian valued fields and Gersten injectivity",
