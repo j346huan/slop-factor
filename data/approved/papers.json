@@ -5356,6 +5356,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18818",
+      "version": 1,
+      "title": "Lonely Runners over Function Fields: Quantized Phase--Riesz product",
+      "authors": [
+        "Xiyu Hu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T11:15:35Z",
+        "updated": "2026-08-19T11:15:35Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $C_k(q)$ be the least cardinality of a family of nonzero polynomials over $\\mathbb F_q$ whose associated codimension-$k$ partial-circulant kernels cover the full coefficient space. Chow and Rimani'c conjectured that $C_k(q)=1+q+\\cdots+q^k$. We disprove the unrestricted conjecture by constructing thirteen monic polynomials over $\\mathbb F_2$ whose $k=3$ kernels cover $\\mathbb F_2^7$; in particular, $C_3(2)\\le 13<15$. For a general covering family of size $N=q^k+S$ and $\\mathbb F_q$-linear rank $d$, we prove $S\\gg d^{2/3}\\left(\\frac{\\log(2q)}{\\log(eNq^k/S)}\\right)^{2/3}$. Consequently, for every fixed $k\\ge 2$ and all sufficiently large $q$, $C_k(q)\\ge q^k+c_kq^{2/3}$. When $k=2$, an integer-multiplicity refinement of the second-moment covering argument yields $\\liminf_{q\\to\\infty}(C_2(q)-q^2)/q\\ge \\widetilde c_2$, where $\\widetilde c_2$ is an explicit one-variable variational constant with numerical value $\\widetilde c_2=0.5829944375\\ldots$. We also classify triples admitting two independent low-degree polynomial syzygies and prove a conditional packet-free lower bound of size $q^k+(1/2-o(1))q^{k-1}$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18818v1",
+        "pdf": "https://arxiv.org/pdf/2608.18818v1",
+        "source": "https://export.arxiv.org/e-print/2608.18818v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 7,
+        "lemmas": 13,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 197,
+        "bibliography_entries": 33,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Lonely_Runners_Function_Fields_Xiyu_Hu_v6.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "The author is grateful to Benjamin Bedert for helpful discussions that led to a deeper appreciation of the power of Riesz-product methods in problems of this kind. Statement on the use of AI OpenAI’s ChatGPT was used during exploratory work and preparation of this manuscript to assist with calculations and their verification, code prototyping, literature organisation, exposition, and LaTeX editing. The author checked the mathematical arguments",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:25:08.433312Z"
+      },
+      "score": 586.65,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 195.55,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 25,
+          "theorems": 42,
+          "lemmas": 52,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 49.25,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18815",
       "version": 1,
       "title": "The number of groups of cubefree order",
