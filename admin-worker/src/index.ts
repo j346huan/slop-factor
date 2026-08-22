@@ -268,7 +268,7 @@ function isWeekend(value: string): boolean {
   return day === 0 || day === 6;
 }
 
-export function latestDateFromFeed(atom: string): string {
+export function latestSubmittedDateFromAtom(atom: string): string {
   const published = atom.match(
     /<entry\b[\s\S]*?<published>(\d{4}-\d{2}-\d{2})T/,
   )?.[1];
@@ -277,17 +277,24 @@ export function latestDateFromFeed(atom: string): string {
 }
 
 async function latestMathSubmissionDate(): Promise<string> {
+  const url = new URL("https://export.arxiv.org/api/query");
+  url.searchParams.set("search_query", "cat:math.*");
+  url.searchParams.set("start", "0");
+  url.searchParams.set("max_results", "1");
+  url.searchParams.set("sortBy", "submittedDate");
+  url.searchParams.set("sortOrder", "descending");
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10_000);
   try {
-    const response = await fetch("https://rss.arxiv.org/atom/math", {
+    const response = await fetch(url, {
       headers: { Accept: "application/atom+xml" },
+      redirect: "follow",
       signal: controller.signal,
     });
     if (!response.ok) {
-      throw new Error(`arXiv feed returned ${response.status}`);
+      throw new Error(`arXiv API returned ${response.status}`);
     }
-    return latestDateFromFeed(await response.text());
+    return latestSubmittedDateFromAtom(await response.text());
   } finally {
     clearTimeout(timeout);
   }
