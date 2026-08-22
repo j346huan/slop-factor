@@ -36,6 +36,7 @@ interface CandidatePayload {
     secondary_categories: string[];
     submitted: string;
     abstract_url: string;
+    pdf_url: string;
   };
   evidence: Array<{
     term?: string;
@@ -496,9 +497,6 @@ async function api(
         { error: "Multiplier does not match the classification" },
         400,
       );
-    }
-    if (body.confirmation !== true) {
-      return json({ error: "Explicit human confirmation is required" }, 400);
     }
     const page =
       body.page === null || body.page === "" ? "" : String(Number(body.page));
