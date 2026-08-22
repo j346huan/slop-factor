@@ -2717,6 +2717,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19441",
+      "version": 1,
+      "title": "Pearl necklace knots with fewer vertices than an equivalent FCC lattice knot",
+      "authors": [
+        "Alexander R. Klotz"
+      ],
+      "categories": {
+        "primary": "math.GT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T20:49:21Z",
+        "updated": "2026-08-19T20:49:21Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "The pearl necklace number, $N_P$, of a knot is the smallest number of unit spheres required to construct a knot if each sphere is tangent to two neighbors and no sphere overlaps with another. It has been speculated that the pearl necklace number is equal to the minimum number of lattice sites required to embed a knot on a face centered cubic (FCC) lattice $N_L$, implying that a trefoil knot cannot be constructed from fewer than 15 spheres. A large language model (LLM) was prompted to find configurations of knot for which $N_P<N_L$, and this manuscript describes its findings, attempts at validating them, and their implications. No 14-vertex example was found for the trefoil knot, but examples with $N_P=N_L-1$ were found for all knots from 5 to 7 crossings as well as $8_{19}$, and $10_{124}$. One example, $8_1$, could be constructed with $N_P=N_L-2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19441v1",
+        "pdf": "https://arxiv.org/pdf/2608.19441v1",
+        "source": "https://export.arxiv.org/e-print/2608.19441v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 7,
+        "bibliography_entries": 9,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "that I was not suffering AI-induced hallucinations. In addition Write a one paragraph summary of to finding the actual results of this research, the LLM your methods and findings from this was used to produce LaTeX tables but was not involved discussion as well as their significance. in the writing of the manuscript. Assume the reader has",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:15:19.830926Z"
+      },
+      "score": 196.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 19.65,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 9,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 1.75,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19414",
       "version": 1,
       "title": "The Non-Cancelling-Intersections Conjecture Fails for Left-Linear Trees",
