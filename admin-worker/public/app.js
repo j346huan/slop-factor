@@ -244,7 +244,8 @@ function openReview(candidate) {
   for (const [value, [label, fixedMultiplier]] of Object.entries(
     classifications,
   )) {
-    const suffix = fixedMultiplier === null ? "reviewer-selected M" : `M=${fixedMultiplier}`;
+    const suffix =
+      fixedMultiplier === null ? "reviewer-selected M" : `M=${fixedMultiplier}`;
     classification.append(new Option(`${label} — ${suffix}`, value));
   }
   const multiplier = document.createElement("input");
@@ -435,7 +436,8 @@ async function loadScan() {
 
 async function loadScanHistory() {
   const payload = await api("/api/scans/history");
-  elements["next-unscanned"].textContent = payload.next_unscanned ?? "Up to date";
+  elements["next-unscanned"].textContent =
+    payload.next_unscanned ?? "Up to date";
   elements["scanned-dates"].textContent = payload.scanned_dates.length
     ? payload.scanned_dates.join(", ")
     : "No completed dates.";
