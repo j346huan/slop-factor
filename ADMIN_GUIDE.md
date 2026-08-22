@@ -13,13 +13,11 @@ the Worker has no database. Approved records and the public website remain in
 ## Administrator workflow
 
 1. Sign in to the dashboard with the configured GitHub administrator account.
-2. Select today's UTC date or any past date and start a deterministic arXiv scan.
+2. Select an arXiv release date or date range and start a deterministic scan.
 3. Review matched passages and preliminary structural counts in the private pending queue.
 4. Reject an ineligible match with a factual reason, or select the exact disclosure passage.
-5. Confirm the quotation, location, classification, multiplier, and rationale.
-6. Type `APPROVE`. The dashboard starts a GitHub Actions workflow that validates the record and opens
-   an approval pull request.
-7. Review and merge the approval pull request to publish the paper.
+5. Confirm the quotation, location, classification, multiplier, and rationale, then click **Approve**.
+6. Review and merge the resulting approval pull request to publish the paper.
 
 Automated discovery never writes approved data. Approval never pushes directly to `main`.
 
