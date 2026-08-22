@@ -1105,6 +1105,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19160",
+      "version": 1,
+      "title": "Second-Level Concavity of the Riemann $Ξ$ Kernel",
+      "authors": [
+        "Michel Planat",
+        "Patrick Solé"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": [
+          "math.CA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T17:43:05Z",
+        "updated": "2026-08-19T17:43:05Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $Φ$ be the classical Jacobi-theta kernel in the Fourier representation of the Riemann $Ξ$-function, set $s(t)=Φ(\\sqrt t)$, and define the first Laguerre expression $f(t)=s'(t)^2-s(t)s''(t)$. Csordas and Dimitrov (2000) conjectured that $\\log f$ is strictly concave on $(0,\\infty)$; Csordas (2015) later restated the assertion as Open Problem~4.14. We prove the conjecture by two complementary methods, sharing only a local certificate near the modular fixed point. The first proof is a direct theta-series argument: a directed-rounding Taylor certificate near $t=0$ is joined to a dominant-first-summand estimate with rigorous theta-tail bounds. The second proof uses Jacobi's nonlinear third-order differential equation for $θ_3$ to obtain a three-dimensional autonomous phase space, a sharp elliptic monotonicity theorem, and an exact quartic reduction of the target inequality. The quartic boundary is a polynomial shear of the quadratic cone $XY=Z^2$. A directed interval certificate proves that every possible cone contact on the only remaining compact interval points strictly into the desired region; beyond that interval a pointwise monotonicity theorem closes the argument. The finite certificates and exact symbolic checks are supplied as reproducible scripts. The result implies the associated double Turán inequalities through the theorem of Csordas--Dimitrov, but no assertion of the Riemann Hypothesis is made.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19160v1",
+        "pdf": "https://arxiv.org/pdf/2608.19160v1",
+        "source": "https://export.arxiv.org/e-print/2608.19160v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 2,
+        "lemmas": 4,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 125,
+        "bibliography_entries": 11,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file csordas_dimitrov_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "18 MICHEL PLANAT AND PATRICK SOLÉ Declaration on the use of artificial intelligence Generative-AI tools, principally OpenAI ChatGPT and Anthropic Claude, were used during the exploratory development of some algebraic reductions, for symbolic and numerical checking, assistance in developing verification code, and manuscript editing. All mathematical statements, proofs, computations, referen",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:03:54.838625Z"
+      },
+      "score": 754.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 94.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 12,
+          "lemmas": 16,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 31.25,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19060",
       "version": 1,
       "title": "Activated switching between coexisting limit cycles",
