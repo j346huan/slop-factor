@@ -4589,6 +4589,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18978",
+      "version": 1,
+      "title": "Positivity preservers over finite fields II",
+      "authors": [
+        "Dominique Guillot",
+        "Himanshu Gupta",
+        "Prateek Kumar Vishwakarma",
+        "Chi Hoi Yip"
+      ],
+      "categories": {
+        "primary": "math.RA",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T14:44:34Z",
+        "updated": "2026-08-19T14:44:34Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We say that a matrix over a finite field $\\mathbb{F}_q$ is positive definite if it is symmetric and each of its leading principal minors is a nonzero square in $\\mathbb{F}_q$. In previous work of the authors [J. Algebra, 2025], the entrywise positivity preservers on $M_n(\\mathbb{F}_q)$ were classified for every $n\\geq 2$, with one remaining case: $n=2$, $q\\equiv 1\\pmod 4$, and $q$ not a square. We settle this case by proving that every positivity preserver on $M_2(\\mathbb{F}_q)$ is injective on the set $\\mathbb{F}_q^+$ of nonzero squares whenever $q\\equiv 1\\pmod 4$. The proof combines an idempotent reduction of positivity preservers with a well-known property of quadratic characters. This yields the complete classification of entrywise positivity preservers over every finite field and in every fixed dimension.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18978v1",
+        "pdf": "https://arxiv.org/pdf/2608.18978v1",
+        "source": "https://export.arxiv.org/e-print/2608.18978v1"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 21,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file positivity-finite-fields2-v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "orm preserves positive definiteness in every dimension. This completes the classification. □ Acknowledgments AI disclosure statement. ChatGPT 5.6 Sol by OpenAI was used to explore proof strategies for this paper and assist with its writing. All mathematical arguments and technical details were independently verified by the authors, who take full responsibility for the content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:22:42.876007Z"
+      },
+      "score": 208.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 26.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 4,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 5.25,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18967",
       "version": 1,
       "title": "Exact random covers of metric trees: balanced rounding, duality, and sharp thresholds",
