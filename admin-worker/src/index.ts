@@ -659,7 +659,6 @@ async function api(
           location_kind: String(body.locationKind ?? ""),
           location_value: String(body.locationValue ?? ""),
           page,
-          rationale: String(body.rationale ?? ""),
           confirmation: "APPROVE",
         },
       },
