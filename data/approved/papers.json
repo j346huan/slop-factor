@@ -3,6 +3,89 @@
   "papers": [
     {
       "record_version": 1,
+      "arxiv_id": "2608.20303",
+      "version": 1,
+      "title": "Kahn--Lovász-type inequalities for graph factors",
+      "authors": [
+        "Hyunwoo Lee"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-20T17:42:05Z",
+        "updated": "2026-08-20T17:42:05Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "The Kahn--Lovász theorem gives a sharp upper bound on the number of perfect matchings in a graph in terms of its degree sequence, extending the classical Brégman--Minc inequality for bipartite graphs. In this paper, we establish an asymptotically sharp extension of the Kahn--Lovász theorem to $F$-factors for every Hamiltonian graph $F$. As a consequence, we asymptotically determine the maximum number of $F$-factors in an $n$-vertex $m$-edge graph, yielding an $F$-factor analogue of Kruskal--Katona-type theorems. We also prove a multigraph analogue of the Kahn--Lovász theorem. Combining this with our results for Hamiltonian graphs, we obtain an asymptotically sharp Kruskal--Katona-type bound for a further class of connected graphs $F$, including those containing two vertex-disjoint cycles of equal length whose union spans $V(F)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.20303v1",
+        "pdf": "https://arxiv.org/pdf/2608.20303v1",
+        "source": "https://export.arxiv.org/e-print/2608.20303v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 8,
+        "lemmas": 4,
+        "propositions": 5,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 95,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "em 1.4 and a multigraph analogue of the Kahn–Lovász theorem. In Section 5, we establish this multigraph extension and then prove Theorem 1.7. We conclude the paper with some remarks and open problems. Statement of AI use. We used ChatGPT 5.6 Pro/Sol to improve the exposition and proof- read the manuscript. Apart from this, no AI tools were used. All mathematical ideas were developed independently by the author, who takes full responsibility for this article. 2 Prelim",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:17:27.667123Z"
+      },
+      "score": 600.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 150.05,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 27,
+          "theorems": 48,
+          "lemmas": 16,
+          "propositions": 20,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 23.75,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.20266",
       "version": 1,
       "title": "Necessary conditions for deterministic and stochastic maximal regularity",
