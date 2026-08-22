@@ -7143,6 +7143,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18414",
+      "version": 1,
+      "title": "$Γ$-Convergence of Weak-Type Nonlocal Functionals on Bounded Domains",
+      "authors": [
+        "Xiaosheng Lin",
+        "Dachun Yang",
+        "Sibei Yang",
+        "Wen Yuan",
+        "Yangyang Zhang"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math.AP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T00:54:12Z",
+        "updated": "2026-08-19T00:54:12Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $N\\ge1$, $p\\in[1,\\infty)$, $γ\\in(0,\\infty)$, and $Ω\\subset\\mathbb R^N$ be a bounded open interval when $N=1$ or a bounded Lipschitz domain when $N\\ge2$. For any $λ\\in(0,\\infty)$ and any measurable function $u$, consider the weak-type nonlocal functional \\begin{align*} G_{λ,p,γ}(u;Ω) :=λ\\iint_{Ω\\timesΩ} \\mathbf 1_{\\left\\{(x,y)\\inΩ\\timesΩ:\\ x\\neq y,\\ \\frac{|u(x)-u(y)|^p}{|x-y|^{p+γ}}\\geqλ\\right\\}} |x-y|^{γ-N}\\,dx\\,dy. \\end{align*} In this article, we prove that, as $λ\\to\\infty$, the family $G_{λ,p,γ}$ converges, in the sense of $Γ$-convergence in $L^p(Ω)$, to the functional \\begin{align*} Ψ_{p,γ}^{\\mathrm{cell}}(u;Ω):= \\begin{cases} C_{N,p,γ}^{\\mathrm{cell}}\\displaystyle\\int_Ω|\\nabla u|^p\\,dx, &p\\in(1,\\infty)\\ \\hbox{and}\\ u\\in W^{1,p}(Ω),\\\\[2mm] C_{N,1,γ}^{\\mathrm{cell}}|Du|(Ω), &p=1\\ \\hbox{and}\\ u\\in BV(Ω),\\\\[1mm] \\infty,&\\hbox{otherwise}, \\end{cases} \\end{align*} where the positive constants $C_{N,p,γ}^{\\mathrm{cell}}$ are independent of $Ω$ and characterized by a cell formula. This gives an affirmative answer to the problem posed by Brezis [Open Problem~9.3, Rend. Lincei Mat. Appl. 2023].",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18414v1",
+        "pdf": "https://arxiv.org/pdf/2608.18414v1",
+        "source": "https://export.arxiv.org/e-print/2608.18414v1"
+      },
+      "structural_counts": {
+        "pages": 42,
+        "theorems": 5,
+        "lemmas": 20,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 333,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file lyyyz_2026-GammaConvergenceWeakTypeNonlocalFunctionals_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "i=1 Letting ε → 0, we find that (4.2) holds. This completes the proof of Theorem 4.2. □ Acknowledgements The authors acknowledge the use of AI tools during the exploratory stage of this project. All mathematical arguments and proofs in the final manuscript were checked and written by the authors.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 40",
+          "page": 40
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:32:34.957158Z"
+      },
+      "score": 508.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 254.25,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 42,
+          "theorems": 30,
+          "lemmas": 80,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 83.25,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18408",
       "version": 1,
       "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
