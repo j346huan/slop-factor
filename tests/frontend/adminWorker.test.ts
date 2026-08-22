@@ -1,7 +1,14 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { describe, it } from "node:test";
 
-import { latestDateFromFeed } from "../../admin-worker/src/index.ts";
+import {
+  approvalRequestComment,
+  approvalRequestFromComments,
+  countsAsCompletedScan,
+  latestDateFromFeed,
+  latestDateFromListing,
+} from "../../admin-worker/src/index.ts";
 
 describe("administrator arXiv availability", () => {
   it("reads the official announcement date from the first feed entry", () => {
@@ -22,5 +29,84 @@ describe("administrator arXiv availability", () => {
       () => latestDateFromFeed("<feed><updated>2026-08-22</updated></feed>"),
       /no mathematics papers/,
     );
+  });
+
+  it("reads the release date from the current arXiv listing", () => {
+    assert.equal(
+      latestDateFromListing(
+        "<h3>Showing new listings for Friday, 21 August 2026</h3>",
+      ),
+      "2026-08-21",
+    );
+  });
+
+  it("does not mark an empty or incomplete run as scanned", () => {
+    const complete = {
+      version: 1,
+      session_id: "scan",
+      status: "completed",
+      stage: "Complete",
+      start_date: "2026-08-21",
+      end_date: "2026-08-21",
+      total: 180,
+      processed: 180,
+      candidates: 14,
+      errors: 0,
+      current: "",
+      created_at: "2026-08-22T00:00:00Z",
+      updated_at: "2026-08-22T00:10:00Z",
+    } as const;
+    assert.equal(countsAsCompletedScan(complete), true);
+    assert.equal(
+      countsAsCompletedScan({ ...complete, total: 0, processed: 0 }),
+      false,
+    );
+    assert.equal(countsAsCompletedScan({ ...complete, errors: 1 }), false);
+  });
+});
+
+describe("approval publication", () => {
+  it("stores everything required to retry an approval", () => {
+    const approval = {
+      candidatePayload: "candidate",
+      reviewer: "reviewer",
+      evidenceIndex: "1",
+      classification: "proofreading_grammar",
+      multiplier: "1",
+      quotation: "The authors used ChatGPT for proofreading.",
+      locationKind: "page",
+      locationValue: "PDF page 7",
+      page: "7",
+    };
+    const comment = approvalRequestComment(approval);
+    assert.deepEqual(
+      approvalRequestFromComments([{ body: "older" }, { body: comment }]),
+      approval,
+    );
+  });
+
+  it("runs different candidates independently and retries write conflicts", () => {
+    const workflow = readFileSync(
+      ".github/workflows/approve-candidate.yml",
+      "utf8",
+    );
+    assert.match(
+      workflow,
+      /group: approve-candidate-\$\{\{ inputs\.candidate_issue \}\}/,
+    );
+    assert.match(workflow, /for ATTEMPT in \$\(seq 1 40\)/);
+    assert.match(workflow, /if git push origin HEAD:main; then/);
+    assert.doesNotMatch(workflow, /gh workflow run pages\.yml/);
+  });
+
+  it("recovers canceled approvals sequentially without stopping early", () => {
+    const workflow = readFileSync(
+      ".github/workflows/recover-cancelled-approvals.yml",
+      "utf8",
+    );
+    assert.match(workflow, /conclusion == "cancelled"/);
+    assert.match(workflow, /actions\/runs\/\$\{RUN_ID\}\/rerun/);
+    assert.match(workflow, /for RUN_ID in "\$\{RUN_IDS\[@\]\}"/);
+    assert.match(workflow, /FAILURES=\$\(\(FAILURES \+ 1\)\)/);
   });
 });

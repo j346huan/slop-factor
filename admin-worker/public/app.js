@@ -236,10 +236,19 @@ function renderCandidates() {
         `status status--${candidate.status}`,
       ),
     );
-    const button = text("button", "Review", "secondary-button");
+    const retrying = candidate.status === "approval-submitted";
+    const button = text(
+      "button",
+      retrying ? "Retry publishing" : "Review",
+      "secondary-button",
+    );
     button.type = "button";
-    button.disabled = candidate.status !== "pending";
-    button.addEventListener("click", () => openReview(candidate));
+    button.disabled = !["pending", "approval-submitted"].includes(
+      candidate.status,
+    );
+    button.addEventListener("click", () =>
+      retrying ? retryPublishing(candidate) : openReview(candidate),
+    );
     article.append(summary, metadata, button);
     elements["candidate-list"].append(article);
   }
@@ -459,6 +468,18 @@ async function rejectCandidate(candidate) {
       "success",
     );
     await loadCandidates();
+  } catch (error) {
+    showNotice(error.message, "error");
+  }
+}
+
+async function retryPublishing(candidate) {
+  try {
+    await api(`/api/candidates/${candidate.issueNumber}/retry`, {
+      method: "POST",
+      body: "{}",
+    });
+    showNotice("Publication retried.", "success");
   } catch (error) {
     showNotice(error.message, "error");
   }
