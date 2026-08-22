@@ -1017,6 +1017,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19978",
+      "version": 1,
+      "title": "Generalized Hamming weights of codes arising from complete intersection",
+      "authors": [
+        "Eduardo Camps Moreno",
+        "Flavio Salizzoni",
+        "Rodrigo San-José"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": [
+          "cs.IT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-20T12:50:30Z",
+        "updated": "2026-08-20T12:50:30Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We provide a positive answer to a conjecture proposed by Tohǎneanu and Van Tuyl regarding the minimum distance of codes whose underlying set of points is a reduced complete intersection. Despite the technical nature of the conjecture, we show that it follows directly from a not-well-known refinement of the classical Bézout bound for overdetermined polynomial systems. For completeness, this paper presents a self-contained proof of this refined bound. Furthermore, we show that using the same approach, it is possible to obtain a bound on the generalized Hamming weights of such a code and, more generally, to control the minimum distance of the codes obtained by evaluating forms of degree $d$ on the points of a zero-dimensional complete intersection.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19978v1",
+        "pdf": "https://arxiv.org/pdf/2608.19978v1",
+        "source": "https://export.arxiv.org/e-print/2608.19978v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 2,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 14,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv20082026.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ", the conjecture is true by Theorem 2.5. Finally, for r = 1, Conjecture 3.1 is equivalent to CB12 in [5] for reduced complete intersections. Disclosure of AI usage We acknowledge the use of ChatGPT Pro 5.5 (OpenAI) in the early stages of this work. The AI suggested an initial proof strategy for the conjecture involving a weaker version of Proposition 2.1 and a projection argument. The final proof was independently simplified and exte",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:11:58.535154Z"
+      },
+      "score": 229.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 28.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 5,
+          "theorems": 12,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 3.5,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19872",
       "version": 1,
       "title": "New upper bounds on covering codes K_q(n,R) for alphabets of size six and seven",
