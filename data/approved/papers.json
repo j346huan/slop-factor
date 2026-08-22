@@ -6126,6 +6126,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18533",
+      "version": 1,
+      "title": "Polytopes of Effective Boundary Expressions of Divisors on $\\overline{M}_{0,n}$",
+      "authors": [
+        "Ian Cavey",
+        "Deniz Genlik"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T04:33:08Z",
+        "updated": "2026-08-19T04:33:08Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "For a divisor on $\\overline{M}_{0,n}$, we introduce the polytope of its effective boundary expressions. We establish structural properties of these polytopes under the forgetful maps of $\\overline{M}_{0,n}$ forgetting marked points, and give equivalent graph-theoretic descriptions. We compute these polytopes for several families of divisors. For psi-classes and their pullbacks by forgetful maps, we show that the polytopes are unimodular simplices. For the log-canonical class and its modifications by psi-classes, we prove that the nonnegative parts of the corresponding polytopes recover spanning forest polytopes and the subtour elimination (Held--Karp relaxation) polytope of the symmetric traveling salesman problem. As an application, we obtain a Minkowski-like decomposition of the subtour elimination polytope into simplices. Finally, for symmetric level-one $\\mathfrak{sl}_p$ conformal block divisors, we show that the defining inequalities are local Turán bounds and the $0/1$-points are balanced Turán graphs. Moreover, for $p=2$ and $p=n/2$, these polytopes recover the perfect matching and fractional perfect matching polytopes.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18533v1",
+        "pdf": "https://arxiv.org/pdf/2608.18533v1",
+        "source": "https://export.arxiv.org/e-print/2608.18533v1"
+      },
+      "structural_counts": {
+        "pages": 52,
+        "theorems": 18,
+        "lemmas": 19,
+        "propositions": 7,
+        "corollaries": 16,
+        "definitions": 12,
+        "displayed_equations": 319,
+        "bibliography_entries": 41,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Polytope_M0n_Bar_Paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "dra Chekuri, June Huh, David Jensen, Siddarth Kannan, Matt Larson and Rob Silversmith for useful discussions. D. G. is supported by an AMS–Simons Travel Grant. 1.4. AI disclosure. The authors used generative AI tools, including Claude and ChatGPT, for litera- ture discovery, exploratory computations in small cases, and occasional language and grammar editing. The authors take full responsibility for all the content in this work. 2. BA",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:27:57.274011Z"
+      },
+      "score": 1259.55,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 419.85,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 52,
+          "theorems": 108,
+          "lemmas": 76,
+          "propositions": 28,
+          "corollaries": 48,
+          "definitions": 24,
+          "displayed_equations": 79.75,
+          "bibliography_entries": 4.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18408",
       "version": 1,
       "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
