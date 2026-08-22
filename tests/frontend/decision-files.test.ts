@@ -150,5 +150,4 @@ describe("pending decision files", () => {
     assert.equal(result.decisions.length, 1);
     assert.equal(result.decisions[0].candidate, laterPending);
   });
-
 });
