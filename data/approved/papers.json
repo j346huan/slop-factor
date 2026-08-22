@@ -7486,6 +7486,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18402",
+      "version": 1,
+      "title": "Algorithms for adaptive and heteroskedastic linear regression at the computational threshold",
+      "authors": [
+        "Spencer Compton",
+        "Tselil Schramm"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "cs.DS",
+          "cs.LG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T00:17:22Z",
+        "updated": "2026-08-19T00:17:22Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We study finite-sample linear regression in the presence of varied and unknown label noise, focusing on the heteroskedastic and adaptive linear regression models. Heteroskedastic linear regression models settings where the labels are of varying quality. We receive $n$ pairs $(X_i,Y_i)$ with labels $Y_i=X_i^\\topβ+\\varepsilon_i$, where $\\varepsilon_i\\sim N(0,σ_i^2)$ and the variances are unknown to the estimator. One natural measurement of the difficulty of this problem is the number of samples $m$ for which $σ_i^2\\le1$ (larger $m$ is easier). We obtain a polynomial-time estimator with rate $\\tilde{O}((nd^3/m^4)^{1/6})$ when $m\\gg d^{3/4}n^{1/4}$, as well as nearly-matching lower bounds. For $d=O(1)$, our estimator achieves error $o(1)$ when $m\\gg n^{1/4}$, whereas $L_1$ regression and other traditional approaches require $m\\gg n^{1/2}$. In adaptive linear regression, the errors are drawn i.i.d. from an unknown distribution $p$, and our goal is to design a generic estimator that performs nearly as well as the best custom estimator that knows $p$. We introduce a (computationally inefficient) adaptive estimator that, so long as $p$ is a mixture of $k$ symmetric log-concave densities, achieves error comparable with the optimal estimator that knows $p$ and has $\\tildeΘ(n/k)$ samples. For $k=1$, we show that $L_q$ regression (with data-dependent $q$) gives a polynomial-time estimator. Finally, to study the computational limits of both problems, we introduce the planted linear regression problem, where $X_i\\sim N(0,I_d)$, $m$ unknown samples are noiseless, and the rest have error $\\varepsilon_i\\sim N(0,1)$. We conjecture that recovering $β$ up to error $\\ll\\sqrt{d/n}$ (or exactly) may have an information-computation gap between $m=d+1$ and $m\\sim d^{3/4}n^{1/4}$, as is suggested by our near-matching polynomial-time estimator and statistical query (SQ) lower bound.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18402v1",
+        "pdf": "https://arxiv.org/pdf/2608.18402v1",
+        "source": "https://export.arxiv.org/e-print/2608.18402v1"
+      },
+      "structural_counts": {
+        "pages": 93,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 94,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file macros.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements We thank Frederic Koehler and Gregory Valiant for discussions in earlier stages of this project. We thank Adityanand Guntuboyina and Richard Samworth for bringing related work to our attention. ChatGPT was used during the process of developing proofs and implementing simulations; we take full responsibility for the content of our paper. T.S. and S.C. are supported by T.S.’s NSF CAREER Grant no. 2143246 and the NSF AI institute for Founda",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 68",
+          "page": 68
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:33:46.165591Z"
+      },
+      "score": 819.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 102.4,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 93,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 9.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18362",
       "version": 1,
       "title": "A new unconditional lower bound for shoreline search",
