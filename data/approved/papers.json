@@ -7400,6 +7400,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18405",
+      "version": 1,
+      "title": "The nonseparable case of Kadison's problem on orthonormal bases of unitaries for type $\\mathrm{II}_1$ factors",
+      "authors": [
+        "Yixin He",
+        "Quanyu Tang",
+        "Zongben Xu",
+        "Teng Zhang"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T00:26:23Z",
+        "updated": "2026-08-19T00:26:23Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "In 1967, Kadison asked ``does every type $\\mathrm{II}_1$ factor have an orthonormal (with respect to the trace) basis consisting of unitaries?''In a previous paper \\cite{HTZ26}, He, Tang, and Zhang resolved Kadison's problem in the separable case. We prove the complementary nonseparable case and thereby resolve Kadison's problem in full. In fact, the basis may be chosen to consist of self-adjoint unitaries. The proof combines a relative norming lemma under small-density constraints, a finite-layer certification scheme ensuring that the relevant Hilbert-space projections are represented by bounded elements of the ambient factor, and a transfinite extension along the density character of $L^2(M,τ)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18405v1",
+        "pdf": "https://arxiv.org/pdf/2608.18405v1",
+        "source": "https://export.arxiv.org/e-print/2608.18405v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 1,
+        "lemmas": 16,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 254,
+        "bibliography_entries": 25,
+        "appendix_pages": 34
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Kadison_problem_13_nonseparable_case.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "te Scientists Sponsorship Program for PhD Students (China Association for Science and Tech- nology), and the Fundamental Research Funds for the Central Universities at Xi’an Jiaotong University (Grant No. xzy022024045). AI tool disclosure. ChatGPT 5.6 Sol was used for English-language editing, proofreading, and grammatical corrections, and as an exploratory tool to discuss possible approaches to selected results in this paper, including, for example, Lemma 5.3 and Proposition 5.4. T",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:33:24.681370Z"
+      },
+      "score": 528,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 264,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 34,
+          "theorems": 6,
+          "lemmas": 64,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 63.5,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 68
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18362",
       "version": 1,
       "title": "A new unconditional lower bound for shoreline search",
