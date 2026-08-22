@@ -1105,6 +1105,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18302",
+      "version": 1,
+      "title": "Schur polynomials twisted by roots of unity and reciprocal pairs: torsion filters, fusion quotients, and an equal-rank reduction at odd order",
+      "authors": [
+        "Carles Marín"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T20:27:46Z",
+        "updated": "2026-08-18T20:27:46Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Write $μ_t$ for all $t$-th roots of unity and $z^{\\pm1}$ for $r$ free reciprocal pairs. We study $Φ_{t,r}(β)=s_λ(μ_t,z^{\\pm1})$, $β=λ+δ$, and the question the companion paper left open after $r=1$: when does it vanish? We factor the evaluation into classical branching followed by a torsion filter, and the shape depends on the parity of $t$: the point lies in the orthogonal group with determinant $(-1)^{t+1}$. For odd $t$ it sits in the identity component: an ordinary restriction $SO_{2R'+1}\\downarrow SO_{2m'+1}\\times SO_{2r}$, the filter an odd orthogonal character at a principal element of order $h+1$. For even $t$ in the other: a twining, a virtual expansion, and a torsion element regular but not principal; there we prove the filter, with its sign. One description covers both: the filter is nonzero exactly when the shifted torsion point is regular semisimple in the group. Both are minimal-level fusion projections: the even of type $C$, the tensor sector of the odd of type $B$. Affine folding accounts for the values $0,\\pm1$; what it does not survives as conjectures. The highest surviving weight is the dominant vertex of the numerator's Newton polytope minus the denominator's, the latter proved here, the former conditional on a single-orbit property; and the class there --- virtual for even $t$, a genuine multiplicity space for odd --- is conjecturally primitive, $\\pm$ the generator of the rank-one quotient. For odd $t$ and one $Λ$ that numerator is a signed transversal count in $\\{0,\\pm1\\}$ by the equal-rank character formula, leaving one division. We invert it in closed form, as a sum along an arithmetic progression of step $2t$; the quotient is $\\pmε_t\\det M$ for an explicit $0/{\\pm}1$ matrix, so total unimodularity of $M$ would settle it. Two extremal statements remain. Everything unproved here is measured, in both parities.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18302v1",
+        "pdf": "https://arxiv.org/pdf/2608.18302v1",
+        "source": "https://export.arxiv.org/e-print/2608.18302v1"
+      },
+      "structural_counts": {
+        "pages": 72,
+        "theorems": 1,
+        "lemmas": 7,
+        "propositions": 13,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 70,
+        "bibliography_entries": 35,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file orbit_pair_ii.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "he decoy that was run against it. The same scripts and the same archived output are kept at https://github.com/ karlesmarin/schur-orbit-and-reciprocal-pair, which is a convenience: the ancillary files carry everything the paper appeals to. Generative AI (Claude, Anthropic) was used throughout as a research assistant — for literature search, for writing and checking the ancillary code, and on the prose. The mathematics, and the responsibility for it, are the author’s.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 70",
+          "page": 70
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:21:54.459946Z"
+      },
+      "score": 388,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 194,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 72,
+          "theorems": 6,
+          "lemmas": 28,
+          "propositions": 52,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 17.5,
+          "bibliography_entries": 3.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18288",
       "version": 1,
       "title": "Anytime Solver Evaluation with a Normalized Signed Primal Integral and Explicit Reference Policies - Extended Version",
