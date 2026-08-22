@@ -1,4 +1,4 @@
-const state = { candidates: [], selected: null };
+const state = { candidates: [], selected: null, scanTimer: null };
 const classifications = {
   proofreading_translation: ["Proofreading, grammar, or translation", 1],
   brainstorming_literature_code: [
@@ -28,7 +28,17 @@ const elements = Object.fromEntries(
     "review-content",
     "review-dialog",
     "review-title",
-    "scan-date",
+    "scan-candidates",
+    "scan-current",
+    "scan-end-date",
+    "scan-errors",
+    "scan-percent",
+    "scan-processed",
+    "scan-progress",
+    "scan-session",
+    "scan-stage",
+    "scan-start-date",
+    "scan-total",
     "search",
     "status-filter",
     "submitted-count",
@@ -351,13 +361,61 @@ async function loadCandidates() {
   renderCandidates();
 }
 
+function renderScan(scan) {
+  if (!scan) {
+    elements["scan-session"].hidden = true;
+    return;
+  }
+  elements["scan-session"].hidden = false;
+  elements["scan-session"].dataset.status = scan.status;
+  elements["scan-stage"].textContent = scan.stage;
+  elements["scan-total"].textContent =
+    scan.total === null ? "—" : String(scan.total);
+  elements["scan-processed"].textContent = String(scan.processed);
+  elements["scan-candidates"].textContent = String(scan.candidates);
+  elements["scan-errors"].textContent = String(scan.errors);
+  elements["scan-current"].textContent = scan.current || "";
+
+  const progress = elements["scan-progress"];
+  if (scan.total === null) {
+    progress.removeAttribute("value");
+    elements["scan-percent"].textContent = "—";
+  } else {
+    const ratio =
+      scan.total === 0 ? 1 : Math.min(scan.processed / scan.total, 1);
+    progress.value = ratio;
+    elements["scan-percent"].textContent = `${Math.round(ratio * 100)}%`;
+  }
+}
+
+async function loadScan() {
+  const payload = await api("/api/scans/current");
+  renderScan(payload.scan);
+  if (state.scanTimer) clearTimeout(state.scanTimer);
+  if (payload.scan && ["queued", "running"].includes(payload.scan.status)) {
+    state.scanTimer = setTimeout(async () => {
+      try {
+        await loadScan();
+      } catch (error) {
+        showNotice(error.message, "error");
+      }
+    }, 5000);
+  } else if (payload.scan?.status === "completed") {
+    await loadCandidates();
+  }
+}
+
 async function initialize() {
-  elements["scan-date"].value = new Date().toISOString().slice(0, 10);
+  const today = new Date().toISOString().slice(0, 10);
+  for (const id of ["scan-start-date", "scan-end-date"]) {
+    elements[id].value = today;
+    elements[id].max = today;
+  }
   try {
     await api("/api/session");
     elements.account.hidden = false;
     elements.dashboard.hidden = false;
-    await loadCandidates();
+    await Promise.all([loadCandidates(), loadScan()]);
   } catch (error) {
     if (error.message.includes("Authentication required")) {
       elements["login-panel"].hidden = false;
@@ -380,14 +438,12 @@ document
       await api("/api/scan", {
         method: "POST",
         body: JSON.stringify({
-          scanDate: data.get("scanDate"),
-          maxResults: Number(data.get("maxResults")),
+          startDate: data.get("startDate"),
+          endDate: data.get("endDate"),
         }),
       });
-      showNotice(
-        "Scan started. Refresh the queue after the workflow completes.",
-        "success",
-      );
+      showNotice("Scan queued.", "success");
+      await loadScan();
     } catch (error) {
       showNotice(error.message, "error");
     } finally {
@@ -395,7 +451,14 @@ document
     }
   });
 
-document.getElementById("refresh").addEventListener("click", loadCandidates);
+document.getElementById("refresh").addEventListener("click", async () => {
+  await Promise.all([loadCandidates(), loadScan()]);
+});
+elements["scan-start-date"].addEventListener("change", () => {
+  if (elements["scan-end-date"].value < elements["scan-start-date"].value) {
+    elements["scan-end-date"].value = elements["scan-start-date"].value;
+  }
+});
 document.getElementById("logout").addEventListener("click", async () => {
   await api("/auth/logout", { method: "POST", body: "{}" });
   window.location.reload();
