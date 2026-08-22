@@ -6,7 +6,10 @@
       "arxiv_id": "2608.18225",
       "version": 1,
       "title": "On the enumeration of polymatroids",
-      "authors": ["Seonghyuk Im", "Donggyu Kim"],
+      "authors": [
+        "Seonghyuk Im",
+        "Donggyu Kim"
+      ],
       "categories": {
         "primary": "math.CO",
         "secondary": []
@@ -57,7 +60,7 @@
         },
         "classification": "proof_ideas_steps",
         "role_label": "Proof ideas or individual proof-step assistance",
-        "multiplier": 8.0
+        "multiplier": 8
       },
       "verification": {
         "status": "verified",
@@ -78,6 +81,91 @@
           "definitions": 6,
           "displayed_equations": 14,
           "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2608.18236",
+      "version": 2,
+      "title": "Exceptional eigenvalue density for thin groups",
+      "authors": [
+        "Christopher Lutsko"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": [
+          "math.GT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T18:23:28Z",
+        "updated": "2026-08-20T13:55:13Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We prove a limit multiplicity conjecture of Hee Oh for principal congruence covers of geometrically finite hyperbolic manifolds, with an explicit power-saving rate. The rate is governed by the return of Patterson--Sullivan shadows through a fixed compact core, giving a geometric interpretation to the exceptional eigenvalue density. For convex-cocompact groups, a packing argument for enlarged shadows gives a stronger rate.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18236v2",
+        "pdf": "https://arxiv.org/pdf/2608.18236v2",
+        "source": "https://export.arxiv.org/e-print/2608.18236v2"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 3,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 57,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file PS_shadow_density.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "= 2 exp − ℓq . δΓ − ρ Since ℓq = log q − O(1), taking ϑ < 1/2 sufficiently close to 1/2 proves (1.2). Acknowledgements The author used OpenAI’s ChatGPT for research brainstorming, literature discovery, checking intermediate arguments and calculations, and editorial revision. ChatGPT was not treated as an author or as an independent source of mathematical authority. The author assumes full",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T02:26:08.472129Z"
+      },
+      "score": 113.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 56.85,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 11,
+          "theorems": 18,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 14.25,
+          "bibliography_entries": 1.6,
           "appendix_pages": 0
         }
       }
