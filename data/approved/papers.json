@@ -6297,6 +6297,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18485",
+      "version": 1,
+      "title": "Finite-Index Lifting of Strong Topological Rokhlin Property and Descriptive Complexity",
+      "authors": [
+        "Jintao Luo"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "math.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T03:24:42Z",
+        "updated": "2026-08-19T03:24:42Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We give a finite symbolic reformulation of the strong topological Rokhlin property in terms of globally realizable tuples. We prove that the strong topological Rokhlin property passes from a finite-index subgroup to a finitely generated overgroup. We also study the descriptive complexity of the class of countable groups having the strong topological Rokhlin property. In the standard compact space of countable groups, this class belongs to $\\mathbfΠ^0_4$ and is $\\mathbfΣ^0_2$-hard. We also isolate a barrier to Borel rank four: if the class is not $\\mathbfΣ^0_3$, then there is a non-finitely-presented group with the strong topological Rokhlin property.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18485v1",
+        "pdf": "https://arxiv.org/pdf/2608.18485v1",
+        "source": "https://export.arxiv.org/e-print/2608.18485v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 5,
+        "bibliography_entries": 5,
+        "appendix_pages": 22
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file strp.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e investigating the strong topological Rokhlin property for SL2 (Z). The initial prompt and the corresponding one-shot response are reproduced in Appendix A. The shared ChatGPT conversation is inserted here, with timestamps: https://chatgpt.com/share/6a84a0c6-d440-83e8-bc75-8e668a1948b2. The proof was subsequently reorganized in the finite globally realizable formalism used in this paper. The higher-power and free-extension techniques used in that proof have standard antecede",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:28:45.162917Z"
+      },
+      "score": 1194.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 132.75,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 28,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 1.25,
+          "bibliography_entries": 0.5,
+          "appendix_pages": 44
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18408",
       "version": 1,
       "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
