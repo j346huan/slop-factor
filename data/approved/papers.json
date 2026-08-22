@@ -59,7 +59,7 @@
         },
         "classification": "rewriting_existing_text",
         "role_label": "Rewriting existing author-written text",
-        "multiplier": 4.0
+        "multiplier": 4
       },
       "verification": {
         "status": "verified",
@@ -147,7 +147,7 @@
         },
         "classification": "rewriting_existing_text",
         "role_label": "Rewriting existing author-written text",
-        "multiplier": 4.0
+        "multiplier": 4
       },
       "verification": {
         "status": "verified",
@@ -232,7 +232,7 @@
         },
         "classification": "mixed_or_other",
         "role_label": "Mixed or intermediate disclosed use",
-        "multiplier": 5.0
+        "multiplier": 5
       },
       "verification": {
         "status": "verified",
@@ -315,7 +315,7 @@
         },
         "classification": "proof_ideas_steps",
         "role_label": "Proof ideas or individual proof-step assistance",
-        "multiplier": 8.0
+        "multiplier": 8
       },
       "verification": {
         "status": "verified",
@@ -399,7 +399,7 @@
         },
         "classification": "rewriting_existing_text",
         "role_label": "Rewriting existing author-written text",
-        "multiplier": 4.0
+        "multiplier": 4
       },
       "verification": {
         "status": "verified",
@@ -483,7 +483,7 @@
         },
         "classification": "proof_ideas_steps",
         "role_label": "Proof ideas or individual proof-step assistance",
-        "multiplier": 8.0
+        "multiplier": 8
       },
       "verification": {
         "status": "verified",
@@ -568,7 +568,7 @@
         },
         "classification": "substantial_mathematical_content",
         "role_label": "Substantial mathematical content or result generation",
-        "multiplier": 10.0
+        "multiplier": 10
       },
       "verification": {
         "status": "verified",
@@ -651,7 +651,7 @@
         },
         "classification": "substantial_proof_generation",
         "role_label": "Substantial proof generation",
-        "multiplier": 10.0
+        "multiplier": 10
       },
       "verification": {
         "status": "verified",
@@ -735,7 +735,7 @@
         },
         "classification": "proofreading_grammar",
         "role_label": "Proofreading, grammar, or spelling",
-        "multiplier": 1.0
+        "multiplier": 1
       },
       "verification": {
         "status": "verified",
@@ -821,7 +821,7 @@
         },
         "classification": "brainstorming_outlining",
         "role_label": "Brainstorming or outlining",
-        "multiplier": 2.0
+        "multiplier": 2
       },
       "verification": {
         "status": "verified",
@@ -909,7 +909,7 @@
         },
         "classification": "literature_search",
         "role_label": "Literature search",
-        "multiplier": 2.0
+        "multiplier": 2
       },
       "verification": {
         "status": "verified",
@@ -995,7 +995,7 @@
         },
         "classification": "proof_ideas_steps",
         "role_label": "Proof ideas or individual proof-step assistance",
-        "multiplier": 8.0
+        "multiplier": 8
       },
       "verification": {
         "status": "verified",
@@ -1078,7 +1078,7 @@
         },
         "classification": "proof_ideas_steps",
         "role_label": "Proof ideas or individual proof-step assistance",
-        "multiplier": 8.0
+        "multiplier": 8
       },
       "verification": {
         "status": "verified",
@@ -1163,7 +1163,7 @@
         },
         "classification": "formatting_typesetting",
         "role_label": "Formatting or typesetting",
-        "multiplier": 1.0
+        "multiplier": 1
       },
       "verification": {
         "status": "verified",
@@ -1248,7 +1248,7 @@
         },
         "classification": "proof_ideas_steps",
         "role_label": "Proof ideas or individual proof-step assistance",
-        "multiplier": 8.0
+        "multiplier": 8
       },
       "verification": {
         "status": "verified",
@@ -1333,7 +1333,7 @@
         },
         "classification": "code_assistance",
         "role_label": "Code generation, completion, or debugging",
-        "multiplier": 2.0
+        "multiplier": 2
       },
       "verification": {
         "status": "verified",
@@ -1419,7 +1419,7 @@
         },
         "classification": "complete_proof_drafting",
         "role_label": "Drafting a complete proof for author revision",
-        "multiplier": 9.0
+        "multiplier": 9
       },
       "verification": {
         "status": "verified",
@@ -1507,7 +1507,7 @@
         },
         "classification": "computational_support",
         "role_label": "Computational experiments or data processing",
-        "multiplier": 3.0
+        "multiplier": 3
       },
       "verification": {
         "status": "verified",
@@ -1591,7 +1591,7 @@
         },
         "classification": "mathematical_examples_conjectures",
         "role_label": "Suggesting mathematical examples or conjectures",
-        "multiplier": 6.0
+        "multiplier": 6
       },
       "verification": {
         "status": "verified",
