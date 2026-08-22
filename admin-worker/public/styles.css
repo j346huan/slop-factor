@@ -208,6 +208,7 @@ h3 {
 }
 
 .scan-form,
+.decision-controls,
 .queue-controls {
   display: flex;
   align-items: end;
@@ -357,7 +358,9 @@ textarea {
 
 .panel-heading {
   display: flex;
-  justify-content: flex-end;
+  align-items: end;
+  justify-content: space-between;
+  gap: 0.55rem;
   padding: 0.65rem;
   border-bottom: 1px solid var(--line);
 }
@@ -580,6 +583,7 @@ textarea {
 
   .toolbar,
   .scan-form,
+  .decision-controls,
   .queue-controls {
     display: grid;
     width: 100%;
