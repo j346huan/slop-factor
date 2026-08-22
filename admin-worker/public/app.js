@@ -121,10 +121,11 @@ async function applyDecisionFile(file) {
   } catch {
     throw new Error("Decision file is not valid JSON");
   }
-  const decisions = validatedDecisions(value);
+  const { decisions, skipped, errors } = validatedDecisions(value);
+  const failures = [...errors];
   let applied = 0;
-  try {
-    for (const item of decisions) {
+  for (const item of decisions) {
+    try {
       if (item.decision === "reject") {
         await api(`/api/candidates/${item.candidate.issueNumber}/reject`, {
           method: "POST",
@@ -149,19 +150,27 @@ async function applyDecisionFile(file) {
         item.candidate.status = "approval-submitted";
       }
       applied += 1;
+    } catch (error) {
+      failures.push({
+        arxiv_id: item.candidate.candidate_id,
+        error: error instanceof Error ? error.message : "Request failed",
+      });
     }
-  } catch (error) {
-    elements["status-filter"].value = "pending";
-    renderCandidates();
-    loadCandidates().catch(() => {});
-    throw new Error(
-      `Applied ${applied} of ${decisions.length} decisions. ${error.message}`,
-    );
   }
   elements["status-filter"].value = "pending";
   renderCandidates();
   await loadCandidates();
-  showNotice(`Applied ${applied} decisions.`, "success");
+  const summary = `Applied ${applied}; skipped ${skipped.length}; failed ${failures.length}.`;
+  const details = failures
+    .map(
+      (failure) =>
+        `${failure.arxiv_id ?? `entry ${failure.index}`}: ${failure.error}`,
+    )
+    .join(" ");
+  showNotice(
+    details ? `${summary} ${details}` : summary,
+    failures.length ? "error" : "success",
+  );
 }
 
 function text(tag, content, className = "") {
