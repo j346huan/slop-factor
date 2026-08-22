@@ -172,8 +172,11 @@ function openReview(candidate) {
     radio.addEventListener("change", () => fillEvidence(form, evidence));
     card.append(
       radio,
-      text("strong", `Passage ${index + 1} · ${evidence.location_value}`),
-      text("blockquote", evidence.quotation),
+      text(
+        "strong",
+        `${evidence.term ?? `Passage ${index + 1}`} · ${evidence.location_value}`,
+      ),
+      text("blockquote", evidence.matched_sentence ?? evidence.quotation),
     );
     form.append(card);
   });
