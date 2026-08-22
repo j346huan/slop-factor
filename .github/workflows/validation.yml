@@ -49,10 +49,7 @@ jobs:
         run: pytest
 
       - name: Check frontend formatting
-        run: |
-          npx prettier --write data/approved/papers.json
-          git diff -- data/approved/papers.json
-          exit 1
+        run: npm run format
 
       - name: Lint and type-check frontend
         run: |
