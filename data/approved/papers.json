@@ -3570,6 +3570,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19145",
+      "version": 1,
+      "title": "The critical probability for percolation on finite graphs",
+      "authors": [
+        "Micha Christoph",
+        "Patryk Morawski",
+        "Yuval Wigderson"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T17:32:32Z",
+        "updated": "2026-08-19T17:32:32Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We determine the critical probability for Bernoulli bond percolation on essentially any finite graph. Namely, letting $λ(G)$ denote the spectral radius (maximum eigenvalue) of $G$, we prove that the critical probability is at $1/λ(G)$: above this probability there is typically a component of order $Ω(λ(G))$, whereas below it all components are of order at most $O(\\sqrt{|G|})$. These results in particular confirm a conjecture of Krivelevich and Samotij about percolation on graphs of a given average degree, and vastly extend theorems of Bollobás, Borgs, Chayes, and Riordan, who proved analogous results but only for dense graphs. Our theorems are optimal in many regimes, and also demonstrate that percolation has an unexpectedly subtle behaviour on graphs whose spectral radius is roughly the square root of their maximum degree.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19145v1",
+        "pdf": "https://arxiv.org/pdf/2608.19145v1",
+        "source": "https://export.arxiv.org/e-print/2608.19145v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 4,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 57,
+        "bibliography_entries": 35,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file alternative.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "for very helpful discussions in the early phases of this project. Statement of AI use: ChatGPT 5.5 suggested the proof of Lemma 2.4, but all of the other ideas in the paper, as well as all of the writing, are due entirely to the authors. ChatGPT 5.6 was used to proofread this paper. 6 This is because there will be Ω(log s) vertices on the smaller side lying in the same component of Gp , each having roughly s neighbours in the larger side. 7 On the other hand, fo",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:18:16.578602Z"
+      },
+      "score": 718,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 89.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 22,
+          "theorems": 24,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 14.25,
+          "bibliography_entries": 3.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19060",
       "version": 1,
       "title": "Activated switching between coexisting limit cycles",
