@@ -2800,6 +2800,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19435",
+      "version": 1,
+      "title": "A New Impossibility Region for the $5\\times5$ Symmetric Nonnegative Inverse Eigenvalue Problem",
+      "authors": [
+        "Jiashun Jin",
+        "Zheng Tracy Ke",
+        "Bingcheng Sui"
+      ],
+      "categories": {
+        "primary": "math.RA",
+        "secondary": [
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T20:36:17Z",
+        "updated": "2026-08-19T20:36:17Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We present a new impossibility region for the $5\\times5$ symmetric nonnegative inverse eigenvalue problem. The region lies in the low-trace regime and, to the best of our knowledge, has not been identified previously. The proof uses a suitable diagonal shift to transform the problem to a critical high-trace boundary and then reduces a complementary commuting matrix to a weighted five-cycle. The characteristic polynomial and spectral identities of this five-cycle provide the main tools for deriving the resulting contradiction.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19435v1",
+        "pdf": "https://arxiv.org/pdf/2608.19435v1",
+        "source": "https://export.arxiv.org/e-print/2608.19435v1"
+      },
+      "structural_counts": {
+        "pages": 42,
+        "theorems": 2,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 222,
+        "bibliography_entries": 33,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the connection in Section 3 motivates further study of the symmetric doubly stochastic inverse eigenvalue problem (SDIEP), including the special spectral families arising from network modeling. Acknowledgements The authors used OpenAI’s GPT-5.6 in preparing this manuscript. All mathematical arguments were independently verified by the authors. 6 Appendix This section contains the proofs of Lemmas 4.1–4.5. The only external theorem used in these proofs is the following high-",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:15:39.749530Z"
+      },
+      "score": 664,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 132.8,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 42,
+          "theorems": 12,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 55.5,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19414",
       "version": 1,
       "title": "The Non-Cancelling-Intersections Conjecture Fails for Left-Linear Trees",
