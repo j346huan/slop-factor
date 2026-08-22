@@ -5525,6 +5525,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18789",
+      "version": 1,
+      "title": "Finite-coefficient K-theory of henselian valued fields and Gersten injectivity",
+      "authors": [
+        "Niels Feld"
+      ],
+      "categories": {
+        "primary": "math.KT",
+        "secondary": [
+          "math.AC",
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T10:45:34Z",
+        "updated": "2026-08-19T10:45:34Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $W$ be a henselian valuation ring with fraction field $L$, residue field $k$, and value group $Γ_W$. Let $N=\\ell^ν$ be invertible in $W$. Choose an ordered $\\mathbf Z/N$-basis $B$ of $Γ_W/NΓ_W$. Products of suitable classes define an equivalence of complete filtered spectra $$ \\bigoplus_{\\substack{J\\subseteq B\\\\J\\text{ finite}}} Σ^{|J|}\\operatorname{Fil}_{\\mathrm{mot}}^{\\bullet-|J|} K(k;\\mathbf Z/N) \\xrightarrow{\\simeq} \\operatorname{Fil}_{\\mathrm{mot}}^{\\bullet} K(L;\\mathbf Z/N) $$ The summand indexed by $\\varnothing$ is the generic restriction map, after the rigidity equivalence $K(W;\\mathbf Z/N)\\simeq K(k;\\mathbf Z/N)$, and is therefore split injective. Independently of this splitting, excision yields a lifting theorem for regular henselian pairs. In particular, this yields finite-coefficient Gersten injectivity for noetherian henselian regular local rings. Applications to completions along regular primes give relative and sometimes nonhenselian examples. More generally, if $P$ is a Prüfer ring and $R$ is a henselian local ind-smooth $P$-algebra, then $R$ is a domain and $K_n(R;\\mathbf Z/N)\\to K_n(\\operatorname{Frac}(R);\\mathbf Z/N)$ is injective for every $n$, provided $N\\in R^\\times$. These injectivity consequences extend from prime-power to arbitrary finite invertible coefficients by primary decomposition.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18789v1",
+        "pdf": "https://arxiv.org/pdf/2608.18789v1",
+        "source": "https://export.arxiv.org/e-print/2608.18789v1"
+      },
+      "structural_counts": {
+        "pages": 42,
+        "theorems": 14,
+        "lemmas": 34,
+        "propositions": 2,
+        "corollaries": 6,
+        "definitions": 3,
+        "displayed_equations": 204,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file FELD_finite_coefficient_k_theory_henselian_valued_fields_2026_08_arxiv_v1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "α, so α = 0. □ Acknowledgments. The author is grateful to Frédéric Déglise for introducing him to the Gersten conjecture in January 2018 and for many subsequent discussions around this problem. Use of AI-assisted tools. Large language models were used as interactive tools for expand- ing proof sketches, checking consistency, and improving exposition. All resulting suggestions were checked by the author, who assumes full responsibility for the mathematical statements, proofs, a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 41",
+          "page": 41
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:25:34.459416Z"
+      },
+      "score": 2782.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 347.8,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 42,
+          "theorems": 84,
+          "lemmas": 136,
+          "propositions": 8,
+          "corollaries": 18,
+          "definitions": 6,
+          "displayed_equations": 51,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18620",
       "version": 1,
       "title": "Superlinear separation between linear and centered colorings",
