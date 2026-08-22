@@ -5875,6 +5875,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18676",
+      "version": 1,
+      "title": "Long-run risk-sensitive portfolio optimisation with proportional transaction costs and log Lévy asset prices",
+      "authors": [
+        "Damian Jelito",
+        "Łukasz Stettner"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T08:28:13Z",
+        "updated": "2026-08-19T08:28:13Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We study a long-run risk-sensitive portfolio problem with proportional transaction costs in a continuous-time market whose log-prices are given as a Lévy process, and rebalancing is possible only at random moments of investment opportunities. Using a Schauder fixed-point argument, we solve the ergodic Bellman equation without any mixing assumptions. Under additional full-support and growth conditions, the solution to the Bellman equation is unique, with the unique continuous maximiser. We also prove vanishing risk-aversion asymptotics towards the risk-neutral (Kelly) problem and convergence of a dyadic-time-grid approximation of the random intervention moments. Numerical examples illustrate the results.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18676v1",
+        "pdf": "https://arxiv.org/pdf/2608.18676v1",
+        "source": "https://export.arxiv.org/e-print/2608.18676v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 8,
+        "lemmas": 11,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 170,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ηim ] for different m. Declaration of generative AI use During the preparation of this work, the authors used large language model assis- tants to support proof idea generation, proofreading, and code writing for numerical examples. All AI-assisted output was used under supervision: the authors verified every derivation and numerical result and edited the text as need",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 36",
+          "page": 36
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:27:12.403730Z"
+      },
+      "score": 1476,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 184.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 36,
+          "theorems": 48,
+          "lemmas": 44,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 42.5,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18620",
       "version": 1,
       "title": "Superlinear separation between linear and centered colorings",
