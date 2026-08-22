@@ -28,6 +28,14 @@ interface GitHubIssue {
   labels: GitHubLabel[];
 }
 
+interface GitHubContent {
+  content: string;
+}
+
+interface ApprovedCollection {
+  papers: Array<{ arxiv_id: string; version: number }>;
+}
+
 interface CandidatePayload {
   candidate_id: string;
   paper: {
@@ -362,14 +370,19 @@ function candidateStatus(issue: GitHubIssue): string {
   return "pending";
 }
 
-function publicCandidate(issue: GitHubIssue): object {
+function publicCandidate(
+  issue: GitHubIssue,
+  approvedCandidateIds: Set<string>,
+): object {
   const payload = candidatePayload(issue.body ?? "");
   return {
     issueNumber: issue.number,
     issueUrl: issue.html_url,
     createdAt: issue.created_at,
     updatedAt: issue.updated_at,
-    status: candidateStatus(issue),
+    status: approvedCandidateIds.has(payload.candidate_id)
+      ? "approved"
+      : candidateStatus(issue),
     ...payload,
   };
 }
@@ -413,11 +426,30 @@ async function api(
   }
 
   if (pathname === "/api/candidates" && request.method === "GET") {
-    const issues = await github<GitHubIssue[]>(
-      token,
-      `/repos/${env.GITHUB_REPOSITORY}/issues?state=all&labels=paper-candidate&per_page=100`,
+    const [issues, approvedFile] = await Promise.all([
+      github<GitHubIssue[]>(
+        token,
+        `/repos/${env.GITHUB_REPOSITORY}/issues?state=all&labels=paper-candidate&per_page=100`,
+      ),
+      github<GitHubContent>(
+        token,
+        `/repos/${env.PUBLIC_REPOSITORY}/contents/data/approved/papers.json?ref=main`,
+      ),
+    ]);
+    const encoded = approvedFile.content.replace(/\s/g, "");
+    const approved = JSON.parse(
+      decoder.decode(
+        Uint8Array.from(atob(encoded), (character) => character.charCodeAt(0)),
+      ),
+    ) as ApprovedCollection;
+    const approvedCandidateIds = new Set(
+      approved.papers.map((paper) => `${paper.arxiv_id}v${paper.version}`),
     );
-    return json({ candidates: issues.map(publicCandidate) });
+    return json({
+      candidates: issues.map((issue) =>
+        publicCandidate(issue, approvedCandidateIds),
+      ),
+    });
   }
 
   if (pathname === "/api/runs" && request.method === "GET") {
