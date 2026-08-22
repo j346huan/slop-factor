@@ -3,6 +3,91 @@
   "papers": [
     {
       "record_version": 1,
+      "arxiv_id": "2608.19872",
+      "version": 1,
+      "title": "New upper bounds on covering codes K_q(n,R) for alphabets of size six and seven",
+      "authors": [
+        "Mark Marosi"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.IT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-20T10:31:38Z",
+        "updated": "2026-08-20T10:31:38Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We present improved upper bounds for nine entries of the standard tables of bounds on K_q(n,R), the minimum cardinality of a q-ary code of length n with covering radius R, for q in {6,7}: K_6(7,3)<=232, K_6(8,3)<=1045, K_6(8,4)<=167, K_6(9,4)<=703, K_6(9,5)<=123, K_6(10,4)<=2951, K_6(10,5)<=610, K_7(8,4)<=329, and K_7(9,4)<=1743. The previous best bounds, recorded in Keri's tables (last updated 2011), all arose from general constructions (direct sums and related product rules) rather than from explicit search; to our knowledge these are the first improvements to any upper bound on K_q(n,R) with q>=5 since 2011. The new bounds were found by focused local search seeded with the construction-based incumbents. All nine codes are given explicitly in the ancillary files, together with a standalone verifier; each code was checked by four independent exhaustive verification methods.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19872v1",
+        "pdf": "https://arxiv.org/pdf/2608.19872v1",
+        "source": "https://export.arxiv.org/e-print/2608.19872v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 0,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 2,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "(BME), Budapest, Hungary. email: marosi@mit.bme.hu. The search software, the verification protocol, the constructions, and this manuscript were produced by the AI system Claude (Anthropic), operating autonomously on a single NVIDIA GH200 node; the author’s contributions were the initiating idea, methodological guidance, a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:10:20.933413Z"
+      },
+      "score": 113,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 11.3,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 6,
+          "theorems": 0,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0.5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19844",
       "version": 1,
       "title": "Circles determined by planar point sets",
