@@ -53,11 +53,11 @@ on:
         type: string
 
 permissions:
+  actions: write
   contents: write
-  pull-requests: write
 
 concurrency:
-  group: approve-candidate-${{ inputs.candidate_issue }}
+  group: approve-candidate
   cancel-in-progress: false
 
 jobs:
@@ -89,6 +89,7 @@ jobs:
           PAGE: ${{ inputs.page }}
           CONFIRMATION: ${{ inputs.confirmation }}
         run: |
+          git pull --ff-only origin main
           python -m pip install -e .
           PAGE_ARGUMENTS=()
           if [[ -n "${PAGE}" ]]; then
@@ -108,23 +109,18 @@ jobs:
             "${PAGE_ARGUMENTS[@]}"
           python scripts/validate_approved.py
 
-      - name: Open approval pull request
-        id: pull-request
+      - name: Publish approved record
         env:
           GH_TOKEN: ${{ github.token }}
-          CANDIDATE_ISSUE: ${{ inputs.candidate_issue }}
         run: |
           CANDIDATE_ID=$(python -c 'import json; data=json.load(open("private/approval-result.json")); print(data["candidate_id"].rsplit("v", 1)[0].replace("/", "-"))')
-          BRANCH="approval/${CANDIDATE_ID}-${GITHUB_RUN_ID}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git switch -c "${BRANCH}"
           git add -- data/approved/papers.json
-          git commit -m "data: add verified arXiv ${CANDIDATE_ID}"
-          git push origin "${BRANCH}"
-          PR_URL=$(gh pr create \
-            --base main \
-            --head "${BRANCH}" \
-            --title "Add verified arXiv ${CANDIDATE_ID}" \
-            --body "Human-verified candidate from the private review queue, reference #${CANDIDATE_ISSUE}. Validation passed before this pull request was opened.")
-          echo "url=${PR_URL}" >> "${GITHUB_OUTPUT}"
+          if git diff --cached --quiet; then
+            echo "arXiv ${CANDIDATE_ID} is already published."
+          else
+            git commit -m "data: add verified arXiv ${CANDIDATE_ID}"
+            git push origin HEAD:main
+          fi
+          gh workflow run pages.yml --ref main
