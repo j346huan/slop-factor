@@ -1189,6 +1189,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18815",
+      "version": 1,
+      "title": "The number of groups of cubefree order",
+      "authors": [
+        "Heiko Dietrich",
+        "David Jefferies"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T11:13:24Z",
+        "updated": "2026-08-19T11:13:24Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Generalising Hölder's classical group enumeration for squarefree orders (1895), we provide an exact formula for the number of isomorphism types of groups of a given cubefree order. After more than 130 years, this is the first such formula that covers significantly more orders than the squarefree ones (83% versus 61% of all integers). Like Hölder's formula, ours is combinatorial: it can be evaluated from the prime factorisation of the order by arithmetic operations and table look-ups, without constructing a single group. The structure of our formula leads to counting formulas for natural subclasses of cubefree groups, with applications in computational group theory. We also derive new asymptotic results. Blackburn et al. (2007) conjectured that the number gnu(n) of groups of cubefree order n satisfies gnu(n)<n^2. We show that gnu(n)\\leq n^{2+o(1)}, which improves the bound gnu(n)<n^8 recorded in their survey, and we prove that the exponent 2 is best possible, that is, gnu(n)\\geq n^{2-o(1)} for infinitely many cubefree n. Lastly, we show that a much stronger form of the conjecture holds for almost every cubefree order, namely, \\gnu(n)\\leq (\\log n)^{(\\log\\log n)^{O(1)}}.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18815v1",
+        "pdf": "https://arxiv.org/pdf/2608.18815v1",
+        "source": "https://export.arxiv.org/e-print/2608.18815v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 2,
+        "lemmas": 13,
+        "propositions": 9,
+        "corollaries": 2,
+        "definitions": 6,
+        "displayed_equations": 88,
+        "bibliography_entries": 28,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file cubefree-enum.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "embedded into (U1 )q × . . .×(Um )q due to order or rank obstructions; our implementation tries to detect this before any tuples are formed. The optimisations described above were implemented with the assistance of the large language model Claude Opus 5, which has also streamlined and improved the final implementation. The final implementation has been checked extensively against independent data, see Section 6.3. 6.3. Cross-checking. Theorems 3.14 and 4.11 are proved mathematical",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T17:02:58.481562Z"
+      },
+      "score": 373.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 186.8,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 32,
+          "theorems": 12,
+          "lemmas": 52,
+          "propositions": 36,
+          "corollaries": 6,
+          "definitions": 12,
+          "displayed_equations": 22,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18620",
       "version": 1,
       "title": "Superlinear separation between linear and centered colorings",
