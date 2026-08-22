@@ -6212,6 +6212,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18519",
+      "version": 1,
+      "title": "The radial derivative on the graded Möbius algebra",
+      "authors": [
+        "Thomas Sinclair"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.AC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-19T04:13:28Z",
+        "updated": "2026-08-19T04:13:28Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Let $M$ be a simple matroid and let $B(M)$ be the graded Möbius algebra of its lattice of flats. The ordered-basis weights of flats define an inner product for which the adjoints of atom multiplication become ordinary coordinate derivatives under the basis-polynomial realization. From this, we construct a canonical global lowering operator $D_β$ which acts as ordinary differentiation on a canonical ``radial'' copy of a truncated polynomial algebra. Allowing both $D_β$ and the coordinate derivatives to act produces a graded cyclic module with Hilbert series \\[ H_{β,M}(q)=\\sum_{k=0}^r h_k^β(M)q^k. \\] We give examples of matroids with the same Derksen $\\mathcal G$-invariant and the same classical apolar Hilbert series but different $H_β$. Hence $H_β$ cannot be the restriction to simple matroids of a valuative matroid invariant. We conjecture that $H_β$ is log-concave and top-heavy in differential degree. For the generalized theta family containing Larson's counterexample to Whitney log-concavity, we compute the first four coefficients and prove the critical log-concavity inequality. Exact computation verifies both conjectures for all $950$ simple matroids on eight elements.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18519v1",
+        "pdf": "https://arxiv.org/pdf/2608.18519v1",
+        "source": "https://export.arxiv.org/e-print/2608.18519v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 2,
+        "lemmas": 4,
+        "propositions": 9,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 101,
+        "bibliography_entries": 18,
+        "appendix_pages": 7
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file hbeta-v3.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Methods OpenAI’s ChatGPT 5.5 and ChatGPT 5.6 Sol and Anthropic’s Claude Opus 5 were used at exploratory stages to generate examples and computations and to assist in drafting the manuscript. In addition, ChatGPT 5.6 Sol generated the code included with the ancillary files and carried out the computations for the generalized theta family. The conceptual framework is the sole work of the author. The author has thoroughly edited the manuscript, has i",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:28:25.692765Z"
+      },
+      "score": 756.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 126.05,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 18,
+          "theorems": 12,
+          "lemmas": 16,
+          "propositions": 36,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 25.25,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 14
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18408",
       "version": 1,
       "title": "Half-open integer parallelepipeds and polytope Dedekind sums",
