@@ -3994,6 +3994,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19112",
+      "version": 1,
+      "title": "On the Hessian Conjecture in Lorentzian Signature: Constant Pivots and Hesse Systems",
+      "authors": [
+        "Hanwen Liu"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-19T17:05:34Z",
+        "updated": "2026-08-19T17:05:34Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "We study the 4D Hessian conjecture in Lorentzian signature. For a polynomial potential $φ$ in 4 real variables whose Hessian matrix has inertia index 1 and determinant $-1$, we define a pivot of $φ$ as a direction vector $v$ such that the double derivative $D^2_vφ$ is a constant function. We then prove that the gradient mapping of every potential admitting a pivot is a regular automorphism, and that a pivot always exists when $φ$ decomposes into homogeneous pieces as $φ=φ_d+φ_{d-1}+φ_2+φ_1+φ_0$ with $d\\geq4$. More generally, we prove the same conclusion when $$φ=φ_d+\\cdots+φ_{d-k}+φ_2+φ_1+φ_0,$$ where $k\\geq0$ and $d\\geq4k+3$. Then, we associate with each potential a linear system of quadrics, called the Hesse system, and a canonical homomorphism $μ_φ$. We prove that the existence of a pivot is equivalent to $\\operatorname{rank}(μ_φ)\\leq55$. As an application, we prove that the gradient mapping is a polynomial automorphism whenever the Hesse system has complex dimension at most 4. We also show that a Hesse system consisting entirely of singular matrices has complex dimension at most 6, and equality forces a pivot.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19112v1",
+        "pdf": "https://arxiv.org/pdf/2608.19112v1",
+        "source": "https://export.arxiv.org/e-print/2608.19112v1"
+      },
+      "structural_counts": {
+        "pages": 31,
+        "theorems": 4,
+        "lemmas": 27,
+        "propositions": 5,
+        "corollaries": 3,
+        "definitions": 6,
+        "displayed_equations": 118,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Hessian_10th.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Competing interests. The author declares no relevant financial or non-financial interests. Data availability. Data sharing is not applicable to this article. Use of generative AI. During the preparation of this manuscript, the author used OpenAI’s ChatGPT to help handle minor details and grammatical issues. 30",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 30",
+          "page": 30
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T18:30:08.672538Z"
+      },
+      "score": 235,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 235,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 31,
+          "theorems": 24,
+          "lemmas": 108,
+          "propositions": 20,
+          "corollaries": 9,
+          "definitions": 12,
+          "displayed_equations": 29.5,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19089",
       "version": 1,
       "title": "Improved bounds on the oriented diameter of planar triangulations",
