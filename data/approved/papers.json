@@ -1105,6 +1105,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18288",
+      "version": 1,
+      "title": "Anytime Solver Evaluation with a Normalized Signed Primal Integral and Explicit Reference Policies - Extended Version",
+      "authors": [
+        "Florian Rascoussier"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.MS",
+          "cs.PF"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T20:13:45Z",
+        "updated": "2026-08-18T20:13:45Z",
+        "approved": "2026-08-22"
+      },
+      "abstract": "Anytime solvers return usable solutions before they terminate and improve them while time remains. Their progress is commonly summarized by a primal integral, a final gap, or convergence curves. Each summary leaves consequential choices open: how to score a run before its first feasible solution, whether poor incumbents are truncated, and whether the reference value is updated after the experiment or version-frozen beforehand. These choices become visible when runs produce no valid incumbent or improve a published best-known value. We study a normalized signed primal integral built from a bounded relative gap. It assigns an intrinsic worst value to an empty run, requires no acceptance threshold, and assigns negative instantaneous gaps to incumbents that beat a frozen reference. We compare the smooth difference-over-sum kernel with a signed version of Berthold's max-normalized gap and use the former as a working default. We also distinguish analysis-time from version-frozen reference policies and recommend reading the score with the raw final gap, mean convergence curve, and target-attainment curve. We evaluate these choices on a five-arm routing campaign and two model-fidelity ladders. The two signed kernels preserve every panel ordering in this study, whereas a common acceptance threshold compresses the distances between arms and reverses one panel ordering. Updating 54 of the 212 reference values changes score levels and removes all negative scores, while leaving the observed panel orderings unchanged. An exploratory screen also identifies nine panel comparisons in which similar integral scores conceal materially different endpoints or attainment rates. The implementation, frozen inputs, and generators are openly released.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18288v1",
+        "pdf": "https://arxiv.org/pdf/2608.18288v1",
+        "source": "https://export.arxiv.org/e-print/2608.18288v1"
+      },
+      "structural_counts": {
+        "pages": 40,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 19,
+        "bibliography_entries": 0,
+        "appendix_pages": 35
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "6b]. All conclusions and numerical results can be reproduced, audited or extended. Use of generative AI. Generative AI tools were used throughout the preparation of this work, including frontier models from Anthropic (Claude) and OpenAI (ChatGPT). They contributed to various aspects of this work, including code generation, experiment orchestration, initial drafting, and adversarial review of this paper. The author reviewed and revised all outputs from these tools and takes full re",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-22T03:21:05.135966Z"
+      },
+      "score": 1032.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 114.75,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 40,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 4.75,
+          "bibliography_entries": 0,
+          "appendix_pages": 70
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18282",
       "version": 1,
       "title": "Self-supervised In-context Operator Learning for Stochastic Mean-Field Control",
