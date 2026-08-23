@@ -8424,6 +8424,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14434",
+      "version": 1,
+      "title": "The Kelly--Trotter product conjecture for posets of dimension three",
+      "authors": [
+        "Zhaochen Dong",
+        "Kaiyun Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T16:16:32Z",
+        "updated": "2026-08-14T16:16:32Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Kelly and Trotter conjectured that dim(P x Q) >= dim P + dim Q - 2 for all finite posets P and Q. We prove the conjecture when dim P = dim Q = 3. This also disproves Trotter's conjecture that, for every 1 <= m <= n, there exist finite posets P and Q with dim P = m, dim Q = n, and dim(P x Q) = n. We further prove that dim(C_k x P) = 4 for every finite poset P with dim P = 3 and every crown C_k with k >= 3. The proof uses the classification of 3-irreducible posets and graphs of critical pairs. For the six infinite noncrown families, we construct explicit non-3-colorable subgraphs. The ten fixed posets are handled by an exhaustive 3-coloring search.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14434v1",
+        "pdf": "https://arxiv.org/pdf/2608.14434v1",
+        "source": "https://export.arxiv.org/e-print/2608.14434v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 3,
+        "lemmas": 3,
+        "propositions": 7,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 99,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file kelly_trotter_product_conjecture_dimension_three.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Use of generative AI. During the preparation of this work, the authors used generative AI to improve the readability and language of the manuscript and to assist with writing the Python verification program for the ten fixed posets. The authors carefully reviewed and verified the manuscript and take full responsibility for its",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:28.830678Z"
+      },
+      "score": 229.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 114.95,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 22,
+          "theorems": 18,
+          "lemmas": 12,
+          "propositions": 28,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 24.75,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14413",
       "version": 1,
       "title": "A greedy open-orbit criterion for solvable algebraic group actions, with applications to Lusztig's nilpotent varieties",
