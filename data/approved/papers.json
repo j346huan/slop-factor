@@ -41683,6 +41683,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26671",
+      "version": 1,
+      "title": "A Brenier-Strassen Theorem on CAT(kappa) Spaces",
+      "authors": [
+        "Nathael Gozlan",
+        "Hugo Malamut",
+        "Shin-Ichi Ohta"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.MG",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-29T09:26:03Z",
+        "updated": "2026-07-29T09:26:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We extend the Brenier-Strassen theorem about projections in convex order to non-flat spaces with curvature bounded from above. Precisely, for probability measures $μ$, $ν$ of finite second moment on a complete separable CAT(0) space, we prove that $μ$ admits a unique W 2 -projection \\barμ to the set of probability measures dominated by $ν$ in convex order. Moreover, the unique optimal coupling from $μ$ to \\barμ is induced by a 1-Lipschitz map, without any absolute-continuity assumption on $μ$. Our proof identifies the projection problem with a weak optimal transport problem whose cost is the squared distance to the set of convex means. We also establish a localized version on CAT(kappa) spaces with kappa \\geq 0, where the optimal map is 1/2-H{ö}lder continuous. Finally, we give a Strassen-type characterization of one-step barycentric martingales on proper CAT(0) spaces.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26671v1",
+        "pdf": "https://arxiv.org/pdf/2607.26671v1",
+        "source": "https://export.arxiv.org/e-print/2607.26671v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 7,
+        "lemmas": 9,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 133,
+        "bibliography_entries": 38,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Brenier_Strassen_CATkappa_HAL.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2 Thus wn Ñ z, and dpzn , zq ď dpzn , wn q ` dpwn , zq ÝÑ 0. □ Declaration on the use of generative AI During the preparation of this work, the authors used ChatGPT 5.5 (OpenAI) in the following two ways. First, as an assistance for exploring some of the arguments of the paper. The most significant instance is Proposition 2.4: we had only conjectured the statement of item 2, and its complete proof, go",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:30.759865Z"
+      },
+      "score": 1320.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 165.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 23,
+          "theorems": 42,
+          "lemmas": 36,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 33.25,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26377",
       "version": 2,
       "title": "Entire Logarithmic Signatures of Bounded-Variation Paths in Finite Dimensions",
