@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12690",
+      "version": 1,
+      "title": "Algebraic constructions of point sequences with quasi-uniform two-dimensional projections",
+      "authors": [
+        "Takashi Goda"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.NA",
+          "stat.ME"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T01:13:44Z",
+        "updated": "2026-08-13T01:13:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Motivated by sequential space-filling designs for computer experiments, we study algebraic constructions of extensible point sets in the $d$-dimensional unit cube whose two-dimensional coordinate projections are all quasi-uniform. Our two constructions share a common parametrization in terms of finite configurations of distinct rational directions on the projective line $\\mathbb{P}^1(\\mathbb{Q})$. First, using a cubic number field, we construct explicit Kronecker sequences for which the mesh ratios of all two-dimensional coordinate projections remain uniformly bounded over every initial segment of length $N\\ge 2$. Second, using a real quadratic field, a split prime, and a compatible $p$-adic embedding, we construct nested rank-1 lattice designs with the same uniform projection property at every nesting level. The proofs combine algebraic norm estimates with transference principles between simultaneous and dual Diophantine approximation, yielding lower bounds for the separation radii and upper bounds for the covering radii, both of optimal order in the number of points, uniformly over all coordinate pairs. We also investigate how the choice of rational projective coefficients affects the resulting mesh ratios. This leads to a minimax problem for finite configurations on $\\mathbb{P}^1(\\mathbb{Q})$, in which one seeks to minimize the maximum mesh ratio over all two-dimensional coordinate projections. These constructions provide extensible point sets with uniformly controlled bivariate geometry.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12690v1",
+        "pdf": "https://arxiv.org/pdf/2608.12690v1",
+        "source": "https://export.arxiv.org/e-print/2608.12690v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 4,
+        "lemmas": 3,
+        "propositions": 4,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 91,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "stablishing the corresponding Diophantine and lattice-geometric bounds, and determining effective constructions with favorable mesh-ratio constants, are be- yond the scope of the present paper and are left for future work. Declaration of generative AI use The author used ChatGPT (OpenAI, accessed in August 2026) for assistance with mathemat- ical brainstorming, manuscript preparation, and the development and debugging of MATLAB code. All AI-assisted content was independently reviewed an",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:17.841093Z"
+      },
+      "score": 567.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 113.55,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 24,
+          "theorems": 24,
+          "lemmas": 12,
+          "propositions": 16,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 22.75,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12681",
       "version": 1,
       "title": "Volume and Projection Inequalities I: Zonoids and Courtade's Conjecture",
