@@ -8593,6 +8593,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12188",
+      "version": 1,
+      "title": "Integrability of Freely Infinitely Divisible Distributions and Lévy Measures",
+      "authors": [
+        "Yu Kitagawa"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.OA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T15:42:00Z",
+        "updated": "2026-08-12T15:42:00Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Under a growth condition on an increasing function $g$, we prove that integrability of a freely infinitely divisible distribution with respect to $g$ is equivalent to that of the large-jump part of its free Lévy measure. For every increasing freely submultiplicative function $g$, integrability of the distribution implies integrability of the large-jump part of its free Lévy measure. We also obtain two-sided tail comparisons between freely infinitely divisible distributions and their free Lévy measures, uniform integrability along free convolution semigroups, and integrability results and tail estimates for fractional free convolution powers.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12188v1",
+        "pdf": "https://arxiv.org/pdf/2608.12188v1",
+        "source": "https://export.arxiv.org/e-print/2608.12188v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 8,
+        "lemmas": 9,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 77,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ves the integrability and tail results. Section 4 treats fractional free convolution powers and uniform integrability for free convolution semigroups. Acknowledgments The author thanks Takahiro Hasebe for helpful discussions and comments. Generative AI tools assisted with exploratory discussions concerning (Δ) and with language editing. The author independently verified all arguments and is solely responsible for the contents of the paper.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:01.223667Z"
+      },
+      "score": 307.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 153.95,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 18,
+          "theorems": 48,
+          "lemmas": 36,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 19.25,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12126",
       "version": 1,
       "title": "Two Relaxations of the Dominating Hadwiger's Conjecture",
