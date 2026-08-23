@@ -68,6 +68,7 @@ const elements = Object.fromEntries(
     "search",
     "status-filter",
     "submitted-count",
+    "update-front-page",
   ].map((id) => [id, document.getElementById(id)]),
 );
 
@@ -645,6 +646,18 @@ document.getElementById("logout").addEventListener("click", async () => {
 elements["export-pending"].addEventListener("click", downloadPending);
 elements["import-decisions"].addEventListener("click", () => {
   elements["decision-file"].click();
+});
+elements["update-front-page"].addEventListener("click", async () => {
+  const button = elements["update-front-page"];
+  button.disabled = true;
+  try {
+    await api("/api/site/deploy", { method: "POST", body: "{}" });
+    showNotice("Front page update queued.", "success");
+  } catch (error) {
+    showNotice(error.message, "error");
+  } finally {
+    button.disabled = false;
+  }
 });
 elements["decision-file"].addEventListener("change", async () => {
   const file = elements["decision-file"].files?.[0];
