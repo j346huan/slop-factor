@@ -42106,6 +42106,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29103",
+      "version": 1,
+      "title": "A topological proof that compact Hausdorff spaces are not finitely co-concrete",
+      "authors": [
+        "Marco Abbadini"
+      ],
+      "categories": {
+        "primary": "math.CT",
+        "secondary": [
+          "math.GN"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-31T07:31:59Z",
+        "updated": "2026-07-31T07:31:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Lieberman, Rosický, and Vasey proved that $\\mathbf{CompHaus}^{\\mathrm{op}}$ - the opposite of the category of compact Hausdorff spaces - is not finitely concrete by a route through Hilbert and Banach spaces, commutative unital $C^*$-algebras, and Gelfand duality. We give a short topological proof. Moreover, we strengthen the result by identifying a specific sequential colimit in $\\mathbf{CompHaus}^{\\mathrm{op}}$ that no faithful set-valued functor preserves.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29103v1",
+        "pdf": "https://arxiv.org/pdf/2607.29103v1",
+        "source": "https://export.arxiv.org/e-print/2607.29103v1"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 25,
+        "bibliography_entries": 1,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s a directed diagram. A faithful functor preserving all directed colimits would make κU bijective, whereas Theorem 3.1 shows that it is not surjective. □ Declaration of generative AI and AI-assisted technologies During the development of this work, I used OpenAI’s ChatGPT (ac- cessed in July 2026) to seek a direct topological proof that the category CompHausop is not finitely concrete. ChatGPT produced the fixed-diagram formulation",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:46.543107Z"
+      },
+      "score": 253.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 25.35,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 4,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 6.25,
+          "bibliography_entries": 0.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29063",
       "version": 1,
       "title": "Separation properties of scrambled digital nets and related random point sets",
