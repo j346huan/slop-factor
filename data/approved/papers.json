@@ -9873,6 +9873,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14300",
+      "version": 1,
+      "title": "Analysis of a Conforming Finite Element Method for Second-Harmonic Generation Scattering",
+      "authors": [
+        "Ansh Desai",
+        "Peter Monk"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T13:30:31Z",
+        "updated": "2026-08-14T13:30:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In the frequency domain, nonlinear acoustic and electromagnetic wave propagation can, in certain regimes, be modeled by second-harmonic generation systems consisting of two coupled nonlinear Helmholtz equations. We analyze a conforming finite element approximation of a scalar second-harmonic generation scattering problem truncated using an exact Dirichlet-to-Neumann boundary condition. The discretization uses continuous piecewise polynomial finite elements of degree $p$. Under small-data conditions involving the incident-field and nonlinear susceptibilities, we prove existence and uniqueness of the continuous and discrete nonlinear solutions in a prescribed small ball. In the same regime, we derive quasi-optimal a priori $H^1$-error estimates by a nonlinear Céa-type argument combining linear Galerkin quasi-optimality with small-data stability estimates for the coupled nonlinearities. We also analyze the convergence of the fixed-point iteration used to compute the discrete nonlinear solution and quantify the combined effects of finite element approximation and nonlinear iteration error. A manufactured-solution experiment illustrates the predicted finite element convergence rates, while additional PML-based scattering computations demonstrate the behavior of the nonlinear fixed-point solver in two and three dimensions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14300v1",
+        "pdf": "https://arxiv.org/pdf/2608.14300v1",
+        "source": "https://export.arxiv.org/e-print/2608.14300v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 2,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 121,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "to use different meshes, polynomial degrees, or adaptive refinement strategies for the two fields. Declaration of generative AI and AI-assisted technologies in the manuscript prepara- tion process. In preparing this work, the authors used generative artificial intelligence tools, specifically OpenAI’s ChatGPT, to identify potential proof strategies, scrutinize arguments for possible errors or gaps, and refine the exposition. All AI-generated outputs were independently evaluated and treated solely as unverifi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:17.358352Z"
+      },
+      "score": 788.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 98.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 23,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 8,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 30.25,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14251",
       "version": 2,
       "title": "A counterexample to a question on the maximality of purely-primes",
