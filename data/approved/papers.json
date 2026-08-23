@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07828",
+      "version": 1,
+      "title": "The Rank-Collapse Principle for Quadratic Optimization",
+      "authors": [
+        "Mojtaba Soltanalian",
+        "Ahmad Mousavi"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-08T00:03:10Z",
+        "updated": "2026-08-08T00:03:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Quadratic optimization becomes hard as soon as either the matrix in the quadratic form has an unfavorable curvature or the feasible set is discrete, combinatorial, or otherwise nonconvex. A complementary phenomenon is also well known in the signal-processing and optimization communities: when the matrix in the quadratic form has small rank, some hard-looking quadratic programs admit exact polynomial-time algorithms for fixed rank. We study the common positive-semidefinite geometry behind this phenomenon. If $Q=BB^\\top$ is positive semidefinite, the objective depends on $x$ only through the rank-space shadow $y=B^\\top x$. Every optimal shadow $y^*$ uniquely maximizes the linear functional defined by its own direction and satisfies a quantitative quadratic margin. Thus nonlinear optimality collapses to a low-dimensional, self-generated linear exposure direction. We call this the rank-collapse principle. The principle alone does not imply a finite candidate set: efficient exact optimization additionally depends on the projected or active geometry of the feasible family. We organize this distinction through projected-shadow scattering and active-structure collapse, relate it explicitly to established zonotope, convex-combinatorial, edge-skeleton, projected-normal-fan, and fixed-rank sparse-PCA methods, and derive tie-safe consequences for binary and finite-phase vectors, cardinality constraints, matroid bases, and sparse PCA. We also give directional-stability and approximately low-rank certificates, together with reproducible experiments. The paper's contribution is a unified, careful framework and a set of quantitative consequences, rather than a claim to originate the known fixed-rank tractability results that motivate it.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07828v1",
+        "pdf": "https://arxiv.org/pdf/2608.07828v1",
+        "source": "https://export.arxiv.org/e-print/2608.07828v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 8,
+        "lemmas": 2,
+        "propositions": 3,
+        "corollaries": 6,
+        "definitions": 2,
+        "displayed_equations": 66,
+        "bibliography_entries": 26,
+        "appendix_pages": 18
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Data and code disclosure A general-purpose large language model was used as an assistive tool for drafting and editing, code generation and debugging, and proof exploration. The accompanying reproducibility package includes the complete Python experiment suite, raw CSV output, environment metadata, and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:33.311054Z"
+      },
+      "score": 1368.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 171.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 26,
+          "theorems": 48,
+          "lemmas": 8,
+          "propositions": 12,
+          "corollaries": 18,
+          "definitions": 4,
+          "displayed_equations": 16.5,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 36
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07788",
       "version": 1,
       "title": "Cobordism groups of dihedral branched covers",
