@@ -42952,6 +42952,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20750",
+      "version": 1,
+      "title": "Pattern avoidance in permutations and their rotations",
+      "authors": [
+        "Ömer Eğecioğlu",
+        "Collier Gaiser",
+        "Mei Yin"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T22:02:43Z",
+        "updated": "2026-07-22T22:02:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A rotation of a permutation is a new permutation obtained by moving the first several terms of the permutation to the end of the permutation. A circular permutation is the set of all rotations of a permutation. The enumerations of permutations and circular permutations avoiding patterns of length three and four are well studied. In this paper, we provide exact formulas for the number of permutations whose first $k\\geq 2$ rotations all avoid a given pattern of length three, as well as the number of permutations whose first three rotations respectively avoid the rotations of a given pattern of length three. In contrast to permutations and circular permutations avoiding patterns of length three, the Wilf-equivalence classes under study are entirely determined by complements and reverses. We also classify and enumerate permutations whose first two rotations avoid different patterns of length three.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20750v1",
+        "pdf": "https://arxiv.org/pdf/2607.20750v1",
+        "source": "https://export.arxiv.org/e-print/2607.20750v1"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 7,
+        "lemmas": 4,
+        "propositions": 7,
+        "corollaries": 0,
+        "definitions": 3,
+        "displayed_equations": 54,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Rotations_7-22-2026.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ome of the results in this article were previously included in the doctoral dissertation of the second author [15]. The authors used SageMath for computational experiments and some of the SageMath code was developed with the help of Google AI tools. M. Yin was supported in part by the Simons Travel Support for Mathematicians Grant 00007227. References [1] K. Archer, E. Borsh, J. Bridges, C. Graves, and M. Jeske, Cyclic permutations avoiding patterns in both one-line and cycle",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:39.413448Z"
+      },
+      "score": 384.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 128.1,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 20,
+          "theorems": 42,
+          "lemmas": 16,
+          "propositions": 28,
+          "corollaries": 0,
+          "definitions": 6,
+          "displayed_equations": 13.5,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20749",
       "version": 1,
       "title": "Convergence and mixed-precision preconditioning for the naive Jacobi eigenvalue algorithm",
