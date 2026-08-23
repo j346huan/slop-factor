@@ -8510,6 +8510,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14817",
+      "version": 1,
+      "title": "The König constant is one",
+      "authors": [
+        "Xinyuan Xie",
+        "Haonan Zhang"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "cs.CC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T18:42:11Z",
+        "updated": "2026-08-14T18:42:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For each $N\\geq1$, consider the normalized König bilinear form $B_{\\mathrm K}:L_\\infty(\\mathbb R^N)\\times L_\\infty(\\mathbb R^N)\\to\\mathbb R$ given by \\[ B_{\\mathrm K}(f,g):=\\frac{1}{(\\sqrt{2}π)^N} \\iint_{\\mathbb R^N\\times\\mathbb R^N} f(x)g(y)e^{-(\\lVert x\\rVert^2+\\lVert y\\rVert^2)/2} \\sin\\langle x,y\\rangle\\,\\mathrm d x\\,\\mathrm d y, \\] We define the König constant by \\[ \\mathfrak K_{\\mathrm K}:=\\sup_{N\\geq1}\\sup_{\\substack{f,g:\\mathbb R^N\\to\\{\\pm1\\}\\\\ f,g\\ \\mathrm{measurable}}}B_{\\mathrm K}(f,g). \\] The study of this bilinear form arose from efforts to determine the exact value of the Grothendieck constant. König~\\cite{KONIG} conjectured that the sharp value should instead be given by the one-dimensional half-spaces $B_{\\mathrm K}(\\operatorname{sgn}(x_1),\\operatorname{sgn}(x_1))=\\frac{2}π\\log(1+\\sqrt{2})$. A positive answer to this conjecture, together with a classical upper bound of Krivine \\cite{KRIVINE}, would determine the exact value of the Grothendieck constant. In a breakthrough~\\cite{BMMN}, Braverman, Makarychev, Makarychev, and Naor disproved König's conjecture already in dimension two and used their counterexamples to obtain the first strict improvement over Krivine's bound. One question in \\cite{BMMN} attempts to determine the Grothendieck constant through alternating Krivine rounding schemes arising from König's bilinear form in high dimension. More recently, Li et al.~\\cite{LISK} constructed high-dimensional examples showing that $\\mathfrak K_{\\mathrm K}\\ge 0.59357$. An elementary Fourier argument gives $\\mathfrak K_{\\mathrm K}\\le 1$ and excludes equality for every finite-dimension. In this paper, we prove that $\\mathfrak K_{\\mathrm K}=1$ by constructing a family of Boolean pairs in high dimensions. In particular, this gives a negative answer to the high-dimensional aspect of the question in \\cite{BMMN}.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14817v1",
+        "pdf": "https://arxiv.org/pdf/2608.14817v1",
+        "source": "https://export.arxiv.org/e-print/2608.14817v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 3,
+        "lemmas": 7,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 188,
+        "bibliography_entries": 21,
+        "appendix_pages": 19
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file konig_constant_clean_arxiv_v1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ee-cycle block, and n indexes the odd power-series degree 2n + 1. Comments on use of AI tools. The main results of this paper were discovered through dialogues between the authors and ChatGPT 5.5 Pro. The authors also acknowlege the use of ChatGPT 5.6 Pro. Acknowledgments. X. X. is grateful to Paata Ivanisvili for suggesting related problems and for helpful discussions, and to Roman Vershynin for an enlightening lecture on the Grothendieck inequality. H.Z. is supported by NSF DMS-24",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:09.553843Z"
+      },
+      "score": 1771,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 177.1,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 22,
+          "theorems": 18,
+          "lemmas": 28,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 47,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 38
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14517",
       "version": 1,
       "title": "A disproof of a gap-one conjecture for the equitable chromatic number of block graphs",
