@@ -77,9 +77,18 @@ async function api(path, options = {}) {
     ...options,
     headers: { "Content-Type": "application/json", ...(options.headers ?? {}) },
   });
+  if (response.status === 401) {
+    window.location.assign("/auth/start");
+    throw new Error("Authentication required");
+  }
   const payload = response.headers.get("Content-Type")?.includes("json")
     ? await response.json()
-    : { error: await response.text() };
+    : {
+        error:
+          response.status >= 500
+            ? `Administrator request failed (${response.status})`
+            : await response.text(),
+      };
   if (!response.ok)
     throw new Error(payload.error || `Request failed (${response.status})`);
   return payload;
