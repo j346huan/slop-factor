@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-"""Apply a human-reviewed approval batch to the public dataset in one write."""
+"""Merge a validated batch of final public records into the approved dataset."""
 
 from __future__ import annotations
 
 import argparse
 import json
-from datetime import UTC, datetime
 from pathlib import Path
 
-from slopfactor.approval import confirmed_disclosure, make_record, stored_analysis
 from slopfactor.state import write_json_atomic
 from slopfactor.validate import validate_collection
 
@@ -20,50 +18,14 @@ def main() -> int:
     arguments = parser.parse_args()
 
     batch = json.loads(arguments.batch.read_text("utf8"))
-    approvals = batch.get("approvals")
-    reviewer = str(batch.get("reviewer", "")).strip()
-    if not isinstance(approvals, list) or not reviewer:
-        raise ValueError("Batch requires an approvals list and reviewer")
+    incoming = batch.get("records")
+    if not isinstance(incoming, list) or not incoming:
+        raise ValueError("Batch requires a non-empty records list")
 
     collection = json.loads(arguments.approved.read_text("utf8"))
     records = {paper["arxiv_id"]: paper for paper in collection["papers"]}
-    verified_at = datetime.now(UTC)
-    applied = 0
-    skipped = 0
-
-    for item in approvals:
-        candidate = item["candidate"]
-        candidate_id = candidate["candidate_id"]
-        paper = candidate["paper"]
-        if not paper["primary_category"].startswith("math."):
-            raise ValueError(f"{candidate_id}: primary category is not math.*")
-        analysis = stored_analysis(candidate)
-        if analysis is None:
-            raise ValueError(f"{candidate_id}: structural analysis is unavailable")
-        disclosure = confirmed_disclosure(
-            candidate,
-            evidence_index=1,
-            classification=item["classification"],
-            multiplier=float(item["multiplier"]),
-            confirmation="APPROVE",
-            quotation=item["quotation"],
-            location_kind=item["location_kind"],
-            location_value=item["location_value"],
-            page=item.get("page"),
-        )
-        record = make_record(
-            candidate,
-            disclosure,
-            analysis,
-            reviewer=reviewer,
-            now=verified_at,
-        )
-        existing = records.get(paper["arxiv_id"])
-        if existing == record:
-            skipped += 1
-            continue
-        records[paper["arxiv_id"]] = record
-        applied += 1
+    for record in incoming:
+        records[record["arxiv_id"]] = record
 
     papers = sorted(
         records.values(),
@@ -79,8 +41,7 @@ def main() -> int:
         details = "\n".join(f"- {error}" for error in errors)
         raise ValueError(f"Bulk approval failed validation:\n{details}")
     write_json_atomic(arguments.approved, proposed)
-    print(json.dumps({"applied": applied, "skipped": skipped}))
-
+    print(json.dumps({"applied": len(incoming)}))
     return 0
 
 
