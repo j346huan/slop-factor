@@ -8423,6 +8423,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16321",
+      "version": 1,
+      "title": "Supersaturation for Eventown via Generator Switching",
+      "authors": [
+        "Zicheng Han",
+        "Xiande Zhang",
+        "Yuhao Zhao"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T09:26:26Z",
+        "updated": "2026-08-17T09:26:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An eventown family is a family of even-sized subsets of $[n]$ in which every two distinct members have an even-sized intersection. A classical theorem of Berlekamp and Graver shows that the maximum size of such a family is $2^{\\lfloor n/2\\rfloor}$. The supersaturation problem for eventown asks how many odd-intersection pairs must occur when this extremal bound is exceeded. For a family $\\mathcal F$ of even-sized subsets of $[n]$, let $e(\\mathcal F)$ denote the number of unordered pairs whose intersection size is odd. O'Neill conjectured that if $|\\mathcal F|=2^{\\lfloor n/2\\rfloor}+s$, then $e(\\mathcal F)\\ge s\\,2^{\\lfloor n/2\\rfloor-1}$ for \\[ 1\\le s\\le 2^{\\lfloor n/2\\rfloor}-2^{\\lfloor n/4\\rfloor}. \\] Previously, the conjecture was known for $s=1,2$, and, for $s\\le 2^{\\lfloor n/8\\rfloor}/n$ with $n$ sufficiently large. We prove the conjectured bound for \\[ 1\\le s\\le \\frac{2^{\\lfloor n/2\\rfloor}}{26}, \\] extending the known range to a fixed positive proportion of the extremal eventown size. The bound is sharp throughout this range. As further consequences, we derive a lower bound valid for arbitrary excess $s$, which improves the previously known estimate in an additional range. We also establish stability and removal results for families of extremal size satisfying $e(\\mathcal F)<2^{\\lfloor n/2\\rfloor-1}$, showing that such a family is close to an extremal eventown family and can be made eventown by deleting a small number of its members.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16321v1",
+        "pdf": "https://arxiv.org/pdf/2608.16321v1",
+        "source": "https://export.arxiv.org/e-print/2608.16321v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 2,
+        "lemmas": 4,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 74,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file eventown.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nteresting to determine whether switching arguments involving several cosets outside the generator can extend Theorem 1.2 to a larger part of the range in Conjecture 1.1. Declarations During the development of this work, the authors used OpenAI GPT-5.5 as a research-assistance tool to explore possible improvements of the argument of Wei, Zhao, Zhang and Ge. In particular, GPT-5.5 was used at an intermediate stage to investigate whether their range s ≤ 2⌊n/8⌋ /n could be extended, and thi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:12.624987Z"
+      },
+      "score": 584,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 73,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 12,
+          "theorems": 12,
+          "lemmas": 16,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 18.5,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16169",
       "version": 1,
       "title": "Absolute Borel Complexity of Moduli Spaces of Ultrametrics",
