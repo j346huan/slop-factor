@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27199",
+      "version": 1,
+      "title": "Settling the Optimal Exponent Relating Sumsets and Difference Sets",
+      "authors": [
+        "Haowei Lin",
+        "Shanda Li"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-29T17:59:19Z",
+        "updated": "2026-07-29T17:59:19Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a finite nonempty subset $A$ of an abelian group, let $σ(A)=|A+A|/|A|$ and $δ(A)=|A-A|/|A|$. The classical sum-difference inequalities state that $$σ(A)^{1/2}\\leqδ(A)\\leqσ(A)^2.$$ The exponent $2$ in the second inequality is known to be optimal, whereas it has remained open whether the exponent $1/2$ in the first inequality can be improved. We settle this question by constructing an explicit family of finite sets $A_K\\subset\\mathbb{Z}$ such that $$\\frac{\\logσ(A_K)}{\\logδ(A_K)}\\longrightarrow 2,$$ hence the exponent $1/2$ in the first inequality is also optimal. The construction and its proof were developed with the assistance of Hyra, an AI research agent based on the open-weights Hy3 model.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27199v1",
+        "pdf": "https://arxiv.org/pdf/2607.27199v1",
+        "source": "https://export.arxiv.org/e-print/2607.27199v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 1,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 58,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "this work; Hyra with Hy3) sup CpAq “ 2 propose constructions and supporting arguments in natural language. Using GPT-5.6 Sol as the judge, we ran Hyra for approximately 24 hours, producing the construction underlying the paper. The LLM-based judgment was used only to guide exploration, not to certify mathematical correctness. We then independently checked the construc- tion and proof, corrected the exposition, and prepared the argument presented here manually. For con",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:10.133444Z"
+      },
+      "score": 618,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 61.8,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 8,
+          "theorems": 6,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 14.5,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26871",
       "version": 1,
       "title": "Rigidity and stability for biased cross-intersecting families",
