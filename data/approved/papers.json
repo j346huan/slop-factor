@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13779",
+      "version": 1,
+      "title": "Homological Mirror Symmetry for Affine Log Calabi-Yau Surfaces",
+      "authors": [
+        "Umut Varolgunes"
+      ],
+      "categories": {
+        "primary": "math.SG",
+        "secondary": [
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T21:11:41Z",
+        "updated": "2026-08-13T21:11:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $U$ be a smooth complex affine log Calabi--Yau surface, and let $\\widehat{U}$ be its complete finite-type Liouville manifold, equipped with its natural grading structure. We give an algorithm that constructs a finite-type quasi-projective $\\mathbb{Z}$-scheme $U^\\vee$ such that \\[ D^π\\bigl(\\mathcal{W}(\\widehat{U},\\Bbbk)\\bigr) \\cong D^b\\operatorname{Coh}(U^\\vee_{\\Bbbk}) \\] for every field $\\Bbbk$. Our main contribution is to construct an almost toric model encoded by an exact eigenray diagram and, using the symplectic Torelli theorem for symplectic log Calabi--Yau pairs, to prove that this model is grading-preserving strongly exact symplectomorphic to $\\widehat{U}$. The result then follows from the homological mirror symmetry theorem of Hacking--Keating.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13779v1",
+        "pdf": "https://arxiv.org/pdf/2608.13779v1",
+        "source": "https://export.arxiv.org/e-print/2608.13779v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 7,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 7,
+        "displayed_equations": 108,
+        "bibliography_entries": 17,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main__1_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "n [12] works with coefficients in an arbitrary field. This work was supported by the Scientific and Technological Research Coun- cil of Türkiye (TÜBİTAK) through the 3501 Career Development Program (project no. 124F451). The author used large language models, including ChatGPT and Gemini, as auxiliary tools for proofreading, improving the exposition, and critically reviewing the arguments. The author takes full responsibility for all mathematical content and conclusions of the paper.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:26.822757Z"
+      },
+      "score": 546.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 136.7,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 22,
+          "theorems": 42,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 14,
+          "displayed_equations": 27,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13747",
       "version": 1,
       "title": "The small Davenport constant of the Heisenberg group of order 343",
