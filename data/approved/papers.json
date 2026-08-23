@@ -41852,6 +41852,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14016",
+      "version": 2,
+      "title": "The internal Yoneda lemma for locally Cartesian closed $\\infty$-categories",
+      "authors": [
+        "Virgile Constantin"
+      ],
+      "categories": {
+        "primary": "math.CT",
+        "secondary": [
+          "math.AT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-15T16:48:12Z",
+        "updated": "2026-07-30T13:27:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We formulate and prove internal versions of the Yoneda lemma and of the Yoneda embedding theorem in a finitely complete, locally Cartesian closed $\\infty$-category $\\mathscr{C}$: for every object $X\\in \\mathscr{C}$ and every universe $\\mathscr{U}$ classifying the diagonal of $X$, the Yoneda map $\\mathscr{Y}_X\\colon X \\to \\mathscr{U}^X$ is a monomorphism. The proof uses only finite limits, dependent products and universes, and does not rely on the external Yoneda lemma. The result applies notably to every elementary $\\infty$-topos, where it recovers a theorem of Rasekh [Ras18].",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14016v2",
+        "pdf": "https://arxiv.org/pdf/2607.14016v2",
+        "source": "https://export.arxiv.org/e-print/2607.14016v2"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 1,
+        "lemmas": 6,
+        "propositions": 7,
+        "corollaries": 2,
+        "definitions": 8,
+        "displayed_equations": 57,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "simplicial spaces, [BDGN+16] for parametrized ∞-categories, or [RS17] for synthetic ∞-categories in simplicial type theory. Use of AI assistance. The writing of this paper was assisted by Claude, a large language model made by Anthropic. Mathematically, the AI identified a gap in an earlier version of the proof of Theorem 2.2 (the comparison map induced by よX was not shown to coincide with the equivalence produced by the three mai",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:34.701728Z"
+      },
+      "score": 557.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 111.55,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 15,
+          "theorems": 6,
+          "lemmas": 24,
+          "propositions": 28,
+          "corollaries": 6,
+          "definitions": 16,
+          "displayed_equations": 14.25,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13888",
       "version": 1,
       "title": "An Order-One Lower Bound on the Error of Scalable Generalized Multiscale Finite Element Space Constructions",
