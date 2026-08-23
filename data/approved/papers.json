@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09505",
+      "version": 1,
+      "title": "Conditional Uniqueness and Optimal Energy-Norm Convergence for the Dynamic Diffusion Finite Element Method",
+      "authors": [
+        "Isaac P. Santos"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T12:08:33Z",
+        "updated": "2026-08-10T12:08:33Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We revisit the nonlinear two-scale Dynamic Diffusion (DD) finite element formulation mathematically analyzed by Santos et al. (2021) for stationary advection--diffusion--reaction problems. Two additional theoretical results are established without modifying the discrete formulation. First, the artificial diffusivity defining the nonlinear diffusion operator $D_h$ is shown to be locally Lipschitz continuous with respect to the discrete solution. This property leads to conditional uniqueness of the discrete solution under a mesh-dependent smallness condition. Second, by separating the approximation error in the energy norm from the contribution associated with artificial diffusion, we derive an optimal first-order a priori energy-norm estimate for continuous piecewise linear finite elements. This result also clarifies the earlier $O(h^{1/2})$ estimate, which applies to a stronger combined error measure and therefore does not determine the convergence rate of the energy error alone. Numerical experiments for both pure advection--diffusion and advection--diffusion--reaction problems corroborate the predicted first-order energy-norm behavior and the first-order decay of the square-root artificial-dissipation measure. A strongly convection-dominated test with sharp outflow layers further illustrates the stabilizing effect associated with $D_h$. These results extend the mathematical understanding of the original DD formulation while preserving its underlying discrete structure.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09505v1",
+        "pdf": "https://arxiv.org/pdf/2608.09505v1",
+        "source": "https://export.arxiv.org/e-print/2608.09505v1"
+      },
+      "structural_counts": {
+        "pages": 35,
+        "theorems": 7,
+        "lemmas": 8,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 301,
+        "bibliography_entries": 191,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ther developments may address sharper sufficient conditions for uniqueness, possibly based on local rather than global estimates, as well as the analysis of robust nonlinear solution strategies for the DD discrete problem. Declaration of Generative AI and AI-Assisted Technologies in the Writing Process During the preparation of this work, the author used ChatGPT (OpenAI) solely for language polishing and editorial organization of the manuscript. After using this tool, the author thoroug",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 34",
+          "page": 34
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:38.826414Z"
+      },
+      "score": 837.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 209.35,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 35,
+          "theorems": 42,
+          "lemmas": 32,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 75.25,
+          "bibliography_entries": 19.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09473",
       "version": 1,
       "title": "Remarks on some Homological Problems regarding Infinite Integral Extensions",
