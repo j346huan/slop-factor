@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11723",
+      "version": 1,
+      "title": "Every 2-Subdivision of a Cubic Graph Is Antimagic",
+      "authors": [
+        "Fei-Huang Chang",
+        "Teng-Da Chang",
+        "Zhishi Pan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T07:02:41Z",
+        "updated": "2026-08-12T07:02:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let G be a finite simple cubic graph, not necessarily connected, and let S_2(G) be obtained by subdividing every edge of G twice. Li (2025) developed general constructions for antimagic labelings of repeated subdivisions, but the cubic case G(3) = S_2(G) is not covered by those methods. Our first proof constructs an edge labeling of G in which every vertex sum is sufficiently large and occurs at most twice, and then uses an orientation after subdivision to separate the remaining equal sums. A second, direct construction uses the same path decomposition to make the internal contribution at each original vertex constant, while a unique endpoint contribution distinguishes the resulting sums. The direct construction further shows that S_2(G) is strongly antimagic whenever every vertex of G has odd degree at least three.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11723v1",
+        "pdf": "https://arxiv.org/pdf/2608.11723v1",
+        "source": "https://export.arxiv.org/e-print/2608.11723v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 78,
+        "bibliography_entries": 11,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_DAM.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "whether the ideas used here can be adapted to uniform subdivisions Sℓ (G) for ℓ ≥ 3. Declaration of Generative AI and AI-Assisted Technologies in the Manuscript Preparation Process During the preparation of this work, the authors used ChatGPT, devel- oped by OpenAI, to assist with organizing the presentation, examining the internal consistency of proposed constructions, exploring possible exceptional cases, and improving the language and readability of the manuscript. After usi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:50.722678Z"
+      },
+      "score": 351.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.6,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 18,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 19.5,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11598",
       "version": 1,
       "title": "Sobriety of Regular Open Algebras in Second-Countable T3 Spaces",
