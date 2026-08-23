@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20315",
+      "version": 2,
+      "title": "A Reduced-Trace-Zero Element That Is Not a Commutator in a Central Division Algebra",
+      "authors": [
+        "Hau-Yuan Jang"
+      ],
+      "categories": {
+        "primary": "math.RA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T16:02:42Z",
+        "updated": "2026-08-14T05:32:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We exhibit a finite-dimensional central division algebra, of degree four over its center, together with an explicit element of reduced trace zero that is not a single commutator. This answers negatively the single-commutator question for finite-dimensional central division algebras, the case left open by Amitsur and Rowen. The algebra is a skew Laurent series ring, the element has only two terms, and the proof uses the $x$-adic valuation, a first-obstruction lemma based on two commuting involutions of the associated graded ring, and a parity argument for quadratic forms over iterated Laurent series fields.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20315v2",
+        "pdf": "https://arxiv.org/pdf/2607.20315v2",
+        "source": "https://export.arxiv.org/e-print/2607.20315v2"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 1,
+        "lemmas": 7,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 171,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file reduced_trace_noncommutator_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Section 2 and, from them, conjectured the existence of counterexamples. ChatGPT-5 was subse- quently used to assist in the search for explicit candidate counterexamples. The reduction argument in Section 4 was developed by the author, with ChatGPT-5 used to assist with calculations and to check intermediate steps. During the prepa- ration of the ﬁnal manuscript, ChatGPT-5 was also used for language polishing and grammatical correction. Claude Opus was used only for independent check",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:43.215179Z"
+      },
+      "score": 993.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 99.35,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 18,
+          "theorems": 6,
+          "lemmas": 28,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 42.75,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20051",
       "version": 1,
       "title": "The Duval--Reiner Conjecture: Counterexamples and the Second Partial-Sum Inequality",
