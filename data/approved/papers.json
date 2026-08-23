@@ -8595,6 +8595,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17045",
+      "version": 1,
+      "title": "Prime-Exponent Transition Geometry and Divisor Barriers Between Consecutive Highly Composite Numbers",
+      "authors": [
+        "Marco Mantovanelli"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T18:44:58Z",
+        "updated": "2026-08-17T18:44:58Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $d(n)$ be the divisor function and let $H<H'$ be consecutive highly composite numbers. We study directed unit moves between their prime-exponent vectors under the hard ceiling $z\\le H'$. The normalised capacity of such a geodesic is its smallest divisor count divided by $d(H)$, giving a finite fixed-endpoint maximin problem. The exact record enumeration first finds a failure of the static surrogate $d(\\gcd(H,H'))\\ge d(H)/2$ at $48,886,437,600<64,250,746,560$, where the ratio is $4/9$. For every state $z$ in the exponent box, however, we prove $$d(z)d(HH'/z)\\ge d(H)d(H')$$ and deduce the record-box gap: no box state lies numerically strictly between the two records. We also give an exact dynamic-programming recursion, solve the strata $L_-\\le 1$, and reduce the complete $L_-=2$ problem to an explicit divisor-selection functional. A computer-assisted enumeration through $10^{70}$ produces $889$ records and $888$ transitions. Although the static half-gcd bound fails $119$ times, every computed geodesic capacity is at least $1/2$; equality occurs in exactly the $124$ transitions that lose an exponent-one support prime. Independently checked certificates cover all $301$ transitions with $L_-=2$. The corresponding universal half-capacity bound and equality classification remain open beyond the proved strata and the verified range. COMMENTS",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17045v1",
+        "pdf": "https://arxiv.org/pdf/2608.17045v1",
+        "source": "https://export.arxiv.org/e-print/2608.17045v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 10,
+        "lemmas": 8,
+        "propositions": 10,
+        "corollaries": 6,
+        "definitions": 5,
+        "displayed_equations": 150,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file hcn_transition_geometry.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "capacity certificate. For the 19 support-loss cases with threshold 𝑡 > 2, exact repair-floor competition also succeeds; the largest ratio of frontier-assisted repair cost to left-only repair cost is 11/18. Acknowledgements AI disclosure. OpenAI’s ChatGPT was used as a writing and code-assistance tool to reorganise a substantially longer exploratory manuscript, improve exposition, check notation and LaTeX, assist with bibliographic metadata, and help run and review the reproducibility scrip",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:40.803823Z"
+      },
+      "score": 911.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 227.9,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 29,
+          "theorems": 60,
+          "lemmas": 32,
+          "propositions": 40,
+          "corollaries": 18,
+          "definitions": 10,
+          "displayed_equations": 37.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17036",
       "version": 1,
       "title": "Hyperbolic models and stability recognition for Coxeter groups",
