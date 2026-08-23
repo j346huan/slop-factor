@@ -42111,6 +42111,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01109",
+      "version": 1,
+      "title": "Congruent Triangular Faces, Reflections Allowed: Universal Realization and the Minimum Face Count in Problem B22",
+      "authors": [
+        "George M. Georgiou"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T09:15:46Z",
+        "updated": "2026-08-02T09:15:46Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Problem B22 in Unsolved Problems in Geometry asks which triangles occur as the common face of a convex polyhedron, how many copies are needed, and how they may be arranged. We settle the existence and minimum-face-count questions for triangles in the version that allows reflected copies; we do not classify all attainable face counts, nor the possible arrangements. Every nondegenerate Euclidean triangle occurs: we exhibit an explicit convex polyhedron, combinatorially an octahedron, all eight of whose faces are congruent to a prescribed triangle. We then determine the minimum number of faces for \\emph{every} triangle. It is four for an acute triangle; six for a right or obtuse isosceles triangle with side lengths $(λ,λ,β)$ satisfying $λ\\sqrt2\\leqβ<λ\\sqrt3$; and eight in all remaining cases.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01109v1",
+        "pdf": "https://arxiv.org/pdf/2608.01109v1",
+        "source": "https://export.arxiv.org/e-print/2608.01109v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 20,
+        "bibliography_entries": 5,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file B22_congruent_triangular_faces_rev2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "oblem B22 are also left open here: the classification of all attainable face counts, as opposed to the minimum; the description of the possible arrangements; and the analogous problem for congruent n-gons. Acknowledgments The author used OpenAI’s ChatGPT 5.6 Sol to assist with the initial discovery of the result and drafting of the proof, and Anthropic’s Claude Opus 5 for subsequent review and refinement. The author independently verified the final arguments and assumes responsibility for",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:30.695768Z"
+      },
+      "score": 325,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 32.5,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 7,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 5,
+          "bibliography_entries": 0.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01057",
       "version": 1,
       "title": "Arithmetic of elliptic curves induced by regular Diophantine triples",
