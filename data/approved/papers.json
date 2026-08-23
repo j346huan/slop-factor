@@ -8424,6 +8424,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11570",
+      "version": 1,
+      "title": "Minkowski Polytopes of Spherical Designs: High-Order Isotropy and Quantitative Sphericity",
+      "authors": [
+        "Congpei An"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T02:29:17Z",
+        "updated": "2026-08-12T02:29:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $X_N=\\{x_1,\\dots,x_N\\}\\subset \\Sph^2$ be a spherical $t$-design of strength $t\\ge2$, and let $μ_X$ be its empirical measure. Minkowski's theorem associates with $X_N$ a convex polytope $P_X\\subset\\R^3$, unique up to translation, whose facet normals are the design nodes and whose facets all have area $4π/N$; equivalently, $S_{P_X}=4πμ_X$. We show that this realization transfers polynomial exactness into exact convex geometry: the normalized surface tensors of $P_X$ agree with those of the unit ball through order $t$, and mixed volumes are exact against convex bodies whose support functions are spherical polynomials of degree at most $t$. We next derive quantitative shape information. Spherical Jackson approximation yields a $1$-Wasserstein discrepancy $W_1(μ_X,σ)=O(t^{-1})$, while degree-two exactness gives a uniform nondegeneracy condition. Combined with quantitative inverse stability for Minkowski's problem, this implies, after Steiner normalization, \\[ d_H(P_X,B)=O(t^{-1/2}),\\qquad α(P_X,B)=O(t^{-3/4}), \\] for every spherical $t$-design, without assumptions on cardinality, separation, covering radius, or spectral conditioning. Projection bodies retain the full $O(t^{-1})$ scale, separating linear surface-area observables from nonlinear reconstruction of the body. In the critical regime $N=(t+1)^2$, a uniform spectral lower bound for the sampling Gram matrix further forces the facet normals to be separated at the wavelength scale $t^{-1}$. The construction extends to $\\Sph^d$, with the universal Hausdorff rate $O(t^{-1/d})$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11570v1",
+        "pdf": "https://arxiv.org/pdf/2608.11570v1",
+        "source": "https://export.arxiv.org/e-print/2608.11570v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 12,
+        "lemmas": 0,
+        "propositions": 4,
+        "corollaries": 8,
+        "definitions": 3,
+        "displayed_equations": 140,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file MinkowskiSTD.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rests. The author declares no competing interests related to this manuscript. Data availability. No datasets were generated or analyzed in this theoretical study. Use of generative AI. During preparation of this manuscript, the author used Deepseek for language editing, organization, and drafting assistance. The author critically reviewed and revised the resulting text and takes full responsibility for the mathematical content and the final manuscript. Acknowledgments The author th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:45.479082Z"
+      },
+      "score": 885,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 177,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 22,
+          "theorems": 72,
+          "lemmas": 0,
+          "propositions": 16,
+          "corollaries": 24,
+          "definitions": 6,
+          "displayed_equations": 35,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11554",
       "version": 1,
       "title": "Tripartite Zarankiewicz numbers and norm graphs",
