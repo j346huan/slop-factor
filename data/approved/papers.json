@@ -41767,6 +41767,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20684",
+      "version": 1,
+      "title": "On the Spatially Homogeneous Boltzmann Equation with Mass Exchange",
+      "authors": [
+        "Siwei Luo",
+        "Jian-Guo Liu"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-22T19:33:35Z",
+        "updated": "2026-07-22T19:33:35Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the spatially homogeneous Boltzmann equation with continuous mass exchange on $X=(0,\\infty)_m\\times\\mathbb R^d_v$, with a Grad cut-off hard-potential collision kernel. For bounded continuous symmetric mass-exchange rates, every nonnegative initial datum with finite number, mass, and kinetic energy admits a global nonnegative $L^1$-integral weak solution in $W^{1,\\infty}(0,\\infty;L^1(X))$ with number and mass conserved, kinetic energy dissipated. If $\\int_X (m|v|^2)^{1+δ} f_0(x)dx<\\infty,$ for some $δ>0$, this higher-energy moment propagates on every finite time interval and kinetic energy is conserved through the constructed solution. Moreover, every energy-dissipating solution propagates any such moment. Under the additional $1+γ$ moment assumption, the solution is unique among all energy-dissipating $L^1$-integral weak solutions with the same initial datum. We also establish a local theory for a linearly growing mass-exchange rate. With $H_p(f)=\\int_X (1+m+m|v|^2)^pfdx,$ every datum with $H_p(f_0)<\\infty$, where $p\\ge1+γ$ admits a conservative local $H_p$-solution. Moreover, an $H_p$-solution continues across every finite time $T$ for which $H_{1+γ}(f)\\in L^1(0,T).$ This proof requires no detailed-balance or relative-entropy structures. It is based on a new two-stage bootstrap method. The first stage rules out mass concentration at $m=0$, while the second stage combines this control with collision geometry to establish uniform integrability. These estimates provide the compactness needed for the global solution and for the identification of the nonlinear collision form.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20684v1",
+        "pdf": "https://arxiv.org/pdf/2607.20684v1",
+        "source": "https://export.arxiv.org/e-print/2607.20684v1"
+      },
+      "structural_counts": {
+        "pages": 53,
+        "theorems": 6,
+        "lemmas": 16,
+        "propositions": 11,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 487,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments S. Luo gratefully acknowledges the hospitality of the Department of Mathematics at Duke University during his visit in summer 2026, where part of this work was carried out. S. Luo used OpenAI’s ChatGPT for English-language editing and literature-search assistance. All the authors assume responsibility for all content. References [Ald99] David John Aldous, Deterministic and stochastic mo",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 52",
+          "page": 52
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:29.843172Z"
+      },
+      "score": 1304.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 326.15,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 53,
+          "theorems": 36,
+          "lemmas": 64,
+          "propositions": 44,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 121.75,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20407",
       "version": 1,
       "title": "Uncountable Abelian Group C*-algebras Fail the Lifting Property",
