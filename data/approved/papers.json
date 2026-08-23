@@ -42699,6 +42699,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13286",
+      "version": 1,
+      "title": "Non-vanishing of multiple correlation sequences",
+      "authors": [
+        "Or Shalom"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T21:47:58Z",
+        "updated": "2026-07-14T21:47:58Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We resolve in the negative a conjecture of Frantzikinakis and Kuca concerning the vanishing of multiple correlation sequences in nilsystems. Specifically, we prove the existence of an ergodic $3$-step nilsystem $(G/Γ, μ_{G/Γ}, R_α)$ and bounded functions $f_0, f_1, f_2 \\in L^\\infty(μ_{G/Γ})$ orthogonal to the Conze--Lesigne factor $L^2(G/G_3Γ)$, whose associated multiple correlation sequence $$a(n) = \\int_{G/Γ} f_0(x) f_1(α^n x) f_2(α^{2n} x) \\, dμ_{G/Γ}(x)$$ does not decay to zero. The same counterexample also refutes another conjecture of Frantzikinakis and Kuca and a conjecture of Leibman. To construct this counterexample, we develop a framework for Fourier analysis on $G/Γ$ where $G$ is the free $3$-step nilpotent Lie group on $4$ generators, a methodology that extends naturally to general nilsystems.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13286v1",
+        "pdf": "https://arxiv.org/pdf/2607.13286v1",
+        "source": "https://export.arxiv.org/e-print/2607.13286v1"
+      },
+      "structural_counts": {
+        "pages": 48,
+        "theorems": 9,
+        "lemmas": 8,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 3,
+        "displayed_equations": 384,
+        "bibliography_entries": 37,
+        "appendix_pages": 48
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Kuca for useful suggestions on an earlier version of this manuscript, leading in particular to Appendix A. The role of AI AI was used in this paper for the following purposes: (1) Claude (Opus 4.8) was used to program codes for various computations, some of which ended up being useful for this paper (see Appendix B). (2) Claude and Gemini (Pro 3.1) were used for copy-editing.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:25.710950Z"
+      },
+      "score": 1398.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 349.7,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 48,
+          "theorems": 54,
+          "lemmas": 32,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 6,
+          "displayed_equations": 96,
+          "bibliography_entries": 3.7,
+          "appendix_pages": 96
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13259",
       "version": 1,
       "title": "Ill-posedness in the critical Sobolev space for the Fokas-Olver-Rosenau-Qiao equation",
