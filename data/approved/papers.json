@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18861",
+      "version": 1,
+      "title": "Learning sufficient low-dimensional structures through conditional optimal transport",
+      "authors": [
+        "Kaiqiang Alan Zeng",
+        "Efstathia Bura"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "stat.ME"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T08:51:44Z",
+        "updated": "2026-07-21T08:51:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Sufficient dimension reduction seeks a low-dimensional covariate representation that preserves the conditional law of a response. We introduce SDR-COT, which represents that law by conditional optimal transport from an independent reference response. On separable Hilbert spaces, sufficiency forces the response component of the optimal triangular map to factor through the reduction. For quadratic cost, the induced interpolation has a Borel current-state velocity on every truncated time interval, without global injectivity of the terminal map, and this velocity has the same factorisation. These results motivate a conditional-flow-matching criterion. For linear reductions, we prove consistency using a suitably tuned relaxed empirical coupling. Euclidean responses are treated through slicewise Caffarelli bounds; Hilbert-valued responses are treated through Gaussian Sobolev regularity, interpolation compression and uniqueness of a Gaussian continuity equation. Numerical studies with Euclidean and functional data show competitive performance, especially when sufficient information is not solely contained in the conditional mean.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18861v1",
+        "pdf": "https://arxiv.org/pdf/2607.18861v1",
+        "source": "https://export.arxiv.org/e-print/2607.18861v1"
+      },
+      "structural_counts": {
+        "pages": 53,
+        "theorems": 4,
+        "lemmas": 8,
+        "propositions": 15,
+        "corollaries": 1,
+        "definitions": 17,
+        "displayed_equations": 321,
+        "bibliography_entries": 182,
+        "appendix_pages": 22
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements The authors used ChatGPT and Claude to assist in checking the internal consistency of the mathematical proofs and in reviewing and improving the accompanying implementation code. All AI-generated suggestions were independently evaluated by the authors. The authors",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 43",
+          "page": 43
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:06.388615Z"
+      },
+      "score": 2787.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 348.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 53,
+          "theorems": 24,
+          "lemmas": 32,
+          "propositions": 60,
+          "corollaries": 3,
+          "definitions": 34,
+          "displayed_equations": 80.25,
+          "bibliography_entries": 18.2,
+          "appendix_pages": 44
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18832",
       "version": 1,
       "title": "Divisor moments of polynomials in Fourier coefficients of modular forms",
