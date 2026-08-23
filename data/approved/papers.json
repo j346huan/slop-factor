@@ -8425,6 +8425,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15674",
+      "version": 1,
+      "title": "The Nikolskii constant in odd dimensions",
+      "authors": [
+        "D. V. Gorbachev"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T11:00:03Z",
+        "updated": "2026-08-16T11:00:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $\\varphi_{d}(|{\\,\\cdot\\,}|)$ be the radial extremal function in the problem for the sharp Nikolskii constant $\\mathcal C_d^{-1}=\\inf \\|f\\|_{1}$ over functions $f\\in\\mathit{PW}\\,_{1}^{1}(\\mathbb R^{d})$, $f(0)=1$. For every odd dimension, we construct an entire function $Φ$ of exponential type $1/2$ such that $\\varphi_d(z)=Φ(z)Φ(-z)$, and $Φ$ satisfies a quadratic functional equation and a second-order linear differential equation with polynomial coefficients. Thus, the problem of finding the extremal function is reduced to a spectral problem with finitely many parameters. This result extends a recent one-dimensional result, but uses a different method. For example, in dimension $d=3$ it leads to a seven-diagonal spectral scheme that allows us to compute $\\mathcal C_3$ to high accuracy. Even dimensions remain open within this approach.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15674v1",
+        "pdf": "https://arxiv.org/pdf/2608.15674v1",
+        "source": "https://export.arxiv.org/e-print/2608.15674v1"
+      },
+      "structural_counts": {
+        "pages": 31,
+        "theorems": 1,
+        "lemmas": 11,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 299,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file L1const_d.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rities at ±1, in particular with factors (1−t2 )±1/2 . It remains to understand whether such a replacement leads to a finite-dimensional spectral problem analogous to the odd-dimensional case. Acknowledgments. The author is grateful to the AI model used in the preparation of this paper for its assistance. References [1] L. V. Ahlfors, Complex analysis, 3rd ed., McGraw–Hill, New York, 1979. [2] A. Bondarenko, J. Ortega-Cerdà, D. Radchenko",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:51.028061Z"
+      },
+      "score": 787.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 157.45,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 31,
+          "theorems": 6,
+          "lemmas": 44,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 74.75,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15672",
       "version": 1,
       "title": "Uniformity without Projective Consistency: An Exact Counterexample for a Nested Binary Term Grammar",
