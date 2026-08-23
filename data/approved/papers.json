@@ -8599,6 +8599,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14500",
+      "version": 1,
+      "title": "Triangle-Free Graphs of Toughness Approaching Two Without a 2-Factor",
+      "authors": [
+        "Songling Shan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T17:15:47Z",
+        "updated": "2026-08-14T17:15:47Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "By work of Enomoto, Jackson, Katerinis, and Saito from 1985, every $2$-tough graph has a $2$-factor, and this toughness bound is best possible: for every $\\varepsilon>0$, there exist $(2-\\varepsilon)$-tough graphs with no $2$-factor. It is natural to ask whether the latter statement remains true for triangle-free graphs. Bauer, van den Heuvel, and Schmeichel conjectured this in 1996. In the same paper, they proposed an infinite family of triangle-free graphs with no $2$-factor whose toughness they believed approaches $2$, but the required toughness bound was not established. In this paper, we confirm their conjecture. For every even integer $q\\ge 6$, we construct a triangle-free graph $G_q$ with no $2$-factor and with toughness \\[ τ(G_q) =\\frac{2q^2-q-2}{q^2+q} =2-\\frac{3q+2}{q^2+q}. \\] In particular, $τ(G_q)\\to 2$ as $q\\to\\infty$, showing that the threshold $2$ for the existence of a $2$-factor remains best possible even within the class of triangle-free graphs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14500v1",
+        "pdf": "https://arxiv.org/pdf/2608.14500v1",
+        "source": "https://export.arxiv.org/e-print/2608.14500v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 3,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 38,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file triangle_free_tough_no_2factor.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Gq − X). Thus every vertex cut X satisfies |X| ≥ τ c(Gq − X), proving that τ (Gq ) ≥ τ . Combining Claims 3.3 and 3.4 proves the equality τ (Gq ) = τ . Together with Claim 3.1 and 3.2, this proves Theorem 1.1. Declaration of Use of AI Tools During the preparation of this manuscript, the author used ChatGPT 5.6 Plus to assist with language editing, grammar, clarity, and formatting. The author reviewed and verified all AI-assisted edits and take full responsibility for the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "formatting_typesetting",
+        "role_label": "Formatting or typesetting",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:02.416878Z"
+      },
+      "score": 40.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 40.2,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 8,
+          "theorems": 18,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 9.5,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14497",
       "version": 1,
       "title": "Hybrid Dealiasing and Implicit Packing for Real Convolutions",
