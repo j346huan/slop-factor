@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.11863",
+      "version": 1,
+      "title": "Magnitude homology of tope graphs",
+      "authors": [
+        "Junnosuke Koizumi"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.AT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-13T17:50:31Z",
+        "updated": "2026-07-13T17:50:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We completely determine the magnitude homology of tope graphs of real hyperplane arrangements. Their ranks can be described as the Hilbert functions of the Stanley--Reisner rings of certain simplicial complexes naturally associated with the arrangements. For Coxeter arrangements, this gives a computation of the magnitude homology of the Cayley graph of the corresponding Coxeter group. We also prove the homological reciprocity for central arrangements conjectured by Koizumi--Liu. The proof combines poset combinatorics, the Edelman--Walker theorem, and Alexander duality.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.11863v1",
+        "pdf": "https://arxiv.org/pdf/2607.11863v1",
+        "source": "https://export.arxiv.org/e-print/2607.11863v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 5,
+        "lemmas": 15,
+        "propositions": 7,
+        "corollaries": 5,
+        "definitions": 7,
+        "displayed_equations": 162,
+        "bibliography_entries": 72,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file MH.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ncluding even cycles and the Cayley graph of Sn . Use of AI. In writing this paper, we used AI in the following ways. • Some ideas used in the proofs of Lemma 4.1, Lemma 5.12, Lemma 5.13, and Proposition 5.14 were suggested by ChatGPT-5.5 Pro. • We used ChatGPT-5.5 Pro to improve the prose and to identify grammatical and mathematical errors. All AI-generated suggestions and text incorporated into the paper were carefully checked by the author. The author tak",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:51:52.331900Z"
+      },
+      "score": 1765.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 220.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 26,
+          "theorems": 30,
+          "lemmas": 60,
+          "propositions": 28,
+          "corollaries": 15,
+          "definitions": 14,
+          "displayed_equations": 40.5,
+          "bibliography_entries": 7.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.11809",
       "version": 1,
       "title": "Duals of higher vector bundles and cotangents of Lie 2-groupoids",
