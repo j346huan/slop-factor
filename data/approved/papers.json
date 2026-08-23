@@ -42278,6 +42278,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29466",
+      "version": 1,
+      "title": "Odd behaviour of even geometries: an explanation for superconvergent geometric consistency errors",
+      "authors": [
+        "Hanne Hardering",
+        "Simon Praetorius",
+        "Gentian Zavalani"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T14:31:29Z",
+        "updated": "2026-07-31T14:31:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Piecewise polynomial surface approximations used in surface finite element methods often seem to behave better than their standard approximation properties suggest if their polynomial order is even. We explain this superconvergence through cancellation of leading interpolation errors on suitably structured meshes that naturally arise in some refinement processes. This cancellation improves weighted integral estimates for functions, derivatives, and geometric quantities. Applications include estimates for surface normals, the Weingarten map, and Gaussian curvature. Numerical experiments reproduce the predicted parity-dependent behaviour and support the proposed explanation of superconvergent geometric consistency errors, while the corresponding pointwise errors retain their standard orders.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29466v1",
+        "pdf": "https://arxiv.org/pdf/2607.29466v1",
+        "source": "https://export.arxiv.org/e-print/2607.29466v1"
+      },
+      "structural_counts": {
+        "pages": 40,
+        "theorems": 6,
+        "lemmas": 12,
+        "propositions": 0,
+        "corollaries": 6,
+        "definitions": 3,
+        "displayed_equations": 134,
+        "bibliography_entries": 36,
+        "appendix_pages": 7
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file article.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "pported by the Deutsche Forschungsgemeinschaft (DFG, German Research Founda- tion) through FOR 3013, project TP06, project number 417223351, to H.H. and S.P., and through project number 386450667 to G.Z. Acknowledgements The authors used AI-assisted tools in a limited capacity to support code development and the writing process, including editorial revisions, reformulations, and language-level cleanups of proofs. All math- ematical content, numerical results, and final text were revie",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:35.800222Z"
+      },
+      "score": 597.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 199.1,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 40,
+          "theorems": 36,
+          "lemmas": 48,
+          "propositions": 0,
+          "corollaries": 18,
+          "definitions": 6,
+          "displayed_equations": 33.5,
+          "bibliography_entries": 3.6,
+          "appendix_pages": 14
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29423",
       "version": 1,
       "title": "Schwarzian Field Theory at High Temperatures",
