@@ -42191,6 +42191,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01216",
+      "version": 2,
+      "title": "Global $L^p$ Second Commutation Lemma",
+      "authors": [
+        "Marin Mišur"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T13:03:31Z",
+        "updated": "2026-08-04T06:32:25Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the second commutation lemma for the Lebesgue spaces $L^p({\\bf R}^d)$, $1 < p < \\infty$, on the whole unbounded domain, extending the $L^2$ theory of Tartar (1990) to the Banach-space framework of H-distributions. Unlike the $L^2$ setting, where the Plancherel isometry and Hilbert-space compactness are available, the global $L^p$ setting has neither. We control the non-local tail through Calderón--Zygmund kernel estimates, an explicit Taylor-remainder identity, and spatial truncation, obtaining order-$(-ε)$ smoothing of the remainder into the Besov scale. Pairing weakly convergent sequences with their canonical Nemyckij duals, we then use the lemma to derive $L^p$ transport equations. For first-order scalar equations we establish the phase-space bicharacteristic (Vlasov) flow of the associated H-distribution when $p \\ge 2$; for the quasilinear $p$-wave system we lift the local energy identity to the microlocal level, obtaining a Poynting-flux transport of microlocal energy in the linear core $p = 2$ and isolating the structural obstruction to its closure when $p \\neq 2$. These results provide functional-analytic tools for tracking the propagation of singularities in degenerate nonlinear and non-local partial differential equations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01216v2",
+        "pdf": "https://arxiv.org/pdf/2608.01216v2",
+        "source": "https://export.arxiv.org/e-print/2608.01216v2"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 7,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 103,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 2ndCommLemma.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Conflict of interest: The author declares that he has no conflict of interest. Data availability: Data sharing is not applicable to this article as no datasets were generated or analysed during the current study. Generative AI and AI-assisted technologies: During the preparation of this work, the author(s) used Google Gemini as an assistive tool to transcribe handwritten mathematical notes into LATEX formatting, to polish the English prose for readability, and to help draft the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 32",
+          "page": 32
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:19:07.744431Z"
+      },
+      "score": 630.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 126.05,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 36,
+          "theorems": 42,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 25.75,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01182",
       "version": 1,
       "title": "Wasserstein gradient flows of Maximum Mean Discrepancy with energy kernels",
