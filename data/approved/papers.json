@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22116",
+      "version": 2,
+      "title": "Quot-Stack Moduli and Transverse Deformations of Graded Metabelian Lie Algebras",
+      "authors": [
+        "Marcel Blattner"
+      ],
+      "categories": {
+        "primary": "math.RA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-24T09:11:24Z",
+        "updated": "2026-08-05T20:45:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We identify the graded metabelian locus inside the deformation theory of positively graded Lie algebras. Let $M(U)$ be the free metabelian Lie algebra on $U$ and $B(U)=M(U)'$. For every finite graded rank vector $h$, we prove that the moduli stack of such algebras is equivalent to the quotient stack $[\\mathrm{Quot}^{\\mathrm{gr}}h(B(U))/\\mathrm{GL}(U)]$. At a quotient $B(U)\\to C$ with kernel $N$, its tangent complex is the two-term complex from $\\mathrm{End}(U)$ to $\\mathrm{Hom}{\\mathrm{Sym}(U)}(N,C)_0$. For every algebra $\\mathfrak{g}$ in this stack, restriction to $Λ^2\\mathfrak{g}'$ induces a defect map on $H^2_0(\\mathfrak{g};\\mathfrak{g})$, and we prove that its kernel is $H^0$ of the Quot-stack tangent complex. Thus a first-order deformation is tangent to the metabelian locus exactly when its derived--derived restriction vanishes. We also recover the inverse-system module degree by degree from intrinsic lower-central tensors; on the level locus its terminal tensor suffices. For the $14$-dimensional algebra attached to a regular pencil of binary quartics, exact computation gives $\\dim H^2_0=11$ and $H^3_0=0$. Its effective miniversal graded deformation germ is formally smooth of dimension $11$, while its metabelian subgerm is formally smooth of dimension $3$. Terminal restriction identifies the $8$-dimensional normal space with derived--derived brackets. Using the pencil's classical $V_4$-symmetry, we determine its induced representation on the graded tangent space and show that four negative-weight primary obstruction maps are surjective.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22116v2",
+        "pdf": "https://arxiv.org/pdf/2607.22116v2",
+        "source": "https://export.arxiv.org/e-print/2607.22116v2"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 16,
+        "lemmas": 1,
+        "propositions": 9,
+        "corollaries": 10,
+        "definitions": 3,
+        "displayed_equations": 181,
+        "bibliography_entries": 23,
+        "appendix_pages": 24
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file JA.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Data availability The verification programs and the SHA-256 manifest described in Appendix A accompany this submission as supplementary material and are permanently archived at https://doi.org/ 10.5281/zenodo.21768573. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used Claude (Anthropic) for drafting and editorial feedback. After using these tools, the auth",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:32.750670Z"
+      },
+      "score": 1462.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 292.55,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 25,
+          "theorems": 96,
+          "lemmas": 4,
+          "propositions": 36,
+          "corollaries": 30,
+          "definitions": 6,
+          "displayed_equations": 45.25,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 48
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21976",
       "version": 1,
       "title": "Point-to-set principles in dynamical systems",
