@@ -9442,6 +9442,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09092",
+      "version": 1,
+      "title": "Exact Periodicity, Surjectivity, and a Haar Limit Law for a Restarting Josephus Process",
+      "authors": [
+        "Lizhong Chen"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T03:43:27Z",
+        "updated": "2026-08-10T03:43:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study a restarting Josephus process in which the participants retain their linear order and counting restarts at the current leftmost survivor after every deletion. For step size $m$, put $q=m-1$, and let $F_n(q)$ denote the initial position of the survivor. Reverse insertion gives $F_1(q)=1$ and $F_k(q)=F_{k-1}(q)+\\mathbf{1}_{\\{q\\bmod k<F_{k-1}(q)\\}}$. Writing $L_n=\\operatorname{lcm}(1,\\ldots,n)$, we establish three results for the compatible residue system in this recurrence. First, the full period group of $F_n$ is exactly $L_n\\mathbb{Z}$. Second, $F_n$ is surjective onto $\\{1,\\ldots,n\\}$. The proof is constructive and unconditional but computer-assisted: a Chinese-remainder construction and explicit prime estimates reduce it to a finite exact certificate. Third, if $\\widetilde Q_n$ is uniform modulo $L_n$, then $(F_n(\\widetilde Q_n)-1)/(n-1)$ converges to a symmetric, nondegenerate law on $[0,1]$. A common Haar coupling yields almost-sure and $L^r$ convergence for every $1\\le r<\\infty$, together with an $O(n^{-1/4})$ bound in $W_1$. Logarithmic boundary-mass estimates rule out every symmetric beta law. We also formulate endpoint dominance as an open problem, prove strict dominance over the two nearest internal positions for every $n\\ge4$, exclude prime levels as minimal counterexamples, and verify the claim exactly through $n=49$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09092v1",
+        "pdf": "https://arxiv.org/pdf/2608.09092v1",
+        "source": "https://export.arxiv.org/e-print/2608.09092v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 4,
+        "lemmas": 8,
+        "propositions": 8,
+        "corollaries": 4,
+        "definitions": 2,
+        "displayed_equations": 181,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "al, or not-for-profit sectors. Declaration of competing interest The author declares no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used Kimi K3 solely to assist with code writing, computational verification, manuscript drafting, and language editing. The",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:44.638176Z"
+      },
+      "score": 885.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 177.05,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 26,
+          "theorems": 24,
+          "lemmas": 32,
+          "propositions": 32,
+          "corollaries": 12,
+          "definitions": 4,
+          "displayed_equations": 45.25,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09071",
       "version": 1,
       "title": "Two-Step MV-DeepONet: Probabilistic Operator Learning for Uncertainty Propagation Driven by Random Input Fields",
