@@ -42274,6 +42274,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23354",
+      "version": 1,
+      "title": "Scalably computing metric magnitude",
+      "authors": [
+        "Steve Huntsman",
+        "Jewell Thomas",
+        "Cynthia Ukawu"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T20:27:18Z",
+        "updated": "2026-07-25T20:27:18Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Applications of metric magnitude often rely on numerically exact results in order to exploit a connection with information theory. We examine various approaches for scaling the dense linear algebra involved and identify hierarchical low-rank solvers as a preferred approach, with a clear path to scales of $10^5$ points on a single powerful workstation, and larger scales using our containerized CUDA-enabled C++/MPI pipeline.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23354v1",
+        "pdf": "https://arxiv.org/pdf/2607.23354v1",
+        "source": "https://export.arxiv.org/e-print/2607.23354v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 13,
+        "bibliography_entries": 96,
+        "appendix_pages": 9
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file scaling.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rank approximations, for future work. Acknowledgments Thanks to Evan Gorman for many useful conversations; and to Yang Liu for providing advice regarding STRUMPACK; and to referees for suggestions that helped the presentation. We used Claude Opus to help find references and evaluate implementations. This research was partially developed with funding from the Defense Advanced Research Projects Agency (DARPA). The views, opinions and/or findings expressed are those of the authors",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:47.657552Z"
+      },
+      "score": 115.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 57.85,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 21,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3.25,
+          "bibliography_entries": 9.6,
+          "appendix_pages": 18
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23315",
       "version": 1,
       "title": "Variational principles for the interaction of liquid crystals and electric fields in the Oseen--Frank model",
