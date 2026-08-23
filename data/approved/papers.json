@@ -41853,6 +41853,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23017",
+      "version": 1,
+      "title": "Level-set entropy and sparse randomized embeddings",
+      "authors": [
+        "Konstantin Tikhomirov"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "cs.DM",
+          "cs.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T03:18:37Z",
+        "updated": "2026-07-25T03:18:37Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $Π$ be a $k\\times n$ sparse random matrix. For a fixed $r$-dimensional subspace $V\\subset{\\mathbb R}^n$, let $U_V:{\\mathbb R}^r\\to{\\mathbb R}^n$ denote an isometry from ${\\mathbb R}^r$ onto $V$. The product $ΠU_V$ is a central model in randomized dimension reduction and has been studied primarily through trace and Gaussian comparison inequalities. In this work, we develop an approach to the spectral norm of the matrix product $ΠU_V$, based on entropy estimates for level sets of vectors $x\\in V$. Combining the method with existing estimates, we show the following. Assume that \\[ k\\ge C\\,r(\\log\\log r)^2,\\qquad p\\ge (\\log k)/k. \\] Let $Π$ be a $k\\times n$ matrix with i.i.d. entries equidistributed with the product $b\\,ξ$, where $b$ is a Bernoulli($p$) random variable and $ξ$ is mean-zero, independent of $b$, and satisfies $|ξ|\\le1$ almost surely. Then with high probability \\[ \\|ΠU_V\\|\\le C\\sqrt{kp}. \\] Matching results hold for other random models with negatively associated entries.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23017v1",
+        "pdf": "https://arxiv.org/pdf/2607.23017v1",
+        "source": "https://export.arxiv.org/e-print/2607.23017v1"
+      },
+      "structural_counts": {
+        "pages": 56,
+        "theorems": 2,
+        "lemmas": 15,
+        "propositions": 10,
+        "corollaries": 4,
+        "definitions": 27,
+        "displayed_equations": 464,
+        "bibliography_entries": 30,
+        "appendix_pages": 56
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file SparseEmbeddingsArxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s unequal row supports and different coordinate levels dyadically, but uses the same cancellation mechanism. Funding acknowledgement. K.T. was partially supported by NSF grant DMS 2452120. Acknowledgement of AI Assistance. The author used ChatGPT for language editing, litera- ture search, and assistance in developing and checking some proof arguments during the preparation of this manuscript. All mathematical statements, proofs, and final wording were independently re- viewed and v",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:49.584026Z"
+      },
+      "score": 3720,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 465,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 56,
+          "theorems": 12,
+          "lemmas": 60,
+          "propositions": 40,
+          "corollaries": 12,
+          "definitions": 54,
+          "displayed_equations": 116,
+          "bibliography_entries": 3,
+          "appendix_pages": 112
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23004",
       "version": 1,
       "title": "Exact values and exact upper bounds for families of integers with arithmetic progression intersections (Erdős Problem #272)",
