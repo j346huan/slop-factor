@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09368",
+      "version": 1,
+      "title": "A proof of Ross's conjecture for two-site moving-target search",
+      "authors": [
+        "Yunpeng Li"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "cs.DM",
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T09:48:02Z",
+        "updated": "2026-08-10T09:48:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A target moves between two sites according to a discrete-time Markov chain with transition matrix $M$. At each epoch one site is searched at positive cost, and a search of site $i$ misses a target that is present there with probability $α_i$. In the classical range $α_i<1$, Ross conjectured that an optimal policy is threshold in the posterior probability that the target is at site 1. MacPhee and Jordan proved the conjecture throughout the nonpositive-determinant regime for interior transition matrices, and for many additional transition laws, but left part of the regime $\\det M>0$ unresolved. We prove threshold optimality throughout $\\det M>0$. In unnormalised survivor coordinates, finite search words have affine costs. The two Bellman branches generate word pairs with a two-level prefix-count constraint; a nested sequence of local swaps and nested projective intervals then yield a common separator that rules out reverse crossing. A log-odds contraction closes the finite-horizon induction, and a uniform $O(1/n)$ truncation bound passes the result to the undiscounted infinite horizon. Combined with MacPhee--Jordan and boundary continuity, this proves Ross's conjecture for every two-site transition matrix when $α_i<1$. We also classify the endpoint cases $α_i=1$ under the extended-real expected-cost criterion.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09368v1",
+        "pdf": "https://arxiv.org/pdf/2608.09368v1",
+        "source": "https://export.arxiv.org/e-print/2608.09368v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 4,
+        "lemmas": 11,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 5,
+        "displayed_equations": 112,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ch two Bellman histories satisfy a bounded-width lattice condition analogous to (4.1); the same bubble-and-separator principle may then provide threshold results outside the standard one-step supermodularity framework. Acknowledgements OpenAI’s ChatGPT (GPT-5.6 Sol) was used to assist with brainstorming proof strategies, literature searching, symbolic and computational sanity checks, and preparation of an initial draft. The author independently verified the mathematical arguments and ref",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:25.909637Z"
+      },
+      "score": 1345.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 168.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 30,
+          "theorems": 24,
+          "lemmas": 44,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 10,
+          "displayed_equations": 28,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09367",
       "version": 2,
       "title": "A Pole-Subtracted Limiting Absorption Principle for Clusters of High-Contrast Elastic Subwavelength Resonators",
