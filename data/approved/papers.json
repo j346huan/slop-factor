@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01485",
+      "version": 1,
+      "title": "Intertwining Operators for Siegel Parabolics over Finite Fields",
+      "authors": [
+        "Nir Elber",
+        "Hahn Lheem"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.CO",
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T20:38:07Z",
+        "updated": "2026-08-02T20:38:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We consider degenerate principal series representations $\\operatorname{Ind}_P^Gχ$ over finite fields, where $G$ is a classical subgroup of $\\operatorname{GL}_{2n}$, and $P$ is the Siegel parabolic subgroup. For example, we show that this representation is always multiplicity-free and irreducible for generic characters $χ$. We then discuss a particular intertwining operator $I$ on $\\operatorname{Ind}_P^Gχ$ and its related combinatorics. Firstly, this operator $I$ produces families of diagonalizable antitriangular matrices with well-behaved eigenvalues. Secondly, applying $I$ to a special vector in $\\operatorname{Ind}_P^Gχ$ leads us to various matrix Gauss sums, whose evaluations imply an explicit equidistribution result of the trace and determinant of symmetric and alternating invertible matrices.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01485v1",
+        "pdf": "https://arxiv.org/pdf/2608.01485v1",
+        "source": "https://export.arxiv.org/e-print/2608.01485v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 14,
+        "lemmas": 16,
+        "propositions": 15,
+        "corollaries": 4,
+        "definitions": 4,
+        "displayed_equations": 205,
+        "bibliography_entries": 52,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "g certain q-identities used in the article, most notably by explaining how to use the packages qZeil and qMultiSum. As such, the authors are also grateful to the Research Institute for Symbolic Computation for access to those two packages. Large language models were used in the proof- reading stage of the paper; notably, a technical error was located and resolved in the proof of Proposition 2.3.6 during proof-reading. The first author would also like to thank various friends in the undergradua",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:13:53.504608Z"
+      },
+      "score": 2547.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 318.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 34,
+          "theorems": 84,
+          "lemmas": 64,
+          "propositions": 60,
+          "corollaries": 12,
+          "definitions": 8,
+          "displayed_equations": 51.25,
+          "bibliography_entries": 5.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01466",
       "version": 1,
       "title": "The Structure of Almost Stationary Measures",
