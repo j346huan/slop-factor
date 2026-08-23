@@ -9017,6 +9017,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14515",
+      "version": 1,
+      "title": "Zero-Sum Cycles in Regular Digraphs",
+      "authors": [
+        "Varun Sivashankar"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T17:36:32Z",
+        "updated": "2026-08-14T17:36:32Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $Γ$ be a finite group of order $k\\ge2$, and label the edges of a simple loopless $d$-regular digraph $D$ by elements of $Γ$. A directed cycle is zero-sum if the ordered product of its labels is the identity of $Γ$. We prove that a zero-sum cycle exists whenever $d\\ge e^3(k-1)$. We also prove that every labelled $d$-regular digraph contains $Ω(d/k)$ pairwise vertex-disjoint zero-sum cycles. When $d\\ge50k$, it contains $Ω(d^2/k)$ pairwise edge-disjoint zero-sum cycles. All three results are asymptotically optimal. The existence and packing results extend to Eulerian digraphs whose minimum and maximum common degrees $δ$ and $Δ$ satisfy $δ^3/Δ^2=Ω(k)$. The techniques extend a determinant--permanent argument of Friedland for even directed cycles.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14515v1",
+        "pdf": "https://arxiv.org/pdf/2608.14515v1",
+        "source": "https://export.arxiv.org/e-print/2608.14515v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 6,
+        "lemmas": 6,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 138,
+        "bibliography_entries": 44,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file zero_sum_cycles_regular_digraphs.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "a logarithmic factor, rather than |Γ| = pd [29, 13]. It would be interesting to obtain analogous existence and packing bounds here in terms of the exponent. Acknowledgements We thank Noga Alon for helpful discussions. The author used ChatGPT 5.6 Pro for the devel- opment of the proof. The author independently verified all arguments and references and takes full responsibility for the paper.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:30.130601Z"
+      },
+      "score": 1079.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 134.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 21,
+          "theorems": 36,
+          "lemmas": 24,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 34.5,
+          "bibliography_entries": 4.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14506",
       "version": 1,
       "title": "Nodal discontinuous Galerkin methods for non-ideal equations of state: pressure equilibrium preservation and entropy correction",
