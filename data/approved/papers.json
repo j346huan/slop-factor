@@ -42276,6 +42276,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18782",
+      "version": 1,
+      "title": "Sharp weighted Carleman and Huber isoperimetric inequalities on the unit ball in higher dimensions",
+      "authors": [
+        "Zhijie Chen",
+        "Changfeng Gui",
+        "Shihong Zhang"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T07:03:52Z",
+        "updated": "2026-07-21T07:03:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, using a limiting approach, we establish a new type of weighted Carleman inequality in all dimensions $n\\geq 2$ and classify all extremal functions. In particular, when $n=2$, we prove that our inequality is equivalent to a sharp norm inequality in the Bergman space. In even dimensions, we further establish a sharp weighted Huber isoperimetric inequality on the unit ball, which generalizes Huber's original result \\cite[Ann. Math., 1954]{Huber} and may be regarded as a sharp counterpart of Y. Wang's isoperimetric inequality in the unit ball \\cite[Adv. Math., 2015]{Wang}.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18782v1",
+        "pdf": "https://arxiv.org/pdf/2607.18782v1",
+        "source": "https://export.arxiv.org/e-print/2607.18782v1"
+      },
+      "structural_counts": {
+        "pages": 42,
+        "theorems": 9,
+        "lemmas": 21,
+        "propositions": 2,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 343,
+        "bibliography_entries": 45,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "531010. The research of S. Zhang was supported by the Postdoctoral Fellowship Program and China Postdoctoral Science Foundation (Grant BX20250062), as well as the Shui Mu Tsinghua Scholar Program. AI Assistance Statement: The authors used AI tools only for language editing and for checking the correctness of some identities. All arguments, identities, estimates, and the final manuscript were independently verified and remain the sole responsibility of the authors. References [1]",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 41",
+          "page": 41
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:36.857509Z"
+      },
+      "score": 861.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 287.25,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 42,
+          "theorems": 54,
+          "lemmas": 84,
+          "propositions": 8,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 85.75,
+          "bibliography_entries": 4.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18746",
       "version": 1,
       "title": "Polynomiality of Stretched Schubert Structure Constants and Key Coefficients",
