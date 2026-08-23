@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26863",
+      "version": 1,
+      "title": "Convergence rates for pivoted QR and LU",
+      "authors": [
+        "Marc Aurèle Gilles"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-29T12:46:20Z",
+        "updated": "2026-07-29T12:46:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Pivoted QR and pivoted LU decompositions are greedy algorithms used to compute low-rank approximations of matrices from selected columns, or selected rows and columns. Despite their practical robustness, general worst-case bounds comparing their errors with those of the best corresponding low-rank approximations contain exponentially growing factors and do not explain their behavior under modest singular value decay. We prove that under approximate greedy pivoting, their error is controlled by the determinant of a submatrix, which is bounded by the geometric mean of the leading singular values. Using this bound, we establish convergence rates under algebraic and geometric singular value decay. We also extend the LU analysis to functions of two variables. By bounding the determinants of arbitrary sampled submatrices, we obtain algebraic convergence rates under differentiability assumptions and geometric convergence under analyticity.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26863v1",
+        "pdf": "https://arxiv.org/pdf/2607.26863v1",
+        "source": "https://export.arxiv.org/e-print/2607.26863v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 6,
+        "lemmas": 5,
+        "propositions": 2,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 161,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file lu.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "column information, such as row or column norms, which does not directly imply the max-norm pivot condition analyzed here for LU. Extending the determinant bounds to such settings is a natural direction for future work. Acknowledgements AI tools were used extensively in developing the results and writing this paper. In particular, GPT-5.6 Sol autonomously produced a proof of a version of corollary 3.4 and an argument close to the proof in corollary 3.2, using a prompt similar to t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:51.259771Z"
+      },
+      "score": 1399.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 139.95,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 24,
+          "theorems": 36,
+          "lemmas": 20,
+          "propositions": 8,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 40.25,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26673",
       "version": 1,
       "title": "Almost-Hermitian and Hermitian metrics",
