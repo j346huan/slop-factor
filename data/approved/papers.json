@@ -8424,6 +8424,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14454",
+      "version": 1,
+      "title": "The Erdős distinct distances problem in $\\mathbb{R}^3$",
+      "authors": [
+        "Jonathan Tidor",
+        "Hung-Hsun Hans Yu",
+        "Dmitrii Zakharov"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T16:40:12Z",
+        "updated": "2026-08-14T16:40:12Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that $N$ points in $\\mathbb{R}^3$ determine at least $N^{2/3-o(1)}$ distinct distances.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14454v1",
+        "pdf": "https://arxiv.org/pdf/2608.14454v1",
+        "source": "https://export.arxiv.org/e-print/2608.14454v1"
+      },
+      "structural_counts": {
+        "pages": 147,
+        "theorems": 30,
+        "lemmas": 40,
+        "propositions": 28,
+        "corollaries": 9,
+        "definitions": 38,
+        "displayed_equations": 497,
+        "bibliography_entries": 100,
+        "appendix_pages": 146
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nstitute for the Theory of Computing. We thank SLMath, Matija Bucić, AIM, and the Simons Institute for their hospitality. AI use statement. The mathematical content of this paper and all of the writing were generated solely by the authors. ChatGPT-5.6 was used during the editorial process to identify mathematical and typographical errors. 2. Proof overview 2.1. Choosing coordinates. In Section 3, we choose coordinates on E + and E − , the s",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:38.008952Z"
+      },
+      "score": 1128.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 1128.25,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 147,
+          "theorems": 180,
+          "lemmas": 160,
+          "propositions": 112,
+          "corollaries": 27,
+          "definitions": 76,
+          "displayed_equations": 124.25,
+          "bibliography_entries": 10,
+          "appendix_pages": 292
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14438",
       "version": 1,
       "title": "Positive Scalar Curvature and Volume Growth",
