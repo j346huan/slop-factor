@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08724",
+      "version": 1,
+      "title": "Twisted Bernoulli Zeros in Quasi-Linear Time: Distribution, Depth, and Explicit Hilbert Class Components",
+      "authors": [
+        "Peter Chocian"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-09T14:17:09Z",
+        "updated": "2026-08-09T14:17:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The divided generalized Bernoulli values $b_{χ,j} = fB_{1,χω^{-j}} \\bmod p$, for $χ$ an odd primitive Dirichlet character of conductor $f$ and order $d$ with $d \\mid p-1$, control (for $p \\nmid \\varphi(f)$) the odd isotypic components of the $p$-class group of $Q(ζ_{fp})$ through the characterwise abelian Main Conjecture; a zero is a twisted irregular pair, a branch with positive Iwasawa lambda-invariant, in the tradition studied by Ernvall, Holden, Delbourgo-Knospe and Knospe. We survey these zeros in the regime complementary to existing tabulations: fixed small conductor and large $p$ ($f = 3, 5$ to $p < 10^5$; all odd primitive characters of conductor at most 20 to $p < 2 \\cdot 10^4$), computing each spectrum by a residue-class weight formula and one Bluestein convolution over $F_p$, a direct finite-field alternative of the same quasi-linear order as the standard power-series method. The survey records 27,508 zero lines over 55,121 character-prime pairs, each verified by two independent code paths with an exact order of vanishing; the counts and digits are consistent with the random model, and eight lines are non-simple, including one of depth three at $(f,p,j) = (19,37,16)$, giving class components of order exactly $p^2$ and $37^3$. The main contribution converts zeros into explicit certified generators: the conductor-three catalogue of arXiv:2607.23177 is extended from $p < 500$ to $p < 10^5$, all 2,441 zero lines simple, each projected circular unit proven to generate its complete order-$p$ Hilbert class field component by a fresh split-prime Artin certificate -- the largest in the degree-199,980 field $Q(ζ_{299973})$. Ancillary files contain all tables, certificates, and a verification program.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08724v1",
+        "pdf": "https://arxiv.org/pdf/2608.08724v1",
+        "source": "https://export.arxiv.org/e-print/2608.08724v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 3,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 14,
+        "bibliography_entries": 14,
+        "appendix_pages": 11
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ram that reproduces the published-catalogue check, the validation layers of §4, the valuations of Table 5, and (in full mode) every certificate. Acknowledgements Computational exploration, drafting, and verification were assisted by Anthropic’s Claude (Fable 5), which carried out the survey computations, the statistical analysis, and an adversarial audit of every numerical claim against the raw data. Responsibility for the mathematical statements and final presentation remains with the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:02:19.931073Z"
+      },
+      "score": 309.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 61.9,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 13,
+          "theorems": 18,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 22
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08714",
       "version": 1,
       "title": "Jacobi Endpoint Pencils and Sharp Interlacing for Centered Binomial Samples",
