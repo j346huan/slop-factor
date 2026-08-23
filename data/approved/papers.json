@@ -8508,6 +8508,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16706",
+      "version": 1,
+      "title": "Planar lamplighter is not of negative type",
+      "authors": [
+        "Gioacchino Antonelli",
+        "Emanuele Caputo",
+        "Nicola Cavallucci",
+        "Luca Nalon",
+        "Assaf Naor",
+        "Pietro Wald"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T15:25:14Z",
+        "updated": "2026-08-17T15:25:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The lamplighter group over the planar integer grid is proved to not be bi-Lipschitz equivalent to any metric space of negative type, so in particular it does not admit a bi-Lipschitz embedding into $L_1$. This shows the existence of finitely generated metabelian groups on which word metrics are never comparable up to constant factors to conditionally negative definite (CND) kernels, and that the property of admitting a word metric-comparable CND kernel is not preserved by wreath products.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16706v1",
+        "pdf": "https://arxiv.org/pdf/2608.16706v1",
+        "source": "https://export.arxiv.org/e-print/2608.16706v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 69,
+        "bibliography_entries": 105,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "on Analysis and Geometry in Metric Spaces (Trento, June 2026), where he recalled Problem 1.2 because he suspected that the method of the breakthrough [GO26] should be relevant to it. G.A., E.C., N.C., L.N., P.W. asked (not involving A.N.) ChatGPT-5.5 Pro for assistance. It suggested an argument which indeed cleverly considers steps and objects that are in the spirit of [GO26]. After G.A., E.C., N.C., L.N., P.W. wrote the resulting proof, they sent it to A.N., who proceeded by build",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:04.129186Z"
+      },
+      "score": 750,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 93.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 17.25,
+          "bibliography_entries": 10.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16664",
       "version": 1,
       "title": "Random Quadratic Form with random forcing: Metastable synchronization by noise",
