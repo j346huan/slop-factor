@@ -8340,6 +8340,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18146",
+      "version": 1,
+      "title": "Diffeological Tangent Spaces and Distributional Linearization for Lifted Euler--Reynolds Limits",
+      "authors": [
+        "Alireza Ahmadi",
+        "Jean-Pierre Magnot",
+        "Bijan Davvaz"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math-ph",
+          "math.DG",
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T07:54:02Z",
+        "updated": "2026-08-10T07:54:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a diffeological framework for the geometry of Euler--Reynolds subsolutions of the incompressible Euler equations. Passing to a lifted formulation in which the velocity, quadratic flux, and trace-free Reynolds stress are treated as independent variables, we construct a diffeological limit space obtained as the weak closure of smooth strict subsolutions. Its internal tangent spaces provide an intrinsic notion of infinitesimal deformation despite the absence of any underlying manifold structure. We prove that ambient realizations of internal tangent vectors satisfy the linearized Euler--Reynolds equations in the sense of distributions, thereby establishing a natural first-order theory for lifted weak limit spaces. We further describe the tangent directions compatible with the Euler locus and identify the kernels of the natural velocity, flux, and full-state observables. These results distinguish observable perturbations from hidden stress-gauge directions that encode infinitesimal variations of the Reynolds stress. Finally, we introduce a finite-mixture model for lifted Euler--Reynolds states whose differential realizes explicit tangent directions and relates Reynolds stress to infinitesimal phase splitting. Under a genericity assumption, every deviatoric stress tensor is realized by such a first-order mixture defect, yielding phase-counting bounds and a minimality result for the observable hierarchy.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18146v1",
+        "pdf": "https://arxiv.org/pdf/2608.18146v1",
+        "source": "https://export.arxiv.org/e-print/2608.18146v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 7,
+        "lemmas": 7,
+        "propositions": 19,
+        "corollaries": 6,
+        "definitions": 14,
+        "displayed_equations": 270,
+        "bibliography_entries": 29,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Tangent-diffeology-revised-v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s the France 2030 framework programme Centre Henri Lebesgue ANR-11-LABX-0020-01 for creating an attractive mathematical environment. Author’s Note on AI Assistance. Portions of the text were developed with the assis- tance of a generative language model (OpenAI ChatGPT). The AI was used to assist with",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 34",
+          "page": 34
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:07.965128Z"
+      },
+      "score": 1492,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 298.4,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 36,
+          "theorems": 42,
+          "lemmas": 28,
+          "propositions": 76,
+          "corollaries": 18,
+          "definitions": 28,
+          "displayed_equations": 67.5,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09113",
       "version": 2,
       "title": "Critical $p$-Laplace equations with monotone coefficients: Liouville classification and a Schoen-type Harnack inequality",
