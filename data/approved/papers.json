@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14836",
+      "version": 1,
+      "title": "Leaving the Hall: explicit formulas for Neguţ operators",
+      "authors": [
+        "Michele D'Adderio",
+        "Giovanni Interdonato",
+        "Alessandro Iraci",
+        "Roberto Pagaria"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T19:20:42Z",
+        "updated": "2026-08-14T19:20:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Recent major breakthroughs in $q,t$-combinatorics include the introduction of the Dyck path algebra $\\mathbb{A}_{q,t}$ by Carlsson and Mellit and of the Catalanimals by Blasiak et al., both of which led, among other things, to independent proofs of different extensions of the rational shuffle conjecture of Bergeron et al. The first main contribution of this paper is a simple, explicit formula inside the algebra $\\mathbb{A}_{q,t}$ for the Neguţ operators, yielding a direct, elementary connection between the original operators of the rational shuffle conjecture and the corresponding Catalanimals. Our formula bypasses the elliptic Hall algebra, turning these operators into transparent, workable tools whose action we can compute exactly and efficiently on any symmetric function, not just constants. Our second main contribution consists of a series of explicit formulas relating the Neguţ operators to the Theta operators introduced by D'Adderio et al. To prove these formulas, we provide an extension of the aforementioned Theta operators to the entire algebra $\\mathbb{A}_{q,t}$, allowing us to obtain a series of new combinatorial results. The algebraic computations underlying this extension have been formalized in Lean. To showcase the power of our results, we give a proof, also partially formalized in Lean, of the Theta conjecture of D'Adderio et al., first stated in 2019.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14836v1",
+        "pdf": "https://arxiv.org/pdf/2608.14836v1",
+        "source": "https://export.arxiv.org/e-print/2608.14836v1"
+      },
+      "structural_counts": {
+        "pages": 46,
+        "theorems": 17,
+        "lemmas": 15,
+        "propositions": 8,
+        "corollaries": 4,
+        "definitions": 25,
+        "displayed_equations": 205,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "asier to compute and manipulate, allowing us to obtain a series of new combinatorial results in the form of explicit formulas. The computations used to define this extension have been formalized in Lean 4 using Harmonic’s Aristotle [1], an AI system for formal verification. As a notable application of our new formulas, we prove the Theta conjecture [15, Conjecture 9.1] using (among other tools) a bijective argument that we also formalized in Lean 4 using Aristotle. Our formulas potent",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:57.729443Z"
+      },
+      "score": 706.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 353.25,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 46,
+          "theorems": 102,
+          "lemmas": 60,
+          "propositions": 32,
+          "corollaries": 12,
+          "definitions": 50,
+          "displayed_equations": 51.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14517",
       "version": 1,
       "title": "A disproof of a gap-one conjecture for the equitable chromatic number of block graphs",
