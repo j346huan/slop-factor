@@ -42026,6 +42026,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15222",
+      "version": 2,
+      "title": "Spectral Characterizations of Schatten-class perturbations of Partial isometries",
+      "authors": [
+        "Neeru Bala",
+        "Ramesh Golla"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T17:27:23Z",
+        "updated": "2026-08-04T11:06:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We characterize bounded operators that are compact (respectively, Schatten-class) perturbations of scalar multiples of partial isometries with finite-dimensional kernel. Our characterizations are formulated in terms of the essential spectrum of $T^*T$, absolutely norm attaining operators, and the Moore-Penrose inverse. In particular, we show that an operator $T$ is a Schatten-class perturbation of a partial isometry with finite-dimensional kernel if and only if $σ_{\\mathrm{ess}}(T^*T)$ is a singleton and the discrete spectrum of $T^*T$ satisfies a corresponding $\\ell^p$-summability condition. We further obtain equivalent criteria involving the compactness (or Schatten-class membership) of $αI-T^*T$ and $αT^\\dagger-T^*$. As applications, we establish characterizations of compact and Schatten-class perturbations of isometries, describe the corresponding behavior of Moore--Penrose inverses, and derive factorization results for closed-range operators. In particular, we provide a new Moore--Penrose inverse proof of a theorem of Şerban and Turcu and obtain an explicit formula for the factorizing operator.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15222v2",
+        "pdf": "https://arxiv.org/pdf/2607.15222v2",
+        "source": "https://export.arxiv.org/e-print/2607.15222v2"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 12,
+        "lemmas": 0,
+        "propositions": 4,
+        "corollaries": 4,
+        "definitions": 1,
+        "displayed_equations": 65,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Schattenclassperturbations.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "12 NEERU BALA AND RAMESH GOLLA Declaration of Generative AI and AI-Assisted Technologies in the Manuscript Writing Process The authors used ChatGPT (OpenAI) to assist with improving the language and polishing the grammar. References [1]",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:25.348148Z"
+      },
+      "score": 660.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 132.15,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 12,
+          "theorems": 72,
+          "lemmas": 0,
+          "propositions": 16,
+          "corollaries": 12,
+          "definitions": 2,
+          "displayed_equations": 16.25,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15173",
       "version": 1,
       "title": "Landscape analysis for shallow neural networks: Complete classification of critical points for cubic activation and affine target functions",
