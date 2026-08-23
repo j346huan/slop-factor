@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16556",
+      "version": 1,
+      "title": "Largest density of a layered subgraph of a hypercube",
+      "authors": [
+        "Maria Axenovich",
+        "Arsenii Sagdeev"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T23:52:53Z",
+        "updated": "2026-07-17T23:52:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $L(t)$ denote the largest number of edges induced by $t$ vertices from two vertex layers of a hypercube. We show that $$\\frac14 t\\log_2 t+\\frac18 t\\log_2\\log_2 t-O(t) \\leq L(t) \\leq \\frac14 t\\log_2 t+ (1+o(1))t\\log_2\\log_2 t.$$",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16556v1",
+        "pdf": "https://arxiv.org/pdf/2607.16556v1",
+        "source": "https://export.arxiv.org/e-print/2607.16556v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 2,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 38,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "bound up to an o (t log log t) term. It would be interesting to find a closed-form expression for L(t), similar to Harper’s formula for C (t). Acknowledgements The proof of the main theorem was originally generated with the assis- tance of ChatGPT-5.5 Pro, then checked, shortened, and reworked by the authors. References [1] M. Axenovich, A class of graphs of zero Turán density in a hypercube, Combin. Probab. Comput., 33.3 (2024), 404–410. ↑2 [2] M. Axenovich, R. R. Martin, and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:10.127640Z"
+      },
+      "score": 277,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 27.7,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 5,
+          "theorems": 12,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 9.5,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16188",
       "version": 1,
       "title": "Optimal control of symmetry-breaking dynamics near criticality",
