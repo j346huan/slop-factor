@@ -43711,6 +43711,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17084",
+      "version": 3,
+      "title": "Mirror and knockoff+ thresholds under dependence",
+      "authors": [
+        "Xianyang Zhang"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "stat.ME"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-19T05:36:02Z",
+        "updated": "2026-08-10T04:43:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Many multiple-testing procedures control the false discovery rate (FDR) by comparing the two tails of a null distribution. At a fixed cutoff, marginal symmetry makes this natural. Mirror and knockoff+ thresholds select the cutoff from the same data, so the standard finite-sample guarantee uses a stronger property: conditional on magnitudes and nonnull scores, null signs are independent fair coins. Failure can be severe without this property. Models satisfying positive regression dependence on a subset (PRDS) can have exactly uniform null $p$-values and large FDR. Under every fixed positive Gaussian equicorrelation, the all-null FDR converges to one half. Opposing loadings in Gaussian factor models can make FDR and power arbitrarily close to one; near-total failure also occurs for exchangeable, pairwise-uncorrelated scores. At a nominal input level $q<1/2$, no deterministic rule based only on the two tail counts can both reject and control FDR uniformly over our class if more discoveries or fewer controls cannot make rejection harder. We give finite-sample repairs based on joint sign information. Conditional sign odds may be bounded outside an exceptional event or averaged over negative controls; neither route uniformly dominates, and the integrated bounds are sharp. Independent calibration data or a specified Gaussian joint model yield valid adjusted levels. Simulations show that integration retains more power under diffuse Gaussian dependence, whereas exceptional-event calibration is more powerful when very large odds occur only for rare aligned signs; unadjusted FDR exceeds the target in both settings. Covariance alone is insufficient outside a specified joint model. Thus the relevant boundary is not marginal symmetry but joint information that remains valid after adaptive cutoff selection.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17084v3",
+        "pdf": "https://arxiv.org/pdf/2607.17084v3",
+        "source": "https://export.arxiv.org/e-print/2607.17084v3"
+      },
+      "structural_counts": {
+        "pages": 43,
+        "theorems": 4,
+        "lemmas": 2,
+        "propositions": 10,
+        "corollaries": 9,
+        "definitions": 0,
+        "displayed_equations": 199,
+        "bibliography_entries": 28,
+        "appendix_pages": 31
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ound. Proposition 9 shows that neither integrated factor is merely a proof artifact. Without joint sign information, no count-only rule studied here can both make discoveries and control the FDR uniformly. Acknowledgments The author used OpenAI GPT-5.6 (Sol) and Anthropic Claude (Opus 5.0) for language editing, proof exploration, and the numerical studies. The author checked every definition, proof, and numerical result and is responsible for the paper. A First-passage proofs A.1",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:22.744268Z"
+      },
+      "score": 2052.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 256.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 43,
+          "theorems": 24,
+          "lemmas": 8,
+          "propositions": 40,
+          "corollaries": 27,
+          "definitions": 0,
+          "displayed_equations": 49.75,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 62
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16994",
       "version": 1,
       "title": "Entropy Density of Uniquely Ergodic Measures for Full Shifts over Amenable Residually Finite Groups",
