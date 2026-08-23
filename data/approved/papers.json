@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19337",
+      "version": 2,
+      "title": "On the $\\mathcal{A}$-transcendence of a Champernowne-type constant",
+      "authors": [
+        "Shin-ichiro Seki"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T17:55:49Z",
+        "updated": "2026-08-13T19:16:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $p_n$ denote the $n$-th prime. We prove that for every nonzero polynomial $f(x)\\in\\mathbb{Z}[x]$, there exist infinitely many positive integers $n$ such that $p_n\\nmid f(n)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19337v2",
+        "pdf": "https://arxiv.org/pdf/2607.19337v2",
+        "source": "https://export.arxiv.org/e-print/2607.19337v2"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 27,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "elying only on its asymptotic behavior pn ∼ n log n. The proof of Theorem 1.1 follows precisely this direction: besides the prime number theorem, it uses the Maynard–Tao theorem on small gaps between primes. Use of AI. The author used ChatGPT, powered by GPT-5.6 Sol Pro, during the development of this work. The key idea and an initial version of the proof of Theorem 1.1 were suggested by the model. The author also used ChatGPT to improve the English prose of the manuscript. The",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:51.886139Z"
+      },
+      "score": 353.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 35.35,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 5,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 6.75,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19276",
       "version": 1,
       "title": "A Chain-Level Borsuk--Ulam Obstruction Proof of Norine's Antipodal-Coloring Conjecture",
