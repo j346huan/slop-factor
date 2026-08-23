@@ -9522,6 +9522,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17525",
+      "version": 1,
+      "title": "Shape Theory of $\\infty$-Topoi: Inverse Limits, Products, and (Co)homology",
+      "authors": [
+        "Georg Lehner"
+      ],
+      "categories": {
+        "primary": "math.AT",
+        "secondary": [
+          "math.CT",
+          "math.GN",
+          "math.KT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T08:46:59Z",
+        "updated": "2026-08-18T08:46:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give a systematic account of the shape theory of $\\infty$-topoi, viewing the shape of an $\\infty$-topos as its generalized homotopy type. We establish the basic functorial properties of the shape, including preservation of colimits, descent, and homotopy invariance. We then prove that shape preserves cofiltered limits under compactness and perfectness hypotheses and establish Künneth-type formulas for products. Finally, we give conditions under which the shape of an $\\infty$-topos determines its cohomology and homology.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17525v1",
+        "pdf": "https://arxiv.org/pdf/2608.17525v1",
+        "source": "https://export.arxiv.org/e-print/2608.17525v1"
+      },
+      "structural_counts": {
+        "pages": 46,
+        "theorems": 28,
+        "lemmas": 12,
+        "propositions": 17,
+        "corollaries": 15,
+        "definitions": 23,
+        "displayed_equations": 303,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file shape_theory.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Project-ID 427320536–SFB 1442, as well as under Germany’s Excellence Strategy EXC 2044/2 - 390685587, Mathematics Münster: Dynamics-Geometry- Structure. Large language models were used for conceptual exploration, literature searches, and editing. The text as presented, as well as the statements and mathematical proofs given, are written by the author, who assumes full responsibility for the contents.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:28.522187Z"
+      },
+      "score": 993.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 496.75,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 46,
+          "theorems": 168,
+          "lemmas": 48,
+          "propositions": 68,
+          "corollaries": 45,
+          "definitions": 46,
+          "displayed_equations": 75.75,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17458",
       "version": 1,
       "title": "Finite Time Type I Singularities of the Kähler Ricci Flow",
