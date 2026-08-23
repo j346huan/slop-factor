@@ -8,6 +8,7 @@ import {
   countsAsCompletedScan,
   latestDateFromFeed,
   latestDateFromListing,
+  prepareApprovalBatch,
 } from "../../admin-worker/src/index.ts";
 
 describe("administrator arXiv availability", () => {
@@ -107,6 +108,83 @@ describe("approval publication", () => {
       application,
       /candidates\/\$\{item\.candidate\.issueNumber\}\/approve/,
     );
+  });
+
+  it("keeps valid approvals when another candidate lacks analysis", async () => {
+    const valid = {
+      candidate: {
+        candidate_id: "2608.00001v1",
+        paper: {
+          arxiv_id: "2608.00001",
+          version: 1,
+          title: "Test paper",
+          authors: ["Test Author"],
+          primary_category: "math.AG",
+          secondary_categories: [],
+          submitted: "2026-08-01T00:00:00Z",
+          updated: "2026-08-01T00:00:00Z",
+          abstract: "Abstract",
+          abstract_url: "https://arxiv.org/abs/2608.00001v1",
+          pdf_url: "https://arxiv.org/pdf/2608.00001v1",
+          source_url: "https://export.arxiv.org/e-print/2608.00001v1",
+        },
+        evidence: [],
+        analysis: {
+          structural_counts: {
+            pages: 1,
+            theorems: 0,
+            lemmas: 0,
+            propositions: 0,
+            corollaries: 0,
+            definitions: 0,
+            displayed_equations: 0,
+            bibliography_entries: 0,
+            appendix_pages: 0,
+          },
+          count_methods: {
+            pages: "pdf",
+            theorems: "source",
+            lemmas: "source",
+            propositions: "source",
+            corollaries: "source",
+            definitions: "source",
+            displayed_equations: "source",
+            bibliography_entries: "source",
+            appendix_pages: "estimated",
+          },
+          count_notes: [],
+        },
+      },
+      quotation: "ChatGPT was used for proofreading.",
+      locationKind: "page",
+      locationValue: "PDF page 1",
+      page: 1,
+      classification: "proofreading_grammar",
+      multiplier: 1,
+    };
+    const result = await prepareApprovalBatch(
+      [
+        valid,
+        {
+          ...valid,
+          candidate: {
+            ...valid.candidate,
+            candidate_id: "2608.00002v1",
+            analysis: undefined,
+          },
+        },
+      ],
+      "reviewer",
+      new Date("2026-08-24T00:00:00Z"),
+    );
+    assert.equal(result.records.length, 1);
+    assert.deepEqual(result.queued_ids, ["2608.00001v1"]);
+    assert.deepEqual(result.failures, [
+      {
+        arxiv_id: "2608.00002v1",
+        error: "Approval lacks eligible metadata or analysis",
+      },
+    ]);
   });
 
   it("recovers canceled approvals sequentially without stopping early", () => {
