@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24103",
+      "version": 3,
+      "title": "Existence of generalized bent functions in the exceptional $q\\equiv2\\pmod4$, odd-dimensional case",
+      "authors": [
+        "Jianing Li",
+        "Shi Ying",
+        "Shenxing Zhang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.IT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T07:41:30Z",
+        "updated": "2026-08-12T15:40:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We resolve an open problem of Kumar, Scholtz, and Welch (1985) by constructing generalized bent functions from $(\\mathbb{Z}/q\\mathbb{Z})^m$ to $\\mathbb{Z}/q\\mathbb{Z}$ in the exceptional case $q\\equiv2\\pmod4$ with $m$ odd, the case their paper left without a construction and which four decades of subsequent work had addressed only through nonexistence results. Concretely, for all integers $m\\geq d\\geq 2$ with $m=dr+2k$, $r\\geq 1$, $k\\geq 0$, we construct an explicit generalized bent function from $(\\mathbb{Z}/q\\mathbb{Z})^m$ to $\\mathbb{Z}/q\\mathbb{Z}$, where $q=2(2^d-1)$. We further show that, when $d\\ge3$, these generalized bent functions have Fourier coefficients that are not roots of unity --- all of them when $r$ is odd --- which gives a negative answer to a recent question of Armario, Egan, Kharaghani, and Ó~Catháin about bent vectors for character tables.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24103v3",
+        "pdf": "https://arxiv.org/pdf/2607.24103v3",
+        "source": "https://export.arxiv.org/e-print/2607.24103v3"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 3,
+        "lemmas": 1,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 32,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file gbf_0812.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tral Universi- ties. S. Ying is partially supported by National Key R&D Program of China (No. 2025YFA1017203). S. Zhang is partially supported by State Key Laboratory of Cyberspace Security Defense (Grant No. 2025-MS-04). Declaration of generative AI and AI-assisted technologies in the manuscript preparation process Some of the mathematical work presented in this paper was carried out with assistance from Eureka and subsequently verified by the authors. Eureka is a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:57.580691Z"
+      },
+      "score": 292,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.4,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 8,
+          "theorems": 18,
+          "lemmas": 4,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 8,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23836",
       "version": 1,
       "title": "Elementary Symmetric Polynomial Inequalities for Centered Vectors and Matrices",
