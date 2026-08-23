@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28900",
+      "version": 1,
+      "title": "Finding 59:29 in the Monster",
+      "authors": [
+        "Heiko Dietrich",
+        "Melissa Lee",
+        "Anthony Pisani",
+        "Aluna Rizzoli"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T23:43:20Z",
+        "updated": "2026-07-30T23:43:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The classification of the maximal subgroups of the Monster group has been completed recently, and explicit generators for each such subgroup (up to conjugacy) have been made available for the software mmgroup, with the exception of the maximal subgroup 59:29, see Dietrich et al. (Adv. Math., 2025; J Algebra, 2026). We provide explicit generators for this last maximal subgroup and comment on the extensive search that led to finding them. Our method is similar to, but significantly more involved than Bray et al.'s (London Math. Soc. J. Comput. Math., 2016) approach for constructing 47:23 in the Baby Monster. Our result allows us to provide a new short proof that the Monster does not have a subgroup PSL2(59), correcting a result of Holmes and Wilson (J. London Math. Soc., 2004).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28900v1",
+        "pdf": "https://arxiv.org/pdf/2607.28900v1",
+        "source": "https://export.arxiv.org/e-print/2607.28900v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 1,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 3,
+        "displayed_equations": 15,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file monster_5929.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ry job took about 2.5 hours using one CPU slot. In total, approximately 43 hours elapsed from launch- ing the full first-stage search to obtaining the generators. Remark 18. Our computational search was carried out largely autonomously by AI systems: GPT-5.6 Sol Pro produced the initial design blueprint, which OpenAI Codex then audited against mmgroup; this identified and corrected substantive problems, and eventually led to the final computational pipeline. Codex wrote the required C",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:14.986176Z"
+      },
+      "score": 174.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.25,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 10,
+          "theorems": 6,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 6,
+          "displayed_equations": 3.75,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28813",
       "version": 1,
       "title": "The Multiset Dimension of Graphs: Extremal Values and King Grids",
