@@ -42362,6 +42362,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27256",
+      "version": 1,
+      "title": "The Monster group is a completion of the Goldschmidt G3-amalgam",
+      "authors": [
+        "Heiko Dietrich"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-28T21:57:26Z",
+        "updated": "2026-07-28T21:57:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the claim in the title and complete Parker and Rowley's classification (J. Algebra 2001) of which sporadic simple groups are completions of the Goldschmidt G3-amalgam.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27256v1",
+        "pdf": "https://arxiv.org/pdf/2607.27256v1",
+        "source": "https://export.arxiv.org/e-print/2607.27256v1"
+      },
+      "structural_counts": {
+        "pages": 2,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file monsterG3amalgam.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "th this property can be constructed by multiplying any such h by random elements of CM (W ) = CCM (z1 ) (z2 ), obtained by Bray’s method [1]. We used the LLM Claude Opus to significantly improve the Python implementation for the random search described above (e.g., by using multiprocessing); with the final code, a successful construction took about",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:13.538199Z"
+      },
+      "score": 17.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 8.7,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 2,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26294",
       "version": 1,
       "title": "Asymptotic Resurgence of Facet ideals of Graphic Matroids",
