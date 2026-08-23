@@ -9026,6 +9026,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16653",
+      "version": 1,
+      "title": "Uniform Lipschitz regularity for two-phase singularly perturbed fully nonlinear elliptic equations",
+      "authors": [
+        "Thialita M. Nascimento",
+        "Aelson Sobral",
+        "Eduardo V. Teixeira"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T14:50:51Z",
+        "updated": "2026-08-17T14:50:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study sign-changing viscosity solutions of the singularly perturbed fully nonlinear equation $$ F(D^2u_\\varepsilon) = \\fracα{\\varepsilon} β\\left(\\frac{u_\\varepsilon}{\\varepsilon}\\right) \\qquad\\text{in }B_1\\subset\\mathbb R^n, $$ where $F$ is uniformly elliptic and $β\\in C_c (-1,1)$ is nonnegative. We prove the scale-sharp estimate $$ \\|\\nabla u_\\varepsilon\\|_{L^\\infty(B_{1/2})} \\leq C\\left( \\|u_\\varepsilon\\|_{L^\\infty(B_1)}+\\sqrtα\\right), $$ with $C$ depending only on the dimension, the ellipticity constants, and $β$, and independent of $\\varepsilon$ and $α$. This removes a longstanding compactness obstruction in the analysis of fully nonlinear two-phase singular perturbations. The difficulty is structural: at positive $\\varepsilon$ there is neither a free boundary nor a prescribed transmission law, while the general fully nonlinear setting provides no monotonicity formula capable of controlling the interaction of the two phases. The proof develops a diffuse counterpart of the De Silva--Savin decay-versus-Lipschitz alternative. Exact planar transitions furnish the local comparison geometry, and curved-test compactness carries this geometry across collapsing reaction layers. An intrinsic transition-region estimate reduces the problem to linear growth from buffered level boundaries. The resulting dyadic continuation is closed by a large-slope stopping argument: bounded accumulated slopes yield the desired growth directly, whereas unbounded slopes force the effective reaction strength to vanish after normalization and lead to a contradiction. The estimate is quantitatively optimal and supplies the scale-invariant compactness framework required for the subsequent sharp-interface analysis.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16653v1",
+        "pdf": "https://arxiv.org/pdf/2608.16653v1",
+        "source": "https://export.arxiv.org/e-print/2608.16653v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 3,
+        "lemmas": 9,
+        "propositions": 3,
+        "corollaries": 3,
+        "definitions": 1,
+        "displayed_equations": 257,
+        "bibliography_entries": 42,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file NST-LipReg.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "mportant to our work is the Lea Prover, a tool under development by our expMath team. Lea is designed as part of a human-centered approach to AI-assisted mathematics: it streamlines interaction with frontier models, including OpenAI’s GPT, Anthropic’s Claude, and Google’s Gemini, and serves as an auxiliary tool to compare alternative formulations, examine logical dependencies, stress-test candidate arguments, and assist with proofs. At a pivotal stage of the project, we employed Lea to expl",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:21.206699Z"
+      },
+      "score": 1419.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 177.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 32,
+          "theorems": 18,
+          "lemmas": 36,
+          "propositions": 12,
+          "corollaries": 9,
+          "definitions": 2,
+          "displayed_equations": 64.25,
+          "bibliography_entries": 4.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16641",
       "version": 1,
       "title": "Flexibility for the SQG Equation with an $L^{4/3+}$ Active Scalar",
