@@ -42020,6 +42020,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01309",
+      "version": 1,
+      "title": "Adaptive Confidence Sets for Binary Regression without Design Smoothness",
+      "authors": [
+        "P. M. Aronow",
+        "Patrick Lopatto"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T15:26:01Z",
+        "updated": "2026-08-02T15:26:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study honest adaptive confidence sets for the regression function in random-design binary regression under $L^2(dx)$ loss. Assuming only known bounds $0<c\\leq g\\leq C<\\infty$ on the unknown design density, we construct asymptotically honest, rate-adaptive confidence sets without requiring $g$ to be smooth. Full adaptation is possible when the range of regression-function smoothness spans at most a factor of two. Over wider smoothness ranges, adaptation is achieved on the usual separated classes at the corresponding testing rates $n^{-2s/(4s+d)}$. A lower bound under the uniform design shows that these separation rates are rate-optimal. This answers a question raised by Mukherjee and Sen (2018).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01309v1",
+        "pdf": "https://arxiv.org/pdf/2608.01309v1",
+        "source": "https://export.arxiv.org/e-print/2608.01309v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 231,
+        "bibliography_entries": 30,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file adaptive.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "no loss in the lower bounds, since taking closures preserves diameter and can only improve coverage. 1.8. Acknowledgments. P.L. was partially supported by NSF grant DMS-2450004. This paper was written by the authors with the assistance of large language models, which included suggesting arguments, contributing to drafting and revision, and performing exploratory computational checks. 2. Construction and proof of the main theorem The construction rests on two ingredien",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:19:13.310638Z"
+      },
+      "score": 1286,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 160.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 27,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 57.75,
+          "bibliography_entries": 3,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01286",
       "version": 1,
       "title": "Holomorphic Linear $\\C^k$-Actions, Trace Foliations, and Higher-Rank Poincaré Dynamics",
