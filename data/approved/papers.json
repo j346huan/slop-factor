@@ -42528,6 +42528,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23381",
+      "version": 3,
+      "title": "Non-Gaussianity of the Stagnation Law in Particle Swarm Optimization",
+      "authors": [
+        "Alexandra - Ionela Andriciuc",
+        "Ionel Popescu",
+        "David - Corneliu Turturean"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-25T22:04:23Z",
+        "updated": "2026-07-29T06:28:46Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study one-dimensional particle swarm optimization during stagnation, with two fixed distinct attractors and equal independent uniform acceleration ranges. The position then satisfies a second-order random affine recurrence. For inertia $w$ and acceleration range $c$, we prove that throughout the open mean-square stability region \\[ -1<w<1,\\qquad c>0,\\qquad 12(1-w^2)-c(7-5w)>0, \\] no invariant position marginal, and hence no limiting position marginal, can be Gaussian. This solves the open Problem 18 in \\cite{ParticleSwarmProblems}. The proof compares the stationary moment equations with the Gaussian moment identities through order eight. A Hermite-polynomial formulation gives explicit fourth- and sixth-order compatibility conditions whose common solutions lie on a degree-$107$ polynomial branch. Exact eighth-order equations exclude every point on that branch. The final certificate is verified using arithmetic modulo $23$ and independently modulo $1{,}000{,}003$. A separate raw-moment implementation produces exact polynomials $Q_4,Q_6,Q_8$ in $(w,c)$ and verifies the same obstruction over the rational numbers. The fourth- and sixth-order curves have a genuine admissible intersection, but the eighth-order condition removes it, showing why low-order Gaussian diagnostics are insufficient. All code, exact polynomials, logs, and plot-validation data are supplied as online resources.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23381v3",
+        "pdf": "https://arxiv.org/pdf/2607.23381v3",
+        "source": "https://export.arxiv.org/e-print/2607.23381v3"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 96,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main__2_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "njecture. Code availability. The complete verification code, plotting code, exact inputs, and expected logs are supplied at https://github.com/ioionel/PSO-and-Gaussian-Conjecture. Use of generative AI. During preparation of the manuscript, ChatGPT was used to assist with symbolic-computation scripting, manuscript organization, and language revision. Every computer-generated formula and every computational certificate reported in the paper was independently reviewed and checked by ex",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:18.655974Z"
+      },
+      "score": 249.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 83.3,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 18,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 24,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23357",
       "version": 1,
       "title": "Magnitude homology and Euler characteristics of directed acyclic graphs",
