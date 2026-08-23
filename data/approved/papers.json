@@ -8424,6 +8424,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15561",
+      "version": 1,
+      "title": "Sharp asymptotics for triangle independence and covering numbers",
+      "authors": [
+        "Zhen Liu",
+        "Qinghou Zeng"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T06:15:51Z",
+        "updated": "2026-08-16T06:15:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a graph $G$, let $α_1(G)$ be the maximum size of an edge set containing at most one edge from every triangle, and let $τ_1(G)$ be the minimum size of an edge set meeting every triangle. Erdős, Gallai, and Tuza proved that $α_1(G)+τ_1(G)=Ω(m^{2/3})$ for every $m$-edge graph and asked for the optimal asymptotic constant. We prove $$\\lim_{m\\to\\infty} \\min_{G,\\,|E(G)|=m} \\frac{α_1(G) + τ_1(G)}{m^{2/3}} = \\frac{3}{2},$$ thereby establishing that the sharp constant is $3/2$ and solving the problem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15561v1",
+        "pdf": "https://arxiv.org/pdf/2608.15561v1",
+        "source": "https://export.arxiv.org/e-print/2608.15561v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 19,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 1234.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration on the Use of Generative AI The authors used ChatGPT 5.6 Pro to assist in discussing proof strategies, checking proofs, and improving exposition. References [1] Cs. Bujtás, A. Davoodi, L. Ding, E. Győri, Zs. Tuza, and D. Yang, Covering the edges of a graph with triangles, Discrete Math",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:21.169034Z"
+      },
+      "score": 218.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 27.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 5,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 4.75,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15558",
       "version": 1,
       "title": "A Counterexample to the Tang Zhang Schatten Norm Conjecture and Sharp Positive Results",
