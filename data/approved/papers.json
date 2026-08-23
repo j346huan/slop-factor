@@ -8597,6 +8597,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14475",
+      "version": 1,
+      "title": "Finite Gaussian Reconstruction of Polynomial Orbits: From Correlated Moments to Oscillatory Periods",
+      "authors": [
+        "Obayda Julien Assaad"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.AC",
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T16:54:20Z",
+        "updated": "2026-08-14T16:54:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $P$ be a real polynomial of degree at most $m$ on $\\mathbb{R}^d$, and let $X$ be standard Gaussian. Because Gaussian observations are invariant under $O(d)$, the natural inverse problem is to recover the orthogonal orbit of $P$; the law of $P(X)$ alone is generally insufficient. We prove that a prescribed finite family of mixed moments of correlated Gaussian replicas, $$ M_{P,r}(Σ)=\\mathbb{E}\\prod_{a=1}^r P(X_a), $$ separates $O(d)$-orbits. We construct an explicit replica cutoff and rational covariance grids satisfying $$ \\frac{1}{2}I_r\\preceqΣ\\preceq\\frac{3}{2}I_r. $$ Finite differences recover all complete Wick contractions needed by invariant theory, giving an exact finite decoder. The resulting probe map is bi-H\"older equivalent to orbit distance on coefficient balls, with an effective exponent. We then identify the same certificate in an irregular period system. Replicated characteristic functions are polynomial oscillatory periods, and their mixed derivatives at zero are the moments above. If the leading homogeneous part of $P$ has an isolated critical point, the active-replica face indexed by $I$ has twisted de Rham rank $(m-1)^{d|I|}$; zero coupling is therefore a rank-changing boundary. The forced scaling $$ τ_a=ρ^{m-2}λ_a,\\qquad x_a=ρ^{-1}u_a $$ produces compatible Rees--Jacobi lattices and, under central nonresonance, a canonical rank-one Gaussian branch. On admissible tame Morse chambers, the period matrix factors into algebraic Jacobi, sectorial thimble, and integral Betti components. Projecting the assembled real-contour period onto the Gaussian branch recovers exactly the finite orbit certificate.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14475v1",
+        "pdf": "https://arxiv.org/pdf/2608.14475v1",
+        "source": "https://export.arxiv.org/e-print/2608.14475v1"
+      },
+      "structural_counts": {
+        "pages": 54,
+        "theorems": 15,
+        "lemmas": 3,
+        "propositions": 13,
+        "corollaries": 13,
+        "definitions": 3,
+        "displayed_equations": 385,
+        "bibliography_entries": 33,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file stokes_torelli_submission__2_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "funding agencies in the public, commercial, or not-for-profit sectors. Competing interests. The author declares no competing interests. Data availability. No data were used for the research described in this article. Disclosure of AI Use Large language models, ChatGPT (OpenAI), were used initially to help relate calculations developed by the author to relevant mathematical frameworks and references. ChatGPT also identified a problem in an earlier version of one theorem concerning the separation",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 53",
+          "page": 53
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:45.663044Z"
+      },
+      "score": 2820.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 352.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 54,
+          "theorems": 90,
+          "lemmas": 12,
+          "propositions": 52,
+          "corollaries": 39,
+          "definitions": 6,
+          "displayed_equations": 96.25,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14454",
       "version": 1,
       "title": "The Erdős distinct distances problem in $\\mathbb{R}^3$",
