@@ -9527,6 +9527,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13755",
+      "version": 1,
+      "title": "Best Response Dynamics for Zero-Sum Dynamic Games with Partial-Asymmetric Information",
+      "authors": [
+        "Yuxiang Guan",
+        "Iman Shames",
+        "Tyler H. Summers"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T20:33:29Z",
+        "updated": "2026-08-13T20:33:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This work studies a class of zero-sum stochastic linear quadratic dynamic games (LQDGs) under partial and asymmetric information. Information asymmetry introduces fundamental challenges related to \\textit{belief representation} and \\textit{theory of mind}, where players must impute belief states and estimates of other players to inform their strategies. Existing work highlights the difficulty of applying dynamic programming-like decomposition approach to these problems. An alternative approach based on \\textit{best response dynamics} is proposed, which provides insights into belief representation and theory of mind challenges. Explicit expressions for each player's best response within the class of pure linear dynamic output feedback control strategies are derived, where the internal state dimension of each control is an integer multiple of the system state dimension. As players iteratively update their best responses, they form increasingly higher-order belief states, leading to infinite-dimensional internal states. However, numerical results reveal that the game's value converges after only a few iterations, suggesting that higher-order belief states provide vanishing benefit. This work further conducts numerical experiments to analyze the impact of asymmetric beliefs, belief orders, relative controllability and observability, and direct feed-through on a linear quadratic pursuit-evasion game's value.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13755v1",
+        "pdf": "https://arxiv.org/pdf/2608.13755v1",
+        "source": "https://export.arxiv.org/e-print/2608.13755v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 79,
+        "bibliography_entries": 82,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file revision_v3.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "and FA2386-24-1-4014, and by the National Science Foundation under Grant ECCS-2047040. Acknowledgments During the preparation of this manuscript, the author(s) used Claude (Anthropic; versions Sonnet 4.6 and Sonnet 5) to check grammar and improve the clarity and flow of the written content. After using this tool, the author(s) reviewed and edited the content as needed and take full responsibility for the content of t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:11.996316Z"
+      },
+      "score": 295.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 73.95,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 34,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 19.75,
+          "bibliography_entries": 8.2,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13747",
       "version": 1,
       "title": "The small Davenport constant of the Heisenberg group of order 343",
