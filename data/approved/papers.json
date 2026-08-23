@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00457",
+      "version": 1,
+      "title": "Balanced Bismut torsion-parallel fourfold with constant holomorphic sectional curvature",
+      "authors": [
+        "Qingsong Wang",
+        "Fangyang Zheng"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-01T05:47:50Z",
+        "updated": "2026-08-01T05:47:50Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An old conjecture in non-Kähler geometry states that, if a compact Hermitian manifold has constant holomorphic sectional curvature, then the metric must be Kähler (when the constant is non-zero) or Chern flat (when the constant is zero). It is known to be true in complex dimension $2$ by the work of Balas and Gauduchon in 1985 (when the constant is negative or zero) and Apostolov, Davidov and Muskarov in 1996 (in general). In dimension $3$ or higher, the conjecture is only known in some special cases, such as for all twistor spaces by the work of Davidov, Grantcharov, and Muskarov, or for the locally conformally Kähler case (when the constant is negative or zero) by the work of H. Chen, L. Chen and Nie, or for all non-balanced Bismut torsion parallel (BTP) manifolds by the work of S. Chen and Zheng, where they also showed that the conjecture holds for all balanced BTP threefolds, utilizing a classification result by Zhao and Zheng. In this article, we show that the conjecture is valid for all balanced BTP manifolds in complex dimension $4$. The interesting part is that while balanced BTP manifolds are highly restrictive, the classification is still lacking in dimensions $4$ or higher, and this study might shed some light on the structure of balanced BTP manifolds in dimension $4$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00457v1",
+        "pdf": "https://arxiv.org/pdf/2608.00457v1",
+        "source": "https://export.arxiv.org/e-print/2608.00457v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 1,
+        "lemmas": 6,
+        "propositions": 6,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 88,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file BTP4D_260821.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "interest and helpful discussion. He is very grateful to Quanting Zhao for their long collaboration on BTP manifolds and numerous discussions. Declaration on generative AI use. At an earlier stage of this study, a suggestion gen- erated by GPT-5.5 Pro [1] led us to test the corrected algebraic reductions by a brute-force Gröbner-basis calculation for the case of balanced BTP fourfold with non-zero constant Chern holomorphic sectional curvature. We subsequently carried out this comp",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:27.607999Z"
+      },
+      "score": 298.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 99.4,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 18,
+          "theorems": 6,
+          "lemmas": 24,
+          "propositions": 24,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 22,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00256",
       "version": 1,
       "title": "Naturality in real Heegaard Floer theory",
