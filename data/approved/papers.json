@@ -43888,6 +43888,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13424",
+      "version": 1,
+      "title": "Domination-packing ratio for planar and unit disk graphs",
+      "authors": [
+        "Wouter Cames van Batenburg"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-15T03:55:11Z",
+        "updated": "2026-07-15T03:55:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The domination number $γ(G)$ of a graph $G$ is the smallest possible size of a vertex set that intersects every radius-$1$ ball of $G$, and the packing number $ρ(G)$ is the maximum number of pairwise vertex-disjoint radius-$1$ balls. We prove that $\\frac{γ(G)}{ρ(G)}\\le 5$ for every planar graph and $\\frac{γ(G)}{ρ(G)} \\le \\frac{18\\sqrt3}π\\approx 9.924$ for every unit disk graph, thus yielding Erdős-Pósa-type bounds for the hypergraph of radius-$1$ balls in the two graph classes. This improves upon results of Gutiérrez and Paul, and Dúcz and Gujgiczer, who in turn lowered bounds of Bonamy, Csikós, Gujgiczer and Yuditsky, and Böhme and Mohar. For both graph classes, the best known lower bound on the optimal constant remains $3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13424v1",
+        "pdf": "https://arxiv.org/pdf/2607.13424v1",
+        "source": "https://export.arxiv.org/e-print/2607.13424v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 15,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv_Domination_for_planar_and_unit_distance_15july2026.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "livray and Seyffarth [MS96, Theorem 1]. For its extension to arbitrary X, the separation and connector arguments of [GH02], particularly Lemma 13, appear relevant but in need of multiple pages of proof. The latter approach was suggested by ChatGPT 5.6 Sol in the final phase of this project, when we uploaded this draft and asked it to find this specific improvement. Since we prefer to keep the note short and easy to follow, we do not pursue that technical extension here. Upon asking",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:26.965982Z"
+      },
+      "score": 292.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.55,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 10,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 3.75,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13401",
       "version": 1,
       "title": "Total variation cutoff for Kac's walk on the sphere",
