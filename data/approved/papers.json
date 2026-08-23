@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00982",
+      "version": 1,
+      "title": "GL-algebras in positive characteristic III: the divided power algebra",
+      "authors": [
+        "Karthik Ganapathy"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": [
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T04:27:19Z",
+        "updated": "2026-08-02T04:27:19Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we study GL-equivariant modules over the infinite-variable divided power algebra $D = \\text{Div}(k^{\\infty})$ with $k$ an algebraically closed field of characteristic $p > 0$. Unlike previously analyzed GL-algebras, the divided power algebra is not noetherian or even finitely generated. We show that $D$ is GL-coherent and prove a ``shift theorem'' for finitely presented $D$-modules. Using this, we obtain a (semi-infinite) semi-orthogonal decomposition of its bounded derived category with one piece corresponding to each Frobenius twist $D^{(r)}$ of $D$. Crucial to our approach is the fact that $D$ is a flat colimit of subalgebras which are GL-noetherian.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00982v1",
+        "pdf": "https://arxiv.org/pdf/2608.00982v1",
+        "source": "https://export.arxiv.org/e-print/2608.00982v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 10,
+        "lemmas": 43,
+        "propositions": 24,
+        "corollaries": 12,
+        "definitions": 7,
+        "displayed_equations": 49,
+        "bibliography_entries": 31,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "is GL-coherent) All tensor products ⊗ are over k unless denoted otherwise. Acknowledgements. The author thanks Steven Sam for helpful discussions and Kent Vashaw for helpful references. Disclosure of LLM use. The author used Claude Opus 4.8 and Fable 5 to revise the paper; these models identified gaps in the proofs of some results and errors in some statements that substantially changed the mathematical meaning; all such issues were corrected by the author.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:08.404566Z"
+      },
+      "score": 1709.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 427.35,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 34,
+          "theorems": 60,
+          "lemmas": 172,
+          "propositions": 96,
+          "corollaries": 36,
+          "definitions": 14,
+          "displayed_equations": 12.25,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00900",
       "version": 1,
       "title": "An explicit construction of two completely independent spanning trees in the four-dimensional dual-cube",
