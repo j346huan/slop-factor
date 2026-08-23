@@ -41770,6 +41770,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18118",
+      "version": 1,
+      "title": "Formal Safety Verification for Nonlinear Systems with Generative Barrier Certificate",
+      "authors": [
+        "Mengxin Ren",
+        "Hanrui Zhao"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "eess.SY"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-13T13:01:40Z",
+        "updated": "2026-07-13T13:01:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Safety verification is a fundamental problem in control theory. Barrier certificates (BCs) provide a powerful formal mechanism, yet deriving BCs is computationally intensive. This paper introduces a generative framework that leverages large language models (LLMs) to synthesize BCs through reasoning. Based on the classical Sum-of-Squares (SOS) approach, we train a domain-specific LLM capable of generating high-quality BC candidates for nonlinear systems. Then, the LLM-generated BCs transform the intractable Bilinear Matrix Inequality (BMI) solving problems into convex Linear Matrix Inequality (LMI) feasibility test, significantly improving efficiency while preserving correctness. Experimental results show that our generative method achieves several orders of magnitude speedup over traditional numerical BC approaches and, perhaps surprisingly, surpasses the state-of-the-art dedicated neural BC model. These findings mark a substantive step toward integrating generative AI with formal safety verification for dynamical systems.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18118v1",
+        "pdf": "https://arxiv.org/pdf/2608.18118v1",
+        "source": "https://export.arxiv.org/e-print/2608.18118v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 3,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 23,
+        "bibliography_entries": 96,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "erages large language models (LLMs) to synthesize BCs through reasoning. Based on the classical Sum-of-Squares (SOS) approach, we train a domain-specific LLM capable of generating high-quality BC candidates for nonlinear systems. Then, the LLM-generated BCs transform the intractable Bilinear Matrix Inequality (BMI) solving problems into convex Linear Matrix Inequality (LMI) feasibility test, significantly improving efficiency while preserving correctness. Experimental results sh",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:51:38.655215Z"
+      },
+      "score": 423.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 42.35,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 7,
+          "theorems": 18,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 5.75,
+          "bibliography_entries": 9.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.11391",
       "version": 5,
       "title": "Performance evaluation of branch-free fused multiply-add algorithms for multi-component-type multiple-precision floating-point arithmetic",
