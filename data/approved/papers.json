@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20731",
+      "version": 1,
+      "title": "Rule-Induced Behavior of Fuzzy Scalar Objective Functions for Reliable Multi-Criteria Decision Making",
+      "authors": [
+        "Olaf Frommann"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.CE"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-22T21:07:35Z",
+        "updated": "2026-07-22T21:07:35Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Fuzzy-rule-based scalar objective functions provide a flexible way to encode qualitative preferences, reference regions, and interactions between criteria in multi-criteria optimization and decision making. However, the scalar preference landscape induced by such rules can differ substantially from the intended decision semantics. This paper investigates how membership placement, implicit single-criterion baseline rules, and explicit rule consequents affect the behavior of fuzzy scalar objective functions. Two analytically controlled bi-criteria Pareto fronts and an embedded two-dimensional dominated-reference formulation are used to separate front-selection mechanisms from reference improvement behavior. The study shows that apparent reference following can be caused by flat rule-activation plateaus, whereas genuine reference following requires localized minima with low tie ambiguity. In the dominated-reference setting, global memberships with competing consequents recover robust Pareto tradeoffs but do not necessarily improve each reference design. By contrast, a reference-based three-class rule set consistently improves dominated references, recovers the Pareto set, and avoids plateau-driven selection in the present tests. The results provide diagnostic metrics and practical guidance for constructing fuzzy scalarizations whose optimization behavior is consistent with the intended decision semantics.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20731v1",
+        "pdf": "https://arxiv.org/pdf/2607.20731v1",
+        "source": "https://export.arxiv.org/e-print/2607.20731v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 53,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "vendored FuzzyGoal 1.2.0 dependency snapshot are archived on Zenodo at https://doi.org/10.5281/zenodo.21310754. Declarations No specific funding was received for conducting this study. The author declares no relevant competing interests. Generative AI assistance was used for language editing, documentation structuring, drafting support, and consistency checks; the author reviewed and validated the final manuscript and remains fully responsible for its content. References [1] Richard",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:33.140613Z"
+      },
+      "score": 171.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 34.25,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 19,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 13.25,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20724",
       "version": 1,
       "title": "Application of the Combinatorial Nullstellensatz to magic-type graph labelings",
