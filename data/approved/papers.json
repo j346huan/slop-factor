@@ -8425,6 +8425,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12415",
+      "version": 1,
+      "title": "Sharp Phase Transition for Ellipsoid Fitting",
+      "authors": [
+        "Sofia de la Cerda",
+        "Aaron Potechin",
+        "Madhur Tulsiani",
+        "Jeff Xu"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T04:09:06Z",
+        "updated": "2026-08-12T04:09:06Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We resolve the ellipsoid fitting conjecture of Saunderson, Chandrasekaran, Parrilo, and Willsky up to a vanishing factor. Concretely, for $m$ independent Gaussian points in dimension $d$, we show that with high probability, for $m \\leq (1-o_d(1)) \\cdot d^2/4$, there exists a centered ellipsoid passing through all $m$ points; for $m\\geq (1+o_d(1) )\\cdot d^2/4$, no such ellipsoid exists. This confirms that the ellipsoid fitting problem has a sharp phase transition at $d^2/4$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12415v1",
+        "pdf": "https://arxiv.org/pdf/2608.12415v1",
+        "source": "https://export.arxiv.org/e-print/2608.12415v1"
+      },
+      "structural_counts": {
+        "pages": 116,
+        "theorems": 4,
+        "lemmas": 15,
+        "propositions": 27,
+        "corollaries": 5,
+        "definitions": 39,
+        "displayed_equations": 614,
+        "bibliography_entries": 1383,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "cknowledgments We are grateful to Sidhanth Mohanty for bringing the independent, concurrent work to our attention. We also thank Frederic Koehler and Youngtak Sohn for coordinating the preparation of the manuscripts. AI Disclosure We used generative AI tools to help polish the writing. All the conceptual contributions are our own, and we take full responsibility for any errors. We also note that the connection to the prior work of [KNH25] was brought to the attention of one of the author",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:57.582250Z"
+      },
+      "score": 2771.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 692.8,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 116,
+          "theorems": 24,
+          "lemmas": 60,
+          "propositions": 108,
+          "corollaries": 15,
+          "definitions": 78,
+          "displayed_equations": 153.5,
+          "bibliography_entries": 138.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11598",
       "version": 1,
       "title": "Sobriety of Regular Open Algebras in Second-Countable T3 Spaces",
