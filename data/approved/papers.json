@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09879",
+      "version": 2,
+      "title": "Maximizing the algebraic connectivity of graphs of given order and size: a proof of a conjecture of Kolokolnikov",
+      "authors": [
+        "Sebastian M. Cioabă",
+        "Abhay Jayarajan",
+        "M. Rajesh Kannan",
+        "Rahul Roy"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T17:32:53Z",
+        "updated": "2026-08-13T17:44:34Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The algebraic connectivity of a graph $G$ is a well-studied graph invariant that is related to other properties of the graph such as connectivity and expansion. Given $n$ and $m$, $α(n,m)$ is the maximum algebraic connectivity of a graph with $n$ vertices and $m$ edges. In 2015, Kolokolnikov conjectured that $α(n,2n-4)=2$ for $n\\geq 4$, and verified this claim computationally for $n \\le 12$. In this paper, we prove Kolokolnikov's conjecture. We also show that $α(n,3(n-3)) = 3$ is false in general. %Combined with the computational verification for $n \\le 12$, this yields $α(n,2n-4)=2$ for all admissible values of $n$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09879v2",
+        "pdf": "https://arxiv.org/pdf/2608.09879v2",
+        "source": "https://export.arxiv.org/e-print/2608.09879v2"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 7,
+        "lemmas": 8,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 107,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file document.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "annan acknowledges financial support from ANRF-CRG, India (File No. CRG/2023/002747). Rahul Roy thanks the University Grants Commission (UGC), India, for financial support (NTA Ref. No. 231610209574). The authors acknowledge the use of ChatGPT for improving the exposition of the manuscript, refining some of the proofs and constructing the example. All mathematical statements have been independently verified by the authors, who are solely responsible for the correctness of the re",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:14.206256Z"
+      },
+      "score": 1037.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 129.65,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 27,
+          "theorems": 42,
+          "lemmas": 32,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 26.75,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09777",
       "version": 1,
       "title": "A pre-triangulated category which is not triangulated",
