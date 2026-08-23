@@ -9528,6 +9528,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17748",
+      "version": 2,
+      "title": "A strongly compact cardinal yields a left and right coherent ring with $\\mathcal{PGF}(R)\\subsetneq\\mathcal{GP}(R)$",
+      "authors": [
+        "Chencheng Zhang"
+      ],
+      "categories": {
+        "primary": "math.RA",
+        "secondary": [
+          "math.AC",
+          "math.LO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T13:12:02Z",
+        "updated": "2026-08-19T05:55:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a ring $R$, let $\\mathcal{GP}(R)$, $\\mathcal{GF}(R)$, and $\\mathcal{PGF}(R)$ denote the classes of Gorenstein projective, Gorenstein flat, and projectively coresolved Gorenstein flat left $R$-modules, respectively. We isolate the local ultrafilter hypothesis $\\textsf{LUH}$: the existence of a strongly compact cardinal implies $\\textsf{LUH}$, while $\\textsf{LUH}$ implies the existence of a measurable cardinal. Assuming $\\textsf{LUH}$, we construct a left and right coherent ring $R$ and a strongly Gorenstein projective left $R$-module $G$ which is not Gorenstein flat; hence $\\mathcal{PGF}(R)\\subsetneq\\mathcal{GP}(R)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17748v2",
+        "pdf": "https://arxiv.org/pdf/2608.17748v2",
+        "source": "https://export.arxiv.org/e-print/2608.17748v2"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 3,
+        "lemmas": 19,
+        "propositions": 15,
+        "corollaries": 2,
+        "definitions": 20,
+        "displayed_equations": 281,
+        "bibliography_entries": 35,
+        "appendix_pages": 40
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "with PGF (R) ̸= GP(R). It also assisted in weakening the strongly compact cardinal hypothesis to the local ultrafilter hypothesis LUH and in strengthening the construc- tion from a one-sided coherent ring to a left and right coherent ring. GPT-5.6 Sol was used for an additional adversarial review and revision of the manuscript. The author independently verified all mathematical statements, proofs, and citations in the final manuscript and takes full responsibility for its content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 40",
+          "page": 40
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:23:03.090172Z"
+      },
+      "score": 3947.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 394.75,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 41,
+          "theorems": 18,
+          "lemmas": 76,
+          "propositions": 60,
+          "corollaries": 6,
+          "definitions": 40,
+          "displayed_equations": 70.25,
+          "bibliography_entries": 3.5,
+          "appendix_pages": 80
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17743",
       "version": 1,
       "title": "A $5/8$ Lower Bound on the Banach-Mazur Distance to the Cross-Polytope",
