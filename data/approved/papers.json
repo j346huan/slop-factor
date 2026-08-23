@@ -41766,6 +41766,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19560",
+      "version": 1,
+      "title": "Twisted Deligne products of semisimple tensor categories",
+      "authors": [
+        "Pavel Etingof",
+        "Dmitri Nikshych",
+        "Victor Ostrik"
+      ],
+      "categories": {
+        "primary": "math.CT",
+        "secondary": [
+          "math.QA",
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T20:35:50Z",
+        "updated": "2026-07-21T20:35:50Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We discuss the classification of twisted Deligne products of two semisimple tensor categories $\\mathcal C,\\mathcal D$, i.e., categorifications of the tensor product of their Grothendieck rings in which the factors are categorified by $\\mathcal C$ and $\\mathcal D$. In particular, we show that if both factors have no non-trivial gradings, or if one factor has neither non-trivial gradings nor tensor structures on the identity functor, then the only twisted Deligne product is the ordinary one. Using the work arXiv:2405.10207 by Müller, Peña Pollastri and Plavnik, this gives, in principle, a group-theoretical classification of twisted Deligne products and, more generally, exact factorizations of arbitrary fusion categories. In the Appendix we introduce the notion of categorical $n$-cocycles for $n=2,3,4$ and show that they are all pullbacks of group $n$-cocycles from the universal grading group of the underlying based ring. In the case of $4$-cocycles, this answers a question of Johnson-Freyd, Ostrik and Yu from arXiv:2601.09060.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19560v1",
+        "pdf": "https://arxiv.org/pdf/2607.19560v1",
+        "source": "https://export.arxiv.org/e-print/2607.19560v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 5,
+        "lemmas": 6,
+        "propositions": 7,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 141,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file twistedproductsfin.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "-cocycles on the universal grading group of the underlying based ring. In the case of 4-cocycles, this answers a question of Johnson-Freyd, Ostrik and Yu. Acknowledgements. In this paper, especially in the Appendix, we collaborated with ChatGPT 5.5 Pro. The work of P.E. was supported by the NSF grants DMS-2001318 and DMS-2502467. The work of D.N. was supported by the National Science Foundation under Grant No. DMS-2302267. 3",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:21.693938Z"
+      },
+      "score": 1284.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 160.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 32,
+          "theorems": 30,
+          "lemmas": 24,
+          "propositions": 28,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 35.25,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19500",
       "version": 1,
       "title": "Robust Hierarchical Matrix Compression of Acoustic Volume and Boundary Integral Operators",
