@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11863",
+      "version": 1,
+      "title": "Sharp bounds for frame counts and setwise stabilizers in classical groups",
+      "authors": [
+        "Kaloyan Slavov"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T09:49:01Z",
+        "updated": "2026-08-12T09:49:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $k$ be a field, let $V=k^n$, and let $G$ be a classical group acting on $V$. For a finite subset $E\\subset V$ and a basis $u=(u_1,\\dots,u_n)$ of $V$, we study the set of $G$-frames of type $u$ contained in $E$, or, equivalently, the set $T_{E,u}^G:=\\{g\\in G(k)\\ |\\ g u_i\\in E\\text{ for each $i$}\\}$. In the cases described below, we prove estimates of the form $|T_{E,u}^G|\\ll_n |E|^α$ that are uniform over all fields, with sharp exponents in this uniform setting. For $G=\\operatorname{SL}_n$, the uniform sharp exponent is $n-1/n$. For orthogonal groups in dimensions $n=2,3$, with $\\operatorname{char}(k)\\neq 2$, the uniform sharp exponent is $n/2$. We propose an algebro-geometric Brascamp--Lieb inequality which would lead to the orthogonal exponent $n/2$ in all dimensions. For the related setwise stabilizer $R_E^G$ of $E$ in $G(k)$, where $E\\subset V$ is finite and spans $V$, we also prove the sharp characteristic-zero bound $|R_E^G|\\ll_n E|^{\\operatorname{rank}G}$ for the special linear, orthogonal, and symplectic groups, where $\\operatorname{rank}G$ denotes the absolute rank.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11863v1",
+        "pdf": "https://arxiv.org/pdf/2608.11863v1",
+        "source": "https://export.arxiv.org/e-print/2608.11863v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 8,
+        "lemmas": 9,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 159,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Combining the reduction to the abelian case with Lemma 44 and Proposition 46 completes the proof of Theorem 15. AI Disclosure This work was developed through extensive prompt interactions with OpenAI’s ChatGPT 5.5 Pro model. The proofs in the manuscript originated from model-generated proposals. The model also suggested the statement of Proposition 25 and identified the Brascamp–Lieb analogy that led to the formulation of Conjectures 8, 39, and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:06.715797Z"
+      },
+      "score": 1879.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 187.95,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 32,
+          "theorems": 48,
+          "lemmas": 36,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 39.75,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11723",
       "version": 1,
       "title": "Every 2-Subdivision of a Cubic Graph Is Antimagic",
