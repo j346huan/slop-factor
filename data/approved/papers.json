@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21761",
+      "version": 1,
+      "title": "Encoding orders and trees in real-valued functions",
+      "authors": [
+        "G Conant",
+        "C Terry"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.LG",
+          "math.LO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-23T19:23:48Z",
+        "updated": "2026-07-23T19:23:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove function-theoretic analogues of a quantitative result of Hodges on extracting the order property from a sufficiently large 2-tree coded in a binary relation. Similar analogues for functions were previously obtained by Daskalakis and Golowich and by Anderson and Benedikt. These results are from statistical learning theory, where 2-trees are captured by sequential fat-shattering dimension, and the order property is controlled by various notions of \"thresholds\". Our first main result (Theorem 1.11) focuses on extracting a less restrictive kind of threshold from a tree, and yields significantly better bounds compared to what can be obtained from earlier results focusing on more restrictive versions. Part of the motivation for Theorem 1.11 lies in a companion paper, where this theorem is used to obtain efficient bounds in quantitative regularity lemmas for \"stable functions\". Here will use Theorem 1.11 to reprove a result of Anderson and Benedikt in a stronger form and with improved bounds. We also use Theorem 1.11 to prove an at most double-exponential bound on dual sequential fat-shattering, which resolves an open problem. In our second main result (Theorem 1.14), we give a new proof of a result of Daskalakis and Golowich on extracting \"tight thresholds\" from large sequential fat-shattering dimension, with improved bounds. This resolves another open problem related to correcting the proof of a result claimed by Jung, Kim, and Tewari.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21761v1",
+        "pdf": "https://arxiv.org/pdf/2607.21761v1",
+        "source": "https://export.arxiv.org/e-print/2607.21761v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 7,
+        "lemmas": 4,
+        "propositions": 7,
+        "corollaries": 4,
+        "definitions": 14,
+        "displayed_equations": 65,
+        "bibliography_entries": 22,
+        "appendix_pages": 7
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file CT-hodges-arxiv1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "because of our particular indexing convention for trees (see the footnote prior to Definition 1.1). Acknowledgments Humans. The authors thank Aaron Anderson for comments on a preliminary draft. AI. ChatGPT was used for proofreading and for finding several relevant and useful results in the literature. It also made the following mathematical contributions: (1) Proposition 3.4 was provided by ChatGPT upon direct request. (2) Our original proof",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:16.125961Z"
+      },
+      "score": 1854.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 185.45,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 27,
+          "theorems": 42,
+          "lemmas": 16,
+          "propositions": 28,
+          "corollaries": 12,
+          "definitions": 28,
+          "displayed_equations": 16.25,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 14
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21589",
       "version": 1,
       "title": "The Frankl--Tokushige product conjectures for $r$-cross-intersecting families",
