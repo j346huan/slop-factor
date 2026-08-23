@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23459",
+      "version": 1,
+      "title": "Odd-primary torsion in the homology of unordered configurations on the torus",
+      "authors": [
+        "Najib Idrissi",
+        "Victor Roca i Lucio"
+      ],
+      "categories": {
+        "primary": "math.AT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T05:01:39Z",
+        "updated": "2026-07-26T05:01:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $B_k(Σ_1)$ denote the unordered configuration space of $k$ points in the torus $Σ_1$. For every odd prime $p$, we prove that $H_*(B_k(Σ_1);\\mathbb{Z})$ has no $p$-torsion for $k\\leq 2p-1$. At the threshold $k=2p$, we prove that $H_{2p-2}(B_{2p}(Σ_1);\\mathbb{Z})$ has $p$-torsion if and only if $p\\geq 5$. For $p\\geq5$, the class is the image under puncture filling of the unique Bianchi--Stavrou order-$p$ class on the once-punctured torus; for $p=3$, Napolitano's calculation shows that this punctured class dies after filling. We also prove that $H_{2p}(B_{2p}(Σ_1);\\mathbb{Z})$ and $H_{2p+1}(B_{2p}(Σ_1);\\mathbb{Z})$ have no $p$-torsion for every odd $p$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23459v1",
+        "pdf": "https://arxiv.org/pdf/2607.23459v1",
+        "source": "https://export.arxiv.org/e-print/2607.23459v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 5,
+        "lemmas": 16,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 117,
+        "bibliography_entries": 34,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file article.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Large language models supplied by Anthropic and OpenAI were used during the mathematical work for literature discovery and brainstorming, and during the writing for language editing. An LLM also drew attention to the issue discussed in Remark 3.11. Every cited",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:28.393995Z"
+      },
+      "score": 706.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 176.65,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 25,
+          "theorems": 30,
+          "lemmas": 64,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 29.25,
+          "bibliography_entries": 3.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23391",
       "version": 1,
       "title": "The symmetric V-cycle can diverge under the multigrid axioms for cell-centred discretisations",
