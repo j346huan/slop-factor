@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14038",
+      "version": 1,
+      "title": "Local and global average degree in bipartite graphs",
+      "authors": [
+        "Jianfeng Hou",
+        "Hongbin Zhao"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T17:07:55Z",
+        "updated": "2026-07-15T17:07:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $F_{\\mathrm{bip}}(n)$ denote the maximum, over all $n$-vertex bipartite graphs without isolated vertices, of the ratio of the minimum local average degree to the global average degree. We prove that $F_{\\mathrm{bip}}(n)=\\frac14\\sqrt n+\\frac38+o(1)$. This answers a problem posed by Tuza.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14038v1",
+        "pdf": "https://arxiv.org/pdf/2607.14038v1",
+        "source": "https://export.arxiv.org/e-print/2607.14038v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 40,
+        "bibliography_entries": 3,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "them would obscure the main argument. We therefore leave these questions open and retain the √ clean asymptotic statement Fbip (n) = 14 n + 38 + o(1). Declaration on the use of AI The authors used generative AI tools to assist in discussing proof strategies, checking proofs, and improving exposition. All mathematical arguments, results, and conclusions were reviewed and verified by the authors. References [1] E. Bertram, P. Erdős, P. Horák, J.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:20.500152Z"
+      },
+      "score": 266.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 33.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 9,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 10,
+          "bibliography_entries": 0.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13888",
       "version": 1,
       "title": "An Order-One Lower Bound on the Error of Scalable Generalized Multiscale Finite Element Space Constructions",
