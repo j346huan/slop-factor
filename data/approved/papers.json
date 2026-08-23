@@ -43650,6 +43650,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22971",
+      "version": 2,
+      "title": "On the Order-Conditional Optimality of Gaffke's Bound",
+      "authors": [
+        "George Bissias",
+        "Erik Learned-Miller"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "cs.LG",
+          "math.PR",
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T00:40:52Z",
+        "updated": "2026-07-28T12:03:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $X = (X_1, \\ldots, X_n)$ be a random vector from any Borel probability law on $\\mathbb{R}_+^n$. We revisit the problem of deriving a lower confidence bound (LCB) on a scalar parameter of that law. We recast classical work, beginning with Buehler, in purely probabilistic terms to form a more accessible and extensible framework. We then specialize the framework to the case where the components of $X$ are independent. In this context, we prove that Gaffke's bound is Buehler optimal for the order that it induces with respect to the maximum marginal mean parameter: $max_{i \\in [n]} E_Q[X_i]$, which reduces to the common mean when the $X_i$ are independent and identically distributed. That is to say, no other valid LCB that orders samples in the same way as Gaffke's bound can improve on it with respect to this parameter.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22971v2",
+        "pdf": "https://arxiv.org/pdf/2607.22971v2",
+        "source": "https://export.arxiv.org/e-print/2607.22971v2"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 7,
+        "lemmas": 0,
+        "propositions": 11,
+        "corollaries": 2,
+        "definitions": 20,
+        "displayed_equations": 72,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "respect to the total preorder it induces and are approximated from above by a family of product laws whose marginals are supported on at most two points. We went on to show that Gaffke’s bound fits these same criteria. 8 Disclosure AI tools were used in the preparation of this document. The authors assume sole responsibility for any errors or omissions. References [1] Jerzy Neyman. “Outline of a Theory of Statistical Estimation Based on the Classical Theory of Prob-",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:55.085004Z"
+      },
+      "score": 656.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 164.2,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 13,
+          "theorems": 42,
+          "lemmas": 0,
+          "propositions": 44,
+          "corollaries": 6,
+          "definitions": 40,
+          "displayed_equations": 18,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22946",
       "version": 1,
       "title": "A note on simple actions of small monoids",
