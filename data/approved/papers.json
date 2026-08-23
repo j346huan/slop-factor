@@ -8761,6 +8761,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08679",
+      "version": 1,
+      "title": "Forcing Quasirandomness via Rooted F-Densities",
+      "authors": [
+        "Heng Li",
+        "Xizhi Liu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-09T12:50:42Z",
+        "updated": "2026-08-09T12:50:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $F$ be a finite graph with at least one edge, and let $W$ be a graphon. We show that if the density of $F$ rooted at each edge is almost everywhere constant, then either $t(F,W)=0$ or $W$ is constant. For edge-transitive $F$, one rooted equation suffices. This recovers the edge-rooted triangle theorem of Reiher and Schacht. In their terminology, our result also shows that every clique is $2$-forcing, answering a question they posed. We give an explicit stability estimate when $W$ is bounded away from zero. Our proof has two steps: an entropy argument turns constant rooted densities into an additive identity for $\\log W$, and a Hoeffding decomposition determines all solutions of that identity. The same method gives exact classifications and quantitative stability estimates for symmetric uniform hyperkernels, dissociated Aldous--Hoover hypergraphons, directed kernels, and tournamentons.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08679v1",
+        "pdf": "https://arxiv.org/pdf/2608.08679v1",
+        "source": "https://export.arxiv.org/e-print/2608.08679v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 8,
+        "lemmas": 4,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 159,
+        "bibliography_entries": 29,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file rooted_density_rigidity_submission.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "holarship Council, and the Institute for Basic Science (IBS-R029-C4). X.L. was supported by the Excellent Young Talents Program (Overseas) of the National Natural Science Foundation of China. Declaration on the use of AI The authors used generative AI tools to assist in discussing proof strategies, checking proofs, and improving exposition. References [1] D. J. Aldous. Representations for partially exchangeable arrays of random variables. J. Multivariate Anal., 11(4):581–598, 19",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:02:33.302901Z"
+      },
+      "score": 1229.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 153.65,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 21,
+          "theorems": 48,
+          "lemmas": 16,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 39.75,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08633",
       "version": 1,
       "title": "Exact Finite-Horizon Memory, Conditioning, and Dissipative Decay in Coarse Upwind Finite-Volume Prediction",
