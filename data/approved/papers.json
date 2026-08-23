@@ -41854,6 +41854,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18491",
+      "version": 1,
+      "title": "Block Diagonal Carleson Frames",
+      "authors": [
+        "Ilya Krishtal",
+        "Brendan Miller"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T20:19:42Z",
+        "updated": "2026-07-20T20:19:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce \\textit{block diagonal Carleson frames}, i.e. singly generated dynamical frames in which the generating operator is block diagonal. We classify all such frames when the generating operator is a direct sum of Jordan blocks, the sizes of which are uniformly bounded. Furthermore, block diagonal Carleson frames are shown to enjoy the high redundancy properties observed for Carleson frames. When the generating operator has nonnegative spectrum, we provide a complete description of the redundancy of such frames under the assumption of the existence of natural density.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18491v1",
+        "pdf": "https://arxiv.org/pdf/2607.18491v1",
+        "source": "https://export.arxiv.org/e-print/2607.18491v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 10,
+        "lemmas": 9,
+        "propositions": 12,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 151,
+        "bibliography_entries": 495,
+        "appendix_pages": 18
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Final_Draft.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "he subject of block diagonal generating matrices to our attention and for further useful discussions. Special thanks are in order to Pu-Ting Yu for the idea behind the proof of Proposi- tion 5.6. Finally, the authors acknowledge the use of generative AI for assistance in reviewing and improving this manuscript. Appendix A. Change of Basis Matrices for Powers of Jordan Blocks Before proving Proposition 3.5, let us first note an easy linear algebra fact which allows us to avoid direct e",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:46.167633Z"
+      },
+      "score": 1197,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 299.25,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 29,
+          "theorems": 60,
+          "lemmas": 36,
+          "propositions": 48,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 37.75,
+          "bibliography_entries": 49.5,
+          "appendix_pages": 36
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18453",
       "version": 1,
       "title": "A National-Scale EV Charging Scheduling Framework: Optimal Detour Routing Under Infrastructure Capacity Constraints",
