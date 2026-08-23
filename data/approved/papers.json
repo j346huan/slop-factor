@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07388",
+      "version": 2,
+      "title": "The Banach lattice Lean library",
+      "authors": [
+        "David Muñoz-Lahoz"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-07T16:35:35Z",
+        "updated": "2026-08-20T11:38:28Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We present a Lean 4 library for the theory of Banach lattices. Its purpose is to support the systematic formalization of contemporary research in Banach lattices and related areas. As evidence of this, we describe three research-level formalizations built using the library. Writing the library at scale was made possible by the use of LLMs with careful human supervision and planning. Unlike autoformalization, this approach allows for an actual understanding of the code. This, in turn, led to new mathematical insights that are also discussed. Judging by the interest expressed by other researchers, we expect the library to become a communal effort in the near future. For this reason, we also describe several parts of the theory that could be added next.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07388v2",
+        "pdf": "https://arxiv.org/pdf/2608.07388v2",
+        "source": "https://export.arxiv.org/e-print/2608.07388v2"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file preamble.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "(funded by Universidad Autónoma de Madrid), by grants PID2024-162214NB-I00 and CEX2023-001347-S (funded by MCIN/AEI/10.13039/501100011033), and by the CSIC cooperation grant COOPB25033 under the i-COOP program. AI disclosure GPT-5.5 and Claude Opus 4.6 were used to write the code in § banlat. In the process of writing the paper, GPT-5.5 was only used to search for typos and other obvious errors in final versions of the text, and to generate the list of files with their docstrings (wh",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:01.054614Z"
+      },
+      "score": 59.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 29.6,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 27,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07338",
       "version": 1,
       "title": "An Explicit Five-Variable Counterexample to the Generalized Vanishing Conjecture",
