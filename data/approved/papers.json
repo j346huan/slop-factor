@@ -42363,6 +42363,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19511",
+      "version": 1,
+      "title": "A Conditional Probability Hierarchy for Stochastic Choice",
+      "authors": [
+        "Erya Yang",
+        "Adam Brandenburger"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T18:52:38Z",
+        "updated": "2026-07-21T18:52:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce point conditional probability spaces (PCPSs) as primitive building blocks for stochastic choice. This concept goes back to Rényi (1955), who proposed conditional probability spaces (CPSs) as a basis for probability theory. Luce (1959) noted the connection between CPSs and stochastic choice, and Cerreia-Vioglio et al. (2021) have developed the connection further. A PCPS is a CPS each of whose component probability measures concentrates on a singleton selection. We build a four-level PCPS-based hierarchy of families of stochastic choice rules. Level 1 consists of PCPSs, Level 2 is made up of \"conditionally consistent\" mixtures of PCPSs, Level 3 comprises all probabilistic mixtures of PCPSs, and Level 4 consists of all signed mixtures of PCPSs. We construct our hierarchy at a general measure-theoretic level that encompasses infinite choice sets. We also connect each level of our hierarchy to well-known axioms for stochastic choice, namely, the Weak Axiom of Stochastic Revealed Preference, Independence of Irrelevant Alternatives, and no Dutch Book. We establish the relationship between total orders and PCPSs and demonstrate a sense in which PCPSs can be a more parsimonious representation of choice.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19511v1",
+        "pdf": "https://arxiv.org/pdf/2607.19511v1",
+        "source": "https://export.arxiv.org/e-print/2607.19511v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 5,
+        "lemmas": 0,
+        "propositions": 8,
+        "corollaries": 1,
+        "definitions": 12,
+        "displayed_equations": 58,
+        "bibliography_entries": 54,
+        "appendix_pages": 10
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file cphs-07-19-26.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "event that agent 3 – with PCPS p3 – is the one to choose. Formally, the DM has a negative willingness-to-bet on this event, which is an interpretation of a negative subjective probability from Brandenburger et al., 2026). Declaration of Generative AI and AI-Assisted Technologies in the Writing Process During the preparation of this work the authors used ChatGPT for proof tactics and checking, copy-editing, and bibliographic search. After using this tool, the authors reviewed and edited",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:52.947824Z"
+      },
+      "score": 1159.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 144.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 30,
+          "lemmas": 0,
+          "propositions": 32,
+          "corollaries": 3,
+          "definitions": 24,
+          "displayed_equations": 14.5,
+          "bibliography_entries": 5.4,
+          "appendix_pages": 20
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19500",
       "version": 1,
       "title": "Robust Hierarchical Matrix Compression of Acoustic Volume and Boundary Integral Operators",
