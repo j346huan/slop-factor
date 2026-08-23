@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10418",
+      "version": 1,
+      "title": "A lower bound for stepsize-based acceleration of gradient descent",
+      "authors": [
+        "Jianhao Ma",
+        "Yuxin Chen"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.LG",
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T03:06:59Z",
+        "updated": "2026-08-11T03:06:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Recent work has shown that, for smooth convex optimization, plain gradient descent can be accelerated from its textbook convergence rate of $O(T^{-1})$ (where $T$ denotes the number of iterations) to $O\\big(T^{-\\log_2(1+\\sqrt{2})}\\big)$ using carefully designed stepsize schedules alone, without resorting to momentum or other algorithmic modifications. Despite this progress, however, little was known about lower bounds for such methods beyond the classical $Ω(T^{-2})$ benchmark for general first-order methods. In this work, we present a new lower bound of $Ω(T^{-1.9319})$ for the last-iterate convergence rate of gradient descent with predetermined nonnegative stepsize schedules. This result provides rigorous evidence that stepsize schedules alone cannot accelerate plain GD to the optimal $O(T^{-2})$ convergence rate. The proof was developed by GPT-5.6 Sol Pro under the authors' guidance.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10418v1",
+        "pdf": "https://arxiv.org/pdf/2608.10418v1",
+        "source": "https://export.arxiv.org/e-print/2608.10418v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 2,
+        "lemmas": 9,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 217,
+        "bibliography_entries": 33,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Disclosure on the use of generative AI The main proof was developed by GPT-5.6 Sol Pro. The authors provided the model with two inputs: the research objective of proving a lower bound for plain gradient descent showing that its worst-case rate is strictly slower than 1/𝑇 2 , and a high-level resisting-oracle strategy",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:40.591696Z"
+      },
+      "score": 1465.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 146.55,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 30,
+          "theorems": 12,
+          "lemmas": 36,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 54.25,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10197",
       "version": 1,
       "title": "An Optimal Energy Production Problem with Energy Source Switching and Load Following Nuclear Power Plants",
