@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14812",
+      "version": 3,
+      "title": "How Much Can Gaussian Dependence Inflate the Benjamini-Hochberg Procedure's FDR?",
+      "authors": [
+        "Lihua Lei"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T10:30:15Z",
+        "updated": "2026-07-22T06:24:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the worst-case false discovery rate (FDR) of the Benjamini-Hochberg procedure for both one- and two-sided Gaussian tests when the correlation matrix is otherwise unrestricted. In each setting we construct a $q$-indexed family of finite Gaussian models whose FDR divided by $q$ diverges as $q\\downarrow0$, disproving any universal multiplicative FDR bound. For two-sided tests, the supremum over the number of hypotheses, mean vector, and correlation matrix is at least an explicit $\\ell_{=}(q)>q$ satisfying \\[ \\ell_{=}(q)=\\frac{q\\sqrt{\\log(1/q)}}{2\\sqrtπ}+c_\\ell q+o(q), \\qquad c_\\ell=0.6492828\\ldots. \\] For the one-sided hypotheses $H_i:θ_i\\leq0$, a sign-reversed one-common-factor construction gives the stronger explicit lower bound $\\ell_{\\le}(q)>q$, with \\[ \\ell_{\\le}(q)=\\frac{q\\sqrt{\\log(1/q)}}{\\sqrtπ} +\\frac q2+o(q). \\] Finally, we prove an $O\\{q\\sqrt{\\log(1/q)}\\}$ upper bound for the two-sided {one-common-factor} class and the matching upper bound $q\\sqrt{\\log(1/q)}/\\sqrtπ+O(q)$ for the one-sided one-common-factor class.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14812v3",
+        "pdf": "https://arxiv.org/pdf/2607.14812v3",
+        "source": "https://export.arxiv.org/e-print/2607.14812v3"
+      },
+      "structural_counts": {
+        "pages": 70,
+        "theorems": 5,
+        "lemmas": 28,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 610,
+        "bibliography_entries": 18,
+        "appendix_pages": 66
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file FDR_BH_gaussian_lower_bound_one_two_sided.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "for encouraging him to work on the two-sided problems, Ruodu Wang for encouraging him to work on the one-sided problems, and Edgar Dobriban for the surprising initial counterexample that reignited interest in this project. The author used OpenAI GPT-5.6 Sol, a text-to-text generative AI tool, for assistance with proof exploration, exposition, and editing. References Rina Foygel Barber and Emmanuel J. Candès. Controlling the false discovery rate via knockoffs. The Annals of Statistics,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 65",
+          "page": 65
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:01.165353Z"
+      },
+      "score": 4186.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 523.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 70,
+          "theorems": 30,
+          "lemmas": 112,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 152.5,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 132
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14527",
       "version": 1,
       "title": "Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits",
