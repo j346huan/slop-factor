@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19799",
+      "version": 1,
+      "title": "Simultaneous Recovery of the Initial Source and Sound Speed for the Wave Equation under a Constitutive Constraint",
+      "authors": [
+        "Amir Moradifam"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T06:26:10Z",
+        "updated": "2026-07-22T06:26:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the simultaneous recovery of the initial source and sound speed for the scalar wave equation from a single boundary measurement. Although the recovery of either parameter separately is well understood under suitable geometric hypotheses, simultaneous recovery remains open in general, and stable recovery is further obstructed by the inherent instability of the linearized problem. We show that both uniqueness and stability can be obtained when the two unknowns are coupled through a prescribed constitutive relation arising from a common underlying material. Under a quantitative nondegeneracy condition, motivated by calibrated material regimes, the coupled inverse problem reduces to a single inverse source problem. Applying the microlocal and Carleman framework of Stefanov and Uhlmann to this reduced problem, we establish global uniqueness and Lipschitz stability under geometric conditions involving strictly convex foliations and geodesic visibility. We also obtain partial-data results, proving local uniqueness and Lipschitz stability in compact visible regions where the constitutive nondegeneracy condition holds.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19799v1",
+        "pdf": "https://arxiv.org/pdf/2607.19799v1",
+        "source": "https://export.arxiv.org/e-print/2607.19799v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 5,
+        "lemmas": 3,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 122,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Simultanious-Inverse-Wave-Final-July19.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "cj ) and F is uniformly Lipschitz in the sound-speed variable on the admis- sible range, |f1 (x) − f2 (x)| ≤ C|c1 (x) − c2 (x)|. Combining the last estimates proves (3.7). Acknowledgments The author used ChatGPT (OpenAI) to assist with language editing. References [1] J. D. Achenbach, The thermoelasticity of laser-based ultrasonics, Journal of Thermal Stresses, 28 (2005), no. 6–7, pp. 713–727. [2] M. Agranovsky, P. Kuchment, and L. Kunya",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:18.401470Z"
+      },
+      "score": 390,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 97.5,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 18,
+          "theorems": 30,
+          "lemmas": 12,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 30.5,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19500",
       "version": 1,
       "title": "Robust Hierarchical Matrix Compression of Acoustic Volume and Boundary Integral Operators",
