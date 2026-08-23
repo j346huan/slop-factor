@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23116",
+      "version": 2,
+      "title": "KAYROS: An Anytime and Exact Open-Source Solver for Duration-Minimization Time-Dependent Vehicle Routing. A Technical Report and a Case Study in Human-AI Engineering",
+      "authors": [
+        "Florian Rascoussier"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.AI",
+          "cs.MS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T09:16:40Z",
+        "updated": "2026-08-11T17:41:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Time-dependent routing recognizes that the same journey can take a different time depending on when it begins. Under duration minimization, even the departure time of each vehicle becomes a decision. Exact methods for this setting exist in the literature, but researchers and practitioners have lacked a ready-to-use open solver that combines rich piecewise-linear travel times, early feasible solutions and optimality claims. KAYROS fills this gap with two modes on one checker-consistent engine: an Iterated Local Search that streams improving solutions and a Branch-Price-and-Cut method that can issue computational optimality certificates under explicit arithmetic and search assumptions. It installs with one command and has no proprietary dependency. The public MAMUT-routing store currently contains 704 KAYROS certificates under a four-solve publication protocol, which has also led to the retraction and repair of invalid earlier claims. The report presents two complementary benchmark contributions to MAMUT-routing. The first integrates Blauth2024, a benchmark from the literature whose travel times derive from measured Uber speeds, for which KAYROS provides new best-known solutions on all 40 instances. The second proposes Poryos2026, a new benchmark of 1,080 paired static and time-dependent instances built from OpenStreetMap road networks and controlled synthetic traffic. Finally, the report describes the intensive human-AI collaboration behind this work and the verification practices that kept its outputs independently verifiable.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23116v2",
+        "pdf": "https://arxiv.org/pdf/2607.23116v2",
+        "source": "https://export.arxiv.org/e-print/2607.23116v2"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 0,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "MA- MUT project, ANR-22-CE22-0016, “Machine learning And Matheuristics algorithms for Urban Transportation”. Declaration of AI use Generative AI tools were used throughout the preparation of this work, including frontier models such as ChatGPT 5.6 Sol (OpenAI) and Claude Fable 5, Opus 5 and Sonnet 5 (Anthropic). They contributed to the solver and benchmark-generation tooling, to experimentation and debugging, and to the drafting of this report, as documented in Section 7. The au",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:42.828359Z"
+      },
+      "score": 210,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 42,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 30,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 0,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23004",
       "version": 1,
       "title": "Exact values and exact upper bounds for families of integers with arithmetic progression intersections (Erdős Problem #272)",
