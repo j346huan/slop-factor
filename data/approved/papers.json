@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14312",
+      "version": 2,
+      "title": "The role of expanders in the spectral geometry of metric graphs",
+      "authors": [
+        "Delio Mugnolo"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": [
+          "math.CO",
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-15T19:19:39Z",
+        "updated": "2026-08-15T14:09:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "After reviewing combinatorial and spectral definitions of expanders, we use precise lower bounds on Ramanujan graphs to investigate upper bounds -- and, specifically, the lack thereof -- on the eigenvalues of the Laplacian on \\emph{metric} graphs in terms of volume, diameter, girth, mean distance, and torsional rigidity, among others.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14312v2",
+        "pdf": "https://arxiv.org/pdf/2607.14312v2",
+        "source": "https://export.arxiv.org/e-print/2607.14312v2"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 9,
+        "lemmas": 7,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 4,
+        "displayed_equations": 167,
+        "bibliography_entries": 45,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "(Aveiro) and Noah Kravitz (Oxford) and Pavel Kurasov (Stockholm) for many interesting discussions. Portions of the manuscript were revised with the assistance of the LLMs Qwen, Gemini and Claude. 1",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:40.631404Z"
+      },
+      "score": 757,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 189.25,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 23,
+          "theorems": 54,
+          "lemmas": 28,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 8,
+          "displayed_equations": 41.75,
+          "bibliography_entries": 4.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14071",
       "version": 3,
       "title": "Strongly complete sets and a conjecture of Erdős",
