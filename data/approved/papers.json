@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29325",
+      "version": 1,
+      "title": "I-MCHM: Interface Multicontinuum Homogenization for Multiscale Elliptic Problems",
+      "authors": [
+        "Wing Tat Leung",
+        "Zhihang Xu"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T11:59:14Z",
+        "updated": "2026-07-31T11:59:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce an interface multicontinuum homogenization method (I-MCHM) for high-contrast elliptic problems whose subdomains may have distinct microscopic patterns and unequal numbers of continua. Multicontinuum models upscale microscopic fields to macroscopic continuum quantities; here the continua are the high- and low-permeability regions, and the macroscopic variables are the corresponding local averages of the fine-scale solution on observing cells of size $H_ε$. Although the fine-scale solution is continuous across a material interface, these macroscopic continuum fields need not coincide on the interface. Moreover, when adjacent subdomains retain different numbers of continua, a one-to-one coarse transmission condition cannot be defined. Standard subdomain-wise multicontinuum homogenization therefore determines the bulk equations but leaves the interaction among these coarse variables unspecified. I-MCHM closes this gap by constructing two-sided constrained local bases on interface neighborhoods and assembling a coarse bilinear form with bulk cut-cell integrals and interface-segment corrections over the subdomain adjacency graph, without prescribing a pointwise transmission law. Numerical experiments on straight, curved, and triple-junction geometries, including continuum-coupling ablations and unequal continuum counts, demonstrate the accuracy of the resulting upscaled model.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29325v1",
+        "pdf": "https://arxiv.org/pdf/2607.29325v1",
+        "source": "https://export.arxiv.org/e-print/2607.29325v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 84,
+        "bibliography_entries": 45,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the work reported in this paper. Data availability No data was used for the research described in the article. Acknowledgments Wing Tat Leung is partially supported by the Hong Kong RGC Early Career Scheme 21307223. Declaration of generative AI and AI-assisted technologies During the preparation of this work, the authors used ChatGPT to im- prove readability and language polish. After using this tool, the authors reviewed and edited the content as needed and take full responsi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:33.291581Z"
+      },
+      "score": 278,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 69.5,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 34,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 21,
+          "bibliography_entries": 4.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29305",
       "version": 1,
       "title": "Pólya's conjecture for higher-dimensional Neumann balls",
