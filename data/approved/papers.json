@@ -8597,6 +8597,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07646",
+      "version": 2,
+      "title": "A counterexample to the Anstee-Sali's conjecture",
+      "authors": [
+        "Pei Wu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-07T16:52:49Z",
+        "updated": "2026-08-18T11:41:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This note propose a counterexample to the Anstee--Sali conjecture for forbidden configurations. The basic candidate is the $4$-uniform family \\[ F_2=\\{xyab,xybc,xycd,xyda\\} \\] on six vertices: a fixed two-vertex core $\\{x,y\\}$ joined to the four edges of a $4$-cycle. We give an explicit certificate that every four-fold product whose factors are of type $I$, $I^c$, or $T$ contains $F_2$, while $I^3$ avoids it. Thus, $X(F_2)=4$, so the conjecture predicts $\\operatorname{forb}(m,F_2)=Θ(m^3)$. On the other hand, a result of Mubayi on complete multipartite hypergraphs implies \\[ \\operatorname{forb}(m,F_2)=Ω(m^{7/2}), \\] which is asymptotically larger than $m^3$. The example was found by GPT-5.6 Sol.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07646v2",
+        "pdf": "https://arxiv.org/pdf/2608.07646v2",
+        "source": "https://export.arxiv.org/e-print/2608.07646v2"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 34,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file counterexample_RC.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "4 AI-assistant disclosure The author used GPT-5.6 Sol to help identify the example and to assist with the exposition. The author independently reviewed and revised the outputs, verified the mathematical claims, and takes full responsibility for the final manuscript. References [1] R. P.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:18.738420Z"
+      },
+      "score": 132.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 22.1,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 5,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 8.5,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07399",
       "version": 1,
       "title": "Siegel zeros and small gaps between zeros of the Riemann zeta function",
