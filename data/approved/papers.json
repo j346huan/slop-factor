@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12201",
+      "version": 1,
+      "title": "Revisiting Simultaneous Methods for Dynamic Optimization in the GPU Era",
+      "authors": [
+        "Joseph W. Choi",
+        "Sungho Shin"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-13T23:05:54Z",
+        "updated": "2026-07-13T23:05:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We revisit the classical topic in dynamic optimization: sequential vs simultaneous methods for solving DAE-constrained optimization problems, with a particular focus on how graphics processing unit (GPU) computing changes their effectiveness. Sequential methods offer key advantages through adaptive time stepping at the differential-algebraic equation (DAE) solver level, which is especially effective for handling stiff systems. However, long-time-horizon simulations remain a computational bottleneck, as time integration is inherently sequential and limits parallelization within the optimization algorithm. In contrast, simultaneous approaches are well-suited for parallel computing. They address these limitations by exploiting the highly repetitive structure of discretized DAE systems at the function evaluation level and leveraging sparse linear algebra routines that enable elimination tree-level parallelism. Although simultaneous methods typically lack adaptive time stepping, this limitation can often be mitigated by choosing a sufficiently fine initial mesh or iteratively adjusting mesh coarseness in an outer loop. In this work, we revisit the capabilities of the simultaneous approach in a GPU computing environment and assess its performance against a sequential method baseline. We employ a simultaneous approach based on orthogonal collocation within an open-source modeling framework and apply it to parameter estimation benchmarks from systems biology. We evaluate both GPU and CPU solvers on the simultaneous formulation. Our results show that, although less reliable, the simultaneous approach achieves up to 5.4x speedup compared to the sequential baseline among the largest instances where both methods solve successfully. The advantage of the simultaneous method with respect to problem size is more pronounced on GPUs than on CPUs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12201v1",
+        "pdf": "https://arxiv.org/pdf/2607.12201v1",
+        "source": "https://export.arxiv.org/e-print/2607.12201v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 18,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source parsing failed; PDF-text fallbacks were used: Downloaded source is neither a safe tar archive nor recognizable TeX",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "and adaptations must be shared under the same terms. See DECLARATION OF USE OF AI https://creativecommons.org/licenses/by-sa/4.0/ Claude Opus 4.8 was used to debug code and as- sist setting up the benchmark repository. [LAPSE_DoNotChange] Syst Control Trans V:XXXX-YYYY (2027) 6",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:04.926784Z"
+      },
+      "score": 22.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 11.3,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 6,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 4.5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12090",
       "version": 1,
       "title": "Induced-Minor-Closed Classes have Linear, Square-Root, or Sub-Polynomial Tree-Independence",
