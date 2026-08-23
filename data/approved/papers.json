@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20724",
+      "version": 1,
+      "title": "Application of the Combinatorial Nullstellensatz to magic-type graph labelings",
+      "authors": [
+        "Parikshit Chalise",
+        "Richard M. Low"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T20:53:04Z",
+        "updated": "2026-07-22T20:53:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $G=(V,E)$ be a simple graph, and let $k\\geq 2$ be an integer. For an edge labeling $h:E(G)\\to \\mathbb{Z}_{k} \\backslash \\{0\\}$, define the induced vertex label by \\[ h^+(v)=\\sum_{e \\ni v} h(e) \\pmod{k}. \\] For $t\\in \\mathbb Z_k$, we say that $G$ is \\emph{$t$-sum $\\mathbb Z_k$-magic} if there exists such a labeling $h$ satisfying \\[ h^+(v)=t \\qquad\\text{for all }v\\in V. \\] We say that $G$ is \\emph{$\\mathbb Z_k$-magic} if $G$ is $t$-sum $\\mathbb Z_k$-magic for some $t\\in \\mathbb Z_k$. Similarly, if there exists an edge labeling $h: E(G) \\to \\mathbb{Z}_{k} \\backslash \\{0\\}$ such that the induced vertex labeling $h^+(v)=\\sum_{e\\ni v} h(e)$ (mod $k$) is injective, then $G$ is called \\emph{$\\mathbb{Z}_{k}$-antimagic}. In this paper, we use the Combinatorial Nullstellensatz to analyze these two types of magic graph labelings.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20724v1",
+        "pdf": "https://arxiv.org/pdf/2607.20724v1",
+        "source": "https://export.arxiv.org/e-print/2607.20724v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 10,
+        "lemmas": 5,
+        "propositions": 7,
+        "corollaries": 2,
+        "definitions": 7,
+        "displayed_equations": 86,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rticular, one may ask for conditions under which the Combinatorial Nullstellensatz recovers bounds closer to those expected from explicit Zp -antimagic constructions. 6. Tool and computational resource disclosure ChatGPT was used to help draw figures and proofread the manuscript for grammar, spelling, and punctuation. 7. Acknowledgments The authors gratefully acknowledge the welcoming atmosphere of the 57th Sou",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:03.422133Z"
+      },
+      "score": 166.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 166.5,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 15,
+          "theorems": 60,
+          "lemmas": 20,
+          "propositions": 28,
+          "corollaries": 6,
+          "definitions": 14,
+          "displayed_equations": 21.5,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20361",
       "version": 1,
       "title": "Selfless C*-correspondences, operator valued C*-probability spaces and completely positive maps",
