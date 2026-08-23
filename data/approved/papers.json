@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22515",
+      "version": 1,
+      "title": "Matroid flat counts are not unimodal",
+      "authors": [
+        "Alexander Divoux",
+        "Chayim Lowen",
+        "Shouda Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-24T17:37:07Z",
+        "updated": "2026-07-24T17:37:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give counterexamples to Rota's 1970 conjecture that the sequence counting flats of varying rank in a matroid is unimodal. More specifically, inspired by Larson's recent disproof of the stronger log-concavity conjecture of Mason, we explain a mechanism which turns failures of log-concavity for flats into failures of unimodality under suitable conditions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22515v1",
+        "pdf": "https://arxiv.org/pdf/2607.22515v1",
+        "source": "https://export.arxiv.org/e-print/2607.22515v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 32,
+        "bibliography_entries": 1,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "MODAL 7 How the counterexamples were found. The starting point of this paper was an attempt to study the convexity of (Wi−1 )i , which is weaker than log-concavity but stronger than unimodality. We used ChatGPT 5.6 Pro to search for a counterex- ample to this weaker property. Based on a suggestion of the authors, ChatGPT 5.6 Pro returned a non-convex example built using a q-lift. We quickly realized this construction could in fact be adapted and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:55.582120Z"
+      },
+      "score": 301,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 30.1,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 8,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 8,
+          "bibliography_entries": 0.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22263",
       "version": 1,
       "title": "Explicit Iteration Complexity of Exact Data-Driven Inverse Optimization for Integer Linear Programs",
