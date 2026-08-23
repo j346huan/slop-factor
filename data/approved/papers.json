@@ -11230,6 +11230,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13637",
+      "version": 2,
+      "title": "More than two thirds of the zeta zeros are simple and on the critical line",
+      "authors": [
+        "Levent Alpöge",
+        "Ralph Furman"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T17:44:42Z",
+        "updated": "2026-08-19T18:17:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove unconditionally that at least two thirds of the nontrivial zeros of the Riemann zeta function, counted with multiplicity, are simple and lie on the critical line, and that at least five sixths are distinct; the previous unconditional records are $\\frac{5}{12}$ and $0.6603$. With the Montgomery--Taylor window the constants become $0.6725$ and $0.8362$. The argument makes Montgomery's 1973 deduction unconditional: the Riemann hypothesis, classically needed to read the zero side as a positive sum over real ordinates, is replaced by a rank-trace inequality applied to a finite compression of Weil's Hermitian form, with Sylvester's law of inertia handling off-line pairs. The analytic inputs are those of Aryan and of Baluyot, Goldston, Suriajaya and Turnage-Butterbaugh. The results extend to primitive Dirichlet $L$-functions and are formally verified in Lean 4.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13637v2",
+        "pdf": "https://arxiv.org/pdf/2608.13637v2",
+        "source": "https://export.arxiv.org/e-print/2608.13637v2"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 3,
+        "lemmas": 7,
+        "propositions": 7,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 54,
+        "bibliography_entries": 40,
+        "appendix_pages": 7
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper-v5-draft18.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ", critical line, explicit formula, pair correlation, Sylvester’s law of inertia. The mathematical argument in this paper was discovered and written by Claude, an AI developed by An- thropic. The listed authors verified the proof and take responsibility for its content. Jarred Sumner posed the problem and guide",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:54.096936Z"
+      },
+      "score": 1295,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 129.5,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 21,
+          "theorems": 18,
+          "lemmas": 28,
+          "propositions": 28,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 13.5,
+          "bibliography_entries": 4,
+          "appendix_pages": 14
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13509",
       "version": 1,
       "title": "The distribution of $k$-free ideals in ray class groups",
