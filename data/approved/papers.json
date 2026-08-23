@@ -42198,6 +42198,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27503",
+      "version": 1,
+      "title": "Character Fourier Spectra of Circular Units and Twisted Bernoulli Class Components",
+      "authors": [
+        "Peter Chocian"
+      ],
+      "categories": {
+        "primary": "math.GM",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-29T22:35:59Z",
+        "updated": "2026-07-29T22:35:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $χ$ be a primitive odd Dirichlet character of conductor $f$. For the universal projector polynomials $P_m$ introduced in arXiv:2607.23177, defined by $\\sum_m P_m(X)Y^m = -\\log(1-X(1-e^{-Y}))$, we evaluate the character Fourier spectrum at $h_t = ζ_f^t/(ζ_f^t-1)$: for every odd $m$, $\\sum_t \\barχ(t)P_m(h_t) = τ(\\barχ)B_{m,χ}/(m\\,m!)$. After reduction at any prime above $p \\nmid f$, the case $m = p-j$ identifies this spectrum, including its exact nonzero scalar, with the divided generalized Bernoulli value attached to $χω^{-j}$; the spectral-zero and Bernoulli-zero criteria therefore agree over every residue field, with no splitting hypothesis on the coefficient field. We connect the identity with the local Kummer spectrum of the circular unit $1-ζ_fζ_p$ and carry the programme through in the first non-real case: for the two primitive quartic characters modulo 5 and primes $p < 500$, $p \\equiv 1 \\pmod{20}$, exactly eleven zero lines occur. On each line an integral character projection of $1-ζ_5ζ_p$ is everywhere locally unramified, a finite split-prime Artin computation proves it is not a global $p$-th power, and the character-wise Main Conjecture shows the radical generates the complete order-$p$ Hilbert class component. Six of the eleven components occur at classically regular primes. At $p = 61$ the two conjugate characters contribute on different indices. A deterministic integer-arithmetic program (ancillary file) verifies the enumeration, the divided digits, and every certificate.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27503v1",
+        "pdf": "https://arxiv.org/pdf/2607.27503v1",
+        "source": "https://export.arxiv.org/e-print/2607.27503v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 4,
+        "lemmas": 2,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 64,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file character_fourier_spectra_circular_units.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nit relations, explicit Jacobi-sum radicals, and computational class groups of composite cyclotomic conductor remains appropriate before submission. Acknowledgements Computational exploration, drafting, and verification were assisted by OpenAI’s 5.6 Sol and Anthropic’s Fable 5. Responsibility for the mathematical statements and final presentation remains with the author. References [1] P. Chocian, Explicit twisted Hilbert class components beyond classical irregularity, ar",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:14.882776Z"
+      },
+      "score": 433.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 86.7,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 12,
+          "theorems": 24,
+          "lemmas": 8,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 16,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27471",
       "version": 1,
       "title": "Residual-Driven Lifting Identification for Nonlinear-Manifold Reduced-Order Models of Parametrized Linear PDEs",
