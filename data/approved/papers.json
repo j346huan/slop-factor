@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13307",
+      "version": 2,
+      "title": "Parabolic BMO Spaces, Muckenhoupt Weights, and Reverse Hölder Classes with Time Lag: Equivalence and Characterizations",
+      "authors": [
+        "Weiyi Kong",
+        "Dachun Yang",
+        "Wen Yuan"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T14:35:09Z",
+        "updated": "2026-08-17T08:10:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For any given time lag $γ\\in(0,1)$, we prove that the one-sided parabolic BMO space $\\mathrm{BMO}^+(γ)$ coincides with the parabolic BMO space $\\mathrm{PBMO}^-(γ)$ with equivalent norms, the parabolic Muckenhoupt class $A_{\\infty}^+(γ)$ defined via the reverse Jensen inequality can be represented as the union of the parabolic Muckenhoupt classes $A_r^+(γ)$ with $r\\in[1,\\infty)$, and the parabolic reverse Hölder classes $\\bigcup_{q\\in(1,\\infty]}RH_q^+$ coincide with the parabolic Muckenhoupt classes $\\bigcup_{r\\in[1,\\infty)}A_r^+(γ)$, and hence give affirmative answers to Questions 4.5 and 4.6 posed by Kinnunen and Saari [Nonlinear Anal. 131 (2016)]. To show them, we establish the uniform parabolic space-time shifting property for parabolic reverse Hölder weights, and develop the one-sided stopping time argument which yields a new parabolic John--Nirenberg inequality for $\\mathrm{BMO}^+(γ)$. As applications, we obtain John--Nirenberg and exponential integrability characterizations of $\\mathrm{BMO}^+(γ)$, prove that $\\mathrm{BMO}^+(γ)$ is independent of the positive time lag, and identify its null space.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13307v2",
+        "pdf": "https://arxiv.org/pdf/2608.13307v2",
+        "source": "https://export.arxiv.org/e-print/2608.13307v2"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 3,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 127,
+        "bibliography_entries": 36,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file kyy_2026-ParabolicBMO-MuckenhouptW_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Bλ n o − R− (γ) ∩ ln u − (ln u)R+ (γ) > λ ≤ Ae ∥ ln u∥BMO+ (γ) R− (γ) . Acknowledgements The authors acknowledge the use of AI tools during the exploratory stage of this project. All mathematical arguments and proofs in the final manuscript were checked and written by the authors.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:26.416608Z"
+      },
+      "score": 240.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 120.35,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 24,
+          "theorems": 18,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 31.75,
+          "bibliography_entries": 3.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13278",
       "version": 1,
       "title": "Categorification of the genus two DAHA",
