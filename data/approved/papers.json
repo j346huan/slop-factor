@@ -42103,6 +42103,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17506",
+      "version": 1,
+      "title": "On Mixtures of Three Homoscedastic Gaussian Densities: An Unconditional Sharper Bound on the Number of Modes",
+      "authors": [
+        "Akifumi Okuno",
+        "Yutaro Kabata"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T03:23:36Z",
+        "updated": "2026-07-20T03:23:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "It is known that a mixture of three homoscedastic multivariate Gaussian densities whose centers form an equilateral triangle can have four modes, owing to the emergence of a ``ghost'' mode at the center. Nevertheless, obtaining a sharp upper bound on the number of modes remains open even in this seemingly simple setting. The best previously available upper bounds applicable to the homoscedastic three-component setting were 42592 and, more recently, 72. These bounds were derived for substantially more general classes of Gaussian mixtures and are therefore not optimized for the present setting. Moreover, they are conditional on the assumption that the modal set is finite. In this paper, as a sharper bound, we prove that every mixture of three homoscedastic Gaussian densities has at most 8 modes, without imposing any finiteness or non-degeneracy assumption a priori. To the best of our knowledge, this is the first unconditional finiteness result for the modal set that holds uniformly over the full class of multivariate three-component homoscedastic Gaussian mixtures. In particular, it covers genuinely multivariate asymmetric configurations with arbitrary non-collinear centers and arbitrary positive mixture weights.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17506v1",
+        "pdf": "https://arxiv.org/pdf/2607.17506v1",
+        "source": "https://export.arxiv.org/e-print/2607.17506v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 2,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 41,
+        "bibliography_entries": 47,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "kuno was supported by JSPS KAKENHI Grant Numbers 21K17718, 22H05106, and 25K03087. Y. Kabata was supported by JSPS KAKENHI Grant Numbers 25H01485 and 25K00208. The authors thank Ryoya Fukasaku for helpful discussions. The authors also used Claude Opus 4.8, Claude Fable 5, ChatGPT-5.5 Pro, and ChatGPT-5.6 Sol Pro for mathematical discussion and language as- sistance. A Derivation of P (s, t ) and Q(s, t ) Taking the logarithm of the first equation in (4) gives",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:58.140486Z"
+      },
+      "score": 463.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 57.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 15,
+          "theorems": 12,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 10.25,
+          "bibliography_entries": 4.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17490",
       "version": 2,
       "title": "Finite Potential Energy for Entire Solutions of the Planar Ginzburg--Landau Equation",
