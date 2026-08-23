@@ -42442,6 +42442,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16171",
+      "version": 1,
+      "title": "A Globally Asymptotically Stable Planar Homogeneous Polynomial Vector Field With No Polynomial Lyapunov Function",
+      "authors": [
+        "Jun Liu",
+        "Maxwell Fitzsimmons"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": [
+          "eess.SY",
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-17T17:50:02Z",
+        "updated": "2026-07-17T17:50:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We disprove the conjecture that every globally asymptotically stable homogeneous polynomial vector field admits a homogeneous polynomial Lyapunov function. The counterexample is a planar homogeneous cubic polynomial vector field with integer coefficients. It admits no positive definite homogeneous polynomial with nonpositive Lie derivative and, more strongly, no real-analytic Lyapunov function even locally. Nevertheless, it has an explicit degree-two homogeneous Lyapunov function that is radially unbounded, continuously differentiable everywhere, and smooth away from the origin. We also provide a machine-checked Lean 4 formalization of the main result.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16171v1",
+        "pdf": "https://arxiv.org/pdf/2607.16171v1",
+        "source": "https://export.arxiv.org/e-print/2607.16171v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 2,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 72,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file TAC_submission.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ersists on an open region of the two-parameter family (27)–(28). These results give a negative answer to the homogeneous polynomial Lyapunov converse conjecture posed in [6], [8]. ACKNOWLEDGMENT The authors used OpenAI GPT-5.6-Sol Pro to discover the counterexample and produce initial versions of the mathemati- cal arguments in Sections II–IV. OpenAI Codex (GPT-5.6-Sol Ultra) assisted with drafting the manuscript and developing the Lean 4 formalization of the ma",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:41.500331Z"
+      },
+      "score": 557,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 55.7,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 6,
+          "theorems": 12,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 18,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16382",
       "version": 1,
       "title": "The Zombie Damage Number of a Graph",
