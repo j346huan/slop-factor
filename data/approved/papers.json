@@ -42446,6 +42446,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17261",
+      "version": 1,
+      "title": "Tight bound for the skew Hamming set-pair problem",
+      "authors": [
+        "Guorong Gao",
+        "Run Zhao"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-19T14:06:04Z",
+        "updated": "2026-07-19T14:06:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $X$ be an alphabet, let $t\\geq 0$ and $n\\geq t+1$, and let $((a_i,b_i))_{i=1}^{m}$ be an ordered family of word pairs in $X^n$ satisfying $dist(a_i,b_i)\\geq t+1$ for every $i$ and $dist(a_i,b_j)\\leq t$ whenever $i<j$. We prove the sharp bound $m\\leq 2^{t+1}$, thereby resolving a problem posed by Alon, Jin, and Sudakov. Our proof uses a linear-algebraic method based on a characteristic-two algebra, which may be of independent interest.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17261v1",
+        "pdf": "https://arxiv.org/pdf/2607.17261v1",
+        "source": "https://export.arxiv.org/e-print/2607.17261v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 37,
+        "bibliography_entries": 11,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file hamsetpair.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration on the use of generative AI The authors used generative AI tools to assist in discussing proof strategies, checking proofs, and improving the exposition. The authors take full responsibility for the mathematical arguments, results, and conclusions, all of which were",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:41.696089Z"
+      },
+      "score": 258.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 32.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 9.25,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17163",
       "version": 2,
       "title": "Iwahori component of the Gelfand--Graev representation for reductive groups",
