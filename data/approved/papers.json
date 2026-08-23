@@ -43392,6 +43392,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.11593",
+      "version": 2,
+      "title": "Scenario Reduction for Two-Stage Stochastic Mixed-Integer Programs",
+      "authors": [
+        "Yannick Werner",
+        "Juan Miguel Morales",
+        "Salvador Pineda",
+        "Line Roald",
+        "Sonja Wogrin"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-13T14:15:20Z",
+        "updated": "2026-07-27T18:58:33Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Two-stage stochastic mixed-integer programs are important tools for decision-making under uncertainty. Representing the uncertainty with many scenarios, however, can make them challenging to solve. Scenario reduction addresses this by finding a distribution supported on fewer scenarios that still yields similar optimal first-stage decisions. In this paper, we revisit the classical scenario reduction theory based on distances between probability distributions and the optimal mass transportation problem. The transportation problem's cost function captures scenario similarity and is central to the effectiveness of scenario reduction. We then review and compare various transportation cost functions from the literature and propose a new one. Using the Forward Selection Algorithm, we prove that our proposed cost function selects the best possible scenario from a given sample on the first draw with respect to the relative approximation error. To reduce the computational cost of evaluating this cost function, we further propose a hybrid algorithm with a scenario pre-selection phase. We assess solution quality and computational complexity on the two-stage stochastic unit commitment problem for small 24-bus and large 300-bus case studies. With only around five scenarios, the proposed cost function approximates the full-distribution optimum to within roughly 2.1% and 0.4% error for the small and large cases, respectively. In contrast, prevalent cost functions often need 25 scenarios or more to achieve that solution quality. The hybrid algorithm achieves similar solution quality while reducing wall-clock time by a factor of 18 and work (per Gurobi solver) by a factor of 66 on the large case study.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.11593v2",
+        "pdf": "https://arxiv.org/pdf/2607.11593v2",
+        "source": "https://export.arxiv.org/e-print/2607.11593v2"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 93,
+        "bibliography_entries": 2,
+        "appendix_pages": 8
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ", and the one of the scenario drawn first by the Forward Selection Algorithm 1 for each of the other metrics (the most central scenario with respect to each cost function) and of Phase 2 of the Hybrid Algorithm 3. AI Usage Disclosure Anthropic Claude (Opus 4.5 – 4.8), accessed through both the desktop application and the Claude Code terminal interface, was used for code-related activities, including software design brainstorming, implementation support, and figure creation. All AI-gene",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:49.072454Z"
+      },
+      "score": 142.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 71.45,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 26,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 23.25,
+          "bibliography_entries": 0.2,
+          "appendix_pages": 16
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.11534",
       "version": 2,
       "title": "Fractal uncertainty principle over $\\mathbb{Q}_p$",
