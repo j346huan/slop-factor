@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28785",
+      "version": 1,
+      "title": "From 12 to 6: Sharpening the Three-Charge Bound in Maxwell's Problem",
+      "authors": [
+        "A. Gabrielov",
+        "Dm. Novikov",
+        "T. Novikov",
+        "B. Shapiro"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T19:17:04Z",
+        "updated": "2026-07-30T19:17:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In \\cite{GNS} we proved that, for every $α>0$, the potential of three positive point charges has at most $12$ nondegenerate equilibrium points. We also observed that the same method would give the sharper bound $6$ if a certain auxiliary polynomial system $Q=R=0$ had at least four solutions, counted with multiplicity, in each open quadrant of the $(f,g)$-plane. Here we prove this four-solution statement. The main new ingredient is a separation argument at the unique saddle point of a separated-variable first integral. Consequently, the upper bound for three charges improves from $12$ to $6$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28785v1",
+        "pdf": "https://arxiv.org/pdf/2607.28785v1",
+        "source": "https://export.arxiv.org/e-print/2607.28785v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 47,
+        "bibliography_entries": 9,
+        "appendix_pages": 10
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file gns-twelve-to-six-revised-MSC.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tions of point charges has resurfaced anew. Acknowledgments Parts of this work, including the saddle-separation argument and the symbolic and numerical verification, were developed with the assistance of Claude (Anthropic). All results were independently verified by the authors. This project was mainly carried out while D. Novikov was visiting the Institute for Advanced Study. He thanks the Institute for its hospitality and excellent working c",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:40.233265Z"
+      },
+      "score": 581.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 72.65,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 10,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 11.75,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 20
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28768",
       "version": 2,
       "title": "A Quantitative Pólya--Szegő Theorem for Tangential Polygons",
