@@ -8850,6 +8850,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16288",
+      "version": 1,
+      "title": "A 32-leaf tree requiring six coordinates for an isometric $\\ell_\\infty$ embedding",
+      "authors": [
+        "Logan R. Chalmers"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.CO",
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T08:59:10Z",
+        "updated": "2026-08-17T08:59:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We disprove the conjecture that every tree with t leaves embeds isometrically into $\\ell_\\infty^{\\lceil \\log_2 t\\rceil}$. We construct a 32-leaf tree whose least isometric $\\ell_\\infty$-dimension is six rather than five, and prove that every tree with at most 31 leaves attains the conjectured bound; Brigham et al. had recorded equality through 21 leaves. Thus 32 is the first failure, and the example answers affirmatively a question of Fitzpatrick and Nowakowski from 2000. The same topology has dimension six under every assignment of positive edge lengths, and therefore also disproves the later sharp leaf-threshold conjecture for weighted metric trees.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16288v1",
+        "pdf": "https://arxiv.org/pdf/2608.16288v1",
+        "source": "https://export.arxiv.org/e-print/2608.16288v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 9,
+        "bibliography_entries": 5,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file note.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ration of competing interest The author declares that he has no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process OpenAI’s GPT-5.6 Sol assisted in implementing the computational search strategy and with drafting this manuscript. The author takes full responsibility for the con",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:33.722416Z"
+      },
+      "score": 143.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 28.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 6,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2.25,
+          "bibliography_entries": 0.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16218",
       "version": 1,
       "title": "Singularities of rational maps: foundations and surfaces",
