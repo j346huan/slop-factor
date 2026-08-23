@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23723",
+      "version": 1,
+      "title": "Recovery of latent inner products from an anisotropic Gaussian random geometric graph",
+      "authors": [
+        "Cheng Mao",
+        "Vidya Muthukumar"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-26T15:39:14Z",
+        "updated": "2026-07-26T15:39:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the problem of recovering latent inner products from a random geometric graph with anisotropic Gaussian latent points. More precisely, for an i.i.d. sample $x_1, \\dots, x_n \\sim N(0,Σ)$ where $Σ\\in \\mathbb{R}^{d \\times d}$, an edge $(i,j)$ is present in the graph if and only if $\\langle x_i, x_j \\rangle \\ge ζ$ for a threshold $ζ$. We assume the threshold $ζ$ to be chosen such that the average edge density of the graph is of constant order. To address the undesired degree fluctuations amplified by the anisotropy of the latent points, we consider the doubly centered adjacency matrix of the graph, and estimate the latent inner products using a rank-$d$ spectral approximation of the doubly centered matrix. The estimator obtains a mean squared error with a rate involving the stable rank of the covariance matrix $Σ$. Notably, the rate of estimation matches the state of the art for the isotropic case $Σ= I_d$, and permits an ill-conditioned covariance matrix with a diverging condition number. The analysis of the spectral method proceeds via the entrywise Hermite expansion of the doubly centered adjacency matrix with respect to the latent inner products. Instead of the standard trace method, it uses a decoupling argument recently introduced by Kaushik, Romberg, and Muthukumar (2025) to control nonlinear error terms.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23723v1",
+        "pdf": "https://arxiv.org/pdf/2607.23723v1",
+        "source": "https://export.arxiv.org/e-print/2607.23723v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 1,
+        "lemmas": 13,
+        "propositions": 6,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 267,
+        "bibliography_entries": 34,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file anisotropic_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "h Award, and an Amazon Research Award. The authors identified the central decomposition of the noise term into its quadratic, cu- bic, and higher-order Hermite components, building on the decoupling approach in VM’s prior work [KRM25]. OpenAI’s GPT-5.5 was used to assist with preliminary calculations, and GPT-5.6 was used to assist in completing proof details and improving the bound in Proposition 12. The authors reviewed all AI-assisted proofs and take full responsibility for the conten",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 39",
+          "page": 39
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:15.296835Z"
+      },
+      "score": 1561.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 195.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 41,
+          "theorems": 6,
+          "lemmas": 52,
+          "propositions": 24,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 66.75,
+          "bibliography_entries": 3.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23667",
       "version": 1,
       "title": "No Free Lunch in Flow Surrogates under Time-Varying Boundary Conditions: A Two-Regime Study",
