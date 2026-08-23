@@ -45503,6 +45503,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12728",
+      "version": 3,
+      "title": "A universal leading-residue formula for Witten zeta functions",
+      "authors": [
+        "Jonas Matuzas"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T12:58:23Z",
+        "updated": "2026-08-03T16:23:35Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $Φ$ be an irreducible crystallographic root system of rank $r$, with Coxeter number $h$, Weyl group $W$, Cartan matrix $C_Φ$, and invariant degrees $2=d_1\\leq\\cdots\\leq d_r=h$. We prove that Au's normalized Witten zeta function has a simple pole at $2/h$ and evaluate its residue as $\\frac{2(2π)^{r/2}\\sqrt{\\det C_Φ}}{h|W|}\\cdot\\frac{\\prod_{i<r}Γ(1-d_i/h)}{Γ(1-1/h)^r}$. The central step evaluates the critical chamber integral in gamma values from the boundary pole of the Macdonald-Mehta-Opdam identity; two preparatory sections pass from the dominant-weight lattice to that convergent integral. This proves Au's conjecture on algebraic multiples of products of gamma values at rational arguments, including his $A_4$ prediction.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12728v3",
+        "pdf": "https://arxiv.org/pdf/2607.12728v3",
+        "source": "https://export.arxiv.org/e-print/2607.12728v3"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 6,
+        "definitions": 0,
+        "displayed_equations": 85,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Witten_leading_residue_v7.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "a integral; finite Coxeter group; root system; lattice-point asymptotics. Generative-AI disclosure and author responsibility. This work was produced using OpenAI’s ChatGPT 5.6 Pro. The author directed and audited the work throughout. Jonas Matuzas takes full responsibility for the mathematics and the final text. 1 Introd",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:14.641513Z"
+      },
+      "score": 934.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 93.45,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 16,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 18,
+          "definitions": 0,
+          "displayed_equations": 21.25,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12693",
       "version": 1,
       "title": "Shock solutions for the one-dimensional information geometric regularization of compressible flow",
