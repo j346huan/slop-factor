@@ -42795,6 +42795,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25274",
+      "version": 3,
+      "title": "Proper Hat-Guessing on Two-Spine Book Graphs",
+      "authors": [
+        "Yulin Zhai"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-28T04:22:40Z",
+        "updated": "2026-08-18T16:05:46Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In the proper variant of the classical hat-guessing game on a graph, an adversary properly colors the vertices from a palette of $q$ colors. Each vertex sees only its neighbors' colors and all vertices simultaneously guess their own color. The players win if at least one guess is correct. We study this game on the book graph $B_{k,n}=K_k\\vee\\overline{K_n}$, with $k$ mutually adjacent spine vertices and $n$ independent pages. We first give a coverability characterization valid for every fixed spine size. Write $\\operatorname{HGP}(G)$ for the proper hat-guessing number of $G$. For a finite configuration $P$, let $\\operatorname{supp}(P)$ denote the set of colors appearing in its tuples. Let $C_k$ be the minimum of $|P|+|\\operatorname{supp}(P)|$ over all non-coverable finite configurations $P$ of proper $k$-tuples. We prove $\\sup_{n\\geq 1}\\operatorname{HGP}(B_{k,n})=C_k$ and that $\\operatorname{HGP}(B_{k,n})=C_k$ for all sufficiently large $n$. Thus, the asymptotic problem for every fixed $k$ reduces to a finite extremal invariant. In particular, coverability of two-spine configurations is equivalent to pseudoforestness, and we determine the associated extremal problem exactly: $C_2=11$, with precisely two types of extremal obstruction. Consequently, $\\operatorname{HGP}(B_{2,n})\\leq 11$ for every $n$, with equality for all sufficiently large $n$; we give an explicit probabilistic estimate with a stabilization threshold of at most $4\\times 10^8$. We also resolve the first previously open finite cases. An explicit seven-color construction with affine symmetry proves $\\operatorname{HGP}(B_{2,3})=7$. A counting-rigidity argument establishes the linear upper bound $\\operatorname{HGP}(B_{2,n})\\leq n+3$ for all $n\\geq 4$, which together with monotonicity yields $\\operatorname{HGP}(B_{2,4})=7$. Finally, a general box obstruction gives explicit uniform bounds on $C_k$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25274v3",
+        "pdf": "https://arxiv.org/pdf/2607.25274v3",
+        "source": "https://export.arxiv.org/e-print/2607.25274v3"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 12,
+        "lemmas": 13,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 55,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Draft3.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "= {(3, 2), (5, 3)}. Funding This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors. Conflict of interest The author declares no competing interests. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used OpenAI’s GPT-5.6 Sol for literature searching, language editing, supplementary code organization, and LaTeX formatting.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:25.949371Z"
+      },
+      "score": 842.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 168.55,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 20,
+          "theorems": 72,
+          "lemmas": 52,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 13.75,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25185",
       "version": 1,
       "title": "Turbulent Flame Speed Can Increase under Curvature Smoothing",
