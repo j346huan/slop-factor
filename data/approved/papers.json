@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07704",
+      "version": 1,
+      "title": "Disconnected multigraded Hilbert schemes on $\\mathbb{P}^2\\times\\mathbb{P}^1$",
+      "authors": [
+        "Yairon Cid-Ruiz"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.AC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-07T18:46:03Z",
+        "updated": "2026-08-07T18:46:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We exhibit an infinite family of disconnected multigraded Hilbert schemes on the biprojective space $\\mathbb{P}^2_{\\mathbb{k}} \\times_\\mathbb{k} \\mathbb{P}^1_{\\mathbb{k}}$. More precisely, for any integer $a \\ge 2$ and $p_a(z_1,z_2) = 2az_1+az_2+3a-2a^2 \\in \\mathbb{Q}[z_1,z_2]$, the multigraded Hilbert scheme ${\\rm Hilb}_{p_a}(\\mathbb{P}^2_{\\mathbb{k}}\\times_\\mathbb{k} \\mathbb{P}^1_{\\mathbb{k}})$ is disconnected. As a consequence, there exist infinitely many disconnected Haiman-Sturmfels multigraded Hilbert schemes even for a standard bigrading on a polynomial ring in only five variables.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07704v1",
+        "pdf": "https://arxiv.org/pdf/2608.07704v1",
+        "source": "https://export.arxiv.org/e-print/2608.07704v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 16,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file counter_example_Hilb_connectedness.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2 YAIRON CID-RUIZ AI disclosure. OpenAI Codex, with GPT-5.5 and GPT-5.6, was used for exploratory computations that helped identify the counterexample for a = 2. The author conceived the theoretical framework, wrote the manuscript, and assumes full responsibility for its contents.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:26.770159Z"
+      },
+      "score": 275,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 27.5,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 5,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 4,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07702",
       "version": 1,
       "title": "Zonoid volumes are not log-submodular",
