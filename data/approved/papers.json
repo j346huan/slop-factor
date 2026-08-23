@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18128",
+      "version": 1,
+      "title": "Nearest Graph Laplacians with Prescribed Connected Components: A Convex Framework for Network Reconstruction",
+      "authors": [
+        "Udit Raj",
+        "Sudeepto Bhattacharya",
+        "Prince Kanhya"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-24T11:14:21Z",
+        "updated": "2026-07-24T11:14:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the problem of constructing the nearest graph Laplacian matrix to a given Laplacian while enforcing a prescribed connected-component structure. Let the vertex set be partitioned into nonempty disjoint blocks $C_1,\\ldots,C_k$, and let $U=[u_1,\\ldots,u_k]$ be the matrix of the corresponding block-indicator vectors. The constraint $MU=0$ ensures that these prescribed indicators lie in the nullspace of the optimized Laplacian $M^\\star$, and hence the associated graph has at least $k$ connected components. To guarantee exactly the prescribed components, we impose additional block-connectivity constraints on the principal blocks $M_j=M[C_j,C_j]$. These constraints ensure that each prescribed block induces a connected weighted subgraph. The resulting problem is a convex semidefinite optimization problem with a strictly convex Frobenius-norm objective. We prove existence and uniqueness of the minimizer and show that the optimized Laplacian has exactly the prescribed connected components, with nullspace $\\operatorname{span}\\{u_1,\\ldots,u_k\\}$. The framework proposed in this work provides a principled tool for quantifying the minimum structural intervention required to transform a graph-based network into one having a prescribed group-separated structure. Numerical examples, including the Sampson monastery positive-affection network, illustrate the nearest faction-consistent weighted reconstruction and the minimum Laplacian perturbation required to realize the prescribed faction structure.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18128v1",
+        "pdf": "https://arxiv.org/pdf/2608.18128v1",
+        "source": "https://export.arxiv.org/e-print/2608.18128v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 176,
+        "bibliography_entries": 24,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file latest_main_file.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the optimized graph has no edges between distinct prescribed factions. Each diagonal block is a Laplacian block with zero row sum and nonpositive off-diagonal entries. AI-Assistance Disclosure The authors used an artificial intelligence language model for rephrasing, language polishing, and basic grammatical correction of certain sentences. All mathematical results, algorithms, proofs, and scientific conclusions presented in this manuscript are entirely authored, verified, and approved",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:42.417780Z"
+      },
+      "score": 429.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 107.4,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 26,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 44,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22116",
       "version": 2,
       "title": "Quot-Stack Moduli and Transverse Deformations of Graded Metabelian Lie Algebras",
