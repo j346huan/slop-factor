@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09394",
+      "version": 1,
+      "title": "A sharp extension of Halin's removable-edge theorem to matchings",
+      "authors": [
+        "Hojin Chu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T10:21:17Z",
+        "updated": "2026-08-10T10:21:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A subgraph $H$ of a $k$-connected graph $G$ is called \\emph{$k$-removable} if $G-E(H)$ remains $k$-connected. Halin proved that every $k$-connected graph $G$ with $δ(G)\\ge k+1$ has a $k$-removable edge. We extend this result from a single edge to matchings of any prescribed size by showing that, for positive integers $k$ and $m$, every $k$-connected graph $G$ with $δ(G)\\ge\\max\\{k+1,2m-2\\}$ contains a $k$-removable matching of size $m$, unless $G\\cong K_{2m-1}$, or $(k,m)=(1,2)$ and $G$ is a cycle. This confirms a conjecture of Li, Zhou, Fujita, and Mao. The minimum degree bound is sharp, and both exceptions are unavoidable. Consequently, $\\max\\{k+1,2m-1\\}$ is the sharp minimum degree threshold guaranteeing such a matching without exceptions. The proof combines a prescribed-set strengthening of Halin's removable-edge theorem with an extremal analysis of maximum $k$-removable matchings.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09394v1",
+        "pdf": "https://arxiv.org/pdf/2608.09394v1",
+        "source": "https://export.arxiv.org/e-print/2608.09394v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 5,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 34,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "≤ f (k, k + 1) ≤ k 2 for every k ≥ 2. In particular, we determine f (3, 4) = 3. Declaration of generative AI use. During the preparation of this work, the author used OpenAI’s GPT-5.6 Sol in order to gen- erate an initial proof of Lemma 3.5 and to provide grammatical and editorial suggestions on parts of the manuscript. After using this tool, the author independently veriﬁed the math- ematical arguments, reviewed and re",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:28.070940Z"
+      },
+      "score": 657,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 73,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 12,
+          "theorems": 30,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 8.5,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09368",
       "version": 1,
       "title": "A proof of Ross's conjecture for two-site moving-target search",
