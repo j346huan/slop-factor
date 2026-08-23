@@ -46196,6 +46196,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22267",
+      "version": 2,
+      "title": "Nowhere-zero 4-flows in graphs excluding a proper minor of the Petersen graph",
+      "authors": [
+        "József Pintér"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-24T13:03:55Z",
+        "updated": "2026-08-09T08:20:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Tutte's $4$-flow conjecture asserts that every finite bridgeless graph with no Petersen minor admits a nowhere-zero $4$-flow. Let $P$ be the Petersen graph and let $e\\in E(P)$. We prove that every finite bridgeless $(P/e)$-minor-free multigraph admits a nowhere-zero $4$-flow. Since $P-e$ and $P/e$ are the two maximal proper minors of $P$, combining our result with the theorem of Thomas and Thomson for $(P-e)$-minor-free graphs shows that, for every proper minor $R$ of $P$, every finite bridgeless $R$-minor-free graph admits a nowhere-zero $4$-flow. Equivalently, every finite bridgeless graph without such a flow contains every proper minor of $P$. The proof builds on the girth-five structural framework of Thomas and Thomson together with the nonplanar extension theorem of Norin and Thomas.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22267v2",
+        "pdf": "https://arxiv.org/pdf/2607.22267v2",
+        "source": "https://export.arxiv.org/e-print/2607.22267v2"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 4,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 11,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscriptV2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ", or reporting of the research. Declaration of competing interest. The author declares no known competing financial interests or personal relation- ships that could have appeared to influence the work reported in this paper. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process. During the preparation of this work, the author used OpenAI’s ChatGPT and Anthropic’s Claude for brainstorming, literature search, LATEX drafting, and editorial assistance",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:29.454533Z"
+      },
+      "score": 267.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 53.55,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 7,
+          "theorems": 24,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 2.75,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22263",
       "version": 1,
       "title": "Explicit Iteration Complexity of Exact Data-Driven Inverse Optimization for Integer Linear Programs",
