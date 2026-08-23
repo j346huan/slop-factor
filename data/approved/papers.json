@@ -9026,6 +9026,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11127",
+      "version": 1,
+      "title": "The $C^*$--ISR Property for $\\text{PSL}_n(\\mathbb{Z})$",
+      "authors": [
+        "Tattwamasi Amrutam"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": [
+          "math.DS",
+          "math.FA",
+          "math.GN",
+          "math.GR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T16:43:17Z",
+        "updated": "2026-08-11T16:43:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A discrete group $Γ$ has the \\emph{$C^*$--ISR property} if every unital $Γ$--invariant $C^*$--subalgebra $A\\subseteq C_r^*(Γ)$ is of the form $C_r^*(N)$ for a normal subgroup $N\\triangleleftΓ$. We show that $\\text{PSL}_n(\\mathbb{Z})$ satisfies the $C^*$--ISR property for every $n\\geq3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11127v1",
+        "pdf": "https://arxiv.org/pdf/2608.11127v1",
+        "source": "https://export.arxiv.org/e-print/2608.11127v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 2,
+        "lemmas": 23,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 4,
+        "displayed_equations": 38,
+        "bibliography_entries": 53,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 11thAugust2026.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "–regular elements p, q with q = psm , and replace (F3) by an escape property together with a matched Fourier-series argument. This suggestion led to Proposi- tion 2.1 and Lemma 2.2, which form the analytic core of the present proof. I used Anthropic’s Claude during the writing of the paper, for discussion of exposition and assistance with language and LATEX. I developed the construction, supplied, and verified all proofs, and checked the mathematical arguments and references, and I take full r",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:32.151306Z"
+      },
+      "score": 671.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 167.8,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 22,
+          "theorems": 12,
+          "lemmas": 92,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 8,
+          "displayed_equations": 9.5,
+          "bibliography_entries": 5.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11126",
       "version": 1,
       "title": "Sharp Beckner's Inequalities for Axially Symmetric Functions on $\\mathbb{S}^N$",
