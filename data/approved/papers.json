@@ -41850,6 +41850,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18121",
+      "version": 1,
+      "title": "Krasnosel'skii-Mann iterations beyond asymptotics: a combinatorial analysis",
+      "authors": [
+        "Mario Bravo",
+        "Roberto Cominetti"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T16:15:39Z",
+        "updated": "2026-07-20T16:15:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We revisit the classical Krasnosel'skii-Mann fixed point iteration for contractions and nonexpansive maps in general normed spaces. This iteration is ubiquitous across a wide range of areas, including convex optimization, monotone inclusions, Markov decision processes, under-relaxed methods for nonlinear PDEs, and more. Drawing on a remarkable connection with a Markov chain on $\\mathbb{Z}^2$, and using counting arguments from enumerative combinatorics of lattice paths, we derive explicit estimates for the distance between iterates, as well as non-asymptotic error bounds for the fixed point residuals. As the contraction parameter approaches one, these bounds smoothly recover the known estimates for nonexpansive maps. Building upon these estimates, we further derive error bounds for inexact Krasnosel'skii-Mann iterations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18121v1",
+        "pdf": "https://arxiv.org/pdf/2607.18121v1",
+        "source": "https://export.arxiv.org/e-print/2607.18121v1"
+      },
+      "structural_counts": {
+        "pages": 37,
+        "theorems": 6,
+        "lemmas": 9,
+        "propositions": 12,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 133,
+        "bibliography_entries": 44,
+        "appendix_pages": 31
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file v4_KM_Contraction_Arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "timately led us to Krattenthaler’s work on lattice paths [25], which paved the way for the precise formulation and proof of Theorem 1. The connection with binomial distributions presented in §3.1 was identified later with the assistance of ChatGPT. The proof of Proposition 7, however, as well as all subsequent analysis, is entirely our own. We take full responsibility for the content of the manuscript. References [1] Baillon, J.-B. and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:01.088508Z"
+      },
+      "score": 529.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 264.65,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 37,
+          "theorems": 36,
+          "lemmas": 36,
+          "propositions": 48,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 33.25,
+          "bibliography_entries": 4.4,
+          "appendix_pages": 62
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18044",
       "version": 1,
       "title": "A positive square-energy strengthening of Turán's theorem",
