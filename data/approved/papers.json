@@ -42199,6 +42199,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21945",
+      "version": 1,
+      "title": "Strategic Inference of Adversarial Navigation Objectives for Unmanned Underwater Vehicles",
+      "authors": [
+        "Ruimeng Hu",
+        "Xu Yang"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-24T03:43:17Z",
+        "updated": "2026-07-24T03:43:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study destination inference for adversarial unmanned underwater navigation in a spatially varying current field. The red vehicle is modeled as approximately following a Hamilton-Jacobi (HJ) time-optimal path toward an unknown destination, while a blue vehicle observes a noisy realization of that trajectory. We derive a continuous-time likelihood model for this problem and obtain a closed-form local maximum likelihood estimator, a constant-memory multi-period estimator, and an asymptotic Cramér-Rao efficiency result. The Fisher information is governed by a combined score kernel with two additive components, a policy-mean sensitivity and a reference-path sensitivity, and a multiplicative drift sensitivity whose leading geometric contribution is a contraction of the current Hessian with the Jacobi field of the HJ characteristic flow. All three sensitivities are induced by that Jacobi field, yielding a computable link between current-field geometry and destination identifiability. We further extend the framework to a sweep-dependent observation model and formulate an active sweep-design problem for the blue team. Numerical experiments in vortex and channel-shear currents validate the Cramér-Rao prediction and illustrate how current geometry determines which destinations can be reliably inferred.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21945v1",
+        "pdf": "https://arxiv.org/pdf/2607.21945v1",
+        "source": "https://export.arxiv.org/e-print/2607.21945v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 87,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r that is asymptotically manuscript preparation process. During the prepa- efficient, and a geometric characterization of the under- ration of this work, the authors used ChatGPT for En- lying Fisher information. glish language polishing and to improve the clarity of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:03.715834Z"
+      },
+      "score": 223,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 55.75,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 14,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 21.75,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21931",
       "version": 1,
       "title": "Lorenz and convex ordering of parasite burden distributions with density-dependent deaths",
