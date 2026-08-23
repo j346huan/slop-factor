@@ -43120,6 +43120,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29576",
+      "version": 1,
+      "title": "The gate of self-address: where decidable adjudication ends",
+      "authors": [
+        "Platon Sifnaios"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T16:03:03Z",
+        "updated": "2026-07-31T16:03:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An annulment structure consists of a numbered domain of distinctions with a $Σ^0_1$ manifestation predicate; an adjudicator is a partial map assigning to distinctions the verdicts annulled or exempt. We ask which domains admit an adjudicator that is total, correct, and complete in its mission -- annulling every non-manifesting member -- and locate the boundary exactly. On the positive side, domains with decidable manifestation admit canonical adjudicators with certificates, instantiated for Presburger arithmetic and finite-state re-entry systems. On the negative side, adjoining a single nullary gate, by which a distinction may query the verdict passed on itself, destroys decidability uniformly: the extended domain carries a trichotomy in which every adjudicator fails totality, exhaustiveness, or soundness at one distinction fixed in advance. Bounding the depth of self-address refines this: each finite level remains decidable, the hierarchy of iterated verdicts is the synchronous update of a Boolean network on the query graph, deciding stabilisation is PSpace-complete for explicitly presented networks, and periods as large as $2^n-1$ occur at closure size $n$. In the limit what fails is convergence, not decidability; the diagonal distinctions oscillate with period two, and their mean frequency of $1/2$ is the value a reflective oracle is forced to return there. Over the standard domain relative to an oracle $X$, the least Turing degree of an adjudicator with all three properties is the degree of $X'$: adjudication costs one jump per level. The boundary is a three-way trade among determinacy, correctness, and residence at the level adjudicated. The fixed-point core holds over every precomplete numbering in the sense of Ershov. The framework falls on the intensional side of the divide between Kleene's two recursion theorems. Gödel's incompleteness theorems are nowhere used.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29576v1",
+        "pdf": "https://arxiv.org/pdf/2607.29576v1",
+        "source": "https://export.arxiv.org/e-print/2607.29576v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 7,
+        "lemmas": 2,
+        "propositions": 5,
+        "corollaries": 6,
+        "definitions": 6,
+        "displayed_equations": 5,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nment of limiting frequencies rather than as an independent construction. Declaration on the use of AI tools All mathematical content of this paper — the framework, the definitions, the theorems, and their proofs — is the author’s own. A large language model (Claude, Anthropic) was used as an editorial aid in the preparation of the manuscript: for referee-style review of drafts, for verification of bibliographic data, for consistency checks on cross-references and terminology, for suggestions",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:30.708876Z"
+      },
+      "score": 591.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 118.25,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 15,
+          "theorems": 42,
+          "lemmas": 8,
+          "propositions": 20,
+          "corollaries": 18,
+          "definitions": 12,
+          "displayed_equations": 1.25,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29490",
       "version": 1,
       "title": "Slice and Partition Rank Criteria for Polynomial Zero-Avoidance",
