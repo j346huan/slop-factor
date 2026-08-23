@@ -41768,6 +41768,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13232",
+      "version": 1,
+      "title": "Design of Carbon Capture Processes Under Part-load Operating Conditions",
+      "authors": [
+        "David Y. Shu",
+        "Boxun Huang",
+        "Yurim Kim",
+        "Randall Field",
+        "Rahul Gandhi",
+        "Sungho Shin"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T19:51:29Z",
+        "updated": "2026-07-14T19:51:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Solvent-based carbon capture can reduce CO2 emissions resulting from a continued reliance on fossil power plants for firm power. These capture processes remove CO2 from flue gases via a solvent. Careful design via process systems optimization can limit the overall cost of carbon capture, which is both capital- and energy intensive. As dispatchable power plants operate to meet varying load demand, the design process needs to account for varying operating points. However, optimizing the design over multiple operating points yields high computational complexity, which is why designs are often based on a single operating point in practice. Here, we identify optimal carbon capture process designs via stochastic optimization, reducing computational complexity through a data-driven approach-to-equilibrium model of the absorption and desorption processes. We represent variable flue gas conditions based on part-load operation data of a representative coal power plant. Accounting for this variability in the design substantially reduces equipment size and total plant cost by 6-9 % at the expense higher operating costs, yielding a reduction in total cost of carbon capture by 0.7-1.7 %. Given the capital intensity of carbon capture, variability of flue gas conditions therefore should be considered at the design stage, particularly if capture is deployed on plants subject to load following.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13232v1",
+        "pdf": "https://arxiv.org/pdf/2607.13232v1",
+        "source": "https://export.arxiv.org/e-print/2607.13232v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 11,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source parsing failed; PDF-text fallbacks were used: Downloaded source is neither a safe tar archive nor recognizable TeX",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "C4E-25. DECLARATION OF USE OF AI (b) Annual operating cost of the capture system. The authors used artificial intelligence tools to assist with grammar, spelling, and readability improvements in the manuscript. No AI tools were used to",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:31.275510Z"
+      },
+      "score": 10.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 10.95,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 6,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2.75,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13225",
       "version": 1,
       "title": "Graph Puzzles III.1: A Proof of Sabidussi's Compatibility Conjecture",
