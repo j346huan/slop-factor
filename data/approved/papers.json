@@ -44572,6 +44572,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29361",
+      "version": 2,
+      "title": "A recursive butterfly factorization with optimality guarantees",
+      "authors": [
+        "David Persson",
+        "Paul G. Beckman",
+        "Tyler Chen",
+        "Diana Halikias",
+        "Christopher Musco"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T12:49:16Z",
+        "updated": "2026-08-07T12:46:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We formalize a recursive format for representing a butterfly matrix. This new format naturally leads to a simple recursive algorithm for computing a quasi-optimal butterfly approximation to an arbitrary $N \\times N$ matrix $A$. When the entries of $A$ are explicitly available, we show that the algorithm computes a butterfly matrix $B$ in $O(N^2)$ operations with approximation error $\\|A - B\\|_F$ at most a $O(\\sqrt{\\log(N)})$ factor away from that of the best possible approximation by a butterfly matrix. We also develop a matrix-free variant of the method, which uses $\\widetilde{O}(\\sqrt{N})$ matrix-vector products and $\\widetilde{O}(N)$ working memory and, with high probability, returns a butterfly approximation with Frobenius norm error within a $O(N^{1/4})$-factor of the optimal error. We show that the algorithm is a reformulation of the hybrid butterfly factorization approach presented in [Liu et. al.; SISC, 43 (2021)]. Our paper therefore provides the first theoretical quasi-optimality guarantee for that algorithm.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29361v2",
+        "pdf": "https://arxiv.org/pdf/2607.29361v2",
+        "source": "https://export.arxiv.org/e-print/2607.29361v2"
+      },
+      "structural_counts": {
+        "pages": 38,
+        "theorems": 7,
+        "lemmas": 9,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 4,
+        "displayed_equations": 158,
+        "bibliography_entries": 71,
+        "appendix_pages": 33
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration of generative AI and AI-assisted technologies in the manuscript preparation process. During the preparation of this work the authors used a Large Language Model in order to assist with generating figures, editing, and searching for typos. After using this",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:22.176676Z"
+      },
+      "score": 1198,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 239.6,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 38,
+          "theorems": 42,
+          "lemmas": 36,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 8,
+          "displayed_equations": 39.5,
+          "bibliography_entries": 7.1,
+          "appendix_pages": 66
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29325",
       "version": 1,
       "title": "I-MCHM: Interface Multicontinuum Homogenization for Multiscale Elliptic Problems",
