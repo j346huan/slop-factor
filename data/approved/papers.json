@@ -42102,6 +42102,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16994",
+      "version": 1,
+      "title": "Entropy Density of Uniquely Ergodic Measures for Full Shifts over Amenable Residually Finite Groups",
+      "authors": [
+        "Martha Łącka",
+        "Marcel Mroczek"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-18T22:54:15Z",
+        "updated": "2026-07-18T22:54:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study entropy density for full shifts over amenable residually finite groups. Entropy density means that every invariant measure can be approximated in the weak$^*$ topology, together with its entropy, by measures from a distinguished family. In symbolic dynamics it is known, by a result of Weiss, that uniquely ergodic measures are entropy dense among ergodic measures for the shift action of $\\mathbb Z$. We extend this result to full shifts over amenable residually finite groups: invariant measures supported on uniquely ergodic subsystems are entropy dense in the collection of ergodic invariant measures. This applies in particular to full shifts over finitely generated abelian groups. The proof uses Cortez--Petite Følner tilings and a block-replacement construction adapted to finite-index subgroups.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16994v1",
+        "pdf": "https://arxiv.org/pdf/2607.16994v1",
+        "source": "https://export.arxiv.org/e-print/2607.16994v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 10,
+        "lemmas": 13,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 5,
+        "displayed_equations": 138,
+        "bibliography_entries": 19,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "owledgements The authors are grateful to Dominik Kwietniak for many valuable suggestions and remarks. MM was supported by the National Science Centre (NCN), Poland, grant no. 2022/47/B/ST1/02866. Use of AI-assisted tools AI-assisted tools were used to support language editing, proofreading, and im- proving the clarity of exposition. AI-assisted tools were also used in discussions of the presentation of selected proofs. The authors reviewed and ver",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:07.539989Z"
+      },
+      "score": 825.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 206.4,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 29,
+          "theorems": 60,
+          "lemmas": 52,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 10,
+          "displayed_equations": 34.5,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16978",
       "version": 1,
       "title": "Real-World, Large Scale, Multi-Period Log Truck Routing and Scheduling : Application to Canadian Forestry",
