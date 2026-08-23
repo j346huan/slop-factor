@@ -45258,6 +45258,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27725",
+      "version": 1,
+      "title": "Laplacian Bounds for the Dissociation Number of Regular Graphs of Matrix Rings",
+      "authors": [
+        "Joyentanuj Das"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T06:04:10Z",
+        "updated": "2026-07-30T06:04:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $Γ_n(q)$ be the graph whose vertices are the invertible matrices in $\\Mat_n(\\F_q)$, with two distinct matrices adjacent whenever their sum is singular. A dissociation set is a vertex set inducing a graph of maximum degree at most one. We study the dissociation number of $Γ_n(q)$ by embedding it as an induced subgraph of the total graph $T_n(q)$ on all of $\\Mat_n(\\F_q)$. A general Laplacian inequality for $k$-independent sets, together with an explicit character computation for the additive group of the matrix ring, gives parity-sensitive upper bounds. For fixed $n$, the resulting bound is of order at most $q^{n^2-n+1}$ for odd $q$ and at most $q^{n^2-2n+2}$ for even $q$. In particular, \\[ \\diss(Γ_n(q))\\le q^{n^2-n+1}-1. \\] In the other direction, the regular representation of the extension field $\\F_{q^n}$ gives $\\diss(Γ_n(q))\\ge q^n-1$. We give complete proofs, including a self-contained derivation of the required matrix character sum, and determine the smallest case: $\\diss(Γ_2(2))=3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27725v1",
+        "pdf": "https://arxiv.org/pdf/2607.27725v1",
+        "source": "https://export.arxiv.org/e-print/2607.27725v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 5,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 3,
+        "definitions": 1,
+        "displayed_equations": 124,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file dissociation_number_matrix_rings.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "at produces the largest Laplacian eigenvalue: rank two in even characteristic and rank one in odd characteristic. Finally, the small- parameter analysis gives the exact value diss(Γ2 (2)) = 3. Declaration on the use of AI The author used generative AI tools to assist in discussing proof strategies, checking proofs, and improving the exposition. The author takes full responsibility for the mathematical arguments, results, and conclusions, all of which were carefully reviewed and verified",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:22.983180Z"
+      },
+      "score": 896.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 112.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 30,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 9,
+          "definitions": 2,
+          "displayed_equations": 31,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27702",
       "version": 1,
       "title": "Schur Eisenstein series and Schur MacMahon series",
