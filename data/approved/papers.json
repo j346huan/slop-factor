@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16116",
+      "version": 1,
+      "title": "New constructions of optimal arrangements of $2d$ lines in $\\mathbb{C}^d$",
+      "authors": [
+        "Alexey Glazyrin"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.FA",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T05:13:49Z",
+        "updated": "2026-08-17T05:13:49Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper we provide new constructions of equiangular tight frames of size $2d$ in $\\mathbb{C}^d$. We generalize the doubling construction of Fallon and Iverson to a tensor multiplication construction based on a suitable pair consisting of a complex Hadamard matrix and an equiangular tight frame. In particular, such a pair always exists whenever there is an amicable pair of real Hadamard matrices. Most notably, amicable Hadamard pairs of order $q+1$ exist for all prime powers $q\\equiv 3\\pmod 4$. We also find specific constructions based on a family of pairs of order 6 and on pairs whose equiangular tight frames are defined by Paley conference matrices with $q\\equiv 1\\pmod 4$. Finally, we provide a power construction of equiangular tight frames that generalizes the construction of Turyn for conference matrices.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16116v1",
+        "pdf": "https://arxiv.org/pdf/2608.16116v1",
+        "source": "https://export.arxiv.org/e-print/2608.16116v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 5,
+        "lemmas": 2,
+        "propositions": 3,
+        "corollaries": 4,
+        "definitions": 0,
+        "displayed_equations": 27,
+        "bibliography_entries": 39,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Multiplying_ETFs.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "6. Acknowledgments Alexey Glazyrin was partially supported by the NSF grants DMS-2054536, DMS-2349063 and the Simons Foundation’s Travel Support for Mathematicians program. 7. AI statement ChatGPT 4.6 Sol was used for literature search and light copyediting throughout the paper. The constructions in Subsections 3.3, 3.4 and the argument for Proposition 3 were found with AI assistance. All text in the paper was written by the author,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:42.599742Z"
+      },
+      "score": 836.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 83.65,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 11,
+          "theorems": 30,
+          "lemmas": 8,
+          "propositions": 12,
+          "corollaries": 12,
+          "definitions": 0,
+          "displayed_equations": 6.75,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15955",
       "version": 1,
       "title": "Canonical traces of Artinian truncations of Stanley-Reisner rings",
