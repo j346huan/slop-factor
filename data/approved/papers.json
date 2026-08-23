@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10193",
+      "version": 2,
+      "title": "A Necessary and Sufficient Hall Condition for Hypergraphs",
+      "authors": [
+        "Xiaoyao Huang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM",
+          "cs.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T20:11:09Z",
+        "updated": "2026-08-16T17:19:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a necessary and sufficient Hall condition for a family $A=(A_e)_{e\\in E(G)}$ of hypergraphs indexed by the edges of a forest \\(G\\). This restriction on the index graph is sharp. The loop-only case recovers the classical Hall's Theorem with multiplicities for arbitrary finite set systems, while the loopless case shows that full rainbow matching is polynomial time solvable under this forest structure, although the problem is NP-complete in general. As another application, we prove every $5$-tough chordal graph is Hamilton-connected, improving toughness bounds of $18$ for Hamiltonicity (1998) and $10$ for Hamilton-connectedness (2017).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10193v2",
+        "pdf": "https://arxiv.org/pdf/2608.10193v2",
+        "source": "https://export.arxiv.org/e-print/2608.10193v2"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 3,
+        "lemmas": 6,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 4,
+        "displayed_equations": 84,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file hyperhall.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tiplicity version of the full rainbow matching problem. Taking qe = 1 for every color e gives the full rainbow matching case. 5. Acknowledgments Claude Opus was used to search for references. AI tools were used to refine the writing after the draft was completed. References [1] Ron Aharoni and Penny E. Haxell. “Hall’s Theorem for Hypergraphs”. In: Journal of Graph Theory 35.2",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:34.114200Z"
+      },
+      "score": 395.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 98.9,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 17,
+          "theorems": 18,
+          "lemmas": 24,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 8,
+          "displayed_equations": 21,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09927",
       "version": 1,
       "title": "Dynamic $e$-closure for online hypotheses with any-time-valid evidence: closure principles and projective mergers",
