@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14884",
+      "version": 1,
+      "title": "Rigidity of isometries on vector and normed lattices",
+      "authors": [
+        "Noel Murasko",
+        "Tomasz Szczepanski"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T20:47:24Z",
+        "updated": "2026-08-14T20:47:24Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study rigidity phenomena for maps on vector and normed lattices arising from isometric, order-theoretic, and modulus-preserving conditions. We first investigate the role of strict convexity in Baker's nonsurjective version of the Mazur-Ulam theorem. In the process, we develop a theory of midpoint injective functions and investigate their connections with convexity and monotonicity. Using this framework, we prove a generalization of Baker's theorem. As our first main application, we show that every modulus isometry, i.e., a map $T:X\\to Y$, where $X$ is a sublattice of a vector lattice $Y$, satisfying $$|T(x)-T(y)|=|x-y|, \\qquad x,y\\in X,$$ is affine and has a disjointness-preserving linear part. When $X$ is an ideal, the linear part is moreover a bijection of $X$ onto itself and an involution. In the normed lattice setting, we also show that every positive norm isometry into a strictly convex normed lattice is not only affine, but has a linear part that is a lattice homomorphism. Finally, we prove a nonlinear order-isometric rigidity theorem. After shifting to the origin, every order-preserving norm isometry between normed lattices whose codomain has a strictly monotone norm, preserves suprema and infima and is both disjointness preserving and disjointly additive. These conclusions do not force linearity, as shown by an explicit family of nonlinear isometries on $L_1[0,1]$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14884v1",
+        "pdf": "https://arxiv.org/pdf/2608.14884v1",
+        "source": "https://export.arxiv.org/e-print/2608.14884v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 5,
+        "lemmas": 7,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 168,
+        "bibliography_entries": 45,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arXiv_version_2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Vladimir Troitsky for many valuable conversations during the development of this paper and for his encour- agement in pursuing this topic. We are also grateful to him for bringing [3] to our attention. The authors acknowledge the use of ChatGPT-5.6 Sol during the preparation of this manuscript for correcting grammar and style, exploring proof ideas, con- ducting literature searches, and improving the readability of the exposition. The authors assume responsibility for all content",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:06.750062Z"
+      },
+      "score": 1332,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 166.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 28,
+          "theorems": 30,
+          "lemmas": 28,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 42,
+          "bibliography_entries": 4.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14836",
       "version": 1,
       "title": "Leaving the Hall: explicit formulas for Neguţ operators",
