@@ -8423,6 +8423,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07880",
+      "version": 1,
+      "title": "Sharp vertex connectivity of the Markoff graphs modulo $p$",
+      "authors": [
+        "Jie Ma",
+        "Mengxi Yang",
+        "Zichen Yang"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-08T03:14:17Z",
+        "updated": "2026-08-08T03:14:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Markoff graph $G_p$ modulo a prime $p$ is an undirected graph whose vertices are the nonzero solutions over the finite field $\\mathbb{F}_p$ of the normalized Markoff equation \\[ x_1^2+x_2^2+x_3^2=x_1x_2x_3, \\] where two vertices are adjacent if they differ by a Vieta involution. A major breakthrough of Bourgain, Gamburd, and Sarnak established that $G_p$ contains a giant connected component. Combined with Chen's remarkable divisibility theorem, this implies that $G_p$ is connected for all sufficiently large primes $p$. In the same paper, Bourgain, Gamburd, and Sarnak further asked whether the family $\\{G_p\\colon p\\geq5\\}$ forms an expander family. This motivates us to investigate the robustness of connectivity in the Markoff graphs. In this short note, we show that if the Markoff graph $G_p$ is connected, then it is in fact $2$-connected. Consequently, the Markoff graph $G_p$ is $2$-connected for all sufficiently large primes $p$. This is sharp in the sense that $G_p$ is not $3$-connected for any prime $p\\geq 7$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07880v1",
+        "pdf": "https://arxiv.org/pdf/2608.07880v1",
+        "source": "https://export.arxiv.org/e-print/2608.07880v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 46,
+        "bibliography_entries": 11,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d by Mozi Outstanding Young Talent Special Subsidy, provided by University of Science and Technology of China. Declaration on the Use of AI During the preparation of this work, the authors used AI systems to assist in generating candidate proof strategies, particularly in identifying the functions used in the proof of Lemma 2.3. All AI-generated suggestions were verified and refined by the authors, who take full responsibility for the corre",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:47.314851Z"
+      },
+      "score": 380.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 47.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 7,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 11.5,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07842",
       "version": 1,
       "title": "Resolution of a Conjecture on Shifted R'enyi Divergence",
