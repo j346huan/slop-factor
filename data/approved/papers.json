@@ -8932,6 +8932,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11530",
+      "version": 1,
+      "title": "A dense-case theorem for Seymour's second neighborhood conjecture",
+      "authors": [
+        "Jake Brukhman"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T00:48:09Z",
+        "updated": "2026-08-12T00:48:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Seymour's second neighborhood conjecture asserts that every finite oriented graph has a vertex with at least as many exact second outneighbors as outneighbors. Established cases include tournaments, proved by Fisher (1996), and oriented graphs of minimum outdegree at most six, proved by Kaneko and Locke (2001); a recent preprint of Sadhukhan, Sandeep, and Sen (2026) treats minimum outdegree seven. For dense incomplete graphs, Fidler and Yuster (2007) proved the conjecture when the missing edges form a matching, a star, or a clique, Ghazal (2012) extended this direction to generalized stars, and Dara, Francis, Jacob, and Narayanan (2022) proved it when the missing edges can be partitioned into a matching and a star. We give a short counting proof of the conjecture for every oriented graph of order $n=2δ+2$, where $δ$ is the minimum outdegree, with no prescribed structure on the missing edges. Together with Fisher's tournament theorem, this implies the conjecture for every oriented graph satisfying $n\\le2δ+2$. Combined with the known minimum-outdegree results, this raises the best lower bound known to us on the order of a counterexample from $16$ to $17$ and, conditional on the preprint of Sadhukhan, Sandeep, and Sen (2026), from $18$ to $19$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11530v1",
+        "pdf": "https://arxiv.org/pdf/2608.11530v1",
+        "source": "https://export.arxiv.org/e-print/2608.11530v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 24,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file dense-case-snc.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "therefore requires new ideas. Acknowledgments The author initiated and directed the investigation, curated intermediate results, selected the theorem for publication, and edited the final statement and exposition. OpenAI language models (GPT-5 family) carried out the detailed mathematical exploration, implemented coun- terexample searches and verification tools, discovered the fixed-target capacity argument and its double-counting proof, and drafted the manuscript; Anthropic Cla",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:01.873519Z"
+      },
+      "score": 290,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 29,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 6,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11525",
       "version": 1,
       "title": "A Proof of Gluck's Conjecture",
