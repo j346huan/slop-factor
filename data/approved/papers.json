@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11586",
+      "version": 1,
+      "title": "Higher Regularity of Homogeneous Gradient Compositions for $p$-Laplace-Type Equations",
+      "authors": [
+        "Quoc Hung Nguyen",
+        "Le Xuan Truong"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T02:53:45Z",
+        "updated": "2026-08-12T02:53:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we study higher regularity of homogeneous functions of the gradient of solutions to the inhomogeneous $p$-Laplace equation $\\operatorname{div}(|Du|^{p-2}Du)=f$. Although a solution need not be of class $C^2$ across its critical set, its gradient is locally Hölder continuous. Suppose that $Du\\in C^{0,α}_{\\rm loc}$ with $α\\le 1/(p-1)$, and let $Φ$ be smooth away from the origin and positively homogeneous of degree $m$. We prove that $Φ(Du)\\in C^k_{\\rm loc}$ whenever $m>k/α$. Moreover, all its derivatives of order at most $k$ vanish on the critical set. The proof uses the intrinsic scale $r\\simeq |Du|^{1/α}$, Schauder estimates for a normalized uniformly elliptic equation, and an extension lemma across the critical set. We also obtain corresponding results for autonomous anisotropic equations and for elliptic and parabolic $p$-Laplace systems, under the appropriate Hölder assumption on the gradient. Finally, the same argument gives $C^k$ regularity criteria for high powers of nonnegative solutions to the porous medium equation.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11586v1",
+        "pdf": "https://arxiv.org/pdf/2608.11586v1",
+        "source": "https://export.arxiv.org/e-print/2608.11586v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 4,
+        "lemmas": 2,
+        "propositions": 3,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 156,
+        "bibliography_entries": 72,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Quasilinear_equationrevised.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "interest. Acknowledgments. Quoc-Hung Nguyen is supported by the CAS Project for Young Scientists in Basic Research, Grant No. YSBR-031, and by the NSFC under Grant Nos. 1251101538 and 12595282. AI assistance statement. The authors used the AI model GPT-5.6 Sol to assist with calcula- tions and writing. The main ideas, mathematical validation, and all final checks remain the sole responsibility of the authors. References [1] C. A. Antonini, Local and global C 1,β -regularity for un",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:43.211655Z"
+      },
+      "score": 616,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 123.2,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 24,
+          "theorems": 24,
+          "lemmas": 8,
+          "propositions": 12,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 39,
+          "bibliography_entries": 7.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11554",
       "version": 1,
       "title": "Tripartite Zarankiewicz numbers and norm graphs",
