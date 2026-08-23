@@ -10042,6 +10042,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18169",
+      "version": 1,
+      "title": "Ramsey number $R(4, 20) \\ge 252$",
+      "authors": [
+        "Charlie Yu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T14:55:38Z",
+        "updated": "2026-08-17T14:55:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We exhibit two explicit circulant graphs of prime order $251$ that are $K_4$-free and have independence number $19$. Consequently \\[R(4,20)\\ge 252.\\] These improve the bound $R(4,20)\\ge 237$ given by Nagda, Raghavan, Thakurta and the long standing bound $R(4,21)\\ge 242$ recorded in Radziszowski's dynamic survey. The graphs are $32$-subsets of a pair of undirected quintic cyclotomic classes modulo $251$, in analogy with the quartic-residue circulant of order $313$ used for $R(4,22)$. Clique-freeness is elementary; the independence-number claims are certified by a bitset branch-and-bound on the $186$-vertex residual of a vertex.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18169v1",
+        "pdf": "https://arxiv.org/pdf/2608.18169v1",
+        "source": "https://export.arxiv.org/e-print/2608.18169v1"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 8,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file r420.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements The author acknowledges the use of Grok 4.6 (xAI) for assistance with literature search, verification of computational claims, drafting of expository passages, and preparation of the LATEX source. All mathematical content, constructions, and certificates were verified independently",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:01.635940Z"
+      },
+      "score": 63.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 12.7,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 4,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16664",
       "version": 1,
       "title": "Random Quadratic Form with random forcing: Metastable synchronization by noise",
