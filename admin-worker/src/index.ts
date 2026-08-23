@@ -978,9 +978,10 @@ export default {
     const pathname = new URL(request.url).pathname;
     try {
       if (pathname.startsWith("/auth/"))
-        return authentication(request, env, pathname);
-      if (pathname.startsWith("/api/")) return api(request, env, pathname);
-      return env.ASSETS.fetch(request);
+        return await authentication(request, env, pathname);
+      if (pathname.startsWith("/api/"))
+        return await api(request, env, pathname);
+      return await env.ASSETS.fetch(request);
     } catch (error) {
       if (error instanceof Response) return error;
       const message =
