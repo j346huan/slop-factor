@@ -44741,6 +44741,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29579",
+      "version": 2,
+      "title": "Bipartite Extremal Numbers of Trees",
+      "authors": [
+        "Lucas Waite",
+        "Nuh Aydin"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T16:05:54Z",
+        "updated": "2026-08-10T03:21:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study a restriction of the classical Erdős--Sós problem, the extremal number of trees, to the class of bipartite host graphs, both when only the order of the host is prescribed and when its two part-sizes are fixed. We give natural lower-bound constructions and formulate corresponding linear upper-bound conjectures. We apply a weighted variant of $k$-minimality to prove upper bounds for a broad family of trees including brooms, trees with part-sizes obeying certain inequalities, and all trees on at most seven vertices, resolving part of a problem of Caro, Patkós and Tuza up to additive constants. We also relate the fixed-part extremal number of a tree to the ordinary extremal number, and consider an oriented bipartite extremal function analogous to the Zarankiewicz function.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29579v2",
+        "pdf": "https://arxiv.org/pdf/2607.29579v2",
+        "source": "https://export.arxiv.org/e-print/2607.29579v2"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 5,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 54,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Bipartite_Extremal_Number_Of_Trees_2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "opic, reviewing an earlier version of this manuscript, and giving detailed feedback. We note that Khormali independently investigated the same problem using a distinct approach after the majority of our work was completed. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work the authors used ChatGPT-5.6 Sol in order to improve readability of the manuscript and put references in the required format. After usin",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:58.491578Z"
+      },
+      "score": 394.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 78.9,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 13,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 20,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 13.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29576",
       "version": 1,
       "title": "The gate of self-address: where decidable adjudication ends",
