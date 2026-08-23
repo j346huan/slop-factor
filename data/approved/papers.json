@@ -43300,6 +43300,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23662",
+      "version": 1,
+      "title": "Self-Referential Leading Digits of Exponential Sequences: Arithmetic Structure and Certified Search",
+      "authors": [
+        "Zihang Fang"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T13:53:01Z",
+        "updated": "2026-07-26T13:53:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $c>1$ and an integer radix $b\\ge2$, we study the positive integers $m$ for which $mb^k\\le c^m<(m+1)b^k$ for some $k\\ge0$; for integer $c$, this is the self-prefix leading-digit condition. We derive an exact shrinking-target criterion; for $c\\ge2$, an exact signed-discrepancy identity isolates both infinitude and the conjectural logarithmic count. For $c\\ge2$ with nonintegral logarithmic slope, Lambert $W_{-1}$ inversion produces a candidate sequence with an eventual two-gap law and an exact counting formula; for $(c,b)=(2,10)$ all consecutive candidate gaps are $3$ or $4$. For algebraic $c$ with irrational $\\log_b c$, the Lambert-root phases satisfy deterministic moving-target asymptotics in an explicit nontrivial power range strictly below the critical scale. For irrational logarithmic slope, actual hits obey fixed-difference and arithmetic-chain rigidity; for multiplicatively independent integer parameters, coherent endpoint hits at floor resonance centers force every intermediate term. Finally, set $ρ=\\{\\log_b c\\}$. For fixed multiplicatively independent integers $c,b$, an interpolated continued-fraction locator has bit complexity $O(N^{1-1/ν}\\operatorname{polylog}N)$ for every $ν>μ(ρ)$. We give an explicit certified instance for $(2,10)$, whose infinitude remains open.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23662v1",
+        "pdf": "https://arxiv.org/pdf/2607.23662v1",
+        "source": "https://export.arxiv.org/e-print/2607.23662v1"
+      },
+      "structural_counts": {
+        "pages": 49,
+        "theorems": 19,
+        "lemmas": 4,
+        "propositions": 9,
+        "corollaries": 15,
+        "definitions": 1,
+        "displayed_equations": 388,
+        "bibliography_entries": 41,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file self_referential_leading_digits.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "clares no competing interests. CRediT authorship contribution statement Zihang Fang: Conceptualization, Formal analysis, Investigation, Methodology, Software, Validation, Writing–original draft, Writing–review and editing. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used ChatGPT and Codex (OpenAI) to assist with literature searches and proof-checking. The author independently checked all",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 48",
+          "page": 48
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:52.178664Z"
+      },
+      "score": 2904.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 363.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 49,
+          "theorems": 114,
+          "lemmas": 16,
+          "propositions": 36,
+          "corollaries": 45,
+          "definitions": 2,
+          "displayed_equations": 97,
+          "bibliography_entries": 4.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23655",
       "version": 2,
       "title": "Hessian degeneracy of the torsion function on smooth simply connected nonconvex planar domains",
