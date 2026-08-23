@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15672",
+      "version": 1,
+      "title": "Uniformity without Projective Consistency: An Exact Counterexample for a Nested Binary Term Grammar",
+      "authors": [
+        "Ivan Khalamendyk"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T10:32:20Z",
+        "updated": "2026-08-16T10:32:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let T_0={L} and T_{r+1}={L} union {N(a,b):a,b in T_r}. On the nonleaf terms E_r, require each event N(a,b) to occur after its nonleaf children, and let mu_r be the uniform measure on the linear extensions of this poset. We study the restriction rho_43 that deletes the new level-4 events while preserving the relative order of the level-3 events. We prove that the pushforward of mu_4 under rho_43 is not mu_3. Two explicit orders on the 25 level-3 events have different numbers of level-4 extensions. If b_i is the number of T_2 terms, including the leaf, seen in a prefix of length i, the number of newly released events is (i+1)^2-b_i^2. The release profile of a depth-priority order dominates that of a level order pointwise and is strictly larger for 3<=i<=15. An explicit injection between admissible interleavings therefore gives a strict analytic fiber inequality. Two algorithmically independent exact computations reproduce both 1557-digit fiber counts; their reduced ratio is 614690215260160000/479048686862260621, approximately 1.2831476885707443. The analogous restrictions through level 3 are consistent, so 4-to-3 is the first failure in this grammar. The result is specific to this grammar, uniform measures, and restriction map.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15672v1",
+        "pdf": "https://arxiv.org/pdf/2608.15672v1",
+        "source": "https://export.arxiv.org/e-print/2608.15672v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 44,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "author declares no conflict of interest. Author contribution. The sole author formulated the problem, proved the structural results, implemented and checked the exact enumerations, and approved the manuscript. AI-assisted tools. Generative-AI tools were used during drafting, language editing, code review, and computational cross-checking. The author independently checked the proofs, references, and executable artifacts and assumes full responsibility for the contents.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:36.333056Z"
+      },
+      "score": 120,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 24,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 13,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 11,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15666",
       "version": 2,
       "title": "Maximum-Area Small Polygons of Even Order",
