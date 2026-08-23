@@ -41852,6 +41852,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27818",
+      "version": 1,
+      "title": "Selfnormalization for relevant inference with supremum-type statistics",
+      "authors": [
+        "Patrick Bastian"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "stat.ME"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T07:59:11Z",
+        "updated": "2026-07-30T07:59:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a selfnormalized approach to inference for relevant changes in functional time series measured by the supremum norm. The main difficulty is that the supremum norm is not Hadamard differentiable, so standard projection-based selfnormalization does not apply and the limiting distribution may depend on the geometry of the extremal set and the long-run covariance structure. We address this problem by replacing the supremum norm with a smooth log-sum-exp approximation and constructing a projected selfnormalizer from its derivative. The resulting statistic has an asymptotically pivotal distribution that is free of long-run covariance nuisance parameters and depends only on the break location. We derive explicit smoothing-bias expansions for both isolated nondegenerate extrema and extremal sets of positive measure. To avoid direct estimation of geometric quantities such as the number, curvature, or measure of the extrema, we combine several smoothing levels to cancel the leading bias terms. This yields an asymptotically exact test for relevant changes under mild regularity conditions. More generally, the proposed smoothing and bias-correction principles provide a framework for combining selfnormalization with supremum-type statistics in problems involving relevant hypotheses.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27818v1",
+        "pdf": "https://arxiv.org/pdf/2607.27818v1",
+        "source": "https://export.arxiv.org/e-print/2607.27818v1"
+      },
+      "structural_counts": {
+        "pages": 40,
+        "theorems": 6,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 236,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxivSN.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "all scenarios when taking into consideration the severe size inflation of the bootstrap test. Acknowledgements The author was supported by the Aarhus University Research Foundation (AUFF), project numbers 47221 and 47388. Disclosure of Generative AI Use The author used ChatGPT 5.6 Sol during the preparation of this manuscript. The tool was used for drafting, language editing, generating R code and formatting LATEX. All statistical methods, analyses, interpretations, and conclusions we",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:35.010195Z"
+      },
+      "score": 765,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 153,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 40,
+          "theorems": 36,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 59,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27795",
       "version": 1,
       "title": "A Unified Discrete Gradient-SAV Framework for Structure-Preserving Integration",
