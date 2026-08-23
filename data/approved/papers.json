@@ -42872,6 +42872,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20954",
+      "version": 1,
+      "title": "New excluded minors for the class $\\mathcal{M}_3$ of regular matroids",
+      "authors": [
+        "Booker Smith"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-23T06:24:26Z",
+        "updated": "2026-07-23T06:24:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Engel, de Gaay Fortman, and Schreieder attach to each prime $\\ell$ a minor-closed class $\\mathcal{M}_\\ell$ of regular matroids, whose excluded minors govern the failure of the integral Hodge conjecture for curve classes on very general principally polarized abelian varieties. For $\\ell=2$ the class is the cographic matroids, with excluded minors $M(K_5)$ and $M(K_{3,3})$ by Tutte's theorem; for $\\ell=3$ the only excluded minor explicitly identified so far is $M(K_{3,5})$, and the general characterization is [EGFS, Problem 8.8]. We exhibit five new excluded minors for $\\mathcal{M}_3$, of ranks 8, 9, 9, 9, and 10; none contains $M(K_{3,5})$ or any of the other four as a minor, so the excluded-minor list of Problem 8.8 has at least six members, with excluded minors at every rank from 7 through 10. Combined with $M(K_7) \\notin \\mathcal{M}_3$, established by the same authors, and the minor-closedness of $\\mathcal{M}_3$, some minor of $M(K_7)$ of rank between 4 and 6 is a further excluded minor, so the list has at least seven members, six of them explicitly identified. The list is structurally diverse: two bipartite apex constructions with automorphism group $S_4$, and three non-bipartite, non-planar rank-9 graphs with no such apex structure. Every verdict is certified by a finite $\\mathbb{F}_3$-linear-algebra computation with explicit machine-checkable witnesses, cross-checked by independent implementations; the certificates further show that the five matroids lie outside the larger class $\\widetilde{\\mathcal{M}}_3$. We also record what are, to our knowledge, the first $\\ell=5$ data on this corank-8 slice: $M(K_{3,5})$ and the rank-8 and rank-10 minors lie in $\\mathcal{M}_5$ by explicit certificates, and the radical distance $d(M(K_{3,5}))=6$ is determined exactly.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20954v1",
+        "pdf": "https://arxiv.org/pdf/2607.20954v1",
+        "source": "https://export.arxiv.org/e-print/2607.20954v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 2,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 4,
+        "definitions": 0,
+        "displayed_equations": 7,
+        "bibliography_entries": 4,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file newminor_note.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ship witnesses of §4 are archived alongside, with their own self- contained checker, in the bundle’s l5 membership/ directory. The bundle, together with this note, is available at https://github.com/thebookersmith/hodge-m3-excluded-minors. Anthropic’s Claude models were used substantially in the preparation of this note and its accompanying code; all content was reviewed by the author, who takes full responsibility for it. 4 Membership at ℓ = 5 The wider significance of the radical distan",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:09.779957Z"
+      },
+      "score": 170.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 34.15,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 8,
+          "theorems": 12,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 12,
+          "definitions": 0,
+          "displayed_equations": 1.75,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20886",
       "version": 1,
       "title": "Maximal topological complexity of monotone symplectic 4-manifolds",
