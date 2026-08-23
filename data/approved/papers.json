@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16073",
+      "version": 1,
+      "title": "The $hp$-FEM does not suffer from the pollution effect for piecewise-smooth Helmholtz problems with Gevrey regularity at boundaries",
+      "authors": [
+        "Jeffrey Galkowski",
+        "Mostafa Meliani",
+        "Euan A. Spence"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T15:57:31Z",
+        "updated": "2026-07-17T15:57:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We consider the $hp$-FEM applied to the Helmholtz scattering problem with wavenumber $k$, truncated with a perfectly-matched layer. The scatterer consists of a combination of Dirichlet, Neumann, and penetrable obstacles together with variable coefficients. Provided that the Helmholtz solution operator is polynomially bounded in $k$, all coefficients are piecewise smooth, all boundary surfaces are Gevrey and all coefficients restricted to boundary surfaces are Gevrey together with all their normal derivatives, we show that the $hp$-FEM is quasioptimal when $p\\geq 1+\\varepsilon \\log k$ and $hk/p$ is sufficiently small; i.e., the $hp$-FEM does not suffer from the pollution effect. This result generalises the analogous results in both [Bernkopf, Chaumont-Frelet, Melenk 2025] (proved for piecewise analytic coefficients and analytic boundaries) and [Galkowski, Lafontaine, Spence, Wunsch 2024] (proved for smooth coefficients that are analytic near analytic obstacles) to a much larger class of scatterers.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16073v1",
+        "pdf": "https://arxiv.org/pdf/2607.16073v1",
+        "source": "https://export.arxiv.org/e-print/2607.16073v1"
+      },
+      "structural_counts": {
+        "pages": 51,
+        "theorems": 7,
+        "lemmas": 16,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 7,
+        "displayed_equations": 595,
+        "bibliography_entries": 39,
+        "appendix_pages": 37
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "and (C.59). Acknowledgements JG, MM, and ES were supported by ERC Synergy Grant “PSINumScat” 101167139. JG was supported by EPSRC grants EP/V001760/1 and EP/V051636/1 and the Leverhulme Trust under Research Project Grant RPG-2023-325. ChatGPT version 5.5 was used (i) to prove some of the combinatorial relations in Lemma B.12, (ii) to search the literature, and (iii) to help proofread various parts of the paper. References [1] S. Agmon, A. Douglis, and L. Nirenberg. Estimates",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 50",
+          "page": 50
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:44.449703Z"
+      },
+      "score": 3213.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 401.65,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 51,
+          "theorems": 42,
+          "lemmas": 64,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 14,
+          "displayed_equations": 148.75,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 74
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15894",
       "version": 1,
       "title": "The minimum surface area of $k$ unequal boxes tiling a cube: sharp thresholds, a fault-free law, and a reduction to two dimensions",
