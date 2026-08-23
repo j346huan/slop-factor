@@ -42188,6 +42188,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17732",
+      "version": 1,
+      "title": "Decision-Centric Large Deviations for Data-Driven Capital Buffers in Ruin Models",
+      "authors": [
+        "Yf Henkes",
+        "Bart P. G. van Parys",
+        "Bert Zwart"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "math.OC",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-20T09:23:09Z",
+        "updated": "2026-07-20T09:23:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We consider an insurance risk model with a random walk structure in which the underlying probability law is unknown. A decision maker observes a statistic $Q_n$ computed from $n$ historical observations and then needs to choose a capital buffer of the form $C_n=n f(c,Q_n)$, where $c=\\log(1/δ)/n$ balances the amount of data and the tolerated ruin probability $δ$. The classical safe capital buffer is inversely proportional to the adjustment coefficient $γ$, the exponential rate at which the ruin probability decays; when the law is unknown, this coefficient must be inferred from the data. The profile $f$ couples the statistical cost of observing an atypical historical statistic with the future ruin exponent induced by the resulting decision. We study the joint ex ante probability (over both the historical sample and an independent future risk process) that the future maximum exceeds the data-dependent buffer. We show that the naive plug-in rule fails to achieve the prescribed logarithmic decay exponent $c$, illustrating the adverse impact of model uncertainty when making decisions under rare-event constraints. We then identify a profile $f^*=f^*(c,Q_n)$ with the following appealing properties: its lower semicontinuous majorants are safe, while regular continuous rules that fall strictly below $f^*$ are, under mild conditions, unsafe. We illustrate the potential applicability of our framework by developing three parametric examples. In nonparametric settings, we show that a single exponential envelope leads to degenerate capital buffers, whereas a two-level exponential envelope yields a nondegenerate capital buffer which we prove to be safe.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17732v1",
+        "pdf": "https://arxiv.org/pdf/2607.17732v1",
+        "source": "https://export.arxiv.org/e-print/2607.17732v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 4,
+        "lemmas": 3,
+        "propositions": 7,
+        "corollaries": 1,
+        "definitions": 2,
+        "displayed_equations": 128,
+        "bibliography_entries": 33,
+        "appendix_pages": 18
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "med the expected ordering of the plug-in, Gaussian, and nonparametric rules relative to the target safety exponent. Acknowledgments Bart P.G. van Parys gratefully acknowledges funding from NWO Vidi grant VI.Vidi.243.021. The authors used OpenAI’s ChatGPT and Anthropic’s Claude for assistance with computations and copyediting. 22",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:10.414946Z"
+      },
+      "score": 677.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 169.3,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 27,
+          "theorems": 24,
+          "lemmas": 12,
+          "propositions": 28,
+          "corollaries": 3,
+          "definitions": 4,
+          "displayed_equations": 32,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 36
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17672",
       "version": 1,
       "title": "Kirszbraun extensions preserving uniform distance in Hilbert spaces",
