@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13519",
+      "version": 1,
+      "title": "Noninvertibility and Bifurcation Phenomena in a Four-Partitions Piecewise Linear Map",
+      "authors": [
+        "Wirot Tikjha"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T07:17:24Z",
+        "updated": "2026-07-15T07:17:24Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This paper investigates the global dynamics and bifurcation structures of a two-dimensional piecewise linear map defined by four partitions, involving absolute value terms for both state variables. We analyze the stability of fixed points and demonstrate that the emergence of period-2 dynamics is initiated by a Flip bifurcation. A detailed analysis of these cycles reveals a unique branch manifesting in two topologically distinct configurations, connected via a Border Collision Bifurcation. Furthermore, we show that higher-period cycles (period 3 and 4) emerge in stable-saddle pairs through Fold Border Collision Bifurcations, leading to regions of multistability organized by the stable manifolds of saddle orbits. Finally, we examine the degenerate parameter regime where the system reduces to a one-dimensional discontinuous map. In this case, we prove the existence of an absorbing invariant interval and identify parameter regions exhibiting robust chaotic dynamics.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13519v1",
+        "pdf": "https://arxiv.org/pdf/2607.13519v1",
+        "source": "https://export.arxiv.org/e-print/2607.13519v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 0,
+        "lemmas": 1,
+        "propositions": 16,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 150,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "dic attractors” observed in recent literature can exist in this specific four-partition configuration. Acknowledgements The author was supported by the National Research Council of Thailand and Pibulsongkram Rajabhat University. Use of AI tools declaration The author acknowledges the use of Artificial Intelligence (Large Language Models) for linguistic editing and proofreading during the preparation of this manuscript. The author assumes full responsibility for the content of the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:46.771485Z"
+      },
+      "score": 137,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 137,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 24,
+          "theorems": 0,
+          "lemmas": 4,
+          "propositions": 64,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 37.5,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13486",
       "version": 2,
       "title": "A complete curve of genus 10 in the moduli space of curves of genus 3 and related questions",
