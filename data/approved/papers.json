@@ -41938,6 +41938,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24381",
+      "version": 1,
+      "title": "Haar decompression and amenability of Ellis flows",
+      "authors": [
+        "Daniel Max Hoffmann",
+        "Krzysztof Krupiński"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": [
+          "math.LO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T12:57:42Z",
+        "updated": "2026-07-27T12:57:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $(X,G)$ be a tame flow and let $K$ be an Ellis group of its enveloping semigroup $E(X,G)$. Although $K$ is a compact Hausdorff topological group in its $τ$-topology, the inclusion of $K$ into $E(X,G)$ need not be Borel. We show that normalized Haar measure on $K$ nevertheless determines, via the Riesz--Markov theorem, a canonical regular Borel probability measure $μ_K$ on $E(X,G)$, called its Haar decompression. Our principal structural result states that, for every tame flow, $(E(X,G),G)$ is amenable if and only if $(X,G)$ is hereditarily amenable. For a tame hereditarily amenable flow, every Haar decompression is $G$-invariant whenever $X$ is metrizable or $G$ is countable. For metrizable minimal tame flows admitting an invariant measure, the evaluation pushforward of every Haar decompression at every point is the unique invariant measure. Moreover, every ergodic invariant measure on a metrizable tame flow has minimal support; consequently, every ergodic invariant measure on a metrizable tame ambit is obtained by evaluating a suitable Haar decompression.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24381v1",
+        "pdf": "https://arxiv.org/pdf/2607.24381v1",
+        "source": "https://export.arxiv.org/e-print/2607.24381v1"
+      },
+      "structural_counts": {
+        "pages": 35,
+        "theorems": 9,
+        "lemmas": 9,
+        "propositions": 4,
+        "corollaries": 4,
+        "definitions": 1,
+        "displayed_equations": 191,
+        "bibliography_entries": 304,
+        "appendix_pages": 33
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file haar.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "28 D. M. HOFFMANN AND K. KRUPIŃSKI Acknowledgements The authors used large language models during manuscript preparation to assist with language editing and typesetting; to search for examples and relevant refer- ences; to check minor technical details in proofs; and to test selected arguments and proof strategies by seeking cou",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:09.682944Z"
+      },
+      "score": 2393.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 299.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 35,
+          "theorems": 54,
+          "lemmas": 36,
+          "propositions": 16,
+          "corollaries": 12,
+          "definitions": 2,
+          "displayed_equations": 47.75,
+          "bibliography_entries": 30.4,
+          "appendix_pages": 66
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24361",
       "version": 1,
       "title": "Nikiforov's spectral consecutive cycle problem and the connected-matching method",
