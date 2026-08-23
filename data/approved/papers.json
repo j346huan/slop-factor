@@ -42278,6 +42278,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00387",
+      "version": 1,
+      "title": "Asymptotic independence of class-group 4-ranks in correlated pairs of imaginary quadratic fields",
+      "authors": [
+        "Yue Xu",
+        "Xiuwu Zhu"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-01T01:55:26Z",
+        "updated": "2026-08-01T01:55:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Fix a squarefree integer $d_0>1$, and let $d$ range over the positive squarefree integers coprime to $2d_0$. Although $\\mathbb{Q}(\\sqrt{-d})$ and $\\mathbb{Q}(\\sqrt{-d_0d})$ share all variable ramified primes, we prove that their class-group $4$-ranks are asymptotically independent. Over the subfamily $d\\le X$, their joint distribution converges in total variation to the product of two copies of the Cohen--Lenstra--Gerth distribution, with error bounded by a negative power of $\\log\\log X$. We further conjecture that the corrected $2$-primary groups $2\\operatorname{Cl}_{\\mathbb{Q}(\\sqrt{-d})}[2^\\infty]$ and $2\\operatorname{Cl}_{\\mathbb{Q}(\\sqrt{-d_0d})}[2^\\infty]$ are asymptotically independent, each with the Cohen--Lenstra distribution. Suppose in addition that the class number of $\\mathbb{Q}(\\sqrt{d_0})$ is odd. For a density-one subset of this family, we prove that extension of ideals to $K(d)=\\mathbb{Q}(\\sqrt{d_0},\\sqrt{-d})$ induces $4\\operatorname{Cl}_{K(d)}[2^\\infty]\\cong 2\\operatorname{Cl}_{\\mathbb{Q}(\\sqrt{-d})}[2^\\infty]\\oplus 2\\operatorname{Cl}_{\\mathbb{Q}(\\sqrt{-d_0d})}[2^\\infty]$. Together with this decomposition, the group-valued conjecture predicts that $4\\operatorname{Cl}_{K(d)}[2^\\infty]$ is distributed as the direct sum of two independent Cohen--Lenstra $2$-groups, giving a corrected Cohen--Lenstra--Martinet distribution for the biquadratic family. Unconditionally, the $8$-rank of $\\operatorname{Cl}_{K(d)}$ has limiting distribution given by the convolution of two copies of the Cohen--Lenstra--Gerth distribution. The proof combines Smith's box method with quantitative truncated Gaussian-binomial moment inversion for diagonally coupled, fixed-width bordered Rédei matrices.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00387v1",
+        "pdf": "https://arxiv.org/pdf/2608.00387v1",
+        "source": "https://export.arxiv.org/e-print/2608.00387v1"
+      },
+      "structural_counts": {
+        "pages": 52,
+        "theorems": 14,
+        "lemmas": 16,
+        "propositions": 11,
+        "corollaries": 5,
+        "definitions": 5,
+        "displayed_equations": 382,
+        "bibliography_entries": 36,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file joint-4ranks.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r was partially supported by the Tianyuan Fund for Mathematics of the National Natural Science Foundation of China (Grant No. 12526538) and by the Postdoctoral Fellowship Program of CPSF (Grant No. GZC20252038). The authors used generative-AI tools for bibliographic searches, language editing, and technical cross-checking, and take full responsibility for the content. 2. Rédei reduction and finite-field counting This section collects the algebraic and finite",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:03.865416Z"
+      },
+      "score": 1472.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 368.1,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 52,
+          "theorems": 84,
+          "lemmas": 64,
+          "propositions": 44,
+          "corollaries": 15,
+          "definitions": 10,
+          "displayed_equations": 95.5,
+          "bibliography_entries": 3.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00256",
       "version": 1,
       "title": "Naturality in real Heegaard Floer theory",
