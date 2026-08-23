@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07421",
+      "version": 1,
+      "title": "The noncommutative topological factor theorem for rank-one product lattices",
+      "authors": [
+        "Cyril Houdayer",
+        "Corentin Le Bars"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": [
+          "math.DS",
+          "math.GR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-07T17:09:52Z",
+        "updated": "2026-08-07T17:09:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a noncommutative topological factor theorem for irreducible lattices in products of real rank-one simple Lie groups. The intermediate C*-subalgebras between the reduced group C*-algebra and the boundary crossed product are exactly the crossed products arising from coordinate subproducts of the Furstenberg boundary. This follows from a more general theorem for product boundary actions, which also yields tree and mixed local-field versions. We finally show that the corresponding classification for the full flag action of $\\operatorname{SL}_3(\\mathbb Z)$ would imply ordinary ITAP.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07421v1",
+        "pdf": "https://arxiv.org/pdf/2608.07421v1",
+        "source": "https://export.arxiv.org/e-print/2608.07421v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 7,
+        "lemmas": 5,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 48,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file nc-dani.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "The main operator-algebraic input is Suzuki’s slice-map theorem [Su17, Proposition 3.4]. For approximation properties we use [CH89, HK94, Sz91]. The dynamical argument uses Poincaré recurrence and Powers’ method [Po75]. AI statement. ChatGPT 5.6 Sol was used at an exploratory stage to in- vestigate the extension of the topological factor theorem to reduced crossed products and the relation between its scalar-expectation case and ITAP. It was subsequently used to draft parts of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:12.241772Z"
+      },
+      "score": 625,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 125,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 22,
+          "theorems": 42,
+          "lemmas": 20,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 12,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07410",
       "version": 1,
       "title": "Extreme least singular values of random row submatrices with bounded-density subgaussian entries",
