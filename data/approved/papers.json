@@ -41768,6 +41768,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16743",
+      "version": 1,
+      "title": "The power set of a quasinilpotent backward weighted shift",
+      "authors": [
+        "Egor Ignatev"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-18T10:07:24Z",
+        "updated": "2026-07-18T10:07:24Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a quasinilpotent operator $T$ on a Banach space $X$, R. Douglas and R. Yang associated with each nonzero vector $x$ the local resolvent-growth exponent $k_x$, and introduced the power set $Λ(T) = \\{k_x : x \\neq 0\\}$. We prove that $1 \\in Λ(T)$ for every quasinilpotent operator on an arbitrary Banach space, which answers a question of Ji and Zhang. We further show that $Λ(T) = [0,1]$ for every backward unilateral weighted shift on $\\ell^p$ whose weight sequence is strictly decreasing and $p'$-summable for some $p' > 0$, thereby weakening the hypotheses imposed by Hu and Ji.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16743v1",
+        "pdf": "https://arxiv.org/pdf/2607.16743v1",
+        "source": "https://export.arxiv.org/e-print/2607.16743v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 4,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 77,
+        "bibliography_entries": 3,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rs that Theorem 4 remains valid without the monotonicity as- sumption on the weights. The corresponding generalization, or the construction of a counterexample, deserves a separate investigation. Declaration on the use of generative AI Generative AI (Claude Opus, Anthropic) was used substantially in the prepara- tion of this paper. Its contribution was decisive for the formulation and proof of Lemma 1, notably, and it assisted in drafting a number of the other argumen",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:25.239984Z"
+      },
+      "score": 436.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 54.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 7,
+          "theorems": 24,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 19.25,
+          "bibliography_entries": 0.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16556",
       "version": 1,
       "title": "Largest density of a layered subgraph of a hypercube",
