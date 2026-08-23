@@ -8684,6 +8684,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09787",
+      "version": 1,
+      "title": "On B-Colorings in Planar Graphs",
+      "authors": [
+        "Anthony Vuolo"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T16:10:31Z",
+        "updated": "2026-08-10T16:10:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Gyárfás and Sárközy [Studia Sci. Math. Hungar., 2023] defined a B-coloring of a graph to be a proper coloring of the edge set in which any $C_4$ is totally multicolored. Let $q_B(G)$ denote the minimum number of colors sufficient for a B-coloring of a graph $G$. In this paper, we prove that any planar graph $G$ with $Δ=Δ(G)$ and $Δ_2=Δ_2(G)$ has $q_B(G)\\leqΔ+\\max\\{Δ_2,38\\}$, refining a bound by Kong, Wang, and Zheng [J. Graph Theory, 2026].",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09787v1",
+        "pdf": "https://arxiv.org/pdf/2608.09787v1",
+        "source": "https://export.arxiv.org/e-print/2608.09787v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 3,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 4,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file DD2C.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "thor would also like to thank Yuping Gao for alerting him to the publication of [8], giving inspiration for this paper. The example of K1,1,∆−1 which established that qB (G) > max {χ′ (G), 2∆2 (G)} was found with the assistance of M365 Copilot based on the GPT-5 chat model, accessed 28 July 2026. References [1] O. V. Borodin, H. J. Broersma, A. N. Glebov, and J. van den Heuvel. Stars and bunches in planar graphs. part II: General planar graphs and colourings. CDAM Resear",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:27.363678Z"
+      },
+      "score": 190.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 31.7,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 7,
+          "theorems": 18,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 1,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09777",
       "version": 1,
       "title": "A pre-triangulated category which is not triangulated",
