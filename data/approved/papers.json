@@ -8761,6 +8761,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07683",
+      "version": 1,
+      "title": "The Structure of Cycles in Projective Geometry over $\\mathbb{F}_q$",
+      "authors": [
+        "Ran J. Tessler",
+        "Elad Tzalik"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-07T18:13:02Z",
+        "updated": "2026-08-07T18:13:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A classical geometric result says that every nonzero cycle of the mod-$2$ incidence map from $d$-subsets to $(d-1)$-subsets of $[n]$ has support at least $d+1$, with equality attained by the boundary of a simplex on $d+1$ vertices. We prove an analogous result for the subspace lattice of $\\mathbb{F}_q^n$, determining the minimum support size of a nonzero $d$-cycle over a field $K$ of characteristic $p \\mid q+1$. Surprisingly, the boundary of a $(d+1)$-space is not always optimal. Shorter cycles occur for $d=1$, and for $d=2$ when $n\\ge4$, and otherwise, the boundary of a $(d+1)$-space is shortest. For $d\\ge4$, we prove a gap-stability result: every cycle with support less than $(2-10/q)$ times the minimum is a multiple of the boundary of a $d+1$ space. We also construct support-controlled cones, yielding a direct geometric analysis of the dimensions in which the homology groups of the subspace incidence complex vanish and explicit lower bounds on its coboundary expansion. The degree-$1$ expansion estimate is an ingredient in the stability theorem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07683v1",
+        "pdf": "https://arxiv.org/pdf/2608.07683v1",
+        "source": "https://export.arxiv.org/e-print/2608.07683v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 4,
+        "lemmas": 9,
+        "propositions": 6,
+        "corollaries": 3,
+        "definitions": 1,
+        "displayed_equations": 84,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "n higher. AI disclosure. Lemma 2.3 was formulated and proved by GPT 5.6 Sol, and is the key to the proof of Theorem 1.1. Following this proof, the authors and GPT 5.6 Sol developed the stability version, Theorem 1.2. The authors have used chatGPT and Codex to assist with writing the paper, and take full responsibility for its mathematical content. Except the above, the rest of the results, and the proof strategies appearing in the paper were found by the authors, with most of them",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:36.305378Z"
+      },
+      "score": 1353,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 135.3,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 17,
+          "theorems": 24,
+          "lemmas": 36,
+          "propositions": 24,
+          "corollaries": 9,
+          "definitions": 2,
+          "displayed_equations": 21,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07421",
       "version": 1,
       "title": "The noncommutative topological factor theorem for rank-one product lattices",
