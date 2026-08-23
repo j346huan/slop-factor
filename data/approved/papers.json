@@ -41852,6 +41852,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24437",
+      "version": 2,
+      "title": "From Regions to Hodge Structures: The Topological Study of semialgebraic Curves Configurations",
+      "authors": [
+        "Abolfazl Soltanpour"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.AT",
+          "math.KT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T13:46:26Z",
+        "updated": "2026-08-03T14:03:47Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a combinatorial theory for finite arrangements of connected semialgebraic curves with ordinary multiple intersections, governed by a local node contribution $ψ$ that determines global geometric and topological properties. We prove exact region-count formulas, characterize maximal arrangements, and extend the deletion--restriction recurrence to general curve arrangements. In the algebraic setting, we prove that the absence of triple points ($k_x=3$) is a sufficient condition for the OS-type algebra to factor through cohomology; the converse, however, fails already for line arrangements, where the classical Orlik--Solomon relations ensure factorization even in the presence of triple points. For line arrangements we compute the discrepancy between the simplified OS-model and $H^2$, showing it is governed by nodes with $k_x\\ge4$ and equals $\\sum_{k_x\\ge4}\\binom{k_x-1}{2}$. The node contribution appears in the mixed Hodge structure via the Euler characteristic; for arrangements in normal crossing position we compute the full weight decomposition of $H^2$ and show it is Hodge--Tate exactly when every component has genus zero, recovering the line-arrangement case as $\\dim\\operatorname{Gr}^W_4H^2=ψ$. The defect complex for concurrent lines reveals that exactness obstructions require curve-wise incidence data. Finally, we introduce binomial node invariants $\\{Ψ_k\\}$, prove $Ψ_2$ is the universal linearly locally additive invariant, and show $ψ=Ψ_1-Ψ_0$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24437v2",
+        "pdf": "https://arxiv.org/pdf/2607.24437v2",
+        "source": "https://export.arxiv.org/e-print/2607.24437v2"
+      },
+      "structural_counts": {
+        "pages": 72,
+        "theorems": 22,
+        "lemmas": 12,
+        "propositions": 28,
+        "corollaries": 12,
+        "definitions": 22,
+        "displayed_equations": 339,
+        "bibliography_entries": 54,
+        "appendix_pages": 72
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file knot_systems__4_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "pervision. Above all, I wish to express my deepest gratitude for his constant encouragement, his generosity with his time and ideas, and the intellectual freedom he afforded me throughout this journey. The author acknowledges the use of artificial intelligence tools for language refinement, sentence structure improvement, and editorial assistance. All mathematical content, ideas, proofs, and results are entirely the work of the author. References [1]",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 70",
+          "page": 70
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:06.445619Z"
+      },
+      "score": 2712.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 678.15,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 72,
+          "theorems": 132,
+          "lemmas": 48,
+          "propositions": 112,
+          "corollaries": 36,
+          "definitions": 44,
+          "displayed_equations": 84.75,
+          "bibliography_entries": 5.4,
+          "appendix_pages": 144
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24361",
       "version": 1,
       "title": "Nikiforov's spectral consecutive cycle problem and the connected-matching method",
