@@ -8512,6 +8512,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13497",
+      "version": 1,
+      "title": "A positive answer to the generalized Chang-Yang conjecture on $\\mathbb{S}^N$",
+      "authors": [
+        "Changfeng Gui",
+        "Tuoxin Li",
+        "Juncheng Wei",
+        "Zikai Ye"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T17:26:21Z",
+        "updated": "2026-08-13T17:26:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that for every integer $N\\geq 3$ and $α\\geq \\frac{1}{2}$, Beckner's inequality \\[ \\fracα{2}\\int_{\\mathbb{S}^N}u(P_{N}u) dw+(N-1)!\\int_{\\mathbb{S}^N}u dw-\\frac{(N-1)!}{N}\\log\\int_{\\mathbb{S}^N}e^{Nu} dw\\geq 0 \\] holds for every $u\\in H^{\\frac{N}{2}}(\\mathbb{S}^N)$ whose center of mass is at the origin. The proof is mainly based on an integral representation formula and a rigidity theorem for stable critical points. Hence, we answer the generalized Chang-Yang conjecture positively for every integer $N\\geq 3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13497v1",
+        "pdf": "https://arxiv.org/pdf/2608.13497v1",
+        "source": "https://export.arxiv.org/e-print/2608.13497v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 7,
+        "lemmas": 12,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 225,
+        "bibliography_entries": 37,
+        "appendix_pages": 26
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main__3_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ics, Macao SAR FDCT 0003/2023/RIA1 and Macao SAR FDCT 0024/2023/RIB1. The research of J. Wei is partially supported by General Research Grant of HKSAR GRF 14309824. The authors acknowledge the use of AI tools. All math- ematical arguments and proofs in the final manuscript were checked and written by the authors. R EFERENCES Beckner199",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:18.559656Z"
+      },
+      "score": 1229.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 245.95,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 26,
+          "theorems": 42,
+          "lemmas": 48,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 56.25,
+          "bibliography_entries": 3.7,
+          "appendix_pages": 52
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19240",
       "version": 1,
       "title": "A Nonmonotone Real-Rootedness Set for Symmetric Imaginary Shifts",
