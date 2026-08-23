@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25181",
+      "version": 2,
+      "title": "The Miyaoka-Yau inequality and the delta invariant for Fano varieties",
+      "authors": [
+        "Tomoyuki Hisamoto",
+        "Masataka Iwai"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.CV",
+          "math.DG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T01:14:49Z",
+        "updated": "2026-08-19T00:05:22Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish the following Miyaoka-Yau inequality for any $n$-dimensional klt Fano variety $X$, possibly K-unstable, in terms of its delta invariant: $$ \\left(2(n+1)\\widehat{c}_2(X)-n c_1(X)^2\\right)\\cdot c_1(X)^{n-2} \\ge -n \\left(1-\\min\\{1,δ(X)\\}\\right)^2 \\cdot c_1(X)^n. $$ Furthermore, inspired by recent work of Inoue and Hallam-Lahdili, we formulate and prove an equivariant version of this inequality in the soliton setting, in which the Chern classes and the delta invariant are replaced by the equivariant Chern classes and the weighted delta invariant, respectively. As a consequence, we obtain the equivariant Miyaoka-Yau inequality for every smooth Fano manifold admitting a Kähler-Ricci soliton.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25181v2",
+        "pdf": "https://arxiv.org/pdf/2607.25181v2",
+        "source": "https://export.arxiv.org/e-print/2607.25181v2"
+      },
+      "structural_counts": {
+        "pages": 66,
+        "theorems": 19,
+        "lemmas": 15,
+        "propositions": 5,
+        "corollaries": 7,
+        "definitions": 13,
+        "displayed_equations": 343,
+        "bibliography_entries": 83,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Miyaoka_Yau_Fano_20260819.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "6 TOMOYUKI HISAMOTO AND MASATAKA IWAI the Grant-in-Aid for Early Career Scientists, No. 22K13907. T. H. is supported by JSPS Grant-in-Aid for Scientific Research (C), No. 26K06811. The authors made limited use of ChatGPT 5.6 Plus and Gemini 3.1 Pro, large language models, for language editing and mathematical discussions. All AI-assisted text was carefully reviewed and verified by the authors. The mathematical content, arguments, and proofs were developed",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:57.789761Z"
+      },
+      "score": 3208.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 401.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 66,
+          "theorems": 114,
+          "lemmas": 60,
+          "propositions": 20,
+          "corollaries": 21,
+          "definitions": 26,
+          "displayed_equations": 85.75,
+          "bibliography_entries": 8.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25023",
       "version": 1,
       "title": "Schrijver Number Quasi-Tensorization and Multicolor Ramsey Bounds via Robust OR Polynomials",
