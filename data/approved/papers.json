@@ -42279,6 +42279,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01145",
+      "version": 1,
+      "title": "Pyramidal Compactification of Asymmetric Metric Measure Spaces via Adjoint Transport",
+      "authors": [
+        "Shigeaki Yokota"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T10:49:08Z",
+        "updated": "2026-08-02T10:49:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A quasi-metric measure space (qm-space) is a set with a directed distance whose symmetrization is a complete separable metric, together with a Borel probability measure of full support. Motivated by the problem of determining the pyramid limits of beta measures on forward Funk balls, we construct a compact metric space of pyramids of qm-spaces. The associated-pyramid map from the concentration-distance space of qm-spaces into this compact space is a $1$-Lipschitz topological embedding with dense image. As a secondary result, we prove that the box-distance space of qm-spaces is complete and separable.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01145v1",
+        "pdf": "https://arxiv.org/pdf/2608.01145v1",
+        "source": "https://export.arxiv.org/e-print/2608.01145v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 9,
+        "lemmas": 7,
+        "propositions": 10,
+        "corollaries": 3,
+        "definitions": 36,
+        "displayed_equations": 184,
+        "bibliography_entries": 14,
+        "appendix_pages": 13
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file adjoint-transport-en.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "34 SHIGEAKI YOKOTA Acknowledgments The author would like to thank Professor Takashi Shioya for many helpful sug- gestions and guidance. The author used Claude and GPT-5.6-series Codex models as AI-assisted tools in preparing this manuscript. The author reviewed and revised the mathematical content and takes full responsibility for the final manuscript. R",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 34",
+          "page": 34
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:19:03.817253Z"
+      },
+      "score": 2483.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 310.4,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 34,
+          "theorems": 54,
+          "lemmas": 28,
+          "propositions": 40,
+          "corollaries": 9,
+          "definitions": 72,
+          "displayed_equations": 46,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 26
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01109",
       "version": 1,
       "title": "Congruent Triangular Faces, Reflections Allowed: Universal Realization and the Minimum Face Count in Problem B22",
