@@ -32,6 +32,10 @@ interface GitHubComment {
   body: string;
 }
 
+interface ApprovedCollection {
+  papers: Array<{ arxiv_id: string; version: number }>;
+}
+
 interface CandidatePayload {
   candidate_id: string;
   paper: {
@@ -275,6 +279,24 @@ async function github<T>(
     }
   }
   throw new Error(`GitHub API returned an empty response for ${path}`);
+}
+
+async function githubRaw(token: string, path: string): Promise<string> {
+  const response = await fetch(`https://api.github.com${path}`, {
+    headers: {
+      Accept: "application/vnd.github.raw+json",
+      Authorization: `Bearer ${token}`,
+      "User-Agent": "slop-factor-admin/0.1",
+      "X-GitHub-Api-Version": API_VERSION,
+    },
+  });
+  if (!response.ok) {
+    const details = await response.text();
+    throw new Error(
+      `GitHub API returned ${response.status}: ${details.slice(0, 300)}`,
+    );
+  }
+  return response.text();
 }
 
 async function githubPages<T>(token: string, path: string): Promise<T[]> {
@@ -545,6 +567,19 @@ async function api(
 
   if (pathname === "/api/session" && request.method === "GET") {
     return json({ user, repository: env.GITHUB_REPOSITORY });
+  }
+
+  if (pathname === "/api/approved-ids" && request.method === "GET") {
+    const approvedFile = await githubRaw(
+      token,
+      `/repos/${env.PUBLIC_REPOSITORY}/contents/data/approved/papers.json?ref=main`,
+    );
+    const approved = JSON.parse(approvedFile) as ApprovedCollection;
+    return json({
+      approved_ids: approved.papers.map(
+        (paper) => `${paper.arxiv_id}v${paper.version}`,
+      ),
+    });
   }
 
   if (pathname === "/api/candidates" && request.method === "GET") {
