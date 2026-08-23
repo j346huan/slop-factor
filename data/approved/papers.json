@@ -8931,6 +8931,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17920",
+      "version": 1,
+      "title": "Antiferromagnetic models are clique-minimizing",
+      "authors": [
+        "Joonkyung Lee",
+        "Jaehyeon Seo"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T15:45:35Z",
+        "updated": "2026-08-18T15:45:35Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An edge-weighted graph $H$, possibly with loops, is antiferromagnetic if its adjacency matrix is entrywise nonnegative and has at most one positive eigenvalue, counted with multiplicity. We show that, for any graph $G$ with $d_v:=\\operatorname{deg}_G(v)$, $$\\operatorname{hom}(G,H) \\ge \\prod_{v\\in V(G)} \\operatorname{hom}(K_{d_v+1},H)^{\\frac{1}{d_v+1}},$$ whenever $H$ is antiferromagnetic. In fact, we prove a vertex-inhomogeneous strengthening of this inequality, allowing a different fugacity vector at each vertex of $G$. This gives a common generalization of the lower-bound inequalities of Sah, Sawhney, Stoner, and Zhao for independent sets, of Csikvári for $q$-colorings, and of the authors for semiproper colorings with at most two proper colors. Furthermore, it confirms recent conjectures of the authors and of Davies and LeBlanc. A key ingredient, of independent interest, is a strengthening of the delete-one form of Shearer's inequality for Lorentzian measures, which provides a new approach to graph homomorphism inequalities.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17920v1",
+        "pdf": "https://arxiv.org/pdf/2608.17920v1",
+        "source": "https://export.arxiv.org/e-print/2608.17920v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 3,
+        "lemmas": 13,
+        "propositions": 6,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 137,
+        "bibliography_entries": 38,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ion invoked, without proof, a version of the relative entropy contraction. It then also produced a proof of the claimed entropy inequality, though we made extra queries to relate the argument to [AOV21; Ana+22]. Second, we iteratively used GPT-5.5 Thinking Extended to investigate technical details and possible generalizations, leading first to proofs for antiferromagnetic 2-spin models and for Kq◦ with the loop weight restricted to a certain range. Comparing the resulting model-spec",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:48.052273Z"
+      },
+      "score": 1580.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 158.05,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 23,
+          "theorems": 18,
+          "lemmas": 52,
+          "propositions": 24,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 34.25,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17862",
       "version": 1,
       "title": "Idealizing Useful Fictions in Omega Grounded Arithmetic",
