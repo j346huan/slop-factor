@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13836",
+      "version": 1,
+      "title": "A counterexample to a log-concavity conjecture of Brenti",
+      "authors": [
+        "Christian Gaetz"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T23:55:45Z",
+        "updated": "2026-08-13T23:55:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This note records a counterexample to Brenti's 1998 conjecture that the nonzero coefficients of $\\widetilde{R}$-polynomials form a log-concave sequence.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13836v1",
+        "pdf": "https://arxiv.org/pdf/2608.13836v1",
+        "source": "https://export.arxiv.org/e-print/2608.13836v1"
+      },
+      "structural_counts": {
+        "pages": 3,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 6,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e (shortening u and v). Both counterexamples were verified by the author using the coxeter3 package in SageMath [Sage24]. The paper was written by the author, with minor editing carried out by AI tools. 1While writing this article, the author learned of another recently discovered counterexample in type H 4 [Pau26].",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:35.269236Z"
+      },
+      "score": 127,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 12.7,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 3,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 1.5,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13779",
       "version": 1,
       "title": "Homological Mirror Symmetry for Affine Log Calabi-Yau Surfaces",
