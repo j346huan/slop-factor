@@ -8425,6 +8425,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17706",
+      "version": 1,
+      "title": "A Symmetric Counterexample to the Snashall--Solberg Conjecture",
+      "authors": [
+        "Kai Wang",
+        "Guodong Zhou"
+      ],
+      "categories": {
+        "primary": "math.KT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T12:28:47Z",
+        "updated": "2026-08-18T12:28:47Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "It is shown that the trivial extension of the Xu--Snashall algebra is a symmetric counterexample to the Snashall--Solberg conjecture, which states that the Hochschild cohomology ring of a finite-dimensional algebra modulo nilpotence is a finitely generated algebra. To the best of our knowledge, this is the first known selfinjective counterexample.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17706v1",
+        "pdf": "https://arxiv.org/pdf/2608.17706v1",
+        "source": "https://export.arxiv.org/e-print/2608.17706v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 3,
+        "lemmas": 0,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 16,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Counterexample.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tly the Gerstenhaber algebra structure on the Hochschild cohomology ring of the trivial extension of the Xu–Snashall algebra; however, this task seems to be rather difficult. We have tried to achieve this with the help of the AI assistants ChatGPT and Kimi, but without success. 2. Proof of Theorem B Definition 2.1 ([9]). Let Λ be a 𝐾-algebra. The Hochschild cochain complex of Λ is ∞",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:52.853150Z"
+      },
+      "score": 81.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 40.8,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 5,
+          "theorems": 18,
+          "lemmas": 0,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 4,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17686",
       "version": 1,
       "title": "On the p-adic Wirsing problem",
