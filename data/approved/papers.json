@@ -42270,6 +42270,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20844",
+      "version": 1,
+      "title": "A Geometric Finiteness Theory for Essential Surfaces in Knot Exteriors",
+      "authors": [
+        "Makoto Ozawa"
+      ],
+      "categories": {
+        "primary": "math.GT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T02:11:33Z",
+        "updated": "2026-07-23T02:11:33Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a relative geometric finiteness theory for essential surfaces in knot exteriors. Let $γ$ be a unit-thickness representative of a knot type $K$, with $\\operatorname{Len}(γ)\\leqΛ$, and let $F\\subset E(γ)$ be a properly embedded essential surface with $\\operatorname{Area}(F)\\leqΔ$ and relative thickness at least $τ$, defined using positive reach and controlled boundary collars. We prove that every bounded-geometry slice contains only finitely many pair-isotopy classes. We construct explicitly bounded canonical layered codes on a fixed ambient lattice and show that, at resolution $\\varepsilon\\leq c\\min\\{1,τ\\}$ with sufficiently fine angular quantization, equality of codes implies ambient pair-isotopy. Thus the topology of each bounded slice is recoverable from finite geometric data. For a fixed exterior, these classes form finite visible subcomplexes of the essential-surface complex; the subcomplexes are monotone, exhaust the full complex, and carry isometric actions levelwise and meridian-preserving $C^{1,1}$ actions with controlled reindexing. Positive-reach compactness also yields attainment results for fixed-exterior and compactified visibility problems. Finally, the peripheral geometry gives a writhe window for connected surfaces with nonempty non-meridional boundary: \\[ |r|\\leq C_{\\mathrm{BS}}Λ^{4/3}+w(Δ,τ). \\] This produces slope invisibility gaps and a linear joint-area lower bound for a Seifert surface and cabling annulus of a torus knot. The framework is triangulation-free and complementary to normal-surface, branched-surface, sutured-manifold, and Heegaard-theoretic methods; it does not assert finiteness without geometric bounds.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20844v1",
+        "pdf": "https://arxiv.org/pdf/2607.20844v1",
+        "source": "https://export.arxiv.org/e-print/2607.20844v1"
+      },
+      "structural_counts": {
+        "pages": 102,
+        "theorems": 11,
+        "lemmas": 19,
+        "propositions": 29,
+        "corollaries": 13,
+        "definitions": 48,
+        "displayed_equations": 316,
+        "bibliography_entries": 83,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_-_2026-07-23T110312.651.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ee-manifolds, spatial graphs, higher-dimensional embed- dings, or other geometric variational problems is a natural direction for future work. Acknowledgements Use of generative AI.. The author used ChatGPT (OpenAI) and Claude Fable 5 (An- thropic) as interactive aids during the preparation of this manuscript, including for math- ematical discussion, consideration of alternative formulations and possible proof strategies, preliminary consiste",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 100",
+          "page": 100
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:21.264209Z"
+      },
+      "score": 4658.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 582.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 102,
+          "theorems": 66,
+          "lemmas": 76,
+          "propositions": 116,
+          "corollaries": 39,
+          "definitions": 96,
+          "displayed_equations": 79,
+          "bibliography_entries": 8.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20829",
       "version": 1,
       "title": "Prescribed extension spectra of mock automorphisms over finite fields",
