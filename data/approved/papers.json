@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21788",
+      "version": 1,
+      "title": "A topological Chern character for matrix factorizations",
+      "authors": [
+        "Mark Shoemaker"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math-ph",
+          "math.AT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-23T20:09:29Z",
+        "updated": "2026-07-23T20:09:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $Y$ a quasi-projective complex variety and $w \\colon Y \\to \\mathbb C$ a regular function, we construct a Chern character from the Grothendieck group of the category of matrix factorizations of $w$ to the critical cohomology of $w$, and show that it factors through a certain topological $K$-theory group. We prove a Grothendieck-Riemann-Roch theorem with respect to this Chern character, and verify several functorial properties.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21788v1",
+        "pdf": "https://arxiv.org/pdf/2607.21788v1",
+        "source": "https://export.arxiv.org/e-print/2607.21788v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 7,
+        "lemmas": 2,
+        "propositions": 6,
+        "corollaries": 5,
+        "definitions": 10,
+        "displayed_equations": 167,
+        "bibliography_entries": 44,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Chern_character_7-20-26.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "6 SHOEMAKER 0.6. Statement on the use of AI. Gemini and ChatGPT were used to an- swer questions and search for references. All logical arguments, proofs, and writing are the author’s own. 0.7. Acknowledgements. I would like to thank Nicolas Addington, Michael Brown, David Favero, Tyler Kell",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:19.388501Z"
+      },
+      "score": 374.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 187.15,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 32,
+          "theorems": 42,
+          "lemmas": 8,
+          "propositions": 24,
+          "corollaries": 15,
+          "definitions": 20,
+          "displayed_equations": 41.75,
+          "bibliography_entries": 4.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21761",
       "version": 1,
       "title": "Encoding orders and trees in real-valued functions",
