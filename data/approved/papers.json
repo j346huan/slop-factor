@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13739",
+      "version": 1,
+      "title": "An Almost-Covering Threshold for Golomb-Ruler Difference Packings",
+      "authors": [
+        "Chaohang Ma",
+        "Xiangjie Yi"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T19:56:38Z",
+        "updated": "2026-08-13T19:56:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a fixed integer $t\\geq 3$, consider families of $t$-mark Golomb rulers whose positive-difference sets are pairwise disjoint and contained in $[1,U]$. Let $P_t(U)$ be the largest number of integers covered by such a family. We determine the threshold for asymptotically complete coverage: \\[ P_t(U)=U-o(U) \\quad\\Longleftrightarrow\\quad 3\\leq t\\leq 5. \\] The cases $t=3,4$ follow from the known existence spectra for perfect difference families. For $t=5$, Wild's product construction, in the form recorded by Mathon and applied to perfect families of orders $121$ and $161$, gives a multiplicative semigroup of exact-covering scales; an elementary density lemma on its logarithms then supplies a scale $(1-o(1))U$ below every sufficiently large $U$. For the converse, we give a self-contained one-frequency Fourier obstruction. If $x_0\\in(π,3π/2)$ is the first positive solution of $\\tan x=x$ and \\[ γ_0=-\\frac{2\\sin x_0}{x_0}=0.4344672564\\ldots, \\] then, for every fixed $t\\geq 6$, \\[ \\liminf_{U\\to\\infty}\\left(1-\\frac{P_t(U)}{U}\\right) \\geq \\frac{(t-1)γ_0-2}{2(t-2)}. \\] In particular, the forced gap for six-mark rulers is at least $2.1542035\\%$. We also prove a discrete small-difference bound which yields a stronger obstruction for every $t\\geq14$ and forces a gap of \\[ \\frac12-\\frac1{\\sqrt t}-\\frac7{8t}+O(t^{-3/2}) \\] as $t\\to\\infty$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13739v1",
+        "pdf": "https://arxiv.org/pdf/2608.13739v1",
+        "source": "https://export.arxiv.org/e-print/2608.13739v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 3,
+        "lemmas": 1,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 60,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ng, improving the presentation, and checking the clarity and consistency of the manuscript. The research problem, overall strategy, mathematical ideas, constructions, proofs, and conclusions were conceived and developed by the authors. All AI-assisted suggestions were independently examined and, where adopted, revised and verified by the authors, who take full responsibility for the content of this work. References [1] J.-C. Bermond, A. E. Brouwer, and A. Germa, Systèmes de triplets",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:16.237844Z"
+      },
+      "score": 232.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.2,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 9,
+          "theorems": 18,
+          "lemmas": 4,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 15,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13509",
       "version": 1,
       "title": "The distribution of $k$-free ideals in ray class groups",
