@@ -8597,6 +8597,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10015",
+      "version": 2,
+      "title": "Kneserized Anticoncentration and Reverse Absorption for Graham's Rearrangement Conjecture",
+      "authors": [
+        "Simone Costa",
+        "Stefano Della Fiore",
+        "Tao Feng",
+        "Hengrui Liu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-08T14:36:29Z",
+        "updated": "2026-08-18T14:54:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish a Kneser-based anticoncentration estimate for uniform subset sums in composite cyclic groups. The estimate contains a periodic loss and is weaker than its prime-modulus counterpart. Nevertheless, together with known small- and large-set results, it proves that, for every fixed $t\\geq2$ such that $\\mathbb{Z}_t$ is strongly sequenceable and every sufficiently large prime $p$, every subset of $\\mathbb{Z}_{tp}\\setminus\\{0\\}$ has a valid ordering, thus establishing the analogue of Graham's rearrangement conjecture for this family of composite cyclic groups. We then identify the structural source of this loss. An inverse theorem shows that failure of the stabilizer-free growth underlying prime-type anticoncentration forces almost all of the set into a proper subgroup or one of its cosets. We exploit this structure by reverse absorption. Iterating the resulting dichotomy between non-periodic anticoncentration and structured concentration proves that every subset of \\[ \\mathbb{Z}_k\\setminus\\{0\\}, \\qquad k=\\prod_{i=1}^{s}p_i^{e_i}, \\qquad \\sum_{i=1}^{s}e_i\\leq L, \\qquad p_1<\\cdots<p_s\\leqγp_1, \\] admits a valid ordering whenever $L$ and $γ$ are fixed and the primes $p_i$ are sufficiently large.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10015v2",
+        "pdf": "https://arxiv.org/pdf/2608.10015v2",
+        "source": "https://export.arxiv.org/e-print/2608.10015v2"
+      },
+      "structural_counts": {
+        "pages": 61,
+        "theorems": 10,
+        "lemmas": 20,
+        "propositions": 6,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 636,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Graham_ComparablePrimes_sub_final.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nistic clock and local/remote bookkeeping of Section 7 suggest a plausible route, although carrying it out will require a separate argument. Statement on the use of generative AI. During the preparation of this manuscript, the authors used ChatGPT (OpenAI) for language editing and organization. It also played a substantial role as an interactive tool in developing and formalizing the proof of the layered local-repair lemma, in particular in organizing a version compatible with the b",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 61",
+          "page": 61
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:18.571238Z"
+      },
+      "score": 3994,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 399.4,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 61,
+          "theorems": 60,
+          "lemmas": 80,
+          "propositions": 24,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 159,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08154",
       "version": 1,
       "title": "Exact Zarankiewicz Values On Two Finite Frontier Slices",
