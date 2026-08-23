@@ -8426,6 +8426,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12094",
+      "version": 1,
+      "title": "The 196560 auxiliary-function conjecture for the Leech lattice",
+      "authors": [
+        "Yutong Zhang",
+        "Yaoran Yang"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CA",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T14:18:15Z",
+        "updated": "2026-08-12T14:18:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Cohn and Kumar conjectured in 2009 that there is a radial Schwartz function $g\\colon\\R^{24}\\to\\R$ satisfying $g(r)\\leq0$ for $r\\geq\\sqrt6$, $\\widehat g(r)\\geq0$ for $r\\geq0$, $g(2)>0$, and $(\\widehat g(0)-g(0))/g(2)=196560$. We construct such functions from the radial Fourier interpolation basis in dimension $24$. If $a_2,b_2$ denote the basis functions dual to value and radial-derivative interpolation at radius $2$, then $g_C=a_2-Cb_2$ has exactly the nodal data needed for Poisson summation over the Leech lattice. The sphere-packing magic function identifies $b_2$ and supplies its strict signs. We prove that the removable quotients $a_2/b_2$ and $\\widehat a_2/\\widehat b_2$ are bounded on the required half-lines. The noncompact step follows from exact coefficient extraction in the interpolation kernel and an $S$-cusp expansion. Both quotients tend to $(43+240\\log2)/15$; for all sufficiently large radii they lie on opposite sides of this limit, with an explicit first exponential correction. Consequently the admissible parameters in this affine family form a nonempty closed ray, and every member proves the conjectured identity. The same interpolation basis recovers every nontrivial Leech-shell coefficient.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12094v1",
+        "pdf": "https://arxiv.org/pdf/2608.12094v1",
+        "source": "https://export.arxiv.org/e-print/2608.12094v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 6,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 81,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "losure statements Use of computational and generative tools. The affine ansatz (1.5), the quotient strategy in Section 6, and portions of the symbolic coefficient extraction in Sections 4 and 5 were developed with assistance from an OpenAI language model. Responsibility for the mathematical content and citations rests with the author. References [1] H. Cohn and A. Kumar, Optimality and uniqueness of the Leech lattice among lattices, Ann. of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:43.219423Z"
+      },
+      "score": 664.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 83.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 24,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 20.25,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12080",
       "version": 1,
       "title": "Word-Length Spectral Triples of $(\\mathbb{Z}/2\\mathbb{Z})\\wr\\mathbb{F}_{d}$ Are Not Metric",
