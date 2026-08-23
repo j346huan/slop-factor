@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25920",
+      "version": 1,
+      "title": "Asymptotically sharp bounds for affine subspace statistics in $\\mathbb F_2^n$",
+      "authors": [
+        "Ting-Wei Chao",
+        "Zixuan Xu",
+        "Dmitrii Zakharov"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-28T16:10:34Z",
+        "updated": "2026-07-28T16:10:34Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Given a subset $A \\subseteq \\mathbb F_2^n$, we can consider the distribution of the intersection size of $A$ with a uniformly random $d$-flat $F$. Motivated by the edge statistics problem and the hypercube statistics problem, the affine subspace statistics problem concerns the maximum of $\\mathbb{P}[|F\\cap A|=s]$ among $A \\subseteq \\mathbb F_2^n$ for any fixed $s\\in\\{1,\\dots,2^d\\}$ over a uniformly random $d$-flat $F$. We use $λ^*(d,s)$ to denote the limit of the maximum when $n$ goes to infinity. In this note, we prove tight bounds for $λ^*(d,s)$ in two different regimes. For $s=j2^k$ where $j$ is a positive odd integer, the best known lower bound construction achieving $λ^*(d,s)\\ge 1-2^{-k}$ is due to taking $A$ as the union of $j$ parallel $(n-d+k)$-flats in $\\mathbb F_2^n$. Our main result is a matching upper bound with an additive error term of $O(2^{-3k/2})$. We also study the case $s=1$, where we determine $λ^*(d,1)$ exactly. We show that the random construction where each point is included with probability $2^{-d}$ is optimal.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25920v1",
+        "pdf": "https://arxiv.org/pdf/2607.25920v1",
+        "source": "https://export.arxiv.org/e-print/2607.25920v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 54,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper-v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e preparation of this manuscript. The proof of Theorem 1.3 is due to ChatGPT 5.5-Pro and was found when trying to generalize an argument for d = 2 observed by the authors. The ideas in the proof of Theorem 1.2 are entirely human generated. ChatGPT 5.6 was used for editing and proofreading an initial draft of the current manuscript. 2. Preliminaries Let Gr(n, d) be the set of d-dimensional linear subspaces of Fn2 , and let Aff(n, d)",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:56.220362Z"
+      },
+      "score": 586,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.6,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 7,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 13.5,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25645",
       "version": 1,
       "title": "Estimates of the total variation distance between laws of Sobolev mappings on Gaussian spaces",
