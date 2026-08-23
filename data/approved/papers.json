@@ -43038,6 +43038,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20113",
+      "version": 1,
+      "title": "Forward-Reflected-Backward algorithm with Linesearch",
+      "authors": [
+        "Fernando Muñoz García",
+        "Fernando Roldán"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T13:14:15Z",
+        "updated": "2026-07-22T13:14:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this article, we aim to solve a monotone inclusion problem involving the sum of a maximally monotone operator and a continuous operator. While several algorithms exist to solve this problem when the continuous operator is cocoercive or Lipschitz continuous, they typically require the estimation of the global Lipschitz constant, which can be computationally expensive and often imposes overly restrictive step-sizes. To avoid these limitations and to handle merely continuous operators, linesearch subroutines are employed. A popular method in this context is the forward-backward-forward (FBF) algorithm (also known as Tseng's splitting), which utilizes a linesearch to guarantee convergence. However, a drawback of FBF is that the continuous operator must be evaluated twice per iteration. On the other hand, the forward-reflected-backward (FRB) algorithm proposed by Malitsky and Tam (2020) requires only a single evaluation of the operator per iteration. Although a linesearch version of FRB exists, its convergence is guaranteed only for locally Lipschitz operators; in fact, we present an example demonstrating that this existing linesearch can fail to terminate when the operator is merely continuous. In this work, we propose a novel linesearch strategy for FRB that is well defined and guarantees convergence even when the operator is merely continuous. We also extend the proposed algorithm to handle additional cocoercive and Lipschitz continuous operators. Finally, we provide numerical experiments on saddle-point problems and image restoration. The numerical results show that FRB with the proposed linesearch can accelerate the numerical convergence even when the operator is Lipschitz continuous. In addition, these results show that the proposed method is competitive with linesearch FBF, offering considerable computational advantages in various scenarios.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20113v1",
+        "pdf": "https://arxiv.org/pdf/2607.20113v1",
+        "source": "https://export.arxiv.org/e-print/2607.20113v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 97,
+        "bibliography_entries": 51,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file MAIN.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "that, the convergence of FRB has not been proved in the case where B is merely contin- uous. The following example illustrates that the proposed linesearch for FRB may never stop. This example was generated with the assistance of Google’s Gemini AI (Gemini 1.5 Pro). Example 3.2. In the context of Problem 3.1 set H = R2 , let C ⊂ R2 given by \b C = (x, y) ∈ R2 y ≥ |x|3/2 , (3.8) set A = ∂",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:00.553463Z"
+      },
+      "score": 482.1,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 80.35,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 23,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 24.25,
+          "bibliography_entries": 5.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20055",
       "version": 3,
       "title": "The Gromov--Ros conjecture for rank-one symmetric spaces of noncompact type",
