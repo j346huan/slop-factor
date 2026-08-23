@@ -43388,6 +43388,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27911",
+      "version": 1,
+      "title": "The semi-inducibility of the blue--blue--red path on four vertices",
+      "authors": [
+        "Jinghua Deng"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T09:25:06Z",
+        "updated": "2026-07-30T09:25:06Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For an $n$-vertex graph $G$, let $N(H_3,G)$ be the number of injective labeled copies of the red-blue path $H_3$ for which the two blue pairs are mapped to non-edges of $G$ and the red pair is mapped to an edge of $G$. We determine the maximum limiting value of $N(H_3,G)/n^4$ and give an extremal construction, which is the disjoint union of a clique and an asymptotically regular graph. The proof uses weighted vertex quotients and degree-square tie-breaking. We thereby resolve the exceptional four-vertex case left open in the recent classification of non-complete red-blue graphs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27911v1",
+        "pdf": "https://arxiv.org/pdf/2607.27911v1",
+        "source": "https://export.arxiv.org/e-print/2607.27911v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 6,
+        "lemmas": 20,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 225,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file H3_semi_inducibility_graph_sequences_EN_deng_style.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "\u0001 \u0001 = F (a∗ , x∗ ) + o(1) = p∗ + o(1). Finally, qn /mn = x∗ /(1 − a∗ ) + o(1) = λ∗ + o(1), which gives the asserted relative degree inside Rn . 6 Declaration on the use of AI The author used generative AI tools to assist with discussing proof strategies, proof checking, and exposition. All mathematical arguments, results, and conclusions were reviewed and verified by the author. References [BLM+26] J. Balogh, B. Lidický, D. Mubayi, F. Pfen",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:11.158452Z"
+      },
+      "score": 1566,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 195.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 22,
+          "theorems": 36,
+          "lemmas": 80,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 56.25,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27872",
       "version": 1,
       "title": "The nucleus of a semisymmetric quasigroup",
