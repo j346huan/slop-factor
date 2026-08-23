@@ -8514,6 +8514,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10501",
+      "version": 1,
+      "title": "Nonradial stable solutions near the Joseph--Lundgren threshold",
+      "authors": [
+        "Shibing Chen",
+        "Yong Liu",
+        "Juncheng Wei",
+        "Wen Yang"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T05:19:54Z",
+        "updated": "2026-08-11T05:19:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study positive stable solutions of the supercritical Lane--Emden equation in the first Joseph--Lundgren interval. For a family of dimensions, we construct nonradial stable entire solutions with exponent close to the upper endpoint of this interval. This disproves a radiality conjecture of Chan and Wei. The construction begins with a smooth positive nonconstant solution on the sphere, which is obtained by matching a polar cap to an inner neck. A sharp expansion of the lowest shifted eigenvalue proves that the resulting singular cone is strictly stable. Finally, a minimal-solution and rescaling argument replaces the cone by a smooth stable entire solution while preserving its sphere variation. To the best of our knowledge, this is the first nontrivial example of nonradial stable solutions for the Emden-Fowler equation.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10501v1",
+        "pdf": "https://arxiv.org/pdf/2608.10501v1",
+        "source": "https://export.arxiv.org/e-print/2608.10501v1"
+      },
+      "structural_counts": {
+        "pages": 43,
+        "theorems": 6,
+        "lemmas": 25,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 393,
+        "bibliography_entries": 54,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Nonradial-stable.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "he Macao SAR (FDCT, Grant No. 0070/2024/RIA1), the Multi-Year Research Grants of the University of Macau (Grant No. MYRG-GRG2025-00051-FST), and the University of Macau Development Foundation (Grant No. TISF/2025/006/FST). The authors used OpenAI models as assistive tools in preparing this manuscript. Mathematical arguments, proofs, and computations in the manuscript were verified and finalized by the authors. References [1] T. Aubin,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 40",
+          "page": 40
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:08.748366Z"
+      },
+      "score": 1598.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 319.65,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 43,
+          "theorems": 36,
+          "lemmas": 100,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 98.25,
+          "bibliography_entries": 5.4,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10488",
       "version": 1,
       "title": "Tensor-normal maximum likelihood estimation at the operator-norm sample threshold",
