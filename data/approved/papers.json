@@ -8514,6 +8514,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12660",
+      "version": 1,
+      "title": "Universality of e-detectors for ARL control",
+      "authors": [
+        "Aaditya Ramdas"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "cs.IT",
+          "eess.SP",
+          "stat.ME"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T23:46:49Z",
+        "updated": "2026-08-12T23:46:49Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An e-detector for a pre-change class $\\mathcal P$ is a nonnegative process $M$ such that $\\mathbb E_P[M_τ] \\leq \\mathbb E_P[τ]$ for all stopping times $τ$ and all $P \\in \\mathcal P$. Thresholding e-detectors controls the average run length (ARL): declaring a change at the first time $T_b$ when $M$ crosses $b$ ensures that $\\inf_{P \\in \\mathcal P}\\mathbb E_P[T] \\geq b$. But e-detectors do substantially more than control the ARL; they also satisfy a \\emph{optional-horizon inequality}: \\[ P(T_b\\leqσ)\\leq \\mathbb E_P[σ]/b \\] for every data-dependent stopping time (monitoring horizon) \\(σ\\) and $P\\in \\mathcal P$. In particular, every e-detector-based procedure obeys $P(T\\leq t)\\leq t/b$ at each fixed $t$, thus avoiding early false alarms. Remarkably, the converse also holds: every stopping time $T$ that satisfies the optional-horizon inequality must in fact arise from thresholding an e-detector. We also derive a universal representation of stopping times that satisfy (only) ARL control. These are represented by \\emph{weak} e-detectors, that only require $\\mathbb E_P[M_τ] \\leq \\mathbb E_P[τ]$ to hold at all threshold stopping times $T_b$. Appendices present universal representations for other (less common) change detection metrics.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12660v1",
+        "pdf": "https://arxiv.org/pdf/2608.12660v1",
+        "source": "https://export.arxiv.org/e-print/2608.12660v1"
+      },
+      "structural_counts": {
+        "pages": 47,
+        "theorems": 15,
+        "lemmas": 3,
+        "propositions": 13,
+        "corollaries": 6,
+        "definitions": 12,
+        "displayed_equations": 233,
+        "bibliography_entries": 38,
+        "appendix_pages": 47
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-arl.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "is what supports operational protection, interpretable run-length restrictions, and constructive e-detector methodology. Acknowledgments The author thanks Ashwin Ram for useful technical conversations and feedback on an early preprint. AI tools were used for developing some of the extensions in the Appendix, some exposition, and creating some illuminating examples, but the author takes responsibility for their correctness. References M. Basseville and I. V. Nikiforov. Detection",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 29",
+          "page": 29
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:22.564687Z"
+      },
+      "score": 2394.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 399.05,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 47,
+          "theorems": 90,
+          "lemmas": 12,
+          "propositions": 52,
+          "corollaries": 18,
+          "definitions": 24,
+          "displayed_equations": 58.25,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 94
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12604",
       "version": 1,
       "title": "Density bounds for permutations avoiding monotone arithmetic progressions",
