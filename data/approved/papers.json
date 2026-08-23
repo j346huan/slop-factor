@@ -8425,6 +8425,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12749",
+      "version": 1,
+      "title": "Extensions of One-Sided Box Geometry and Pyramid Invariants to gd-Sets and qm-Spaces",
+      "authors": [
+        "Shigeaki Yokota"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T02:57:55Z",
+        "updated": "2026-08-13T02:57:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Domination of gd-sets, the relation recording which function family approximates which, is closed under box convergence. More generally, approximate 1-Lipschitz maps on asymptotically full-measure subsets, whose restricted measures converge to the target measure after pushforward, place the target representation in every subsequential weak limit of the source pyramids. For weakly convergent pyramids, bounded joint distributions of finite ordered tuples of observables recover both observable diameter, after rightward perturbation of its mass parameter, and the largest common forward gap among several positive-mass sets, after common leftward perturbation of their mass parameters. The lower- and upper-limit formulas agree as the perturbations vanish. Without closure assumptions on a gd-set's function family, we compare observable diameter, the nonnegative part of forward separation, and upper and lower median-tail masses. All observables become uniformly close in measure to suitable constants exactly when both median-tail masses vanish at every positive radius.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12749v1",
+        "pdf": "https://arxiv.org/pdf/2608.12749v1",
+        "source": "https://export.arxiv.org/e-print/2608.12749v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 4,
+        "lemmas": 7,
+        "propositions": 12,
+        "corollaries": 1,
+        "definitions": 10,
+        "displayed_equations": 176,
+        "bibliography_entries": 12,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file one-sided-pyramids-en.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "and separation distance. Acknowledgments The author would like to thank Professor Takashi Shioya for many helpful sug- gestions and guidance. The author used Claude and GPT-5.6-series Codex models as AI-assisted tools in preparing this manuscript. The author reviewed and revised the mathematical content and takes full responsibility for the final manuscript. References [1] X. Cheng and Y. Feng. Concentratio",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:38.471420Z"
+      },
+      "score": 1021,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 204.2,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 26,
+          "theorems": 24,
+          "lemmas": 28,
+          "propositions": 48,
+          "corollaries": 3,
+          "definitions": 20,
+          "displayed_equations": 44,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12731",
       "version": 1,
       "title": "The multiplicity sequence of monomial ideals",
