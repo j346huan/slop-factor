@@ -8847,6 +8847,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16880",
+      "version": 1,
+      "title": "Inhomogeneous Einstein metrics on complex projective spaces",
+      "authors": [
+        "Gonzalo Cao-Labora",
+        "Alberto Rodríguez-Vázquez"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T17:57:46Z",
+        "updated": "2026-08-17T17:57:46Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The only Einstein metrics currently known on complex projective spaces are homogeneous: the Fubini-Study metric, arising via the Hopf fibration; and, in odd complex dimensions, Ziller's metric, obtained as a canonical variation along the twistor fibration over the quaternionic projective space. In 1965, Berger proved that the Fubini-Study metric is the unique Kähler-Einstein metric on the complex projective space, and posed the question of whether other Einstein metrics exist. We construct the first inhomogeneous Einstein metrics on complex projective spaces of complex dimension $n$ for $3\\leq n \\leq 7$, answering Berger's question affirmatively for the complex even dimensional cases $n=4$ and $n=6$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16880v1",
+        "pdf": "https://arxiv.org/pdf/2608.16880v1",
+        "source": "https://export.arxiv.org/e-print/2608.16880v1"
+      },
+      "structural_counts": {
+        "pages": 39,
+        "theorems": 3,
+        "lemmas": 9,
+        "propositions": 7,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 164,
+        "bibliography_entries": 73,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "4 G. CAO-LABORA AND A. RODRÍGUEZ-VÁZQUEZ AI usage statement: LLMs, in the form of Claude Opus 4.6, 4.7 and 4.8 were used in early stages of the research process to code simulations. LLMs were also used in helping to produce the code which gave Figure 1, and to detect typos and minor editing in earlier versions of this manuscript. T",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:44.092580Z"
+      },
+      "score": 358.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 179.3,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 39,
+          "theorems": 18,
+          "lemmas": 36,
+          "propositions": 28,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 41,
+          "bibliography_entries": 7.3,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16799",
       "version": 1,
       "title": "Doubling the dimension yields a benign landscape for the squared-stress",
