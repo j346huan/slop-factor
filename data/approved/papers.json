@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11126",
+      "version": 1,
+      "title": "Sharp Beckner's Inequalities for Axially Symmetric Functions on $\\mathbb{S}^N$",
+      "authors": [
+        "Changfeng Gui",
+        "Tuoxin Li",
+        "Juncheng Wei",
+        "Zikai Ye"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T16:42:25Z",
+        "updated": "2026-08-11T16:42:25Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that for every integer $N\\geq 3$ and $α\\geq \\frac{1}{2}$, Beckner's inequality \\begin{equation*} \\fracα{2}\\int_{\\mathbb{S}^N}u(P_{N}u) dw+(N-1)!\\int_{\\mathbb{S}^N}u dw-\\frac{(N-1)!}{N}\\ln\\int_{\\mathbb{S}^N}e^{Nu} dw\\geq 0 \\end{equation*} holds for any axially symmetric $u\\in H^{\\frac{N}{2}}(\\mathbb{S}^N)$ whose center of mass is at the origin. The proof is mainly based on a weighted $\\ell ^2$ estimate on Gegenbauer coefficients and a rigidity theorem for stable critical points. Hence, we answer the generalized Chang-Yang conjecture positively in the axially symmetric case for every integer $N\\geq 3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11126v1",
+        "pdf": "https://arxiv.org/pdf/2608.11126v1",
+        "source": "https://export.arxiv.org/e-print/2608.11126v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 5,
+        "lemmas": 8,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 201,
+        "bibliography_entries": 36,
+        "appendix_pages": 25
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file BecknerInequality.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "DF Profes- sorial Fellowship of Mathematics, Macao SAR FDCT 0003/2023/RIA1 and Macao SAR FDCT 0024/2023/RIB1. The research of J. Wei is partially supported by General Research Grant of HKSAR GRF 14309824. The authors acknowledge the use of AI tools. All math- ematical arguments and proofs in the final manuscript were checked and written by the authors. R EFERENCES [1] W. Beckner, Sharp Sobolev inequalities on the sphere and the Moser–Tr",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:55.495765Z"
+      },
+      "score": 1014.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 202.85,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 25,
+          "theorems": 30,
+          "lemmas": 32,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 50.25,
+          "bibliography_entries": 3.6,
+          "appendix_pages": 50
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11290",
       "version": 2,
       "title": "Solutions to Five Challenge Problems in Enumerative and Algorithmic Combinatorics, with an Account of the Human-Machine Methodology Employed",
