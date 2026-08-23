@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01447",
+      "version": 3,
+      "title": "Neutral Returns at High-Order Grazing: Sharp Cyclicity, Physical Codimension, and Weighted Crossover",
+      "authors": [
+        "Haibo Lu"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T19:00:35Z",
+        "updated": "2026-08-10T07:56:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study a neutral periodic orbit of a continuous two-field flow that is tangent to a switching seam while nearby orbits enter the second field. We separate the roles of two governing integers: the neutral-return order $n\\geq2$ controls orbit count, whereas the even contact order $ν$ controls grazing codimension, passage scale, and transverse crossover. Continuity factors the branch mismatch as $X^+-X^-=hW$; an active excursion of duration $O(q^{1/ν})$ therefore produces a correction of order $q_+^{1+1/ν}$. A parameter-uniform passage theorem and a cross-seam Hermite zero theorem then give the sharp fixed-stratum cyclicity: $n$ or $n+1$ periodic orbits, according to the sign coupling of smooth and active terms. A rank-$n$ physical unfolding attains the applicable bound. Contact-jet incidence gives ambient codimension $ν-2$ for order-$ν$ grazing and $n+ν-2$ for simultaneous neutral grazing. Transverse contact parameters replace the central power by a weighted positive-part cap whose onset exponent crosses from $1+1/ν$ to the generic quadratic-contact value $3/2$. The same sharp bound holds for both the exact cap and a prepared physical multiwell return, including births, mergers, and multiple entry--exit pairs. A value-only $C^1$ counterexample shows that finite cyclicity requires event-derivative information. For every even $ν\\geq4$, a closed polynomial family realizes the prescribed contact and rank conditions and the sharp periodic-orbit configurations through actual finite-time first-return maps.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01447v3",
+        "pdf": "https://arxiv.org/pdf/2608.01447v3",
+        "source": "https://export.arxiv.org/e-print/2608.01447v3"
+      },
+      "structural_counts": {
+        "pages": 61,
+        "theorems": 12,
+        "lemmas": 7,
+        "propositions": 8,
+        "corollaries": 8,
+        "definitions": 3,
+        "displayed_equations": 272,
+        "bibliography_entries": 25,
+        "appendix_pages": 21
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "echanism. The os- cillatory C 1 family in proposition 7.3 identifies event structure, beyond weighted value control, as essential for finite cyclicity. Declarations Acknowledgements and generative-AI disclosure. OpenAI Codex (GPT-5, accessed August 2026; immutable snapshot identifier unavailable) assisted with language and structural editing, cross- reference and symbolic consistency checks, literature searches, and figure-code and layout editing. The au",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 40",
+          "page": 40
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:13:37.085171Z"
+      },
+      "score": 1342,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 335.5,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 61,
+          "theorems": 72,
+          "lemmas": 28,
+          "propositions": 32,
+          "corollaries": 24,
+          "definitions": 6,
+          "displayed_equations": 68,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 42
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.05191",
       "version": 1,
       "title": "Rigidity of Averages over the Two Largest Prime Factors",
