@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21222",
+      "version": 3,
+      "title": "An Asymptotically Tight $t\\log t$ Bound for $k$-Connected Subgraphs in Dense $K_t$-Minor-Free Graphs",
+      "authors": [
+        "Xinheng Lin"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T11:38:44Z",
+        "updated": "2026-08-06T13:21:22Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Delcourt and Postle reduced the Linear Hadwiger Conjecture to coloring $K_t$-minor-free graphs on $O(t\\log^4 t)$ vertices. An important theorem in their proof process asserts that every sufficiently dense $K_t$-minor-free graph contains a small, highly connected subgraph. In this paper, we show that such a subgraph can be chosen to be smaller. More precisely, there exists an integer constant $C\\geq 1$ such that, for all integers $t\\geq 3$ and $k\\geq t$, every $K_t$-minor-free graph $G$ with $d(G)\\geq Ck$ contains a nonempty $k$-connected subgraph $H$ satisfying $v(H)\\leq C^2t\\log t$. Thus the structural bound improves from $O(t\\log^3 t)$ to $O(t\\log t)$. We also give a probabilistic construction showing that the $t\\log t$ bound on $v(H)$ is best possible up to a constant factor. Consequently, the graphs occurring in the reduction have order $O(t\\log^2 t)$ rather than $O(t\\log^4 t)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21222v3",
+        "pdf": "https://arxiv.org/pdf/2607.21222v3",
+        "source": "https://export.arxiv.org/e-print/2607.21222v3"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 7,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 45,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file hadwiger.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "5 Acknowledgments This research was partially supported by the Natural Science Foundation of Fujian Province (Grant No. 2025J01486). Statement of AI Use. The central proof idea in this manuscript was developed with the assistance of GPT 5.6 Sol. The author subsequently refined the idea and wrote the manuscript, using the same model to assist with language polishing. References [1] B. Bollobás, P. A. Catlin and P. Erdős, Hadwiger’s conjecture is true for almost every g",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:53.960871Z"
+      },
+      "score": 544.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 68.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 10,
+          "theorems": 42,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 11.25,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20886",
       "version": 1,
       "title": "Maximal topological complexity of monotone symplectic 4-manifolds",
