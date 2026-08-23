@@ -8425,6 +8425,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16497",
+      "version": 1,
+      "title": "A Family of Simultaneously Cospectral Trees for Degree-Distance Matrices",
+      "authors": [
+        "Limeng Lin",
+        "Quanyu Tang",
+        "Kehua Wang",
+        "Wei Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T12:36:12Z",
+        "updated": "2026-08-17T12:36:12Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Spectral characterization of graphs for various graph matrices constitutes a central topic in spectral graph theory. Let $G$ be a graph with adjacency matrix $A(G)$, diagonal degree matrix $\\Deg(G)$, distance matrix $D(G)$, and transmission matrix \\(\\Trs(G)\\), respectively. Recently, Alfaro and Zapata (2024) introduced the degree-distance matrices \\(\\Ddegp(G)=\\Deg(G)+D(G)\\) and \\(\\Ddeg(G)=\\Deg(G)-D(G)\\), together with the transmission-adjacency matrices \\(\\Atrsp(G)=\\Trs(G)+A(G)\\) and \\(\\Atrs(G)=\\Trs(G)-A(G)\\). Based on computational evidence for trees on at most \\(20\\) vertices, they conjectured that all trees are determined by the spectra of \\(\\Ddegp\\) as well as \\(\\Ddeg\\). In this paper, we disprove these conjectures by constructing an infinite family of pairs of non-isomorphic trees. More precisely, for each integer \\(r\\ge 3\\), we construct a pair of trees on \\(17r-15\\) vertices which are simultaneously cospectral with respect to the following six matrices \\[ A,\\quad L,\\quad Q,\\quad D,\\quad \\Ddegp,\\quad \\Ddeg . \\] The construction is based on an \\(r\\)-regularized leaf extension and an equitable-partition reduction. We also record a simple sign-switching observation for transmission-adjacency matrices: if \\(G\\) is bipartite, then \\(\\Atrs(G)\\) and \\(\\Atrsp(G)\\) are similar via a diagonal \\(\\{\\pm1\\}\\)-matrix and have the same Smith normal form. Consequently, for trees, the spectral and Smith normal form problems for \\(\\Atrs\\) and \\(\\Atrsp\\) are equivalent.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16497v1",
+        "pdf": "https://arxiv.org/pdf/2608.16497v1",
+        "source": "https://export.arxiv.org/e-print/2608.16497v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 1,
+        "lemmas": 6,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 1,
+        "displayed_equations": 50,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file counterexample_tree_revised.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "(r) (r) coincide for each tree. Thus, if T1 and T2 are not Atrs -cospectral, then they also are not Atrs,+ -cospectral. Acknowledgements The Python/SymPy codes provided in Appendix A were generated with assistance from GPT-5.6-sol. All computational outputs have been independently verified by the authors. The authors bear full responsibility for the accuracy of the manuscript. A Python/SymPy code for the computational verification The following Python",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:30.694830Z"
+      },
+      "score": 146.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 73.3,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 15,
+          "theorems": 6,
+          "lemmas": 24,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 2,
+          "displayed_equations": 12.5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16398",
       "version": 1,
       "title": "On The Eaton-Moretó Conjecture for Principal Blocks of Finite Groups",
