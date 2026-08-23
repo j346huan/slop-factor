@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01037",
+      "version": 2,
+      "title": "On Riemannian Geometry in Elastic Diffeology",
+      "authors": [
+        "Yusuke Shiobara"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math.CT",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T06:47:31Z",
+        "updated": "2026-08-06T15:40:30Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Several inequivalent notions of tangent space exist for diffeological spaces, which has hindered the development of Riemannian geometry in this setting. On Blohmann's elastic diffeological spaces, the tangent functor carries a genuine tangent structure in the sense of Cockett and Cruttwell, and we use this to develop Riemannian geometry. We introduce connections adapted to this setting and show that they induce covariant derivatives on vector fields satisfying the usual axioms, together with the associated curvature tensor, whose basic properties we record following Cockett--Cruttwell. Given a Riemannian metric, we establish a Koszul formula and prove that the Levi-Civita covariant derivative is unique if it exists, while its existence remains open in general. We then develop the theory of geodesics and of the energy functional: geodesics are always critical paths of the energy functional, and on elastic spaces for which the real line is a curve object, completeness of the geodesic spray yields existence and uniqueness of geodesics, as well as the converse statement that critical paths are geodesics. As a fundamental class of examples, we show that for a closed manifold $M$ and an elastic Riemannian diffeological space $N$ these structures on the mapping space $C^\\infty(M,N)$ are obtained pointwise from those on $N$, under a natural tangent-commuting hypothesis that holds automatically when $N$ is a manifold; in particular, the geodesic spray of $C^\\infty(M,N)$ is complete whenever that of $N$ is.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01037v2",
+        "pdf": "https://arxiv.org/pdf/2608.01037v2",
+        "source": "https://export.arxiv.org/e-print/2608.01037v2"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 4,
+        "lemmas": 10,
+        "propositions": 32,
+        "corollaries": 0,
+        "definitions": 49,
+        "displayed_equations": 148,
+        "bibliography_entries": 19,
+        "appendix_pages": 24
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ORGIED__1_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "generous support and encouragement. This work was supported by JST SPRING, Grant Number JPMJSP2144, at Shinshu University. Declaration of generative AI in the writing process. During the preparation of this manuscript, the author used ChatGPT and Claude for language editing and for discussing possible formulations, presentations, and future research directions. All mathematical results, proofs, and scientific conclusions were developed and verified by the author. The author car",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:22.853145Z"
+      },
+      "score": 1627.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 406.9,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 30,
+          "theorems": 24,
+          "lemmas": 40,
+          "propositions": 128,
+          "corollaries": 0,
+          "definitions": 98,
+          "displayed_equations": 37,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 48
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00982",
       "version": 1,
       "title": "GL-algebras in positive characteristic III: the divided power algebra",
