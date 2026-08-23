@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15609",
+      "version": 1,
+      "title": "A 3-semi-perfect 1-factorization of the six-dimensional hypercube",
+      "authors": [
+        "Guillaume Lambard"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T04:12:22Z",
+        "updated": "2026-07-17T04:12:22Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a 1-factorization $F=\\{M_1,\\ldots,M_d\\}$ of the hypercube $Q_d$, let $G[F]$ have vertex set $F$, with $M_iM_j$ an edge exactly when $M_i\\cup M_j$ is a Hamilton cycle. Behague proved that $Q_{k+\\ell}$ has a 1-factorization $F$ with $G[F]\\cong K_{k,\\ell}$ for all positive $k,\\ell$ except possibly $k=\\ell=3$. We give an explicit 1-factorization of $Q_6$ for which $G[F]\\cong K_{3,3}$, resolving the exceptional case. The construction is supplied as a finite certificate. Its correctness can be checked directly from the tables in the paper or by either of two independent, short, standard-library verifiers supplied with the certificate.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15609v1",
+        "pdf": "https://arxiv.org/pdf/2607.15609v1",
+        "source": "https://export.arxiv.org/e-print/2607.15609v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 11,
+        "bibliography_entries": 2,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "t https://github.com/GLambard/q6-semi-perfect-factorization. Funding No specific funding was received for performing the present work. Declaration of competing interests There are no competing interests to be declared. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used OpenAI Terra/Sol 5.6 (High) models to assist computational exploration, independent-code drafting, literature organizat",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:22.373166Z"
+      },
+      "score": 174.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 34.95,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 5,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 2.75,
+          "bibliography_entries": 0.2,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15522",
       "version": 1,
       "title": "Nonnegative Bakry--Émery Curvature on Bounded-Degree Graphs Implies Volume Doubling and Poincaré Inequalities",
