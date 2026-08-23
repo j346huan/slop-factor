@@ -41852,6 +41852,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19268",
+      "version": 1,
+      "title": "A complete solution to the Boots-Royle/Cao-Vince conjecture",
+      "authors": [
+        "Lele Liu",
+        "Bo Ning",
+        "Yi Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T16:39:15Z",
+        "updated": "2026-07-21T16:39:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Boots and Royle, and independently Cao and Vince, conjectured that the join of an edge and a path on $n-2$ vertices is the unique planar graph of maximum adjacency spectral radius for $n\\geq 9$. Tait and Tobin (JCTB, 2017) proved the conjecture for sufficiently large order. In this paper, we completely resolved the Boots-Royle/Cao-Vince conjecture.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19268v1",
+        "pdf": "https://arxiv.org/pdf/2607.19268v1",
+        "source": "https://export.arxiv.org/e-print/2607.19268v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 2,
+        "lemmas": 20,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 141,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "= 3n − 6 − (2n − 3) = |V (G′ )| − 1. An acyclic graph on |V (G′ )| vertices with |V (G′ )| − 1 edges is connected. Therefore G′ = Pn−2 , and G = K2 ∨ Pn−2 . This proves the Theorem 1.1. Declaration on the use of AI The authors used ChatGPT to generate code for searching the extremal planar graphs for n ≤ 14, and to assist with several computations and symbolic derivations. ChatGPT was also used for grammar checking, language polishing, and improving the clarity of the exposi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:58.280386Z"
+      },
+      "score": 624.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 156.15,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 19,
+          "theorems": 12,
+          "lemmas": 80,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 35.25,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19251",
       "version": 1,
       "title": "Basic properties of kappa classes",
