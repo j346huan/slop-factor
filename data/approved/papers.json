@@ -41939,6 +41939,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23664",
+      "version": 1,
+      "title": "A counterexample to the zero forcing versus independence conjecture for cubic and subcubic graphs",
+      "authors": [
+        "Mikko Fischer"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T13:59:28Z",
+        "updated": "2026-07-26T13:59:28Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We exhibit a connected graph on 24 vertices with maximum degree 3, independence number 9 and zero forcing number 11, refuting a 2017 conjecture of TxGraffiti recorded as Conjecture 2 of the survey of Davila, Brimkov and Pepper. The same construction with a different gadget gives a connected cubic graph on 36 vertices with independence number 15 and zero forcing number 17; the conjecture therefore fails also in the cubic form in which the survey's Lean 4 appendix states it. In particular Z <= alpha + 1 is not a universal bound for connected cubic graphs, and the value Z = alpha + 2 is attained.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23664v1",
+        "pdf": "https://arxiv.org/pdf/2607.23664v1",
+        "source": "https://export.arxiv.org/e-print/2607.23664v1"
+      },
+      "structural_counts": {
+        "pages": 3,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 3,
+        "bibliography_entries": 4,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file note.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "50. Key words and phrases. zero forcing number, independence number, cubic graph, TxGraffiti. The counterexamples were found with the assistance of Claude Opus 5 (Anthropic), directed by the author. The author has independently executed the verification script included in the ancillary files and checked its outp",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:29.759828Z"
+      },
+      "score": 101.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 10.15,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 3,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0.75,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23598",
       "version": 1,
       "title": "Nonexistence of universal Fourier summation formulas for the degree below the Hölder threshold $α=1/3$",
