@@ -8340,6 +8340,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08193",
+      "version": 1,
+      "title": "The sharp volume gap for Kähler manifolds with positive Ricci curvature",
+      "authors": [
+        "Chi Li",
+        "Minghao Miao",
+        "Kewei Zhang"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math.AG",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-08T15:37:47Z",
+        "updated": "2026-08-08T15:37:47Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a sharp volume gap estimate: if an $n$-dimensional compact Kähler manifold $(X, ω)$ satisfies $\\mathrm{Ric}(ω)\\ge (n+1)ω$ and $X\\not\\cong \\mathbb{P}^n$, then $\\mathrm{vol}(X, ω)\\le \\frac{2n^n}{(n+1)^n}\\mathrm{vol}(\\mathbb{P}^n,ω_{\\mathrm{FS}})=\\frac{2^{n+1} \\, π^n \\, n^n}{(n+1)^n}$. Moreover $\\mathrm{vol}(X, ω)= \\frac{2^{n+1} \\, π^n \\, n^n}{(n+1)^n}$ occurs if and only if $(X, ω)$ is biholomorphically isometric to the Kähler-Einstein metric on the quadric hypersurface $Q^n$ or on the product $\\mathbb{P}^1\\times \\mathbb{P}^{n-1}$. We also obtain sharp volume gap estimates for K-semistable toric log Fano pairs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08193v1",
+        "pdf": "https://arxiv.org/pdf/2608.08193v1",
+        "source": "https://export.arxiv.org/e-print/2608.08193v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 14,
+        "lemmas": 4,
+        "propositions": 9,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 134,
+        "bibliography_entries": 41,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "man, X. Wang, J. Zhou and J. Zhu for many helpful discussions. Declaration on the Use of AI. All mathematical ideas, arguments, and results presented in this manuscript were developed by the authors. After completion of the initial draft, AI tools were used only to improve the language and presentation and to assist in identifying possible typographical, expository, and logical issues. The authors take full responsibility for the content of the manuscript.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:12.209908Z"
+      },
+      "score": 830.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 207.6,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 29,
+          "theorems": 84,
+          "lemmas": 16,
+          "propositions": 36,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 33.5,
+          "bibliography_entries": 4.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08154",
       "version": 1,
       "title": "Exact Zarankiewicz Values On Two Finite Frontier Slices",
