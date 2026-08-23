@@ -8509,6 +8509,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08252",
+      "version": 1,
+      "title": "Quaternionic Extensions of Hyperbolic Toral Automorphisms",
+      "authors": [
+        "Alberto Verjovsky"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-08T17:26:41Z",
+        "updated": "2026-08-08T17:26:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We construct real-analytic diffeomorphisms of \\(S^3\\times S^3\\cong \\SU(2)\\times\\SU(2)\\) that lift hyperbolic toral automorphisms by evaluating Nielsen automorphisms of the free group \\(F_2\\) on \\(\\SU(2)^2\\). Every matrix in \\(\\mathrm{GL}(2,\\mathbb Z)\\) admits such a lift, and every lift preserves product Haar measure. For each maximal torus \\(T\\subset\\SU(2)\\), the product \\(T\\times T\\) is invariant and carries the original toral dynamics; the union of these tori is exactly the commuting locus. Simultaneous conjugation turns toral periodic points into periodic conjugacy two-spheres, which rules out ambient Anosov hyperbolicity. The induced action on the \\(\\SU(2)\\)-character variety is canonical, and on the boundary pillowcase it is the quotient of the toral automorphism by \\(ξ\\mapsto-ξ\\). Finally, normalized forward and backward images of the coordinate three-cycles converge to stable and unstable eigen-currents supported on the commuting locus.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08252v1",
+        "pdf": "https://arxiv.org/pdf/2608.08252v1",
+        "source": "https://export.arxiv.org/e-print/2608.08252v1"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 8,
+        "lemmas": 1,
+        "propositions": 8,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 161,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Quaternionic_Anosov_Like_Diffeomorphisms.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments The author acknowledges Proyecto PAPIIT IN103324 (DGAPA, UNAM, México) for its financial support. Use of Generative-AI tools declaration. The author used ChatGPT (OpenAI) and Claude (Anthropic) during the preparation of this manuscript for proofreading, checking calculations and mathematical arguments, and improving the clarity and exposition of the text. All AI-assisted suggestions were reviewed and, where appropriate, independ",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:32.723705Z"
+      },
+      "score": 632.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 158.15,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 20,
+          "theorems": 48,
+          "lemmas": 4,
+          "propositions": 32,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 40.25,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08250",
       "version": 1,
       "title": "On the Godement-Jacquet functional equation for finite matrix monoids",
