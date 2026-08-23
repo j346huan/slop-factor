@@ -9272,6 +9272,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07794",
+      "version": 1,
+      "title": "Solving polynomial inequalities over spaces of convex sets and applications",
+      "authors": [
+        "Saugata Basu",
+        "Hamidreza Amini Khorasgani",
+        "Hemanta K. Maji",
+        "Hai H. Nguyen"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.AG",
+          "math.LO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-07T22:26:54Z",
+        "updated": "2026-08-07T22:26:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a symbolic elimination theory for finite systems of recursive containment inequalities whose unknowns are convex subsets of a finite-dimensional real vector space. The right-hand sides are formal expressions generated from variables and parameters by convex linear combinations, finite union, and a positive geometric join encoding strict convex combinations. We prove that every parameter assignment has a unique smallest convex-set-valued solution and give a finite Gaussian-elimination-type procedure that eliminates the unknowns while preserving this solution and produces parameter-only expressions for its coordinate sets. More generally, let $\\mathcal B$ be a family of subsets containing $\\emptyset$ and closed under finite unions, nonnegative dilation, Minkowski sums, positive geometric joins, and convex hulls. If all parameter sets lie in $\\mathcal B$, then every coordinate set of the smallest solution lies in $\\mathcal B$; when these operations are effective, so is the resulting description. In particular, if the parameters are finite unions of hemihedra---where a hemihedron is a bounded convex semi-linear set, equivalently a convex finite union of relative interiors of polytopes---then each coordinate set is a hemihedron and admits a quantifier-free semi-linear description. We apply this theory to lamination hulls. For \\[ V=U\\oplus\\bigoplus_{i=1}^{k}W_i,\\qquad \\dim W_i=1,\\qquad Λ=\\bigcup_{i=1}^{k}(U+W_i), \\] we prove that the lamination hull $G_Λ^{(\\infty)}(S)$ of every finite $S\\subset V$ is semi-algebraic and effectively computable by a quantifier-free formula over the reals.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07794v1",
+        "pdf": "https://arxiv.org/pdf/2608.07794v1",
+        "source": "https://export.arxiv.org/e-print/2608.07794v1"
+      },
+      "structural_counts": {
+        "pages": 57,
+        "theorems": 3,
+        "lemmas": 17,
+        "propositions": 8,
+        "corollaries": 1,
+        "definitions": 17,
+        "displayed_equations": 447,
+        "bibliography_entries": 222,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv-main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nding to our example system. Declaration of generative AI and AI-assisted technologies in the writing process During the preparation of this work, the authors used OpenAI’s ChatGPT, accessed through a ChatGPT Pro subscription, and Anthropic’s Claude, accessed through a Claude Max subscription, solely to assist with proofreading and the supplementary verification of mathematical arguments. The authors indepen- dently reviewed and verified all suggestions and outputs produced by these t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 55",
+          "page": 55
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:10.198779Z"
+      },
+      "score": 2767.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 345.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 57,
+          "theorems": 18,
+          "lemmas": 68,
+          "propositions": 32,
+          "corollaries": 3,
+          "definitions": 34,
+          "displayed_equations": 111.75,
+          "bibliography_entries": 22.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07788",
       "version": 1,
       "title": "Cobordism groups of dihedral branched covers",
