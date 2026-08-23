@@ -8854,6 +8854,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15957",
+      "version": 1,
+      "title": "On Brezis' open problem 2.2",
+      "authors": [
+        "Hong-Ge Chen",
+        "Yong Liu",
+        "Juncheng Wei",
+        "Wen Yang"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T23:11:16Z",
+        "updated": "2026-08-16T23:11:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that the global minimizer of the Ginzburg-Landau energy in the disk of radius $R$ with boundary value $ u(x)=\\frac{x}{|x|}$ is the degree-one radial solution of the planar Ginzburg--Landau equation. This gives an affirmative answer to Open Problem~2.2 in Brezis' open-problem list. This is achieved by comparing the radial solution $f$ in the disk with the degree-one radial solution $F$ in the whole plane. Multiplying a disk competitor by $F/f$ enables us to use the known minimality of the whole-plane vortex without changing the boundary trace. The difference of the two energies can be decomposed into Fourier modes. Every nonzero mode is nonnegative, and the zero mode is then handled by a Picone type identity.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15957v1",
+        "pdf": "https://arxiv.org/pdf/2608.15957v1",
+        "source": "https://export.arxiv.org/e-print/2608.15957v1"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 1,
+        "lemmas": 18,
+        "propositions": 7,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 182,
+        "bibliography_entries": 39,
+        "appendix_pages": 32
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file GL.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ", Grant No. 0070/2024/RIA1), the Multi-Year Research Grants of the University of Macau (Grant No. MYRG-GRG2025-00051-FST), and the University of Macau Development Foundation (Grant No. TISF/2025/006/FST). The authors acknowledge the use of AI tools. All mathematical arguments and proofs in the final manuscript were checked and written by the authors. Data availability statement: There are no data associated with this article. References [1] A.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:06.764724Z"
+      },
+      "score": 1272,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 254.4,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 33,
+          "theorems": 6,
+          "lemmas": 72,
+          "propositions": 28,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 45.5,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 64
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15955",
       "version": 1,
       "title": "Canonical traces of Artinian truncations of Stanley-Reisner rings",
