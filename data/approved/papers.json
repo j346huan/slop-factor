@@ -8423,6 +8423,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09619",
+      "version": 2,
+      "title": "Factorization and vanishing of Schur polynomials twisted by roots of unity and reciprocal pairs",
+      "authors": [
+        "Carles Marín"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T13:58:23Z",
+        "updated": "2026-08-17T05:35:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $μ_t$ be the full set of $t$-th roots of unity. Adjoining $r$ free reciprocal pairs gives a two-parameter family of alphabets; we settle three parts of it. At $r=1$, for every $t\\ge2$ and every $λ$ with at most $t+2$ parts, $s_λ(μ_t,z,z^{-1})$ is a signed product of exactly three factors over a fixed denominator, or zero, the arguments read off core and quotient. What it sees of $λ$ is a multiset of three integers and a sign, and exactly that: two partitions of any sizes share a nonzero value if and only if they agree on that datum. The proof is a Laplace expansion along the $t$ frozen rows with one cancellation lemma, and delivers the sign, already Littlewood's. At $t=2$ and every $r$, $s_λ(1,-1,z_1^{\\pm1},\\dots,z_r^{\\pm1})$ vanishes exactly when the beta set has constant parity or $λ$ is self-complementary of odd width; that direction is a corollary of complementation over an index family Ayyer and Behrend single out, the converse an extremal argument in the degree filtration, modulo one rigidity theorem for Schur products. Equivalently: exactly those $V_λ$ restrict to $O(N,\\mathbb{C})$ $\\det$-stably. At odd $t$ and every $r$ it vanishes exactly when a residue class is absent, at no external cost. And for every $t$ and $r$, a reflection of the beta set's excess part with one increment hitting its centre forces vanishing. Three consequences of the first. A vanishing criterion: an empty residue class, or two distinguished classes concentric as intervals, the second only for even $t$. An extension of an independence criterion of Ayyer-Kumari: on the reciprocal locus it acquires one further family, classified by core and quotient. And at $t=2$ a $(-1)$-enumeration of plane partitions in a box refined by a parameter that stays free. The factorization is isolated: it fails under each of four deformations of the alphabet, for one reason.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09619v2",
+        "pdf": "https://arxiv.org/pdf/2608.09619v2",
+        "source": "https://export.arxiv.org/e-print/2608.09619v2"
+      },
+      "structural_counts": {
+        "pages": 66,
+        "theorems": 10,
+        "lemmas": 16,
+        "propositions": 13,
+        "corollaries": 14,
+        "definitions": 0,
+        "displayed_equations": 104,
+        "bibliography_entries": 55,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file orbit_pair.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "t answers for which claim. The same scripts and the same archived output are also kept at https://github.com/karlesmarin/ schur-orbit-and-reciprocal-pair, which is a convenience: the ancillary files carry ev- erything the paper appeals to. Generative AI (Claude, Anthropic) was used throughout as a research assistant — for literature search, for writing and checking the ancillary code, and on the prose. The mathematics, and the responsibility for it, are the author’s.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 64",
+          "page": 64
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:51.365568Z"
+      },
+      "score": 631,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 315.5,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 66,
+          "theorems": 60,
+          "lemmas": 64,
+          "propositions": 52,
+          "corollaries": 42,
+          "definitions": 0,
+          "displayed_equations": 26,
+          "bibliography_entries": 5.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09517",
       "version": 1,
       "title": "Classification of anomalous actions of finite groups with the Rokhlin property",
