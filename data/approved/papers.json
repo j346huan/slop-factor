@@ -8860,6 +8860,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12642",
+      "version": 1,
+      "title": "The Noetherian Case of Bayart's Power-Series Question",
+      "authors": [
+        "Viet-Hoang Tran",
+        "Dung V. Nguyen",
+        "Quang X. Nguyen",
+        "Thieu N. Vo",
+        "Tan M. Nguyen"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T23:06:13Z",
+        "updated": "2026-08-12T23:06:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $R$ be a commutative Noetherian ring. We prove that if the one-variable formal power-series ring $R[[x]]$ is a unique factorization domain, then so is the two-variable formal power-series ring $R[[x,y]]$. This resolves a question raised by Bayart in 1973 for Noetherian coefficient rings. The proof uses the divisor theory of Noetherian normal domains, expressed through finite rank-one reflexive modules.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12642v1",
+        "pdf": "https://arxiv.org/pdf/2608.12642v1",
+        "source": "https://export.arxiv.org/e-print/2608.12642v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 94,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "The ring B is a Noetherian normal domain, and Theorem 3.3 shows that every finite rank-one reflexive B-module is free. Hence B = R[[x, y]] is a UFD by Theorem 2.1. □ Acknowledgments We used GPT-5.6 Sol, Claude Fable 5, and an agentic harness built around these models to assist with literature search, hypothesis testing, exploration and elimination of potential approaches, wording refinement, and manuscript proofreading. We are very g",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:35.303629Z"
+      },
+      "score": 423.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 70.6,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 23.5,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12604",
       "version": 1,
       "title": "Density bounds for permutations avoiding monotone arithmetic progressions",
