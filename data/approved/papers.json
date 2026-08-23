@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28284",
+      "version": 1,
+      "title": "ROSA: Metric Amplification on Noisy Graphs with Theoretical Guarantees for Amplified Spectral Distances",
+      "authors": [
+        "Ben Cardoen",
+        "Fabian Spill"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T14:32:01Z",
+        "updated": "2026-07-30T14:32:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In many applications, graphs are observed repeatedly, where the task is to observe and track weak localized structural perturbations under noise, such as vertex-coordinate displacements or edge-weight/attribute changes on a fixed vertex set. One-shot graph distances can miss these localized perturbations or fluctuate too strongly to support reliable monitoring, especially in large graphs where signal dilutes with scale. We propose Robust Order-aware Spectral Amplification (ROSA), a distance-amplification operator that integrates metric evaluations along an order-aware edge-removal filtration. We prove that ROSA cannot reduce the included base distance and conditionally increases it whenever a filtered step exposes additional signal; separately, we prove that it can strictly improve an inverse coefficient of variation stability score (IS$^2$), defined as the mean of a noisy graph distance divided by its standard deviation, under an explicit sufficient condition that can be checked empirically. Experiments on synthetic graphs with localized edits under three noise models, varying graph densities, and three algorithmically selected edit sites show that ROSA can often approximately double the IS$^2$ of the base spectral distance. We show where ROSA works and stops working on real-world use cases including mitochondrial networks, fMRI correlation matrices, tissue networks, protein conformer graphs, and retinal vasculature multiplex graphs. The empirical results across graph, operator, and noise settings are consistent with the theoretical amplification conditions and boundary constructions. Evaluated with empirically estimated operative quantities, the bound agrees with the observed gain in direction and approximate scale.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28284v1",
+        "pdf": "https://arxiv.org/pdf/2607.28284v1",
+        "source": "https://export.arxiv.org/e-print/2607.28284v1"
+      },
+      "structural_counts": {
+        "pages": 35,
+        "theorems": 3,
+        "lemmas": 0,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 20,
+        "bibliography_entries": 35,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "do under the CC BY 4.0 license at https://doi.org/10.5281/zenodo.4521044. F.S. and B.C. acknowledge funding from a UKRI Future Leaders Fellowship MR/T043571/1. AI usage declaration. During preparation of this manuscript, the authors used generative AI tools to assist with software implementation and review, including boilerplate code and plotting scripts; exploration, discussion, and critical checking of mathematical arguments and proofs; experiment-planning and manuscript- review tasks",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:57.520033Z"
+      },
+      "score": 636,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 79.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 35,
+          "theorems": 18,
+          "lemmas": 0,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 5,
+          "bibliography_entries": 3.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28195",
       "version": 1,
       "title": "The Follow-the-Leader scheme with non-monotone velocity",
