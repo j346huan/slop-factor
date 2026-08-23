@@ -8687,6 +8687,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10654",
+      "version": 1,
+      "title": "Fixed forests in the minimum spanning tree and cubic volume growth",
+      "authors": [
+        "Luca Makowiec"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T08:38:20Z",
+        "updated": "2026-08-11T08:38:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $M_n$ be the minimum spanning tree of the complete graph $K_n$ with i.i.d.\\ uniform edge weights. For a fixed forest $F$ with connected components $T_1, \\ldots, T_d$, we show that there exists a function $Ψ$ on finite trees such that $$ n^{|E(F)|} \\mathbb{P}_n(F \\subseteq M_n) \\longrightarrow \\prod_{i=1}^d Ψ(T_i). $$ We give a recursive description of $Ψ$ and calculate it explicitly for several small trees. For the star $S_k$ and the path $P_k$, we prove that $Ψ(S_k) \\sim ζ(2)^k$ and $Ψ(P_k) \\sim k^2/12$, respectively. We also show that the expected size of a ball of radius $r$ is asymptotic to $r^3/36$, and give exponential tail bounds.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10654v1",
+        "pdf": "https://arxiv.org/pdf/2608.10654v1",
+        "source": "https://export.arxiv.org/e-print/2608.10654v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 3,
+        "lemmas": 13,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 201,
+        "bibliography_entries": 28,
+        "appendix_pages": 25
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file MST_finite_F.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ORESTS IN THE MINIMUM SPANNING TREE AND CUBIC VOLUME GROWTH 25 as required. □ Statement on the use of AI. ChatGPT (GPT-5.6 Sol) was used to assist in generating ideas for some of the mathematical arguments and to improve the language and presentation of this manuscript. It was particularly helpful in developing the code referenced in Appendix A. The a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:30.882074Z"
+      },
+      "score": 1720.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 215.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 29,
+          "theorems": 18,
+          "lemmas": 52,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 50.25,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 50
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10629",
       "version": 1,
       "title": "Spectral gap of the normalized distance Laplacian",
