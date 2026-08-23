@@ -8424,6 +8424,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15558",
+      "version": 1,
+      "title": "A Counterexample to the Tang Zhang Schatten Norm Conjecture and Sharp Positive Results",
+      "authors": [
+        "Zijian Zeng",
+        "Houde Liu",
+        "Kurunathan Ratnavelu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.LG",
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-16T06:10:33Z",
+        "updated": "2026-08-16T06:10:33Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $m\\geq 2$, let $c_p(m)$ be the all-dimensional best constant in $$ \\left\\|\\sum_{k=1}^m A_k\\right\\|_p \\leq c_p(m)\\left\\|\\sum_{k=1}^m |A_k|\\right\\|_p. $$ Tang and Zhang conjectured an explicit formula for every finite $p>1$. We disprove the conjecture with two explicit real $2\\times 2$ rank-one matrices at $p=3/2$. The comparison is certified by seven strict rational inequalities and, in particular, places the attained ratio above $207/200$, while the conjectured constant lies below $207/200$. On the positive side, we prove the conjectured sharp bound for every family of rank-at-most-one summands when $2\\leq p<\\infty$, and classify all equality cases. We also prove the corresponding endpoint statement for $p=\\infty$. Finally, for arbitrary complex matrices, we establish the conjectured sharp constant in the case $m=2$, $p=4$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15558v1",
+        "pdf": "https://arxiv.org/pdf/2608.15558v1",
+        "source": "https://export.arxiv.org/e-print/2608.15558v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 3,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 76,
+        "bibliography_entries": 3,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rational differences in (11)–(18); it requires no numerical linear algebra. A standard- library verification script accompanies this manuscript. Low-dimensional numerical searches were used for exploration and adversarial testing only. OpenAI Codex assisted with proof exploration, counterexample search, adversarial checking, and manuscript preparation. The submitting author is responsible for the correctness of every statement and for compliance with the target journal’s author",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:17.824301Z"
+      },
+      "score": 394.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 49.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 9,
+          "theorems": 18,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 19,
+          "bibliography_entries": 0.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15525",
       "version": 1,
       "title": "New lower bounds on domination--packing ratios in connected subcubic and cubic graphs",
