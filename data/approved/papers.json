@@ -41938,6 +41938,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19416",
+      "version": 1,
+      "title": "A proper Euler magic matrix of order $5$",
+      "authors": [
+        "Scott Duke Kominers"
+      ],
+      "categories": {
+        "primary": "math.GM",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-18T21:03:18Z",
+        "updated": "2026-07-18T21:03:18Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An Euler magic matrix is an integer matrix $M$ with $MM^{t}=γI$ whose squared entries sum to $γ$ along both main diagonals; it is proper if its squared entries are pairwise distinct. Euler constructed an order-$4$ proper example, and Müller settled orders $3$ (none exist) and $8$, leaving order $5$ as the smallest open case. We construct such a matrix, by rotating one of Müller's \"near-misses\" under a mirror-symmetric coordinate pair so that the two diagonal conditions collapse to a single rational equation; the same invariant suggests a uniform approach to the odd orders.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19416v1",
+        "pdf": "https://arxiv.org/pdf/2607.19416v1",
+        "source": "https://export.arxiv.org/e-print/2607.19416v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 19,
+        "bibliography_entries": 20,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Euler_magic_5.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "∗ Harvard Business School; Department of Economics and Center of Mathematical Sciences and Applications, Harvard University; and a16z crypto. I used LLMs to assist with computations and coding in the preparation of this article, especially Claude Opus 4.8 and GPT-5.5 Pro (both accessed in part via Poe with the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:54.558420Z"
+      },
+      "score": 149.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 49.75,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 10,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 4.75,
+          "bibliography_entries": 2,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16863",
       "version": 1,
       "title": "Treasure Search Optimization",
