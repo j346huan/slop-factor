@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16752",
+      "version": 1,
+      "title": "Absorption Probabilities for Random Convex Hulls: Distribution-Freeness via the Wall-Crossing Method",
+      "authors": [
+        "Zakhar Kabluchko",
+        "Alexander Tarasov"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T15:59:41Z",
+        "updated": "2026-08-17T15:59:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We consider the probability that the convex hull of the first $n$ partial sums of a $d$-dimensional random walk contains the origin. Under symmetric exchangeability of the increments and a general-position assumption, this absorption probability is distribution-free and admits an explicit formula, previously obtained by Kabluchko, Vysotsky and Zaporozhets [Geom. Funct. Anal. 27 (2017)] using characteristic polynomials of hyperplane arrangements. We give a different proof, based on a wall-crossing method which we develop here. Starting from a deterministic configuration of increments, we count the signed permutations for which the convex hull of the corresponding partial sums contains the origin and show that this count remains unchanged under generic deformations of the increments, and hence is the same for all configurations outside a natural exceptional set of measure zero. Evaluating the invariant at a single well-chosen configuration reduces the remaining calculation to the enumeration of permutation records combined with Wendel's theorem. Our method also reproves Wendel's theorem on convex hulls of random points with a sign-flip-invariant joint distribution and, in dimension one, Sparre Andersen's theorem. Finally, we derive new probabilistic representations and recurrence relations for the absorption probabilities of random-walk convex hulls and their random-bridge analogues.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16752v1",
+        "pdf": "https://arxiv.org/pdf/2608.16752v1",
+        "source": "https://export.arxiv.org/e-print/2608.16752v1"
+      },
+      "structural_counts": {
+        "pages": 38,
+        "theorems": 10,
+        "lemmas": 9,
+        "propositions": 8,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 180,
+        "bibliography_entries": 14,
+        "appendix_pages": 34
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file absorption_probabilities_wall_crossing.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "in Appendix B, replacing an earlier incomplete argu- ment. Claude also substantially simplified and clarified several other proofs and suggested many essential ideas, including the use of the moment curve in the proof of Wendel’s theorem. ChatGPT was used for mathematical and linguistic proof- reading. All suggestions produced by the AI were critically examined and independently verified by the authors. Conflict of interest statement. The authors declare that they have no confli",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 37",
+          "page": 37
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:55.142692Z"
+      },
+      "score": 2894,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 289.4,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 38,
+          "theorems": 60,
+          "lemmas": 36,
+          "propositions": 32,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 45,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 68
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16664",
       "version": 1,
       "title": "Random Quadratic Form with random forcing: Metastable synchronization by noise",
