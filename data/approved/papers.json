@@ -8425,6 +8425,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11468",
+      "version": 1,
+      "title": "Submodular and strongly submodular functions and diversities",
+      "authors": [
+        "David Bryant",
+        "Paul F. Tupper"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T22:11:41Z",
+        "updated": "2026-08-11T22:11:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Submodular functions and their close relatives play a key role in combinatorial optimization, decision theory and potential theory. Part of their importance and usefulness stems from the connections with convex functions and polytopes. Here we explore connections between these functions and metric theory, with the bridge provided by diversities, a recently developed generalization of metric spaces to (finite) sets rather than just pairs. Both submodular functions and strongly submodular functions correspond to natural classes of diversities. Submodular diversities, as we define them here, are essentially non-decreasing, intersecting submodular functions which vanish on singletons. We prove new geometric embedding results for these diversities. In particular we show that submodular, strongly submodular, and XOS functions can be represented by the generalized circumradius, a set function in convex analysis equal to the amount a given convex body needs to be stretched to cover a set of points.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11468v1",
+        "pdf": "https://arxiv.org/pdf/2608.11468v1",
+        "source": "https://export.arxiv.org/e-print/2608.11468v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 7,
+        "lemmas": 0,
+        "propositions": 9,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 75,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file SubmodularDiversitiesArxiv_v1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "δ (1) ), . . . , (X ∪ {x}, δ (m) ) so that by Proposition 17, f = δx = max{δx } is XOS. Acknowledgements PT was supported by a Natural Sciences and Engineering Research Council (Canada) Discovery Grant (RGPIN-2025-04769). Claude and ChatGPT were used to help identify relevant literature, to test conjec- tures, to help check proofs, to suggest ideas for proofs (both fruitful and not) and to format the bibliography. All text and proofs were written by the authors. References",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:25.182893Z"
+      },
+      "score": 1035.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 129.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 30,
+          "theorems": 42,
+          "lemmas": 0,
+          "propositions": 36,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 18.75,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11198",
       "version": 1,
       "title": "(Non-)coincidence of critical parameters for Poisson Zoos and Loop Soup Percolation on $\\mathbb{Z^d}$, $d > 4$, and $\\mathbb{T}_d$,$ d \\ge 3$",
