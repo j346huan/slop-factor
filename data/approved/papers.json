@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15093",
+      "version": 1,
+      "title": "The Awareness Logic of Ambiguity (ALA): Triadic Interpretive States and Their Structure-Preserving Operational Core",
+      "authors": [
+        "Seyyed Ahmad Edalatpanah"
+      ],
+      "categories": {
+        "primary": "math.GM",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-15T07:32:33Z",
+        "updated": "2026-08-15T07:32:33Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Awareness Logic of Ambiguity (ALA) is introduced as a formal framework for preserving the structure of judgment before scalar projection. An evaluative act is represented by a triadic interpretive state with three functionally distinct roles: interpretive valuation, contextual alignment, and epistemic restraint. ALA uses a cognitive order with reversed polarity for restraint and shows that the resulting state space forms a bounded distributive lattice. It develops weakly and strictly admissible scalar projections as declared interfaces, together with a role-preserving arithmetic core and canonical permissive and conservative aggregation operators. The Non-Collapse Theorem establishes that two states that are equal after scalar projection may become distinguishable under an ALA lattice operation; hence scalar equality does not imply operational equivalence. The paper also establishes the conditional semantic minimality of the triad and treats the unit cube as the normalized real-valued realization of a more general role architecture. A high-stakes clinical scenario illustrates why evidential support, contextual alignment, and restraint toward action should remain separate until a scalar reporting or decision interface is explicitly chosen. ALA therefore provides a structure-preserving calculus for reasoning under ambiguity before projection.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15093v1",
+        "pdf": "https://arxiv.org/pdf/2608.15093v1",
+        "source": "https://export.arxiv.org/e-print/2608.15093v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 8,
+        "lemmas": 4,
+        "propositions": 25,
+        "corollaries": 0,
+        "definitions": 25,
+        "displayed_equations": 216,
+        "bibliography_entries": 49,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ALA_arXiv_mathGM_FINAL.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "l process, including reviewer selection, editorial evaluation, revision assessment, and the final publication decision, was delegated to an independent journal editor. The author declares no relevant financial competing interests. Use of AI Tools During the multi-year preparation of this work, the author used several generative artificial-intelligence tools, in the form of large-language- model assistants, to improve the readability, fluency, and linguistic accuracy of the manuscri",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 39",
+          "page": 39
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:26.370577Z"
+      },
+      "score": 317.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 317.9,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 41,
+          "theorems": 48,
+          "lemmas": 16,
+          "propositions": 100,
+          "corollaries": 0,
+          "definitions": 50,
+          "displayed_equations": 54,
+          "bibliography_entries": 4.9,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14931",
       "version": 1,
       "title": "Möbius Covariance and Coefficient Duality: From Bernoulli Series to Enumerative Applications",
