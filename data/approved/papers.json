@@ -9779,6 +9779,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15470",
+      "version": 1,
+      "title": "$F$-injectivity does not deform",
+      "authors": [
+        "Karl Schwede",
+        "Austyn Simpson"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": [
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-16T01:27:48Z",
+        "updated": "2026-08-16T01:27:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We show that there exists an $F$-finite four-dimensional local domain $(R,\\mathfrak{m})$ of characteristic two which is not $F$-injective but which admits a nonzerodivisor $f\\in \\mathfrak{m}$ such that $R/fR$ is $F$-injective.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15470v1",
+        "pdf": "https://arxiv.org/pdf/2608.15470v1",
+        "source": "https://export.arxiv.org/e-print/2608.15470v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 3,
+        "lemmas": 12,
+        "propositions": 3,
+        "corollaries": 4,
+        "definitions": 1,
+        "displayed_equations": 101,
+        "bibliography_entries": 36,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file CounterExample-FInjDef.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "vel Support for Mathematicians SFI-MPSTSM-00013051. AI Disclosure. This example was found by OpenAI’s ChatGPT 5.6 Sol Pro using a ChatGPT account provided to Karl Schwede by the University of Utah. It was found first in a discussion where ChatGPT 5.6 Sol Pro had already identified some counter-examples to related problems (which will be written up in a separate work). All writing in this article was done by the human authors. Most, but not all, steps in the proof of the main result",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:08.111358Z"
+      },
+      "score": 1398.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 139.85,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 19,
+          "theorems": 18,
+          "lemmas": 48,
+          "propositions": 12,
+          "corollaries": 12,
+          "definitions": 2,
+          "displayed_equations": 25.25,
+          "bibliography_entries": 3.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15458",
       "version": 1,
       "title": "Five-Term and Higher Congruences Involving Arbitrary Sets and Short Intervals Modulo a Prime",
