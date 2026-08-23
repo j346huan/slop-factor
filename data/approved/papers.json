@@ -8674,6 +8674,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15670",
+      "version": 1,
+      "title": "Repetition Avoidance in Curling-Number Transforms",
+      "authors": [
+        "Geoffrey Caveney",
+        "Haoxuan",
+        "Dong",
+        "Jeffrey Shallit"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM",
+          "cs.FL"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-16T10:28:04Z",
+        "updated": "2026-08-16T10:28:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study repetition avoidance in a word ${\\bf w}$ and its curling-number transform $C({\\bf w})$. For alphabets of sizes $2$, $3$, and $4$, we use Thue-Morse-based morphic constructions and exhaustive finite searches. A ternary word for which both ${\\bf w}$ and $C({\\bf w})$ are overlap-free has length at most $84$, whereas over four letters an infinite example exists. Hence $4$ is the smallest alphabet size admitting simultaneous infinite overlap-freeness. The infinite constructions are verified in Walnut; the finite maxima are obtained by exhaustive breadth-first search and checked independently.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15670v1",
+        "pdf": "https://arxiv.org/pdf/2608.15670v1",
+        "source": "https://export.arxiv.org/e-print/2608.15670v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 11,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 17,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rify The supplementary archive also contains the consolidated Walnut input file walnut_final. txt, a README describing the reproducibility files, and SHA-256 checksums for the archived components. Declaration of AI usage GPT-5.6 Sol and GPT-5.6 Sol Pro, including runs using Ultra mode, assisted in the search for the positive constructions in Sections 3–5, in reviewing and debugging Walnut predicates and scripts, in editing and checking proof explanations, and in preparing the sup",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:57.260748Z"
+      },
+      "score": 257.55,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 85.85,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 12,
+          "theorems": 66,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 4.25,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15666",
       "version": 2,
       "title": "Maximum-Area Small Polygons of Even Order",
