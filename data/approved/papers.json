@@ -8596,6 +8596,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14251",
+      "version": 2,
+      "title": "A counterexample to a question on the maximality of purely-primes",
+      "authors": [
+        "Abolfazl Tarizadeh"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": [
+          "math.RA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T12:29:59Z",
+        "updated": "2026-08-17T10:33:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "By using an advanced model of AI, it is proved that there exists a commutative ring having a purely-prime ideal which is not purely-maximal. This gives a counterexample to \\cite[Conjecture 5.8]{Tarizadeh}.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14251v2",
+        "pdf": "https://arxiv.org/pdf/2608.14251v2",
+        "source": "https://export.arxiv.org/e-print/2608.14251v2"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 3,
+        "bibliography_entries": 3,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Counterexample.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ore recently, with the advent of advanced artificial intelligence, a counterexample to this conjecture was discovered with the assistance of the AI model ChatGPT (The- orem 2.5). As anticipated in [3], a counterexample to the conjecture was expected to exist. Remarkably, the counterexample obtained here is very na",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:24.521189Z"
+      },
+      "score": 240.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 24.05,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 0.75,
+          "bibliography_entries": 0.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14232",
       "version": 1,
       "title": "Ollivier--Ricci Curvature on Groups of Polynomial Growth",
