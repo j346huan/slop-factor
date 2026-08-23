@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18694",
+      "version": 1,
+      "title": "A Local Classification of Four-Element Multiple Sumsets",
+      "authors": [
+        "Minkyu Jung"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T04:25:11Z",
+        "updated": "2026-07-21T04:25:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a finite set $A\\subset\\mathbb{Z}$, write $hA$ for its $h$-fold sumset, and let \\[ R(h,k)=\\{|hA|:A\\subset\\mathbb{Z},\\ |A|=k\\}. \\] We determine the part of $R(h,4)$ lying between $4h+2$ and $6h-4$: for $h=4$ the only value is $5h-1$, while for $h\\geq 5$ the only values are $5h-1$ and $5h+1$. This proves Rajagopal's conjectured gap $5h\\notin R(h,4)$ for every $h\\geq 4$. For $h\\geq 6$, it also yields the new missing interval $[5h+2,6h-4]$, which lies outside Rajagopal's general excluded set. Lev's lower bound for the successive growth of multiple sumsets reduces the problem to normalized sets of affine diameter five, of which there are only six. Reflection and four elementary exact sumset computations finish the classification.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18694v1",
+        "pdf": "https://arxiv.org/pdf/2607.18694v1",
+        "source": "https://export.arxiv.org/e-print/2607.18694v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 2,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 30,
+        "bibliography_entries": 5,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "instances of the specialized Lev increment bound. These finite checks are included only as an audit of the implementation and of the case analysis. Acknowledgements The proof in this note was obtained with substantial assistance from an AI system. I subsequently verified every step independently, both by hand and through the accompanying finite exhaustive computational checks over the stated ranges, and take full responsibility for the contents. I am grateful to I. Rajagopal for he",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:40.491186Z"
+      },
+      "score": 440,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 44,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 5,
+          "theorems": 12,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 7.5,
+          "bibliography_entries": 0.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18453",
       "version": 1,
       "title": "A National-Scale EV Charging Scheduling Framework: Optimal Detour Routing Under Infrastructure Capacity Constraints",
