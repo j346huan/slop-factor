@@ -41851,6 +41851,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24161",
+      "version": 1,
+      "title": "Slowly Divergent Trajectories for Weighted Singular Vectors in R^2",
+      "authors": [
+        "Bohan Yang"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T08:38:40Z",
+        "updated": "2026-07-27T08:38:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $w=(w_1,w_2)$ satisfy $w_1>w_2>0$ and $w_1+w_2=1$. For every function $f:[0,\\infty)\\to(0,\\infty)$ with $f(t)\\to0$, we prove that the set of $w$-singular vectors whose weighted shortest-vector function satisfies $W_x(t)\\ge\\log f(t)$ for all sufficiently large $t$ has Hausdorff dimension $s_w=2-(1+w_1)^{-1}$, equal to the full Hausdorff dimension of $\\operatorname{Sing}_w(2)$. For every $0<ν<1$ and $μ>0$, a separate power schedule gives Hausdorff dimension $s_w$ for the weighted uniform approximation set with rate $Q^{-1}\\exp\\bigl(-μ(\\log Q)^ν\\bigr)$, whereas the lower-envelope theorem gives the same dimension for its complement in $\\operatorname{Sing}_w(2)$. We give a direct proof of the lower-envelope theorem by adapting the self-affine construction of Liao--Shi--Solan--Tamam to a variable sequence of return times and using an empty-denominator-window argument to control intermediate cusp excursions without further pruning the tree.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24161v1",
+        "pdf": "https://arxiv.org/pdf/2607.24161v1",
+        "source": "https://export.arxiv.org/e-print/2607.24161v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 4,
+        "lemmas": 13,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 295,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_sdw.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "1 in Theorem 1.2 is not covered by the present construction. Acknowledgements The author thanks his advisor, Yitwah Cheung, for suggesting this problem, and both Yitwah Cheung and Chengyang Wu for helpful discussions. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used ChatGPT and Codex (OpenAI) to assist with proof auditing, manuscript organization, bibliographic checks, and langu",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:22.727635Z"
+      },
+      "score": 1607.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 200.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 28,
+          "theorems": 24,
+          "lemmas": 52,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 73.75,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24138",
       "version": 1,
       "title": "Randomized Krylov-Projected Iterated Tikhonov Regularization for Large-Scale Ill-posed Problems Under A Posteriori Stopping Rule",
