@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07407",
+      "version": 1,
+      "title": "A Domain-Specific Harness for End-to-End Automation of Optimization Research",
+      "authors": [
+        "Heechang Kim",
+        "Ernest K. Ryu",
+        "Shuvomoy Das Gupta"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-07T16:54:17Z",
+        "updated": "2026-08-07T16:54:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We present AutoOPT, a domain-specific harness for end-to-end automation of optimization research. AutoOPT organizes the discovery of optimal first-order methods into four stages: numerical design through the BnB-PEP methodology; symbolic discovery of the analytic description and a convergence proof through frontier large language models (LLMs); formal verification in the Lean 4 proof assistant; and human interpretation and write-up. We demonstrate the framework on two case studies, each of independent interest. The first, lemniscate acceleration, is a new accelerated gradient method for minimizing the gradient norm of a smooth convex function: after $N$ gradient steps it reduces the squared gradient norm at the optimal $O(1/N^{4})$ rate, with a constant governed by the lemniscate constant $\\varpi$, a classical elliptic-integral constant. The second is the analytic description of ITEM-f, a method previously known only numerically: for $L$-smooth, $μ$-strongly convex minimization it contracts the function-value gap at an accelerated linear rate with a per-step factor $(1-\\sqrt{μ/L})^{2}$. The convergence theorems of both case studies are formalized and machine-checked in Lean 4.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07407v1",
+        "pdf": "https://arxiv.org/pdf/2608.07407v1",
+        "source": "https://export.arxiv.org/e-print/2608.07407v1"
+      },
+      "structural_counts": {
+        "pages": 66,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 9,
+        "bibliography_entries": 74,
+        "appendix_pages": 52
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ntly, frontier models have also begun proving research- level results in optimization theory: an AI agent writing directly in Lean discovered an improved last-iterate rate for anchored gradient descent ascent for minimax optimization [60], GPT 5.6 Sol Pro closed a query-complexity gap open since 1996 in derivative-free convex optimization, with the central lower bound subsequently formalized in Lean [29], and ChatGPT 5.5 produced the first convergence proof for Bregman Douglas–Rachf",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:07.597225Z"
+      },
+      "score": 1796.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 179.65,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 66,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2.25,
+          "bibliography_entries": 7.4,
+          "appendix_pages": 104
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07399",
       "version": 1,
       "title": "Siegel zeros and small gaps between zeros of the Riemann zeta function",
