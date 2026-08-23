@@ -8424,6 +8424,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15337",
+      "version": 1,
+      "title": "The Physical Cutoff Does Not Restore Homogenization: Phase-Dependent Burning in the Strain G-Equation",
+      "authors": [
+        "Michele Caprio"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "cs.LG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-15T17:41:14Z",
+        "updated": "2026-08-15T17:41:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We disprove the expectation stated by Xin, Yu, and Ronney that the physical positive part strain $G$-equation should possess an effective burning velocity in cellular flows. For the standard cellular flow in dimension two $V_A(x_1,x_2)=A(-\\sin x_1\\cos x_2,\\cos x_1\\sin x_2)$, if $0<d<20/399$ and $\\sqrt{1+4d^2}<Ad\\le1+d/10$, then for every unit planar slope the periodic correction develops oscillations at least linearly in time. The solution remains bounded below on an explicit horizontal channel through $(π,0)$, while at $(π/2,0)$ it decreases at rate at least $CA/\\log A$, with $C>0$ universal. The same conclusions hold for arbitrary continuous periodic perturbations of planar initial data. Under the physical scaling $V_A(x/\\varepsilon)$ and $d_\\varepsilon=\\varepsilon d$, an order one value gap persists between points at distance $O(\\varepsilon)$ at every positive macroscopic time, so the rescaled solutions have no locally uniformly convergent subsequence. The proof uses the Hamiltonian sandwich $H_{\\mathrm{unc}}\\le H_+\\le\\widehat H$. The upper comparator $\\widehat H$ is a rectangular support function, equivalently an upper expectation over a state-dependent credal set, whose reversed control dynamics possess an invariant comparison channel. We also prove that for any $C^2$ incompressible periodic flow, every $\\varepsilon$-outward barrier certificate has covering radius at most $2d\\varepsilon$ for all sufficiently small $\\varepsilon$. We further discuss implications for statistics and machine learning: rectangular, time-consistent local uncertainty need not imply forgetting of the initial state in the long run, so additional global stability or ergodicity conditions are needed in robust sequential decision making. Two Lean 4 appendices record conditional formalizations of a sufficient $p=e_1$ subregime and of the logical assembly of the rigidity theorem for barrier certificates.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15337v1",
+        "pdf": "https://arxiv.org/pdf/2608.15337v1",
+        "source": "https://export.arxiv.org/e-print/2608.15337v1"
+      },
+      "structural_counts": {
+        "pages": 63,
+        "theorems": 4,
+        "lemmas": 7,
+        "propositions": 4,
+        "corollaries": 4,
+        "definitions": 1,
+        "displayed_equations": 251,
+        "bibliography_entries": 41,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "introducing enough artificial diffusion to eliminate the comparison- channel mechanism? Acknowledgments We gratefully acknowledge support from the Prob_AI Hub and the London Mathemat- ical Society. ChatGPT 5.6 Sol was used to assist with proofreading, the production of Figure 1, the conditional Lean formalizations, and improvements to the clarity and presentation of the manuscript.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:46.766475Z"
+      },
+      "score": 423.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 211.85,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 63,
+          "theorems": 24,
+          "lemmas": 28,
+          "propositions": 16,
+          "corollaries": 12,
+          "definitions": 2,
+          "displayed_equations": 62.75,
+          "bibliography_entries": 4.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15281",
       "version": 1,
       "title": "A Ten-Vertex Counterexample to a Conjecture on Unstable Graphs",
