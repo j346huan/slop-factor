@@ -42793,6 +42793,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23817",
+      "version": 1,
+      "title": "Subquadratic growth and uniform property \\(Γ\\)",
+      "authors": [
+        "Ethan Kessinger",
+        "Andrew S. Toms"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T19:33:56Z",
+        "updated": "2026-07-26T19:33:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that every unital separable ASH algebra with subquadratic growth has uniform property $Γ$ whenever it has no nonzero finite-dimensional representations. When simple and non-elementary, these algebras therefore satisfy the Toms--Winter regularity conjecture despite the fact that they generally fail its three conjecturally equivalent properties. In light of the second author's recent construction of a unital simple separable AH algebra of quadratic growth which fails uniform property $Γ$, we conclude that the quadratic dimension growth scale (equivalently, the 2-norm slow dimension growth scale) is the precise geometric threshold governing the potential failure of uniform property \\(Γ\\). We also extend recent work of Elliott--Niu and Vaccaro to the optimal subquadratic scale by proving that separable unital \\(C^*\\)-algebras with locally tracially subquadratic RSH approximation have uniform property \\(Γ\\), provided that they have no nonzero finite-dimensional representations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23817v1",
+        "pdf": "https://arxiv.org/pdf/2607.23817v1",
+        "source": "https://export.arxiv.org/e-print/2607.23817v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 12,
+        "lemmas": 8,
+        "propositions": 6,
+        "corollaries": 3,
+        "definitions": 9,
+        "displayed_equations": 178,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "lative rank avoidance for arbitrary RSH decompositions and deduces the main RSH-inductive-limit theorem. Acknowledgements. The second author gratefully acknowledges the support of the Simons Foundation (SFI-MPS-TSM-00025606). AI Statement. ChatGPT was used for language proofreading, notational consis- tency, and reference checking. The mathematical content of the paper is due solely to the authors. 2. Uniform tracial ultrapowers and the property (F G) criterion 2.1. Uniform tra",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "citation_assistance",
+        "role_label": "Citation assistance",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:02.332087Z"
+      },
+      "score": 459,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 229.5,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 28,
+          "theorems": 72,
+          "lemmas": 32,
+          "propositions": 24,
+          "corollaries": 9,
+          "definitions": 18,
+          "displayed_equations": 44.5,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23795",
       "version": 1,
       "title": "On the Thickness of Infinite Generalized Sidon Sets, II",
