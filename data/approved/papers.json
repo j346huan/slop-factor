@@ -41683,6 +41683,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01466",
+      "version": 1,
+      "title": "The Structure of Almost Stationary Measures",
+      "authors": [
+        "Ilya Gekhtman",
+        "Simon Machado",
+        "Omri Solan",
+        "Yuval Yifrach"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T19:59:17Z",
+        "updated": "2026-08-02T19:59:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $G$ be a higher-rank simple Lie group acting on a space $X$. A theorem of Nevo and Zimmer asserts that every ergodic stationary probability measure on $X$ is either $G$-invariant or admits a projective factor $G/Q$ for a proper parabolic subgroup $Q$. We develop a quantitative theory of stationary measures and prove an effective form of this dichotomy. We introduce notions of $\\eps$-almost stationarity, $δ$-almost invariance and $δ$-almost projective factor, and show that every $\\eps$-almost stationary measure is either $δ$-almost invariant or carries a $δ'$-almost projective factor, with $δ,δ'$ explicit in $\\eps$ and depending only on $G$. No ergodicity, arithmeticity or Diophantine hypothesis is imposed, and the bounds are uniform over all $G$-spaces. The proof introduces several tools: the \\emph{entropigeonhole method}, an entropy-based pigeonhole principle yielding a quantitative Mautner phenomenon; \\emph{factor functions}, quantitative analogues of functions on homogeneous factor spaces; and a \\emph{fast generation} dichotomy in the spirit of growth in groups. In a companion paper these are used to show, among other things, that a discrete subgroup of infinite covolume has injectivity radius at least $c\\log^{(4)}r$ somewhere in the ball of radius $r$, which is an effective form of a theorem of Frączyk and Gelander.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01466v1",
+        "pdf": "https://arxiv.org/pdf/2608.01466v1",
+        "source": "https://export.arxiv.org/e-print/2608.01466v1"
+      },
+      "structural_counts": {
+        "pages": 75,
+        "theorems": 10,
+        "lemmas": 20,
+        "propositions": 3,
+        "corollaries": 8,
+        "definitions": 38,
+        "displayed_equations": 356,
+        "bibliography_entries": 117,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file QNZ.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "was checked line by line by the authors. The second exception is Appendix D, where we extend the inequality of Gelander-Margulis-Levit to measures of exponential moment. In this case, the authors came up with the idea to do this, and asked Chatgpt to write the text, which was then read line by line and corrected by the authors. The authors have verified all results and take full responsibility for the correctness and the content of this paper. 2 Symbols used in the paper For th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:13:46.992005Z"
+      },
+      "score": 2138.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 427.7,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 75,
+          "theorems": 60,
+          "lemmas": 80,
+          "propositions": 12,
+          "corollaries": 24,
+          "definitions": 76,
+          "displayed_equations": 89,
+          "bibliography_entries": 11.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01447",
       "version": 3,
       "title": "Neutral Returns at High-Order Grazing: Sharp Cyclicity, Physical Codimension, and Weighted Crossover",
