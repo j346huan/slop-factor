@@ -8424,6 +8424,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07805",
+      "version": 1,
+      "title": "A counterexample to the Kato conjecture for positive commutators",
+      "authors": [
+        "Rupert L. Frank",
+        "Paata Ivanisvili"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math-ph",
+          "math.OA",
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-07T23:03:56Z",
+        "updated": "2026-08-07T23:03:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We disprove the conjectural converse to Kato's positivity criterion for commutators of functions of the canonical position and momentum operators $Q$ and $P$ by showing that the operator \\[ i\\,[\\,\\arctan(P),\\,\\arctan(Q)\\,] \\] is nonnegative and nonzero.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07805v1",
+        "pdf": "https://arxiv.org/pdf/2608.07805v1",
+        "source": "https://export.arxiv.org/e-print/2608.07805v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 1,
+        "lemmas": 7,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 119,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_v4.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ect-ID 470903074. P.I. acknowledges partial support from the US NSF CAREER grant DMS-2152401, US NSF grant DMS-2554183, a Simons Fellowship, and a Humboldt Research Fellowship for Experienced Researchers. The authors acknowledge the use of AI tools. All mathematical arguments and proofs in the final manuscript were checked and written by the authors. 14",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:38.177455Z"
+      },
+      "score": 472.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 94.45,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 15,
+          "theorems": 6,
+          "lemmas": 28,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 29.75,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07788",
       "version": 1,
       "title": "Cobordism groups of dihedral branched covers",
