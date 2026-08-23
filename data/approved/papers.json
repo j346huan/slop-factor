@@ -41853,6 +41853,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29063",
+      "version": 1,
+      "title": "Separation properties of scrambled digital nets and related random point sets",
+      "authors": [
+        "Kosuke Suzuki"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T06:32:01Z",
+        "updated": "2026-07-31T06:32:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study how standard randomization procedures affect the local geometry of quasi-Monte Carlo point sets, as measured by their minimum distance and mesh ratio. Although probabilistic selection within structured lattice families can produce quasi-uniform point sets, randomizing an existing low-discrepancy construction need not preserve quasi-uniformity. We first determine sharp probabilistic orders for Monte Carlo, jittered, and Latin hypercube sampling, whose mesh ratios diverge as positive powers of $N$. The orders are $Θ_{\\mathbb{P}}(N^{1/d}(\\log N)^{1/d})$ for Monte Carlo sampling, $Θ_{\\mathbb{P}}(N^{1/(d+1)})$ for jittered sampling, and, for $d\\ge 2$, $Θ_{\\mathbb{P}}(N^{1/d}(\\log N)^{1/d})$ for Latin hypercube sampling. We also obtain a Weibull limit law for the minimum distance of jittered samples. For full Owen scrambling, every family of fixed-$t$ nets has minimum distance $O_{\\mathbb{P}}(N^{-3/(2d)})$, and its mesh ratio is therefore $Ω_{\\mathbb{P}}(N^{1/(2d)})$. Under uniform coincidence and common-prefix conditions, these bounds are sharp up to logarithmic factors. Moreover, a single full Owen scrambling of any $(t,d)$-sequence is almost surely non-quasi-uniform. By contrast, for matrix and linear scrambling of binary digital nets with fixed $t$ in dimension $d\\ge 2$, the mesh ratio is $O_{\\mathbb{P}}(\\log N)$, whereas it is $Θ_{\\mathbb{P}}(\\log N)$ in the separate balanced-prefix affine-tail model. The model also yields the exact probabilistic order for one-dimensional binary digital $(0,m,1)$-nets under matrix or linear scrambling. These results demonstrate that the geometric effect of randomization is governed by whether it introduces local independence or shared algebraic randomness.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29063v1",
+        "pdf": "https://arxiv.org/pdf/2607.29063v1",
+        "source": "https://export.arxiv.org/e-print/2607.29063v1"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 8,
+        "lemmas": 14,
+        "propositions": 0,
+        "corollaries": 9,
+        "definitions": 10,
+        "displayed_equations": 193,
+        "bibliography_entries": 31,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file non_quasi_uniform_digital_nets_revised_v382.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ence along all dyadic levels. This is analogous to the obstruc- tion in [3, Lemma 1.4] to transferring quasi-uniformity from a subsequence with unbounded successive ratios to the full sequence. Declaration of generative AI use The author used OpenAI ChatGPT 5.6 Sol and Codex for exploring and checking proof strategies, deriving and drafting parts of several proofs, conducting literature searches, and providing editorial assistance. All mathematical argume",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 32",
+          "page": 32
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:29.486424Z"
+      },
+      "score": 1882.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 235.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 33,
+          "theorems": 48,
+          "lemmas": 56,
+          "propositions": 0,
+          "corollaries": 27,
+          "definitions": 20,
+          "displayed_equations": 48.25,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28988",
       "version": 1,
       "title": "Sharp Hausdorff Bounds for the Interior Singular Set of Convex $k$-Hessian Solutions",
