@@ -41683,6 +41683,97 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21474",
+      "version": 1,
+      "title": "Fatness and Flatness",
+      "authors": [
+        "Arnold Filtser",
+        "Hung Le",
+        "Nikolas Mählmann",
+        "Marcin Pilipczuk",
+        "Michał Pilipczuk"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM",
+          "cs.DS",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-23T16:16:48Z",
+        "updated": "2026-07-23T16:16:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Fat minors are the metric analog of graph minors that are tailored to the analysis of metric (edge-weighted) graphs and, more generally, metric spaces having a suitable notion of shortest paths. Despite a large interest in this notion, not much is known about the structure of metric graphs excluding a fixed fat minor. We prove that if a metric graph $G$ excludes a fixed graph $H$ as a $δ$-fat minor, for some $δ>0$, then $G$ enjoys the metric analog of flatness (aka uniform quasi-wideness) - a structural property from the field of Sparsity. In essence, our flatness result says that for any $α\\geq β$ large enough compared to $δ$, in every large enough set $A$ in $G$ one can find a sizable subset $B$ that becomes $α$-scattered after removing a bounded number of balls of radius $β$. We call this property drill-flatness. Notably, the proof only relies on excluding shallow fat minors: every branch set has radius at most $2α$. As a corollary, we prove that metric graphs that exclude a fixed $δ$-fat minor have bounded $\\varepsilon$-scatter dimension if we consider only $\\varepsilon$-scatters at distances large enough compared to $δ$. By combining this with the results of Abbasi et al. [FOCS 2023], we infer that the $k$-Center problem on instances excluding $H$ as a $δ$-fat minor admits an approximation algorithm that finds a solution of cost at most $(1+\\varepsilon)\\cdot\\mathsf{OPT}+{\\cal O}(δ/\\varepsilon^2)$ in time ${\\cal O}_{H,\\varepsilon}(n^{{\\cal O}(1)})$. This is one of the first algorithmic results for general fat-minor-free metrics. We also study drill-flatness in hereditary classes of (unweighted) graphs, where we obtain a characterization equating drill-flatness with excluding shallow induced minors. This is an induced analog of the equivalence between flatness and nowhere denseness - one of central results of Sparsity.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21474v1",
+        "pdf": "https://arxiv.org/pdf/2607.21474v1",
+        "source": "https://export.arxiv.org/e-print/2607.21474v1"
+      },
+      "structural_counts": {
+        "pages": 39,
+        "theorems": 2,
+        "lemmas": 19,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 9,
+        "displayed_equations": 115,
+        "bibliography_entries": 83,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ery d ∈ N, the class of intersection graphs of balls in Rd is ISMF. The proof of Theorem 1.7 easily extends to intersection graphs of families of objects in Rd with universally bounded aspect ratio; we omit the details. AI Disclosure. ChatGPT 5.5 Pro and Claude Code Opus 4.8 were used to turn proof sketches for the Ramsey arguments in Lemma 8.4 and Lemma 8.6 into first drafts, which were further polished by the authors. The authors verified the correctness and originality of al",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:35.974992Z"
+      },
+      "score": 1638.45,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 182.05,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 39,
+          "theorems": 12,
+          "lemmas": 76,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 18,
+          "displayed_equations": 28.75,
+          "bibliography_entries": 8.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21440",
       "version": 1,
       "title": "Decomposing a Multi-Scale Optimization Framework for Grid-Integrated Electrolysis using Aggregate-Informed Benders",
