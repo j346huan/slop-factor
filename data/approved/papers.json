@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18000",
+      "version": 1,
+      "title": "A note on smooth quotients of Prym varieties",
+      "authors": [
+        "Anatoli Shatsila"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T16:47:43Z",
+        "updated": "2026-08-18T16:47:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study pseudoreflections of geometric origin on Prym varieties of étale double covers. We prove that if the genus of the base curve is $g \\geq 4$ then every such pseudoreflection has order 2. We use this result to show that, for $g \\geq 5$, a non-trivial finite group $G$ of automorphisms of geometric origin acting faithfully on the Prym $P$ with $P/G$ smooth must be isomorphic to either $\\mathbb{Z}/2\\mathbb{Z}$ or $(\\mathbb{Z}/2\\mathbb{Z})^2$. We also show that the latter case can occur only for $g \\leq 7$. This sharpens results of Auffarth, Lahoz and Naranjo.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18000v1",
+        "pdf": "https://arxiv.org/pdf/2608.18000v1",
+        "source": "https://export.arxiv.org/e-print/2608.18000v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 4,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 51,
+        "bibliography_entries": 3,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-11.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ", we note that both groups Z/2Z and (Z/2Z)2 occur by the constructions in [3]; see [3, Remark 5.2] and also [1, Remark 2.7]. This proves the theorem. Statement on AI use A substantial part of this work was developed with the assistance of ChatGPT 5.6 Sol. In particular, the statement of Theorem 1.1 and the main ideas behind its proof were suggested by the LLM and served as the starting point for this work. The full text of the article was written by the author, who takes full respo",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:13.902234Z"
+      },
+      "score": 520.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 52.05,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 7,
+          "theorems": 24,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 12.75,
+          "bibliography_entries": 0.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17953",
       "version": 1,
       "title": "Symmetric Differentials on K3 Surfaces",
