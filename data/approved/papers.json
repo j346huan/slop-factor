@@ -41854,6 +41854,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15034",
+      "version": 1,
+      "title": "Shifted S-templates and improved lower bounds for Schur numbers",
+      "authors": [
+        "Nils Bengone",
+        "Amine Brouk",
+        "Max Grinsztajn",
+        "Térence Helbert",
+        "Bao Lugherini",
+        "Arpad Rimmel",
+        "Joanna Tomasik"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T14:15:53Z",
+        "updated": "2026-07-16T14:15:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We present an extension of the template-based approach for Schur numbers developed by Rowley. This new form of template construction, which we call shifted S-templates, was discovered during a conversation with ChatGPT 5.5 Pro, then refined, verified, and extended to multiple shifted S-templates. These new templates generalize the first ones by giving more flexibility in the coloring. Using this added flexibility with the new way to color the special label cells of the template, we exhibit a template which yields the recurrence $S(k+2) \\geq 10S(k)+2$, improving on the classical Abbott-Hanson recurrence $S(k+2) \\geq 9S(k)+4$ for the same step. Combined with the known bounds $S(6) \\geq 536$ and $S(11) \\geq 203\\,828$, this implies $S(8) \\geq 5\\,362$ and $S(13) \\geq 2\\,038\\,282$, improving the previously listed lower bounds $5\\,286$ and $2\\,011\\,290$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15034v1",
+        "pdf": "https://arxiv.org/pdf/2607.15034v1",
+        "source": "https://export.arxiv.org/e-print/2607.15034v1"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 20,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file shifted_s_templates.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "828 [5], S(8) ≥ 10 · 536 + 2 = 5 362 S(13) ≥ 10 · 203 828 + 2 = 2 038 282 improving the previously listed lower bounds 5 286 and 2 011 290. V. C ONCLUSION From an original idea of GPT 5.5 Pro, we have produced an extension of the S-templates originally designed by Rowley [1]. These shifted S-templates provide new inequalities of the form S(k + r) ≥ aS(k) + b and broaden the search space for lower bounds of Schur numbers. We",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:36.974817Z"
+      },
+      "score": 276,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 27.6,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 4,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 5,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14965",
       "version": 1,
       "title": "Statistical Inference for Scenario-Based Dynamic Optimization under Uncertainty",
