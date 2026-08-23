@@ -43470,6 +43470,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27810",
+      "version": 1,
+      "title": "Perturbed Beta Corners Process",
+      "authors": [
+        "Leonid Petrov",
+        "Jiaming Xu"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T07:48:39Z",
+        "updated": "2026-07-30T07:48:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce and study the perturbed $β$-corners process, a deformation of the classical $β$-corners process. The latter is a probability measure on interlacing arrays of real numbers that, for the classical values $β=1,2,4$, describes the joint distribution of eigenvalues of principal submatrices of a Gaussian random matrix with the corresponding GOE/GUE/GSE symmetry. For classical $β$, the perturbed process arises from adding a deterministic diagonal matrix $A=diag(a_1,...,a_N)$ to a GOE/GUE/GSE matrix. The eigenvalues of the resulting random matrix depend symmetrically on $a_1,...,a_N$, but this symmetry does not extend to the whole corners process. We extend the construction to all $β>0$ via multivariate Bessel functions, and analyze the crystallization ($β\\to\\infty$) of the resulting interlacing array, proving a law of large numbers and a central limit theorem in two regimes. For fixed perturbation, the eigenvalue repulsion dominates, and the array crystallizes on the same lattice of polynomial-derivative roots, with the same discrete Gaussian free field fluctuations, as in the unperturbed case treated by Gorin and Marcus (arXiv:1706.07393). New phenomena appear in the second regime, where the $a_i$'s grow linearly in $β$. Then the external source competes with the repulsion at leading order. Here the array freezes on a deformed lattice characterized by a coupled system of optimality equations. The fluctuations are governed by the same discrete Gaussian free field, now attached to the deformed lattice. The deformed lattice equations decouple in the special case of a single spike in the last coordinate. Then the deformed lattice is obtained explicitly by applying one shifted derivative $D_c f = f' + cf$ followed by iterated ordinary derivatives.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27810v1",
+        "pdf": "https://arxiv.org/pdf/2607.27810v1",
+        "source": "https://export.arxiv.org/e-print/2607.27810v1"
+      },
+      "structural_counts": {
+        "pages": 31,
+        "theorems": 4,
+        "lemmas": 5,
+        "propositions": 11,
+        "corollaries": 0,
+        "definitions": 5,
+        "displayed_equations": 124,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Jul2026_perturbed_beta.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ndation Travel Support for Mathematicians award SFI-MPS-TSM-00013561. AI statement. All the ideas in this paper are due to the authors. Some proof details in Sections 5 and 6, as well as parts of the text, were produced with AI assistance (ChatGPT Pro GPT-5.6 by OpenAI and Claude Code Opus 4.8 and Fable 5 by Anthropic). We checked every statement and every argument, and the responsibility for the correctness of the paper is ours alone. 2. Derivation for β = 1, 2, 4",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:03.621114Z"
+      },
+      "score": 1280,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 160,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 31,
+          "theorems": 24,
+          "lemmas": 20,
+          "propositions": 44,
+          "corollaries": 0,
+          "definitions": 10,
+          "displayed_equations": 31,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27795",
       "version": 1,
       "title": "A Unified Discrete Gradient-SAV Framework for Structure-Preserving Integration",
