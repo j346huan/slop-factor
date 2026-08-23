@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18453",
+      "version": 1,
+      "title": "A National-Scale EV Charging Scheduling Framework: Optimal Detour Routing Under Infrastructure Capacity Constraints",
+      "authors": [
+        "Taner Cokyasar"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T19:03:46Z",
+        "updated": "2026-07-20T19:03:46Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "As electric vehicle (EV) adoption grows, quantifying the scheduling burden and economic cost of long-distance travel under the existing charging infrastructure becomes increasingly important for infrastructure planning and policy. This paper presents a scalable, optimization-based framework for scheduling EV charging stops along real-world charging stations and simulated long-distance personal vehicle trajectories across the United States using POLARIS. Taking the existing charging network as fixed input, the framework minimizes total detour and queuing costs for each vehicle while respecting plug capacity constraints at each station. The methodology proceeds in three phases: (i) infeasibility pruning via a forward-pass reachability heuristic, (ii) per-vehicle optimal charging schedule computation via dynamic programming on a directed acyclic graph, and (iii) capacity-aware iterative congestion resolution through a penalty-based heuristic that augments detour costs at congested stations, with a first-in, first-out queue fallback. Applied to approximately 2.7M origin--destination vehicle trajectories derived from a 1\\% sample of national personal travel demand within the POLARIS agent-based transportation simulation framework and covering 14,260 DC fast charging stations with 68,641 plugs from the Alternative Fuels Station Locator, the framework produces capacity-feasible schedules in under 1.3 hours on a 128-core high-performance computing cluster without requiring any commercial optimization solver. A three-tier economic analysis spanning operational costs, total cost of ownership, and amortized infrastructure investment is conducted to evaluate EV cost competitiveness relative to internal combustion engine vehicles across scenarios.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18453v1",
+        "pdf": "https://arxiv.org/pdf/2607.18453v1",
+        "source": "https://export.arxiv.org/e-print/2607.18453v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 15,
+        "bibliography_entries": 36,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file elsarticle_template.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "icting Interests The authors declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article. Declaration of AI Use During the preparation of this manuscript, the authors used Claude Opus 4.6 and Claude Sonnet 4.6 through ARGO AI platform at Argonne National Laboratory to improve language, spelling, readability, literature review, coding, and result analysis. After using these tools, the authors meticulously reviewed and ed",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:26.584970Z"
+      },
+      "score": 157.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 39.35,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 32,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3.75,
+          "bibliography_entries": 3.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18186",
       "version": 1,
       "title": "Small Counterexamples to the Gaussian Moments Conjecture",
