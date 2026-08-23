@@ -41768,6 +41768,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26271",
+      "version": 2,
+      "title": "Sharp bounds for the fractional chromatic number of high-girth $d$-degenerate graphs",
+      "authors": [
+        "Peter Allen",
+        "Abhishek Dhawan",
+        "Jonathan A. Noel"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T21:02:45Z",
+        "updated": "2026-08-19T20:31:33Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Martinsson and Steiner recently proved that the fractional chromatic number of any $d$-degenerate triangle-free graph $G$ satisfies $χ_f(G) = O\\left(\\frac{d}{\\log d}\\right)$. They further conjectured a sharp leading constant $1 + o(1)$. In this paper, we confirm their upper bound conjecture for graphs having girth at least $5$. Our proof is constructive: it gives an efficient randomized algorithm that, with high probability, computes a fractional coloring of weight at most $(1 + o(1))\\frac{d}{\\log d}$ in such graphs. Furthermore, we establish their conjectured lower bound in a stronger form: for any constant $g \\ge 4$, there exist $d$-degenerate graphs having girth at least $g$ with $χ_f(G) \\ge (1 - o(1))\\frac{d}{\\log d}$. This lower bound is achieved by analyzing a random graph based on the uniform attachment model. Notably, our results reveal that this model lacks the typical computational complexity barriers found in Erdős-Rényi graphs, where there is a conjectured factor-$2$ algorithmic gap for this problem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26271v2",
+        "pdf": "https://arxiv.org/pdf/2607.26271v2",
+        "source": "https://export.arxiv.org/e-print/2607.26271v2"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 4,
+        "lemmas": 4,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 82,
+        "bibliography_entries": 31,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ef Skokan, and Evelyne Smith-Roberge for organizing the workshop and inviting us, and all of the participants for stimulating discussions. We also thank Seth Pettie for comments on an earlier version of this manuscript. The authors used ChatGPT 5.5 Pro to aid in the proof of Theorem 1.4. In particular, it was used to solve an optimization problem that the authors formulated to determine the correct shape of the fractional clique function, to check and simplify some probabilistic",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:15.754810Z"
+      },
+      "score": 748.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 93.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 20,
+          "theorems": 24,
+          "lemmas": 16,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 20.5,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25920",
       "version": 1,
       "title": "Asymptotically sharp bounds for affine subspace statistics in $\\mathbb F_2^n$",
