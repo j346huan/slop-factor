@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25645",
+      "version": 1,
+      "title": "Estimates of the total variation distance between laws of Sobolev mappings on Gaussian spaces",
+      "authors": [
+        "Egor Kosov",
+        "Anastasiia Zhukova"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T12:29:59Z",
+        "updated": "2026-07-28T12:29:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Under small-ball bounds for the Malliavin determinants of two $\\mathbb R^k$-valued Sobolev mappings on a Gaussian space, we estimate the total variation distance between their laws both in terms of the Kantorovich--Rubinstein distance and in terms of the distance between the mappings in the corresponding Sobolev space. In particular, our results yield new total variation distance estimates for distributions of random vectors whose components belong to finite sums of Wiener chaoses, with exponents improved by an asymptotic factor of two. The proof is based on fractional regularity estimates for distributions of Sobolev mappings. Namely, we show that if an $\\mathbb R^k$-valued mapping has components in $W^{2,p}(γ)$ and the determinant of the corresponding Malliavin matrix satisfies a small-ball bound of order $\\varkappa\\in(0,1]$, then the law of the mapping has fractional regularity of order \\[ \\frac{\\varkappa}{1+(2k-1)\\varkappa p^{-1}}. \\] In particular, for large $p$, this gives regularity of order $\\varkappa$ up to an $O(p^{-1})$ loss.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25645v1",
+        "pdf": "https://arxiv.org/pdf/2607.25645v1",
+        "source": "https://export.arxiv.org/e-print/2607.25645v1"
+      },
+      "structural_counts": {
+        "pages": 37,
+        "theorems": 6,
+        "lemmas": 6,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 431,
+        "bibliography_entries": 31,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Gauss-multy-dim-28July.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2k−1 \u0001 \u0001s −1 2k−1 \u0001κ dTV (f, g) ≤ C2 k 5 d 1 + ln a−1 b 2 D a b 2 D , which completes the proof. □ Use of AI Tools ChatGPT was used for language editing, stylistic suggestions, draft wording for selected pas- sages, and help with locating some references. All AI-generated text and suggested references were checked, corrected where necessary, and subs",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 36",
+          "page": 36
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:29.390765Z"
+      },
+      "score": 1039.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 207.85,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 37,
+          "theorems": 36,
+          "lemmas": 24,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 107.75,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25533",
       "version": 1,
       "title": "Computable Quantification in Reflective Grounded Arithmetic",
