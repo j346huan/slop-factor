@@ -8431,6 +8431,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08509",
+      "version": 1,
+      "title": "On Sun's Conjectures for Truncated Jacobi-Symbol Determinants via Supersingular Elliptic Curves",
+      "authors": [
+        "Guo Li",
+        "Xiaoju Yan"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-09T06:11:12Z",
+        "updated": "2026-08-09T06:11:12Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the truncated Jacobi-symbol determinants $$\\{c,d\\}_n=\\det\\!\\left[\\left(\\frac{j^2+cjk+dk^2}{n}\\right)\\right]_{2\\le j,k\\le n-2}$$ proposed by Zhi-Wei Sun in \\cite{ZWSun} and prove Conjectures 5.1(i), 5.2, 5.3, 5.4, 5.5, 5.6(i), 5.7, 5.8, a case of 5.6(ii) of \\cite{ZWSun}, Conjecture 4.8(i) of \\cite{Sun2019} and some strengthened forms. All results follow from a single unified approach: for a prime $p$, we diagonalize the nonzero-residue matrix indexed by $\\mathbb{F}_p^\\times$ and reduce the vanishing of determinants to the supersingular reduction of certain CM elliptic curves. The same framework extends naturally to further families of parameters, suggesting a general mechanism behind identities of this type.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08509v1",
+        "pdf": "https://arxiv.org/pdf/2608.08509v1",
+        "source": "https://export.arxiv.org/e-print/2608.08509v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 6,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 56,
+        "bibliography_entries": 15,
+        "appendix_pages": 15
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Sun_NEW.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ors thank Zhihan Zhong for the exchanges and discussions during the writing process. The key observation linking the determinant problem to elliptic curves originated from the proof of case (b) of Theorem 1.1 via the one-third coefficient. GPT-5.6 Sol helped us quickly test the feasibility of this strategy on other conjectures of Sun. The authors assume full responsibility for the correctness, originality, and final presentation of all mathematical statements in this paper.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:02:02.265539Z"
+      },
+      "score": 379.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 126.5,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 15,
+          "theorems": 36,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 14,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 30
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08473",
       "version": 1,
       "title": "Searching for $J$-holomorphic curves via machine: first steps",
