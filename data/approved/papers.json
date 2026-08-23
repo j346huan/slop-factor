@@ -8761,6 +8761,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11543",
+      "version": 1,
+      "title": "A solution to Butler's positivity conjecture",
+      "authors": [
+        "Peter L. Guo",
+        "Mingyang Kang",
+        "Rui Xiong"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T01:20:03Z",
+        "updated": "2026-08-12T01:20:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $λ, μ, ν$ be distinct partitions such that $λ, μ\\subset ν$ and $|ν/λ|=|ν/μ|=1$. We prove Butler's positivity conjecture posed in 1994: the expansion of the Macdonald intersection polynomial \\[ \\frac{T_λ\\widetilde{H}_μ(X;q,t)-T_μ\\widetilde{H}_λ(X;q,t)}{T_λ-T_μ} \\] in terms of the Schur function basis has coefficients in $\\mathbb{Z}_{\\geq 0}[q,t]$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11543v1",
+        "pdf": "https://arxiv.org/pdf/2608.11543v1",
+        "source": "https://export.arxiv.org/e-print/2608.11543v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 28,
+        "bibliography_entries": 11,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Butler_conjecture.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "eme of points in the affine plane. Acknowledgements. The first author was supported by the National Natural Science Foundation of China (No. 12371329) and the Fundamental Research Funds for the Central Universities (No. 63263094). We used ChatGPT 5.6 during the preparation of this work.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:55.004641Z"
+      },
+      "score": 170.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 34.1,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 6,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 7,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11525",
       "version": 1,
       "title": "A Proof of Gluck's Conjecture",
