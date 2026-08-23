@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17036",
+      "version": 1,
+      "title": "Hyperbolic models and stability recognition for Coxeter groups",
+      "authors": [
+        "Christopher H. Cashen",
+        "Michelle Chu",
+        "Jing Tao"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T18:34:53Z",
+        "updated": "2026-08-17T18:34:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Given a finite rank Coxeter system, we construct a hyperbolic space by coning off the wide parabolic subcomplexes of its Davis complex. The resulting space is `stability recognizing', in the sense that stable subspaces of the Davis complex are exactly the quasigeodesically connected subspaces whose images in the coned-off space are quasiisometrically embedded. Equivalently, the coned-off space is `Morse recognizing': a quasigeodesic in the Davis complex is Morse if and only if it is quasigeodesic in the coned-off space. Furthermore, the action of the Coxeter group on this space gives its largest acylindrically hyperbolic structure.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17036v1",
+        "pdf": "https://arxiv.org/pdf/2608.17036v1",
+        "source": "https://export.arxiv.org/e-print/2608.17036v1"
+      },
+      "structural_counts": {
+        "pages": 58,
+        "theorems": 17,
+        "lemmas": 54,
+        "propositions": 22,
+        "corollaries": 19,
+        "definitions": 30,
+        "displayed_equations": 165,
+        "bibliography_entries": 77,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "□ ϵ ϵ AI use The authors used several versions of the AI tool ChatGPT as interactive sounding boards to explore possible proof strategies and test their arguments. The conception of the arguments and the writing of this paper were done by the authors.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 56",
+          "page": 56
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:18.598352Z"
+      },
+      "score": 5071.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 633.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 58,
+          "theorems": 102,
+          "lemmas": 216,
+          "propositions": 88,
+          "corollaries": 57,
+          "definitions": 60,
+          "displayed_equations": 41.25,
+          "bibliography_entries": 7.7,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16799",
       "version": 1,
       "title": "Doubling the dimension yields a benign landscape for the squared-stress",
