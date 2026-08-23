@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23780",
+      "version": 1,
+      "title": "Free-by-cyclic groups are not relatively profinitely rigid",
+      "authors": [
+        "Carl-Fredrik Nyberg-Brodda"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T17:57:27Z",
+        "updated": "2026-07-26T17:57:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $m=5$ and for every $m \\geq 7$ we construct families of pairwise non-isomorphic free-by-cyclic groups isomorphic to $F_{2m} \\rtimes \\mathbb{Z}$ having isomorphic profinite completions. This answers a question of Bridson & Reid from 2015.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23780v1",
+        "pdf": "https://arxiv.org/pdf/2607.23780v1",
+        "source": "https://export.arxiv.org/e-print/2607.23780v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 19,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file freebycyclic-pr.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements. I wish to thank Martin Bridson and Alan Reid for encouragement and helpful discussions. Several steps in the proof were simplified with the use of GPT-5.6 (Sol) accessed via ChatGPT Pro. All words in this article were written by it (human) author. Date: July 28, 2026.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:22.735772Z"
+      },
+      "score": 403.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 50.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 10,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 4.75,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23723",
       "version": 1,
       "title": "Recovery of latent inner products from an anisotropic Gaussian random geometric graph",
