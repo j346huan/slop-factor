@@ -9194,6 +9194,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13067",
+      "version": 1,
+      "title": "Computer-assisted Proof Under Audit: Typos, Certificate Errors, and Reproducible Exact Checks for a Symbolic Invertibility Proof",
+      "authors": [
+        "Fan Zheng"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T10:30:52Z",
+        "updated": "2026-08-13T10:30:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We audit the exact-arithmetic certificate in arXiv:2310.19781v2, its 2025 \\emph{Communications in Mathematical Physics} version, and their shared MATLAB archive. CMP corrects none of the audited items; we therefore treat both versions together and use the openly accessible arXiv source for exact provenance. We found 11 proof-affecting defects (alongside typographical slips) and give reproducible exact counterexamples to several implemented bounds and reconstruction steps. To the best of our knowledge, this is the first independent, version-pinned, source-level audit of a published computer-assisted proof (CAP) in analysis to identify multiple proof-affecting defects in its released computational certificate. The findings do not refute the intended theorem or its analytic reduction, but they show that the published certificate does not prove the claimed conclusion. Future work will give a corrected, structurally simpler proof with substantially less machine assistance.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13067v1",
+        "pdf": "https://arxiv.org/pdf/2608.13067v1",
+        "source": "https://export.arxiv.org/e-print/2608.13067v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 0,
+        "lemmas": 1,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 77,
+        "bibliography_entries": 19,
+        "appendix_pages": 17
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv-2310.19781v2-errata-and-verification-notes.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ve a corrected, structurally simpler proof with substantially less machine assistance. Declaration of AI use. The preparation of this note used OpenAI GPT-5.6 Sol through Codex, accessed in August 2026, for literature survey, source navigation, comparison of formulas and code, exact-arithmetic scripts,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:45.322586Z"
+      },
+      "score": 285.45,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 95.15,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 28,
+          "theorems": 0,
+          "lemmas": 4,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 19.25,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 34
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13052",
       "version": 1,
       "title": "Spectral and Isoperimetric Bounds on Flat Tori",
