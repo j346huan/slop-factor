@@ -41767,6 +41767,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21568",
+      "version": 2,
+      "title": "Tight Hamilton Cycles in Linearly Quasirandom 3-Graphs",
+      "authors": [
+        "Xichao Shu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T17:50:17Z",
+        "updated": "2026-08-12T14:31:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study tight Hamilton cycles in linearly quasirandom $3$-graphs. An $n$-vertex $3$-graph $H$ is $(p,μ)$-dense if $e_H(X,Y,Z)\\ge p|X||Y||Z|-μn^3$ for all $X,Y,Z\\subseteq V(H)$. Araújo, Piga and Schacht asked whether the conditions $p,α>1/4$ and $δ_2(H)\\geαn$ force a tight Hamilton cycle. We give a negative answer to this question. More generally, we determine the asymptotically sharp minimum-codegree threshold for the existence of a tight Hamilton cycle for every density $p\\in(0,1)$. The resulting threshold is a discontinuous piecewise-defined function with four distinct regimes, and matching constructions show that every piece is best possible. The proof combines the absorption method and a fixed-length connecting lemma above density $1/3$ with a canonical-component Hamilton framework at and below density $1/3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21568v2",
+        "pdf": "https://arxiv.org/pdf/2607.21568v2",
+        "source": "https://export.arxiv.org/e-print/2607.21568v2"
+      },
+      "structural_counts": {
+        "pages": 44,
+        "theorems": 6,
+        "lemmas": 32,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 166,
+        "bibliography_entries": 40,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Full_paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r appeared and proved useful in the subsequent development of the paper. The author is also grateful to Daniel Král’ for reading an earlier version of the paper and for several helpful comments. The author also acknowledges the use of ChatGPT by OpenAI in the early stages of this project and during the preparation of the manuscript. It was used to improve the language, organisation, and presentation of the manuscript, to assist in revising preliminary drafts, and as an interact",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 42",
+          "page": 42
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:52.894484Z"
+      },
+      "score": 1134,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 283.5,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 44,
+          "theorems": 36,
+          "lemmas": 128,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 41.5,
+          "bibliography_entries": 4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21474",
       "version": 1,
       "title": "Fatness and Flatness",
