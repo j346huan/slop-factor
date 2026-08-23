@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16799",
+      "version": 1,
+      "title": "Doubling the dimension yields a benign landscape for the squared-stress",
+      "authors": [
+        "Christopher Criscitiello"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.NA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T16:54:30Z",
+        "updated": "2026-08-17T16:54:30Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We consider the Euclidean distance geometry problem (EDG): given a subset of the pairwise distances of an unknown cloud of $n$ points in $\\mathbb{R}^\\ell$, recover the point cloud up to rigid motions. When $n$ is large, a popular practical approach is to minimize a nonconvex quartic, known as the squared-stress or s-stress, over point clouds in $\\mathbb{R}^k$, with $k$ potentially larger than $\\ell$. It is a long-standing open problem to understand the optimization landscape of the s-stress when all pairwise distances are known (Malone and Trosset, 2000; Parhizkar, 2013). It was recently shown that the landscape is not benign when $k=\\ell$, and it was conjectured that the landscape becomes benign as soon as $k\\ge \\ell+1$ (Song et al., 2025; Criscitiello et al., 2026). Here, we show that the complete-graph s-stress has a benign landscape whenever $k\\ge 2(\\ell+1)$, establishing the conjecture up to a factor of two. A key idea is to view second-order criticality as a containment of two ellipsoids; finding a descent direction then corresponds to finding a separating hyperplane that violates this containment. This dual perspective yields the stated landscape result, and also applies to any measurement operator whose inverse satisfies a simple frame condition.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16799v1",
+        "pdf": "https://arxiv.org/pdf/2608.16799v1",
+        "source": "https://export.arxiv.org/e-print/2608.16799v1"
+      },
+      "structural_counts": {
+        "pages": 38,
+        "theorems": 4,
+        "lemmas": 14,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 208,
+        "bibliography_entries": 979,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "cal point is positive semidefinite (Lemma 5.1), a property closely connected to universal rigidity. Perhaps rigidity theory can provide a geometric explanation of the descent mechanism? Acknowledgments AI: The author used GPT-5.5 Pro during the preparation of this work. The descent directions (Sections 5.2), the overall proof strategy, and the proof of the m = 1 case (Section 6) were developed before any AI assistance. AI was subsequently used to help derive severa",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:13.241596Z"
+      },
+      "score": 2411.1,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 267.9,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 38,
+          "theorems": 24,
+          "lemmas": 56,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 52,
+          "bibliography_entries": 97.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16752",
       "version": 1,
       "title": "Absorption Probabilities for Random Convex Hulls: Distribution-Freeness via the Wall-Crossing Method",
