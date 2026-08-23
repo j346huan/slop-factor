@@ -8595,6 +8595,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17127",
+      "version": 1,
+      "title": "A Log-Free Lower Bound for the Number of Facets of $0/1$-Polytopes",
+      "authors": [
+        "Omer Friedland"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T21:03:16Z",
+        "updated": "2026-08-17T21:03:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $g(n)$ denote the largest number of facets of a full-dimensional $0/1$-polytope in $\\R^n$. We prove that there are absolute constants $c>0$ and $n_0$ such that $$ g(n)\\ge (cn)^{n/2}\\quad(n\\ge n_0). $$ This removes the logarithmic factor from the lower bound $\\bigl(cn/\\log n\\bigr)^{n/2}$ of Gatzouras, Giannopoulos, and Markoulakis. The proof compares a random sign polytope with two Rademacher rate bodies separated by a fixed level gap. Facets missing the inner body have uniformly small footprints on a flat patch of the outer body. A facet entering the inner body forces an empty buffered discrete cap. For shallow penetration, a likelihood-slab localization reduces the relevant range entropy and permits a conditional $\\varepsilon$-net argument; for deep penetration, a global discretization suffices.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17127v1",
+        "pdf": "https://arxiv.org/pdf/2608.17127v1",
+        "source": "https://export.arxiv.org/e-print/2608.17127v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 149,
+        "bibliography_entries": 9,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d in Section 5; and the buffered-cap estimate is proved in Section 6. The two sampling estimates are included in Appendix A. Disclosure of AI assistance. During the development of the final argument, the author used Chat- GPT, developed by OpenAI, extensively for mathematical exploration, including proposing, testing, and refining proof strategies, and for assistance with the organization and exposition of the proof. The project, together with several partial approaches and interme",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:47.932558Z"
+      },
+      "score": 729.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 91.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 15,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 37.25,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17045",
       "version": 1,
       "title": "Prime-Exponent Transition Geometry and Divisor Barriers Between Consecutive Highly Composite Numbers",
