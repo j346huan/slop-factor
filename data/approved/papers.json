@@ -42448,6 +42448,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19035",
+      "version": 1,
+      "title": "Graphical stability of set-valued integrals under measure perturbations",
+      "authors": [
+        "Tam Le"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T12:20:44Z",
+        "updated": "2026-07-21T12:20:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Motivated by sampling and approximation schemes arising in nonsmooth optimization, we study the stability of parameterized set-valued integrals under weak perturbations of the underlying probability distribution. For a compact parameter set, we show that compact convex-valued and jointly outer semicontinuous integrands induce set-valued integral maps that converge graphically in excess distance along any weakly convergent sequence of probability measures. The result holds under a superlinear integrability condition and provides a unified stability principle for measure approximations of set-valued expectations. We discuss the sharpness of the assumptions through examples. In particular, we emphasize that joint outer semicontinuity is required in general and that the superlinear envelope condition is tight relative to the classical i.i.d. empirical setting. As a consequence, we obtain outer stability of solution sets for stochastic generalized equations. We illustrate the stability result in several settings, including stochastic nonsmooth optimization with Markovian sampling, smoothing by mollifiers, and parameter-dependent distributional dynamics.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19035v1",
+        "pdf": "https://arxiv.org/pdf/2607.19035v1",
+        "source": "https://export.arxiv.org/e-print/2607.19035v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 2,
+        "lemmas": 7,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 91,
+        "bibliography_entries": 49,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "n θ̇(t) ∈ V (θ(t)) for almost every t ≥ 0, θ(0) = θ0 , falls within the standard existence theory, see [6]. In particular, it admits a global absolutely continuous solution. Acknowledgements The author used ChatGPT (OpenAI) as an aid in reviewing mathematical arguments and brainstorming possible counterexamples. All proofs, claims, and examples were independently checked and verified by the author, who assumes full responsibility for the manuscript.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:08.200723Z"
+      },
+      "score": 585.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 97.65,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 16,
+          "theorems": 12,
+          "lemmas": 28,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 22.75,
+          "bibliography_entries": 4.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19008",
       "version": 1,
       "title": "Spectral and Geometric Stability for the Reciprocal Sum of Neumann Eigenvalues",
