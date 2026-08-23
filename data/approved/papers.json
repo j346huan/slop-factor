@@ -42284,6 +42284,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27464",
+      "version": 4,
+      "title": "Neutral Entry--Exit Cycles with Quadratic Grazing: Uniform Return Reduction and Local Two-Parameter Bifurcations",
+      "authors": [
+        "Haibo Lu"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-29T20:59:53Z",
+        "updated": "2026-08-10T06:50:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study planar continuous piecewise-smooth slow--fast return circuits in which an invariant-line entry--exit passage is followed by a separated quadratic grazing and the reference cycle has unit multiplier. We first prove that the physical entry--exit map for positive slow parameter extends, uniformly to any prescribed finite order, to the singular parameter, including nonvertical endpoint fibers. In the exact moving penetration coordinate, composition with the grazing passage gives the extended Poincare displacement $Δ(q,p)=S(q,p)+q_+^{3/2}K(\\sqrt{q_+},q,p)$. Under a rank-two unfolding, we use the exact constant and linear coefficients of $Δ$ as parameters and construct, for every sufficiently small fixed positive slow parameter, a unique nonpenetrating fold, a unique penetrating fold, and the grazing-incidence stratum. We give the complete marked chamber decomposition by nonpenetrating, grazing, and penetrating cycles and determine their stability from the Poincare multiplier. The open chambers contain zero or two cycles when the smooth and grazing coefficients have the same sign, and one or three when their signs are opposite; the corresponding cyclicity bounds are sharp corollaries. A compact polynomial family realizes both sign classes. In a cutoff-Gause family, interval certificates isolate one singular balanced-neutral point in each of two parameter boxes and verify the required signs and rank; an analytic local pullback transfers the diagram to the response parameters. Thus one local classification records cycle number, itinerary, and stability across the grazing and fold boundaries.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27464v4",
+        "pdf": "https://arxiv.org/pdf/2607.27464v4",
+        "source": "https://export.arxiv.org/e-print/2607.27464v4"
+      },
+      "structural_counts": {
+        "pages": 43,
+        "theorems": 4,
+        "lemmas": 7,
+        "propositions": 9,
+        "corollaries": 4,
+        "definitions": 2,
+        "displayed_equations": 220,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d the commands and environment information used to reproduce the computations. Declarations Funding. The author received no funding for this work. Competing interests. The author declares no competing interests. Declaration of generative AI and AI-assisted technologies in the writing process. During the development and preparation of this work, the author used OpenAI Codex to assist with literature discovery, proof stress-testing, symbolic and numerical code review, manuscrip",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 41",
+          "page": 41
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:11.006347Z"
+      },
+      "score": 1640,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 205,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 43,
+          "theorems": 24,
+          "lemmas": 28,
+          "propositions": 36,
+          "corollaries": 12,
+          "definitions": 4,
+          "displayed_equations": 55,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27452",
       "version": 1,
       "title": "Counterexamples, Spectral Obstructions, and Deletion Stability for WOW-284",
