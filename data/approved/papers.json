@@ -42022,6 +42022,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19556",
+      "version": 1,
+      "title": "Trace-norm rigidity for reduced products of unitary groups and matrix algebras",
+      "authors": [
+        "Ben De Bondt",
+        "Andreas Thom"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": [
+          "math.GR",
+          "math.LO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T20:26:14Z",
+        "updated": "2026-07-21T20:26:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study homomorphisms, with a focus on isomorphisms, between the tracial metric reduced products of finite dimensional unitary groups and of matrix algebras. A variant of Ulam stability for unitary groups and a classification of the almost surjective continuous homomorphisms between finite dimensional unitary groups are proved and then used to show that all isomorphisms of product form of these tracial reduced products are induced by almost permutations of the coordinates and coordinatewise application of automorphisms. We prove coordinate recognition for these reduced products and obtain under set theoretic assumptions rigidity and classification results for their full automorphism groups. For tracial reduced matrix algebras we obtain such rigidity result in the more general context of center-preserving $*$-homomorphisms.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19556v1",
+        "pdf": "https://arxiv.org/pdf/2607.19556v1",
+        "source": "https://export.arxiv.org/e-print/2607.19556v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 9,
+        "lemmas": 13,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 7,
+        "displayed_equations": 113,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Trace-norm_rigidity_for_reduced_products_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "arch Foundation) under Germany’s Excellence Strategy EXC 2044/2 -390685587, Mathematics Münster: Dynamics–Geometry–Structure. Andreas Thom acknowledges funding by the Deutsche Forschungsgemeinschaft (SPP 2026 “Geometry at infinity”). ChatGPT 5.5 was used to assist in drafting parts of this manuscript. All content was reviewed and substantially revised by the authors, who are responsible for the final text. References [1] Vadim Aleks",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:36.156702Z"
+      },
+      "score": 1006.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 201.25,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 27,
+          "theorems": 54,
+          "lemmas": 52,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 14,
+          "displayed_equations": 28.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19500",
       "version": 1,
       "title": "Robust Hierarchical Matrix Compression of Acoustic Volume and Boundary Integral Operators",
