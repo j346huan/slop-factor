@@ -42616,6 +42616,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23101",
+      "version": 2,
+      "title": "The Excluded Vertex-Minors and Pivot-Minors for Rank-Width at Most Two",
+      "authors": [
+        "Sang-il Oum"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T08:23:47Z",
+        "updated": "2026-08-01T08:30:24Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We determine both the excluded vertex-minors and the excluded pivot-minors for the class of graphs of rank-width at most two. Up to local equivalence and graph isomorphism, there are exactly 25 excluded vertex-minors: 1 graph on 8 vertices, 18 on 9 vertices, and 6 on 10 vertices. Up to pivot equivalence and graph isomorphism, there are exactly 609 excluded pivot-minors: 2 on 8 vertices, 447 on 9 vertices, 146 on 10 vertices, 10 on 11 vertices, and 4 on 12 vertices. No excluded vertex-minor occurs on 11--16 vertices, and no excluded pivot-minor occurs on 13--16 vertices; the author's 16-vertex bound makes both lists complete. The proof is computer-assisted. Instead of enumerating all graphs, we reverse the one-vertex reduction theorem for prime graphs. For each $n$, we retain exactly the prime $n$-vertex graphs of rank-width at most two, modulo local equivalence and isomorphism, and extend those graphs by one vertex. Local-equivalence classes are identified by an exact canonical key obtained from the associated isotropic system, the binary row space of $[I\\mid A(G)]$. A restricted version of the same key classifies pivot equivalence exactly. The vertex-minor and pivot-minor computations examine, respectively, more than $9.0\\times 10^{10}$ and $4.9\\times 10^{11}$ prime extensions in their 16-vertex final layers.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23101v2",
+        "pdf": "https://arxiv.org/pdf/2607.23101v2",
+        "source": "https://export.arxiv.org/e-print/2607.23101v2"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 7,
+        "lemmas": 11,
+        "propositions": 12,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 21,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-arxiv-v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "minors. The resulting frontier may still grow rapidly, but the framework separates the mathematical completeness argument from parallelization and other search-specific optimizations. Statement of AI use. The author used OpenAI’s GPT-5.6 Sol and Anthropic’s Claude Fable 5 for programming assistance, monitoring computations, drafting, and editorial suggestions. The author independently verified the mathematical arguments, source code, computations, and final text and takes",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:34.816867Z"
+      },
+      "score": 1347.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 168.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 27,
+          "theorems": 42,
+          "lemmas": 44,
+          "propositions": 48,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 5.25,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23069",
       "version": 1,
       "title": "Geometry-aware LegONet for PDE Learning on Arbitrary Domains",
