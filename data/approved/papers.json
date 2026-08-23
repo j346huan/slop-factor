@@ -41766,6 +41766,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15881",
+      "version": 1,
+      "title": "Counting in logarithmic space",
+      "authors": [
+        "Álvaro Gutiérrez",
+        "Christian Ikenmeyer",
+        "Greta Panova"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.CC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-17T11:50:18Z",
+        "updated": "2026-07-17T11:50:18Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the class $\\#\\mathsf{L}$ of functions counting accepting paths of non-deterministic log-space Turing machines and construct methods to prove containment in $\\#\\mathsf{L}$. We prove that a large number of classical combinatorial and number theoretic functions belong to this class: classical functions from enumerative combinatorics (multinomial coefficients, Catalan numbers, linear extensions of trees, Stirling numbers, etc), algebraic combinatorics (number of standard Young tableaux, etc), discrete geometry, number theoretic functions, representation theoretic multiplicities in a large class of cases. We show that $\\mathrm{GL}_2$-plethysm coefficients of bounded length outer partition can be counted by log$^2$-space polytime verifiers. We pose numerous questions and conjectures on $\\#\\mathsf{L}$ containment and its generalizations, that suggest venues for conditionally disproving $\\#\\mathsf{P}$-completeness. While studying which combinatorial functions are in $\\#\\mathsf{P}$ provides a formal way of (dis)proving the existence of combinatorial interpretations, the lower class $\\#\\mathsf{L}$ serves as an analogue for functions computable in polynomial time.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15881v1",
+        "pdf": "https://arxiv.org/pdf/2607.15881v1",
+        "source": "https://export.arxiv.org/e-print/2607.15881v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 41,
+        "lemmas": 12,
+        "propositions": 1,
+        "corollaries": 17,
+        "definitions": 0,
+        "displayed_equations": 139,
+        "bibliography_entries": 73,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "RI, during the semester program “Categorification and Computation in Algebraic Combinatorics” in Fall 2025. The authors thank Joshua P. Swanson and Michał Szwej for helpful conversations. ChatGPT 5.6 was used for proofreading. ÁG was funded by a University of Bristol Research Training Support Grant. GP was partially funded by NSF CCF:AF and DMS gr",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:37.112662Z"
+      },
+      "score": 432.05,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 432.05,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 41,
+          "theorems": 246,
+          "lemmas": 48,
+          "propositions": 4,
+          "corollaries": 51,
+          "definitions": 0,
+          "displayed_equations": 34.75,
+          "bibliography_entries": 7.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15609",
       "version": 1,
       "title": "A 3-semi-perfect 1-factorization of the six-dimensional hypercube",
