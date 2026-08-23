@@ -8423,6 +8423,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10456",
+      "version": 1,
+      "title": "Integral inequalities for $α$-convolutions of $α$-concave functions",
+      "authors": [
+        "Mokshay Madiman",
+        "Auttawich Manui",
+        "Bartłomiej Zawalski",
+        "Artem Zvavitch"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T04:12:02Z",
+        "updated": "2026-08-11T04:12:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Classical sumset inequalities originating in additive combinatorics admit geometric analogues for convex bodies in finite-dimensional real vector spaces, as recently developed by Fradelizi and two of the authors. We develop integral analogues for geometric $α$-concave functions under $α$-convolutions, an operation that arises naturally in the ``geometrization of probability'' program. In particular, we establish a Plünnecke--Ruzsa-type inequality, as well as sharp analogues of sum-difference and Ruzsa triangle inequalities, for $α$-convolutions of $α$-concave functions. We also prove a sharp Rogers--Shephard-type inequality and characterize its equality cases for $α$-concave functions, bridging the log-concave case studied by Alonso-Gutiérrez, González-Merino, Jiménez, and Villa and the quasi-concave case studied by Colesanti.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10456v1",
+        "pdf": "https://arxiv.org/pdf/2608.10456v1",
+        "source": "https://export.arxiv.org/e-print/2608.10456v1"
+      },
+      "structural_counts": {
+        "pages": 37,
+        "theorems": 5,
+        "lemmas": 11,
+        "propositions": 3,
+        "corollaries": 4,
+        "definitions": 2,
+        "displayed_equations": 260,
+        "bibliography_entries": 48,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file General-08-26-Final.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "35 to Matthieu Fradelizi at Université Gustave Eiffel and by the second and third authors during the “Inequalities and Log-Concavity” program at the University of Warsaw. During the preparation of this paper, ChatGPT was used as an auxiliary tool to assist with refining the proof arguments. The final statements here are those of the authors, who have verified them and take full responsibility for the content of the paper. A. Manui was supported by th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:53.029897Z"
+      },
+      "score": 1750.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 218.8,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 37,
+          "theorems": 30,
+          "lemmas": 44,
+          "propositions": 12,
+          "corollaries": 12,
+          "definitions": 4,
+          "displayed_equations": 65,
+          "bibliography_entries": 4.8,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10445",
       "version": 1,
       "title": "An Exact Dominant Degree Condition for Transitive Tournament Factors in Digraphs",
