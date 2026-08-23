@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08974",
+      "version": 1,
+      "title": "Jacobi descent charts and logarithmic quotient coordinates for split symmetric spaces",
+      "authors": [
+        "Jonathan Sparling"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T00:42:30Z",
+        "updated": "2026-08-10T00:42:30Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $F$ be a non-Archimedean local field of characteristic zero and residue characteristic different from $2$, and let $(G,H)$ be an equal-rank split symmetric pair with $G$ split semisimple and adjoint and with an $F$-split maximal $θ$-split torus. Motivated by the singular contribution near the nilpotent fiber on the $θ$-fixed side of the infinitesimal local relative trace formula, we construct finite descent charts for regular families in $\\mathfrak h$ approaching that fiber. On each chart, a Cartan lift defined over $F$ conjugates the sparse Jacobi family \\[ Q(q)=\\sum_{α\\inΔ}(γ_αn_{-α}+q_αn_α) \\] into $\\mathfrak h$. The family $Q(q)$ is regular for every $q$ and takes the principal nilpotent value $Q(0)$. The restriction of the adjoint quotient to this family has generic rank equal to the number of odd exponents of $G$. For split symmetric pairs this rank equals $\\operatorname{rank}H$; hence in equal rank the map is generically finite étale. Kummer theory classifies the twisted square-root covers on which the Cartan lifts are defined, and these covers exhaust the rational branches. On every branch, with $q_α=z_α^2$, the quotient Jacobian cancels the relative Weyl discriminant exactly: \\[ \\frac{ds}{|D_H^G|^{1/2}}=C\\prod_{α\\inΔ}d^\\times z_α. \\] Thus the normalized $H^\\circ$-quotient density is a multiplicative Haar measure on the parameter torus, uniformly across all rational twists. After a finite clopen refinement, the associated Iwasawa heights are piecewise affine in the valuations $\\operatorname{val}(z_α)$. For $(\\operatorname{Sp}_{2n},\\operatorname{GL}_n)$, the construction is explicit in Hurwitz coordinates, and the Cartan lift factors through commuting long-root $\\operatorname{SL}_2$-subgroups.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08974v1",
+        "pdf": "https://arxiv.org/pdf/2608.08974v1",
+        "source": "https://export.arxiv.org/e-print/2608.08974v1"
+      },
+      "structural_counts": {
+        "pages": 39,
+        "theorems": 11,
+        "lemmas": 15,
+        "propositions": 8,
+        "corollaries": 5,
+        "definitions": 2,
+        "displayed_equations": 278,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file jacobi_descent_charts_2_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "eful to Tasho Kaletha, Robert Kottwitz, Zhengyu Mao, Yiannis Sakellaridis, and Diana Shelstad for helpful discussions and encouragement during those years; this paper is, among other things, a belated continuation of those conversations. AI tools were used during the final stages of writing for assistance with exposition, proofreading, and formatting; the author reviewed the final text and takes responsibility for its contents. 2. The θ-fixed loc",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:06:50.284424Z"
+      },
+      "score": 1150.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 287.7,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 39,
+          "theorems": 66,
+          "lemmas": 60,
+          "propositions": 32,
+          "corollaries": 15,
+          "definitions": 4,
+          "displayed_equations": 69.5,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08953",
       "version": 1,
       "title": "A computer-assisted counterexample to the planar Berenstein conjecture",
