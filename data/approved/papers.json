@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11554",
+      "version": 1,
+      "title": "Tripartite Zarankiewicz numbers and norm graphs",
+      "authors": [
+        "Yantao Tang",
+        "Yi Zhao"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T01:42:06Z",
+        "updated": "2026-08-12T01:42:06Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For fixed integers $s\\ge t\\ge2$, let $\\operatorname{ex}(n,n,n,K_{s,t})$ denote the maximum number of edges in a tripartite $K_{s,t}$-free graph with $n$ vertices in each part. When $s\\ge(t-1)!+1$, let $r$ be the largest integer satisfying $s\\ge(t-1)!r^{t-1}+1$. Using the quotient norm graphs of Alon, Rónyai and Szabó, we prove that \\[ \\operatorname{ex}(n,n,n,K_{s,t}) \\ge \\left(\\frac{3}{2^{1/t}}r^{1-1/t}+o(1)\\right)n^{2-1/t}. \\] Improving an upper bound of Tait and Timmons, we prove that, for all $s\\ge t\\ge 2$, \\[ \\operatorname{ex}(n,n,n,K_{s,t})\\le \\left(\\frac{3}{2^{1/t}}(s-t+1)^{1/t}+o(1)\\right)n^{2-1/t}. \\] Together, these bounds recover the results for $t=2$, and give the new asymptotic formula \\[ \\operatorname{ex}(n,n,n,K_{3,3}) =\\left(\\frac{3}{\\sqrt[3]{2}}+o(1)\\right)n^{5/3}. \\] Analogous results extend to $k$-partite graphs containing no $K_{s, t}$ whose $s$-vertex or $t$-vertex side lies in a single part. As an application of our tripartite construction, we determine the tripartite multicolor Ramsey number of $K_{3,3}$ asymptotically.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11554v1",
+        "pdf": "https://arxiv.org/pdf/2608.11554v1",
+        "source": "https://export.arxiv.org/e-print/2608.11554v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 4,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 43,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file tripartite_K33_final_m.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "□ Acknowledgment The authors thank Allan Lo, Aram Mathivanan, and Simona Boyadzhiyska for valuable discussions during the early stages of this research. Declaration on the use of AI. ChatGPT was used to assist with the preparation and presentation of this manuscript. The authors independently verified all arguments and references and take full responsibility for the manuscript.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:40.493224Z"
+      },
+      "score": 292.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.55,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 8,
+          "theorems": 24,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 10.75,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11525",
       "version": 1,
       "title": "A Proof of Gluck's Conjecture",
