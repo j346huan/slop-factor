@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07768",
+      "version": 1,
+      "title": "From a Scalar Parabolic Oscillator to Topological Thermostats: Selective Feeback Control of Harmonic Flow Modes",
+      "authors": [
+        "Sandro Merino"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-07T21:27:04Z",
+        "updated": "2026-08-07T21:27:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This paper develops a Hodge-theoretic feedback framework for flow-valued states, motivated by scalar parabolic thermostat problems with localized sensors and dual sources. On a connected graph, the edge space decomposes into a cut space and a harmonic cycle space. The ideal topological thermostat regulates the cut component toward a prescribed cycle-free transfer target and damps the harmonic component. For realizations through selected physical edge channels, the first Betti number gives the minimal sensing and actuation ranks required for exact compression of the full harmonic sector. Minimal rank does not imply local realization of the nonlocal Hodge projector; the remaining cut-harmonic blocks quantify spillover and forcing. For transmission networks, we formulate ideal and finite-channel nonlinear line-actuated swing closures and linearize the complete closed systems at an angle-cohesive synchronous equilibrium. With the actuator fixed, passive tangent swing motion preserves any pre-existing harmonic line-flow component. The ideal closure replaces this conservation law by exponential decay and appends a stable harmonic block without changing the reduced passive nodal-cut spectrum. Under the channel-rank conditions, finite realizations reproduce the harmonic compression, whereas autonomous harmonic decay and full reduced-state recovery require additional decoupling and Hurwitz conditions. A target-centred Bregman balance yields nonlinear dissipation for the ideal metric-compatible controller and for canonical colocated finite-channel feedback. Explicit theta-network, microgrid, ring, and synthetic IEEE 14-bus examples illustrate transfer regulation, cycle-flow damping, and localization-induced transients. Realistic device dynamics, constraints, and large-scale validation remain open.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07768v1",
+        "pdf": "https://arxiv.org/pdf/2608.07768v1",
+        "source": "https://export.arxiv.org/e-print/2608.07768v1"
+      },
+      "structural_counts": {
+        "pages": 69,
+        "theorems": 5,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 557,
+        "bibliography_entries": 42,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file topological_thermostats.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e package contains the LaTeX source, all manuscript figures, and three Python scripts reproducing the numerical figures, tables, and verification checks. Further implementation details are given in the accompanying README. Declaration of generative AI and AI-assisted technologies During preparation of this manuscript, OpenAI ChatGPT was used for editorial, organiza- tional, computational, and literature-search assistance. The author verified and assumes full responsibility for all mathe",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 67",
+          "page": 67
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:28.830181Z"
+      },
+      "score": 817.35,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 272.45,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 69,
+          "theorems": 30,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 139.25,
+          "bibliography_entries": 4.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07704",
       "version": 1,
       "title": "Disconnected multigraded Hilbert schemes on $\\mathbb{P}^2\\times\\mathbb{P}^1$",
