@@ -42278,6 +42278,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26294",
+      "version": 1,
+      "title": "Asymptotic Resurgence of Facet ideals of Graphic Matroids",
+      "authors": [
+        "Michael DiPasquale",
+        "Louiza Fouli",
+        "Arvind Kumar"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-28T21:36:30Z",
+        "updated": "2026-07-28T21:36:30Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Our main results are an upper bound on the asymptotic resurgence of the facet ideal of a graphic matroid in terms of the number of vertices and a lower bound in terms of the circumference. These bounds coincide for Hamiltonian graphs, which form the majority of graphs on $n$ vertices as $n$ tends to infinity. For simple $2$-connected graphs on up to nine vertices, we compute in Sage that the asymptotic resurgence of the facet ideal of a non-Hamiltonian graphic matroid is given either by our upper or lower bound.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26294v1",
+        "pdf": "https://arxiv.org/pdf/2607.26294v1",
+        "source": "https://export.arxiv.org/e-print/2607.26294v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 11,
+        "lemmas": 2,
+        "propositions": 4,
+        "corollaries": 4,
+        "definitions": 1,
+        "displayed_equations": 36,
+        "bibliography_entries": 56,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file AsymptoticResurgenceGraphicMatroids.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "knowledgments DiPasquale was partially supported by NSF grant DMS–2344588. Kumar was partially supported by an AMS-Simons Travel grant. All results, proofs, and mathematical content were produced without AI assistance. The authors used Google Gemini to obtain a starting point for the code to compute asymptotic resurgence (see Remark 7.3). The authors verified and improved upon this code, which is now posted under the research tab of DiPasquale’s website (midipasq.github.io).",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:05.466213Z"
+      },
+      "score": 269.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 134.6,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 16,
+          "theorems": 66,
+          "lemmas": 8,
+          "propositions": 16,
+          "corollaries": 12,
+          "definitions": 2,
+          "displayed_equations": 9,
+          "bibliography_entries": 5.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26272",
       "version": 1,
       "title": "Nonnegative Low-Rank Matrix Correction under an Orthogonality Constraint in Conservative Vlasov Simulations",
