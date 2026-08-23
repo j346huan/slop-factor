@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07233",
+      "version": 1,
+      "title": "Polytopal Bier spheres and nonrealizable central symmetries",
+      "authors": [
+        "Thiago Holleben",
+        "Yirong Yang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-07T13:49:52Z",
+        "updated": "2026-08-07T13:49:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Bier spheres arise as deleted joins of simplicial complexes with their combinatorial Alexander duals and form one of the largest known families of simplicial spheres. We study centrally symmetric Bier spheres and give a simple criterion for when they cannot arise as boundaries of centrally symmetric polytopes. From this, we obtain a large new family of simplicial polytopes with combinatorial automorphisms that cannot be realized geometrically. Prior to our construction, the Bokowski--Ewald--Kleinschmidt polytope was the only known simplicial example exhibiting these properties. By Smith theory, these polytopes have noncontractible realization spaces. Finally, we establish that every Bier sphere with at most $12$ vertices is polytopal.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07233v1",
+        "pdf": "https://arxiv.org/pdf/2608.07233v1",
+        "source": "https://export.arxiv.org/e-print/2608.07233v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 5,
+        "lemmas": 2,
+        "propositions": 7,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 18,
+        "bibliography_entries": 45,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file NonCSPolytopalBier08072026.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nates. We then provided Claude’s code to GPT-5.6 Sol (OpenAI), which implemented the same algorithm (with adjustments to the objective function and related parameters) for the sampled higher-dimensional spheres satisfying Theorem 3.4. The AI-generated code can be found in the ai_generated_code folder in [HY26]. The key steps of the algorithm are described in Sections 4.1 and 4.2. We note that the ap- proach of finding a convex realization using Theorem 4.1 is well established in the lit",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T04:59:43.848243Z"
+      },
+      "score": 176,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 88,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 13,
+          "theorems": 30,
+          "lemmas": 8,
+          "propositions": 28,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 4.5,
+          "bibliography_entries": 4.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07198",
       "version": 1,
       "title": "Heath-Brown identities for fractional powers of $ζ$",
