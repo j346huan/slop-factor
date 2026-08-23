@@ -8514,6 +8514,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09701",
+      "version": 1,
+      "title": "Tor and Ext vanishing results for commutative Artinian rings",
+      "authors": [
+        "Bernhard Böhmler",
+        "Rene Marczinzik"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": [
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T15:06:14Z",
+        "updated": "2026-08-10T15:06:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give a negative answer to a question of Avramov, Buchweitz and Şega by constructing a commutative local finite-dimensional non-Gorenstein algebra $R$ with $\\operatorname{Ext}_R^1(D(R),R)=0$; this question is related to the first Tachikawa conjecture. We also give a counterexample to a conjecture of Huneke, Şega and Vraciu on Tor vanishing over commutative finite-dimensional algebras. Finally, we construct a finite-dimensional commutative local self-injective algebra $R$ over $\\mathbb{F}_2$ and an indecomposable non-projective $R$-module $M$ such that $\\operatorname{Ext}_R^1(M,M)=\\operatorname{Ext}_R^2(M,M)=0$, related to the second Tachikawa conjecture and answering a question of Dao.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09701v1",
+        "pdf": "https://arxiv.org/pdf/2608.09701v1",
+        "source": "https://export.arxiv.org/e-print/2608.09701v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 6,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 84,
+        "bibliography_entries": 32,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Mainfilenew_revised_1_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nal commutative local Gorenstein F2 -algebra R admitting an indecomposable non-projective R-module M such that ExtiR (M, M ) = 0 for i = 1, 2. We display the concrete algebra R and module M , which were also found with the assistance of ChatGPT, in Section 3, together with Magma code verifying the theorem. This also resolves a problem in the literature that had remained open for nearly 20 years. In [LH, Theorem 4.6] a result was presented that would imply that if R is a commutati",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:06.746953Z"
+      },
+      "score": 742,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 74.2,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 14,
+          "theorems": 36,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 21,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09649",
       "version": 1,
       "title": "A pyramid with a Ramsey base is Ramsey",
