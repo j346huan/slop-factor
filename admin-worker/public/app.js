@@ -1,6 +1,7 @@
 import { buildPendingExport, validateDecisionInput } from "./decisions.js";
 
 const state = {
+  approvedIds: new Set(),
   candidates: [],
   latestAvailable: null,
   selected: null,
@@ -73,10 +74,24 @@ const elements = Object.fromEntries(
 );
 
 async function api(path, options = {}) {
-  const response = await fetch(path, {
-    ...options,
-    headers: { "Content-Type": "application/json", ...(options.headers ?? {}) },
-  });
+  let response;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    response = await fetch(path, {
+      ...options,
+      headers: {
+        "Content-Type": "application/json",
+        ...(options.headers ?? {}),
+      },
+    });
+    const retryable = !options.method || options.method === "GET";
+    if (
+      !retryable ||
+      ![502, 503, 504].includes(response.status) ||
+      attempt === 2
+    )
+      break;
+    await new Promise((resolve) => setTimeout(resolve, 500 * 2 ** attempt));
+  }
   if (response.status === 401) {
     window.location.assign("/auth/start");
     throw new Error("Authentication required");
@@ -89,8 +104,13 @@ async function api(path, options = {}) {
             ? `Administrator request failed (${response.status})`
             : await response.text(),
       };
-  if (!response.ok)
-    throw new Error(payload.error || `Request failed (${response.status})`);
+  if (!response.ok) {
+    const error = new Error(
+      payload.error || `Request failed (${response.status})`,
+    );
+    error.status = response.status;
+    throw error;
+  }
   return payload;
 }
 
@@ -131,11 +151,14 @@ async function applyDecisionFile(file) {
   } catch {
     throw new Error("Decision file is not valid JSON");
   }
-  await loadCandidates();
   const { decisions, skipped, errors } = validatedDecisions(value);
   const failures = [...errors];
   let applied = 0;
-  for (const item of decisions) {
+  let deferred = 0;
+  for (const [index, item] of decisions.entries()) {
+    if (index > 0) {
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+    }
     try {
       if (item.decision === "reject") {
         await api(`/api/candidates/${item.candidate.issueNumber}/reject`, {
@@ -162,16 +185,28 @@ async function applyDecisionFile(file) {
       }
       applied += 1;
     } catch (error) {
+      const message = error instanceof Error ? error.message : "Request failed";
+      const rateLimited =
+        error?.status === 429 ||
+        message.toLowerCase().includes("secondary rate limit");
+      if (rateLimited) {
+        deferred = decisions.length - index;
+        showNotice(
+          `GitHub temporarily limited writes. Applied ${applied}; ${deferred} deferred. Upload the same file later to resume.`,
+          "error",
+        );
+        break;
+      }
       failures.push({
         arxiv_id: item.candidate.candidate_id,
-        error: error instanceof Error ? error.message : "Request failed",
+        error: message,
       });
     }
   }
   elements["status-filter"].value = "pending";
   renderCandidates();
-  await loadCandidates();
-  const summary = `Applied ${applied}; skipped ${skipped.length}; failed ${failures.length}.`;
+  renderCandidateCounts();
+  const summary = `Applied ${applied}; skipped ${skipped.length}; failed ${failures.length}; deferred ${deferred}.`;
   const details = failures
     .map(
       (failure) =>
@@ -496,9 +531,7 @@ async function retryPublishing(candidate) {
   }
 }
 
-async function loadCandidates() {
-  const payload = await api("/api/candidates");
-  state.candidates = payload.candidates;
+function renderCandidateCounts() {
   for (const status of [
     "pending",
     "approval-submitted",
@@ -511,6 +544,26 @@ async function loadCandidates() {
       state.candidates.filter((item) => item.status === status).length,
     );
   }
+}
+
+async function loadCandidates() {
+  const approved = await api("/api/approved-ids");
+  state.approvedIds = new Set(approved.approved_ids);
+  const candidates = [];
+  for (let page = 1; ; page += 1) {
+    const payload = await api(`/api/candidates?page=${page}`);
+    candidates.push(
+      ...payload.candidates.map((candidate) => ({
+        ...candidate,
+        status: state.approvedIds.has(candidate.candidate_id)
+          ? "approved"
+          : candidate.status,
+      })),
+    );
+    if (!payload.has_more) break;
+  }
+  state.candidates = candidates;
+  renderCandidateCounts();
   renderCandidates();
 }
 
@@ -554,7 +607,8 @@ async function loadScan() {
       }
     }, 5000);
   } else if (["completed", "failed"].includes(payload.scan?.status)) {
-    await Promise.all([loadCandidates(), loadScanHistory()]);
+    await loadCandidates();
+    await loadScanHistory();
   }
 }
 
@@ -595,7 +649,9 @@ async function initialize() {
     await api("/api/session");
     elements.account.hidden = false;
     elements.dashboard.hidden = false;
-    await Promise.all([loadCandidates(), loadScan(), loadScanHistory()]);
+    await loadCandidates();
+    await loadScan();
+    await loadScanHistory();
   } catch (error) {
     if (error.message.includes("Authentication required")) {
       elements["login-panel"].hidden = false;
