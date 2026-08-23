@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23357",
+      "version": 1,
+      "title": "Magnitude homology and Euler characteristics of directed acyclic graphs",
+      "authors": [
+        "Steve Huntsman"
+      ],
+      "categories": {
+        "primary": "math.AT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T20:46:30Z",
+        "updated": "2026-07-25T20:46:30Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a scalable approach to computing the magnitude homology Euler characteristic for directed acyclic graphs based on decategorification. Along with motivating mathematical results and some simple controlled examples, we deploy the Euler characteristic in a proof of concept application to the dynamic analysis of multilayer perceptrons, recovering class-discriminative structure while holding simpler subgraph properties fixed.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23357v1",
+        "pdf": "https://arxiv.org/pdf/2607.23357v1",
+        "source": "https://export.arxiv.org/e-print/2607.23357v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 26,
+        "bibliography_entries": 156,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file MHEC.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "les across directions: one possibility is to stipulate a normalized quantized length along the Euclidean space directions. Acknowledgements Thanks to Evan Gorman, Giulia Menara, and Michael Robinson for illuminating conversations. I used Claude Opus to help find references, develop results, and to write the code in §A.1, but the responsibility for results, code, and for the writing itself are mine. This research was partially developed with funding from the Defense Advanced Research P",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:03.613231Z"
+      },
+      "score": 691,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 69.1,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 14,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 6.5,
+          "bibliography_entries": 15.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23196",
       "version": 1,
       "title": "A Fixed-Point Construction of the Elementary Transcendental Functions",
