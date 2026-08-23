@@ -41941,6 +41941,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27629",
+      "version": 1,
+      "title": "Curved Kakeya problems and the projective geometry of paths",
+      "authors": [
+        "Shaoming Guo",
+        "Larry Guth",
+        "Arian Nadjimzadah",
+        "Minxing Shen",
+        "Ruixiang Zhang"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math.DG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T03:38:02Z",
+        "updated": "2026-07-30T03:38:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce a general framework for curved Kakeya problems in $\\mathbb{R}^n$, encompassing those arising from Hörmander-type oscillatory integrals. Every family of curves determines a spray geometry, which allows us to use the projective geometry of paths in the study of curved Kakeya problems. We focus on the two extremes of the \"best\" and \"worst\" possible behaviors of curved Kakeya sets. We characterize when the incidence structure underlying Wolff's hairbrush argument persists. In particular, we prove that the existence of many totally geodesic surfaces, as required by Wolff's hairbrush argument, is equivalent to projective flatness of the associated spray. Within this projectively flat class, Bourgain's condition provides a clean dichotomy: when it holds, the family is direction-equivalent to a Bochner--Riesz type family of lines and satisfies the Katz--Wolff condition, and thus the Wang--Zahl result is applicable; when it fails, every totally geodesic surface supports a two-dimensional Kakeya set. We also show that under an extra semi-algebraic assumption, a family of curves in $\\mathbb{R}^3$ admits a curved Kakeya set of Hausdorff dimension $2$ if and only if it admits a curved Kakeya set contained in a surface. Equivalently, if this compression is absent, every associated curved Kakeya set has dimension strictly greater than $2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27629v1",
+        "pdf": "https://arxiv.org/pdf/2607.27629v1",
+        "source": "https://export.arxiv.org/e-print/2607.27629v1"
+      },
+      "structural_counts": {
+        "pages": 90,
+        "theorems": 9,
+        "lemmas": 8,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 25,
+        "displayed_equations": 598,
+        "bibliography_entries": 40,
+        "appendix_pages": 66
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file pathGeometryKakeya_arxiv_V1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "would like to thank Terry Tao for helpful discussions throughout the project, and in particular for suggesting the main idea of the proof of Theorem 1.33 Part 2. The proofs of Lemma 9.3 and Lemma 10.3 were developed with the assistance of ChatGPT Pro 5.5, and were independently checked by the authors, who take full responsibility for their correctness. ChatGPT Pro 5.5 was also used for minor editing and proofreading throughout the paper. References [BCR98] Jacek Bochnak, Mich",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 88",
+          "page": 88
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:07.325447Z"
+      },
+      "score": 4212,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 526.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 90,
+          "theorems": 54,
+          "lemmas": 32,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 50,
+          "displayed_equations": 149.5,
+          "bibliography_entries": 4,
+          "appendix_pages": 132
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27605",
       "version": 2,
       "title": "Radial Hyperbolic Measures: Shell Geometry, Pyramid Limits, and Gaussian Phase Transitions",
