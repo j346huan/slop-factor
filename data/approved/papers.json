@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27605",
+      "version": 2,
+      "title": "Radial Hyperbolic Measures: Shell Geometry, Pyramid Limits, and Gaussian Phase Transitions",
+      "authors": [
+        "Shigeaki Yokota"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T02:49:56Z",
+        "updated": "2026-08-13T01:16:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In high-dimensional hyperbolic space, concentration of a radial measure near a shell need not determine the pyramid limit: angular concentration and hyperbolic expansion alter separation. An effective radius is the scale on which positive-mass sets actually separate, which the raw radius need not give. With vanishing rescaling and radial fluctuations, radius convergence gives weak convergence to the pyramid of all metric measure spaces with the resulting diameter bound. At modal radial Gibbs shells, exponential decay of intrinsic shell curvature and dimension-normalized tangential Bakry-Émery Ricci curvature recovers the radius. The Gaussian intrinsic to hyperbolic volume and that obtained by wrapping a Euclidean Gaussian have different critical orders. They are Lévy below those orders, infinitely dissipate above them, and at criticality converge to the corresponding diameter-bounded pyramids.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27605v2",
+        "pdf": "https://arxiv.org/pdf/2607.27605v2",
+        "source": "https://export.arxiv.org/e-print/2607.27605v2"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 7,
+        "lemmas": 2,
+        "propositions": 7,
+        "corollaries": 3,
+        "definitions": 3,
+        "displayed_equations": 153,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file hyperbolic-gaussians.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "shing of the ambient curvature or of the full weighted- Ricci tensor. Acknowledgments The author would like to thank Professor Takashi Shioya for many helpful sugges- tions and guidance. The author used Claude, GPT-5.5, and GPT-5.6-series Codex models as AI-assisted tools in preparing this manuscript. The author reviewed and revised the mathematical content and takes full responsibility for the final text.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:45.884292Z"
+      },
+      "score": 1217.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 152.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 20,
+          "theorems": 42,
+          "lemmas": 8,
+          "propositions": 28,
+          "corollaries": 9,
+          "definitions": 6,
+          "displayed_equations": 38.25,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27471",
       "version": 1,
       "title": "Residual-Driven Lifting Identification for Nonlinear-Manifold Reduced-Order Models of Parametrized Linear PDEs",
