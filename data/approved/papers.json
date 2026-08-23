@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14071",
+      "version": 3,
+      "title": "Strongly complete sets and a conjecture of Erdős",
+      "authors": [
+        "Steve Fan"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-15T17:41:22Z",
+        "updated": "2026-07-25T05:58:34Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A set $A\\subseteq\\mathbb{N}$ is called $\\textit{complete}$ if every sufficiently large integer can be written as a sum of distinct elements of $A$. It is $\\textit{strongly complete}$ if it remains complete after one deletes finitely many elements from it. We show that $A\\subseteq\\mathbb{N}$ is strongly complete whenever \\[ \\big|A\\cap(2^k,2^{k+1}]\\big|\\ge6 \\] for every sufficiently large $k\\in\\mathbb{N}$, and \\[ \\sum_{a\\in A}\\|aθ\\|=\\infty, \\quad\\forallθ\\in\\mathbb{R}\\setminus\\mathbb{Z}. \\] In particular, this resolves a 1961 conjecture of Erdős. The proof builds on previous work of Bergelson and Simmons. In fact, our approach allows us to establish a more general strong-completeness criterion with suitable ordered blocks in place of dyadic intervals. We also discuss some applications of our results as well as their connections to a few other interesting problems, including two completeness problems of Erdős and Graham.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14071v3",
+        "pdf": "https://arxiv.org/pdf/2607.14071v3",
+        "source": "https://export.arxiv.org/e-print/2607.14071v3"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 119,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file completeness.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ") is complete for every (t, α) ∈ (0, ∞) × (1, φ). Most recently, Doorn [8] closed the case α ≥ φ and proved several partial results concerning the complementary range 1 < α < φ. AI disclosure ChatGPT 5.6 was used for proofreading the manuscript. It also suggested a core idea underlying the current shorter and more elegant proof of Lemma 3.2 which replaced the author’s original probabilistic argument. All other mathematical ideas and ar",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:23.386959Z"
+      },
+      "score": 104.35,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 104.35,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 16,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 29.75,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14038",
       "version": 1,
       "title": "Local and global average degree in bipartite graphs",
