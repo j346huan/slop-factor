@@ -41859,6 +41859,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01040",
+      "version": 2,
+      "title": "The equality case of Ehrhart's volume conjecture",
+      "authors": [
+        "Jihao Liu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.AG",
+          "math.CV"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T06:54:11Z",
+        "updated": "2026-08-06T08:48:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that every full-dimensional compact convex body in $\\mathbb R^n$ whose barycenter is its unique interior lattice point and whose volume is $(n+1)^n/n!$ is a unimodular image of the simplex $(n+1)Δ_n-(1,\\dots,1)$. This resolves the equality case of Ehrhart's volume conjecture, as a counterpart of the inequality part recently proved by OpenAI. The main result of this paper is obtained by generative AI, particularly GPT-5.6-sol, Fable 5, and the Danus system.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01040v2",
+        "pdf": "https://arxiv.org/pdf/2608.01040v2",
+        "source": "https://export.arxiv.org/e-print/2608.01040v2"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 11,
+        "lemmas": 21,
+        "propositions": 6,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 111,
+        "bibliography_entries": 34,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Ehrhart_volume_v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the mechanisms of the second half, for which no correspondence was available, on its own, and produced the complete proof, internally verified by the system’s proof-checking pipeline, in 3 hours and 16 minutes. Discussions with Fable 5 and GPT-5.6-sol-ultra also assisted the author in quickly grasping the methodology of the proof of [OAI26, Chapter 8, Theorem 1.1]. Human verification and polishing were done afterwards. We do not know whether the Danus system, at intermediate steps o",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:07.125735Z"
+      },
+      "score": 1905.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 238.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 30,
+          "theorems": 66,
+          "lemmas": 84,
+          "propositions": 24,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 27.75,
+          "bibliography_entries": 3.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01037",
       "version": 2,
       "title": "On Riemannian Geometry in Elastic Diffeology",
