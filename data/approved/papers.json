@@ -8509,6 +8509,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15845",
+      "version": 2,
+      "title": "Weighted singular vectors in common-base self-similar sets",
+      "authors": [
+        "Taehyeong Kim",
+        "Jaemin Park"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T16:32:15Z",
+        "updated": "2026-08-20T05:21:25Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a lower bound for the Hausdorff dimension of weighted totally irrational singular vectors in affine-spanning common-base integral self-similar sets satisfying the open set condition. For the middle-third Cantor square, the bound improves the previously known explicit lower bound.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15845v2",
+        "pdf": "https://arxiv.org/pdf/2608.15845v2",
+        "source": "https://export.arxiv.org/e-print/2608.15845v2"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 2,
+        "lemmas": 4,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 3,
+        "displayed_equations": 85,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file weighted-singular-vectors-cantor-products-totally-irrational.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "affine hyperplanes. Section 3 derives the approximation supplied by a constant-symbol block. The block construction is carried out in Section 4, and the required parameter estimates are proved in Section 5. Use of artificial intelligence. OpenAI Codex was used as an auxiliary tool in checking selected calculations and arguments and in refining the exposition. The authors independently verified every mathematical argument, determined the final content and wording, and take full res",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:20.030428Z"
+      },
+      "score": 655.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 81.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 15,
+          "theorems": 12,
+          "lemmas": 16,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 6,
+          "displayed_equations": 21.25,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15813",
       "version": 1,
       "title": "Quasianalyticity and geometric rigidity in anisotropic Calderón's problem",
