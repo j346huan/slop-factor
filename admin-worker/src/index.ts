@@ -251,25 +251,38 @@ async function github<T>(
   method = "GET",
   body?: unknown,
 ): Promise<T> {
-  const response = await fetch(`https://api.github.com${path}`, {
-    method,
-    headers: {
-      Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json",
-      "User-Agent": "slop-factor-admin/0.1",
-      "X-GitHub-Api-Version": API_VERSION,
-    },
-    body: body === undefined ? undefined : JSON.stringify(body),
-  });
-  if (!response.ok) {
-    const details = await response.text();
-    throw new Error(
-      `GitHub API returned ${response.status}: ${details.slice(0, 300)}`,
-    );
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    const response = await fetch(`https://api.github.com${path}`, {
+      method,
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+        "User-Agent": "slop-factor-admin/0.1",
+        "X-GitHub-Api-Version": API_VERSION,
+      },
+      body: body === undefined ? undefined : JSON.stringify(body),
+    });
+    if (!response.ok) {
+      const details = await response.text();
+      throw new Error(
+        `GitHub API returned ${response.status}: ${details.slice(0, 300)}`,
+      );
+    }
+    if (response.status === 204) return undefined as T;
+    const text = await response.text();
+    if (text.trim()) {
+      try {
+        return JSON.parse(text) as T;
+      } catch {
+        throw new Error(`GitHub API returned invalid JSON for ${path}`);
+      }
+    }
+    if (method !== "GET" || attempt > 0) {
+      throw new Error(`GitHub API returned an empty response for ${path}`);
+    }
   }
-  if (response.status === 204) return undefined as T;
-  return response.json() as Promise<T>;
+  throw new Error(`GitHub API returned an empty response for ${path}`);
 }
 
 async function githubPages<T>(token: string, path: string): Promise<T[]> {
@@ -941,12 +954,20 @@ async function authentication(
         }),
       },
     );
-    const result = (await response.json()) as {
+    const resultText = await response.text();
+    let result: {
       access_token?: string;
       error_description?: string;
       expires_in?: number;
       scope?: string;
     };
+    try {
+      result = JSON.parse(resultText) as typeof result;
+    } catch {
+      return new Response("GitHub authorization returned an empty response", {
+        status: 502,
+      });
+    }
     if (!result.access_token) {
       return new Response(
         result.error_description ?? "GitHub authorization failed",
