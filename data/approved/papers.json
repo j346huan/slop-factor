@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19251",
+      "version": 1,
+      "title": "Basic properties of kappa classes",
+      "authors": [
+        "Valery Alexeev"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T16:20:12Z",
+        "updated": "2026-07-21T16:20:12Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We define kappa classes on KSBA moduli stacks as classes in operational Chow cohomology. They generalize the Miller-Morita-Mumford classes on the moduli spaces of curves. We prove base-change compatibility, product and normalization formulas, and crepant functoriality, together with the vanishing of all kappa polynomials above the variation. The higher kappa classes are nonnegative on effective cycles, and the largest index of a numerically nontrivial kappa class equals the normalized variation, while the first kappa class detects the total variation. As the boundary coefficients vary, the classes are chamberwise polynomial and compatible under operational wall crossing. Finally, every positive-degree kappa class is a rational multiple of a single Chern class of a natural virtual vector bundle.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19251v1",
+        "pdf": "https://arxiv.org/pdf/2607.19251v1",
+        "source": "https://export.arxiv.org/e-print/2607.19251v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 8,
+        "lemmas": 5,
+        "propositions": 10,
+        "corollaries": 11,
+        "definitions": 9,
+        "displayed_equations": 195,
+        "bibliography_entries": 2,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "iety is an integral separated scheme. Throughout, every index r occurring in a kappa class or in a related formula is a nonnegative integer. Acknowledgements. During the development of this paper, the author used ver- sions 5.5 and 5.6 of OpenAI’s ChatGPT as an interactive research aid for brain- storming possible proof strategies, criticizing preliminary arguments, and identify- ing potentially relevant literature. All references suggested by the tool were inde- pendently located, read, an",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:40.146405Z"
+      },
+      "score": 1879.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 234.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 27,
+          "theorems": 48,
+          "lemmas": 20,
+          "propositions": 40,
+          "corollaries": 33,
+          "definitions": 18,
+          "displayed_equations": 48.75,
+          "bibliography_entries": 0.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19075",
       "version": 1,
       "title": "From Operations to Elderly Care Outcomes: A Thematic Review of Industrial Engineering and Decision-Support Approaches",
