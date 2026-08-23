@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15914",
+      "version": 1,
+      "title": "Absorption cutoff and stationary singularities for rounded Gaussian random dynamical systems",
+      "authors": [
+        "Benny Avelin"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-16T20:02:27Z",
+        "updated": "2026-08-16T20:02:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study Gaussian random dynamical systems with coordinatewise $\\tanh$ nonlinearity, where finite precision is modeled by nearest-grid rounding after each step. Gaussian symmetry reduces the dynamics to an exact Markov chain for the normalized squared radius. Rounding makes the origin absorbing, and the total variation distance to the absorbing equilibrium equals the survival probability of the absorption time. At fixed width, we identify the critical gain and prove an absorption cutoff with Gaussian profile as the mesh tends to zero. At fixed precision, global contraction yields a large-dimension absorption cutoff, while positive drift produces metastability. In the supercritical regime, we prove a large-dimension cutoff to a nonzero invariant law and show that, at fixed dimension, its mass near the repelling origin has a power-law asymptotic. All six main results are formalized in Lean 4 on top of Mathlib and independently checked against restatements that import only Mathlib.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15914v1",
+        "pdf": "https://arxiv.org/pdf/2608.15914v1",
+        "source": "https://export.arxiv.org/e-print/2608.15914v1"
+      },
+      "structural_counts": {
+        "pages": 72,
+        "theorems": 7,
+        "lemmas": 20,
+        "propositions": 13,
+        "corollaries": 2,
+        "definitions": 3,
+        "displayed_equations": 531,
+        "bibliography_entries": 38,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Nash–Moser theory by Armstrong and Kempe [AK26a], and of coarse-graining theory for elliptic equations by Armstrong and Kuusi [AK26b]. The development was produced by autoformalization. Under the author’s supervision, OpenAI’s ChatGPT and Anthropic’s Claude generated the proofs from the arguments of this paper. The Lean kernel checks every definition, statement, and proof in the production library against Mathlib. 1.6. Proof overview and organization. To prove Theorem 1.4, we couple Y pN q t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:31.456759Z"
+      },
+      "score": 3550.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 394.55,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 72,
+          "theorems": 42,
+          "lemmas": 80,
+          "propositions": 52,
+          "corollaries": 6,
+          "definitions": 6,
+          "displayed_equations": 132.75,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15904",
       "version": 1,
       "title": "A finite-order characterization of entrywise positivity preservers",
