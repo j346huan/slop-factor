@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27918",
+      "version": 1,
+      "title": "OptGraph: Large Language Models Enhanced Evolutionary Optimization Via Graph Retrieval-Augmented Generation",
+      "authors": [
+        "Xianchao Xiu",
+        "Jianhao Li",
+        "Huangyue Chen",
+        "Wanquan Liu"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T09:30:03Z",
+        "updated": "2026-07-30T09:30:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Large language models (LLMs) have emerged as a powerful tool for automated evolutionary optimization, but existing methods remain limited in pattern reuse, error-aware refinement, and retrieval robustness across diverse tasks. To address these limitations, we propose OptGraph, the first optimization agentic workflow that introduces graph retrieval-augmented generation (GraphRAG). Specifically, OptGraph first constructs reusable experience as a typed graph, capturing the relationships among modeling patterns, problem formalization, implementation details, and error corrections. In the inference stage, OptGraph leverages graph neighborhood information to enrich retrieved knowledge, providing structured context to improve modeling, verification, and iterative refinement. Moreover, OptGraph supports adaptive knowledge updates, enabling the distillation of execution traces and verification feedback into reusable graph knowledge without ndertaking LLM parameter tuning. Extensive experiments on benchmark datasets show that our proposed OptGraph achieves an average exact accuracy 8.9% higher than the state-of-the-art prompt-based automated optimization frameworks. Our code has been made available at https://github.com/xianchaoxiu/OptGraph.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27918v1",
+        "pdf": "https://arxiv.org/pdf/2607.27918v1",
+        "source": "https://export.arxiv.org/e-print/2607.27918v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 18,
+        "bibliography_entries": 70,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file OptGraph.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "is retrieved to section IV-B gives the main results, Subsection IV-C shows guide modeling, validation, repair, and graph updating. the ablation studies, Subsection IV-D discusses the plug-and- We would like to point out that GPT-5.1 is utilized for play analysis, limitations of naive RAG, effects of validation Step 1, Step 2, and Step 4, covering GraphRAG construc- rounds, and computational cost. tion, knowledge modeling, and Graph",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:22.653550Z"
+      },
+      "score": 67.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 22.5,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 11,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 4.5,
+          "bibliography_entries": 7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27872",
       "version": 1,
       "title": "The nucleus of a semisymmetric quasigroup",
