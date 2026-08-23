@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11598",
+      "version": 1,
+      "title": "Sobriety of Regular Open Algebras in Second-Countable T3 Spaces",
+      "authors": [
+        "Xiaoyong Xi",
+        "Chong Shen",
+        "Dongsheng Zhao"
+      ],
+      "categories": {
+        "primary": "math.GN",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T03:08:56Z",
+        "updated": "2026-08-12T03:08:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a topological space X, let RO(X) be the complete Boolean algebra of regular open subsets of X, ordered by inclusion. We prove that, for every second-countable T3 space X, the Scott space of RO(X) is sober if and only if the set of all isolated points of X is dense in X. Consequently, RO$(\\mathbb R^n)$ is not sober for every positive integer $n$. In particular, RO$(\\mathbb R)$ is not sober, which provides an answer to an open problem concerning the sobriety of complete Boolean algebras. This characterization also yields a systematic way to obtain more natural examples of complete lattices whose Scott spaces are non-sober.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11598v1",
+        "pdf": "https://arxiv.org/pdf/2608.11598v1",
+        "source": "https://export.arxiv.org/e-print/2608.11598v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 5,
+        "lemmas": 10,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 3,
+        "displayed_equations": 64,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file rox_sobriety.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "BK20241086, BK20241087). Declaration of interests: The authors declare that they have no known competing ﬁnancial interests or personal relationships that could have appeared to inﬂuence the work reported in this paper. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used ChatGPT (OpenAI) to assist with language reﬁnement, manuscript organization, and literature review. After using",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:47.981066Z"
+      },
+      "score": 469.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 117.3,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 14,
+          "theorems": 30,
+          "lemmas": 40,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 6,
+          "displayed_equations": 16,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11586",
       "version": 1,
       "title": "Higher Regularity of Homogeneous Gradient Compositions for $p$-Laplace-Type Equations",
