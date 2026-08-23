@@ -8423,6 +8423,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17669",
+      "version": 1,
+      "title": "A Characterization of Measures of Concordance of Degree Two",
+      "authors": [
+        "Takaaki Koike",
+        "Haruki Tsunekawa"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T11:41:03Z",
+        "updated": "2026-08-18T11:41:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We characterize bivariate measures of concordance of degree at most two in the sense that the measures evaluated at copula-mixture segments are polynomials of degree at most two. Our main device is the canonical polarization, which converts quadraticity of a functional into separate affinity, thereby allowing an integral representation for affine functionals to be applied sectionwise. Using this technique, we prove that measures of degree at most two are in bijection with copula-indexed measure fields satisfying several properties including square-group equivariance. The field at independence determines the affine linearization, while its displacement determines the purely quadratic part. Moreover, exact degree two is equivalent to field non-constancy. Leveraging our characterization result, we provide a construction of degree-two measures of concordance based on affine copula operators that are square-group equivariant. As a more concrete example, we derive a necessary and sufficient condition for a weighted averaging operator of square-group transformed copulas to generate a measure of concordance of degree two.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17669v1",
+        "pdf": "https://arxiv.org/pdf/2608.17669v1",
+        "source": "https://export.arxiv.org/e-print/2608.17669v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 2,
+        "lemmas": 4,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 4,
+        "displayed_equations": 105,
+        "bibliography_entries": 42,
+        "appendix_pages": 18
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used ChatGPT (GPT-5.6 Sol; OpenAI) and Claude (Claude Fable 5; Anthropic) to improve the language, clarity, and readability of the manuscript, support the refinement and presentation of ideas, and identify possible errors, gaps, or inconsistencies in mathematical statements and proofs. The authors independently",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:47.413292Z"
+      },
+      "score": 157.45,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 157.45,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 29,
+          "theorems": 12,
+          "lemmas": 16,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 8,
+          "displayed_equations": 26.25,
+          "bibliography_entries": 4.2,
+          "appendix_pages": 36
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17606",
       "version": 1,
       "title": "Delannoy--Steinhaus triangles over $\\mathbb{Z}/2\\mathbb{Z}$: weight spectrum, balanced triangles, and extremal values",
