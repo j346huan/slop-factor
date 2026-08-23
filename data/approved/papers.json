@@ -8510,6 +8510,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14098",
+      "version": 1,
+      "title": "Kostant--Kumar modules: presentation and multiplicities",
+      "authors": [
+        "Manika Gupta",
+        "K. N. Raghavan",
+        "Sankaran Viswanath"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T09:00:45Z",
+        "updated": "2026-08-14T09:00:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Kostant--Kumar modules $K(λ,w,μ)$ are submodules of a tensor product $V(λ)\\otimes V(μ)$ of irreducible highest weight modules over a symmetrizable Kac--Moody algebra, indexed by Weyl group elements $w$; their decomposition numbers $c^ν_{λμ}(w)$ refine ordinary tensor product multiplicities. We study them module-theoretically. We show that $c^ν_{λμ}(w)$ is computed by a natural quotient of the Kostant--Parthasarathy--Ranga Rao--Varadarajan multiplicity space, via orthogonal projection onto a Demazure module. For $\\mathfrak{g}$ finite-dimensional semisimple or symmetric Kac--Moody, we present $K(λ,w,μ)$ by generators and relations, extending the presentation of Demazure modules due to Joseph, Polo and Mathieu. We apply the presentation to obtain upper bounds on $c^ν_{λμ}(w)$ and to study Schur positivity.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14098v1",
+        "pdf": "https://arxiv.org/pdf/2608.14098v1",
+        "source": "https://export.arxiv.org/e-print/2608.14098v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 4,
+        "lemmas": 7,
+        "propositions": 17,
+        "corollaries": 3,
+        "definitions": 1,
+        "displayed_equations": 60,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv-version.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ion 4.2 and proved through a sequence of reductions culminating in Section 4.10. Tensor envelopes, canonical morphisms and the Schur-positivity results of Part III are developed in Sections 5–6. Tool and computational resource disclosure: LLMs were used during the writing process to polish sentences, find typos and check references. The mathematics in this paper was entirely human-produced, with no involvement of AI tools at any stage. Sagemath [Sag25] was employed to compute ex",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:00.258756Z"
+      },
+      "score": 176,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 176,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 27,
+          "theorems": 24,
+          "lemmas": 28,
+          "propositions": 68,
+          "corollaries": 9,
+          "definitions": 2,
+          "displayed_equations": 15,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14080",
       "version": 1,
       "title": "Scrollar invariants of singular curves on toric surfaces",
