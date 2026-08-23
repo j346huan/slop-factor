@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08943",
+      "version": 1,
+      "title": "Countable compactness in powers of topological groups and Ramsey theoretic variations of compactness",
+      "authors": [
+        "Vinicius de Oliveira Rodrigues",
+        "Paul Jan Szeptycki",
+        "Artur Hideyuki Tomita"
+      ],
+      "categories": {
+        "primary": "math.GN",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-09T22:41:17Z",
+        "updated": "2026-08-09T22:41:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Countable compactness need not be preserved by finite products. Motivated by compactness notions for maps indexed by finite subsets of $ω$, we introduce cascade countable compactness for arbitrary barriers. For $\\mathcal B=[ω]^2$, this is the previously studied notion of being doubly countably compact. We show that, in ZFC, if $G$ is a Hausdorff topological group and $1\\leq k<ω$, then $k$-cascade countable compactness of $G$ implies that $G^k$ is countably compact. Cascade countable compactness for the Schreier barrier implies that $G^ω$ is countably compact. In contrast, we construct a Tychonoff space that is $n$-cascade countably compact for every $n<ω$ but has a non-countably compact square, and a Hausdorff Boolean group $H$ that is $\\mathcal B$-countably compact for every barrier $\\mathcal B$ but whose square is not countably compact. We also construct a Hausdorff Boolean group without nontrivial convergent sequences that is $\\mathcal B$-cascade countably compact for every barrier $\\mathcal B$. Finally, we obtain a subspace $X\\subseteqβω$ such that $X^κ$ is $n$-cascade countably compact for every $κ<\\mathfrak h$ and every $n<ω$, whereas $\\exp X$ is not pseudocompact.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08943v1",
+        "pdf": "https://arxiv.org/pdf/2608.08943v1",
+        "source": "https://export.arxiv.org/e-print/2608.08943v1"
+      },
+      "structural_counts": {
+        "pages": 44,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 40,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ation (FAPESP), Brazil. Process Number 2025/07302-0. AI disclaimer. The authors employed artificial intelligence tools for editorial pur- poses, including suggestions on grammar, clarity, organization, and proofreading. The model used was OpenAI’s ChatGPT 5.4 Thinking. All suggestions made by the model were carefully reviewed and edited by the authors. All definitions, statements, proofs, and final decisions were made and verified by the authors, who take full responsibility for the fina",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 42",
+          "page": 42
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:06:39.753557Z"
+      },
+      "score": 48,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 48,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 44,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08914",
       "version": 1,
       "title": "All Polyominoes are $C_4$-face-magic",
