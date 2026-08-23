@@ -8423,6 +8423,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12315",
+      "version": 1,
+      "title": "On the optimal constant in the Montgomery-Vaughan weighted Hilbert inequality",
+      "authors": [
+        "Brad Rodgers"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T17:58:09Z",
+        "updated": "2026-08-12T17:58:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give a proof that the optimal constant in the weighted Hilbert inequality is strictly greater than $π$, answering in the negative a question asked by Montgomery and Vaughan. The proof proceeds via an explicit limiting counterexample.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12315v1",
+        "pdf": "https://arxiv.org/pdf/2608.12315v1",
+        "source": "https://export.arxiv.org/e-print/2608.12315v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 25,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file weightedHilbert_arxiv.Aug12.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "pitality. Use of large language models. ChatGPT 5.6 Sol has been used in this proof. The numerical experiments described in Remark 2.3 formed the start of this project. These began in 2024 but it was only recently that programs written by ChatGPT 5.6 Sol uncovered unexpected high-dimensional behavior. A further back and forth about these numerics led ultimately to the proof of Theorem 1.1 given in Section 2. The proof that appears here is a modification and simplification of a proo",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:04.925494Z"
+      },
+      "score": 194.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 19.45,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 6.25,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12280",
       "version": 1,
       "title": "Grothendieck's theorem for Bessel sequences",
