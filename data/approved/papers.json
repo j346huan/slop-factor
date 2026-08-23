@@ -8514,6 +8514,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14487",
+      "version": 1,
+      "title": "Flattening and asymptotic orthogonalization of completely positive maps",
+      "authors": [
+        "Yoonje Jeong"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T17:03:13Z",
+        "updated": "2026-08-14T17:03:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $M$ be a $\\mathrm{II}_1$ factor, $N$ a tracial von Neumann algebra, and $Φ: M \\rightarrow N$ a subtracial completely positive map. For an irreducible $\\mathrm{II}_1$ subfactor $P \\subseteq M$, we characterize when $Φ$ exhibits a flattening property under conjugation by unitaries in $P$. To be specific, we show that the failure of a Pimsner-Popa type inequality for $E_P \\circ Φ^* \\circ Φ$ is the precise obstruction, equivalently characterized by left weak mixing of a naturally associated $P$-$N$ bimodule. As an application, we obtain an asymptotic orthogonalization result generalizing a result of Popa.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14487v1",
+        "pdf": "https://arxiv.org/pdf/2608.14487v1",
+        "source": "https://export.arxiv.org/e-print/2608.14487v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 6,
+        "definitions": 5,
+        "displayed_equations": 135,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "with respect to the Maréchal topology. 1.2. Acknowledgements and AI tool disclosure. The author thanks his advisor Adrian Ioana for suggesting the problem studied in this paper and for his guidance throughout its development. Claude and ChatGPT were used for English language editing, proofreading, and grammatical corrections. In addition, the author used ChatGPT to identify a relevant paper [Cho96], which motivated the use of outer actions in constructing the finite-index example",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:43.193915Z"
+      },
+      "score": 229.1,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 114.55,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 15,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 18,
+          "definitions": 10,
+          "displayed_equations": 33.75,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14454",
       "version": 1,
       "title": "The Erdős distinct distances problem in $\\mathbb{R}^3$",
