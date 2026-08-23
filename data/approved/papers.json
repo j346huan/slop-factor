@@ -43118,6 +43118,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23567",
+      "version": 2,
+      "title": "Guarded Realization Semantics: Occurrence-Sensitive Certificates and Behavior-Dependent Lower Bounds",
+      "authors": [
+        "SeungJu Lee"
+      ],
+      "categories": {
+        "primary": "math.CT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T09:33:15Z",
+        "updated": "2026-08-08T05:55:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Distinct proofs, programs, formulas, or rewrite paths may have the same observable behavior while differing in occurrence structure, sharing, interfaces, or transformation history. We develop a guarded realization semantics that retains these distinctions when an error is extracted. The resulting error magnitude is bounded above by a certificate attached to the chosen realization and below by the greatest lower bound determined solely by the observed behavior. For linear double-pushout rewriting in a typed presheaf setting, we identify the greatest subobject transported intact through a rewrite step and through a finite rewrite path. Guarded local estimates compose to give pathwise upper certificates. At the set level, the complementary lower bound is the infimum of magnitudes in a behavior fiber. For non-discrete categories, it is given by a pointwise right Kan extension when that extension exists, and it reduces to the strict-fiber infimum under a Grothendieck fibration hypothesis. For continuous surjective linear observations onto finite-dimensional normed spaces, the lower reflection is the induced quotient norm. Applied to finitely many distinct characters on a compact metrizable abelian group, this yields an interpolation norm with an exact dual formula. Continuous and discrete Abel transfer theorems then convert observed coefficients into lower bounds for tail amplitudes, with consequences for Mellin transforms, generating functions, and normalized point-count errors of curves over finite fields. Under the stated guards and soundness hypotheses, every realization satisfies $Q(O(\\mathrm{Err}(r))) \\leq A(\\mathrm{Err}(r)) \\leq U(r)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23567v2",
+        "pdf": "https://arxiv.org/pdf/2607.23567v2",
+        "source": "https://export.arxiv.org/e-print/2607.23567v2"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 24,
+        "lemmas": 5,
+        "propositions": 35,
+        "corollaries": 25,
+        "definitions": 44,
+        "displayed_equations": 161,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file GRS.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "A Index of notation 35 Declaration The author used ChatGPT to generate parts of the proofs. A Index of notation S, R specification and realization categories E category of structured error objects Err (𝑟) error object extracted from real",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:11.752070Z"
+      },
+      "score": 4909.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 545.55,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 36,
+          "theorems": 144,
+          "lemmas": 20,
+          "propositions": 140,
+          "corollaries": 75,
+          "definitions": 88,
+          "displayed_equations": 40.25,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23540",
       "version": 1,
       "title": "Hilbert matrix norms on weighted Bergman spaces: even exponents and a counterexample to the beta formula",
