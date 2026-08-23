@@ -8601,6 +8601,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09062",
+      "version": 1,
+      "title": "Rickard's question on standard derived equivalences",
+      "authors": [
+        "Wei Hu",
+        "Changchang Xi",
+        "Jin Zhang"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.RA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T03:10:39Z",
+        "updated": "2026-08-10T03:10:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In 1991 Rickard asked whether every derived equivalence of algebras over a common field is standard. We construct a series of examples of non-standard derived equivalences, and thus answer the question negatively. Moreover, we give a necessary and sufficient condition for the question to be true.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09062v1",
+        "pdf": "https://arxiv.org/pdf/2608.09062v1",
+        "source": "https://export.arxiv.org/e-print/2608.09062v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 3,
+        "lemmas": 7,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 86,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arx-hxz.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "l- ogy in August 2026, a preliminary version of the work was completed. Xi is very grateful to Professor Zhicheng Feng for his invitation and warm hospitality. When considering the proof of Lemma 4.3 in the case A = k[x]/(x3 ), we asked ChatGPT Pro for help. It suggested a similar condition. References [1] K. K. Arnesen, R. Laking, D. Pauksztello, Morphisms between indecomposable complexes in the bounded derived catego",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:11.043502Z"
+      },
+      "score": 864.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 108.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 21,
+          "theorems": 18,
+          "lemmas": 28,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 21.5,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09022",
       "version": 1,
       "title": "Provable Parameter-Free Fixed-Point Algorithms with Linear Convergence Rates",
