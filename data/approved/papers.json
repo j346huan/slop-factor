@@ -42287,6 +42287,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28354",
+      "version": 1,
+      "title": "A Tale of Two Idempotents: Casselman-Shalika and Spherical Genericity",
+      "authors": [
+        "Yi Luo"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T15:23:40Z",
+        "updated": "2026-07-30T15:23:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give a self-contained Hecke-algebraic derivation of the Casselman-Shalika formula and J.-S. Li's genericity criterion for irreducible spherical representations of unramified groups, without using the unramified principal series or intertwining operators. The argument centers on the spherical and sign idempotents $e_K$ and $e_{\\mathrm{sgn}}$ of the Iwahori-Hecke algebra $\\mathcal{H}$. Their left ideals $\\mathcal{H}e_K=\\mathcal{A}e_K$ and $\\mathcal{H}e_{\\mathrm{sgn}}=\\mathcal{A}e_{\\mathrm{sgn}}$ are free of rank one over the Bernstein subalgebra $\\mathcal{A}$. Describing $e_K\\mathcal{H}e_K$ inside $\\mathcal{A}e_K$ recovers the Satake isomorphism. Describing $e_K\\mathcal{H}e_{\\mathrm{sgn}}$ inside $\\mathcal{A}e_{\\mathrm{sgn}}$ yields rank-one freeness of the $K$-invariants of the Gelfand-Graev representation and the Casselman-Shalika formula. Symmetrically, describing $e_{\\mathrm{sgn}}\\mathcal{H}e_K$ inside $\\mathcal{A}e_K$ determines when the sign-isotypic part of a spherical module is non-zero, and hence yields Li's genericity criterion.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28354v1",
+        "pdf": "https://arxiv.org/pdf/2607.28354v1",
+        "source": "https://export.arxiv.org/e-print/2607.28354v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 12,
+        "lemmas": 16,
+        "propositions": 5,
+        "corollaries": 4,
+        "definitions": 2,
+        "displayed_equations": 160,
+        "bibliography_entries": 31,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file quasi-split_paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "g the paper, the human author used AI tools at two levels. At the model level, Claude Opus 4.8, Claude Fable 5, and GPT 5.6-Sol were used. At the agent level, a custom agent built by the author for mathematical research was used along with Claude Code and Codex. These tools assisted with mathematical development, exposition, ci- tation checking, and proofreading. The human author verified all mathematical content and takes full responsibility for it. 2 Preliminaries 2.1 The",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:51.978605Z"
+      },
+      "score": 2008.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 251.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 36,
+          "theorems": 72,
+          "lemmas": 64,
+          "propositions": 20,
+          "corollaries": 12,
+          "definitions": 4,
+          "displayed_equations": 40,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28284",
       "version": 1,
       "title": "ROSA: Metric Amplification on Noisy Graphs with Theoretical Guarantees for Amplified Spectral Distances",
