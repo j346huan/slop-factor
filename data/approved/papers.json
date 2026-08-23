@@ -41863,6 +41863,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22912",
+      "version": 1,
+      "title": "Non-isomorphism of rings of integer-coefficient holomorphic functions on disks of varying radius",
+      "authors": [
+        "Jon Bannon",
+        "David Feldman"
+      ],
+      "categories": {
+        "primary": "math.RA",
+        "secondary": [
+          "math.CV",
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-24T21:00:02Z",
+        "updated": "2026-07-24T21:00:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $ρ\\in (0,1]$, let $R(ρ) = \\mathbb{Z}[[z]] \\cap O(B(0,ρ))$ denote the ring of power series with integer Taylor coefficients converging on the open disk $B(0,ρ)$. We prove that these rings are pairwise non-isomorphic as abstract rings. Three ingredients drive the proof: the ideal $(z)$ is the unique principal ideal with quotient $\\mathbb{Z}$, so any isomorphism sends $z$ to a generator $g$ of $(z)$; every isomorphism is substitution by $g$, because it respects the $(z)$-adic filtration; and a Hadamard gap series with a natural boundary at $|w| = ρ_1$ forces the image $g(B(0,ρ_2))$ into $B(0,ρ_1)$, after which the Schwarz lemma and integrality of coefficients force $g = \\pm z$ and $ρ_1 = ρ_2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22912v1",
+        "pdf": "https://arxiv.org/pdf/2607.22912v1",
+        "source": "https://export.arxiv.org/e-print/2607.22912v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 6,
+        "bibliography_entries": 3,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file nonisomorphism_rings.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ρ elementarily equivalent? (ii) Do there exist ring homomorphisms R(ρ1 ) → R(ρ2 ) for ρ1 ̸= ρ2 ? (iii) Is R(ρ) a Bézout domain? Declaration on the Use of Artificial Intelligence In preparing this paper, the authors made use of AI language model as- sistance (Claude) as a tool in the writing process—including LATEX prepa- ration and editing—and in exploratory work, such as proof-checking and verifying arguments. All mathematical content and results have been independently reviewed",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:31.283880Z"
+      },
+      "score": 294.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 36.8,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 1.5,
+          "bibliography_entries": 0.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22828",
       "version": 1,
       "title": "A Salem-Spencer-Type Construction for Large Subsets of Integer Grids with No Isosceles Right Triangles",
