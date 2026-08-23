@@ -42528,6 +42528,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23427",
+      "version": 1,
+      "title": "A note on Lata\\la's argument in SK model",
+      "authors": [
+        "Seiichiro Kusuoka",
+        "Shuta Nakajima"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-26T02:54:45Z",
+        "updated": "2026-07-26T02:54:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this note, we consider the Sherrington--Kirkpatrick model with deterministic external field. Let $q=q(β,h)$ denote the solution of the replica-symmetric self-consistency equation \\[ q=\\mathbb E\\tanh^2\\!\\left(h+β\\sqrt q\\,Z\\right), \\qquad Z\\sim N(0,1), \\] where $β$ and $h$ are inverse temperature and external field, respectively. By refining Lata\\la' s argument, previously limited to \\(β< \\frac{1}{2}\\), and using the Kearns--Saul inequality, we prove overlap concentration and convergence of the free energy to the replica symmetric formula with error \\(O(N^{-1})\\) whenever \\[ β^2\\frac{q}{{\\rm arctanh}q}<1. \\] Note that for any $β<1$ and $h\\in \\mathbb R$, the condition above is satisfied. Moreover, for every nonzero $h$, this region contains a nonempty interval with $β>1$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23427v1",
+        "pdf": "https://arxiv.org/pdf/2607.23427v1",
+        "source": "https://export.arxiv.org/e-print/2607.23427v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 69,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "0801. S.N. acknowledges support from JSPS KAKENHI Grant Numbers JP24K16937 and JP25K00911. Statement on the Use of Artificial Intelligence For the generalization of Latala’s argument, the coupled free energy was suggested by the authors. ChatGPT 5.5 Plus was used to assist with extending the calculations, and Codex was used to perform sanity checks. The Lean 4 formalization was developed with substantial assistance from Codex and Aristotle. The authors take full responsibility for",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:25.868670Z"
+      },
+      "score": 115.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 38.65,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 10,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 17.25,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23391",
       "version": 1,
       "title": "The symmetric V-cycle can diverge under the multigrid axioms for cell-centred discretisations",
