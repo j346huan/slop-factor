@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14897",
+      "version": 1,
+      "title": "Topological perspectives on the vanishing of some Bogomolov multipliers",
+      "authors": [
+        "Eric Samperton",
+        "Carlos Segovia"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "math.AG",
+          "math.AT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T21:08:04Z",
+        "updated": "2026-08-14T21:08:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Since the 1980s, the Bogomolov multiplier of a finite group has been known to obstruct rationality in complex algebraic geometry, and more recently it is understood to be responsible for any torsion in the oriented and stable unitary 2-dimensional $G$-equivariant bordism groups $Ω_2^{SO,G}$ and $Ω_2^{U,G}$. In this note, as a small step toward building a bridge between these two far-flung roles, we discuss the vanishing of Bogomolov multipliers of two specific families of finite groups. First, we revisit Kunyavskiĭ's result that the Bogomolov multipliers of all finite simple groups vanish, taking inspiration from the low-dimensional topological interpretation of the Ore conjecture. Second, in lieu of arguments in complex birational geometry (such as the hard direction of the Chevalley-Shephard-Todd theorem), we combine cut-and-paste combinatorial-topological techniques with elementary calculations of Ihara-Yokonuma to show that all finite Coxeter groups have vanishing Bogomolov multiplier.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14897v1",
+        "pdf": "https://arxiv.org/pdf/2608.14897v1",
+        "source": "https://export.arxiv.org/e-print/2608.14897v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 7,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 41,
+        "bibliography_entries": 29,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d theorem makes this “obvious.” We then generalize the cut-and-paste topological methods of [DS22] to give a direct “topological” argument that builds on elementary calculations of M (G) due to Ihara and Yokonuma [SIT65]. Acknowledgments. Google Gemini was used to help prepare Figures 1 and 2. Otherwise, no AI was used in the preparation of this manuscript. We thank Marco Boggi and Bernardo Uribe for helpful conversations. 1. Simple groups In this",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "formatting_typesetting",
+        "role_label": "Formatting or typesetting",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:12.314504Z"
+      },
+      "score": 84.15,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 84.15,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 14,
+          "theorems": 42,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 10.25,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14884",
       "version": 1,
       "title": "Rigidity of isometries on vector and normed lattices",
