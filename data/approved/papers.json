@@ -41768,6 +41768,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15071",
+      "version": 2,
+      "title": "Two problems on booksize and triangular edges in Nosal graphs",
+      "authors": [
+        "Xinghui Zhao",
+        "Lihua You",
+        "Jing Zeng",
+        "Xiaoxue Zhang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T14:43:37Z",
+        "updated": "2026-07-21T02:40:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A graph $G$ with $m$ edges is said to be a Nosal graph if $ρ(G)>\\sqrt{m}$. For a graph $G$, we write $bk(G)$ for its maximum book size and $τ(G)$ for the number of edges contained in triangles. Li, Liu and Zhang [J. Combin. Theory Ser. B 179 (2026) 219--249] proved that every $m$-edge Nosal graph satisfies $bk(G)> \\frac{1}{24}\\sqrt{m}$ and $τ(G) > \\frac{1}{12}\\sqrt{m}$. Recently, two results on the booksize constant are proved: $\\frac{1}{9}$ by Zhai, Li and Lou [arXiv:2601.10163v2], and $\\frac{1}{4}$ by Chen, Li and Tang [arXiv:2607.16746v1]. In this paper, we establish the following result: Every $m$-edge graph $G$ with no isolated vertices and $ρ(G)\\geq \\sqrt{m}$ that is not isomorphic to any complete bipartite graph satisfies $bk(G)\\geq\\frac{ρ(G)}{3}$ and $τ(G)\\geq ρ(G)$. As direct consequences, we answer a question of Li, Liu and Zhang [J. Combin. Theory Ser. B 179 (2026) 219--249] and confirm a conjecture of Li, Feng and Peng [J. Graph Theory 110 (4) (2025) 408--425].",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15071v2",
+        "pdf": "https://arxiv.org/pdf/2607.15071v2",
+        "source": "https://export.arxiv.org/e-print/2607.15071v2"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 9,
+        "lemmas": 9,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 35,
+        "bibliography_entries": 32,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "1 graph G with ρ2 (G) > 2m(1 − t−1 ) satisfies τt (G) ≥ ct m? Funding This work is supported by the National Natural Science Foundation of China (Grant Nos. 12371347, 12271337). Acknowledgments The authors used an AI tool for exploratory discussions during the preparation of this work. All mathematical claims, proofs, and citations were independently reviewed, corrected, and approved by the authors, who take full responsibility for the final version of the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "citation_assistance",
+        "role_label": "Citation assistance",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:23.930796Z"
+      },
+      "score": 265.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 132.95,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 18,
+          "theorems": 54,
+          "lemmas": 36,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 8.75,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14965",
       "version": 1,
       "title": "Statistical Inference for Scenario-Based Dynamic Optimization under Uncertainty",
