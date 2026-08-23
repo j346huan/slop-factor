@@ -8512,6 +8512,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17130",
+      "version": 1,
+      "title": "Caged Retractions of Polymatroids",
+      "authors": [
+        "Ari Pomeranz"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T21:06:10Z",
+        "updated": "2026-08-17T21:06:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a unified theory of caged retractions of discrete polymatroids. Given a polymatroid and a cage $κ$, the $κ$-retraction is a canonical $κ$-caged polymatroid obtained by projecting bases into the cage and retaining the maximal projected bases. We prove that this construction agrees with an explicit rank-function formula. We show that the inclusion of the $κ$-caged polymatroids into all polymatroids and the $κ$-retraction form a Galois connection with respect to the weak-map order. As applications, we obtain caged versions of polymatroid union, the disjoint basis theorem, and induction along a bipartite graph. When $κ=\\textbf{1}$, these recover the corresponding matroid constructions. We also study how caged retractions interact with Lorentzian polynomials and representations over near-idempotent tracts. In each case, the construction preserves the relevant structure.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17130v1",
+        "pdf": "https://arxiv.org/pdf/2608.17130v1",
+        "source": "https://export.arxiv.org/e-print/2608.17130v1"
+      },
+      "structural_counts": {
+        "pages": 42,
+        "theorems": 13,
+        "lemmas": 8,
+        "propositions": 4,
+        "corollaries": 15,
+        "definitions": 24,
+        "displayed_equations": 190,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Caged_Retraction.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "guidance throughout the project. His suggestions inspired the Galois connection arguments used in this paper. The author also thanks Tong Jin for initial work which helped clarify the Galois connection in the matroid case. AI disclosure. Generative AI tools, including ChatGPT and Gemini, were used in preparing this manuscript to assist with editing, exposition, and checking proofs for possible gaps or unclear steps. The central mathematical ideas and results were developed by the author",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:38.210636Z"
+      },
+      "score": 2480,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 310,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 42,
+          "theorems": 78,
+          "lemmas": 32,
+          "propositions": 16,
+          "corollaries": 45,
+          "definitions": 48,
+          "displayed_equations": 47.5,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17036",
       "version": 1,
       "title": "Hyperbolic models and stability recognition for Coxeter groups",
