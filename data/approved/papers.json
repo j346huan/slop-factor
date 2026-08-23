@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21976",
+      "version": 1,
+      "title": "Point-to-set principles in dynamical systems",
+      "authors": [
+        "Emma Dinowitz"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": [
+          "cs.IT",
+          "math.LO",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-24T04:42:01Z",
+        "updated": "2026-07-24T04:42:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In analogy to the point-to-set principle for Hausdorff and packing dimension of Lutz, Lutz, and Mayordomo, we develop a Kolmogorov complexity point-to-set principle framework for upper and lower topological pressure and BS dimension in dynamical systems (and by extension for upper and lower entropy). As a demonstration of this framework we expand upon the Bowen pressure equation results of Climenhaga, as well as prove a pointwise version of the Bowen pressure equation.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21976v1",
+        "pdf": "https://arxiv.org/pdf/2607.21976v1",
+        "source": "https://export.arxiv.org/e-print/2607.21976v1"
+      },
+      "structural_counts": {
+        "pages": 53,
+        "theorems": 16,
+        "lemmas": 40,
+        "propositions": 0,
+        "corollaries": 4,
+        "definitions": 30,
+        "displayed_equations": 454,
+        "bibliography_entries": 2,
+        "appendix_pages": 46
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "A.20. The second is the conjunction of Lemma A.18 (dimBSP ≤ Dimsep BS ) and Lemma A.17 (Dimsep BS ≤ dimBSP ). B Declarations The large language models Claude Opus 4 and Fable 5 were used extensively in the creation of this paper, in the drafting, outlining, proof reading, and editing phases of writing the paper. References [BG13] Keith Burns and Katrin Gelfert. “Lyapunov spectrum f",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 52",
+          "page": 52
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:26.003776Z"
+      },
+      "score": 4693.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 586.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 53,
+          "theorems": 96,
+          "lemmas": 160,
+          "propositions": 0,
+          "corollaries": 12,
+          "definitions": 60,
+          "displayed_equations": 113.5,
+          "bibliography_entries": 0.2,
+          "appendix_pages": 92
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21788",
       "version": 1,
       "title": "A topological Chern character for matrix factorizations",
