@@ -8681,6 +8681,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07396",
+      "version": 1,
+      "title": "Banach lattices and phase retrieval: A case study for the use of AI in mathematics",
+      "authors": [
+        "Jaume de Dios Pont",
+        "Lukas Liehr",
+        "David Muñoz-Lahoz",
+        "Mitchell A. Taylor",
+        "Pedro Tradacete"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-07T16:40:37Z",
+        "updated": "2026-08-07T16:40:37Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The ability of large language models to assist professional mathematicians has been progressing rapidly. Earlier this year, a group of researchers in Banach lattice theory and phase retrieval began incorporating this technology into their research workflows. Facing challenges about the reliability of these models, they also decided to couple the discovery process with Lean verification. Here, we present a case study of how this has led to a more united community and a deeper understanding of our field.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07396v1",
+        "pdf": "https://arxiv.org/pdf/2608.07396v1",
+        "source": "https://export.arxiv.org/e-print/2608.07396v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 9,
+        "bibliography_entries": 77,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "a single finite case. Another substantial group of contributions concerned free products and push-outs of vector lattices, Archimedean vector lattices, and Banach lattices. In an ongoing project by G. Martı́nez- Fernández and PT, the LLM helped formulate and prove several results about preservation of injectivity in categorical constructions. For example, in a push-out square of vector lattices S1",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:13.859946Z"
+      },
+      "score": 269.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 26.95,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 17,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2.25,
+          "bibliography_entries": 7.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07388",
       "version": 2,
       "title": "The Banach lattice Lean library",
