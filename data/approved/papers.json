@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15904",
+      "version": 1,
+      "title": "A finite-order characterization of entrywise positivity preservers",
+      "authors": [
+        "Ludovick Bouthat",
+        "Dominique Guillot"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-16T19:40:03Z",
+        "updated": "2026-08-16T19:40:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $I=(0,ρ)$, where $0<ρ\\leq\\infty$, and let $\\mathbb{P}_n(I)$ denote the cone of real positive semidefinite $n\\times n$ matrices whose entries belong to $I$. A longstanding problem in matrix theory is to characterize the functions $f: I \\to \\mathbb{R}$ for which the entrywise calculus $f[A] = (f(a_{ij}))$ preserves positive semidefiniteness for all $A = (a_{ij}) \\in \\mathbb{P}_n(I)$. We provide an explicit function-theoretic characterization of such preservers via the Euler--Hankel matrix associated to $f$. We begin by providing the characterization for functions $f \\in C^{2n-2}(I)$. Writing $\\mathcal{E} =x\\frac{d}{dx}$ and denoting the Euler--Hankel matrix by $$ \\mathcal{H}_n(f;x)=\\bigl[\\mathcal{E}^{i+j}f(x)\\bigr]_{i,j=0}^{n-1}, $$ we prove that $f[-]$ preserves positivity on $\\mathbb{P}_n(I)$ if and only if $f^{(k)}(x) \\geq0$ for $0\\leq k\\leq n-1$ and $\\mathcal{H}_n(f;x)\\succeq 0$ for every $x\\in I$. The proof combines Karlin's finite-order criterion for additive Hankel kernels with an extension principle of Khare and Tao. We then show how the smoothness hypothesis can be entirely removed to obtain the same characterization for general functions, where the above conditions are interpreted as inequalities between distributions. We conclude by showing how our results recover the smooth form of Vasudeva's characterization in dimension two, the FitzGerald--Horn critical exponent for power functions, and the characterization of Belton--Guillot--Khare--Putinar of polynomial preservers of degree at most $n$ on $\\mathbb{P}_n(I)$. Finally, we extend the Khare--Tao characterization of sums of real powers preserving rank $1$ positive semidefinite matrices to sums of real powers that preserve the full cone $\\mathbb{P}_n(I)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15904v1",
+        "pdf": "https://arxiv.org/pdf/2608.15904v1",
+        "source": "https://export.arxiv.org/e-print/2608.15904v1"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 5,
+        "lemmas": 1,
+        "propositions": 3,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 123,
+        "bibliography_entries": 31,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main__V2___1_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ly, in Sections 8, we recover several classical and recent results from the literature as special cases of our work, and extend the Khare–Tao characterization of sums of real powers preserving positivity to Pn (I). AI disclosure statement. ChatGPT 5.6 Sol by OpenAI was used to explore proof strategies for this paper and help with its writing. All mathematical arguments and technical details were independently verified by the authors, who take full responsibility for the content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:28.999097Z"
+      },
+      "score": 870.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 108.85,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 20,
+          "theorems": 30,
+          "lemmas": 4,
+          "propositions": 12,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 30.75,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15873",
       "version": 1,
       "title": "Two Questions on $G$-harmonic Tuples",
