@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10482",
+      "version": 1,
+      "title": "Predicting Diagonalizability of a Mean Matrix",
+      "authors": [
+        "Jinze Zhao"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T04:52:00Z",
+        "updated": "2026-08-11T04:52:00Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Wu and Santhanam asked whether one can determine, from an increasing i.i.d. sample of binary random matrices, whether the unknown mean matrix is diagonalizable while making only finitely many errors almost surely. We answer this question affirmatively, for diagonalizability over either $\\mathbb{R}$ or $\\mathbb{C}$. The main observation is a general principle: every semialgebraic property of a fixed-dimensional bounded mean parameter is eventually almost surely predictable. We give a self-contained shrinking-confidence-set proof and an explicit predictor obtained from polynomial sign tests. Tarski--Seidenberg quantifier elimination shows that both the real- and complex-diagonalizable loci are semialgebraic, despite being neither closed nor open. We further extend the positive result to unbounded observations with any fixed finite moment of order $r>1$, using the Marcinkiewicz--Zygmund strong law. Combined with the Dembo--Peres topological criterion, this yields a sharp contrast: over the class of all merely integrable matrix laws, diagonalizability is not eventually almost surely predictable when the dimension is at least two. The construction is effective for fixed dimension, although no practical complexity bound is claimed.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10482v1",
+        "pdf": "https://arxiv.org/pdf/2608.10482v1",
+        "source": "https://export.arxiv.org/e-print/2608.10482v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 34,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ties, deriving useful finite-sample error profiles away from algebraic boundaries, and identifying subclasses for which the predictor can be implemented efficiently. 8 Disclosure The proof strategy and counterexample were produced by OpenAI’s GPT-5.6 Sol Ultra through Codex in response to prompts from the author. Codex was also used to revise the exposition and prepare the LaTeX manuscript. The author selected the problem, directed the interactions and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:50.306495Z"
+      },
+      "score": 624,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 62.4,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 10,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 8.5,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10445",
       "version": 1,
       "title": "An Exact Dominant Degree Condition for Transitive Tournament Factors in Digraphs",
