@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08893",
+      "version": 1,
+      "title": "Sharp $\\ell^p$-Improving Estimates for Fixed-Radius Discrete Spherical Averages",
+      "authors": [
+        "Rui Han",
+        "Fan Yang"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T20:14:04Z",
+        "updated": "2026-08-09T20:14:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $d\\geq 4$ and let $R>0$. When $d=4$, assume that $R^2\\in\\mathbb{N}\\setminus 4\\mathbb{N}$; when $d\\geq 5$, let $R^2\\in\\mathbb{N}$ be arbitrary. We prove the fixed-radius estimate $$\\|A_R f\\|_{\\ell^{p'}(\\mathbb{Z}^d)}\\leq C_{d,p,\\varepsilon}R^{-d(2/p-1)+\\varepsilon}\\|f\\|_{\\ell^p(\\mathbb{Z}^d)}$$ for $(d+2)/d\\leq p\\leq 2$, where $p'$ is the Hölder conjugate exponent of $p$ and $A_R$ is the probability average over the lattice sphere of radius $R$. This extends the fixed-radius estimates of Kesler--Lacey and Hughes to the sharp lower endpoint $p=(d+2)/d$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08893v1",
+        "pdf": "https://arxiv.org/pdf/2608.08893v1",
+        "source": "https://export.arxiv.org/e-print/2608.08893v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 5,
+        "lemmas": 7,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 178,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Improving_sphere.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "SHARP ℓp -IMPROVING ESTIMATES 21 Acknowledgments R.H. was partially supported by NSF DMS-2143369. ChatGPT was used to assist the authors with computing the integer moment in Lemma 6.2, and minor editing and polishing throughout the paper. References [1] M. Christ, Convolution, curvature, and combi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:06:25.068655Z"
+      },
+      "score": 438.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 146.2,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 22,
+          "theorems": 30,
+          "lemmas": 28,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 44.5,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10028",
       "version": 2,
       "title": "A human-checkable proof of the 112-vertex counterexample to the Petersen coloring conjecture",
