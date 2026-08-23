@@ -42192,6 +42192,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28429",
+      "version": 2,
+      "title": "Nearly Sharp Bounds for Lattice Coverings by Convex Bodies",
+      "authors": [
+        "Heng Li",
+        "Xizhi Liu"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T16:06:03Z",
+        "updated": "2026-08-10T16:40:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For an $n$-dimensional convex body $K$, let $θ_L(K)$ denote its lattice covering density, and let $Θ_L^{\\mathrm{conv}}(n)$ and $Θ_L^{\\mathrm{sym}}(n)$ be the corresponding worst-case quantities over all convex bodies and over origin-symmetric convex bodies, respectively. Before this work, these quantities were known only to lie between a lower bound of order $n$ and an upper bound of order $n^2$, so even their polynomial order was undetermined. We prove that there are absolute constants $c,C>0$ such that \\[ c n\\log n \\le Θ_L^{\\mathrm{sym}}(n) \\le Θ_L^{\\mathrm{conv}}(n) \\le Cn\\log n\\,(\\log\\log n)^{10/3+o(1)}. \\] Thus both worst-case quantities are $n\\log n\\,(\\log n)^{o(1)}$, and the upper and lower bounds differ by a factor at most $(\\log\\log n)^{10/3+o(1)}$. For the upper bound, a vertical--horizontal amplification based on weighted Boolean cubes combines covering estimates for low-codimensional sections into an exact lattice covering of an arbitrary convex body. For the lower bound, a random-slab construction and Poisson witnesses on flat tori show, with positive probability, that the resulting body admits no lattice covering of density below $c n\\log n$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28429v2",
+        "pdf": "https://arxiv.org/pdf/2607.28429v2",
+        "source": "https://export.arxiv.org/e-print/2607.28429v2"
+      },
+      "structural_counts": {
+        "pages": 45,
+        "theorems": 8,
+        "lemmas": 22,
+        "propositions": 8,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 375,
+        "bibliography_entries": 33,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paperfull.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "holarship Council, and the Institute for Basic Science (IBS-R029-C4). X.L. was supported by the Excellent Young Talents Program (Overseas) of the National Natural Science Foundation of China. Declaration on the use of AI The authors used generative AI tools to assist in discussing proof strategies, checking proofs, and improving exposition. References [1] K. Ball. Ellipsoids of maximal volume in convex bodies. Geom. Dedicata, 41(2):241–250, 1992. [2] B. Bukh, J. Gao, X. Liu, O. Pikh",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 44",
+          "page": 44
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:07.587525Z"
+      },
+      "score": 2504.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 313.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 45,
+          "theorems": 48,
+          "lemmas": 88,
+          "propositions": 32,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 93.75,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28413",
       "version": 1,
       "title": "Windowed thinning and query complexity for the bouncy particle and Zigzag samplers",
