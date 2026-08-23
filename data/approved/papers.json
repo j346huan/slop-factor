@@ -41767,6 +41767,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00222",
+      "version": 1,
+      "title": "Counterexamples to the Jacobian conjecture in dimensions greater than two",
+      "authors": [
+        "Shuhong Gao"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T19:08:59Z",
+        "updated": "2026-07-31T19:08:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Jacobian conjecture, open since 1939, asks whether every polynomial map of $\\C^n$ whose Jacobian determinant is a nonzero constant must have a polynomial inverse. It was refuted in dimension three by Alpöge on July 19, 2026, with an infinite family by Gallagher (July 20) and a geometric explanation by Speyer (July 23): the counterexample sweeps the tangent lines of a plane curve --- a map that classical duality forces to hit most points several times. We give a self-contained account of this tangent-sweep mechanism and generalize it from plane curves to direction fields on hypersurfaces. The resulting construction produces counterexamples in every dimension greater than two and, in each dimension, of arbitrarily large geometric degree (the number of preimages of a typical point). We work it out in five new explicit maps: one three-dimensional of degree four, two four-dimensional of degrees five and ten, and two five-dimensional of degrees six and twelve. The counterexamples provide explicit examples of étale coverings $\\C^n\\to\\C^n$ that are not proper: they are everywhere unramified, and fail to be injective only through points escaping to infinity. All identities were verified in exact rational arithmetic; an appendix determines exact fiber structures through Gröbner bases.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00222v1",
+        "pdf": "https://arxiv.org/pdf/2608.00222v1",
+        "source": "https://export.arxiv.org/e-print/2608.00222v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 10,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 122,
+        "bibliography_entries": 17,
+        "appendix_pages": 19
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Jacobian_CE.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "[7], asserts the converse: a polynomial map with det J(F ) ∈ C× (a Keller ∗ AI disclosure: The main idea and framework are due to the author, and Claude Fable 5 assisted in the proofs and in the writing up of the paper. 1",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:10.394919Z"
+      },
+      "score": 1457.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 182.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 32,
+          "theorems": 60,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 30.5,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 38
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29490",
       "version": 1,
       "title": "Slice and Partition Rank Criteria for Polynomial Zero-Avoidance",
