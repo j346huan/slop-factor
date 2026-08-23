@@ -41938,6 +41938,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14087",
+      "version": 3,
+      "title": "Stochastic Domination of Gaussian Maxima: A Resolution of the Weak Simplex Conjecture",
+      "authors": [
+        "Abhijeet Mulgund"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "cs.IT",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-15T17:58:48Z",
+        "updated": "2026-08-20T16:22:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $R$ be an $m\\times m$ correlation matrix satisfying $R-\\mathbf{1}\\mathbf{1}^{\\mathsf T}/m\\succeq0$, let $X\\sim\\mathcal{N}(0,R)$, and let $Z_1,\\ldots,Z_m$ be independent standard Gaussian random variables. We prove $\\max_i X_i\\leq_{\\mathrm{st}}\\max_i Z_i$, with equality in distribution if and only if $R=I_m$. We use this comparison to resolve the Weak Simplex Conjecture: among $d+1$ equiprobable equal-energy signals in $\\mathbb{R}^d$ transmitted over an additive white Gaussian noise channel, the regular simplex is the unique maximizer of the average probability of correct maximum-likelihood decoding at every signal-to-noise ratio. The same comparison proves the Simplex Mean Width Conjecture and gives the exact finite-energy performance of deterministic no-feedback AWGN codes with equiprobable messages, no restriction on the number of channel uses, and a maximal per-codeword energy constraint. The proof uses a Gaussian product inequality for log-concave functions whose first moments with respect to standard Gaussian measure vanish. A variational argument chooses one exponential tilt and one truncation endpoint in each coordinate so that this product inequality applies and a Gaussian change of measure returns all coordinates to the prescribed common threshold. A strict form of the product inequality also shows that, unless $R=I_m$, $\\mathbb{P}\\{X\\leq c\\mathbf{1}\\}>Φ(c)^m$ for every finite $c$, and hence gives the distributional equality statement. A Lean formalization is available at https://github.com/abhmul/weak-simplex-conjecture-lean.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14087v3",
+        "pdf": "https://arxiv.org/pdf/2607.14087v3",
+        "source": "https://export.arxiv.org/e-print/2607.14087v3"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 3,
+        "lemmas": 8,
+        "propositions": 4,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 227,
+        "bibliography_entries": 42,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "l priors, feedback, and non-Gaussian noise—change either the one-dimensional centering equations or the Gaussian change of measure and therefore require new ideas beyond the argument given here. Tool and computational resource disclosure Large language models provided by OpenAI, including GPT-5.6 Pro and GPT-5.6 Sol Max (ac- cessed in July 2026), were used during the development of this work to assist with mathematical 22",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:49.093762Z"
+      },
+      "score": 1463.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 182.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 41,
+          "theorems": 18,
+          "lemmas": 32,
+          "propositions": 16,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 56.75,
+          "bibliography_entries": 4.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14071",
       "version": 3,
       "title": "Strongly complete sets and a conjecture of Erdős",
