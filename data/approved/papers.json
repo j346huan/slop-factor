@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15458",
+      "version": 1,
+      "title": "Five-Term and Higher Congruences Involving Arbitrary Sets and Short Intervals Modulo a Prime",
+      "authors": [
+        "Yao Zhi"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T00:34:36Z",
+        "updated": "2026-08-16T00:34:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We obtain asymptotic formulas for additive congruences \\[ \\sum_{i=1}^r m_i x_i^{-s}\\equiv λ\\pmod p, \\] where the \\(m_i\\) range over arbitrary subsets of \\(\\mathbb F_p^\\ast\\) and the \\(x_i\\) over shifted intervals. For five terms, in the balanced case of common cardinality \\(N\\), the asymptotic holds uniformly in \\(λ\\) whenever \\[ N>p^{14/29+\\varepsilon}, \\] giving a genuine sub-square-root range. The main input is a centered fourth-moment estimate for the associated double exponential sums. The same method yields sub-square-root thresholds for every fixed \\(r\\ge 5\\), including \\(N>p^{8/17+\\varepsilon}\\) for six terms, with \\[ α_r=\\frac13+\\frac{4}{9\\sqrt r}+O(r^{-1}) \\] as \\(r\\to\\infty\\).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15458v1",
+        "pdf": "https://arxiv.org/pdf/2608.15458v1",
+        "source": "https://export.arxiv.org/e-print/2608.15458v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 3,
+        "lemmas": 3,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 109,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file five_term_higher_congruences_submission_v7.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "uthor used ChatGPT 5.5 (Plus) as an auxiliary research tool. In particular, reference [1] was included following a suggestion made by the AI tool, and parts of the proof strategy for Theorem 1.1 were developed with partial inspiration from AI-assisted discussions. AI tools were also used to assist with some computations, algebraic manipulations, and verification steps in other parts of the manuscript. All mathematical arguments, references, computations, and conclusions appearing in the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:55.531669Z"
+      },
+      "score": 633.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 79.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 10,
+          "theorems": 18,
+          "lemmas": 12,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 27.25,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15431",
       "version": 2,
       "title": "Singular-weight Conway-invariant Jacobi forms of index four",
