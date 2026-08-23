@@ -73,10 +73,18 @@ const elements = Object.fromEntries(
 );
 
 async function api(path, options = {}) {
-  const response = await fetch(path, {
-    ...options,
-    headers: { "Content-Type": "application/json", ...(options.headers ?? {}) },
-  });
+  let response;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    response = await fetch(path, {
+      ...options,
+      headers: {
+        "Content-Type": "application/json",
+        ...(options.headers ?? {}),
+      },
+    });
+    if (![502, 503, 504].includes(response.status) || attempt === 2) break;
+    await new Promise((resolve) => setTimeout(resolve, 500 * 2 ** attempt));
+  }
   if (response.status === 401) {
     window.location.assign("/auth/start");
     throw new Error("Authentication required");
@@ -497,8 +505,13 @@ async function retryPublishing(candidate) {
 }
 
 async function loadCandidates() {
-  const payload = await api("/api/candidates");
-  state.candidates = payload.candidates;
+  const candidates = [];
+  for (let page = 1; ; page += 1) {
+    const payload = await api(`/api/candidates?page=${page}`);
+    candidates.push(...payload.candidates);
+    if (!payload.has_more) break;
+  }
+  state.candidates = candidates;
   for (const status of [
     "pending",
     "approval-submitted",
@@ -554,7 +567,8 @@ async function loadScan() {
       }
     }, 5000);
   } else if (["completed", "failed"].includes(payload.scan?.status)) {
-    await Promise.all([loadCandidates(), loadScanHistory()]);
+    await loadCandidates();
+    await loadScanHistory();
   }
 }
 
@@ -595,7 +609,9 @@ async function initialize() {
     await api("/api/session");
     elements.account.hidden = false;
     elements.dashboard.hidden = false;
-    await Promise.all([loadCandidates(), loadScan(), loadScanHistory()]);
+    await loadCandidates();
+    await loadScan();
+    await loadScanHistory();
   } catch (error) {
     if (error.message.includes("Authentication required")) {
       elements["login-panel"].hidden = false;
