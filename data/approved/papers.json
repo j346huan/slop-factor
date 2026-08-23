@@ -41769,6 +41769,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25598",
+      "version": 2,
+      "title": "Projective Ore-Degree Conditions for Intersection Theorems in Vector Spaces",
+      "authors": [
+        "Mengyu Cao",
+        "Mei Lu",
+        "Xuyang Yan",
+        "Haixiang Zhang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-28T11:29:53Z",
+        "updated": "2026-07-29T10:55:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $V$ be an $n$-dimensional vector space over the finite field $\\mathbb F_q$, and let $\\mathcal F\\subsetneq\\genfrac{[}{]}{0pt}{}{V}{k}$. The \\emph{projective Ore-degree} of $\\mathcal F$ is the minimum, over all $k$-subspaces $S\\notin\\mathcal F$, of the sum of the $\\mathcal F$-degrees of the projective points contained in $S$. We prove sharp projective Ore analogues of the vector-space Erdős--Ko--Rado and Hilton--Milner theorems. The Ore--Erdős--Ko--Rado theorem holds for $n\\ge2k+1$, with equality only for a full point-star. For nontrivial intersecting families, we determine the sharp Ore--Hilton--Milner threshold, together with the complete equality classification, when $q\\ge3$ and $n\\ge2k+1$, or when $q\\ge2$ and $n\\ge2k+2$. We further determine a sharp projective Ore-degree threshold forcing a direct-sum matching of size $s$ when $s\\ge3$ and $n\\ge(2s-1)k-s+4$, and derive a multicolour Ramsey consequence.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25598v2",
+        "pdf": "https://arxiv.org/pdf/2607.25598v2",
+        "source": "https://export.arxiv.org/e-print/2607.25598v2"
+      },
+      "structural_counts": {
+        "pages": 37,
+        "theorems": 7,
+        "lemmas": 11,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 3,
+        "displayed_equations": 222,
+        "bibliography_entries": 16,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file projective_ore_degree_intersection_appendix_1_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgement The authors acknowledge the use of AI tools during the exploratory stage of this project. All mathematical arguments and proofs in the final manuscript were checked and written by the authors. References [1] J. Balogh, C. Palmer and G. Raeisi, Matchings in hypergraphs via Ore-d",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 33",
+          "page": 33
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:37.794147Z"
+      },
+      "score": 426.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 213.1,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 37,
+          "theorems": 42,
+          "lemmas": 44,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 6,
+          "displayed_equations": 55.5,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25533",
       "version": 1,
       "title": "Computable Quantification in Reflective Grounded Arithmetic",
