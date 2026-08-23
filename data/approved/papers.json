@@ -42031,6 +42031,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12561",
+      "version": 2,
+      "title": "Genus and Gonality of Small Curves, Dynamical Uniform Boundedness, and Bifurcation",
+      "authors": [
+        "Zhuchao Ji",
+        "Junyi Xie"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": [
+          "math.AG",
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T09:31:33Z",
+        "updated": "2026-07-18T20:06:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the Gonality Conjecture in arithmetic dynamics: for any non-isotrivial one-parameter algebraic family of rational maps on $\\mathbb{P}^1_{\\mathbb{C}}$, the gonality of distinct dynatomic curves tends to infinity. More generally, outside the flexible Lattès family, every small sequence of horizontal curves has gonality tending to infinity, and its genus grows superlinearly with its degree over the parameter curve. We also obtain higher-dimensional analogues under natural bifurcation and multiplier-genericity hypotheses. As applications, we prove uniform boundedness results for iterated preimages over number fields and geometric uniform boundedness results for preperiodic points over function fields. The proof combines arithmetic equidistribution, woven currents, and bifurcation theory; the bifurcation mechanism is what forces the growth of genus and gonality.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12561v2",
+        "pdf": "https://arxiv.org/pdf/2607.12561v2",
+        "source": "https://export.arxiv.org/e-print/2607.12561v2"
+      },
+      "structural_counts": {
+        "pages": 76,
+        "theorems": 14,
+        "lemmas": 12,
+        "propositions": 17,
+        "corollaries": 1,
+        "definitions": 20,
+        "displayed_equations": 215,
+        "bibliography_entries": 82,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Dynamical_Uniform_Boundedness_arxiv_v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "issues. Zhuchao Ji is supported by National Key R&D Pro- gram of China (No.2025YFA1018300), NSFC Grant (No.12401106), and ZPNSF Grant (No.XHD24A0201). Junyi Xie is supported by NSFC Grant (No.12271007). AI disclosure. The authors used the AI assistant Xiaozhua, running in the OpenClaw environment with OpenAI models, for language pol- ishing, LaTeX editing, reference checking, and preliminary proofread- ing. All mathematical arguments and the final text were reviewed and approved by the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:46.885044Z"
+      },
+      "score": 1523.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 380.95,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 76,
+          "theorems": 84,
+          "lemmas": 48,
+          "propositions": 68,
+          "corollaries": 3,
+          "definitions": 40,
+          "displayed_equations": 53.75,
+          "bibliography_entries": 8.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12461",
       "version": 1,
       "title": "Local flag algebras",
