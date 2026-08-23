@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12731",
+      "version": 1,
+      "title": "The multiplicity sequence of monomial ideals",
+      "authors": [
+        "Sudipta Das",
+        "Jonathan Montaño",
+        "Aniketh Sivakumar"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T02:23:26Z",
+        "updated": "2026-08-13T02:23:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give a convex-geometric formula for the multiplicity sequence of a monomial ideal in terms of mixed volumes of polytopes constructed from its Newton polyhedron. We also construct a counterexample to a conjecture of Achilles and Manaresi proposing a different volume formula for the multiplicity sequence. Finally, we derive a mixed-volume formula for the mixed multiplicities of arbitrary monomial ideals.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12731v1",
+        "pdf": "https://arxiv.org/pdf/2608.12731v1",
+        "source": "https://export.arxiv.org/e-print/2608.12731v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 4,
+        "lemmas": 7,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 3,
+        "displayed_equations": 71,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Clean_monomial_multSeq.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments The second author is grateful to Federico Castillo for helpful discussions about mixed volumes of polytopes. The second author was partially funded by NSF Grant DMS #2401522. ChatGPT and Claude were used to find relevant references and to improve the readability of some sentences throughout the article. References [1] R. Achilles and M. Manaresi. Multiplicities of a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:27.368241Z"
+      },
+      "score": 462.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 115.55,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 15,
+          "theorems": 24,
+          "lemmas": 28,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 6,
+          "displayed_equations": 17.75,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12690",
       "version": 1,
       "title": "Algebraic constructions of point sequences with quasi-uniform two-dimensional projections",
