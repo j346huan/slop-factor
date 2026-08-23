@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01364",
+      "version": 3,
+      "title": "U-centering as subset ANOVA: edge regression and higher-order theory",
+      "authors": [
+        "Xianyang Zhang"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "stat.ME"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T16:30:46Z",
+        "updated": "2026-08-09T19:01:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The unbiased sample versions of squared distance covariance and the Hilbert-Schmidt independence criterion (HSIC) are fourth-order U-statistics, yet U-centering evaluates them from pairwise arrays in $O(n^2)$ operations. We show that U-centering is exactly the least-squares residual obtained after fitting additive endpoint effects to a symmetric hollow array. This interpretation explains the zero row sums and the denominator $n(n-3)$ through the residual degrees of freedom. The same pairwise residualization also gives useful regression identities. After endpoint effects are removed from both arrays, the U-centered dependence $t$-statistic is the ordinary slope $t$-statistic obtained by regressing one adjusted array on the other. In the two-sample problem, pooling the observations and using the between-group pair indicator as the predictor shows that the generalized-energy statistic is twice the fitted slope. The common-endpoint and fully interacted regressions give the same slope but use different residual standard errors. For $n\\ge2r$, we extend the construction to arrays indexed by $r$-subsets. Higher-order U-centering removes all effects involving fewer than $r$ sample labels, leaves zero $(r-1)$-way margins, and projects onto a residual space of dimension $\\binom nr-\\binom n{r-1}$. For two symmetric kernels with $r$ arguments, the normalized inner product of the centered arrays is unbiased for the cross-moment of their $r$th Hoeffding components. A direct estimator can involve products spanning as many as $2r$ observations, but subset-margin inversion or higher-order U-centering evaluates the same quantity in $O(n^r)$ operations for fixed $r$. When both arrays are formed from the same kernel and sample, this becomes a nonnegative unbiased estimator of the variance of the highest-order Hoeffding component.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01364v3",
+        "pdf": "https://arxiv.org/pdf/2608.01364v3",
+        "source": "https://export.arxiv.org/e-print/2608.01364v3"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 5,
+        "lemmas": 1,
+        "propositions": 6,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 225,
+        "bibliography_entries": 24,
+        "appendix_pages": 17
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "AI-use statement During the preparation of this manuscript, the author used GPT-5.6 Sol for language editing and exploratory assistance with proof development. The author independently checked every definition, statement, and proof and takes full responsibility for the content of the manuscript. References [1] Blozneli",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:13:10.633947Z"
+      },
+      "score": 1597.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 199.65,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 36,
+          "theorems": 30,
+          "lemmas": 4,
+          "propositions": 24,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 56.25,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 34
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01350",
       "version": 1,
       "title": "The Middle Stair for Complete Bipartite Parallel Chip-Firing",
