@@ -42198,6 +42198,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27252",
+      "version": 1,
+      "title": "On the Definability of Strong Negation in Bilateral Logics",
+      "authors": [
+        "Ryan Simonelli"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-28T16:33:36Z",
+        "updated": "2026-07-28T16:33:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Recent work in bilateral logic has concerned itself with whether and to what extent strong negation, which \"toggles\" between assertion and denial, is definable in bilateral systems that lack it. This paper presents a number of results about the definability of strong negation in bilateral systems. First, I show that a constructive Nelson-style Sheffer stroke defines the strong negation of A as (A|(A|A))|A. The same stroke defines the constructive Nelson implication, thus providing a single-connective basis for the strong-negation-and-implication fragment of N4. Second, I provide an exhaustive characterization of the eight combinations of a single \"aggregative\" connective and a single Nelson-style connective that suffice to jointly define strong negation, with neither defining it individually. One such combination is the material conditional together with constructive co-implication. Third, I show that a constructive and connexive Wansing-style Sheffer stroke (recently referred to as \"connexive exclusion\") likewise defines the strong negation of A as (A|(A| A))|A and also defines connexive implication. Fourth, I show that, unlike with the Nelson-style connectives, there are no combinations of Wansing-style and aggregative connectives that jointly define strong negation if neither connective defines it individually.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27252v1",
+        "pdf": "https://arxiv.org/pdf/2607.27252v1",
+        "source": "https://export.arxiv.org/e-print/2607.27252v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 6,
+        "bibliography_entries": 147,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Simonelli_-_On_the_Definability_of_Strong_Negation.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Pragmatics, Semantics, and Conceptual Roles. Routledge, New York, 2024. Norihiro Kamide and Heinrich Wansing. Proof theory of Nelson’s paraconsistent logic: A uniform perspective. Theoretical Computer Science, 415:1–38, 2012. 15 OpenAI’s ChatGPT (5.6 Sol) was used during the exploratory stages of this research to help search the space of possible connectives and relations among them, find relevant literature, and assist in the preliminary construction of the proofs of Propositions",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:44.548498Z"
+      },
+      "score": 273.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 34.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 1.5,
+          "bibliography_entries": 14.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25920",
       "version": 1,
       "title": "Asymptotically sharp bounds for affine subspace statistics in $\\mathbb F_2^n$",
