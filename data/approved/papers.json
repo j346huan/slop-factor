@@ -42286,6 +42286,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12302",
+      "version": 1,
+      "title": "Solomon zeta functions over arithmetic orders",
+      "authors": [
+        "Sean B. Lynch"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T03:21:57Z",
+        "updated": "2026-07-14T03:21:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove an effective version of Solomon's first conjecture for lattices over orders in finite-dimensional semisimple algebras over nonarchimedean local fields. We express the quotient of a partial Solomon zeta function by the corresponding maximal-order zeta function as a finite sum whose terms are determined by finite module-theoretic data and weighted by polynomials defined using the Möbius function of finite submodule posets. The resulting expression is independent of the chosen maximal overorder. Our proof is purely algebraic and is first formulated for the refined Bushnell--Reiner zeta functions. As an application, we obtain explicit formulas for the Solomon zeta functions of all lattices over $\\mathbb{Z}_p[\\mathbb{Z}/p\\mathbb{Z}]$, including non-projective lattices.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12302v1",
+        "pdf": "https://arxiv.org/pdf/2607.12302v1",
+        "source": "https://export.arxiv.org/e-print/2607.12302v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 6,
+        "lemmas": 2,
+        "propositions": 9,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 101,
+        "bibliography_entries": 33,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "[ω] ⊕b ⊕ Λ⊕c . Then we may apply Theorem 5.3 with q = p, m1 = a + c and m2 = b + c, thus recovering Theorem 1.2. 6. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used ChatGPT to improve the readability of the manuscript. After using this tool, the author reviewed",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:41.870946Z"
+      },
+      "score": 662.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 132.55,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 18,
+          "theorems": 36,
+          "lemmas": 8,
+          "propositions": 36,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 25.25,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12251",
       "version": 1,
       "title": "$p$-adic Sum-Product, Projections, and Furstenberg Sets",
