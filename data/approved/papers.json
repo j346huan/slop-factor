@@ -8761,6 +8761,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15720",
+      "version": 1,
+      "title": "On the monotonicity of magnitude functions of negative type finite semimetric spaces",
+      "authors": [
+        "Kiyonori Gomi",
+        "Hiroshi Tsuji"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T12:45:03Z",
+        "updated": "2026-08-16T12:45:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Motivated by the conjectured monotonicity of the magnitude functions of metric spaces of negative type, we investigate the monotonicity problem for finite semimetric spaces, namely, ``metric spaces without the triangle inequality''. We completely resolve this problem by proving that the monotonicity holds for negative type semimetric spaces with at most three points, while constructing negative type semimetric spaces with at least four points whose magnitude functions are not monotonically increasing.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15720v1",
+        "pdf": "https://arxiv.org/pdf/2608.15720v1",
+        "source": "https://export.arxiv.org/e-print/2608.15720v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 3,
+        "lemmas": 8,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 72,
+        "bibliography_entries": 13,
+        "appendix_pages": 16
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file semimetric_v1b.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r any finite semimetric space X of negative type. Acknowledgements. KG thanks Shuhei Ohyama and Venkata Siddharth Pendyala for valuable communications. AI use statement. All of the results in this note were obtained by the authors, while GPT-5.6 Sol was used to generate ideas for the proof of Theorem 3.1 in response to prompts from the second-named author. Both authors verified and revised the final argument. 2. Preliminaries We review here some",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:16.210989Z"
+      },
+      "score": 1066.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 133.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 18,
+          "lemmas": 32,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 18,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 32
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15681",
       "version": 1,
       "title": "An exact formula for Erdős' problem 1005",
