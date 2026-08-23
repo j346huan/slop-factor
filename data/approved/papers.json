@@ -8853,6 +8853,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13176",
+      "version": 1,
+      "title": "New Quantitative Bounds for the $(p,q)$-Theorem for Unions of Convex Sets",
+      "authors": [
+        "Chaya Keller",
+        "Shakhar Smorodinsky"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.CG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T12:41:38Z",
+        "updated": "2026-08-13T12:41:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A set in $\\mathbb{R}^d$ is $s$-convex if it is the union of at most $s$ convex sets. A family $F$ satisfies the $(p,q)$ property if among any $p$ sets in $F$, some $q$ intersect. Let $\\mathrm{HD}_d^{(s)}(p,q)$ be the minimum number of points needed to pierce a finite family of $s$-convex sets that satisfies the $(p,q)$-property. Alon and Kalai (1995) proved that $\\mathrm{HD}_d^{(s)}(p,q)$ exists for any $p \\geq q \\geq d+1$ and any $s \\geq 1$, but the quantitative bounds they obtained are very loose. We present several improved upper and lower bounds, for a general $d$ and for $s$-intervals of the line (i.e., $\\mathrm{HD}_1^{(s)}(p,q)$). In particular, we prove the following: (i) For every $d\\ge2$, $s \\geq 1$ and $δ>0$, if $p>q$ and $q\\ge C_d\\log(e sp)$, then $\\mathrm{HD}_d^{(s)}(p,q) \\le p-q+1 + O_{d,δ}((s \\cdot \\tfrac{p}{q} \\cdot \\log \\tfrac{esp}{q})^{ρ_d+δ}),$ where $ρ_d<d$ is the exponent in the weak epsilon-net theorem of Rubin (2022). (ii) For $s \\geq 1$, $p \\geq q \\geq 2$ and $q\\ge C_0s\\log(2s)\\log(ep)$, $p-q+s \\leq \\mathrm{HD}_1^{(s)}(p,q) \\leq p-q+2s+1$. This result provides the first near-tight estimate for $\\mathrm{HD}_1^{(s)}(p,q)$ for $q>2$. (iii) For any fixed $s$, there are an integer $κ_s\\in\\{s,\\ldots,2s\\}$ and constants $C_s,p_s>0$ such that, whenever $p\\ge p_s$ and $q\\ge C_s\\log(ep)$, $ \\mathrm{HD}_1^{(s)}(p,q)\\in\\{p-q+κ_s,\\;p-q+κ_s+1\\}. $ Interestingly, this two-value concentration result holds, although the exact value of the threshold remains unknown. (iv) For any $s \\geq 1$, $\\mathrm{HD}_3^{(s)}(p,4) \\geq sp^{2-o(1)}$. Already for families of convex sets, this significantly improves the best known lower bound on $\\mathrm{HD}_d^{(1)}(p,d+1)$, for all $d \\geq 3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13176v1",
+        "pdf": "https://arxiv.org/pdf/2608.13176v1",
+        "source": "https://export.arxiv.org/e-print/2608.13176v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 13,
+        "lemmas": 13,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 35,
+        "bibliography_entries": 37,
+        "appendix_pages": 11
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main16.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements Use of generative AI. The authors used ChatGPT as an auxiliary tool in discussions of computational and technical details and in editing parts of the exposition. References [AK92] Noga Alon and Daniel J. Kleitman. “Piercing Convex Sets and the Hadwiger–Debrunner (p, q)",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:30.834151Z"
+      },
+      "score": 801.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 200.45,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 21,
+          "theorems": 78,
+          "lemmas": 52,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 8.75,
+          "bibliography_entries": 3.7,
+          "appendix_pages": 22
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13052",
       "version": 1,
       "title": "Spectral and Isoperimetric Bounds on Flat Tori",
