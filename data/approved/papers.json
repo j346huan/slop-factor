@@ -8340,6 +8340,97 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08538",
+      "version": 1,
+      "title": "The Mathieu group $M_{23}$ is a Galois group over $\\mathbb{Q}$",
+      "authors": [
+        "Xiaoyu Huang",
+        "Blake Jackson",
+        "Kyu-Hwan Lee",
+        "Bjorn Poonen",
+        "Rachel Pries",
+        "Shaowu Zhang"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.AG",
+          "math.GR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T07:27:22Z",
+        "updated": "2026-08-09T07:27:22Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Researchers studying the inverse Galois problem realized 25 of the 26 sporadic finite simple groups as Galois groups over $\\mathbb{Q}$ during 1984--1989. We complete this program by proving that the last remaining sporadic group, the Mathieu group $M_{23}$, occurs as a Galois group over $\\mathbb{Q}$. In fact, we produce an explicit degree $23$ polynomial with rational coefficients whose splitting field has Galois group $M_{23}$ over $\\mathbb{Q}$. To accomplish this, we use a non-rigid triple of conjugacy classes of $M_{23}$ and compute Belyi maps to construct an explicit regular Galois extension of $\\mathbb{Q}(t)$ with Galois group $M_{23}$. Essential for our computation is the numerical Belyi map algorithm developed and implemented by Klug, Musty, Schiavone, Sijsling, and Voight, inspired by ideas of Hejhal and Stark.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08538v1",
+        "pdf": "https://arxiv.org/pdf/2608.08538v1",
+        "source": "https://export.arxiv.org/e-print/2608.08538v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 8,
+        "bibliography_entries": 40,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file M23.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "he May 27–30, 2026 workshop “AI and number theory” at the American Institute of Mathematics in collaboration with the Institute for Computer-Aided Reasoning in Mathematics. No text in this article was written by AI. We used Claude Fable 5, Claude Opus 4.8, and ChatGPT 5.6 Sol for searching the literature, code generation, testing hypotheses, ruling out other approaches, devising computational strategies, checking our results, and proofreading our manuscript. We thank Anthropic for provi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:57.077398Z"
+      },
+      "score": 150,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 50,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 10,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 2,
+          "bibliography_entries": 4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08473",
       "version": 1,
       "title": "Searching for $J$-holomorphic curves via machine: first steps",
