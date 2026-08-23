@@ -42274,6 +42274,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17983",
+      "version": 1,
+      "title": "Frustration index of a signed planar graph and the feedback vertex set",
+      "authors": [
+        "Sirui Chen",
+        "Jiaao Li",
+        "Zhouningxin Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T14:15:43Z",
+        "updated": "2026-07-20T14:15:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A feedback vertex set of a graph is a set of vertices whose deletion leaves a forest. In 2016, Dross, Montassier, and Pinlou conjectured that every planar graph $G$ of girth at least $g$ admits a feedback vertex set of size at most $e(G)/g$. In this note, we confirm this conjecture by connecting this problem with signed graphs. The frustration index of a signed graph $(G,Σ)$ is defined as the minimum number of negative edges among all signatures on $G$ that are switching-equivalent to $Σ$. Equivalently, it is the minimum number of edges whose deletion results in a balanced subgraph of $(G,Σ)$. We show that the minimum size of a feedback vertex set of a planar graph is bounded above by the maximum frustration index over all signatures of the graph, and thereby provide a tight upper bound on the size of the minimum feedback vertex set, which resolves the conjecture of Dross, Montassier, and Pinlou (2016).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17983v1",
+        "pdf": "https://arxiv.org/pdf/2607.17983v1",
+        "source": "https://export.arxiv.org/e-print/2607.17983v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 5,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 15,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration of AI usage During the development and preparation of this manuscript, the authors used ChatGPT on a limited basis to explore possible approaches to selected parts of the mathematical arguments (namely, locating the relevant arguments and the proof of Lemma 3.5 in [15], and identifying the reference [12]), and to improve the language",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:16.056933Z"
+      },
+      "score": 480.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 60.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 9,
+          "theorems": 30,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 3.75,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17732",
       "version": 1,
       "title": "Decision-Centric Large Deviations for Data-Driven Capital Buffers in Ruin Models",
