@@ -41767,6 +41767,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20407",
+      "version": 1,
+      "title": "Uncountable Abelian Group C*-algebras Fail the Lifting Property",
+      "authors": [
+        "Miles Gould"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T17:49:05Z",
+        "updated": "2026-07-22T17:49:05Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this note, we show that $C^*(G)$ fails the lifting property (LP) for every discrete group $G$ containing an uncountable abelian subgroup. Consequently, for every uncountable discrete abelian group $G$, the nuclear algebra $C^*(G)$ has the local lifting property (LLP) but fails the LP. This shows that the LP and the LLP do not coincide for full discrete group $C^*$-algebras.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20407v1",
+        "pdf": "https://arxiv.org/pdf/2607.20407v1",
+        "source": "https://export.arxiv.org/e-print/2607.20407v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 5,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 22,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file UAGCFtLP__2_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "cular, after attending Koszmider’s talk on the contents of [8], Willett suggested to me that the results therein could be of use. This insight was precisely the key to finding the first example, so I am particularly grateful to him for it. ChatGPT was used substantially in the writing of this note, both in mathematical content and proofreading. I wrote and checked the final version of every proof appearing, and assume responsibility for their validity.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:06.009783Z"
+      },
+      "score": 516,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 64.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 7,
+          "theorems": 30,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 5.5,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20361",
       "version": 1,
       "title": "Selfless C*-correspondences, operator valued C*-probability spaces and completely positive maps",
