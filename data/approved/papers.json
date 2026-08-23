@@ -41851,6 +41851,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23315",
+      "version": 1,
+      "title": "Variational principles for the interaction of liquid crystals and electric fields in the Oseen--Frank model",
+      "authors": [
+        "Giovanni Di Fratta",
+        "Valeriy Slastikov",
+        "Arghir Zarnescu"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-25T18:11:31Z",
+        "updated": "2026-07-25T18:11:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a rigorous variational framework for uniaxial nematic liquid crystals interacting with an external electric field in the one-constant Oseen--Frank approximation. Equilibrium configurations are governed by a nonlocal, nonlinear energy with a challenging min-max saddle-point structure. Our first main result reformulates this problem as a pure double-minimization problem. Using convex duality and the Hodge decomposition, we replace the scalar electrostatic potential with a vector potential, yielding a closed-form dual functional with a unique minimizer. This direct energy-minimization principle is advantageous for both theoretical analysis and numerical simulation. Our second result rigorously quantifies the decoupling of the electrostatic back-reaction in the limit of small dielectric anisotropy. We establish a uniform quadratic energy bound between the exact nonlocal energy and its standard local approximation, formally justifying the widespread physics heuristic of neglecting induced depolarization fields. Finally, under a strict coercivity condition, we combine $Γ$-convergence, uniform Sobolev regularity, and a perturbative coercivity transfer to prove that physical minimizers converge to limiting harmonic maps at an optimal, quantitative linear rate.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23315v1",
+        "pdf": "https://arxiv.org/pdf/2607.23315v1",
+        "source": "https://export.arxiv.org/e-print/2607.23315v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 5,
+        "lemmas": 3,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 157,
+        "bibliography_entries": 65,
+        "appendix_pages": 12
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file DFSZ_LC_Electric_2026_FINAL.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "oes not involve human participants or animals. Conflict of Interest: The authors declare that they have no conflicts of interest. Data and Code Availability: No datasets were generated or analyzed during the current study. Declaration of Generative AI and AI-Assisted Technologies: During the preparation of this manuscript, the authors used Grammarly and Gemini to assist with spell-checking and to improve the fluency of selected portions of the text. The manuscript was initially prepared",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:23.858787Z"
+      },
+      "score": 788.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 157.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 30,
+          "theorems": 30,
+          "lemmas": 12,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 39.25,
+          "bibliography_entries": 6.5,
+          "appendix_pages": 24
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23302",
       "version": 1,
       "title": "Optimality of Wouter van Doorn's Upper Bound for the Mayer-Erdős Farey Problem",
