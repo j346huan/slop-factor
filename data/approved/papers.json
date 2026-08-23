@@ -42444,6 +42444,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17113",
+      "version": 1,
+      "title": "Two-time spatial decorrelation for the flat KPZ fixed point",
+      "authors": [
+        "Le Chen",
+        "Fei Pu"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-19T07:43:53Z",
+        "updated": "2026-07-19T07:43:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish quantitative two-time spatial decorrelation for the Kardar--Parisi--Zhang fixed point with flat initial data. For every $s,t>0$,there exist constants $C,c>0$ such that \\[ \\big|{\\rm Cov}(\\mathfrak{h}(t,x),\\mathfrak{h}(s,0))\\big| \\le C\\exp\\{-c|x|^3\\},\\qquad |x|\\ge1. \\] Unlike the fixed-time covariance, which is governed directly by the Airy$_1$ process, the two-time covariance involves the nonlinear variational evolution of the entire earlier height profile. Our proof combines cubic-exponential mixing of the Airy$_1$ process with a uniform localization estimate for intermediate optimizers in the directed landscape. As a consequence, the centered spatial averages, normalized by $N^{1/2}$, converge in finite-dimensional distributions to a centered Gaussian process whose covariance is the space-integrated two-time correlation of the flat KPZ fixed point.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17113v1",
+        "pdf": "https://arxiv.org/pdf/2607.17113v1",
+        "source": "https://export.arxiv.org/e-print/2607.17113v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 127,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file KPZ_FixedPoint_v6.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "59981) from the Simons Foundation. F.P. was supported in part by National Natural Science Foundation of China (No. 12571153) and National Key R&D Program of China (No. 2022YFA 1006500). During the preparation of this work, the authors used large language model–based tools as auxil- iary aids in the research and writing process. All mathematical content was reviewed and verified by the authors, who take full responsibility for the manuscript. References",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:33.486883Z"
+      },
+      "score": 195.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 97.95,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 24,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 31.75,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16994",
       "version": 1,
       "title": "Entropy Density of Uniquely Ergodic Measures for Full Shifts over Amenable Residually Finite Groups",
