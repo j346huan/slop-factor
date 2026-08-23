@@ -8849,6 +8849,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08169",
+      "version": 2,
+      "title": "The lower-bound problem for regular induced subgraphs of type-based random graphs",
+      "authors": [
+        "Ariel Edgardo Levy"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-08T14:55:00Z",
+        "updated": "2026-08-14T15:06:47Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a graph G let F(G) denote the largest order of a regular induced subgraph of G, and let f(n) = min{F(G) : |V(G)| = n}. A problem of Erdos, Fajtlowicz and Staton asks whether f(n)/log n -> infinity. Dyson and McKay have recently proved f(n) <= (sqrt(2e)+o(1)) sqrt(n) via a type-based random model (arXiv:2604.08215). This paper concerns the opposite direction within the type-based family. We conjecture that every model of the family satisfies F(G) >= (sqrt(2e)-o(1)) sqrt(n) asymptotically almost surely, so that sqrt(2e) is the optimal constant obtainable from the family, and we prove the corresponding statement at exponent level -- F(G) >= n^{1/2-eps} -- conditionally on two explicitly stated hypotheses: a local limit lower bound for inhomogeneous degree sequences, and a correlation estimate at sublinear overlaps. The complementary overlap range, including full overlap, requires no correlation hypothesis. We further record the exact-curvature first-moment computation that independently identifies sqrt(2e), including a uniform trace bound on its determinant correction, and certified exact computations at orders up to 48 consistent with the predicted crossover F ~ min(n^{2/3}, sqrt(n/L)). This version substantially revises v1; see the note in Section 1.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08169v2",
+        "pdf": "https://arxiv.org/pdf/2608.08169v2",
+        "source": "https://export.arxiv.org/e-print/2608.08169v2"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 2,
+        "lemmas": 9,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 29,
+        "bibliography_entries": 11,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file regular_induced_typebased.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the lower-bound direction to this program. The positivity argument of Lemma 3.1 and the counterexamples of Remarks 2.4 and 3.4 are theirs. The analysis and the numerical verifications were developed with substantial assistance from Claude (Anthropic); all derivations were checked by hand and against exact computations. References [1] N. Alon, M. Krivelevich and B. Sudakov, Large nearly regular induced subgraphs, SIAM J. Discrete Math.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:30.162901Z"
+      },
+      "score": 250.05,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 83.35,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 13,
+          "theorems": 12,
+          "lemmas": 36,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 7.25,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10015",
       "version": 2,
       "title": "Kneserized Anticoncentration and Reverse Absorption for Graham's Rearrangement Conjecture",
