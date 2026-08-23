@@ -42192,6 +42192,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19713",
+      "version": 2,
+      "title": "Counting spanning quasi-trees of ribbon graphs: determinants and #P-completeness",
+      "authors": [
+        "William Whistler"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.CC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T13:03:51Z",
+        "updated": "2026-08-03T16:55:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A quasi-tree of a connected ribbon graph is a spanning ribbon subgraph with exactly one boundary component; quasi-trees play the role of spanning trees in the topological graph theory of embedded graphs. We prove that counting them is #P-complete under polynomial-time Turing reductions, already for bouquets. The proof identifies every nonempty framed chord diagram, up to natural identifications, with a 4-regular map equipped with a distinguished A-trail, in such a way that quasi-trees correspond to A-trails, whose counting is #P-complete by a theorem of Ge and Štefankovič. Through the framed Cohn-Lempel equality the count is also an interlace-polynomial evaluation - $q(H;2,1)$, the number of full-rank induced subgraphs of the looped circle graph $H$ of the diagram - placing it on the line $y=1$ left open in the complexity classification of Bläser and Hoffmann; a cloning argument then makes every fixed rational point of that line, other than the trivial $(1,1)$, #P-hard on looped circle graphs, even when a framed chord representation is supplied. On the tractable side, the same GF(2) model yields short proofs of the known determinantal cases: for orientable ribbon graphs the count is a determinant, essentially the Matrix-Quasi-tree Theorem of Merino, Moffatt and Noble, proved here via Bouchet's principal unimodularity, and for bouquets with exactly one non-orientable loop it is a sum of two orientable determinants, equivalent by a rank-one determinant identity to the determinant formula of Deng, Jin and Yan.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19713v2",
+        "pdf": "https://arxiv.org/pdf/2607.19713v2",
+        "source": "https://export.arxiv.org/e-print/2607.19713v2"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 8,
+        "lemmas": 14,
+        "propositions": 0,
+        "corollaries": 8,
+        "definitions": 0,
+        "displayed_equations": 79,
+        "bibliography_entries": 44,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "lass — diagrams with several loops may still lie in larger determinantal classes [22], Conjecture 6.2 proposing a characterization of the detectable class — with every rational point (ξ, 1), ξ ̸= 1, #P-hard alongside it. Acknowledgements Claude Fable 5 and GPT-5.6 Sol Pro were used extensively in the development and prepa- ration of this work. References [1] Lars Døvling Andersen, André Bouchet, and Bill Jackson. Orthogonal A-trails of 4-regular graphs embedded in surface",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:54.648737Z"
+      },
+      "score": 354.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 177.15,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 25,
+          "theorems": 48,
+          "lemmas": 56,
+          "propositions": 0,
+          "corollaries": 24,
+          "definitions": 0,
+          "displayed_equations": 19.75,
+          "bibliography_entries": 4.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19008",
       "version": 1,
       "title": "Spectral and Geometric Stability for the Reciprocal Sum of Neumann Eigenvalues",
