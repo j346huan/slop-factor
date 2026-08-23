@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15813",
+      "version": 1,
+      "title": "Quasianalyticity and geometric rigidity in anisotropic Calderón's problem",
+      "authors": [
+        "Lu Chen",
+        "Yan Jiang",
+        "Hongyu Liu",
+        "Longyue Tao"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T15:41:40Z",
+        "updated": "2026-08-16T15:41:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The anisotropic Calderón problem in dimensions $n\\ge3$ remains open for general smooth metrics~\\cite{Uhlmann2009}. We establish uniqueness results in two complementary regimes. In the first, the identity principle for quasianalytic functions propagates boundary information and yields uniqueness in general geometry, including a partial-boundary consequence; under a prescribed normal geometry, quasianalyticity is needed only in the distinguished direction. In the second, suitable symmetry or one-sided ordering assumptions lead to uniqueness at $C^\\infty$ regularity with full or restricted boundary access. Taken together, the results exhibit a tradeoff among regularity, geometric structure, and boundary access: quasianalyticity supplies continuation in general geometry, while symmetry or one-sided order replaces that continuation at $C^\\infty$ regularity.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15813v1",
+        "pdf": "https://arxiv.org/pdf/2608.15813v1",
+        "source": "https://export.arxiv.org/e-print/2608.15813v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 4,
+        "lemmas": 33,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 235,
+        "bibliography_entries": 51,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file anisotropic-CJLT.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s The work of Y. Jiang was supported by the Hong Kong RGC Project JRFS2627-1S06. The work of H. Liu was supported by the Hong Kong RGC General Research Funds (projects 11311122, 12301420, and 11300821). The authors acknowledge the use of AI tools. All mathematical arguments and proofs in the final manuscript were checked and written by the authors. References [1] Giovanni Alessandrini, Maarten V. de Hoop, and Romina Gaburro. Uniq",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 39",
+          "page": 39
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:01.277330Z"
+      },
+      "score": 1349.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 269.85,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 41,
+          "theorems": 24,
+          "lemmas": 132,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 58.75,
+          "bibliography_entries": 5.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15777",
       "version": 1,
       "title": "A finite forbidden family with superlinear surplus and no three-factor product extremizers",
