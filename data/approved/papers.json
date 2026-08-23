@@ -42022,6 +42022,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13335",
+      "version": 1,
+      "title": "Closing the Oracle-Complexity Gap in Derivative-Free Convex Optimization: A Near-Quadratic Lower Bound from Exact Function Values",
+      "authors": [
+        "Phillip Kerger"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.CC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T23:45:21Z",
+        "updated": "2026-07-14T23:45:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the deterministic query complexity of minimizing a convex Lipschitz function over a $d$-dimensional Euclidean ball using only exact function values. At accuracy $Θ(d^{-1/2})$, the previously applicable lower bound was $Ω(d)$, inherited from the stronger full first-order oracle, while an upper bound from Protasov's value-only method requires $O(d^2\\log^2 d)$ evaluations. By providing a lower bound of $Ω(\\,\\frac{d^2}{\\log(d+1)})$ on the oracle complexity in this setting, we thereby close this gap dating back to 1996, up to polylogarithmic factors. Furthermore, we are able to lift this result to the mixed-integer setting: Mixed-integer convex optimization with $d$ continuous and $n$ discrete variables using function values requires $\\tildeΩ(d^2\\cdot 2^n)$ queries.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13335v1",
+        "pdf": "https://arxiv.org/pdf/2607.13335v1",
+        "source": "https://export.arxiv.org/e-print/2607.13335v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 4,
+        "lemmas": 10,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 150,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "formal verification in Lean Modern AI tools played a substantial role in developing the mathematical arguments in this work, and it is accurate to say that the AI model used solved the problem, not the author of this paper. In particular, GPT 5.6 Sol Pro was used following a workflow similar to that documented by OpenAI in connection with its recent preprint on the Cycle Double Cover Conjecture and accompanying prompt [16, 17]. Similar success in the optimization literature has rec",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:04.137157Z"
+      },
+      "score": 1514,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 151.4,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 36,
+          "theorems": 24,
+          "lemmas": 40,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 37.5,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13316",
       "version": 1,
       "title": "Braid groups and Burnside groups",
