@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08681",
+      "version": 1,
+      "title": "Formal squares over the unit square separate FS-domains from RB-domains",
+      "authors": [
+        "Marco Abbadini"
+      ],
+      "categories": {
+        "primary": "math.GN",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-09T12:56:00Z",
+        "updated": "2026-08-09T12:56:00Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Every RB-domain is an FS-domain. Whether the converse holds was a long-standing open problem. We prove that the domain of closed axis-parallel squares in the plane whose centres lie in the unit square $[0,1]^2$, with the whole plane adjoined and ordered by reverse inclusion, is an FS-domain but not an RB-domain. The proof is quantitative. A finite-grid argument first shows that, on every finite slab $[0,1]^2\\times[0,m]$, for every approximate identity and every $\\varepsilon>0$, one member of the approximate identity has radius excess (i.e., the output radius minus the input radius) uniformly at most $\\varepsilon$. By contrast, for every deflation and every $m>0$, the radius excess is at least $m/(4m+1)$ at some point of the slab $[0,1]^2\\times[0,m]$. This solution was obtained independently of the recent work of Chen, Kou, and Lyu and uses a different method.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08681v1",
+        "pdf": "https://arxiv.org/pdf/2608.08681v1",
+        "source": "https://export.arxiv.org/e-print/2608.08681v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 6,
+        "lemmas": 8,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 6,
+        "displayed_equations": 157,
+        "bibliography_entries": 8,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments The author used ChatGPT (OpenAI) as a research and writing assistant during the development of this manuscript. I had been developing the under- lying proof strategy for some time and, on 30 April 2026, asked ChatGPT to help work out the most technically demanding analytic parts. Through a back-and-forth discussion, the remaining gaps were filled and a complete proof emerged on the same date. The choice of the formal-square model for this problem, t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:02:14.772126Z"
+      },
+      "score": 1730.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 173.05,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 24,
+          "theorems": 36,
+          "lemmas": 32,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 12,
+          "displayed_equations": 39.25,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08633",
       "version": 1,
       "title": "Exact Finite-Horizon Memory, Conditioning, and Dissipative Decay in Coarse Upwind Finite-Volume Prediction",
