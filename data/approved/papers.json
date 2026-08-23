@@ -10119,6 +10119,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07248",
+      "version": 2,
+      "title": "Establishing Boundary KKT Convergence of Mirror Descent through Reparameterization",
+      "authors": [
+        "Kuangyu Ding",
+        "Kim-Chuan Toh"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.LG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-07T14:06:54Z",
+        "updated": "2026-08-10T15:53:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Sequence convergence to a boundary Karush--Kuhn--Tucker (KKT) point has long remained unclear for nonconvex mirror descent with Legendre kernels. The difficulty arises from the blow-up of the gradient of the Legendre kernel at the boundary. Recent work~\\cite{dingtoh2026nonkkt} shows that mirror descent can accumulate at non-KKT boundary points despite decreasing objective values, precluding a convergence guarantee to KKT points in general. Despite this negative result, mirror descent remains effective in many real applications. Motivated by this contrast, we address the boundary difficulty directly and establish KKT convergence of mirror descent for a broad class of structured nonconvex problems. We analyze mirror descent in reparameterized variables, where the Hessian metric is flattened and remains nondegenerate as the boundary is approached. Under extension and definability conditions jointly coupling the objective, the Legendre kernel, and the feasible region, the reparameterized sequence has finite length and converges, thereby recovering convergence to a KKT point of the original sequence. Our general framework applies to some concrete instances: Shannon entropy, Fermi--Dirac entropy, and power kernels on polyhedron.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07248v2",
+        "pdf": "https://arxiv.org/pdf/2608.07248v2",
+        "source": "https://export.arxiv.org/e-print/2608.07248v2"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 2,
+        "lemmas": 6,
+        "propositions": 5,
+        "corollaries": 7,
+        "definitions": 9,
+        "displayed_equations": 104,
+        "bibliography_entries": 64,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "onseparable kernels, mirror descent with stochastic gradients or subgradients, and broader Bregman-type methods, such as Bregman alternating minimization and Bregman ADMM, including their inexact variants. Acknowledgments. The authors used ChatGPT for brainstorming and exploration during the early stages of this work and for language editing. A Proof of Corollary 4.2 Along the mirror descent sequence, rk = E(zk ) − E(z⋆ ). The KL-exponent condition and (33) give an index k0 a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:50.020656Z"
+      },
+      "score": 300.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 150.4,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 23,
+          "theorems": 12,
+          "lemmas": 24,
+          "propositions": 20,
+          "corollaries": 21,
+          "definitions": 18,
+          "displayed_equations": 26,
+          "bibliography_entries": 6.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07233",
       "version": 1,
       "title": "Polytopal Bier spheres and nonrealizable central symmetries",
