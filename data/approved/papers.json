@@ -42618,6 +42618,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23713",
+      "version": 1,
+      "title": "Sequence distortion for metric spaces",
+      "authors": [
+        "Ilya Kapovich"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "math.GT",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-26T15:23:38Z",
+        "updated": "2026-07-26T15:23:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce \\emph{sequence distortion spectrum}, a quasi-isometry invariant recording the large-scale distance profiles of sequences indexed by $\\mathbb N$ or $\\mathbb Z$ in a metric space. For a rate function $f:\\mathbb N\\to(0,\\infty)$, extended by $f(t)=0$ for integers $t\\le 0$, a sequence $(p_n)$ in a metric space $X$ is \\emph{$f$-distorted} if there exists an integer $C\\ge 1$ such that for all $m,n$ we have $$\\frac{1}{C}f(\\lfloor \\frac{1}{C}|n-m|-C\\rfloor)\\le d(p_n,p_m)\\le C f(C|n-m|+C)+C.$$ This definition implies that $f(N)=O(N)$. For rate functions, realizability depends only on the ambient quasi-isometry type and the growth type of $f$. We classify the possible power rates $f(N)=N^α$ (where $0<α\\le 1)$ for Euclidean spaces: in $\\mathbb R$ only the linear rate $α=1$ occurs, while in $\\mathbb R^k$, $k\\ge2$, the realizable exponents are exactly $1/k<α\\le 1$. For a geodesic $δ$-hyperbolic space $X$, no power rate $N^α$ with $0<α<1$ occurs. The hyperbolic plane also realizes the logarithmic rate. An exponential packing bound for $X$ rules out every $o(\\log N)$ rate, but a proper CAT$(-1)$ surface of unbounded geometry realizes a log--log rate. In an arbitrary simplicial tree, every realizable rate is linear up to constants. Finally, we construct two pairs of proper geodesic spaces: the first has equivalent basepoint packing functions and the second equivalent uniform packing functions; both pairs have equal asymptotic dimensions and filling-function growth classes, and isometric asymptotic cones at the chosen wedge points for every common scaling sequence and ultrafilter. Yet sequence distortion distinguishes each pair, and the second pair has bounded geometry.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23713v1",
+        "pdf": "https://arxiv.org/pdf/2607.23713v1",
+        "source": "https://export.arxiv.org/e-print/2607.23713v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 7,
+        "lemmas": 11,
+        "propositions": 9,
+        "corollaries": 7,
+        "definitions": 10,
+        "displayed_equations": 199,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file distortion21.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tions. Understanding these operations could sharpen sequence distortion as a quasi-isometry invariant and yield examples beyond the model geometries considered here. 9. Disclosure of AI use ChatGPT was used in preparing this manuscript. The author independently checked and edited all mathematical arguments and takes full responsibility for the final content. References [1] D. B",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:33.145733Z"
+      },
+      "score": 1950,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 243.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 28,
+          "theorems": 42,
+          "lemmas": 44,
+          "propositions": 36,
+          "corollaries": 21,
+          "definitions": 20,
+          "displayed_equations": 49.75,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23674",
       "version": 1,
       "title": "Projected-Gradient Analysis for Open-Domain Convex Optimization under Boundary Blow-Up:Application to Controllability Scoring",
