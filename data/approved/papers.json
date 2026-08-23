@@ -41850,6 +41850,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29681",
+      "version": 1,
+      "title": "Lean-verified lower bounds for the Shannon capacity of odd cycles",
+      "authors": [
+        "Pjotr Buys",
+        "Sven Polak",
+        "Jeroen Zuiddam"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.IT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-31T17:57:08Z",
+        "updated": "2026-07-31T17:57:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give new lower bounds for the Shannon capacities of small odd cycles: $Θ(C_7)\\geq3.258805369885\\ldots$, $Θ(C_{11})\\geq5.294502522149\\ldots$, $Θ(C_{13})\\geq6.302455083464\\ldots$, $Θ(C_{15})\\geq7.301600534487\\ldots$, $Θ(C_{19})\\geq9.357192705918\\ldots$, $Θ(C_{21})\\geq10.342455853338\\ldots$, and $Θ(C_{23})\\geq11.328224257774\\ldots$. The bounds are obtained by an iterative procedure due to Gao (2026) which is based on a method by Itty, Rosin, Carstensen and Reichman (2026). The bounds are fully formalised in Lean.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29681v1",
+        "pdf": "https://arxiv.org/pdf/2607.29681v1",
+        "source": "https://export.arxiv.org/e-print/2607.29681v1"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 2,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main3.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "g constructions for powers of odd cycles go back to Baumert, McEliece, Rodemich, Rumsey, Stanley and Taylor [BMR+ 71]. Recently, [IRCR26, Gao26] used large language models to obtain improved lower bounds on Shannon capacity of small odd cycles. Following their methods and using ChatGPT 5.6 Sol Pro and Claude Opus 5 we find",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:17.994633Z"
+      },
+      "score": 119,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 11.9,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 4,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29490",
       "version": 1,
       "title": "Slice and Partition Rank Criteria for Polynomial Zero-Avoidance",
