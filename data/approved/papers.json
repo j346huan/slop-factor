@@ -8509,6 +8509,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08242",
+      "version": 1,
+      "title": "Bang--bang representation of $3\\times 3$ embeddable stochastic matrices",
+      "authors": [
+        "Leonel Robert"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-08T17:11:19Z",
+        "updated": "2026-08-08T17:11:19Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that every embeddable $3\\times3$ row-stochastic matrix is a product of at most seven elementary row-stochastic matrices. Frydman's example shows that this bound is sharp. The proof combines Frydman's six-factor criterion and spiral theorem with a reduction to a three-parameter critical family and an analysis of the membership certificates that persist along it.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08242v1",
+        "pdf": "https://arxiv.org/pdf/2608.08242v1",
+        "source": "https://export.arxiv.org/e-print/2608.08242v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 6,
+        "lemmas": 11,
+        "propositions": 6,
+        "corollaries": 5,
+        "definitions": 2,
+        "displayed_equations": 203,
+        "bibliography_entries": 12,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 7moves10_xry.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "odel and Codex through a ChatGPT Plus account. I supplied ChatGPT with an initial report on the problem which discussed relevant ideas and identities and the overall strategy of studying a first exit from R7 . Starting from this framework, ChatGPT assisted in solving the algebraic conditions arising at first exit and in finding a convenient normalization of the matrices satisfying them. This led ChatGPT to the explicit three-parameter critical family U (x, r, y) and to more tractabl",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:22.508548Z"
+      },
+      "score": 2059.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 205.95,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 23,
+          "theorems": 36,
+          "lemmas": 44,
+          "propositions": 24,
+          "corollaries": 15,
+          "definitions": 4,
+          "displayed_equations": 50.75,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08193",
       "version": 1,
       "title": "The sharp volume gap for Kähler manifolds with positive Ricci curvature",
