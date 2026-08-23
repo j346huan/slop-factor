@@ -42188,6 +42188,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14238",
+      "version": 1,
+      "title": "Online Beck--Fiala Down to Logarithmic Sparsity",
+      "authors": [
+        "Dylan J. Altschuler",
+        "Konstantin Tikhomirov"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM",
+          "cs.DS",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-15T18:01:43Z",
+        "updated": "2026-07-15T18:01:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Beck--Fiala conjecture asserts that every matrix $A\\in\\{0,1\\}^{n\\times T}$ with at most $d$ nonzero entries in each column has discrepancy $O(\\sqrt d)$. A major breakthrough result of Bansal and Jiang recently established the validity of the conjecture for $d \\ge \\log(T)^2$. The present article extends the validity of the classical \\textit{offline} Beck--Fiala conjecture to $d \\ge \\log(T)^{1+o(1)}$; moreover, the main thrust of the result is that it is actually obtained by an efficient \\textit{online} algorithm that minimizes prefix discrepancy. The result is also essentially optimal, since online prefix discrepancy is known to scale as $ω(\\sqrt{d})$ for $d =o(\\log T)$. As an immediate corollary, the open question of online vector balancing in the Spencer setting is also resolved. The algorithm is based on a compactly supported Metropolis fixed-point walk, constructed by combining ideas from several recent works on the online Komlós problem. The proof was generated in conversation with ChatGPT 5.6 Pro; the authors provided high-level guidance in several rounds of prompting, followed by manual checking and rewriting of the proof.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14238v1",
+        "pdf": "https://arxiv.org/pdf/2607.14238v1",
+        "source": "https://export.arxiv.org/e-print/2607.14238v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 1,
+        "lemmas": 7,
+        "propositions": 3,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 65,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arXiv_6_15_2026_v1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ncer setting is also resolved. The algorithm is based on a compactly supported Metropolis fixed-point walk, constructed by combining ideas from several recent works on the online Komlós problem. The proof was generated in conversation with ChatGPT 5.6 Pro; the authors provided high-level guidance in several rounds of prompting, followed by manual checking and rewriting of the proof.",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:05.997271Z"
+      },
+      "score": 822.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 82.25,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 9,
+          "theorems": 6,
+          "lemmas": 28,
+          "propositions": 12,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 16.25,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14087",
       "version": 3,
       "title": "Stochastic Domination of Gaussian Maxima: A Resolution of the Weak Simplex Conjecture",
