@@ -8596,6 +8596,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17267",
+      "version": 1,
+      "title": "An exotic $S^2\\times S^2$ and an exotic $\\mathbb{CP}^2\\#\\overline{\\mathbb{CP}}^2$",
+      "authors": [
+        "Bernd Johannes Wuebben"
+      ],
+      "categories": {
+        "primary": "math.GT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T01:51:20Z",
+        "updated": "2026-08-18T01:51:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that a specified Lidman-Piccirillo piece $V$, a symplectic $4$-manifold with the homology of $S^2\\times D^2$ built from a genus-$2$ surface bundle over a once-punctured torus by two Luttinger surgeries, is simply connected, for an explicit permitted choice of the two surgery parametrizations. Three consequences follow. The symplectic double $Z=V\\cup_σV$ is homeomorphic but not diffeomorphic to $S^2\\times S^2$. The Lidman-Piccirillo manifolds $B$ and $W$ are homeomorphic. Since the figure-eight knot is slice in $B$ and not in $W$, they are the first pair of homeomorphic closed $4$-manifolds distinguished by unconstrained knot slicing, that is, by sliceness with no constraint on the homology class of the slice disk; detecting smooth structure this way goes back to Casson. Finally, the regluing of Lidman and Piccirillo's Theorem~2 applied to $Z$ yields a closed simply connected $4$-manifold homeomorphic but not diffeomorphic to $\\mathbb{CP}^2\\#\\overline{\\mathbb{CP}}^2$. The consequences follow from the simple-connectivity statement by the classifications of Freedman and of Hambleton-Kreck, together with a rigidity analysis of the surgery parameters. The fundamental group is computed in the style of Baldridge and Kirk, from explicit based representatives of every meridian and Lagrangian push off, and the resulting relation system is decided by coset enumeration, after calibration on two configurations whose answers are known independently. The development calculations and finite-presentation decisions can be reproduced from the ancillary files.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17267v1",
+        "pdf": "https://arxiv.org/pdf/2608.17267v1",
+        "source": "https://export.arxiv.org/e-print/2608.17267v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 6,
+        "lemmas": 8,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 30,
+        "bibliography_entries": 26,
+        "appendix_pages": 26
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "apers/ directory; it is not part of the arXiv ancillary archive. Appendix A inventories the files and separates the geometric arguments proved in the body from the computations reproduced by the package. Acknowledgements. The author used LLMs during the development of this work for literature exploration, editorial assistance and as an adversarial reader.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:07.461173Z"
+      },
+      "score": 346.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 173.1,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 32,
+          "theorems": 36,
+          "lemmas": 32,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 7.5,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 52
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17238",
       "version": 1,
       "title": "Small Cancellation Stability and Isomorphism Rigidity for Generic Finitely Presented Groups",
