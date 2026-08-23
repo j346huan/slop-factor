@@ -9015,6 +9015,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17879",
+      "version": 1,
+      "title": "Cohomological Cohen--Macaulayness in Non-Noetherian Rings",
+      "authors": [
+        "Ryoya Ando"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T15:12:01Z",
+        "updated": "2026-08-18T15:12:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study Cohen--Macaulayness, in the sense of Hamilton--Marley, of non-Noetherian rings arising as big Cohen--Macaulay algebras. Motivated by Bhatt's notion of cohomological Cohen--Macaulayness, we call a locally finite-dimensional ring CCM if its structure sheaf satisfies this condition. Our main comparison theorem shows that every locally finite-dimensional CCM ring is locally HMCM. Using this theorem, we prove that if $A$ is Noetherian and $R$ is an integral $A$-algebra that is locally balanced big Cohen--Macaulay over $A$, then $R$ is CCM and hence locally HMCM. In particular, if $A$ is an excellent Noetherian domain, $p$ is a prime, $n\\geq1$, and $A/pA\\neq0$, then $A^+/p^nA^+$ is CCM and locally HMCM. We also show, using finite-dimensional valuation domains, that CCM is strictly stronger than locally HMCM. Finally, for a Noetherian ring $A$ of characteristic $p>0$ and its perfection $A_{\\mathrm{perf}}$, we prove that the following conditions are equivalent: $A$ is locally weakly $F$-nilpotent; $A_{\\mathrm{perf}}$ is a locally balanced big Cohen--Macaulay $A$-algebra; and $A_{\\mathrm{perf}}$ is CCM. Under these equivalent conditions, $A_{\\mathrm{perf}}$ is locally HMCM.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17879v1",
+        "pdf": "https://arxiv.org/pdf/2608.17879v1",
+        "source": "https://export.arxiv.org/e-print/2608.17879v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 6,
+        "lemmas": 1,
+        "propositions": 4,
+        "corollaries": 4,
+        "definitions": 4,
+        "displayed_equations": 26,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "c Aperf → Spec A is a homeomorphism, so P ranges over all prime ideals of A. Thus A is locally weakly F -nilpotent. Theorem 5.3 now shows that Aperf is CCM and locally HMCM. □ Use of AI. The author used ChatGPT (OpenAI) for English translation, language editing, proofreading, and checking the exposition for possible inconsistencies. The author carefully reviewed and manually modified the AI-generated outputs, and takes full responsibility for the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "translation",
+        "role_label": "Translation",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:51.314980Z"
+      },
+      "score": 92.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 92.5,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 10,
+          "theorems": 36,
+          "lemmas": 4,
+          "propositions": 16,
+          "corollaries": 12,
+          "definitions": 8,
+          "displayed_equations": 6.5,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17862",
       "version": 1,
       "title": "Idealizing Useful Fictions in Omega Grounded Arithmetic",
