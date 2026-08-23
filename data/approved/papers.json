@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09517",
+      "version": 1,
+      "title": "Classification of anomalous actions of finite groups with the Rokhlin property",
+      "authors": [
+        "Sergio Girón Pacheco",
+        "Gábor Szabó"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T12:16:08Z",
+        "updated": "2026-08-10T12:16:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Given a finite group G, we develop a generalization of the fundamental classification of Rokhlin G-actions on C*-algebras to the setting of anomalous G-actions with the Rokhlin property. For Rokhlin G-kernels on C*-algebras covered by the classification program, this implies that the induced G-action on some known invariants determines the conjugacy class. Extending a result of Izumi, we show that G-kernels with the Rokhlin property on Kirchberg algebras are classified by their anomaly and the induced module structure on the K-theory groups. We explore K-theoretic obstructions for the existence of Rokhlin G-kernels on general separable C*-algebras and use these to characterise which G-module structures arise as K-groups of Kirchberg algebras admitting a Rokhlin G-kernel with a given lifting obstruction.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09517v1",
+        "pdf": "https://arxiv.org/pdf/2608.09517v1",
+        "source": "https://export.arxiv.org/e-print/2608.09517v1"
+      },
+      "structural_counts": {
+        "pages": 42,
+        "theorems": 13,
+        "lemmas": 11,
+        "propositions": 3,
+        "corollaries": 4,
+        "definitions": 11,
+        "displayed_equations": 159,
+        "bibliography_entries": 63,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file RokhlinGkernels-v8.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "f this work. Tool and computational resource disclosure. Generative AI, in the form of Large Language Models or otherwise, has not been used by the authors in any capacity to discover or prove any of the results in this manuscript. We used ChatGPT solely for the purpose of English language editing of specific parts during the final stages of the writing. 1. Preliminaries Notation 1.1. Throughout this paper A and B denote C∗ -algebras and G will be a coun",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:41.353088Z"
+      },
+      "score": 256.05,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 256.05,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 42,
+          "theorems": 78,
+          "lemmas": 44,
+          "propositions": 12,
+          "corollaries": 12,
+          "definitions": 22,
+          "displayed_equations": 39.75,
+          "bibliography_entries": 6.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09505",
       "version": 1,
       "title": "Conditional Uniqueness and Optimal Energy-Norm Convergence for the Dynamic Diffusion Finite Element Method",
