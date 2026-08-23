@@ -42108,6 +42108,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00905",
+      "version": 1,
+      "title": "Kaplansky classes and stability",
+      "authors": [
+        "Sean Cox"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "math.CT",
+          "math.RA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T00:19:12Z",
+        "updated": "2026-08-02T00:19:12Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Soon after the proof of the Flat Cover Conjecture around the year 2000, two related concepts were introduced for classes in Grothendieck categories: \\emph{Deconstructible classes} and the strictly weaker \\emph{Kaplansky classes}. All commonly-studied Kaplansky classes, such as the class $\\mathcal{FM}$ of Flat Mittag-Leffler modules in $R$-Mod and the class $\\mathcal{D}$ of Drinfeld vector bundles in Qcoh($X$), satisfy a stronger property we introduce here: they are \\emph{Uniformly Stationary Kaplansky} classes. While such classes generally lack the key feature (existence of precovers) that make deconstructible classes so central to modern relative homological algebra, they often suffice for model-theoretic stability. This is true even in the absence of the Amalgamation Property, with various restricted classes of morphisms, and in some non-additive settings. For example, $\\mathcal{FM}$ with pure embeddings, and $\\mathcal{D}$ with (either categorical or geometric) pure embeddings, are stable in all sufficiently closed cardinals.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00905v1",
+        "pdf": "https://arxiv.org/pdf/2608.00905v1",
+        "source": "https://export.arxiv.org/e-print/2608.00905v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 4,
+        "lemmas": 6,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 53,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file KaplanskyClassesAndStability.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "results in [23] during the BLAST conference at Baylor University (May 2026). Thanks also to the BLAST conference organizers and the NSF support of the conference (DMS 2519783). The Claude Opus and Fable models provided valuable feedback on multiple drafts (including noticing a crucial error in an earlier draft), fixed an issue about κ-presentable objects in the proof of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:46.555281Z"
+      },
+      "score": 706,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 88.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 17,
+          "theorems": 24,
+          "lemmas": 24,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 13.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00900",
       "version": 1,
       "title": "An explicit construction of two completely independent spanning trees in the four-dimensional dual-cube",
