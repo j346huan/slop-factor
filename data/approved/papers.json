@@ -41766,6 +41766,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22017",
+      "version": 1,
+      "title": "Exterior power sums",
+      "authors": [
+        "Yanping Luo",
+        "Ruiyi Yang",
+        "Keheng Zhu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-24T06:31:55Z",
+        "updated": "2026-07-24T06:31:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that for every fixed $λ>0$ and all sufficiently large $n$, any $z_1,\\dots,z_n\\in\\C$ with $|z_j|\\geq1$ satisfy $\\max_{2\\leq k\\leq n+1}|\\sum_j z_j^k|>e^{-λn}$. Consequently, the $n$th root of the optimal maximum tends to $1$, so no constant $C>1$ in Erdős 973 can exist. The proof combines a truncated exponential factorization with overconvergence on an open set outside the unit disk and a normal-family obstruction for Cauchy transforms.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22017v1",
+        "pdf": "https://arxiv.org/pdf/2607.22017v1",
+        "source": "https://export.arxiv.org/e-print/2607.22017v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 1,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 57,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main__1_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "EXTERIOR POWER SUMS 7 Disclosure of automated assistance GPT-5.6 Sol was used during proof exploration, source comparison, and drafting. The written argument above is self-contained and does not use numerical computation or the output of a formal prover as a mathematical premise. A separate Lean 4 devel",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:39.131574Z"
+      },
+      "score": 415.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 51.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 7,
+          "theorems": 6,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 14.25,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21976",
       "version": 1,
       "title": "Point-to-set principles in dynamical systems",
