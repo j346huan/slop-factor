@@ -44820,6 +44820,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19513",
+      "version": 1,
+      "title": "Constructing a complex Lie algebra isomorphic to its complex conjugate but not definable over reals",
+      "authors": [
+        "Mikhail Borovoi",
+        "Willem A. de Graaf",
+        "Robert M. Guralnick"
+      ],
+      "categories": {
+        "primary": "math.RA",
+        "secondary": [
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T18:55:21Z",
+        "updated": "2026-07-21T18:55:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Following an idea of Demarche and using computer calculations of the authors and ideas of LLM Claude Fable, we construct an explicit 10-dimensional complex two-step nilpotent Lie algebra that is isomorphic to its complex conjugate but cannot be defined over the field of real numbers R.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19513v1",
+        "pdf": "https://arxiv.org/pdf/2607.19513v1",
+        "source": "https://export.arxiv.org/e-print/2607.19513v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 2,
+        "lemmas": 11,
+        "propositions": 4,
+        "corollaries": 5,
+        "definitions": 1,
+        "displayed_equations": 67,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file A-note-260721-arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "basis algorithm, we could compute the set of involutions in GW : no involutions. However, a Gröbner basis computation of the whole finite group GW or even of the set of elements of order 3 in GW , never ends. Instead, we use an idea of LLM Claude Fable. Let H = GW denote the stabilizer of W in G = GL(6, C). Then H naturally acts on W . We identify 2 V ∗ with the space Matskew V 6 of skew-symmetric 6×6 matrices. Namel",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:46.280420Z"
+      },
+      "score": 1154.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 115.45,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 9,
+          "theorems": 12,
+          "lemmas": 44,
+          "propositions": 16,
+          "corollaries": 15,
+          "definitions": 2,
+          "displayed_equations": 16.75,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19511",
       "version": 1,
       "title": "A Conditional Probability Hierarchy for Stochastic Choice",
