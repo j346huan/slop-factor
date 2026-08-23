@@ -8424,6 +8424,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17862",
+      "version": 1,
+      "title": "Idealizing Useful Fictions in Omega Grounded Arithmetic",
+      "authors": [
+        "Bryan Ford"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "cs.LO",
+          "cs.PL"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T14:54:50Z",
+        "updated": "2026-08-18T14:54:50Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Grounded arithmetic is a family of formal systems for reasoning about computation in which a statement may be asserted only when a terminating computation backs it; the logics are paracomplete - for a sentence whose backing computation never settles, neither the sentence nor its negation is derivable, so paradoxes like the Liar are harmless rather than explosive. The reflective member of the family, RGA, can quantify over its own computations, but cannot certify that its own unbounded searches have definite yes-or-no answers. This paper studies what happens when that openness is closed by exactly one rule - ATI, the $ω$-grounded universal: if every numeric instance of a universal sentence is certified decided, the universal is certified decided. The resulting system, OGA, shares RGA's syntax and rules symbol-for-symbol otherwise, and every consequence is developed as a machine-checked theorem. Decidedness certificates become abundant - every totality question about a computable function is certified to have an answer, whether or not anyone can produce it - and this is exactly the provable separation between the two systems. OGA is complete for its own semantics; certified-but-unresolved sentences receive values built from the system's own open questions. Provability remains recursively enumerable, with a primitive-recursive certificate checker, while $ω$-truth deliberately is not. Within that asymmetry, incompleteness takes a new form. The Gödel sentence is classified, unconditionally, as a genuine fiction: neither provable nor refutable, yet valued, and carrying a computable pedigree recording exactly what adopting it as an axiom commits one to. The adoption is itself a theorem suite: extending OGA by any finite stock of true fictions is consistent, and independently certified adoptions can never collide.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17862v1",
+        "pdf": "https://arxiv.org/pdf/2608.17862v1",
+        "source": "https://export.arxiv.org/e-print/2608.17862v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 15,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 1,
+        "bibliography_entries": 146,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "complete Isabelle/HOL formalization with no unproven assumptions (Section 7). AI disclosure: both the mechanically-verified proofs and the writing of this paper were significantly assisted by artificial intelligence (Claude Fable from Anthropic), as detailed in Section 7.4. 2 Background: Grounded Arithmetic and RGA Grounded arithmetic replaces the classical stipulation that every arithmetic sentence is true or false with a construc- tive discipline: a sentence holds when a t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:08.229739Z"
+      },
+      "score": 1548.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 154.85,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 21,
+          "theorems": 90,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 0.25,
+          "bibliography_entries": 14.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17821",
       "version": 1,
       "title": "Witt rings, Pfister forms, and equivariant birational geometry",
