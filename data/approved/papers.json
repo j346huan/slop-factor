@@ -8340,6 +8340,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13509",
+      "version": 1,
+      "title": "The distribution of $k$-free ideals in ray class groups",
+      "authors": [
+        "Adrian Barquero-Sanchez",
+        "Jack Heimrath",
+        "Bernd Sing",
+        "Nicolás Sirolli",
+        "Caylee Spivey",
+        "Michael Wijaya"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T17:34:15Z",
+        "updated": "2026-08-13T17:34:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we extend the classical problem of studying the distribution of $k$-free integers in arithmetic progressions to the setting of arbitrary number fields. Using the language of ray class groups, we establish asymptotic formulas, together with error terms, for the number of $k$-free ideals of bounded norm lying in a given ray class. In particular, our results show that $k$-free ideals are equidistributed among ray classes. We also obtain improved error estimates in the cases of ideal class groups and narrow class groups by using sharper ideal counting asymptotics due to Landau. Our results recover the classical formulas of Gegenbauer and Cohen--Robinson over $\\mathbb{Q}$ and extend previous work of Benkowski, Nymann, and Sittinger to the setting of ray class groups. We also present explicit computational examples that illustrate the asymptotic formulas and the equidistribution of $k$-free ideals among ray classes.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13509v1",
+        "pdf": "https://arxiv.org/pdf/2608.13509v1",
+        "source": "https://export.arxiv.org/e-print/2608.13509v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 6,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 163,
+        "bibliography_entries": 34,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ideals-in-ray-classes.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "uero-Sanchez and registered with the Vicerrectorı́a de Investigación of the University of Costa Rica. C. Spivey would like to thank her advisor, Keith Conrad, for his support, comments, and sug- gestions during this project. We used ChatGPT to assist in developing SageMath wrappers for selected PARI/GP function- ality related to ray class groups in the accompanying computational code; all generated code was subsequently reviewed and verified by the authors. 2. Ray class",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:08.652930Z"
+      },
+      "score": 264.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 132.15,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 24,
+          "theorems": 36,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 40.75,
+          "bibliography_entries": 3.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.19240",
       "version": 1,
       "title": "A Nonmonotone Real-Rootedness Set for Symmetric Imaginary Shifts",
