@@ -8511,6 +8511,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08390",
+      "version": 1,
+      "title": "Lasso Universality Under Linearly Dependent Covariates in the Sparse Regime",
+      "authors": [
+        "Soroush Mesforush",
+        "Rahul Parhi"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "cs.IT",
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T00:59:25Z",
+        "updated": "2026-08-09T00:59:25Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Throughout the last decade, Gaussian universality has been widely studied for high-dimensional estimation problems. Most of the literature focuses on i.i.d. sensing matrices or accounts for special forms of dependence, such as block dependence or other specific row/column dependencies. More general simultaneous row and column mixing has not yet been fully studied. In this paper, we focus on that setting. We prove a Gaussian universality theorem for the lasso in the sparse regime, where the non- Gaussian covariates have linearly dependent rows and columns. To the best of our knowledge, our setting permits a broader simultaneous row and column dependence structure than those treated in much of the prior universality literature. Numerical illustrations for various sparse profiles support the universality claims of this paper.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08390v1",
+        "pdf": "https://arxiv.org/pdf/2608.08390v1",
+        "source": "https://export.arxiv.org/e-print/2608.08390v1"
+      },
+      "structural_counts": {
+        "pages": 31,
+        "theorems": 1,
+        "lemmas": 5,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 144,
+        "bibliography_entries": 89,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Lasso_Universality_Final.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "LASSO UNIVERSALITY UNDER LINEARLY DEPENDENT COVARIATES 19 Acknowledgments The authors used ChatGPT (OpenAI) for assistance with exposition, organization, notation, and proof refinement during the preparation of this manuscript. The authors conceived the project, developed the mathematical framework, proved the results, and made all final editor",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:41.425587Z"
+      },
+      "score": 927.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 115.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 31,
+          "theorems": 6,
+          "lemmas": 20,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 36,
+          "bibliography_entries": 8.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08347",
       "version": 1,
       "title": "Machine-Guided Recurrence Boundary Theory for Nahm Sums",
