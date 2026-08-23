@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28813",
+      "version": 1,
+      "title": "The Multiset Dimension of Graphs: Extremal Values and King Grids",
+      "authors": [
+        "Jaan Allikvere"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T20:15:44Z",
+        "updated": "2026-07-30T20:15:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We present three results on the multiset dimension of graphs, resolving one conjecture and two open questions from the literature. First, we disprove the conjecture of Simanjuntak, Siagian and Vetrík (2017) that every graph $G$ of order $n(G)$ with finite multiset dimension satisfies $\\dim_m(G) \\le n(G)-1$: an exhaustive computation over all 1,018,690,328 connected graphs of orders 2 through 11 shows that exactly eight graphs attain $\\dim_m(G)=n(G)$, all of order 11, so 11 is the smallest order at which the trivial upper bound is attained. This also answers a question from the recent survey of Farhan, Klavžar, Kuziak and Yero. Second, we prove that $\\dim_m(P_n \\boxtimes P_n)=4$ for every $n \\ge 5$, answering a question of Hakanen and Yero: after a $45^\\circ$ change of coordinates the Chebyshev metric of the king grid becomes half the Manhattan metric on a parity sublattice, and four boundary inequalities reduce every potentially resolving three-landmark set to two geometric cases, in each of which we exhibit an explicit collision. Third, on king strips the parameter grows linearly: $\\dim_m(P_3 \\boxtimes P_n)=n$ for $n \\ge 6$ (with the small cases determined exactly), where the lower bound rests on three local separation conditions and a finite min-plus transfer certificate whose equality case yields a finite automaton with a 19-state recurrent core, and the upper bound is an explicit landmark pattern of period three that works for every height. Combined with a blindness lower bound, $\\dim_m(P_h \\boxtimes P_n) = Θ(n)$ for every fixed $h \\ge 3$, so the constant answer on square king grids requires both dimensions to grow.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28813v1",
+        "pdf": "https://arxiv.org/pdf/2607.28813v1",
+        "source": "https://export.arxiv.org/e-print/2607.28813v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 6,
+        "lemmas": 11,
+        "propositions": 2,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 86,
+        "bibliography_entries": 12,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r and automaton certificates, and pattern checks) at doi:10.5281/zenodo.21609917. The order-≤ 10 graph databases and nauty are publicly available from B. McKay’s web pages [11]. Acknowledgements and disclosure Generative AI tools accessed through Cursor were used as assistive tools for mathematical drafting, language editing, LATEX formatting, literature search, checking the citations against their sources, and code generation. The author independently verifi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:56.123560Z"
+      },
+      "score": 728.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 145.7,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 22,
+          "theorems": 36,
+          "lemmas": 44,
+          "propositions": 8,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 21.5,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28785",
       "version": 1,
       "title": "From 12 to 6: Sharpening the Three-Charge Bound in Maxwell's Problem",
