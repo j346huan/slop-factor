@@ -41936,6 +41936,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00899",
+      "version": 1,
+      "title": "Asymptotically optimal bracketing covers for anchored boxes",
+      "authors": [
+        "Kosuke Suzuki"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-01T23:46:23Z",
+        "updated": "2026-08-01T23:46:23Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Bracketing covers and $δ$-covers provide finite discretizations of the anchored boxes that define the star discrepancy. Let $N_{[]}(d,δ)$ and $N(d,δ)$ denote the corresponding bracketing and covering numbers. We prove the lower bounds \\[ N_{[]}(d,δ)\\ge \\lceil δ^{-d}\\rceil, \\qquad N(d,δ)\\ge \\left\\lceil \\frac{d!}{d^d}\\,δ^{-d}\\right\\rceil. \\] We also construct, for every fixed $d$, bracketing covers which, together with the lower bound, show that $N_{[]}(d,δ)=(1+o_d(1))δ^{-d}$ as $δ\\downarrow0$. The construction combines a coarse partition with box-dependent anisotropic local grids. Its shared vertices yield $δ$-covers with asymptotic upper coefficient one. Explicit upper bounds are obtained for both quantities.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00899v1",
+        "pdf": "https://arxiv.org/pdf/2608.00899v1",
+        "source": "https://export.arxiv.org/e-print/2608.00899v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 5,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 63,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file asymptotically_optimal_bracketing_covers_paper_v125.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "10 K. SUZUKI Declaration of generative AI use The author used ChatGPT 5.6 Sol for literature searches, exploratory development, and assistance in preparing portions of the exposition and LaTeX source. All mathematical arguments, calculations, references, and conclusions were ind",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:18.697494Z"
+      },
+      "score": 603.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 75.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 10,
+          "theorems": 30,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 15.75,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00845",
       "version": 1,
       "title": "de Rham theory and locally analytic vectors",
