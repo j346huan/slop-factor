@@ -8423,6 +8423,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07842",
+      "version": 1,
+      "title": "Resolution of a Conjecture on Shifted R'enyi Divergence",
+      "authors": [
+        "Anay Aggarwal"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-08T00:51:43Z",
+        "updated": "2026-08-08T00:51:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Altschuler and Chewi conjecture that the sub-Gaussian Orlicz--Wasserstein shifted Rényi divergence between two isotropic Gaussians of equal covariance is attained by a deterministic shift of the mean, which would give an exact closed form for the shift budget consumed by their analysis. In this note, we show that this conjecture is true when $q=1$, where the Rényi divergence degenerates to the Kullback--Leibler divergence, and false for every $q>1$ outside the degenerate regime.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07842v1",
+        "pdf": "https://arxiv.org/pdf/2608.07842v1",
+        "source": "https://export.arxiv.org/e-print/2608.07842v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 2,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 30,
+        "bibliography_entries": 2,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "dding the two gives J ′ (0) = −q(q − 1)µ20 /σ 2 , which is strictly negative because q > 1 and µ0 = m − s > 0. Since J is differentiable at 0, J(β) < J(0) = qµ20 /(2σ 2 ) for all sufficiently small β > 0. □ Note: Claude Fable 5 was used in the drafting of this note. This is the first result due to the Large Math Initiative, an initiative that aims to streamline the use of AI for math research. References [1] J. M. Altsch",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:43.910737Z"
+      },
+      "score": 303.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 60.7,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 6,
+          "theorems": 12,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 7.5,
+          "bibliography_entries": 0.2,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07839",
       "version": 1,
       "title": "The Sharp Worst-Case Asymptotic Rate of the Barzilai--Borwein Method in $\\mathbb R^d$ and Hilbert Spaces",
