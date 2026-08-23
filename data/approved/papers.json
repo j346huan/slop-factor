@@ -41852,6 +41852,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18313",
+      "version": 1,
+      "title": "A Proof of Bala's Congruence Conjecture for A028342",
+      "authors": [
+        "Ahaan Kallat"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T18:06:22Z",
+        "updated": "2026-07-17T18:06:22Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $a(n)$ be the sequence A028342 in the On-Line Encyclopedia of Integer Sequences (OEIS), defined by the exponential generating function $\\sum_{n\\ge0} a(n)x^n/n! = \\prod_{i\\ge1}(1-x^i)^{-1/i}$. Equivalently, $a(n)$ counts permutations of an $n$-element labeled set in which every cycle is assigned one divisor of its length, where a cycle of length $m$ has $d(m)$ choices, $d(m)$ being the number of positive divisors of $m$. We prove a family of congruences for $a$, conjectured by Peter Bala. They state that $k \\mid a(n+k)+a(n)$ for odd $k$, that $k \\mid a(n+k)-a(n)$ for $k\\equiv 0,2,6 \\pmod 8$, and that $k \\mid 2(a(n+k)-a(n))$ for $k\\equiv 4\\pmod 8$. The proof first establishes a product congruence $a(n+k)\\equiv a(n)a(k)\\pmod k$, and then computes $a(p^r)\\bmod p^r$ for each prime power by counting the colored permutations fixed by a subgroup of order $p$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18313v1",
+        "pdf": "https://arxiv.org/pdf/2607.18313v1",
+        "source": "https://export.arxiv.org/e-print/2607.18313v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 55,
+        "bibliography_entries": 4,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments The author thanks the contributors to the OEIS entry for A028342, especially Peter Bala for formulating the congruence conjecture. The author also thanks Gabor Lippner for a helpful discussion of the proof. The author used AI tools for exploratory discussion, computational checking, and drafting assistance. The author independently checked the mathematical arguments, computations, and final manuscript. Theorem 1.1 and all of its supporting propositions and lemmas hav",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:16.114877Z"
+      },
+      "score": 401.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 50.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 13.75,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16188",
       "version": 1,
       "title": "Optimal control of symmetry-breaking dynamics near criticality",
