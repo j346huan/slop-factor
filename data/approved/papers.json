@@ -42614,6 +42614,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13401",
+      "version": 1,
+      "title": "Total variation cutoff for Kac's walk on the sphere",
+      "authors": [
+        "Vishesh Jain",
+        "Clayton Mizgerd"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-15T02:56:51Z",
+        "updated": "2026-07-15T02:56:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove cutoff in total variation distance for the discrete-time Kac walk on $S^{n-1}$ started from a coordinate vector. The cutoff occurs at $ C_{\\mathrm{BRW}}n\\log n$, where $C_{\\mathrm{BRW}} \\approx 3.8916$ is an explicit constant determined by the speed of the leftmost particle in a branching random walk. In particular, the cutoff location is not at the conjectured time $ 2n\\log n$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13401v1",
+        "pdf": "https://arxiv.org/pdf/2607.13401v1",
+        "source": "https://export.arxiv.org/e-print/2607.13401v1"
+      },
+      "structural_counts": {
+        "pages": 39,
+        "theorems": 1,
+        "lemmas": 9,
+        "propositions": 6,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 399,
+        "bibliography_entries": 27,
+        "appendix_pages": 39
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ed dependence of the implicit constant; for example, OT (g) may depend on T but not on n. Constants denoted by C, with or without subscripts, are finite and positive and may change from line to line. 1.5. Acknowledgments. The authors used ChatGPT extensively, at the level of a co-author, for brainstorming, help with proofs, literature review, checking for mistakes, writing code, and for preparing the manuscript. The mathematical content, the final text, and any remaining errors are",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:31.816605Z"
+      },
+      "score": 2854.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 285.45,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 39,
+          "theorems": 6,
+          "lemmas": 36,
+          "propositions": 24,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 99.75,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 78
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13335",
       "version": 1,
       "title": "Closing the Oracle-Complexity Gap in Derivative-Free Convex Optimization: A Near-Quadratic Lower Bound from Exact Function Values",
