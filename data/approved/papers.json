@@ -41853,6 +41853,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25112",
+      "version": 1,
+      "title": "No Gelation and Global Existence for a Boltzmann Equation with Regularly Varying Mass-Exchange Rates",
+      "authors": [
+        "Siwei Luo",
+        "Jian-Guo Liu"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T22:16:37Z",
+        "updated": "2026-07-27T22:16:37Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a no-gelation mechanism that yields global solutions to the spatially homogeneous Boltzmann equation with mass exchange for Grad-cutoff hard potentials $B=E^γb(ξ), 0<γ<1$ and regularly varying mass-exchange rates. Without assuming any higher mass moment, we construct a convex superlinear weight assembled from dyadic hinges. Production of the weighted moment by collisions between large particles of comparable mass is absorbed by dissipation through collisions with a uniformly populated reservoir of bounded-mass particles. Regular variation makes the signed increments in these two collision configurations comparable, while mass conservation and $γ<1$ yield the vanishing factor $L^{γ-1}$. This yields a uniform moment bound of the mass-cutoff approximations on every finite time interval and rules out finite-time mass escape to infinity. Consequently, for every nonnegative initial density with finite physical moments, we obtain a global integral weak solution.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25112v1",
+        "pdf": "https://arxiv.org/pdf/2607.25112v1",
+        "source": "https://export.arxiv.org/e-print/2607.25112v1"
+      },
+      "structural_counts": {
+        "pages": 40,
+        "theorems": 2,
+        "lemmas": 12,
+        "propositions": 8,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 340,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "y acknowledges the hospitality of the Department of Mathematics at Duke University during his visit in summer 2026, where part of this work was carried out. Declaration of AI use. During the preparation of this manuscript, the authors used OpenAI’s ChatGPT to assist with literature searches and English-language editing. All AI-assisted language was reviewed and revised by the authors, who take full responsibility for the content and arguments of the manuscript.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 39",
+          "page": 39
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:10.896378Z"
+      },
+      "score": 910.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 227.6,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 40,
+          "theorems": 12,
+          "lemmas": 48,
+          "propositions": 32,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 85,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25023",
       "version": 1,
       "title": "Schrijver Number Quasi-Tensorization and Multicolor Ramsey Bounds via Robust OR Polynomials",
