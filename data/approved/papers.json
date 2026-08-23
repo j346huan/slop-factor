@@ -41768,6 +41768,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25862",
+      "version": 1,
+      "title": "The Winding Number at the Critical Hölder Exponent 1/3: Failure of Universal Fourier Summation",
+      "authors": [
+        "Rupert L. Frank",
+        "Paata Ivanisvili"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T15:30:21Z",
+        "updated": "2026-07-28T15:30:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The degree (or winding number) of a sufficiently regular map $f:\\mathbb{T} \\to \\mathbb {S^1}$ is given in terms of its Fourier coefficients by $$ \\operatorname{deg} f = \\sum_{n\\in\\mathbb{Z}} n\\,|\\widehat{f}(n)|^2. $$ At lower regularity the series may diverge, but, as shown by Kahane, when $f$ is $α$-Hölder continuous with $α>1/3$, then the degree can be recovered by a universal linear summation process. We show that no summation process satisfying Brezis's natural axioms can recover the degree universally for $α=1/3$, thereby resolving an open problem by Brezis.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25862v1",
+        "pdf": "https://arxiv.org/pdf/2607.25862v1",
+        "source": "https://export.arxiv.org/e-print/2607.25862v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 2,
+        "lemmas": 7,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 146,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Brezis_5.6_V4.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ct-ID 470903074. P. I. acknowledges partial support from the US NSF CAREER grant DMS-2152401, US NSF grant DMS-2554183, a Simons Fellowship, and a Humboldt Research Fellowship for Experienced Researchers. The authors acknowledge the use of AI tools during the exploratory stage of this project. All mathematical arguments and proofs in the final manuscript were checked and written by the authors. References [1] Jean Bourgain and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:00.197837Z"
+      },
+      "score": 213,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 106.5,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 18,
+          "theorems": 12,
+          "lemmas": 28,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 36.5,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25645",
       "version": 1,
       "title": "Estimates of the total variation distance between laws of Sobolev mappings on Gaussian spaces",
