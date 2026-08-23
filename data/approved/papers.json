@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13946",
+      "version": 1,
+      "title": "On the Lei--Bai conjecture on $5$-regular Lin--Lu--Yau Ricci-flat graphs",
+      "authors": [
+        "Guangfu Wang",
+        "Wensheng Sun",
+        "Yujun Yang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T04:38:13Z",
+        "updated": "2026-08-14T04:38:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the Ricci curvature introduced by Lin, Lu, and Yau. A graph is called Ricci-flat if every edge has curvature zero. Lei and Bai classified $5$-regular symmetric Ricci-flat graphs by proving that every such graph is isomorphic to a particular $72$-vertex graph $\\RF$, and conjectured that every $5$-regular Ricci-flat graph is either isomorphic to $\\RF$ or admits a nontrivial Cartesian product decomposition. In this paper, we disprove this conjecture by constructing an infinite family of connected $5$-regular Ricci-flat graphs, none of which is isomorphic to $\\RF$ or admits a nontrivial Cartesian product decomposition. This shows that the conjectured extension of the classification from the symmetric setting to general $5$-regular Ricci-flat graphs fails and that the class of such graphs is substantially richer than previously conjectured. To establish these results, we use an optimal-assignment formulation of Lin--Lu--Yau curvature to verify the Ricci-flatness of the constructed graphs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13946v1",
+        "pdf": "https://arxiv.org/pdf/2608.13946v1",
+        "source": "https://export.arxiv.org/e-print/2608.13946v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 7,
+        "lemmas": 3,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 5,
+        "displayed_equations": 31,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 5_regular_Ricci_flat.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "availability statement No datasets were generated or analysed during the current study. A short verification script for the finite assignment calculations is included with the submission files for editorial convenience. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used AI for checking grammatical errors and typos during the revision stage. The authors reviewed and edited the output a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:43.940554Z"
+      },
+      "score": 95.55,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 95.55,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 15,
+          "theorems": 42,
+          "lemmas": 12,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 10,
+          "displayed_equations": 7.75,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13887",
       "version": 1,
       "title": "The Fino-Vezzoni conjecture on balanced Bismut torsion-parallel manifolds",
