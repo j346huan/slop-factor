@@ -41767,6 +41767,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27198",
+      "version": 2,
+      "title": "Mixed partition functions are exactly the graph parameters of exponentially bounded edge-connection rank",
+      "authors": [
+        "William Whistler"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.QA",
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-29T17:58:58Z",
+        "updated": "2026-08-03T16:46:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a conjecture of Regts and Sevenster: a complex-valued graph parameter $f$ with $f(\\varnothing)=1$ has exponentially bounded edge-connection rank if and only if it is a mixed partition function; moreover, the model may be chosen with its numbers of even and odd colours explicitly bounded in terms of the rank bound. From $f$ we construct a connection category, a rigid symmetric $\\mathbb{C}$-linear monoidal category whose morphism spaces have the connection ranks as dimensions and whose trace pairings are nondegenerate. The rank hypothesis forces moderate tensor growth, and a recent theorem of Etingof and Penneys then shows that every nilpotent endomorphism has trace zero; together with the nondegeneracy of the trace pairing, this makes the category semisimple, and a theorem of Deligne provides a faithful symmetric tensor functor to finite-dimensional super vector spaces. We then identify the resulting super tensor network with the Regts-Sevenster model exactly, viz. with its Eulerian-subgraph expansion and its sign of $-1$ for every fermionic circuit. An appendix gives an independent and direct proof of the nilpotent-trace step, showing that in a rigid symmetric $\\mathbb{C}$-linear category with $\\mathrm{End}(\\mathbf{1})=\\mathbb{C}$, exponentially bounded endomorphism growth makes the trace zeta function of every endomorphism rational, with explicit degree bounds.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27198v2",
+        "pdf": "https://arxiv.org/pdf/2607.27198v2",
+        "source": "https://export.arxiv.org/e-print/2607.27198v2"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 8,
+        "lemmas": 25,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 50,
+        "bibliography_entries": 37,
+        "appendix_pages": 19
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file rstheorem.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ndomorphisms universally of trace zero — the converse direction to Corollary A.2 — under a sign-property hypothesis. Finally, Guletskiı̆ [17] shows that rationality of the zeta function does not imply Kimura- finiteness. Acknowledgements Claude Fable 5 and GPT-5.6 Sol Pro were used extensively in the development and prepa- ration of this work. References [1] Yves André. Motifs de dimension finie (d’après S.-I. Kimura, P. O’Sullivan . . . ). Astérisque, 299:115–145, 2005.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:17.582751Z"
+      },
+      "score": 1929.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 241.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 30,
+          "theorems": 48,
+          "lemmas": 100,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 12.5,
+          "bibliography_entries": 3.7,
+          "appendix_pages": 38
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26871",
       "version": 1,
       "title": "Rigidity and stability for biased cross-intersecting families",
