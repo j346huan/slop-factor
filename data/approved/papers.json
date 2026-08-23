@@ -8511,6 +8511,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07227",
+      "version": 1,
+      "title": "Quillen equivalences for truncated multicomplexes",
+      "authors": [
+        "Jiahao Hu"
+      ],
+      "categories": {
+        "primary": "math.AT",
+        "secondary": [
+          "math.DG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-07T13:42:34Z",
+        "updated": "2026-08-07T13:42:34Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish Quillen equivalences between successive truncations of multicomplexes for the model structures that detect weak equivalences simultaneously on prescribed pages of the two associated spectral sequences. In particular, the natural comparison from $4$-multicomplexes to bicomplexes, which is relevant to the comparison between almost complex and complex geometry, is a Quillen equivalence. This answers a question of Cirici, Livernet, and Whitehouse.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07227v1",
+        "pdf": "https://arxiv.org/pdf/2608.07227v1",
+        "source": "https://export.arxiv.org/e-print/2608.07227v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 4,
+        "lemmas": 3,
+        "propositions": 4,
+        "corollaries": 4,
+        "definitions": 2,
+        "displayed_equations": 61,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file quillen_equivalence.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration on the use of artificial intelligence. OpenAI Codex (GPT-5 series, ac- cessed July–August 2026) was used as an interactive tool to explore proof strategies, check intermediate algebraic arguments, identify potentially relevant references, improve the or- ganization and language of the manuscript,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T04:59:51.048511Z"
+      },
+      "score": 794,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 99.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 14,
+          "theorems": 24,
+          "lemmas": 12,
+          "propositions": 16,
+          "corollaries": 12,
+          "definitions": 4,
+          "displayed_equations": 15.25,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07198",
       "version": 1,
       "title": "Heath-Brown identities for fractional powers of $ζ$",
