@@ -42867,6 +42867,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18031",
+      "version": 1,
+      "title": "The positive and negative square-energy conjecture",
+      "authors": [
+        "Yinchen Liu",
+        "Quanyu Tang",
+        "Shengtong Zhang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T14:59:44Z",
+        "updated": "2026-07-20T14:59:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $s^+(G)$ and $s^-(G)$ denote the sums of the squares of the positive and negative adjacency eigenvalues of a graph $G$, respectively. We prove the conjecture of Elphick, Farber, Goldberg, and Wocjan that every connected graph $G$ on $n$ vertices satisfies $$ \\min\\{s^+(G),s^-(G)\\}\\ge n-1. $$ The proof introduces a new framework for square-energy estimates, in which the Hadamard squares of positive semidefinite matrices that encode these spectral quantities are relaxed to the full doubly nonnegative cone.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18031v1",
+        "pdf": "https://arxiv.org/pdf/2607.18031v1",
+        "source": "https://export.arxiv.org/e-print/2607.18031v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 2,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 83,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Now s+ (Kn ) = (n − 1)2 , s− (Kn ) = n − 1, whereas both square energies of an edgeless graph vanish. The equality statements follow. □ Acknowledgments and AI disclosure We used ChatGPT to generate exploratory code for testing conjectures and to help polish the language of proof drafts. All mathematical content was verified by the authors, and the proof of Theorem 1.2 has additionally been formally verified in the Lean pr",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:57.047857Z"
+      },
+      "score": 186.45,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 62.15,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 12,
+          "theorems": 12,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 20.75,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17983",
       "version": 1,
       "title": "Frustration index of a signed planar graph and the feedback vertex set",
