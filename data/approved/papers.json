@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.02675",
+      "version": 1,
+      "title": "A 60-Vertex Lower Bound for Cubic Bipartite Counterexamples to the Erdős-Gyárfás Conjecture",
+      "authors": [
+        "Julius Tranquilli"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T17:47:43Z",
+        "updated": "2026-08-02T17:47:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A certified exhaustive computation shows that every simple cubic bipartite graph on at most 58 vertices contains a cycle of length 4, 8, or 16. Consequently, any cubic bipartite counterexample to the Erdos-Gyarfas conjecture has at least 60 vertices, improving the established published lower bound for this class from 30 to 60. The proof begins with a Moore-bound observation: below 62 vertices, a cubic bipartite graph avoiding 4- and 8-cycles must contain a 6-cycle. Viewing the graph as the Levi graph of a linear symmetric v3-configuration turns this 6-cycle into a Berge triangle. Up to symmetry, only two rooted extensions are possible. A complete restricted-growth search on at most 29 points exhausts both search trees. The computation is checked by two separately implemented exact procedures using different C16 oracles and by a static witness certificate. Source code, certificates, and reproduction instructions are archived with the paper.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.02675v1",
+        "pdf": "https://arxiv.org/pdf/2608.02675v1",
+        "source": "https://export.arxiv.org/e-print/2608.02675v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 1,
+        "lemmas": 5,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 11,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Tranquilli_2026_Erdos-Gyarfas_60-Vertex_Lower_Bound.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "materially assisted the initial research, including developing computational and structural approaches, portions of the incidence-based code and preliminary arguments, running and interpreting computations, and an initial literature audit. OpenAI Codex subsequently assisted with code and artifact auditing, reproducibility checks, additional verifiers and certificates, integration of the triangle-rooted method, and drafting and editing the manuscript and documentation. A custom clos",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:13:26.776308Z"
+      },
+      "score": 304.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 60.95,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 10,
+          "theorems": 6,
+          "lemmas": 20,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 2.75,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01396",
       "version": 1,
       "title": "Three Graffiti.pc Conjectures on Largest Induced Trees: Proofs of Conjectures 141, 142, and 143",
