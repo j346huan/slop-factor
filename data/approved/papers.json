@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24166",
+      "version": 1,
+      "title": "Strong rate of convergence for the Euler-Maruyama scheme of additive fractional SDEs with Lipschitz drift",
+      "authors": [
+        "Tsukasa Moritoki"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T08:46:55Z",
+        "updated": "2026-07-27T08:46:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the strong convergence rate of the Euler-Maruyama scheme for additive stochastic differential equations driven by a fractional Brownian motion with Hurst parameter $H \\in (0,1)$. Assuming the drift coefficient to be Lipschitz continuous, we show that the rate is $1$ if $H \\in (1/2,1)$, and $1/2+H-\\varepsilon$, for any $\\varepsilon>0$, if $H \\in (0,1/2]$. The main ingredient is a shifted stochastic sewing argument, which exploits the conditional Gaussian structure of fractional Brownian motion to control the noise discretization error.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24166v1",
+        "pdf": "https://arxiv.org/pdf/2607.24166v1",
+        "source": "https://export.arxiv.org/e-print/2607.24166v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 6,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 64,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file M_3rd.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "1];Rd ) ∥Lp ≤ C0 n−1 , where [·]C 1/4 ([0,1];Rd ) denotes the usual Hölder seminorm. In particular, sup |Xt − Xtn | ≤ C0 n−1 . t∈[0,1] Lp Declaration of generative AI and AI-assisted technologies in the writ- ing process The author used ChatGPT for translation, proofreading, and language edit- ing. The author reviewed and edited the content and takes full responsibility for the article. Data availa",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "translation",
+        "role_label": "Translation",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:07.981464Z"
+      },
+      "score": 58.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.7,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 24,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 16,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24138",
       "version": 1,
       "title": "Randomized Krylov-Projected Iterated Tikhonov Regularization for Large-Scale Ill-posed Problems Under A Posteriori Stopping Rule",
