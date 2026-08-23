@@ -8423,6 +8423,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10940",
+      "version": 2,
+      "title": "Prescribed-performance position tracking for infinite-dimensional passive systems",
+      "authors": [
+        "Anthony Hastir",
+        "Timo Reis"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T14:09:33Z",
+        "updated": "2026-08-18T01:14:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study funnel control for linear infinite-dimensional passive systems whose controlled output is obtained by integrating the passive output. In mechanical applications, this corresponds to position control based on a measured passive velocity output. Within the system-node framework, we propose a nonlinear recursive funnel controller with a dynamic gain supervisor for systems with distributed or boundary control and observation. The supervisor automatically increases a damping gain whenever the normalized recursive error approaches a prescribed monitoring level. The controller uses the tracking error and its derivative, with the latter obtained directly from the passive output rather than by numerical differentiation. We prove global existence and uniqueness of the closed-loop trajectory, prescribed funnel performance, and global boundedness of the derivative tracking error and the passive output. Under an additional position-compatible strict dissipativity condition, the supervised gain is increased only finitely many times and eventually becomes constant. Consequently, the gain, the internal state, and the control input are globally bounded, and the recursive-error funnel margin is uniform in time. The results are illustrated by a boundary-actuated Euler-Bernoulli beam with uniformly positive distributed damping.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10940v2",
+        "pdf": "https://arxiv.org/pdf/2608.10940v2",
+        "source": "https://export.arxiv.org/e-print/2608.10940v2"
+      },
+      "structural_counts": {
+        "pages": 38,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 237,
+        "bibliography_entries": 74,
+        "appendix_pages": 11
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file HasRei2026_PositionFunnel.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "and supervised gain. Upper right: position error and position funnel. Lower right: recur- sive error, recursive-error funnel, and supervisor monitoring level. Use of generative artificial intelligence OpenAI ChatGPT was used to assist with language editing of the manuscript and with the development and debugging of parts of the numerical implementation. All mathematical results, proofs, numerical code, and reported results were indep",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:41.137447Z"
+      },
+      "score": 514.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 128.65,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 38,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 59.25,
+          "bibliography_entries": 7.4,
+          "appendix_pages": 22
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10926",
       "version": 1,
       "title": "A higher-connectivity spectral Ore theorem for triangle-free graphs",
