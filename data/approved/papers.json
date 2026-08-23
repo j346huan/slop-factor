@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26305",
+      "version": 1,
+      "title": "Inclusions between p-bounded crystalline loci in dimension two",
+      "authors": [
+        "Kalyani Kansal",
+        "Brandon Levin",
+        "David Savitt"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-28T21:59:45Z",
+        "updated": "2026-07-28T21:59:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let p be an odd prime and K/Qp a finite unramified extension of degree f > 1. Let Z(r) be the reduced special fiber of the Emerton-Gee stack of two-dimensional crystalline representations of Hodge type r of the absolute Galois group of K. We study the collection of stacks Z(r) as r varies over p-bounded Hodge types, as a set partially ordered under inclusion. We prove that aside from two degenerate cases, simple inclusions can be classified in terms of three operations on Hodge types, two of which have standard automorphic interpretations. We also prove, with one exception, that inclusions can be detected at the level of an inclusion of closed points (equivalently, semisimple mod p Galois representations). GPT-5.5 Pro was used extensively in the course of this work.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26305v1",
+        "pdf": "https://arxiv.org/pdf/2607.26305v1",
+        "source": "https://export.arxiv.org/e-print/2607.26305v1"
+      },
+      "structural_counts": {
+        "pages": 31,
+        "theorems": 8,
+        "lemmas": 8,
+        "propositions": 9,
+        "corollaries": 3,
+        "definitions": 11,
+        "displayed_equations": 121,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file poset.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ed argument, we found a number of simplifications to the statements, the proofs, and the exposition. The exposition below is entirely written by us. Many of the lemma and theorem statements are different from those that can be found in the LLM-generated manuscript. Nevertheless, the underlying logic is still in essence the one that was found by the LLM. The artifacts that we have described here, including several versions of LLM- generated manuscripts, and the Lean formalizat",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:12.251885Z"
+      },
+      "score": 1045.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 209.05,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 31,
+          "theorems": 48,
+          "lemmas": 32,
+          "propositions": 36,
+          "corollaries": 9,
+          "definitions": 22,
+          "displayed_equations": 30.25,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25920",
       "version": 1,
       "title": "Asymptotically sharp bounds for affine subspace statistics in $\\mathbb F_2^n$",
