@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24540",
+      "version": 1,
+      "title": "Density-Dependent Operators on Density-Projection Condensation Spaces: Ambient Extensions, Zero-Density Defects, and Stability",
+      "authors": [
+        "Seonghyun Jeon"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T15:18:19Z",
+        "updated": "2026-07-27T15:18:19Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $X=\\mathbb{R}^n$ be equipped with Lebesgue measure $λ$, and let $\\mathcal{R}$ be the space of normalized nonnegative densities in $L^1(X,λ)$. Each $ρ\\in\\mathcal{R}$ induces the weighted Hilbert space $H_ρ=L^2(X,ρ\\,dλ)$. Through the alignment isometry $U_ρ[f]_ρ=\\sqrtρf$, the space $H_ρ$ is identified with the closed observable subspace $V_ρ=\\{u\\in L^2(X,λ):u=0\\ λ\\text{-a.e. on }\\{ρ=0\\}\\}$. The companion density-projection completion theorem identifies the metric completion of the aligned object space with $L^2(X,λ)\\times\\mathcal{R}$. We study bounded operator families $A_ρ:H_ρ\\to H_ρ$ and characterize all bounded ambient extensions of the aligned operator $A_ρ^\\sharp=U_ρA_ρU_ρ^{-1}$. Their collection is an affine space modeled on $\\mathcal{B}(Z_ρ,L^2(X,λ))$, where $Z_ρ=V_ρ^\\perp$ is the zero-density defect subspace. The defect-annihilating extension attains the minimum possible operator norm, and we classify self-adjoint, positive, and orthogonal-projection extensions. We prove that the induced map $(u,ρ)\\mapsto(\\widetilde A_ρu,ρ)$ is continuous exactly when the ambient family is strongly continuous, and that global Lipschitz continuity forces density independence. We also characterize convergence of support projections, show that $L^1$-convergence alone does not control support-dependent operators, and construct stable multiplication and density-weighted Hilbert--Schmidt families. The latter are $1/2$-Hölder continuous in operator norm with respect to the $L^1$-distance between densities.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24540v1",
+        "pdf": "https://arxiv.org/pdf/2607.24540v1",
+        "source": "https://export.arxiv.org/e-print/2607.24540v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 134,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "sion freedom but do not force instability in every density-dependent model. Stability depends on how an extension policy incorporates both the magnitude and the support of the observation density. Declaration of Generative AI Assistance OpenAI’s ChatGPT was used as an assistive tool in the preparation and revision of this manuscript, including manuscript organization, language editing, LaTeX preparation, and refinement of the exposition of mathematical arguments. The author independently",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:58.842354Z"
+      },
+      "score": 225.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 56.3,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 22,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 33.5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24466",
       "version": 2,
       "title": "Infinitely Many Components in Auslander--Reiten Quivers of Representation-Infinite Algebras over Perfect Fields",
