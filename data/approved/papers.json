@@ -44839,6 +44839,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24370",
+      "version": 1,
+      "title": "Multiplicative irreducibility of shifted multiplicative subgroups in the extremal case",
+      "authors": [
+        "Semin Yoo"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T12:45:15Z",
+        "updated": "2026-07-27T12:45:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In a recent breakthrough, Kalmynin proved a conjecture of Sárközy on additive irreducibility of the set of quadratic residues in a prime field. More recently, Kim, Yip, and Yoo initiated the study of a multiplicative analogue of the conjecture for shifted multiplicative subgroups. Specifically, they showed that for an odd prime $p$, a proper multiplicative subgroup $G$ of $\\mathbb F_p^*$, and $λ\\in G$, there do not exist sets $A,B\\subseteq \\mathbb F_p^*$ with $|A|,|B|\\ge 2$ such that $AB=(G-λ)\\setminus\\{0\\}$. In this paper, when $λ\\in \\mathbb F_p^* \\setminus G$, we completely resolve this problem in the equality case from a Stepanov bound in a prime field.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24370v1",
+        "pdf": "https://arxiv.org/pdf/2607.24370v1",
+        "source": "https://export.arxiv.org/e-print/2607.24370v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 2,
+        "lemmas": 7,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 136,
+        "bibliography_entries": 91,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "oi Yip for pointing out the known estimates on the sizes of the factors and for suggesting the symmetric formulation. The author was supported by the Institute for Basic Science (IBS-R029-C1). The author would also like to acknowledge that GPT-5.5, 5.6 Thinking were used for assistance in the writing process of this manuscript and for checking algebraic computations. All proofs and their mathematical ideas were given by the author, and the author takes full responsibility for the en",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:41.253142Z"
+      },
+      "score": 348.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 116.1,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 18,
+          "theorems": 12,
+          "lemmas": 28,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 34,
+          "bibliography_entries": 9.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24361",
       "version": 1,
       "title": "Nikiforov's spectral consecutive cycle problem and the connected-matching method",
