@@ -44413,6 +44413,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12082",
+      "version": 1,
+      "title": "Tangent-Space Multiscale Manifold Methods for Nonlinear Elliptic Problems",
+      "authors": [
+        "Mats G. Larson",
+        "Anna Persson"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-13T18:59:57Z",
+        "updated": "2026-07-13T18:59:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce a tangent-space multiscale manifold method for nonlinear heterogeneous elliptic problems. The method represents the fine-scale solution by a nonlinear reconstruction of a coarse state. The ideal reconstruction eliminates fine scales through a constrained variational problem, and the computable reconstruction approximates this map by localized nonlinear patch solves blended with a partition of unity. Because the approximation set is a nonlinear manifold, the coarse equation is posed with tangent multiscale test functions. We also formulate a network-interpolated variant in which only the restricted patch outputs used by the partition-of-unity blend, together with their tangent actions, are approximated by local learned maps. For heterogeneous monotone nonlinear diffusion, we record the structural monotonicity, differentiability, patch-map regularity, and conditional perturbation estimates that separate the geometric stability mechanism from localization, residual, and optional learning defects. A rigorous a priori theory for the decay of the localization defect, and the resulting convergence rates in the coarse mesh size, is deferred to a separate analysis; here these defects are controlled conditionally and their decay is demonstrated numerically.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12082v1",
+        "pdf": "https://arxiv.org/pdf/2607.12082v1",
+        "source": "https://export.arxiv.org/e-print/2607.12082v1"
+      },
+      "structural_counts": {
+        "pages": 43,
+        "theorems": 0,
+        "lemmas": 3,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 153,
+        "bibliography_entries": 38,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Use of generative AI. Generative AI tools, including OpenAI’s ChatGPT and An- thropic’s Claude, were used to assist with language editing, LATEX formatting, figure- caption drafting, reference suggestions, and code generation. All AI-assisted material was critically reviewed",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 41",
+          "page": 41
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:49.615500Z"
+      },
+      "score": 585.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 117.05,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 43,
+          "theorems": 0,
+          "lemmas": 12,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 38.25,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12069",
       "version": 2,
       "title": "Noncommutative Floquet-Bloch Theory for Nilpotent Groups: Representation-Theoretic Foundations",
