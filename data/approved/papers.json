@@ -8768,6 +8768,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17134",
+      "version": 1,
+      "title": "Eventually Turán good I: Edge-Linear Thresholds and Monotonicity",
+      "authors": [
+        "Yuanpei Wang",
+        "Liying Kang",
+        "Xiamiao Zhao"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T21:07:30Z",
+        "updated": "2026-08-17T21:07:30Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A graph $H$ is $K_{r+1}$-Turán-good if, for every sufficiently large $n$, the Turán graph $T_r(n)$ maximizes the number of copies of $H$ among all $n$-vertex $K_{r+1}$-free graphs. It is strictly $K_{r+1}$-Turán-good if $T_r(n)$ is the unique extremal graph. Morrison, Nir, Norin, Rzążewski and Wesolek [\\emph{JCTB}, 2023] proved that every graph $H$ is $K_{r+1}$-Turán-good whenever $r\\ge 300v(H)^9$. They raised the following two questions: 1.Can the sufficient condition $r\\ge 300v(H)^9$ be reduced to a condition of quadratic order in $v(H)$? 2.Is the Turán-good property monotone in $r$? More precisely, if a graph $H$ is $K_r$-Turán-good, must it also be $K_{r+1}$-Turán-good? We affirmatively resolve the first question and derive an even stronger bound linear in the edge number: every graph $H$ with at least one edge is strictly $K_{r+1}$-Turán-good and $K_{r+1}$-Turán-stable whenever $r\\ge 168e(H)$. This condition is quadratic in $v(H)$ for arbitrary graphs and linear in $v(H)$ for every sparse graph family with $e(H)=O(v(H))$. We answer the second question negatively. For every $r\\ge3$, there exists a graph that is strictly $K_r$-Turán-good but not $K_{r+1}$-Turán-good. More quantitatively, for every sufficiently large $h$, there exists a graph $H$ with $v(H)\\le h$ and an integer $r=h-2\\sqrt h+O(1)$ such that $H$ is strictly $K_r$-Turán-good but not $K_{r+1}$-Turán-good. The monotonicity threshold $λ(H)$ is the least integer $R\\ge 2$ such that, for every $r\\ge R$, the graph $H$ is $K_{r+1}$-Turán-good whenever it is $K_r$-Turán-good. For \\[ λ_{\\max}(h)=\\max\\{λ(H)\\mid v(H)\\le h\\}, \\] our two results yield \\[ h-2\\sqrt h-O(1)\\le λ_{\\max}(h)\\le 84h^2. \\]",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17134v1",
+        "pdf": "https://arxiv.org/pdf/2608.17134v1",
+        "source": "https://export.arxiv.org/e-print/2608.17134v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 7,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 142,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_0815.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "or dense graphs, whereas the explicit bound r ≥ 168e(H) obtained here is sharper when H is sparse. Acknowledgments The authors thank Dániel Gerbner for helpful discussions and valuable suggestions. The authors also acknowledge the use of OpenAI’s ChatGPT during the preparation of the manuscript. It was used to improve the language, organization, and presentation of the manuscript and to assist in revising preliminary drafts. In particular, the construction in Theorem 1.7 arose from an inte",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:58.741548Z"
+      },
+      "score": 1278,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 127.8,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 21,
+          "theorems": 42,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 35.5,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17130",
       "version": 1,
       "title": "Caged Retractions of Polymatroids",
