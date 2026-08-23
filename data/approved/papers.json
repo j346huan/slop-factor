@@ -8938,6 +8938,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14432",
+      "version": 1,
+      "title": "Nearly balanced spanning subdivisions in dense digraphs",
+      "authors": [
+        "Zhilan Wang",
+        "Shuo Wei",
+        "Jin Yan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T16:13:23Z",
+        "updated": "2026-08-14T16:13:23Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Pavez-Signé [Combin. Probab. Comput. 33 (2024), 121--128] conjectured a Dirac-type condition for spanning $H$-subdivisions and asked whether the subdivision paths can additionally be required to have similar lengths. Lee [European J. Combin. 124 (2025), 104059] resolved the existence conjecture in the stronger setting of digraphs. We answer the length-control question in this stronger directed setting: for every $\\varepsilon>0$, there exists a constant $C_0>0$ such that, for every digraph $H$ with $h$ arcs and no isolated vertices, every $n$-vertex digraph $D$ with $n\\ge C_0h$ and $δ^0(D)\\ge(1/2+\\varepsilon)n$ contains a spanning $H$-subdivision whose subdivision paths have lengths differing by at most one.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14432v1",
+        "pdf": "https://arxiv.org/pdf/2608.14432v1",
+        "source": "https://export.arxiv.org/e-print/2608.14432v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 5,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Nearly_balanced_spanning_subdivisions_in_dense_digraphs.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d no isolated vertices and every n-vertex digraph D with n ≥ C0 h and δ 0 (D) ≥ (n + h)/2 − 1, the digraph D contains a spanning H-subdivision whose subdivision paths have lengths differing by at most one? Acknowledgment. The authors used ChatGPT 5.6 to assist in the development of the probabilistic partition argument in Lemma 3.1, as well as for some language polishing. All mathematical arguments were independently verified by the authors, who take full responsibility for the cont",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:48.918990Z"
+      },
+      "score": 292.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 36.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 7,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 1.25,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14413",
       "version": 1,
       "title": "A greedy open-orbit criterion for solvable algebraic group actions, with applications to Lusztig's nilpotent varieties",
