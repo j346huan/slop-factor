@@ -42276,6 +42276,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13165",
+      "version": 4,
+      "title": "Interchange graphs of (0,1)-matrices are maximally Hamiltonian",
+      "authors": [
+        "Jeffrey S. Baggett",
+        "Huiya Yan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T18:18:11Z",
+        "updated": "2026-08-17T20:08:00Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For integer vectors R,S let A(R,S) denote the class of (0,1)-matrices with row sum vector R and column sum vector S. Its interchange graph G(R,S) has A(R,S) as its vertex set, two matrices being adjacent when they differ by a single 2 x 2 interchange. Brualdi asked whether G(R,S) is Hamiltonian for every R,S. We prove the stronger statement that G(R,S) is maximally Hamiltonian: Hamilton-laceable when bipartite, and Hamilton-connected when not. The proof is a structural induction on the number of matrices in the class, organized by the structure theory of interchange graphs. Deleting inactive lines and splitting invariant positions expresses any class as a Cartesian product, reducing the argument to the prime factors. The bipartite classes are products of complete transposition graphs; we settle them together, without induction, by proving they are paired 2-disjoint-path-coverable and hence Hamilton-laceable, using a recent theorem of Coleman, Fischberg, Gong, Harrington and Wong on paired disjoint path covers. The non-bipartite classes divide into three cases: products assembled from smaller factors, a base of Johnson graphs and small classes, and the large prime classes, treated by a pivot-and-fiber construction whose line quotients are matroid base-exchange graphs. The complete argument has been machine-checked in the Lean 4 proof assistant from first principles together with seven cited results of the literature; the disjoint-path-cover results it imports are themselves proved within the formalization.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13165v4",
+        "pdf": "https://arxiv.org/pdf/2607.13165v4",
+        "source": "https://export.arxiv.org/e-print/2607.13165v4"
+      },
+      "structural_counts": {
+        "pages": 46,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 28,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e result independently of the argument: the SAT sweep tests its instances, the mechanization its deductions. Acknowledgments The computational search and verification programs and the Lean 4 formaliza- tion (Section 9) were developed with AI-assisted tools (Anthropic Claude; Ope- nAI GPT/Codex) under author direction. All mathematical content was veri- fied independently of any model’s assertions: the argument is machine-checked in Lean 4 (Section 9) and validated computationally on al",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 43",
+          "page": 43
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:37.287942Z"
+      },
+      "score": 441.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 55.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 46,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 7,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13159",
       "version": 1,
       "title": "Beyond Mock Modularity: Elliptic Corrections for Higher Dyson Ranks",
