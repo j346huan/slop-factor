@@ -8511,6 +8511,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11457",
+      "version": 1,
+      "title": "Optimal lower bounds for epsilon-nets for lines in the plane",
+      "authors": [
+        "Ilay Hoshen",
+        "Wojciech Samotij"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T21:44:18Z",
+        "updated": "2026-08-11T21:44:18Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that, for arbitrarily small positive $\\varepsilon$, there is a finite planar point set $P$ such that every $\\varepsilon$-net for the range space induced on $P$ by straight lines has cardinality $Ω\\bigl(1/\\varepsilon \\cdot \\log(1/\\varepsilon)\\bigr)$. This matches the classical upper bound for range spaces with bounded VC-dimension due to Haussler and Welzl and confirms a prediction of Alon.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11457v1",
+        "pdf": "https://arxiv.org/pdf/2608.11457v1",
+        "source": "https://export.arxiv.org/e-print/2608.11457v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 2,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 26,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file eps-nets-lower-bound.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "raph con- \u0001−1 tainer lemma from [7] and gave a lower bound of order 1/ε · log(1/ε) · log log(1/ε) . During the preparation of this manuscript, we asked OpenAI’s ChatGPT for comments on a prelimi- nary draft. It suggested replacing the container argument with an averaging argument whose streamlined version is the current proof of Theorem 3.2. Acknowledgement. The second author would like to thank Noga Al",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:37.350918Z"
+      },
+      "score": 368.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 46.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 6,
+          "theorems": 12,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 6.5,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11405",
       "version": 1,
       "title": "Predict-then-Optimize Framework for Public Transport Line Redesign under Fluctuating Traffic Conditions",
