@@ -41766,6 +41766,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19192",
+      "version": 1,
+      "title": "Optimal concentration in the Paley-Wiener space",
+      "authors": [
+        "Luís Daniel Abreu",
+        "Michael Speckbacher"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T15:28:42Z",
+        "updated": "2026-07-21T15:28:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $Ω\\subset \\mathbb{R}$ be a bounded interval and let $PW(Ω)$ be the corresponding Paley--Wiener space. For a measurable set $E\\subset \\mathbb{R}$ of finite measure, consider the largest possible fraction of the $L^{2}$-mass of a function in $PW(Ω)$ that can lie in $E$. We prove that this concentration is no larger than the concentration attained on an interval of measure $\\lvert E\\rvert $. Thus, \\emph{intervals optimize concentration in the Paley-Wiener space of band-limited functions.} The proof, based on an universality-type limit of the reproducing kernel of analytic trigonometric polynomials on the circle, has two steps. First, we establish an \\emph{optimal concentration theorem for analytic trigonometric polynomials on the circle}. Second, the universality-type limit transfers the result from the circle to the real line, by controlling the expansion of circles whose projection kernels are midpoint Riemann sums for the Paley--Wiener sinc kernel.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19192v1",
+        "pdf": "https://arxiv.org/pdf/2607.19192v1",
+        "source": "https://export.arxiv.org/e-print/2607.19192v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 4,
+        "lemmas": 6,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 205,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file OptimalConcentrationPW_Michael_approved_v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ENTRATION IN THE PALEY–WIENER SPACE 3 started with GPT 5.5 Pro and were continued with GPT-5.6 Sol. This preliminary version still keeps part of the interesting graphic language used by the Language Model. 2. The optimal concentration problem for analytic polynomials in the circle 2.1. The concentration operator. Let T = R/(2πZ), AN = spanC {1, eit , . . . , eiN t }. The circle carries angul",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:42.559604Z"
+      },
+      "score": 619.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 123.95,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 19,
+          "theorems": 24,
+          "lemmas": 24,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 51.25,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19075",
       "version": 1,
       "title": "From Operations to Elderly Care Outcomes: A Thematic Review of Industrial Engineering and Decision-Support Approaches",
