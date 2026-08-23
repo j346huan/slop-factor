@@ -8427,6 +8427,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08441",
+      "version": 1,
+      "title": "A Disproof of Santharoubane's Conjecture on Presentations of Generic Skein Algebras",
+      "authors": [
+        "Jin-Cheng Guu"
+      ],
+      "categories": {
+        "primary": "math.GT",
+        "secondary": [
+          "math.QA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T03:14:45Z",
+        "updated": "2026-08-09T03:14:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $Σ$ be a compact connected oriented surface of genus at least $3$ with at most one boundary component. Santharoubane associated to certain presentations of the mapping class group modulo its center a finitely presented algebra equipped with a canonical surjection onto the generic Kauffman bracket skein algebra of $Σ$, and conjectured that a suitable choice yields an algebra isomorphic to the skein algebra. We show that every algebra arising from this construction admits an augmentation character, whereas the generic skein algebra of $Σ$ admits no unital character over $\\mathbb Q(A)$. The latter obstruction follows from the intersection-one Dehn-twist identity together with a $4$-holed-sphere skein relation. Consequently, the conjectured isomorphism does not hold as stated.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08441v1",
+        "pdf": "https://arxiv.org/pdf/2608.08441v1",
+        "source": "https://export.arxiv.org/e-print/2608.08441v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 13,
+        "displayed_equations": 40,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "A−3 + (1 + E)A−4 + CA−5 + A−6 . Its A6 -coefficient is 2, a contradiction. Acknowledgments I thank Ramanujan Santharoubane, Terry Gannon, and Harshit Yadav for helpful discussions. I also thank OpenAI’s Codex for assistance with literature organization, proofreading and editing, and reproducibility checks. I gratefully acknowledge that this research was supported in part by the Pacific Institute for the Mathematical Sciences. This work wa",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:52.859269Z"
+      },
+      "score": 276,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 69,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 26,
+          "displayed_equations": 10,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08427",
       "version": 2,
       "title": "$R$-Bunce-Deddens Algebras",
