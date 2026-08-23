@@ -41850,6 +41850,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21539",
+      "version": 2,
+      "title": "The Faber-Krahn position of convex bodies and Gaussian measure inequalities",
+      "authors": [
+        "Dmitry Faifman",
+        "Iosif Polterovich"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": [
+          "math.FA",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-23T17:24:31Z",
+        "updated": "2026-08-05T14:19:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We say that a convex body is in Faber-Krahn position if it minimizes the first Dirichlet eigenvalue within its volume-preserving linear orbit. We prove that this position is unique up to orthogonal transformations, answering a question of Schmuckenschlaeger from 2011. This is a corollary of a new log-convexity property of the first eigenvalue under positive definite linear deformations. While the centrally symmetric case follows from the Gaussian B-theorem, the extension to arbitrary convex bodies requires a quantitative analysis of conditioned Brownian motion. As consequences, we obtain a new proof of the Polya-Szego theorem for triangles and its analogue for simplices, and show that regular polygons minimize the first eigenvalue within their linear orbits of fixed volume. We also prove related convexity results for the first eigenvalue of the Ornstein-Uhlenbeck operator, the inverse inradius and the planar Cheeger constant. In a different direction, we show using similar ideas that the Gaussian conjugate Rogers-Shephard inequality due to Milman-Nakamura-Tsuji yields improved Schmuckenschlaeger-type bounds for intersections and Minkowski sums of centrally symmetric convex bodies.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21539v2",
+        "pdf": "https://arxiv.org/pdf/2607.21539v2",
+        "source": "https://export.arxiv.org/e-print/2607.21539v2"
+      },
+      "structural_counts": {
+        "pages": 42,
+        "theorems": 10,
+        "lemmas": 10,
+        "propositions": 9,
+        "corollaries": 4,
+        "definitions": 3,
+        "displayed_equations": 257,
+        "bibliography_entries": 47,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Faber_Krahn_position_preprint2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "6 DMITRY FAIFMAN AND IOSIF POLTEROVICH AI usage disclosure. The authors made use of ChatGPT for mathematical discussions and editorial assistance. In particular, it has brought to our attention the idea to prove Theorem 1.3 using inequality (6). It has also contributed to the development of arguments in section 3.3 and to the pro",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:03.318885Z"
+      },
+      "score": 2119.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 264.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 42,
+          "theorems": 60,
+          "lemmas": 40,
+          "propositions": 36,
+          "corollaries": 12,
+          "definitions": 6,
+          "displayed_equations": 64.25,
+          "bibliography_entries": 4.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21520",
       "version": 1,
       "title": "Asymptotic Analysis of Empirical Dynamic Programming in Infinite-Horizon Stochastic Optimal Control",
