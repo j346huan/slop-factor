@@ -8426,6 +8426,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16099",
+      "version": 1,
+      "title": "Counterexamples to the Generalized Gaifman Conjecture",
+      "authors": [
+        "Yi Zhang"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T04:44:57Z",
+        "updated": "2026-08-17T04:44:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Shelah and Usvyatsov proposed the Generalized Gaifman Conjecture [SU25, Conjecture 1.1]. We give a negative answer.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16099v1",
+        "pdf": "https://arxiv.org/pdf/2608.16099v1",
+        "source": "https://export.arxiv.org/e-print/2608.16099v1"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 3,
+        "lemmas": 0,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 1,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "and IT (λ, µ) = sup IT (λ, N ) : N |= T P , |N | = µ . We replace their displayed maxi- mum by a supremum. LLM disclosure The author found the proof with the assistance of ChatGPT. The author takes full responsibility for the entire content of the paper.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:57.703392Z"
+      },
+      "score": 352.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 35.25,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 4,
+          "theorems": 18,
+          "lemmas": 0,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0.25,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16086",
       "version": 1,
       "title": "Quot scheme of points on torus knot singularities",
