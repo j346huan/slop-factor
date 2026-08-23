@@ -42110,6 +42110,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25185",
+      "version": 1,
+      "title": "Turbulent Flame Speed Can Increase under Curvature Smoothing",
+      "authors": [
+        "Hung V. Tran",
+        "Jack Xin",
+        "Yifeng Yu"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "physics.flu-dyn"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T01:33:04Z",
+        "updated": "2026-07-28T01:33:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Curvature effects are expected to smooth flame-front wrinkles and thereby reduce turbulent flame speed. We construct a smooth three-dimensional periodic shear flow for which introducing Markstein curvature diffusivity instead increases the effective flame speed predicted by the level-set G-equation. This gives the first counterexample, within this model, to monotone slowdown under curvature smoothing and contrasts with the rigorous monotonicity result for two-dimensional shear flows. The example reveals a genuinely multidimensional mechanism in which local curvature smoothing can enhance, rather than suppress, large-scale front propagation.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25185v1",
+        "pdf": "https://arxiv.org/pdf/2607.25185v1",
+        "source": "https://export.arxiv.org/e-print/2607.25185v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 131,
+        "bibliography_entries": 18,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file TXY-arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "on the choice of ξ. A correct formula in our example will be given later. Remark on the Role of ChatGPT 5.5 Plus. At this point, we started searching for an example where c′ (0) is positive. In this step, we received useful assistance from ChatGPT 5.5 Plus. The interaction was centered around two main directions: first, to look for a choice of smooth Z2 -periodic v and a corresponding trajectory ξ for which the orbit integral Z T",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:48.431649Z"
+      },
+      "score": 435.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 72.55,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 14,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 32.75,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25181",
       "version": 2,
       "title": "The Miyaoka-Yau inequality and the delta invariant for Fano varieties",
