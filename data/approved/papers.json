@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13170",
+      "version": 2,
+      "title": "On Rates Attainable under Random Design: A Negative Answer to a Problem of Robins",
+      "authors": [
+        "P. M. Aronow",
+        "Patrick Lopatto"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T18:20:52Z",
+        "updated": "2026-08-17T15:55:23Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give a negative answer to a problem posed by James Robins on estimating a constant conditional variance in nonparametric regression under random design. For every $s>1$ and integer $d>4s$, when the regression function is $s$-Hölder, the unknown design density is bounded above and away from zero, and the conditional error laws may depend on the design but have mean zero, a common variance, and uniformly bounded fourth moments, we show that the minimax root-mean-square risk is bounded below by $n^{-β}$ with $β=\\frac{d(3s+1)+8s}{(d+2s)(d+4)}$. Hence the conjectured rate $n^{-4s/(d+4s)}$ is not uniformly attainable. We use a similar argument to establish the minimax rate $n^{-1/2}\\vee n^{-4s/(d+4s)}$ when \\(s \\in (0,1]\\).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13170v2",
+        "pdf": "https://arxiv.org/pdf/2607.13170v2",
+        "source": "https://export.arxiv.org/e-print/2607.13170v2"
+      },
+      "structural_counts": {
+        "pages": 58,
+        "theorems": 2,
+        "lemmas": 12,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 617,
+        "bibliography_entries": 20,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file counterexample.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "TV(P, Q) = sup P (A) − Q(A) . A 1.7. Acknowledgments. P.L. was partially supported by NSF grant DMS-2450004. This paper was written by the authors with the assistance of large language models, which included suggesting arguments, drafting and revising the manuscript, and exploratory computational checks. 2. Proof of the main theorem We first state the principal ingredient of our argument. Its p",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:52.537152Z"
+      },
+      "score": 2434,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 304.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 58,
+          "theorems": 12,
+          "lemmas": 48,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 154.25,
+          "bibliography_entries": 2,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12895",
       "version": 1,
       "title": "Fano 4-fold quiver moduli from subspace quivers",
