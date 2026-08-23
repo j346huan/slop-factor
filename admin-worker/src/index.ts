@@ -603,6 +603,16 @@ async function api(
     });
   }
 
+  if (pathname === "/api/site/deploy" && request.method === "POST") {
+    await github<unknown>(
+      token,
+      `/repos/${env.PUBLIC_REPOSITORY}/actions/workflows/pages.yml/dispatches`,
+      "POST",
+      { ref: "main" },
+    );
+    return json({ accepted: true }, 202);
+  }
+
   if (pathname === "/api/runs" && request.method === "GET") {
     const runs = await github<{ workflow_runs: unknown[] }>(
       token,
