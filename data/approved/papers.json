@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12895",
+      "version": 1,
+      "title": "Fano 4-fold quiver moduli from subspace quivers",
+      "authors": [
+        "Pieter Belmans",
+        "Markus Reineke"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T15:34:25Z",
+        "updated": "2026-07-14T15:34:25Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We classify the moduli spaces of representations of subspace quivers which are Fano fourfolds, under a natural assumption on the dimension vector. These moduli spaces can also be described as GIT quotients of products of Grassmannians by the diagonal action of a projective linear group, and there are exactly four of them. They are rational, of pure Hodge-Tate type, infinitesimally rigid, and have finite automorphism groups, with Picard ranks 5, 6, 6 and 7, making them interesting examples in the classification of Fano fourfolds of large Picard rank, as they are not toric or products. Two are known varieties: Manivel's Segre cousin of the Segre cubic 3-fold, and the Fano model of the blowup of $\\mathbb{P}^4$ in six points. The other two appear to be new: one is an involution surface bundle over $\\mathbb{P}^2$, and the other is a \"Segre cousin once-removed\", whose geometry closely parallels that of the Segre cousin. Using techniques from quiver moduli, which we survey, we describe the geometry of all four fourfolds in detail.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12895v1",
+        "pdf": "https://arxiv.org/pdf/2607.12895v1",
+        "source": "https://export.arxiv.org/e-print/2607.12895v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 8,
+        "lemmas": 25,
+        "propositions": 10,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 112,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file fffsq-expanded.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s, which made the computations in the Chow ring of M(1, 24 ; 4) possible. We want to thank Christian Lehn for interesting discussions, which made Section 6.3 possible, and we want to thank Enrico Fatighenti for the suggestion in Remark 47. LLMs were used to pin down the configuration of points in Section 6.3. P.B. was partially supported by NWO (doi:10.61686/RZKLF82806). This work was done during the residency of M.R. at Utrecht University as the 2025–2026 Springer Visiting Profe",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:36.148538Z"
+      },
+      "score": 765,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 255,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 34,
+          "theorems": 48,
+          "lemmas": 100,
+          "propositions": 40,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 28,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12877",
       "version": 3,
       "title": "From Manifold Identification to Newton Acceleration on Intersections: Sparse Stiefel Optimization",
