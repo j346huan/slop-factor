@@ -43646,6 +43646,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14022",
+      "version": 1,
+      "title": "Supersaturation for Hypergraph-Weighted Independent Sets",
+      "authors": [
+        "Sam Spiro"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T16:54:55Z",
+        "updated": "2026-07-15T16:54:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Many extremal problems can be viewed as finding large independent sets in an auxiliary hypergraph. We propose a generalization of this by looking for ``large'' independent sets $I$ in a hypergraph $\\mathcal{F}$ where ``large'' is measured by how many edges $I$ induces in another hypergraph $\\mathcal{H}$ on the same vertex set as $\\mathcal{F}$. We prove general supersaturation results for such extremal problems motivated by the breakthrough work of Ferber, McKinley and Samotij on counting $F$-free graphs. As applications, we prove new supersaturation bounds for generalized Turán problems, as well as supersaturation bounds for a new set of extremal problems inspired by work of Fox and Pohoata on finding subsets $A\\sub\\mathbb{N}$ which maximize the number of solutions to a given system of equations while avoiding solutions to another system.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14022v1",
+        "pdf": "https://arxiv.org/pdf/2607.14022v1",
+        "source": "https://export.arxiv.org/e-print/2607.14022v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 6,
+        "lemmas": 2,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 5,
+        "displayed_equations": 71,
+        "bibliography_entries": 32,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file GeneralizedHypergraphSupersaturation.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "y proof of Theorem 1.5 and Corollary 1.6 in Section 3. We prove Theorem 1.7 in Section 4, which is the main technical part of the paper. We close by discussing some further extensions of our results in Section 5. AI Declaration. We used Claude’s Sonnet 4.8 to conduct literature searches and correct for typos. All of the mathematics and writing is our own. 2 Proof of Applications We begin by proving our supersaturation results for subsets of integers assuming our general sup",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:12.476583Z"
+      },
+      "score": 221.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 110.95,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 22,
+          "theorems": 36,
+          "lemmas": 8,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 10,
+          "displayed_equations": 17.75,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14016",
       "version": 2,
       "title": "The internal Yoneda lemma for locally Cartesian closed $\\infty$-categories",
