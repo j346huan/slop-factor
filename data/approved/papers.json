@@ -8424,6 +8424,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16740",
+      "version": 1,
+      "title": "Codegree Thresholds for $λ$-Choosability of Graphs",
+      "authors": [
+        "Chunqiu Fang",
+        "Rongxing Xu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T15:51:23Z",
+        "updated": "2026-08-17T15:51:23Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $λ=\\{k_1,\\ldots,k_q\\}$ be a partition, and let $|λ|=k_1+\\cdots+k_q$. A $|λ|$-list assignment $L$ of a graph $G$ is a $λ$-assignment if its color set can be partitioned into $q$ disjoint sets $X_1,\\ldots,X_q$ such that $|L(v)\\cap X_i|=k_i$ for every vertex $v$ and every $i\\in[q]$. This notion, introduced by Zhu [J. Combin. Theory Ser. B, 2020], puts ordinary coloring and list coloring in the same framework. A theorem of Alon [Random Structures Algorithms, 2000] states that every graph with minimum degree $d$ has choice number at least $(1/2-o(1))\\log_2d$. Saxton and Thomason [Invent. Math., 2015] later used the hypergraph container method to replace $1/2$ by the sharp constant $1$. It is natural to ask whether a similar phenomenon holds for every fixed partition $λ$. Minimum degree alone is not sufficient: balanced complete bipartite graphs have arbitrarily large minimum degree but are always $\\{1,1\\}$-choosable. We show that the appropriate replacement is the minimum $q$-codegree, defined for $|V(G)|\\geq q$ by $δ_q(G)=\\min\\{|N_G(S)|:S\\subseteq V(G),\\,|S|=q\\}$. More precisely, for every partition $λ$ there exists an integer $d$ such that every graph $G$ with $δ_q(G)\\geq d$ is not $λ$-choosable. Let $f(λ)$ be the least such $d$. For every fixed $q$, we prove $f(λ)\\leq2^{(2q+o(1))|λ|}$ as $|λ|\\to\\infty$, while $f(λ)\\geq(q+1)^{-1}(1+1/q)^{|λ|}$ for every $λ$. For the partition $\\{k,\\ldots,k\\}$ with $q$ equal parts, we determine the threshold asymptotically: $f(\\{k,\\ldots,k\\})=ρ_q^{-(1+o(1))k}$ as $k\\to\\infty$, where $ρ_q$ is the unique $x\\in(0,1)$ satisfying $x=(1-x)^q$. When $q=1$, our result implies $\\operatorname{ch}(G)\\geq(1-o(1))\\log_2δ(G)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16740v1",
+        "pdf": "https://arxiv.org/pdf/2608.16740v1",
+        "source": "https://export.arxiv.org/e-print/2608.16740v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 2,
+        "lemmas": 10,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 128,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 20260818.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "oundation for Young Scientists of China (Grant No. 12401472) and the Zhejiang Provincial Natural Science Foundation of China (Grant No. LQN25A010011). Declaration of generative AI use. During the preparation of this work, the authors used AI tools to assist with probabilistic and asymptotic calculations, exploring possible proof strategies, particularly for Lemma 4.4, and final proofreading. All AI-assisted calculations and suggestions were independently verified and revised by the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:01.375511Z"
+      },
+      "score": 1023.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 127.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 28,
+          "theorems": 12,
+          "lemmas": 40,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 32,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16664",
       "version": 1,
       "title": "Random Quadratic Form with random forcing: Metastable synchronization by noise",
