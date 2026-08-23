@@ -44058,6 +44058,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19013",
+      "version": 2,
+      "title": "Topology of higher Albanese maps and aspherical varieties with nilpotent fundamental group",
+      "authors": [
+        "Vasily Rogov"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.CV"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T11:54:39Z",
+        "updated": "2026-07-27T10:16:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $X$ be a normal complex algebraic variety. Let $\\mathcal{G}^s_{\\mathbb{Z}}(X)$ be the maximal torsion free nilpotent quotient of $π_1(X)$ of nilpotency class at most $s$. Let $F^{\\bullet}\\mathfrak{g}^s$ be the Morgan--Hain Hodge filtration on the Lie algebra of the $s$-th lower central quotient of the complex Malcev completion of $π_1(X)$. We show that the natural map $H^k(\\mathcal{G}^s_{\\mathbb{Z}}(X), \\mathbb{Z}) \\to H^k(X, \\mathbb{Z})$ vanishes for $k > \\dim F^1\\mathfrak{g}^s$. If $\\mathcal{G}^s_{\\mathbb{Z}}(X)$ is of nilpotency class greater than two, this includes the top nonvanishing degree of $H^{\\bullet}(\\mathcal{G}^s_{\\mathbb{Z}}(X), \\mathbb{Z})$. We deduce that if the fundamental group of an aspherical normal variety is virtually nilpotent, it is virtually two-step nilpotent. This gives a positive answer to a question of Aguilar and Campana in this case of aspherical varieties. The ingredients of the proof are the $q$-convexity of higher Albanese manifolds and the definability of higher Albanese maps.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19013v2",
+        "pdf": "https://arxiv.org/pdf/2607.19013v2",
+        "source": "https://export.arxiv.org/e-print/2607.19013v2"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 9,
+        "lemmas": 4,
+        "propositions": 10,
+        "corollaries": 2,
+        "definitions": 3,
+        "displayed_equations": 52,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file mainv2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "gs ´dim F 0 gs . Using Hamm’s theorem on the homotopy type of q-complete spaces, we then bound the cohomological dimension of Y . Acknowledgements. I am thankful to MPI MiS, Leipzig, for great working conditions. AI Usage Disclosure. Claude Sonnet 5 (Anthropic) was used to improve style, grammar, and organization, and to assist in developing several motivating examples; the author takes full responsibility for the content of the paper. 2. Higher Albanese",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:23.172603Z"
+      },
+      "score": 297.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 148.8,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 11,
+          "theorems": 54,
+          "lemmas": 16,
+          "propositions": 40,
+          "corollaries": 6,
+          "definitions": 6,
+          "displayed_equations": 13,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19008",
       "version": 1,
       "title": "Spectral and Geometric Stability for the Reciprocal Sum of Neumann Eigenvalues",
