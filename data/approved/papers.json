@@ -8424,6 +8424,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15505",
+      "version": 1,
+      "title": "Prüfer $2$-group and Milnor's Conjecture on Fundamental Groups",
+      "authors": [
+        "Nan Wu",
+        "Zetian Yan"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T03:16:13Z",
+        "updated": "2026-08-16T03:16:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We construct complete, one-ended Riemannian manifolds in dimensions four and five having strictly positive Ricci curvature, with fundamental group isomorphic to the Prüfer $2$-group $C_{2^\\infty}$. This gives counterexamples to Milnor's conjecture in the two remaining dimensions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15505v1",
+        "pdf": "https://arxiv.org/pdf/2608.15505v1",
+        "source": "https://export.arxiv.org/e-print/2608.15505v1"
+      },
+      "structural_counts": {
+        "pages": 62,
+        "theorems": 4,
+        "lemmas": 19,
+        "propositions": 6,
+        "corollaries": 1,
+        "definitions": 2,
+        "displayed_equations": 553,
+        "bibliography_entries": 28,
+        "appendix_pages": 62
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Milnor_main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "yu Zhu for many helpful discussions, Xianzhe Dai and Guofang Wei for bringing this problem to their attention, and Xuezhang Chen, Qing Han, and Jiayin Pan for valuable comments and suggestions. Disclosure on AI assistance. The authors used AI-assisted tools, principally ChatGPT/Codex, for brainstorming, literature searches and source triage, objection generation, preliminary checks of calculations and parameter estimates, notation and exposition review, and manuscript editing. AI output",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:01.508645Z"
+      },
+      "score": 1374.15,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 458.05,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 62,
+          "theorems": 24,
+          "lemmas": 76,
+          "propositions": 24,
+          "corollaries": 3,
+          "definitions": 4,
+          "displayed_equations": 138.25,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 124
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15458",
       "version": 1,
       "title": "Five-Term and Higher Congruences Involving Arbitrary Sets and Short Intervals Modulo a Prime",
