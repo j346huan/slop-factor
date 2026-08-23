@@ -8929,6 +8929,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09265",
+      "version": 1,
+      "title": "Entropic Partial Optimal Transport and Partial Gromov--Wasserstein Distance between Gaussian Mixtures",
+      "authors": [
+        "Toshiaki Yachimura",
+        "Xiaocheng Zou"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.PR",
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T08:19:29Z",
+        "updated": "2026-08-10T08:19:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Optimal transport and Gromov--Wasserstein distances are useful tools for comparing probability measures and metric measure spaces, but their balanced formulations force all mass to be matched. This constraint is often too strong for data with outliers, missing parts, or only partial overlap. In this paper, we develop entropic partial optimal transport for Gaussian mixture models and define a partial mixture Gromov--Wasserstein distance. For the finite entropic partial optimal transport problem, we prove the existence and uniqueness of the minimizer and establish quantitative large-penalty estimates. Moreover, the resulting entropic partial component couplings induce continuous partial transport plans through Gaussian optimal maps. We analyze their large-penalty and subsequent zero-entropy limits and construct the associated displacement interpolations and barycentric projection maps. In addition, by identifying each Gaussian mixture with a finite metric measure space of Gaussian components, we establish the metric property and large-penalty limit of the partial mixture Gromov--Wasserstein distance. Finally, numerical experiments on synthetic Gaussian mixtures and point clouds illustrate the effects of the penalty and entropic regularization and the robustness of partial matching to outliers.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09265v1",
+        "pdf": "https://arxiv.org/pdf/2608.09265v1",
+        "source": "https://export.arxiv.org/e-print/2608.09265v1"
+      },
+      "structural_counts": {
+        "pages": 39,
+        "theorems": 7,
+        "lemmas": 2,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 205,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "es applications to high-dimensional geometric and biological data. Acknowledgments The authors are grateful to Dr. Yuki Kimura (deltaex) for his assistance in organizing the source code used in the numerical experiments. The authors used ChatGPT (OpenAI) to 36",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 36",
+          "page": 36
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:36.697110Z"
+      },
+      "score": 836.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 167.25,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 39,
+          "theorems": 42,
+          "lemmas": 8,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 51.25,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18146",
       "version": 1,
       "title": "Diffeological Tangent Spaces and Distributional Linearization for Lifted Euler--Reynolds Limits",
