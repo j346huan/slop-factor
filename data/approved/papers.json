@@ -8340,6 +8340,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10919",
+      "version": 1,
+      "title": "Equationless quadratic Chabauty for non-split Cartan modular curves",
+      "authors": [
+        "Sachi Hashimoto",
+        "Guido Maria Lido",
+        "Davide Lombardo",
+        "Nicolas Mascot",
+        "Pierre Parent"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T13:42:28Z",
+        "updated": "2026-08-11T13:42:28Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The aim of this article is to describe an equationless method for determining the rational points on the non-split Cartan curve $X_{\\rm{ns}}^+(N)$ of prime level $N \\geqslant 13$. Instead of using a projective model for the modular curve, our method uses the moduli interpretation of the curve, namely we work directly with elliptic curves and Cartan level structures. To accomplish this, we use the geometric version of the quadratic Chabauty method. We show that this can be combined with algorithms for divisor arithmetic developed by Makdisi and Mascot so as to apply to modular curves. As an illustration, we rederive the set of rational points on the curve $X_{\\rm{ns}}^+(13)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10919v1",
+        "pdf": "https://arxiv.org/pdf/2608.10919v1",
+        "source": "https://export.arxiv.org/e-print/2608.10919v1"
+      },
+      "structural_counts": {
+        "pages": 70,
+        "theorems": 2,
+        "lemmas": 10,
+        "propositions": 9,
+        "corollaries": 4,
+        "definitions": 5,
+        "displayed_equations": 207,
+        "bibliography_entries": 71,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "and ChatGPT-5 to help produce several auxiliary Magma functions in the code related to isogenies of elliptic curves and writing to files, and also used it to convert from the original codebase of Sage code to Magma code. We used Cursor and Claude Opus 5 to refactor the (author written) Magma code, fix bugs in this code, and generate tests for correctness of the aforementioned code. We (the authors) take full responsibility for the paper, the code and its output, and their mathematical c",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:28.857944Z"
+      },
+      "score": 477.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 238.85,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 70,
+          "theorems": 12,
+          "lemmas": 40,
+          "propositions": 36,
+          "corollaries": 12,
+          "definitions": 10,
+          "displayed_equations": 51.75,
+          "bibliography_entries": 7.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10880",
       "version": 1,
       "title": "Distinguishing elliptic curves modulo $p$ and identifying images of product representations",
