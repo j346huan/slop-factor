@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08092",
+      "version": 1,
+      "title": "Local cohomological dimension and depth in mixed characteristic",
+      "authors": [
+        "Linquan Ma"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-08T12:19:11Z",
+        "updated": "2026-08-08T12:19:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $(R,\\mathfrak m)$ be an unramified regular local ring of mixed characteristic $(0,p)$ and dimension $d$ and let $I\\subseteq R$ be an ideal. We prove that $depth(R/I)\\geq 3$ implies $cd(I)\\leq d-3$, and if $R$ is essentially of finite type over a DVR, then $depth(R/I)\\geq 4$ implies $cd(I)\\leq d-4$. More generally, $H_I^j(R)$ is a $\\mathbb{Q}$-vector space whenever $j>d-depth(R/I)$, thus vanishing of local cohomology in this range is determined completely by the characteristic zero fiber.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08092v1",
+        "pdf": "https://arxiv.org/pdf/2608.08092v1",
+        "source": "https://export.arxiv.org/e-print/2608.08092v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 20,
+        "bibliography_entries": 34,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "zing the maps from Ext to local cohomology and utilizing D-modules. The author then realized that the argument could be extended and combined with techniques in [BBL+ 14] to prove the general case. The final writing was done by the author (ChatGPT was used to correct grammer and other minor mistakes). 2. The main result / m2 , or Recall that a regula",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:53.694940Z"
+      },
+      "score": 34.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 34.4,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 6,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 5,
+          "bibliography_entries": 3.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07906",
       "version": 1,
       "title": "Long Lattice Paths with No Three Collinear Vertices",
