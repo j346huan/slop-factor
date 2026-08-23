@@ -41766,6 +41766,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13876",
+      "version": 1,
+      "title": "Gaussian solutions to the Yang--Baxter equation and their twists",
+      "authors": [
+        "Yasmeen S. Baki",
+        "Padmini Veerapen"
+      ],
+      "categories": {
+        "primary": "math.QA",
+        "secondary": [
+          "math.RA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-15T14:24:28Z",
+        "updated": "2026-07-15T14:24:28Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we consider two explicit Gaussian solutions to the constant (or parameter-independent) quantum Yang--Baxter equation and produce the corresponding bialgebras using the Faddeev--Reshetikhin--Takhtajan construction (FRT). Additionally, we twist these two Gaussian solutions, via Zhang twists and corresponding 2-cocycle twists, to obtain solutions to the Yang--Baxter equation which are not necessarily Gaussian.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13876v1",
+        "pdf": "https://arxiv.org/pdf/2607.13876v1",
+        "source": "https://export.arxiv.org/e-print/2607.13876v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 4,
+        "lemmas": 1,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 6,
+        "displayed_equations": 43,
+        "bibliography_entries": 31,
+        "appendix_pages": 11
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file GSolutionsArXivJun142026.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "to Indiana University Northwest, who sponsored a visit during which part of this paper was completed. The first au- thor also acknowledges her use of ChatGPT Edu with GPT-5, with access provided by Arizona State University. In particular, GPT-5 was used in the preliminary stages of this project to discuss ideas, and later to help write Mathematica code which was used in the verification process. The entirety of this written work, along with its results, analysis, and conclusions",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:16.564383Z"
+      },
+      "score": 299.55,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 99.85,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 12,
+          "theorems": 24,
+          "lemmas": 4,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 12,
+          "displayed_equations": 10.75,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 22
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13831",
       "version": 2,
       "title": "The exact total degree threshold for the square of a Hamilton cycle in digraphs",
