@@ -45079,6 +45079,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18502",
+      "version": 2,
+      "title": "From Regional Topology to Point-Class Topology in Tarski's Geometry of Solids",
+      "authors": [
+        "Patrick Barlatier",
+        "Richard Dapoigny"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "math.AT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-20T20:50:37Z",
+        "updated": "2026-08-13T20:01:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Tarski's geometry of solids reconstructs point-like entities from concentric families of spherical regions rather than taking points as primitive. We formalize this reconstruction in Coq within a nominal mereological framework inspired by Leśniewski, and study how the regional geometry of solids induces a topology on reconstructed point-classes without adding new point individuals. Three of Tarski's postulates concerning solids and interior points, P2--P4, are derived as theorems. We refine Tarski's interior-point notion and define a regional interior operator satisfying the four Kuratowski interior axioms, together with a boundary operation and an encoding of RCC8 relations. We then pass to the setoid of ball representatives modulo same_center. Each ball generates a stable basic point-plural GBasicPointSet(Q), and these plurals form a basis for a metatheoretic topology on reconstructed point-classes. This topology is Hausdorff under Tarski's separation axiom Three_points and non-discrete under the local richness hypothesis BallCenterBundle. Finally, geometric neighbourhoods yield a closure operator GClosurePoint satisfying the four Kuratowski closure axioms and respecting extensional point-set equality. The formalization thus verifies the passage from a regional topology of solids to a Hausdorff topology and neighbourhood closure on reconstructed point-classes.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18502v2",
+        "pdf": "https://arxiv.org/pdf/2607.18502v2",
+        "source": "https://export.arxiv.org/e-print/2607.18502v2"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 22,
+        "lemmas": 25,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 36,
+        "displayed_equations": 46,
+        "bibliography_entries": 46,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file PB_RB_JSL26_arxiv_v12.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rk addresses a different but related problem: the construction of a verified neighbourhood and closure semantics for region-induced point-class plurals. These approaches 1 During the preparation of the formal development, Codex and ChatGPT Pro were used as exploratory aids for testing alternative formulations, exposing ambiguities, and suggesting possible proof patterns. All final definitions, theorem statements, Coq scripts, and mathematical interpretations were reviewed an",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:08.925874Z"
+      },
+      "score": 2768.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 346.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 26,
+          "theorems": 132,
+          "lemmas": 100,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 72,
+          "displayed_equations": 11.5,
+          "bibliography_entries": 4.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18491",
       "version": 1,
       "title": "Block Diagonal Carleson Frames",
