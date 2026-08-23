@@ -8851,6 +8851,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09599",
+      "version": 1,
+      "title": "Decreasing Runs in Quasi-Stirling Permutations of Multisets",
+      "authors": [
+        "Hanqian Fang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T13:37:55Z",
+        "updated": "2026-08-10T13:37:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "As a natural extension of Stirling permutations, quasi-Stirling permutations are multipermutations $π$ with the property that for any subsequence $π_{j_1}π_{j_2}π_{j_3}π_{j_4}$ satisfying $π_{j_1}=π_{j_3}$ and $π_{j_2}=π_{j_4}$, we have $π_{j_1}=π_{j_2}$. Using a bijective construction, Yan, Yang, Huang and Zhu showed that the joint distribution of ascents, descents and plateaux over quasi-Stirling permutations of a multiset $M=\\{1^{k_1},2^{k_2},\\ldots,n^{k_n}\\}$ coincides with that over the multiset $M'=\\{1^{k_1+\\cdots+k_n-n+1},2,\\ldots,n\\}$. In this paper, we prove that the same invariance of distribution holds for decreasing runs, and consequently for all decreasing consecutive patterns. To this end, following the Yan-Yang-Huang-Zhu approach, we construct a multiplicity-redistribution bijection that preserves decreasing runs, thereby reducing the computation of joint distribution of decreasing consecutive patterns over quasi-Stirling permutations from $M$ to $M'$. Together with the classical run theorem, our bijection leads to explicit recurrence relations and generating functions for the distribution functions of these statistics over quasi-Stirling permutations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09599v1",
+        "pdf": "https://arxiv.org/pdf/2608.09599v1",
+        "source": "https://export.arxiv.org/e-print/2608.09599v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 6,
+        "lemmas": 4,
+        "propositions": 3,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 57,
+        "bibliography_entries": 51,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file patterns_in_quasi-Stirling_perm-v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "3, A230051 and A230231, respectively. Acknowledgments The author is grateful to Shaoshi Chen and Zhicong Lin for their valuable suggestions. Declaration of AI Assistance During the preparation of this manuscript, the author utilized an AI-assisted tool for language pol- ishing and grammar checking to improve the readability and clarity of the text. All core reasoning and key conclusions were independently completed by the author. The use of AI did not involve the substantive generat",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:11.328303Z"
+      },
+      "score": 113.35,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 113.35,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 21,
+          "theorems": 36,
+          "lemmas": 16,
+          "propositions": 12,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 14.25,
+          "bibliography_entries": 5.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09517",
       "version": 1,
       "title": "Classification of anomalous actions of finite groups with the Rokhlin property",
