@@ -8428,6 +8428,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10865",
+      "version": 1,
+      "title": "A nearcircumsphere-Ramsey Theorem for Solvable Transitive Configurations",
+      "authors": [
+        "Dömötör Pálvölgyi"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T12:38:38Z",
+        "updated": "2026-08-11T12:38:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let P be a finite spherical set. We prove that if P admits a solvable group of isometries acting transitively on it, then every r-coloring of a sufficiently high-dimensional sphere of radius slightly larger than the circumradius of P contains a monochromatic congruent copy of P. Our proof builds on the group-theoretic argument of Kriz and combines it with a topological method that may be of independent interest.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10865v1",
+        "pdf": "https://arxiv.org/pdf/2608.10865v1",
+        "source": "https://export.arxiv.org/e-print/2608.10865v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 6,
+        "lemmas": 7,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 3,
+        "displayed_equations": 109,
+        "bibliography_entries": 47,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file near_circumradius_ramsey_paper_v22.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "dition above. Acknowledgments I would like to thank Arsenii Sagdeev and Géza Tóth for several useful preliminary discussions, and Imre Bárány for pointing me to Szemerédi’s result in [9]. Statement on the use of artificial intelligence ChatGPT was used heavily in the preparation of this manuscript, although none of the main ideas underlying the ncs-Ramsey theorem originated from it. It contributed significantly to the proof of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:26.455517Z"
+      },
+      "score": 1519.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 151.95,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 27,
+          "theorems": 36,
+          "lemmas": 28,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 6,
+          "displayed_equations": 27.25,
+          "bibliography_entries": 4.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10771",
       "version": 1,
       "title": "The Weinstock inequality for convex domains in hyperbolic space",
