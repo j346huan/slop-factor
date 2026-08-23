@@ -42113,6 +42113,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.11812",
+      "version": 3,
+      "title": "Serrin's Problem under Dirichlet Perturbations: Geometric Compactness and Sharp Planar Stability",
+      "authors": [
+        "Qinfeng Li",
+        "Weihong Xie",
+        "Hang Yang"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-13T17:09:31Z",
+        "updated": "2026-07-21T15:44:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In earlier work [21], we posed a stability question for Serrin's overdetermined problem under Dirichlet perturbations and proved that the answer is negative in dimensions $n\\ge3$. Here we resolve the question in the planar convex class and obtain a sharp quantitative theory without any a priori geometric nondegeneracy. Let $u_Ω$ solve \\[ -Δu_Ω=1\\ \\text{in }Ω,\\qquad \\partial_νu_Ω=-\\frac{|Ω|}{P(Ω)}\\ \\text{on }\\partialΩ, \\qquad \\int_{\\partialΩ}u_Ω\\,dσ=0, \\] and set $O(Ω):=\\text{osc}_{\\partial Ω}u_Ω$. We construct fixed-area annuli with $O(Ω_k)\\to0$ that remain far from every disk, showing that convexity is essential in dimension two. By contrast, if $Ω_k\\subset\\mathbb R^2$ are convex, $|Ω_k|=π$, and $O(Ω_k)\\to0$, then, up to translations, $Ω_k$ converges in Hausdorff distance to the unit disk. Moreover, \\[ R_Ω-r_Ω+\\inf_{z\\in\\mathbb R^2}d_H(Ω,B_1(z)) \\le C\\,O(Ω) \\] for all planar convex $Ω$ with $|Ω|=π$ and sufficiently small $O(Ω)$, and the linear order is optimal. The proof combines a new mechanism excluding long-thin degeneration, the rough-domain Serrin rigidity theorem of Figalli--Zhang, new tangential-gradient and linear boundary-growth estimates, a boundary $P$-function estimate, and the reverse-Serrin identity of Magnanini--Molinarolo--Poggesi. We also study the weaker deficit \\[ A(Ω):=\\frac1{P(Ω)}\\int_{\\partialΩ}u_Ω,dσ-\\min_{\\partialΩ}u_Ω. \\] In the planar convex class, $A(Ω_k)\\to0$ still forces convergence to a disk, and \\[ R_Ω-r_Ω+\\inf_z d_H(Ω,B_1(z)) \\le C A(Ω)^{2/3} \\] for $|Ω|=π$ and sufficiently small $A(Ω)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.11812v3",
+        "pdf": "https://arxiv.org/pdf/2607.11812v3",
+        "source": "https://export.arxiv.org/e-print/2607.11812v3"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 6,
+        "lemmas": 15,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 319,
+        "bibliography_entries": 45,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file document.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ATIONS 31 Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used ChatGPT (OpenAI) to assist with language editing, manuscript organization, and exploratory discussions concerning the presentation of some mathematical arguments. All mathematical ideas, statements, proofs, and references in the final manuscript w",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:14.106072Z"
+      },
+      "score": 1850,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 231.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 32,
+          "theorems": 36,
+          "lemmas": 60,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 79.75,
+          "bibliography_entries": 4.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.11809",
       "version": 1,
       "title": "Duals of higher vector bundles and cotangents of Lie 2-groupoids",
