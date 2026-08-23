@@ -41769,6 +41769,96 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24251",
+      "version": 1,
+      "title": "Decision trees, Frobenius traces, and Weierstrass coefficients of elliptic curves",
+      "authors": [
+        "Barinder S. Banwait",
+        "Xiaoyu Huang",
+        "Kyu-Hwan Lee",
+        "Seewoo Lee",
+        "Thomas Oliver",
+        "Alexey Pozdnyakov"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "cs.LG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T10:40:52Z",
+        "updated": "2026-07-27T10:40:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We investigate the extent to which the reduced minimal Weierstrass coefficients of an elliptic curve over $\\mathbb{Q}$ may be computed from it's Frobenius traces. Decision tree models reveal that the first two reduced minimal Weierstrass coefficients can be recovered with perfect accuracy from the Frobenius traces at the primes $2$ and $3$, and the third by supplementing these two traces with the conductor parity. We subsequently prove explicit formulae for these coefficients using the Frobenius traces and conductor parity. These formulae appear to be new. In particular, we deduce that the first three reduced minimal Weierstrass coefficients of an elliptic curve are determined by its isogeny class.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24251v1",
+        "pdf": "https://arxiv.org/pdf/2607.24251v1",
+        "source": "https://export.arxiv.org/e-print/2607.24251v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 4,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 22,
+        "bibliography_entries": 20,
+        "appendix_pages": 8
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file elliptic.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d at the Korea Institute for Advanced Study (KIAS) in 2025, and was concluded during the AI and Mathematics program at KIAS in 2026. The authors are grateful to the organizers for their hospitality and support. The authors also made use of ChatGPT and Claude in order to encode and decode decision tree models. ChatGPT 5.2- Pro was used to help identify the formula for w2 based on the decision-tree experiments, while Claude Code (with Claude Opus 4.8) assisted in identifying the formu",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:36.700703Z"
+      },
+      "score": 825,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 82.5,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 18,
+          "theorems": 24,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 5.5,
+          "bibliography_entries": 2,
+          "appendix_pages": 16
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24170",
       "version": 1,
       "title": "On non-monotonicity of logarithmic energy for random matrices",
