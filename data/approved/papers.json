@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13316",
+      "version": 1,
+      "title": "Braid groups and Burnside groups",
+      "authors": [
+        "Ethan Dlugie"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "math.GT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T22:39:49Z",
+        "updated": "2026-07-14T22:39:49Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "There exists an exceptional quotient of braid groups $\\text{Br}_4 \\twoheadrightarrow \\text{Br}_3$ that is related to many interesting constructions in algebra, topology, and geometry. This quotient map also descends to a quotient of \"truncated\" braid groups $\\text{Br}_4(d) \\twoheadrightarrow \\text{Br}_3(d)$, which have an added torsion relation on their half twist generators. In this article, we find a presentation for the kernel of this truncated quotient map that takes the form of what we deem a \"primitive\" Burnside group. We give a few finiteness results on these primitive Burnside groups. Our methods are purely group theoretic, but we comment on an interpretation involving Lefschetz fibrations at the end.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13316v1",
+        "pdf": "https://arxiv.org/pdf/2607.13316v1",
+        "source": "https://export.arxiv.org/e-print/2607.13316v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 2,
+        "displayed_equations": 21,
+        "bibliography_entries": 160,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file v1_arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "at led to the semidi- rect product description of Proposition 2.3. Thanks to Seraphina Lee, Faye Jackson, and Trent Lucas for discussions about the Lefschetz fibration in- terpretation of these results (as discussed in Section 3). Google’s Gemini assisted drafting Lemma 2.5. 2 Proofs The main tool for proving Theorem 1.2 is a semidirect product decomposition of Br4 coming from a section of ψ. First, we define the relevant action. Write F2 = ⟨x, y⟩ for the free group of rank 2",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:25.455962Z"
+      },
+      "score": 450,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 56.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 10,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 4,
+          "displayed_equations": 5.25,
+          "bibliography_entries": 16,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13225",
       "version": 1,
       "title": "Graph Puzzles III.1: A Proof of Sabidussi's Compatibility Conjecture",
