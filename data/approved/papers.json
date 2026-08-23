@@ -43557,6 +43557,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24508",
+      "version": 1,
+      "title": "On Conformal Flexibility of Completeness and Minimizing Geodesics on Hilbert Manifolds",
+      "authors": [
+        "Levin Maier"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T14:45:18Z",
+        "updated": "2026-07-27T14:45:18Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This article is part of a broader programme investigating which features of finite-dimensional Riemannian geometry persist in infinite dimensions. The Hopf--Rinow theorem fails even for Hilbert manifolds: metric and geodesic completeness need not agree, and neither property guarantees a length-minimizing geodesic between prescribed endpoints. Despite this failure, our first main result shows that the conformal class of every smooth strong Riemannian metric on a smooth separable Hilbert manifold contains a smooth strong representative that is metrically and geodesically complete and such that every two points in the same connected component are joined by a length-minimizing geodesic. By contrast, our second main result establishes a local flexibility phenomenon for metric completeness that is inherently infinite-dimensional. Given any prescribed Hilbert-norm ball, a metrically complete strong metric admits a conformal deformation which is equal to one outside that ball, preserves geodesic completeness, and destroys metric completeness.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24508v1",
+        "pdf": "https://arxiv.org/pdf/2607.24508v1",
+        "source": "https://export.arxiv.org/e-print/2607.24508v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 7,
+        "lemmas": 7,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 228,
+        "bibliography_entries": 310,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper_new.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "m- ments and suggestions. The author acknowledges funding from the Deutsche Forschungs- gemeinschaft (DFG, German Research Foundation) through grants 281869850 (RTG 2229), 390900948 (EXC-2181/1), and 281071066 (TRR 191). The author used ChatGPT during the preparation of this article for proofreading, language refinement, and mathematical exploration. In particular, these discussions helped refine the presentation of the barrier–duality argument and the localized conformal constru",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:08.641950Z"
+      },
+      "score": 844,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 211,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 32,
+          "theorems": 42,
+          "lemmas": 28,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 57,
+          "bibliography_entries": 31,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24483",
       "version": 1,
       "title": "The exact solution of Bellman's lost-in-a-forest problem for the golden gnomon",
