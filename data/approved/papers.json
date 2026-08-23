@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08150",
+      "version": 1,
+      "title": "Vanishing of $\\ell^2$-Betti numbers for inner amenable groups",
+      "authors": [
+        "Robin Tucker-Drob"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "math.OA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-08T14:23:00Z",
+        "updated": "2026-08-08T14:23:00Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that every countable inner amenable group has vanishing $\\ell^2$-Betti numbers in all degrees. This was previously open in every degree $n\\geq2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08150v1",
+        "pdf": "https://arxiv.org/pdf/2608.08150v1",
+        "source": "https://export.arxiv.org/e-print/2608.08150v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 50,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ia-l2-vanish.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "g seminar in Fall 2025, culminating in a proof of the Cheeger–Gromov theorem. This work was partially supported by NSF grant DMS-2246684. Disclosure of generative-AI tool use. In preparing this article, I used Claude Opus 5, Fable 5, and GPT-5.6 Sol Ultra for exploratory mathematical conversations and editorial feedback. Before using these tools, I had developed a degree-two argument using the prism operators under an additional technical hypothesis. Subsequent discussions with GP",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:00.949013Z"
+      },
+      "score": 99.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 49.7,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 10,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 12.5,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08092",
       "version": 1,
       "title": "Local cohomological dimension and depth in mixed characteristic",
