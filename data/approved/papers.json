@@ -42199,6 +42199,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21931",
+      "version": 1,
+      "title": "Lorenz and convex ordering of parasite burden distributions with density-dependent deaths",
+      "authors": [
+        "Madison Carlton",
+        "Ross McVinish"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-24T03:10:29Z",
+        "updated": "2026-07-24T03:10:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish a convex ordering result for count distributions arising from a parasite acquisition model with density-dependent deaths. If the ratio of two death-rate sequences is non-increasing, then the corresponding mean-parametrised distributions are ordered in the convex order. This yields, as a special case, the convex ordering of the mean-parametrised Conway-Maxwell-Poisson distribution in its dispersion parameter.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21931v1",
+        "pdf": "https://arxiv.org/pdf/2607.21931v1",
+        "source": "https://export.arxiv.org/e-print/2607.21931v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 3,
+        "displayed_equations": 17,
+        "bibliography_entries": 57,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Arxiv_version.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "n the logarithmic scale and the horizontal axis is scaled as log(1 + ν). Declaration of generative AI and AI-assisted technologies in the manuscript prepa- ration process: During the preparation of this work the authors used OpenAI (ChatGPT-5.5) and Microsoft Copilot (GPT-5 reasoning model) in order to debug and optimise code, improve the visualisation and format of ﬁgures, and revise the text. After using this tools, the authors reviewed and edited the content as ne",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:59.738875Z"
+      },
+      "score": 127.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 31.95,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 7,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 6,
+          "displayed_equations": 4.25,
+          "bibliography_entries": 5.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21788",
       "version": 1,
       "title": "A topological Chern character for matrix factorizations",
