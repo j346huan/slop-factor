@@ -41769,6 +41769,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.02667",
+      "version": 2,
+      "title": "Large Sidon Subsets and Pair-Sum Multiplicities of Distinct Multinomial Coefficients",
+      "authors": [
+        "Felix Huber"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T05:49:52Z",
+        "updated": "2026-08-06T19:39:37Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a positive integer $n$, let $\\mathcal{M}_n$ be the set of distinct multinomial coefficient values $n!/(p_1!\\cdots p_t!)$, where $(p_1,\\ldots,p_t)$ ranges over the integer partitions of $n$. We study two complementary aspects of the additive structure of $\\mathcal{M}_n$: the maximum cardinality $s(n)$ of a Sidon subset and the multiplicities of unordered pair sums in the full set. A product embedding, strongly Sidon subsets, and estimates for prime partitions give \\[ \\liminf_{n\\to\\infty}\\frac{\\log(s(n)/n)\\log\\log n}{\\sqrt{\\log n}}\\geq\\fracπ{\\sqrt{3}}. \\] Long arithmetic progressions and separated copies yield a complementary lower bound $2/(3\\sqrt{3})$ for the normalized Sidon defect. Writing $r_n(t)$ for the number of unordered representations $t=x+y$ with $x,y\\in\\mathcal{M}_n$, we study the collision excess $C(n)$, the number $D(n)$ of multiply represented sums, the maximum multiplicity $μ(n)$, and the cumulative profile $T(n,k)$. We prove \\[ \\liminf\\frac{C(n)}{n^2\\log n}\\geq\\frac18,\\qquad \\liminf\\frac{D(n)}{n^{3/2}\\sqrt{\\log n}}\\geq\\frac{4}{3\\sqrt{3}},\\qquad \\liminf\\frac{μ(n)}{\\sqrt{n\\log n}}\\geq\\frac12. \\] We also obtain a scaled lower envelope for the full profile, an additive-energy bound, stabilization with respect to the number of variables, and an explicit family of trinomial collisions. Exact Sidon values through $n=16$, the lower bound $s(17)\\geq89$, and pair-sum statistics through $n=20$ are reported with reproducible computational material.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.02667v2",
+        "pdf": "https://arxiv.org/pdf/2608.02667v2",
+        "source": "https://export.arxiv.org/e-print/2608.02667v2"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 6,
+        "lemmas": 10,
+        "propositions": 14,
+        "corollaries": 7,
+        "definitions": 1,
+        "displayed_equations": 177,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "15 AI-assisted research disclosure The mathematical exploration and preparation of this manuscript were carried out with substantial assistance from OpenAI’s ChatGPT, principally GPT-5.6 Thinking, during July and August 2026. The system was used interactively to explore conjectures and generalizations, propose definitions and intermediate claims, develop and revise proof arguments, identify possible ga",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:26.626416Z"
+      },
+      "score": 1793.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 224.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 24,
+          "theorems": 36,
+          "lemmas": 40,
+          "propositions": 56,
+          "corollaries": 21,
+          "definitions": 2,
+          "displayed_equations": 44.25,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00982",
       "version": 1,
       "title": "GL-algebras in positive characteristic III: the divided power algebra",
