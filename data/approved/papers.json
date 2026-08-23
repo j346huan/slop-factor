@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11132",
+      "version": 1,
+      "title": "Kohayakawa's conjecture and clique coverings of complements of paths and cycles",
+      "authors": [
+        "Bo Ning"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T16:52:39Z",
+        "updated": "2026-08-11T16:52:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $s\\ge1$, let $G_s$ be the bipartite graph between the $s$-subsets and the $(s-1)$-subsets of $[2s]$, where adjacency means disjointness, and let $w(s)$ be the maximum number of $s$-subsets on an induced path in $G_s$. We prove $w(s)\\ge \\frac{4^s}{2048s^{5/2}}$ for all $s\\geq 6$. This implies $\\sup_{s\\ge1}w(s)^{1/s}=4$, as conjectured by Kohayakawa (1991). His recursive construction then gives induced paths of order $Ω(4^r/r^{5/2})$ in the Kneser graph $KG(2r+1,r)$ and yields \\[ \\max\\{\\cc(\\overline{P_n}),\\ \\cc(\\overline{C_n})\\} \\le \\log_2 n+\\frac52\\log_2\\log_2 n+O(1). \\] Together with the known lower bounds, this settles a conjecture of de Caen, Gregory, and Pullman (1985) and gives \\[ \\cc(\\overline{P_n})=\\log_2 n+Θ(\\log_2\\log_2 n), \\qquad \\cc(\\overline{C_n})=\\log_2 n+Θ(\\log_2\\log_2 n). \\] We also give an independent proof of the latter order estimates. It uses a Hamiltonicity result of Kneser graphs and a key lemma proved by the Lovász local lemma.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11132v1",
+        "pdf": "https://arxiv.org/pdf/2608.11132v1",
+        "source": "https://export.arxiv.org/e-print/2608.11132v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 4,
+        "lemmas": 5,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 103,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file v7.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "(Cn ) − log2 n and . log2 log2 n log2 log2 n Declaration on the Use of AI During the preparation of this work, the author used AI systems to assist in generating candidate proof strategies, particularly in identifying the function used in the proof of Theorem 3.1. All AI-generated suggestions were verified and refined by the author, who takes full responsibility for the corr",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:58.852043Z"
+      },
+      "score": 819.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 102.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 24,
+          "lemmas": 20,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 25.75,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11126",
       "version": 1,
       "title": "Sharp Beckner's Inequalities for Axially Symmetric Functions on $\\mathbb{S}^N$",
