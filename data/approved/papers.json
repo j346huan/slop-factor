@@ -10628,6 +10628,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17374",
+      "version": 1,
+      "title": "On the Pseudo-Mixing of Kac's Walk",
+      "authors": [
+        "Natesh S. Pillai",
+        "Aaron Smith",
+        "Vinod Vaikuntanathan"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "cs.CR",
+          "cs.LG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T05:08:44Z",
+        "updated": "2026-08-18T05:08:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Motivated by a conjecture of Vaikuntanathan and Zamir, we study the pseudo-mixing of Kac's walk on $\\mathrm{SO}(n)$: whether short trajectories are indistinguishable from Haar measure by low-complexity tests. We prove that the first $k$ columns mix in Wasserstein distance in $O(n(k+\\log n)\\log n)$ steps for fixed accuracy, resolving a conjecture of Oliveira. Combining this with a representation-theoretic variance bound, we show that if $T=ω(nk(k+\\log n)\\log n)$, then every degree-$k$ polynomial normalized to have unit Haar variance has expectation under the $T$-step law within $o(1)$ of its Haar expectation. As an application, we show that this pseudo-mixing estimate can be used to prove the effectiveness of a fast Johnson--Lindenstrauss transform with the usual target dimension.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17374v1",
+        "pdf": "https://arxiv.org/pdf/2608.17374v1",
+        "source": "https://export.arxiv.org/e-print/2608.17374v1"
+      },
+      "structural_counts": {
+        "pages": 48,
+        "theorems": 13,
+        "lemmas": 17,
+        "propositions": 2,
+        "corollaries": 3,
+        "definitions": 6,
+        "displayed_equations": 204,
+        "bibliography_entries": 70,
+        "appendix_pages": 41
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "very different. Acknowledgments and Statement of AI Use. ChatGPT 5.5 pro was used throughout the creation of this document. Many of the uses were related to saving time and making the proof structure cleaner, such as propagating changes to notation, or simplifying some of our earlier estimates (e.g. Lem",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:23:09.975549Z"
+      },
+      "score": 2904,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 363,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 48,
+          "theorems": 78,
+          "lemmas": 68,
+          "propositions": 8,
+          "corollaries": 9,
+          "definitions": 12,
+          "displayed_equations": 51,
+          "bibliography_entries": 7,
+          "appendix_pages": 82
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17365",
       "version": 1,
       "title": "A Counting Lemma for Somewhat Restricted 3-APs",
