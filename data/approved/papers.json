@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17630",
+      "version": 1,
+      "title": "Higher-Order Hankel Obstructions to Free Infinite Divisibility for Beta Distributions",
+      "authors": [
+        "Diwen Yu"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T07:38:08Z",
+        "updated": "2026-07-20T07:38:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study free infinite divisibility in the two-parameter family of beta distributions $\\{β_{p,q}:p,q>0\\}$. Conditional positive definiteness of free cumulants yields a hierarchy of necessary Hankel conditions. We factor the first nontrivial determinant and obtain the explicit necessary inequality \\[ 2s^3(s+1)+pq\\bigl(s^3-7s^2-16s-12\\bigr)\\geq0, \\qquad s=p+q. \\] Its strict reverse defines an open two-dimensional non-freely-infinitely-divisible region not contained in the previously known exclusions. As a boundary consequence, we complete the classification of one boundary family: $β_{1/2,q}$ is freely infinitely divisible if and only if $q\\geq3/2$. The $3\\times3$ determinant is also obtained explicitly in the symmetric variables $s=p+q$ and $u=pq/s^2$. Finally, exact-rational $LDL^{\\mathsf T}$ certificates show that each leading Hankel test from $3\\times3$ through $12\\times12$ strictly enlarges the exclusion supplied by all preceding leading tests. In particular, the $4\\times4$ test already detects an open set with $p+q>3$, beyond the range accessible to the $2\\times2$ determinant. The results are finite-order obstructions rather than a complete classification; two limiting arguments explain why no fixed member $H_N$ of the leading Hankel hierarchy can provide a uniform obstruction up to the small-parameter boundary.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17630v1",
+        "pdf": "https://arxiv.org/pdf/2607.17630v1",
+        "source": "https://export.arxiv.org/e-print/2607.17630v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 33,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file beta_hankel.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "are not used to decide a sign. The symbolic option independently reconstructs the displayed low-order determinant formulas. No randomized or floating-point step enters the proofs of Theorem 3.1 or Theorem 5.1. Acknowledgments Generative-AI systems were used for exploratory symbolic computation and language editing. All mathematical statements, exact computations, and references were independently checked by the author. References [1] C. Andréief. Note sur une relation entre les i",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:24.453590Z"
+      },
+      "score": 221,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 55.25,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 9,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 8.25,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17490",
       "version": 2,
       "title": "Finite Potential Energy for Entire Solutions of the Planar Ginzburg--Landau Equation",
