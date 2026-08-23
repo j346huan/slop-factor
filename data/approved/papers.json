@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01331",
+      "version": 1,
+      "title": "Freeness of Arrangements with Regular Underlying Matroids",
+      "authors": [
+        "Weikang Liang",
+        "Suijie Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T15:52:09Z",
+        "updated": "2026-08-02T15:52:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We classify freeness for finite central arrangements whose underlying matroids are regular. Let $\\mathcal A$ be such an arrangement over an arbitrary field, and put $M=M(\\mathcal A)$. Then $\\mathcal A$ is free if and only if $M$ is supersolvable; equivalently, $M$ admits a nice partition; equivalently, $M$ is the cycle matroid of a chordal simple graph. Thus, for arrangements with regular underlying matroids, freeness has a complete combinatorial classification independent of the base field. We use Seymour's decomposition theorem for regular matroids to prove that freeness forces supersolvability. We also characterize nice partitions of finite simple binary matroids: a partition is nice if and only if it is independent and no line is contained in a single block. Consequently, a finite loopless binary matroid admits a nice partition if and only if it is simple and supersolvable.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01331v1",
+        "pdf": "https://arxiv.org/pdf/2608.01331v1",
+        "source": "https://export.arxiv.org/e-print/2608.01331v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 5,
+        "definitions": 5,
+        "displayed_equations": 72,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Free_Regular.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Thus this example does not contradict Theorem 1.1; it shows why the regularity hypothesis is needed. By Corollary 4.2, 𝑀2 admits no nice partition. Declaration on the use of AI During the preparation of this manuscript, the authors used AI-assisted tools as auxiliary support for checking exposition, identifying possible gaps, and assisting with organization, typesetting, and English- language editing. All AI-assisted output was treated only as provisional assistance. The authors",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:14.960697Z"
+      },
+      "score": 390.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 97.7,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 15,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 15,
+          "definitions": 10,
+          "displayed_equations": 18,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01286",
       "version": 1,
       "title": "Holomorphic Linear $\\C^k$-Actions, Trace Foliations, and Higher-Rank Poincaré Dynamics",
