@@ -41766,6 +41766,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17355",
+      "version": 1,
+      "title": "Venn diagrams as forbidden hypergraph traces",
+      "authors": [
+        "Adam Džavoronok",
+        "Tymofii Reizin",
+        "Jakub Šošovička"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-19T17:33:27Z",
+        "updated": "2026-07-19T17:33:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the maximum size of a set system that contains no $k$-Venn diagram, denoted by $VD_k$, as a trace. For every fixed $k\\ge 3$, we prove $\\text{ex}_{tr}(n,VD_k)=O_k(n^{2^k-2k+1})$, improving the direct Sauer-Shelah bound $O_k(n^{2^k-1})$. In particular, for $k=4$ the exponent decreases from $15$ to $9$. The proof starts from the theorem of Keevash, Leader, Long and Wagner for $VD_3$ and uses induction on $k$ in which two new Venn regions are forced for free at each added edge. We also record lower-bound constructions for Venn diagrams in fixed uniformity, explicit bounds for the $4$-uniform $3$-Venn problem, and a fixed uniformity trace result for the loose triangle.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17355v1",
+        "pdf": "https://arxiv.org/pdf/2607.17355v1",
+        "source": "https://export.arxiv.org/e-print/2607.17355v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 6,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 7,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file venn_diagrams_revised_draft_v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "a-Curie grant agreement No. 823748. It was carried out during the DIMACS REU in 2024 under the guidance of Bhargav Narayanan and Milan Haiman. We thank them for many helpful meetings and discussions. Declaration of AI use The authors used OpenAI’s ChatGPT for proofreading and stylistic improvements of the text. All the mathematical ideas and proofs are due to the authors. References [1] R. P. Anstee and A. Sali. A survey of forbidden configuration results. The Electronic Journal of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:04.190295Z"
+      },
+      "score": 76.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 76.95,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 10,
+          "theorems": 36,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 1.75,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17293",
       "version": 1,
       "title": "Characterizing the equality case in Brouwer's inequality for Laplacian eigenvalues",
