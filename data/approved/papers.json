@@ -43122,6 +43122,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19282",
+      "version": 1,
+      "title": "Nyström Error Beyond $M$-Matrices: A Minimal Diagonally Dominant Obstruction",
+      "authors": [
+        "Matthew J. Colbrook"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T16:53:51Z",
+        "updated": "2026-07-21T16:53:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the nuclear-norm error of a column-selected Nyström approximation to $K=(L+γI)^{-1}$, where $L$ is symmetric diagonally dominant and $γ>0$. Our central question is whether this error has diminishing returns. A Schur-complement identity reduces the question to traces of inverses of principal submatrices. Existing $M$-matrix results settle the case in which $L$ is a symmetric diagonally dominant $M$-matrix (SDDM). However, diagonal dominance alone is not enough: failure occurs already in dimension three. We construct an exact one-parameter SDD family and determine its sharp failure interval. A $2\\times2$ identity proves that dimension three is minimal within the SDD class. We then show that failure persists under strict diagonal dominance; with a nonempty selected base set, dimension four is minimal. Finally, we prove invariance under signature switching, derive a three-dimensional formula showing how a signed triangle causes failure, and give an example in which greedy column selection misses the optimal pair. Together, these findings complete the answer to Problem 4.6 in a recent Simons workshop report.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19282v1",
+        "pdf": "https://arxiv.org/pdf/2607.19282v1",
+        "source": "https://export.arxiv.org/e-print/2607.19282v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 4,
+        "lemmas": 3,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 39,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "re would provide a quantitative substitute for the exact property ruled out by our examples. AI declaration. Consistent with the Leiden Declaration on Artificial Intelligence and journal policy, we disclose all use of AI in this paper. An AI system was used as an initial search aid that suggested L0 , and subsequently for minor language editing and independent proofreading checks. No AI was used to produce the mathematical arguments or paper content. The author takes full responsibil",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:19.685607Z"
+      },
+      "score": 336.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 84.05,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 11,
+          "theorems": 24,
+          "lemmas": 12,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 9.75,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19276",
       "version": 1,
       "title": "A Chain-Level Borsuk--Ulam Obstruction Proof of Norine's Antipodal-Coloring Conjecture",
