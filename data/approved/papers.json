@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23570",
+      "version": 1,
+      "title": "Topological line arrangements and their topological invariants",
+      "authors": [
+        "Sakumi Sugawara"
+      ],
+      "categories": {
+        "primary": "math.GT",
+        "secondary": [
+          "math.AT",
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-26T09:41:29Z",
+        "updated": "2026-07-26T09:41:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A topological line arrangement is an arrangement of embedded spheres in the complex projective plane that topologically generalizes a complex line arrangement. In this paper, we establish foundational results on the topology of the complement of topological line arrangements. First, we prove that the cohomology ring of the complement is isomorphic to the Orlik-Solomon algebra, as for classical complex line arrangements. Since classical methods are unavailable in this setting, we use a homological method to compute the cohomology ring. We then study the homotopy type of the complement. We prove that the complement of a symplectic line arrangement has the homotopy type of a minimal CW complex. In contrast, every combinatorial type realizable by a topological line arrangement admits a realization with a non-minimal complement. Moreover, every such combinatorial type admits infinitely many realizations whose complements are pairwise non-homotopy equivalent.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23570v1",
+        "pdf": "https://arxiv.org/pdf/2607.23570v1",
+        "source": "https://export.arxiv.org/e-print/2607.23570v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 10,
+        "lemmas": 1,
+        "propositions": 10,
+        "corollaries": 2,
+        "definitions": 8,
+        "displayed_equations": 42,
+        "bibliography_entries": 44,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file toplinearr_9.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "families, proving Theorems 1.3 and 1.4. We also compare topological line arrangements with the 2-pseudoarrangements of Björner and Ziegler. Section 6 recalls the basic facts about homology intersection rings. Use for AI. The author used ChatGPT 5.5 Plus for exploratory discussions related to the proof of Theorem 1.3 and language editing. The author subsequently verified all mathematical arguments. 3",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:31.190424Z"
+      },
+      "score": 1279.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 159.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 19,
+          "theorems": 60,
+          "lemmas": 4,
+          "propositions": 40,
+          "corollaries": 6,
+          "definitions": 16,
+          "displayed_equations": 10.5,
+          "bibliography_entries": 4.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23459",
       "version": 1,
       "title": "Odd-primary torsion in the homology of unordered configurations on the torus",
