@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14413",
+      "version": 1,
+      "title": "A greedy open-orbit criterion for solvable algebraic group actions, with applications to Lusztig's nilpotent varieties",
+      "authors": [
+        "Erez Lapid"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T15:55:56Z",
+        "updated": "2026-08-14T15:55:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $G$ be a connected solvable algebraic group acting rationally on a finite-dimensional vector space $U$. Using a $G$-stable complete flag, we formulate a successive-quotient procedure that decides whether $U$ contains an open $G$-orbit. When the procedure succeeds, it constructs an open-orbit vector of minimum support cardinality and determines the image of a generic stabilizer in the maximal torus quotient. We also give an infinitesimal version detecting open separable orbits. We apply the criterion to the action of $Aut_Q(M)$ on $Ext^1_Q(M,M)^*$ where $M$ is a multiplicity-free representation of a Dynkin quiver. Rigidity of the corresponding component of Lusztig's nilpotent variety is thereby reduced to a rank test together with an acyclicity condition on a graph of active extension coordinates; the connected components of the resulting forest determine the generic indecomposable decomposition. For equioriented type $A$ this yields an explicit algorithm for a family of multisegments encoded by incidence matrices, including nonregular examples with repeated beginnings or ends.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14413v1",
+        "pdf": "https://arxiv.org/pdf/2608.14413v1",
+        "source": "https://export.arxiv.org/e-print/2608.14413v1"
+      },
+      "structural_counts": {
+        "pages": 37,
+        "theorems": 6,
+        "lemmas": 12,
+        "propositions": 6,
+        "corollaries": 4,
+        "definitions": 3,
+        "displayed_equations": 69,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Mygreedy140826final.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "cussions during the earlier stage of the project and for allowing me to include some of the ideas which came up in the discussions. The author would also like to thank Shachar Carmeli for a number of helpful conversations. Declaration of generative AI and AI-assisted technolo- gies in the manuscript preparation process During the preparation and revision of this manuscript, the author used ChatGPT (OpenAI) and Claude Opus 5 (Anthropic) to assist with language and exposition, to identify",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:09.700416Z"
+      },
+      "score": 721,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 180.25,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 37,
+          "theorems": 36,
+          "lemmas": 48,
+          "propositions": 24,
+          "corollaries": 12,
+          "definitions": 6,
+          "displayed_equations": 17.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14232",
       "version": 1,
       "title": "Ollivier--Ricci Curvature on Groups of Polynomial Growth",
