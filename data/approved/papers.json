@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10771",
+      "version": 1,
+      "title": "The Weinstock inequality for convex domains in hyperbolic space",
+      "authors": [
+        "Jin Sun",
+        "Lili Wang",
+        "Tao Wang"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": [
+          "math.DG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T10:25:26Z",
+        "updated": "2026-08-11T10:25:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the Weinstock inequality for the first Steklov eigenvalue of convex domains in hyperbolic space $\\mathbb{H}^{n}$, resolving Open Question 4.27 of Colbois-Girouard-Gordon-Sher(2024) for the remaining case $n=3$. Our argument replaces the global monotonicity required in earlier work Gu-Li-Wan(2025) with a one-crossing property, which is established via an explicit slope comparison. The proof works uniformly for all $n\\geq 3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10771v1",
+        "pdf": "https://arxiv.org/pdf/2608.10771v1",
+        "source": "https://export.arxiv.org/e-print/2608.10771v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 5,
+        "lemmas": 4,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 61,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file weinstock-hyperbolic.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "est The authors declare that they have no conflict of interest. Data Availability Data sharing is not applicable to this article as no datasets were generated or analyzed during the current study. AI assistance statement The authors used OpenAI’s ChatGPT with the GPT-5.6 Sol model to assist with initial conceptualization, symbolic checking and manuscript editing. All mathematical statements and proofs were independently verified by the authors, who take full responsibility for the content",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:21.586659Z"
+      },
+      "score": 347.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 86.95,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 9,
+          "theorems": 30,
+          "lemmas": 16,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 15.25,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10629",
       "version": 1,
       "title": "Spectral gap of the normalized distance Laplacian",
