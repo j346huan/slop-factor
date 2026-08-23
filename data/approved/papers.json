@@ -41937,6 +41937,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15503",
+      "version": 1,
+      "title": "Lattice slices, Ehrhart polynomials, and magic positivity of generalized parking-function polytopes",
+      "authors": [
+        "Charlie Hill",
+        "Ambrose Luo",
+        "Vu Trinh",
+        "Andrés R. Vindas-Meléndez"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T23:13:08Z",
+        "updated": "2026-07-16T23:13:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $\\mathbf{b}=(b_1,\\dots,b_n)\\in\\mathbb{Z}_{>0}^n$, a $\\mathbf{b}$-parking function is a sequence $(β_1,\\dots,β_n)$ of positive integers whose nondecreasing rearrangement $β_1'\\leβ_2'\\le\\cdots\\leβ_n'$ satisfies $β_i'\\le b_1+\\cdots+b_i$. The $\\mathbf{b}$-parking-function polytope $\\mathfrak{X}_n(\\mathbf{b})$ is the convex hull of all $\\mathbf{b}$-parking functions of length $n$ in $\\mathbb{R}^n$. We prove that every lattice slice of $\\mathfrak{X}_n(\\mathbf{b})$, obtained by fixing one coordinate at an integer value, is itself a $\\mathbf{b}'$-parking-function polytope of one dimension less, with an explicit parameter vector $\\mathbf{b}'$; this yields a recursion for the number of lattice points of $\\mathfrak{X}_n(\\mathbf{b})$. We further show that every dilate of a $\\mathbf{b}$-parking-function polytope is a translate of another such polytope, that the number of lattice points is a polynomial function of $\\mathbf{b}$, and we deduce an explicit formula for the Ehrhart polynomial of $\\mathfrak{X}_n(\\mathbf{b})$ for arbitrary $\\mathbf{b}$ as a finite sum indexed by draconian sequences, resolving a problem of Hanada, Lentfer, and Vindas-Meléndez; an equivalent formula was recently obtained, independently, by Liu and Thawinrak in a closely related setting. In the special case $\\mathbf{b}=(a,b,\\dots,b)$, we obtain an explicit closed form and a generating function for the Ehrhart polynomial. As an application, we classify magic positivity in the two-parameter family $\\mathfrak{X}_n(a,b)=\\mathfrak{X}_n(a,b,\\dots,b)$: the polytope $\\mathfrak{X}_n(a,b)$ is magic positive if and only if $(n,a,b)\\ne(2,1,1)$. Thus, we answer a problem posed by Ferroni and Higashitani for $\\mathfrak{X}_n(a,b)$. Our result extends recent work of Liu and Zhang on partial permutahedra and leads us to conjecture that magic positivity holds for every $\\mathfrak{X}_n(\\mathbf{b})$ with $n\\ge3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15503v1",
+        "pdf": "https://arxiv.org/pdf/2607.15503v1",
+        "source": "https://export.arxiv.org/e-print/2607.15503v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 10,
+        "lemmas": 13,
+        "propositions": 6,
+        "corollaries": 4,
+        "definitions": 4,
+        "displayed_equations": 227,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "such as the h∗ -polynomial or the combinatorial type in the sense of [3, Corollary 3.14], evolve along the layers. Tool and Computational Resource Disclosure During the preparation of this work, the authors used Claude Opus 4.8 to brainstorm the proof strategy of Proposition 5.4. These discussions led the authors to consider the use of Faulhaber’s formula and to identify the references cited in the proof. After using these tools, the authors reviewed, edited,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:30.781646Z"
+      },
+      "score": 1954.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 244.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 29,
+          "theorems": 60,
+          "lemmas": 52,
+          "propositions": 24,
+          "corollaries": 12,
+          "definitions": 8,
+          "displayed_equations": 56.75,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15501",
       "version": 1,
       "title": "Cycle lengths and chords under chromatic and degree constraints",
