@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08250",
+      "version": 1,
+      "title": "On the Godement-Jacquet functional equation for finite matrix monoids",
+      "authors": [
+        "Elad Zelingher"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-08T17:23:05Z",
+        "updated": "2026-08-08T17:23:05Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In previous work with Harman and Snowden, we found explicit formulas for units of rank ideals of the matrix monoid algebra $\\mathbb{K}\\left[\\operatorname{Mat}_n\\left(\\mathbb{F}_q\\right)\\right]$, where $\\mathbb{K}$ is an algebraically closed field with characteristic not dividing $q$. In this work, we use these explicit formulas to establish a regularized Godement--Jacquet functional equation valid for irreducible representations of $\\operatorname{GL}_n\\left(\\mathbb{F}_q\\right)$ and of the algebra $\\mathbb{K}\\left[\\operatorname{Mat}_n\\left(\\mathbb{F}_q\\right)\\right]$. Using this functional equation we give an explicit expression for primitive central idempotents corresponding to irreducible representations of $\\mathbb{K}\\left[\\operatorname{Mat}_n\\left(\\mathbb{F}_q\\right)\\right]$, where the characteristic of $\\mathbb{K}$ does not divide $\\left|\\operatorname{GL}_n\\left(\\mathbb{F}_q\\right)\\right|$. Interestingly, the coefficients in this formula are closely related to degenerate non-abelian Gauss sums.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08250v1",
+        "pdf": "https://arxiv.org/pdf/2608.08250v1",
+        "source": "https://export.arxiv.org/e-print/2608.08250v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 13,
+        "lemmas": 0,
+        "propositions": 3,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 135,
+        "bibliography_entries": 17,
+        "appendix_pages": 24
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "representation theory of the monoid algebra K [Matn (Fq )] and for many discussions on this topic. I would like to thank Stephen DeBacker and Ofir Gorodetsky for their interest in this project and their encouragement. AI Acknowledgements. ChatGPT Pro models 5.5 and 5.6 were used for proofreading the manuscript. In addition, the author benefited from discussions with these models. The models suggested an early version of the statement in Theorem 3.3 and a proof for it. The models al",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:16.277114Z"
+      },
+      "score": 1912.05,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 212.45,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 24,
+          "theorems": 78,
+          "lemmas": 0,
+          "propositions": 12,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 33.75,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 48
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08246",
       "version": 1,
       "title": "Hilbertian Kahane--Salem--Zygmund Inequalities: Extremizers and Quantitative Gaps",
