@@ -9106,6 +9106,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14013",
+      "version": 1,
+      "title": "A counterexample to Kusner's conjecture on equilateral sets",
+      "authors": [
+        "Logan R. Chalmers"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.CO",
+          "math.NA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T07:01:57Z",
+        "updated": "2026-08-14T07:01:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We disprove Kusner's 1983 conjecture that every equilateral set in $\\ell_p^n$ with $2<p<\\infty$ has at most $n+1$ points: there exist $58$ points in $\\mathbb{R}^{56}$ whose pairwise $\\ell_5$ distances are all equal, so the maximum equilateral-set size satisfies $e(\\ell_5^{56})\\ge58>57$. This is the first equilateral set of more than $n+1$ points in $\\ell_p^n$ for any finite $p\\ge2$. The construction persists on an open interval of exponents around $5$; since Ge, Xu and Zhou recently proved the conjecture for $2\\le p\\le4$, the infimum of exponents at which it fails lies in $[4,5)$. The configuration is the unique solution of an explicit polynomial system with rational coefficients in a rational box, established in exact arithmetic.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14013v1",
+        "pdf": "https://arxiv.org/pdf/2608.14013v1",
+        "source": "https://export.arxiv.org/e-print/2608.14013v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 13,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "fit sectors. Data availability The data that support the findings of this work are openly available at https://doi. org/10.5281/zenodo.21911503. Disclosure of AI use OpenAI’s GPT-5.6 Sol assisted in implementing the computational search strategy in code. Anthropic’s Claude Fable 5 was used as a tool in drafting.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:21.885433Z"
+      },
+      "score": 142.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 28.45,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 7,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 3.25,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13978",
       "version": 1,
       "title": "Pure braid groups are RFRS",
