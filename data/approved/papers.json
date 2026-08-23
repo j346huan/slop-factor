@@ -42884,6 +42884,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27949",
+      "version": 1,
+      "title": "$L^\\infty$ bounds and asymptotic behavior in a doubly degenerate chemotaxis system below six dimensions",
+      "authors": [
+        "Minh Le"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T09:54:51Z",
+        "updated": "2026-07-30T09:54:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We investigate a doubly degenerate nutrient-taxis system of the form \\begin{equation*} \\begin{cases} u_t = \\nabla \\cdot (u v \\nabla u) - χ\\nabla \\cdot (u^αv \\nabla v) + \\ell u v, \\qquad &x \\in Ω, \\ t > 0, v_t = Δv - u v, \\qquad &x \\in Ω, \\ t > 0, \\end{cases} \\end{equation*} subject to the homogeneous Neumann boundary conditions in a smoothly bounded convex domain $Ω\\subset \\mathbb{R}^n$ with $n\\in \\left \\{ 3,4,5 \\right \\}$, where $α\\geq 1$, $χ>0$ and $\\ell \\geq 0$. For any suitably regular initial data, we establish the global existence of a weak solution that remains uniformly bounded in time, provided that $α$ lies in the range $\\left[1, \\frac{5}{2} - \\frac{n}{4}\\right)$, and we also determine the large-time behavior of these solutions. Our proof relies on several novel functional inequalities, a bootstrap argument, and a Moser iteration method.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27949v1",
+        "pdf": "https://arxiv.org/pdf/2607.27949v1",
+        "source": "https://export.arxiv.org/e-print/2607.27949v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 2,
+        "lemmas": 24,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 206,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "1.6) is a consequence of (2.3) and (1.7) is a result of (6.4) and \u0001 (6.14). The proof is now complete. Declarations Conflict of Interest The authors declare that they have no conflict of interest. Declaration of Generative AI and AI-Assisted Technologies in the Manuscript Preparation Process During the preparation of this work, the author(s) used DeepSeek (deepseek.com) for language polishing, grammar correction, and overall readability improvement. The author(",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 30",
+          "page": 30
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:44.203658Z"
+      },
+      "score": 980,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 196,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 32,
+          "theorems": 12,
+          "lemmas": 96,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 51.5,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27918",
       "version": 1,
       "title": "OptGraph: Large Language Models Enhanced Evolutionary Optimization Via Graph Retrieval-Augmented Generation",
