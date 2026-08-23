@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13371",
+      "version": 1,
+      "title": "Gross vectors modulo 2 and elliptic curves of prime conductor",
+      "authors": [
+        "Matija Kazalicki",
+        "Siniša Slijepčević"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T15:34:04Z",
+        "updated": "2026-08-13T15:34:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let p > 3 be a prime, and let S_p denote the geometric isomorphism classes of supersingular elliptic curves in characteristic p whose j-invariants lie in F_p. For each negative fundamental discriminant -D for which p is inert in Q(sqrt(-D)), let m_i(D), i in S_p, be the integral coefficients of the corresponding Gross vector. We prove that the vectors (m_i(D) mod 2)_{i in S_p} span F_2^{S_p}. The key step reduces the parity of the representation numbers of Gross's ternary lattices to representation by rank-two sublattices perpendicular to Frobenius. Using Ibukiyama's explicit maximal orders, the resulting primitive binary forms are identified with those occurring in the Xiao--Zhou--Deng--Qu parametrization of supersingular elliptic curves over F_p. Class field theory and Chebotarev's theorem then allow the individual supersingular coordinates to be isolated. As a consequence, if E/Q has prime conductor p and positive Mordell--Weil rank, then every coefficient of its Brandt eigenvector indexed by S_p is even, proving a conjecture of Kazalicki and Kohen. Thus an odd coefficient at a rational supersingular class is an algebraic certificate of rank 0. Combining this parity theorem with formulas of Mestre and Gross--Kudla, we also prove that the modular degree of every positive-rank elliptic curve of prime conductor and root number +1 is divisible by 4. Consequently, Watkins' conjecture holds for all such curves of rank 2.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13371v1",
+        "pdf": "https://arxiv.org/pdf/2608.13371v1",
+        "source": "https://export.arxiv.org/e-print/2608.13371v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 2,
+        "lemmas": 9,
+        "propositions": 6,
+        "corollaries": 4,
+        "definitions": 2,
+        "displayed_equations": 117,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "pean Union through the European Regional Devel- opment Fund – Competitiveness and Cohesion Programme 2021–2027. During the development of this work, the authors used Aleph, a mathematical research as- sistant developed by Cantab Pi, and ChatGPT (OpenAI) for literature searches, exploratory work on proof strategies, and assistance with drafting and editorial review. The authors indepen- dently checked all mathematical statements, proofs, computations, and citations and take full r",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:47.716829Z"
+      },
+      "score": 1094.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 136.85,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 12,
+          "lemmas": 36,
+          "propositions": 24,
+          "corollaries": 12,
+          "definitions": 4,
+          "displayed_equations": 29.25,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13361",
       "version": 2,
       "title": "Aging in a spin glass with logarithmic correlations",
