@@ -8423,6 +8423,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10012",
+      "version": 1,
+      "title": "A 112-Vertex Counterexample to the Petersen Coloring Conjecture",
+      "authors": [
+        "Bryce Putman"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-08T07:32:39Z",
+        "updated": "2026-08-08T07:32:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give an explicit simple bridgeless cubic graph on 112 vertices with no Petersen coloring, and hence no normal 5-edge-coloring. The graph is identified by the SHA-256 digest in Theorem 1.1. It is assembled from three copies of a four-pole L and a claw six-pole C; in turn, L is assembled from four copies of a four-pole F and one copy of C, where F is obtained from the Petersen graph by deleting the endpoints of one edge. We give direct SAT formulations for Petersen colorings and normal 5-edge-colorings. CaDiCaL 3.0.1 returned UNSAT for both formulas, and drat-trim verified the resulting DRAT proofs. The ancillary archive contains the construction, an explicit relabeling, the encoders, certificates, hashes, and verification programs. Combined with a theorem of Ma, Mattiolo, Steffen, and Wolf, the counterexample also implies that infinitely many connected simple bridgeless cubic graphs have no Petersen coloring. We also give a separately verified, nonisomorphic $D_3$-symmetric 112-vertex counterexample. We do not address whether 112 is minimum.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10012v1",
+        "pdf": "https://arxiv.org/pdf/2608.10012v1",
+        "source": "https://export.arxiv.org/e-print/2608.10012v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 11,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file PCC_counterexample_112_arxiv_v1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "raph–encoding pair has its own CNF and checked DRAT proof. The ancillary documentation lists the relevant files and reproduction steps, and the compact archive has its own SHA-256 manifest. Computational provenance and responsibility OpenAI language-model systems were used extensively in the discovery, computational search, verification, and preparation of this work. The author reviewed the final claims and artifacts and accepts responsibility for the contents.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:59.090432Z"
+      },
+      "score": 445.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 44.55,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 13,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 2.75,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07906",
       "version": 1,
       "title": "Long Lattice Paths with No Three Collinear Vertices",
