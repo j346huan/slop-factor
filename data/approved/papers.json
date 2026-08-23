@@ -42874,6 +42874,96 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14068",
+      "version": 2,
+      "title": "The Hypergraph Moore Bound",
+      "authors": [
+        "Afonso S. Bandeira",
+        "Dmitriy Kunisky",
+        "Petar Nizić-Nikolac",
+        "Lucas Pesenti",
+        "Robert Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM",
+          "cs.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-15T17:37:24Z",
+        "updated": "2026-07-17T17:13:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The hypergraph Moore bound conjectured by Feige (2008) controls the size of the smallest even cover in a $k$-uniform hypergraph in terms of the average density of hyperedges. An even cover is a set of hyperedges covering each vertex an even number of times, generalizing the notion of a cycle in a graph, so the size of the smallest non-trivial even cover provides a notion of hypergraph girth. Recent work, starting from the breakthrough result of Guruswami, Kothari, and Manohar (2022) proved the conjecture up to polylogarithmic factors, whose exponents were later gradually improved. We give a simple proof of Feige's original hypergraph Moore bound conjecture for all $k \\geq 3$, with no superfluous polylogarithmic factors. For the case of $k$ even, our proof roughly follows the proof of the graph Moore bound, but works with colored walks in a Kikuchi graph built from a hypergraph and controls their growth using the polynomial method. The argument is then extended to the case of $k$ odd by adapting a procedure in [GKM22].",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14068v2",
+        "pdf": "https://arxiv.org/pdf/2607.14068v2",
+        "source": "https://export.arxiv.org/e-print/2607.14068v2"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 6,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 47,
+        "bibliography_entries": 19,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d Use of AI. We would like to thank Benny Sudakov and Kevin Lucca for several insightful discussions on the topic of this paper, and Benny Sudakov in particular for valuable feedback on an earlier version of this manuscript. We used modern AI tools in this work, primarily GPT-5.6 Sol, but also GPT-5.5 Pro, Claude Opus 4.8, and Claude Fable 5. In fact, the core technical innovation in the proof was found by GPT-5.6 Sol. The authors were working on a program to attempt to establish ver",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:32.989502Z"
+      },
+      "score": 716.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 71.65,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 24,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 11.75,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14038",
       "version": 1,
       "title": "Local and global average degree in bipartite graphs",
