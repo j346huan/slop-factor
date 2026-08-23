@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14965",
+      "version": 1,
+      "title": "Statistical Inference for Scenario-Based Dynamic Optimization under Uncertainty",
+      "authors": [
+        "Aurya Javeed",
+        "Johannes Milz"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.ST"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-16T13:16:03Z",
+        "updated": "2026-07-16T13:16:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Motivated by batch and semi-batch process operation, we study finite-horizon open-loop dynamic optimization problems with uncertain parameters. A common computational approach replaces the expected performance criterion by an average over finitely many sampled parameter realizations. We develop a statistical theory for the resulting sample-based optimal value as an estimator of the population optimal value. The analysis is based on a stability estimate showing that terminal losses depend Lipschitz continuously on the time-integrated control, which records the cumulative input delivered up to each time. This estimate yields a functional central limit theorem for the sample-based objective and a statistical limit theorem for the corresponding optimal value error. As a consequence, we obtain confidence intervals for the population optimal value. When the population optimizer is unique, the limit is Gaussian and leads to a plug-in confidence interval. When multiple optimal policies may exist, we use a subsampling confidence interval that does not require uniqueness. The methodology is illustrated on two fed-batch case studies in which feed-rate profiles are optimized under parametric uncertainty.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14965v1",
+        "pdf": "https://arxiv.org/pdf/2607.14965v1",
+        "source": "https://export.arxiv.org/e-print/2607.14965v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 4,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 55,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ". Reproducibility of numerical results The code and data needed to reproduce the numerical results are archived at https://doi.org/10.5281/zenodo.21365488. Acknowledgment During the preparation of this manuscript, the authors used ChatGPT-5.5 to assist with language editing, organization, and presentation writing. The authors reviewed and edited all AI-assisted material and are responsible for the final content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:17.525395Z"
+      },
+      "score": 261.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 65.45,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 23,
+          "theorems": 24,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 13.75,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14948",
       "version": 1,
       "title": "Graph alignment in sparse inhomogeneous models via self-overlap",
