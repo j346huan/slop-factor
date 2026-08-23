@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00900",
+      "version": 1,
+      "title": "An explicit construction of two completely independent spanning trees in the four-dimensional dual-cube",
+      "authors": [
+        "Jitendra Prajapati"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T00:00:20Z",
+        "updated": "2026-08-02T00:00:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Lalou, Mbarek, Skender and Togni (arXiv:2607.25917) proved that the $n$-dimensional dual-cube $F_n$ admits two completely independent spanning trees for every $n\\ge 5$, observed that none exist for $n\\le 3$, and identified $F_4$ as the first unresolved case, reporting more than 700 hours of inconclusive computation. We settle this case affirmatively by an explicit construction, completing the classification: $F_n$ admits two completely independent spanning trees if and only if $n\\ge 4$. The internal-vertex sets of the two trees are the level sets of a single ten-term cubic polynomial over $\\mathbb{F}_2$ in the seven vertex bits, and correctness reduces to finite connectivity checks that are machine-verified by a solver-free program distributed with the certificate. In $F_4$ the two trees necessarily use 254 of the 256 edges. We also report exact infeasibility results for simpler rules of the same shape: within the search model, no affine or quadratic rule works, and ten terms is the fewest possible for a cubic rule.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00900v1",
+        "pdf": "https://arxiv.org/pdf/2608.00900v1",
+        "source": "https://export.arxiv.org/e-print/2608.00900v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 3,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 2,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file f4-cist-note.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "roll/f4-dualcube-cist. Veri- fication requires one command: python3 verify anf structure.py anf-construction.json. Acknowledgements The search programs, the certificate, and an initial draft of this note were produced with AI assistance (OpenAI Codex, with subsequent verification and preparation assisted by Claude); the author directed the work, independently re-verified the construction, and takes full responsibility for the content. A documented literature search located no ear",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:00.242643Z"
+      },
+      "score": 142,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 28.4,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 5,
+          "theorems": 18,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0.5,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00845",
       "version": 1,
       "title": "de Rham theory and locally analytic vectors",
