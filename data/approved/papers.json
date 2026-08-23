@@ -42275,6 +42275,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01277",
+      "version": 1,
+      "title": "Discriminant Varieties for Stick Knots and Links",
+      "authors": [
+        "Alexander Kolpakov",
+        "Igor Rivin"
+      ],
+      "categories": {
+        "primary": "math.GT",
+        "secondary": [
+          "math.AG",
+          "math.AT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T14:43:43Z",
+        "updated": "2026-08-02T14:43:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "How many knot types can be built from a fixed budget of straight sticks? We prove that the answer has factorial-scale growth, settling its order for the first time. No previously published general upper bound improves on the exponential-in-the-square estimate obtained from crossing-number enumeration; we replace it with a factorial-scale upper bound, which is optimal at the level of growth order. The proof turns polygonal self-intersection into a sparse real-algebraic chamber problem in only linearly many dimensions, while a complementary braid construction supplies factorially many distinct knots. The result creates a direct bridge between knot topology, real algebraic geometry, fewnomial structure, and permutation combinatorics.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01277v1",
+        "pdf": "https://arxiv.org/pdf/2608.01277v1",
+        "source": "https://export.arxiv.org/e-print/2608.01277v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 5,
+        "lemmas": 2,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 81,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file knot_fewnomials.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments The authors used OpenAI’s GPT-5.6-sol as a research and coding assistant to help strengthen the results, improve the exposition, and generate and audit the Python and Lean 4 code accompanying this paper. The authors reviewed the resulting mathematics and code and take resp",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:19:27.390241Z"
+      },
+      "score": 362.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 90.65,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 16,
+          "theorems": 30,
+          "lemmas": 8,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 20.25,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01216",
       "version": 2,
       "title": "Global $L^p$ Second Commutation Lemma",
