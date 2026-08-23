@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01340",
+      "version": 1,
+      "title": "Question-Guided Learning for Mathematics Education: An Autonomous Online Inquiry-Based Approach",
+      "authors": [
+        "Borbála Neogrády-Kiss"
+      ],
+      "categories": {
+        "primary": "math.HO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T16:03:54Z",
+        "updated": "2026-08-02T16:03:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This paper presents an autonomous online application designed to support inquiry-based learning in mathematics when in-person instruction is not possible. The application teaches the concept of boundedness of functions through adaptive questioning, requiring active problem solving without teacher intervention. It was tested with 92 Hungarian secondary school students preparing for the advanced-level final examination. Assessment based on Bloom's taxonomy showed that most students achieved at least a medium level of understanding, with many reaching higher cognitive levels. The results suggest that such applications may support learning and complement traditional instruction. Moreover, the study suggests that future AI-based educational systems may benefit from similar inquiry-oriented approaches, emphasizing active thinking and guided problem solving rather than passive answer generation.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01340v1",
+        "pdf": "https://arxiv.org/pdf/2608.01340v1",
+        "source": "https://export.arxiv.org/e-print/2608.01340v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 32,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nefit not only from increasingly powerful answer-generation capabilities but also from instructional designs that encourage students to think, explore, and construct mathematical knowledge through carefully guided inquiry. Declaration of Generative AI Use ChatGPT (OpenAI) was used to improve the English language and readability of the manuscript. The author reviewed and edited all AI-assisted suggestions and takes full responsibility for the final content of the manuscript. References",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:35.697016Z"
+      },
+      "score": 68.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 17.2,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 14,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01339",
       "version": 1,
       "title": "Non-finitely Presented Lie Algebras of Type $FP_2$",
