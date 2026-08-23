@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28768",
+      "version": 2,
+      "title": "A Quantitative Pólya--Szegő Theorem for Tangential Polygons",
+      "authors": [
+        "Changfeng Gui",
+        "Yeyao Hu",
+        "Qinfeng Li"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T18:41:54Z",
+        "updated": "2026-08-17T23:36:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a bounded Lipschitz domain $Ω\\subset\\mathbb R^2$, let $T(Ω)=\\int_Ωu_Ω\\, dx$ denote its torsional rigidity, where $-Δu_Ω=1$ in $Ω$ and $u_Ω=0$ on $\\partialΩ$. We prove a quantitative Pólya--Szegő inequality for tangential polygons. Let $N\\ge3$, let $P$ be a tangential $N$-gon, set $A=|P|$, and let $R_N$ be the regular $N$-gon of area $A$. Writing $L(\\cdot)$ for perimeter, we obtain the explicit deficit estimate \\[ T(R_N)-T(P)\\ge \\frac{A^2}{8N\\tan(π/N)} \\left(1-\\frac{L(R_N)^2}{L(P)^2}\\right)^2.\\]Thus, at fixed area, the torsional deficit is controlled from below purely by the perimeter ratio. In particular, the regular $N$-gon is the unique maximizer of torsional rigidity among tangential $N$-gons of prescribed area; for $N=3$ this gives the classical triangular Pólya--Szegő theorem with a quantitative estimate. The same perimeter estimate yields an explicit positive lower bound for $T(R_{N+1})-T(R_N)$ for equal-area regular polygons, and hence a rather short alternative proof of the strict monotonicity of torsional rigidity in $N$. Combined with the Kohler--Jobin inequality, it also gives an explicit sufficient condition for the polygonal Faber--Krahn inequality within the tangential class. Our full quantitative inequality is stronger: it contains, in addition, a nonnegative angular Jensen deficit, which yields quantitative angular stability away from degenerate configurations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28768v2",
+        "pdf": "https://arxiv.org/pdf/2607.28768v2",
+        "source": "https://export.arxiv.org/e-print/2607.28768v2"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 4,
+        "definitions": 0,
+        "displayed_equations": 138,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file tangential_polygons_torsion_revised_2_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "□ Thus, for large N , every possible counterexample within the tangential class lies in an explicit relative perimeter layer of width O(N −2 ) around RN . Statement on the use of AI tools During the preparation of this manuscript, the authors used ChatGPT (OpenAI) for language and presentation assistance and as an interactive tool for exploratory mathematical discussion. These interactions served to explore and refine po",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:25.683609Z"
+      },
+      "score": 774.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 96.8,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 12,
+          "definitions": 0,
+          "displayed_equations": 34.5,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28467",
       "version": 2,
       "title": "Spaces of metrics with positive spectral scalar curvature",
