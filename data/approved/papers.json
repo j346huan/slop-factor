@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13887",
+      "version": 1,
+      "title": "The Fino-Vezzoni conjecture on balanced Bismut torsion-parallel manifolds",
+      "authors": [
+        "Shuwen Chen",
+        "Fangyang Zheng"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T02:32:28Z",
+        "updated": "2026-08-14T02:32:28Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the Fino-Vezzoni conjecture on compact complex manifolds carrying a balanced Bismut torsion-parallel Hermitian metric. We prove that if such a manifold also admits a pluriclosed Hermitian metric, then it admits a Kähler metric.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13887v1",
+        "pdf": "https://arxiv.org/pdf/2608.13887v1",
+        "source": "https://export.arxiv.org/e-print/2608.13887v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 1,
+        "lemmas": 9,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 85,
+        "bibliography_entries": 33,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 1bBTP_FV260815.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "The form αD is positive, real, of type Since αD is real, ∂α (1, 1), and closed, and hence is a Kähler form on (M, J). This proves the theorem. □ Generative AI disclosure. During the development of this work, the authors used ChatGPT 5.6 Sol to assist with exploratory computations, possible proof directions, and editorial polishing. The authors checked the mathematical proofs and computations, and take full responsibility for the contents of the paper. Declaration on",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:39.211223Z"
+      },
+      "score": 772.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 96.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 15,
+          "theorems": 6,
+          "lemmas": 36,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 21.25,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13836",
       "version": 1,
       "title": "A counterexample to a log-concavity conjecture of Brenti",
