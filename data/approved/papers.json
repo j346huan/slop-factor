@@ -8427,6 +8427,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12728",
+      "version": 1,
+      "title": "Scattering by a medium with self-similar or fractal structure",
+      "authors": [
+        "Habib Ammari",
+        "Yat Tin Chow",
+        "Fuqun Han"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T02:18:09Z",
+        "updated": "2026-08-13T02:18:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a topological framework for wave scattering by a medium with self-similar or prefractal geometry. Physical scaling identities motivate an auxiliary boundary-integral model that is periodic in logarithmic scale, and the Bloch-Floquet-Zak transform fiberizes its interscale coupling. For sufficiently small, well-separated components, equilibrium densities define a computable finite-dimensional projected matrix, while Riesz projections select the corresponding invariant spectral subspace of the full boundary symbol. Under the stated spectral-isolation and point-gap conditions, we prove that the determinant winding of the exact Riesz-reduced family agrees with that of the projected matrix. For the regular-simplex configurations, we obtain nonzero winding formulas and track the resulting local winding data across finite prefractal levels and along a geometric sequence of wavenumbers. We also obtain conditional results for different dilation centers and show that the Zak phase of the chiral Hermitianization is equal to $π$ times the point-gap winding modulo $2π$. Thus, the scale-periodic boundary model admits a rigorous topological reduction.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12728v1",
+        "pdf": "https://arxiv.org/pdf/2608.12728v1",
+        "source": "https://export.arxiv.org/e-print/2608.12728v1"
+      },
+      "structural_counts": {
+        "pages": 46,
+        "theorems": 4,
+        "lemmas": 8,
+        "propositions": 8,
+        "corollaries": 5,
+        "definitions": 4,
+        "displayed_equations": 401,
+        "bibliography_entries": 42,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r phases: they do not determine a bandwise Zak phase without a globally isolated simple band. They do, however, determine the Zak phase of the negative spectral subspace of the associated chiral Hermitianization. Disclaimer. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process. During the preparation of this work, the authors used ChatGPT to assist with language editing and code writing for numerical experiments. After using this tool/service, th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 44",
+          "page": 44
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:30.404844Z"
+      },
+      "score": 522.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 261.45,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 46,
+          "theorems": 24,
+          "lemmas": 32,
+          "propositions": 32,
+          "corollaries": 15,
+          "definitions": 8,
+          "displayed_equations": 100.25,
+          "bibliography_entries": 4.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12690",
       "version": 1,
       "title": "Algebraic constructions of point sequences with quasi-uniform two-dimensional projections",
