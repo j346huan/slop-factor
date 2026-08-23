@@ -41851,6 +41851,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23766",
+      "version": 1,
+      "title": "The covering number C(12, 6, 4) is 41",
+      "authors": [
+        "Charlie Krug"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T17:32:20Z",
+        "updated": "2026-07-26T17:32:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A $t$-$(v,k,λ)$ covering is a collection of $k$-subsets (blocks) of a $v$-set such that every $t$-subset of points lies in at least $λ$ blocks; the covering number $C_λ(v,k,t)$ is the least number of blocks in such a collection, and one writes $C(v,k,t)$ when $λ=1$. The recorded bounds for $C(12,6,4)$ have been $40 \\le C(12,6,4) \\le 41$. We show that no $4$-$(12,6,1)$ covering with $40$ blocks exists, and hence that $C(12,6,4)=41$. A counting argument shows that in a hypothetical $40$-block covering every point lies in exactly $20$ blocks, the link of every point is an optimal $3$-$(11,5,1)$ covering with a forced degree sequence, and the six pairs of points of degree $10$ form a perfect matching; an exhaustive case analysis over the orbits of a group of order $3840$, carried out by satisfiability solving, then shows that no optimal $3$-$(11,5,1)$ covering occurs as such a link. Each of the $81$ formulas in the primary proof has an unsatisfiability certificate checked by drat-trim and by the formally verified checker cake_lpr; two additional cross-encoding certificates are checked by the same pipeline. The lower-bound argument uses no tabulated covering number: its only numerical input, $C(10,4,2) \\ge 9$, is itself certified. As a by-product the certificates yield a self-contained certified proof that the optimal $3$-$(11,5,1)$ covering is unique up to isomorphism. Equivalently, the Turán number $T(12,8,6)$ is $41$; the new value propagates to improved lower bounds for $C(13,7,5)$, $C(14,8,6)$, $C(15,9,7)$ and $C(16,10,8)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23766v1",
+        "pdf": "https://arxiv.org/pdf/2607.23766v1",
+        "source": "https://export.arxiv.org/e-print/2607.23766v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 1,
+        "lemmas": 8,
+        "propositions": 3,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 11,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file c1264.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "o a weaker forcing regime or a new idea; parameter families where the lifted bound is again tight are the better candidates for a direct replay of this approach. Use of AI assistance During the preparation of this work the author used the large language models GPT-5.6 Sol, GPT-5.6 Terra and Claude Fable 5, in the versions available in July 2026, to assist with exploratory analysis, computational search, supporting code, manuscript drafting and revision, and proofreading. The verification status",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:43.086928Z"
+      },
+      "score": 381.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 76.25,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 15,
+          "theorems": 6,
+          "lemmas": 32,
+          "propositions": 12,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 2.75,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23723",
       "version": 1,
       "title": "Recovery of latent inner products from an anisotropic Gaussian random geometric graph",
