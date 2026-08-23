@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17232",
+      "version": 1,
+      "title": "Polyhedral Subspaces of $L_{p}$ and Polars of Zonotopes",
+      "authors": [
+        "Vladyslav Yaskin"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T00:36:16Z",
+        "updated": "2026-08-18T00:36:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $K$ be an origin-symmetric full-dimensional convex polytope in $\\mathbb R^n$, $n\\ge 3$. We show that, for $-n+3<p<1$, the normed space $(\\mathbb R^n,\\|\\cdot\\|_K)$ embeds in $L_p$ if and only if it embeds in $L_1$. The case of $p\\le 0$ is understood in the generalized sense. In particular, an origin-symmetric full-dimensional convex polytope $K\\subset\\mathbb R^n$, $n\\ge 5$, is an intersection body if and only if $K$ is the polar of a zonotope.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17232v1",
+        "pdf": "https://arxiv.org/pdf/2608.17232v1",
+        "source": "https://export.arxiv.org/e-print/2608.17232v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 3,
+        "lemmas": 6,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 158,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file polytopal-bodies-final.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "H)◦H , so every hyperplane projection of K ◦ is a zonotope. Lemma 6 now implies that K ◦ is a zonotope. Thus, (1) implies (4), and the proof is complete. □ AI disclosure. Lemma 4 was obtained with the assistance of ChatGPT. ChatGPT was also used to proofread the manuscript and to improve its exposition and wording. References [1] E. D. Bolker, A class of convex bodies, Trans. Amer. Math. Soc. 145 (1969), 323–3",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:35.849193Z"
+      },
+      "score": 869.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 108.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 19,
+          "theorems": 18,
+          "lemmas": 24,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 39.5,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17155",
       "version": 1,
       "title": "Fixed-particle-number optimizers for the Lieb--Oxford inequality",
