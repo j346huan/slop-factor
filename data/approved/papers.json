@@ -10200,6 +10200,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16879",
+      "version": 1,
+      "title": "On the relations between several notions of symmetry for the second order linear differential equation",
+      "authors": [
+        "David Blázquez-Sanz",
+        "Santiago Alexis Aguirre Agudelo"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math-ph",
+          "math.DG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T17:57:11Z",
+        "updated": "2026-08-17T17:57:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "There are several non-equivalent notions of infinitesimal symmetry in the literature of second order linear differential equations: Lie point symmetries, vertical (gauge) symmetries, operator symmetries, infinitesimal contact symmetries, and Lie--Bäcklund operators. We construct an explicit correspondence among the first three, We then describe the Lie algebra $\\mathcal L_Ω(\\mathbb U)$ of infinitesimal contact transformations of the contact system $Ω=\\langle dy-y'\\,dx\\rangle$, with coefficients in a differential field $\\U$ of functions of $x$ and $y$. We obtain a canonical decomposition $\\mathcal L_Ω(\\mathbb U)=\\prod_{k\\ge0}\\mathcal L_Ω^k\\mathbb U$ into $\\mathbb C$-vector spaces, each parametrized by $\\mathbb U$ (by $\\mathbb U\\oplus\\mathbb U$ for $k=0$), and we compute the algebraic differential formulae for the Lie bracket in these coordinates. Applied to the symmetry problem, we prove that a contact vector field with generating function $W$ is a symmetry of if and only if $A^{2}W=aW+b\\,AW$, where $A$ is the vector field in the jet space corresponding to the equation; equivalently, if and only if $W=F_1(u_1,u_2)φ_1+F_2(u_1,u_2)φ_2$ for arbitrary functions $F_1,F_2$ of the two first integrals of $A$ and a basis $φ_1,φ_2$ of solutions. The symmetry algebra is always parametrized by two arbitrary functions of two variables. It also shows that the decomposition of $\\Lom(\\U)$ never captures the whole symmetry algebra: for $a\\neq0$ the graded part reduces to the point symmetries, while for $y''=0$ it is an infinite dimensional but still \\emph{proper} subspace, and in neither case is it a Lie subalgebra. Finally we make precise the transformation law $W\\mapstoμ^{-1}(W\\circ\\varphi)$ for characteristics under a contact transformation with conformal factor $μ$, which governs the transport of evolutionary representatives.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16879v1",
+        "pdf": "https://arxiv.org/pdf/2608.16879v1",
+        "source": "https://export.arxiv.org/e-print/2608.16879v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 11,
+        "lemmas": 1,
+        "propositions": 9,
+        "corollaries": 0,
+        "definitions": 4,
+        "displayed_equations": 58,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file publish_v5.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "3 teoría de Picard-Vessiot con la geometría y la dinámica” of Universidad Nacional de Colombia, code Hermes 67312. Use of AI-Assisted Tools. During the preparation of this work, the authors employed Claude Opus (Anthropic) and Gemini 3.7 (Google) to audit and verify the results from [1]. Insights from these tools led to the correction of minor inaccuracies, the restructuring of select proofs, and the refinement of theoretical statements as shown in the actual version of th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:38.755312Z"
+      },
+      "score": 1160.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 145.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 15,
+          "theorems": 66,
+          "lemmas": 4,
+          "propositions": 36,
+          "corollaries": 0,
+          "definitions": 8,
+          "displayed_equations": 14.5,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16836",
       "version": 1,
       "title": "Nonnegative Quadratics over a Quadrant with a Bilinear Constraint",
