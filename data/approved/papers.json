@@ -41766,6 +41766,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13831",
+      "version": 2,
+      "title": "The exact total degree threshold for the square of a Hamilton cycle in digraphs",
+      "authors": [
+        "Zhilan Wang",
+        "Shuo Wei",
+        "Jin Yan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T13:42:07Z",
+        "updated": "2026-07-30T13:24:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Pósa-Seymour conjecture establishes the minimum degree threshold required to guarantee the presence of the $k$th power of a Hamilton cycle in a graph. Following numerous partial results, Komlós, Sárközy, and Szemerédi confirmed the conjecture holds for all sufficiently large graphs. Treglown later conjectured the analogous minimum semi-degree threshold for forcing the $k$th power of a Hamilton cycle in a digraph. Subsequently, DeBiasio et al. proposed a conjecture on the minimum total degree threshold for the same problem. In this paper we settle the conjecture of DeBiasio et al. for $k=2$. Specifically, we prove that every sufficiently large $n$-vertex digraph with minimum total degree at least $8n/5-c$ contains the square of a Hamilton cycle, where $c=2$ if $n\\equiv2,4\\pmod 5$, and $c=1$ otherwise.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13831v2",
+        "pdf": "https://arxiv.org/pdf/2607.13831v2",
+        "source": "https://export.arxiv.org/e-print/2607.13831v2"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 3,
+        "lemmas": 15,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 3,
+        "displayed_equations": 75,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Square-of-a-Hamilton-cycle.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "than the present one. With the assistance of OpenAI’s ChatGPT 5.6, we reorganized and simplified this part of the argument into the form given above. Although the resulting bound Cγ is weaker than the previous bound of 42, it is fully sufficient for all subsequent applications. The remainder of the p",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:13.958641Z"
+      },
+      "score": 1114.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 139.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 30,
+          "theorems": 18,
+          "lemmas": 60,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 6,
+          "displayed_equations": 18.75,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13794",
       "version": 1,
       "title": "Complete functional calculus bounds for $ρ$-contractions",
