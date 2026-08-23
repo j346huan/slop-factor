@@ -9365,6 +9365,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13264",
+      "version": 1,
+      "title": "The Gromov-Hausdorff Distance Between Consecutive Spheres",
+      "authors": [
+        "Donghan Kim",
+        "Sunhyuk Lim",
+        "Facundo Memoli"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T14:01:37Z",
+        "updated": "2026-08-13T14:01:37Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We determine the Gromov-Hausdorff distance between consecutive unit round spheres equipped with their geodesic metrics. Put $ζ_n:=\\arccos(-\\tfrac{1}{n+1}),$ the common geodesic distance between distinct vertices of a regular simplex with $n+2$ vertices inscribed in $\\mathbb{S}^n$. We prove that $$ d_{\\mathrm{GH}}(\\mathbb{S}^n,\\mathbb{S}^{n+1})=\\frac{ζ_n}{2} \\qquad(n\\geq1), $$ resolving a conjecture of Lim, Mémoli, and Smith. All cases $n\\geq4$ were previously open. This equality is established by explicitly constructing a family of correspondences $\\mathcal R_n\\subseteq \\mathbb{S}^{n+1}\\times \\mathbb{S}^n$, whose distortion matches the known quantitative Borsuk-Ulam lower bound $ζ_n$. We also introduce synchronized spherical joins and suspensions of correspondences and prove that the distortion of a join is exactly the maximum of the distortions of its factors. In particular, suspension preserves distortion. Applying these join and suspension operations to the optimal correspondences $\\mathcal R_n$ yields new bounds for spheres of nonconsecutive dimensions, including $$ \\lim_{m\\to\\infty} d_{\\mathrm{GH}}\\bigl(\\mathbb{S}^m,\\mathbb{S}^{m+d(m)}\\bigr) = \\fracπ{4} \\qquad\\text{whenever } d(m)\\geq1,\\ \\text{and }d(m)=o(m).$$",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13264v1",
+        "pdf": "https://arxiv.org/pdf/2608.13264v1",
+        "source": "https://export.arxiv.org/e-print/2608.13264v1"
+      },
+      "structural_counts": {
+        "pages": 89,
+        "theorems": 1,
+        "lemmas": 28,
+        "propositions": 12,
+        "corollaries": 12,
+        "definitions": 4,
+        "displayed_equations": 588,
+        "bibliography_entries": 22,
+        "appendix_pages": 49
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-arxiv-v1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "he Korean government (MSIT, RS-2025-23324186). F. Mémoli gratefully acknowledges support from the National Science Foundation through grants CCF-2523653 and DMS-2524362. During the development and preparation of this work, the authors used OpenAI’s ChatGPT as an assistive tool for exploratory calculations, identifying possible gaps, ambiguities, and imprecisions in proofs, and improving the clarity and style of the text. The authors take full responsibility for the contents of the manuscript",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 74",
+          "page": 74
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:12.641832Z"
+      },
+      "score": 4369.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 546.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 89,
+          "theorems": 6,
+          "lemmas": 112,
+          "propositions": 48,
+          "corollaries": 36,
+          "definitions": 8,
+          "displayed_equations": 147,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 98
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13252",
       "version": 1,
       "title": "Covering the ternary cube by binary subcubes",
