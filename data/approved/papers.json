@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23391",
+      "version": 1,
+      "title": "The symmetric V-cycle can diverge under the multigrid axioms for cell-centred discretisations",
+      "authors": [
+        "Ming Hei Wong"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-25T23:33:39Z",
+        "updated": "2026-07-25T23:33:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The axiomatic convergence theory for multigrid methods applied to cell-centred finite-difference and finite-volume discretisations rests on two hypotheses: an imbalanced Galerkin condition (G3), which states that $R_{\\ell-1}A_\\ell P_{\\ell-1}=2A_{\\ell-1}$ with $R_{\\ell-1}=\\frac{1}{2}P_{\\ell-1}^T$, and a weak approximation property $(A2)_α$ of Bramble type. Under these hypotheses, together with Richardson smoothing, the symmetric W-cycle and the variable V-cycle are known to be uniformly convergent, while the uniform convergence of the standard symmetric V-cycle has remained open. We answer this in the negative by two constructions. First, for every smoothing count $m$ we exhibit hierarchies of every depth satisfying (G3), Richardson admissibility with $C_R=1$, and $(A2)_α$ for every $α\\in(0,1]$ with the sharp level-independent constant $C_{A2}^2=4m$, whose symmetric $V(m,m)$-cycle error operator has spectral radius $θ_m(1+2θ_m)>1$ already on three levels, where $θ_m=(1-\\frac{1}{4m})^{2m}$, and growing geometrically with the depth; the family shows that any smoothing-count threshold $m_0$ that could restore uniform V-cycle convergence must grow at least quadratically in $C_{A2}$. Second, we prove that the same failure occurs in a completely standard discretisation: the cell-centred finite-volume hierarchy for a one-dimensional diffusion equation with a mesh-aligned coefficient jump $1:κ$ and harmonic (Samarskii) interface averaging satisfies (G3) exactly and $(A2)_{1/2}$ with a level-independent constant $C_{A2}=O(κ)$, yet for every $κ\\ge3$ its symmetric $V(1,1)$-cycle with any admissible Richardson parameter, including the optimal one, diverges geometrically in the number of levels. In both constructions the W-cycle remains uniformly contractive, so the hypotheses separate the two cycles. All claims are verified numerically.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23391v1",
+        "pdf": "https://arxiv.org/pdf/2607.23391v1",
+        "source": "https://export.arxiv.org/e-print/2607.23391v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 6,
+        "lemmas": 6,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 3,
+        "displayed_equations": 76,
+        "bibliography_entries": 40,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "evel 6. Identifying the exact contrast at which supℓ ρ(EVℓ ) first exceeds 1—and whether it exceeds 1 for every κ > 1—would quantify how non-generic V-cycle safety is within the axioms. Disclosure of AI usage. Various Claude models from Anthropic (of the Opus and Fable families) were used as assistive tools in this work: they aided the writing of the numerical verification code and the preparation and proofreading of the man- uscript. All mathematical results",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:20.891224Z"
+      },
+      "score": 138,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 138,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 26,
+          "theorems": 36,
+          "lemmas": 24,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 6,
+          "displayed_equations": 19,
+          "bibliography_entries": 4,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23357",
       "version": 1,
       "title": "Magnitude homology and Euler characteristics of directed acyclic graphs",
