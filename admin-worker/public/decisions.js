@@ -72,17 +72,20 @@ export function validateDecisionInput(value, candidates, classifications) {
           `${arxivId} requires a fixed disclosure_classification from the specification`,
         );
       }
-      const evidenceIndex = candidate.evidence.findIndex(
-        (evidence) =>
-          evidence.quotation === quotation &&
-          evidence.location_value === location &&
-          (page === null
-            ? evidence.page === null || evidence.page === undefined
-            : Number(evidence.page) === page),
+      const locationMatches = (evidence) =>
+        evidence.location_value === location &&
+        (page === null
+          ? evidence.page === null || evidence.page === undefined
+          : Number(evidence.page) === page);
+      let evidenceIndex = candidate.evidence.findIndex(
+        (evidence) => evidence.quotation === quotation && locationMatches(evidence),
       );
       if (evidenceIndex < 0) {
+        evidenceIndex = candidate.evidence.findIndex(locationMatches);
+      }
+      if (evidenceIndex < 0) {
         throw new Error(
-          `${arxivId} quotation, location, and page do not match exported evidence`,
+          `${arxivId} location and page do not match exported evidence`,
         );
       }
       decisions.push({
