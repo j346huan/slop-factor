@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11290",
+      "version": 2,
+      "title": "Solutions to Five Challenge Problems in Enumerative and Algorithmic Combinatorics, with an Account of the Human-Machine Methodology Employed",
+      "authors": [
+        "Jaideep Sai Padhi"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T16:30:20Z",
+        "updated": "2026-08-19T03:43:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We report solutions to five challenge problems posed by Doron Zeilberger and his collaborators, together with substantial partial progress on two further problems, and we describe the method by which they were obtained. The solved problems are: the Second Computational Chomp Challenge of Ekhad and Zeilberger, for which we exhibit a bar with three winning opening moves; the third challenge of Spahn and Zeilberger, asking whether the restricted permutation counts a_{r,s} and b_{r,s} are holonomic for all r,s>1, answered affirmatively; the First Rigorous Solid Standard Young Tableaux Challenge, for which we prove the conjectured second-order recurrence; the five-dimensional Geode Challenge of Amdeberhan, Kauers and Zeilberger; and Conjectures 2a and 2b of Kauers and Zeilberger, which we obtain from a local limit theorem for excursions of Markov-modulated random walks in cones. Several results of independent interest arise along the way: a staircase theorem constraining the winning opening moves of any Chomp bar, together with a parity theorem for square bars; an explicit algebraic generating function for reverse-Kreweras diagonal walks and a closed form for their diagonal-endpoint counts; a one-dimensional integral representation for diagonal Geode coefficients; and the identity that each Kauers-Zeilberger constant is a universal factor times the square of the apex value of a discrete cone-harmonic function. All of the work reported here was carried out in collaboration with a large language model. The paper sets out the division of labour, records the verification protocol this mode of work required, and documents the failures, which we regard as an essential part of the report.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11290v2",
+        "pdf": "https://arxiv.org/pdf/2608.11290v2",
+        "source": "https://export.arxiv.org/e-print/2608.11290v2"
+      },
+      "structural_counts": {
+        "pages": 42,
+        "theorems": 10,
+        "lemmas": 14,
+        "propositions": 8,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 113,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file zeilberger-monograph.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "dorsements; and Shalosh B. Ekhad, whose tables calibrated the Chomp work. The analytic backbone of Section 9 follows the work of Denisov, Wachtel and Zhang, without which the transport performed there would have had nothing to ride on. The AI system used throughout was Claude, developed by Anthropic. A The order-2 operator for g(n) The recurrence is p0 (m)g(m) + p1 (m)g(m − 1) + p2 (m)g(m − 2) = 0 for m ≥ 3, with: p0 (m) = 258048m12 + 1169664m11 + 326816m10 −",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 37",
+          "page": 37
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:50.709882Z"
+      },
+      "score": 1144.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 228.95,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 42,
+          "theorems": 60,
+          "lemmas": 56,
+          "propositions": 32,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 28.25,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11031",
       "version": 2,
       "title": "A Bayesian Proof of the Bernoulli Theorem",
