@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08421",
+      "version": 1,
+      "title": "A SAT Attack on Tarski's High School Algebra Problem",
+      "authors": [
+        "Bernardo Subercaseaux",
+        "Benjamin Przybocki"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "cs.LO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T02:32:31Z",
+        "updated": "2026-08-09T02:32:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Tarski's high school algebra problem asks whether every true identity concerning addition, multiplication, and exponentiation of positive integers follows from a list of 11 elementary identities. Surprisingly, Wilkie showed that the following identity is valid over the positive integers and yet does not follow from Tarski's axioms: \\begin{align*} &\\left((1+x)^y + (1+x+x^2)^y\\right)^x \\cdot \\left((1+x^3)^x + (1+x^2+x^4)^x\\right)^y = \\\\ &\\left((1+x)^x + (1+x+x^2)^x\\right)^y \\cdot \\left((1+x^3)^y + (1+x^2+x^4)^y\\right)^x. \\end{align*} Gurevič gave an algebra on 59 elements that satisfies Tarski's axioms but not Wilkie's identity, and over the years several authors whittled down the size of such a countermodel, culminating in a countermodel of size 12 due to Burris and Yeats. On the other hand, Zhang proved that there is no countermodel with fewer than 11 elements. Using SAT, we prove that the smallest countermodels are of size 12, as conjectured by Burris and Yeats. Moreover, we show that there are exactly 8,957,952 countermodels on 12 elements up to isomorphism and provide a simple classification of them. Our SAT approach outperforms dedicated tools for finding countermodels in equational theories, namely Mace4 and SEM. Furthermore, using autoformalization, we prove the correctness of our main result in Lean.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08421v1",
+        "pdf": "https://arxiv.org/pdf/2608.08421v1",
+        "source": "https://export.arxiv.org/e-print/2608.08421v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 2,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 46,
+        "bibliography_entries": 39,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "stract description of Ωn in this paper, nor that such an abstract description is indeed correct (a similar discussion is given in [SNGCCH24]). We address this by autoformalization [Wu+22] in the Lean theorem prover [MU21]. That is, we used ChatGPT 5.5 Pro, through Codex, to automatically generate a Lean formalization that we then checked ourselves to confirm the statements and definitions indeed match their expected semantics. This process took multiple iterations and discussions wi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:38.394397Z"
+      },
+      "score": 144.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 72.4,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 21,
+          "theorems": 12,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 11.5,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08404",
       "version": 1,
       "title": "Lexicographic functional calculus and its application to functional calculus calculus",
