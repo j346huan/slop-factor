@@ -8513,6 +8513,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12985",
+      "version": 1,
+      "title": "Minimal Nilpotent Orbits of type G2, F4 and E8",
+      "authors": [
+        "Boming Jia"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T09:09:51Z",
+        "updated": "2026-08-13T09:09:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $\\mathfrak g$ be a complex simple Lie algebra of type $G_2$, $F_4$, or $E_8$. We prove that the closure $\\overline{\\mathcal O}_{\\min}(\\mathfrak g)$ of its minimal nilpotent orbit is not isomorphic to $(T^*X)^{\\mathrm{aff}}$ for any smooth quasi-affine variety $X$. We do not assume that the isomorphism is equivariant or Poisson. We also prove the same statement in types $A_1$ and $A_2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12985v1",
+        "pdf": "https://arxiv.org/pdf/2608.12985v1",
+        "source": "https://export.arxiv.org/e-print/2608.12985v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 2,
+        "lemmas": 6,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 5,
+        "displayed_equations": 58,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-4.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "minimal nilpotent orbit is not isomorphic to (T ∗ X)aff for any smooth quasi-affine variety X. Acknowledgments. The author was supported by NSFC Grant No. 12225108 and the Shuimu Scholar Program in Tsinghua University. The author used ChatGPT extensively during the preparation of this work, and he would like to thank the model GPT-5.6 Sol for pointing out the non-existence result of type E8. 2 The projective orbit and its stabilizer. Throughout this section and Section 3",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:03.711195Z"
+      },
+      "score": 881,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 88.1,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 11,
+          "theorems": 12,
+          "lemmas": 24,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 10,
+          "displayed_equations": 14.5,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12919",
       "version": 1,
       "title": "Constructions of almost controllable graphs determined by their generalized spectra",
