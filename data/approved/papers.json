@@ -41683,6 +41683,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19500",
+      "version": 1,
+      "title": "Robust Hierarchical Matrix Compression of Acoustic Volume and Boundary Integral Operators",
+      "authors": [
+        "Alberto Almuna-Morales",
+        "Danilo Aballay",
+        "Ignacio Labarca-Figueroa",
+        "Elwin van 't Wout"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "physics.comp-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T18:25:10Z",
+        "updated": "2026-07-21T18:25:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Discretizing integral formulations of the Helmholtz equation yields dense linear systems. Hence, simulating acoustic models at larger scales or higher frequencies is typically constrained by memory capacity. Fast algorithms, such as hierarchical matrix compression, reduce the memory footprint substantially while controlling the approximation error in matrix-vector multiplications. However, the commonly used Adaptive Cross Approximation suffers from early-convergence problems, where the iterative construction of low-rank decompositions stops before reaching the targeted error tolerance. This failure arises when the error estimator does not capture significant components of the matrix structure under partial pivoting. This manuscript proposes a new diagonal convergence criterion, additional matrix elements for the pivoting strategy, an extended admissibility condition, and a sustained convergence check to improve the robustness of hierarchical matrix compression. These modifications improve compression reliability without increasing memory. We tested our compression strategy on various discretized volume and boundary integral operators. The computational results show that our approach successfully compresses all benchmark matrices within predefined tolerances, thereby resolving the early-convergence issues encountered in standard algorithms. This robust matrix compression was achieved at the same memory footprint as alternative compression strategies. Furthermore, a complexity analysis shows log-linear memory scaling with mesh refinement at constant frequency. Finally, we successfully applied our robust matrix compression algorithm to a coupled system of volume and boundary integral operators that models transcranial ultrasound propagation. This confirms the feasibility of our robust algorithm to accelerate large-scale simulations with high-resolution meshes in a biomedical application.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19500v1",
+        "pdf": "https://arxiv.org/pdf/2607.19500v1",
+        "source": "https://export.arxiv.org/e-print/2607.19500v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 18,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "early- convergence problems must also be assessed. Acknowledgments Software and data availability The Python code to reproduce the numerical results is available on GitHub (github.com/aalmuna/RobustVSIEMatrixCompression). Declaration on generative AI During the preparation of this work, the authors used Google Gemini to improve the manuscript’s language and readability. The authors reviewed and edited the content as needed and take full responsibility for the article’s content. Fundin",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 30",
+          "page": 30
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:11.277245Z"
+      },
+      "score": 115.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 38.5,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 34,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 4.5,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19337",
       "version": 2,
       "title": "On the $\\mathcal{A}$-transcendence of a Champernowne-type constant",
