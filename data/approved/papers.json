@@ -41855,6 +41855,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25450",
+      "version": 1,
+      "title": "Exact discrete-adjoint optimization of trap timing and placement in a Stieltjes-time reaction-diffusion model: A Galicia case study",
+      "authors": [
+        "Francisco J. Fernández",
+        "Iván Area"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-28T08:41:17Z",
+        "updated": "2026-07-28T08:41:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Seasonal population models must combine diffusion, inactive periods and abrupt biological transfers while remaining differentiable with respect to localized interventions. We formulate a finite-dimensional timing-and-placement control problem for a Stieltjes-time reaction--diffusion model and derive the exact adjoint of the fully discrete residual. Continuous finite elements and an implicit Stieltjes--Euler scheme represent propagation, compartment replacement, resets and historical phase averages. For the resulting box-constrained penalized problem, we prove well-posedness and differentiability of the discrete control-to-state map, existence of a minimizer, first-order stationarity, and equivalence between direct-sensitivity and adjoint gradients. Benchmark tests show machine-precision agreement (below $3\\times10^{-15}$) and adjoint speed-ups from about $7.5$ to $30.9$ as the number of traps increases from one to four. The method is applied to \\textit{Vespa velutina} trap campaigns on a realistic Galicia mesh. Smoothed activation windows, domain-normalized moving kernels and the complete adjoint are independently verified. The final two-cluster control remains admissible and has a scaled gradient infinity norm of $2.97\\times10^{-5}$ with 120 temporal subdivisions per month. Fixed-control evaluations at 60, 120 and 240 subdivisions yield a refinement-increment ratio of $0.4984$. At the finest level, the joint control outperforms time-only and reference controls, reducing the diagnostic objective by $0.49209%$. This reduction depends on uncalibrated trap-to-mortality intensities and should not be interpreted as field capture efficacy. The framework is fully reproducible, without claiming global optimality or a calibrated field-management prescription.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25450v1",
+        "pdf": "https://arxiv.org/pdf/2607.25450v1",
+        "source": "https://export.arxiv.org/e-print/2607.25450v1"
+      },
+      "structural_counts": {
+        "pages": 54,
+        "theorems": 0,
+        "lemmas": 1,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 219,
+        "bibliography_entries": 30,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file amm_final_manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nd editing. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Declaration of generative AI and AI-assisted technologies in the writing process During the preparation of this work, the authors used OpenAI ChatGPT to support language editing, document restructuring, LaTeX preparation and consistency checking. After using this",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 50",
+          "page": 50
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:32.647609Z"
+      },
+      "score": 748.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 149.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 54,
+          "theorems": 0,
+          "lemmas": 4,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 54.75,
+          "bibliography_entries": 3,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25442",
       "version": 1,
       "title": "On an asymmetric additive energy inequality",
