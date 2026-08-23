@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13787",
+      "version": 1,
+      "title": "The variety of nilpotent matrices is $F$-regular",
+      "authors": [
+        "Jack Jeffries",
+        "Vaibhav Pandey",
+        "Anurag K. Singh"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T12:46:08Z",
+        "updated": "2026-07-15T12:46:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give an elementary proof that the coordinate ring of the variety of nilpotent matrices is $F$-regular; over an infinite field $K$, this ring also arises as the nullcone for the conjugation action of the general linear group $\\textrm{GL}_n(K)$ on the polynomial ring $K[X]$, where $X$ is an $n\\times n$ matrix of indeterminates. We prove that the divisor class group of the coordinate ring is the cyclic group $\\mathbb{Z}/n\\mathbb{Z}$. We then study the case of symmetric nilpotent matrices, where the picture is completely different: the coordinate ring is not normal for $n\\geqslant 2$; for $K$ algebraically closed of characteristic other than two, we prove that the coordinate ring is an integral domain precisely when $n$ is odd.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13787v1",
+        "pdf": "https://arxiv.org/pdf/2607.13787v1",
+        "source": "https://export.arxiv.org/e-print/2607.13787v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 64,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file jps_2026_07_15.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "raised by Craig Huneke at RayFest, University of Nebraska-Lincoln, April 2025; we are grateful to Craig and to Linquan Ma for useful discussions. Some of the results were suggested by examples computed with Macaulay2 [GS] and Magma [BCP]; ChatGPT-5.5 Pro was used towards finding suitable references. References [Al] A. A. Albert, Symmetric and alternate matrices in an arbitrary field, I, Trans. Amer. Math. Soc. 43 (1938), 386–436. 10",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:01.204655Z"
+      },
+      "score": 584,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.4,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 12,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 16,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13776",
       "version": 2,
       "title": "Commensurating actions and self-similar groups",
