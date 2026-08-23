@@ -82,7 +82,13 @@ async function api(path, options = {}) {
         ...(options.headers ?? {}),
       },
     });
-    if (![502, 503, 504].includes(response.status) || attempt === 2) break;
+    const retryable = !options.method || options.method === "GET";
+    if (
+      !retryable ||
+      ![502, 503, 504].includes(response.status) ||
+      attempt === 2
+    )
+      break;
     await new Promise((resolve) => setTimeout(resolve, 500 * 2 ** attempt));
   }
   if (response.status === 401) {
@@ -139,7 +145,6 @@ async function applyDecisionFile(file) {
   } catch {
     throw new Error("Decision file is not valid JSON");
   }
-  await loadCandidates();
   const { decisions, skipped, errors } = validatedDecisions(value);
   const failures = [...errors];
   let applied = 0;
@@ -178,7 +183,7 @@ async function applyDecisionFile(file) {
   }
   elements["status-filter"].value = "pending";
   renderCandidates();
-  await loadCandidates();
+  renderCandidateCounts();
   const summary = `Applied ${applied}; skipped ${skipped.length}; failed ${failures.length}.`;
   const details = failures
     .map(
@@ -504,14 +509,7 @@ async function retryPublishing(candidate) {
   }
 }
 
-async function loadCandidates() {
-  const candidates = [];
-  for (let page = 1; ; page += 1) {
-    const payload = await api(`/api/candidates?page=${page}`);
-    candidates.push(...payload.candidates);
-    if (!payload.has_more) break;
-  }
-  state.candidates = candidates;
+function renderCandidateCounts() {
   for (const status of [
     "pending",
     "approval-submitted",
@@ -524,6 +522,17 @@ async function loadCandidates() {
       state.candidates.filter((item) => item.status === status).length,
     );
   }
+}
+
+async function loadCandidates() {
+  const candidates = [];
+  for (let page = 1; ; page += 1) {
+    const payload = await api(`/api/candidates?page=${page}`);
+    candidates.push(...payload.candidates);
+    if (!payload.has_more) break;
+  }
+  state.candidates = candidates;
+  renderCandidateCounts();
   renderCandidates();
 }
 
