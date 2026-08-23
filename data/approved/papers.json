@@ -42114,6 +42114,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14881",
+      "version": 1,
+      "title": "Efficient Hamilton covers and linear arboricity of random graphs",
+      "authors": [
+        "Nemanja Draganić",
+        "Michael Krivelevich"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T11:55:55Z",
+        "updated": "2026-07-16T11:55:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A Hamilton cover of a graph is a collection of Hamilton cycles whose union contains all edges. Since each Hamilton cycle covers two edges at every vertex, every Hamilton cover has size at least $\\lceil Δ(G)/2\\rceil$. We prove that this lower bound is tight for binomial random graphs $G(n,p)$ throughout the widest possible range of edge probabilities: if $ω(n)\\to\\infty$ and \\[ \\frac{\\log n+\\log\\log n+ω(n)}{n} \\le p=p(n) \\le 1-\\frac{ω(n)}{n^{2}}, \\] then $G\\sim G(n,p)$ with high probability has a Hamilton cover of size $\\left\\lceil \\frac{Δ(G)}{2}\\right\\rceil. $ The main new contribution is the sparse regime near the Hamiltonicity threshold, where we prove a conjecture of Draganić, Glock, Munhá Correia and Sudakov. Our proof develops constructive tools for decomposing such graphs into controlled forest systems and extending them, using reserved pseudorandom structure, into Hamilton cycles. We also prove the corresponding hitting-time result for the random graph process, answering a question of Hefetz, Kühn, Lapinskas and Osthus. Finally, we use our methods to show that $G\\sim G(n,p)$ with high probability satisfies the celebrated Linear arboricity conjecture for every $p\\leq 1$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14881v1",
+        "pdf": "https://arxiv.org/pdf/2607.14881v1",
+        "source": "https://export.arxiv.org/e-print/2607.14881v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 8,
+        "lemmas": 12,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 4,
+        "displayed_equations": 169,
+        "bibliography_entries": 36,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2 : it produces exactly ⌈∆(Gτ2 )/2⌉ linear forests covering all edges of Gτ2 , and then extends them to Hamilton cycles using the reserved random structure. This gives a tight Hamilton cover of Gτ2 whp. Acknowledgment. The authors used ChatGPT for language polishing, literature-search assist- ance, and informal discussion of minor auxiliary details. The main results and proofs are due to the authors. References [1] Miklós Ajtai, János Komlós, and Endre Szemerédi. The firs",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:46.973345Z"
+      },
+      "score": 727.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 181.85,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 22,
+          "theorems": 48,
+          "lemmas": 48,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 8,
+          "displayed_equations": 42.25,
+          "bibliography_entries": 3.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14812",
       "version": 3,
       "title": "How Much Can Gaussian Dependence Inflate the Benjamini-Hochberg Procedure's FDR?",
