@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09113",
+      "version": 2,
+      "title": "Critical $p$-Laplace equations with monotone coefficients: Liouville classification and a Schoen-type Harnack inequality",
+      "authors": [
+        "Yi Ru-Ya Zhang"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math.DG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T04:38:55Z",
+        "updated": "2026-08-19T11:13:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We investigate positive weak solutions of the critical $p$-Laplace equation $$ -Δ_p u = u^{p^*-1} h(u), \\qquad 1 < p < n, $$ where $h$ is a positive, bounded, continuous, and nonincreasing function. Our first main result is a complete classification of normalized, bounded, positive entire solutions for every equation in a compact family determined by $h$: Any such solution must coincide with an Aubin--Talenti profile. Moreover, the existence of an Aubin--Talenti profile as a solution implies that $h$ is constant on the entire interval of values attained by that profile. Subsequently, applying this classification result, we establish the following scale-invariant Schoen-type estimate $$ \\left(\\sup_{B_R} u\\right)\\left(\\inf_{B_{2R}} u\\right)^{p-1} \\le C R^{p-n} $$ for nonnegative weak solutions defined in $B_{3R}$. As a direct corollary, we obtain a fully unrestricted Liouville theorem: Every positive entire solution must coincide with an Aubin--Talenti profile. For the purely critical equation, we also show that the corresponding Liouville classification is equivalent to a Schoen-type Harnack inequality. The arguments in this work give quasilinear versions of the Kelvin transform and the method of moving spheres, which was previously available only in the semilinear setting, and also yield alternative proofs of the classical results. The technique developed here can likely be extended to a wider class of Liouville-type problems for critical equations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09113v2",
+        "pdf": "https://arxiv.org/pdf/2608.09113v2",
+        "source": "https://export.arxiv.org/e-print/2608.09113v2"
+      },
+      "structural_counts": {
+        "pages": 66,
+        "theorems": 2,
+        "lemmas": 18,
+        "propositions": 9,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 575,
+        "bibliography_entries": 43,
+        "appendix_pages": 9
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file p_harnack_v3.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ument in the special case p = 2 and h ≡ 1. Acknowledgment: The author expresses his sincere gratitude to Yanyan Li and Jin- gang Xiong for their valuable comments and suggestions on an earlier version of this manuscript. The author used ChatGPT 5.6, together with Overleaf AI, to review the manuscript for grammar, clarity, calculations, logical consistency, and to correct certain technical details. The author then independently revised the text as needed and assumes full responsib",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:06:58.278215Z"
+      },
+      "score": 1074.15,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 358.05,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 66,
+          "theorems": 12,
+          "lemmas": 72,
+          "propositions": 36,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 143.75,
+          "bibliography_entries": 4.3,
+          "appendix_pages": 18
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08997",
       "version": 1,
       "title": "A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs",
