@@ -44392,6 +44392,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16082",
+      "version": 2,
+      "title": "Lonely runners in real life: Sharp bounds for time-dependent velocities",
+      "authors": [
+        "Hyunwoo Lee"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.DS",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-17T16:14:12Z",
+        "updated": "2026-07-24T16:16:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Motivated by the celebrated Lonely Runner Conjecture, we study a variant in which the runners have time-dependent velocities. Let $n \\geq 3$ runners start from the same point on the unit circle, where each runner $i\\in[n]$ has a locally integrable velocity function $ν_i\\in L^1_{\\mathrm{loc}}(\\mathbb{R}_{>0})$. Assume that their velocities are strictly ordered almost everywhere and that the relative distance between every pair diverges. We prove that each of the slowest and fastest runners is at a distance strictly larger than $2^{-n+1}$ from every other runner at some time. Moreover, we show that the distance $2^{-n+1}$ is optimal. On the other hand, we construct examples in which every intermediate runner remains arbitrarily close to another runner at all times. As a consequence, we also obtain a sharp nonlinear analogue of a classical theorem of Schoenberg on billiard ball motion in the unit cube.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16082v2",
+        "pdf": "https://arxiv.org/pdf/2607.16082v2",
+        "source": "https://export.arxiv.org/e-print/2607.16082v2"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 7,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 67,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ly way to avoid loneliness is to find a companion who can run alongside them! Acknowledgements The author thanks Professor Jörg Wills for his historical comments to the author on the Lonely Runner Conjecture. Declaration on the use of generative AI The author used generative AI to assist in generalizing an initial construction for the case n = 3 in Theorem 3.1, which had been developed independently by the author. This assistance contributed to the formulation of the general construc",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:48.100188Z"
+      },
+      "score": 888.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 88.85,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 15,
+          "theorems": 42,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 16.75,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16073",
       "version": 1,
       "title": "The $hp$-FEM does not suffer from the pollution effect for piecewise-smooth Helmholtz problems with Gevrey regularity at boundaries",
