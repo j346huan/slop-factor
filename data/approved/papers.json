@@ -41854,6 +41854,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00459",
+      "version": 1,
+      "title": "A note on the saturation number for unions of three cliques",
+      "authors": [
+        "Hanlai Lin",
+        "Zhen He",
+        "Yiduo Xu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-01T05:55:26Z",
+        "updated": "2026-08-01T05:55:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A graph $G$ is $F$-saturated if $G$ contains no copy of $F$ but $G+e$ contains a copy of $F$ for every missing edge $e$ of $G$. The saturation number $\\sat(n,F)$ is the minimum number of edges in an $n$-vertex $F$-saturated graph. Motivated by a problem posed by Faudree, Ferrara, Gould, and Jacobson concerning $K_p\\cup K_q\\cup K_{q+1}$, we determine the saturation number and the unique extremal graph for $K_p\\cup K_q\\cup K_r$ whenever $2\\le p\\le q<r<p+q$ and $n$ is sufficiently large. Together with the previously known results for $r\\ge p+q$ and for $r=q$, this completes the determination of the saturation number and the extremal graphs for unions of three cliques, for all sufficiently large $n$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00459v1",
+        "pdf": "https://arxiv.org/pdf/2608.00459v1",
+        "source": "https://export.arxiv.org/e-print/2608.00459v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 10,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 3clique.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgement The authors used GPT-5.6 to find the proof of Lemma 2.2, and for grammar and style checking. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the manuscript. The research of He was supp",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:48.203140Z"
+      },
+      "score": 312.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 39.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2.5,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00457",
       "version": 1,
       "title": "Balanced Bismut torsion-parallel fourfold with constant holomorphic sectional curvature",
