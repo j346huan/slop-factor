@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12844",
+      "version": 2,
+      "title": "The Hayman--Wu constant is $π^2$",
+      "authors": [
+        "Paata Ivanisvili"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": [
+          "math.CA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T05:33:55Z",
+        "updated": "2026-08-14T06:12:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We show that for every conformal map $φ:\\mathbb{D}\\toΩ\\subsetneq\\mathbb{C}$ from the unit disk onto a simply connected proper domain $Ω$, the length of $φ^{-1}(Ω\\cap L)$ is at most $π^2$ for every line $L$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12844v2",
+        "pdf": "https://arxiv.org/pdf/2608.12844v2",
+        "source": "https://export.arxiv.org/e-print/2608.12844v2"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 42,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file S-V3.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments The author acknowledges partial support from the NSF CAREER grant DMS-2152401, NSF grant DMS-2554183, a Simons Fellowship, and a Humboldt Research Fellowship for Experienced Researchers. The author acknowledges the use of AI tools. References [1] B. Brown Flinn, Hyperbolic convexity and level sets of analytic functions, Indiana Univ. Math. J. 32 (1983), no. 6, 831–841. [2] E. Crane, A note on the Hayman–Wu theorem, Comput. Methods Funct. Theory 8 (2008), no.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:40.723114Z"
+      },
+      "score": 136.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 27.3,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 10.5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12816",
       "version": 1,
       "title": "Fundamental Mathematics in the Age of AI -- The Residue, the Journey, and the Ecology",
