@@ -42954,6 +42954,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18194",
+      "version": 1,
+      "title": "Temperature chaos in directed polymers",
+      "authors": [
+        "Shirshendu Ganguly",
+        "Victor Ginsburg",
+        "Zoe Himwich"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-20T17:35:17Z",
+        "updated": "2026-07-20T17:35:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Disordered systems such as spin glasses and polymers characteristically exhibit random energy landscapes with many macroscopically separated energetic valleys corresponding to near-ground states. This high complexity renders these systems extremely sensitive to perturbations of external parameters. For instance, the support of associated Gibbs measures may change macroscopically under such perturbations, a phenomenon known as chaos in the literature. In experiments, chaotic phenomena are typically studied via temperature perturbations. In this article, we initiate the rigorous study of temperature-chaotic properties of the continuum directed random polymer (CDRP), a canonical model in the KPZ universality class. The CDRP is driven by white noise and is parametrized by inverse temperature $β$, and is known [Wu '26, Das-Zhu '24] to converge in the zero-temperature limit $β\\to \\infty$ to the directed landscape constructed in [Dauvergne-Ortmann-Virág '22], the putative universal scaling limit of models in the KPZ universality class. The main result of this article considers the CDRP free energies coupled through the same white noise at a pair of inverse temperatures $(β_1, β_2)$, and shows that they decouple in the limit $β_2 \\gg β_1 \\gg 1$, converging to a pair of independent directed landscapes. This is the first such \"energetic de-correlation across temperatures\" result. Our key estimate measures the \"pivotality\" or \"influence\" of spatially thin strips in models of last passage percolation. As a byproduct, the proof strategy also allows to show that the directed landscape is a two-dimensional black noise (in the sense of [Tsirelson-Vershik '98]), previously conjectured by Virág. This provides the third known example of a two-dimensional black noise after critical planar percolation [Schramm-Smirnov '11] and the Brownian web [Ellis-Feldheim '16].",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18194v1",
+        "pdf": "https://arxiv.org/pdf/2607.18194v1",
+        "source": "https://export.arxiv.org/e-print/2607.18194v1"
+      },
+      "structural_counts": {
+        "pages": 136,
+        "theorems": 12,
+        "lemmas": 58,
+        "propositions": 20,
+        "corollaries": 2,
+        "definitions": 11,
+        "displayed_equations": 584,
+        "bibliography_entries": 109,
+        "appendix_pages": 133
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file TemperatureChaos.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "20 SHIRSHENDU GANGULY, VICTOR GINSBURG, AND ZOE HIMWICH 2503374. A large language model was used to convert hand-drawn figures into TikZ code, and for a final round of proofreading. 2. White noise, restricted CDRP partition function, and Efron–Stein As indicated in Section 1.7, our arguments based on resampling",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:29.302023Z"
+      },
+      "score": 970.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 970.9,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 136,
+          "theorems": 72,
+          "lemmas": 232,
+          "propositions": 80,
+          "corollaries": 6,
+          "definitions": 22,
+          "displayed_equations": 146,
+          "bibliography_entries": 10.9,
+          "appendix_pages": 266
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18186",
       "version": 1,
       "title": "Small Counterexamples to the Gaussian Moments Conjecture",
