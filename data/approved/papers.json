@@ -9102,6 +9102,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09465",
+      "version": 1,
+      "title": "Balancing fractional Brownian motion",
+      "authors": [
+        "Hengrui Luo",
+        "Yiming Xu"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T11:35:19Z",
+        "updated": "2026-08-10T11:35:19Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the discrepancy of balancing $n$ independent sample paths of fractional Brownian motion with Hurst exponent $H\\in(0,1)$ on $[0,1]$, an infinite-dimensional analogue of balancing Gaussian vectors. We establish a phase transition at $H=1/2$: with high probability, the discrepancy is $Ω(n^{1/2-H})$ and $\\mathcal O(n^{1/2-H}(\\log n)^{c(H)})$, where $c(H)=H+1/2$ if $H\\geq 1/2$ and $c(H)=1/2$ otherwise. At the critical exponent $H=1/2$, we show that the discrepancy is $Θ(1)$ with constant probability as $n\\to\\infty$. In this regime, we further characterize the geometry of the solution space by computing the expected number of local minima, establishing an overlap gap property near the existence threshold, and proving its absence at every diverging optimality threshold. We also give randomized polynomial-time algorithms that compute signings with discrepancy $\\mathcal O(n^{1/2-H}\\sqrt{\\log n})$ for $H<1/2$, $\\mathcal O((\\log n)^{3/2})$ for $H=1/2$, and $\\mathcal O(\\sqrt{\\log n})$ for $H>1/2$, with high probability. Our analysis combines a truncated balancing argument based on a wavelet representation of fractional Brownian motion with probabilistic methods.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09465v1",
+        "pdf": "https://arxiv.org/pdf/2608.09465v1",
+        "source": "https://export.arxiv.org/e-print/2608.09465v1"
+      },
+      "structural_counts": {
+        "pages": 39,
+        "theorems": 5,
+        "lemmas": 8,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 2,
+        "displayed_equations": 197,
+        "bibliography_entries": 90,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rsity of Kentucky and NSF Grant DMS-2607989. The authors used Claude (Sonnet 5 and Fable 5) interactively to assist with developing the simulation code for Figure 1 and checking the manuscript for mathematical and typographical errors. Claude also helped suggest the observation in (81), which led us to derive a sharp lower bound on λ1 (ρ) at both endpoints ρ = 0 and ρ = 1. This observation establishes the sharpness of the lower bound a0 in Theorem 1.2, which is crucial to our p",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:09.413429Z"
+      },
+      "score": 1394,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 174.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 39,
+          "theorems": 30,
+          "lemmas": 32,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 4,
+          "displayed_equations": 49.25,
+          "bibliography_entries": 9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09436",
       "version": 1,
       "title": "The hyperkähler period-index conjecture is false",
