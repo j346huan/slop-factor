@@ -8425,6 +8425,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16788",
+      "version": 1,
+      "title": "On the stability of eigenvalues of varying bilinear forms in abstract Hilbertian settings and applications",
+      "authors": [
+        "Andrea Bisterzo",
+        "Roberto Ognibene",
+        "Prasun Roychowdhury",
+        "Giovanni Siclari"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T16:44:54Z",
+        "updated": "2026-08-17T16:44:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The aim of the present paper is to develop a spectral perturbation theory from a higher perspective. More precisely, we consider a one-parameter family of varying bilinear forms, each of them defined on a (possibly) different Hilbert space. Assuming the stability of the corresponding spectra, our first main result establishes a quantification of the rate of convergence. A key feature is the explicit variational characterization of the first term in the asymptotic expansion of the perturbed eigenvalues, which only depends on the ``data'', i.e. the limit eigenspace and the magnitude of the perturbation, through the resolution of a minimization problem. Remarkably, we make no assumptions on the perturbed eigenelements (besides, naturally, the spectral stability). Moreover, we cover both the cases of simple and multiple limit eigenvalues in full generality. In the second part, we explore some concrete applications of our abstract results. First, we consider eigenvalue problems for the Laplace-Beltrami operator with varying measure weights (also motivated by optimization in spectral geometry); secondly, we investigate the Neumann approximation of the Steklov eigenvalues of the Laplacian; finally, we focus on how the spectrum of the Laplace-Beltrami operator on a Riemannian manifold changes when a second small manifold is glued on a small portion of it.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16788v1",
+        "pdf": "https://arxiv.org/pdf/2608.16788v1",
+        "source": "https://export.arxiv.org/e-print/2608.16788v1"
+      },
+      "structural_counts": {
+        "pages": 52,
+        "theorems": 7,
+        "lemmas": 19,
+        "propositions": 11,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 450,
+        "bibliography_entries": 55,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Final_version.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "50 AI statement The authors acknowledge the use of AI tools for proofchecking some of the results. The strategy and the arguments are human-generated and the paper does not contain AI written text. The authors take full responsibility for the whole content of the paper. Acknowledgements A. Bisterzo, R. Ognibene, and G. Siclari are partially supported by the 2026 INdAM-GNAMPA proje",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 50",
+          "page": 50
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:15.707028Z"
+      },
+      "score": 2720,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 340,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 52,
+          "theorems": 42,
+          "lemmas": 76,
+          "propositions": 44,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 112.5,
+          "bibliography_entries": 5.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16752",
       "version": 1,
       "title": "Absorption Probabilities for Random Convex Hulls: Distribution-Freeness via the Wall-Crossing Method",
