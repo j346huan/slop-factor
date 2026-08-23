@@ -41683,6 +41683,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12090",
+      "version": 1,
+      "title": "Induced-Minor-Closed Classes have Linear, Square-Root, or Sub-Polynomial Tree-Independence",
+      "authors": [
+        "Maria Chudnovsky",
+        "Julien Codsi",
+        "Ajaykrishnan E S",
+        "Daniel Lokshtanov"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM",
+          "cs.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-13T19:10:36Z",
+        "updated": "2026-07-13T19:10:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An independent set in a graph $G$ is a set of pairwise non-adjacent vertices. A tree decomposition of $G$ is a pair $(T, χ)$ where $T$ is a tree and $χ: V(T) \\rightarrow 2^{V(G)}$ is a function satisfying two axioms: for every edge $uv \\in E(G)$ there is an $x \\in V(T)$ such that $\\{u,v\\} \\subseteq χ(x)$, and for every vertex $u \\in V(G)$ the set $\\{x \\in V(T) | u \\in χ(x)\\}$ induces a non-empty and connected subtree of $T$. The sets $χ(x)$ for $x \\in V(T)$ are called the bags of the tree decomposition. The tree-independence number of $G$ is the minimum taken over all tree decompositions of $G$ of the maximum size of an independent set of the graph induced by a bag of the decomposition. A graph $H$ is an induced minor of a graph $G$ if a graph isomorphic to $H$ can be obtained from $G$ by vertex deletions and edge contractions. We prove that for every $t\\in\\mathbb{N}$ there exists an $ε> 0$ such that every graph $G$ either contains the complete bipartite graph $K_{t,t}$ or the wall $W_{t\\times t}$ as an induced minor, or has tree-independence at most $O(2^{O((\\log n)^{1-ε})})$. This leads to algorithms with running time $2^{n^{o(1)}}$, for a wide range of problems on $\\{K_{t,t}, W_{t\\times t}\\}$-induced minor free graphs. Our result is a substantial generalization of existing bounds for the tree-independence and tree-width on various graph classes, and a partial resolution of the conjecture of Chudnovsky, E S, and Lokshtanov [Arxiv, 2025] that $\\{K_{t,t}, W_{t\\times t}\\}$-induced minor free graphs have poly-logarithmic tree independence number. The generality comes at the cost of a sub-polynomial, rather than poly-logarithmic upper bound. Our result leads to a complete classification of induced-minor closed classes into ones that have sub-polynomial tree-independence, tree-independence equal to $\\tilde{O}(\\sqrt{n})$, and linear tree-independence.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12090v1",
+        "pdf": "https://arxiv.org/pdf/2607.12090v1",
+        "source": "https://export.arxiv.org/e-print/2607.12090v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 5,
+        "lemmas": 15,
+        "propositions": 12,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 65,
+        "bibliography_entries": 72,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "every integer t the graphs that exclude the complete bipartite graph Kt,t and the wall Wt×t as an induced minor have poly-logarithmic tree- independence number. A full resolution of this conjecture remains elusive. AI Disclosure. We used Claude (Anthropic) and ChatGPT (OpenAI) to assist with (i) searching for relevant literature, (ii) tightening and improving the language and exposition throughout the paper, (iii) suggesting formulations for parts of the introduction, (iv) catchi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:51:56.360579Z"
+      },
+      "score": 813.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 203.45,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 36,
+          "theorems": 30,
+          "lemmas": 60,
+          "propositions": 48,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 16.25,
+          "bibliography_entries": 7.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.11863",
       "version": 1,
       "title": "Magnitude homology of tope graphs",
