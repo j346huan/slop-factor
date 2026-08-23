@@ -8512,6 +8512,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11943",
+      "version": 1,
+      "title": "Invariant Functions on $p$-divisible Groups and the $p$-adic Corona Problem II",
+      "authors": [
+        "Behzad Nikzad",
+        "Christopher Deninger"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T11:31:01Z",
+        "updated": "2026-08-12T11:31:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This note removes the dimension one restriction of the main results in the paper with the same title by the second author.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11943v1",
+        "pdf": "https://arxiv.org/pdf/2608.11943v1",
+        "source": "https://export.arxiv.org/e-print/2608.11943v1"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 2,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 12,
+        "bibliography_entries": 5,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file invariant-functions+corona2-Arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "dimensions d = 1. In the next section, Theorem 2 will be deduced from the classical p-adic Corona Theorem. The genesis of this note is a bit unusual. The first author B.N. is an AI expert with a background in mathematics, who recently used ChatGPT to expand ideas c.f. [4] which he developed several years ago while working on his bachelor’s thesis. The prompt to look for applications then led AI to a proof of [2] Conjecture 11. The contribution of the second author – at the suggestio",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:22.151798Z"
+      },
+      "score": 195,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 19.5,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 4,
+          "theorems": 12,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3,
+          "bibliography_entries": 0.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11863",
       "version": 1,
       "title": "Sharp bounds for frame counts and setwise stabilizers in classical groups",
