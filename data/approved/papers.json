@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.05191",
+      "version": 1,
+      "title": "Rigidity of Averages over the Two Largest Prime Factors",
+      "authors": [
+        "Dijia Chen"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T18:31:36Z",
+        "updated": "2026-08-02T18:31:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let \\(P_1(n)\\) and \\(P_2(n)\\) be the largest and second-largest distinct prime factors of \\(n\\), respectively. Alladi and Johnson asked whether there exists a bounded function \\(f\\) on the primes for which both limits \\(\\frac{1}{x}\\sum_{2\\le n\\le x} f(P_1(n)) \\longrightarrow κ_1\\) and \\(\\frac{1}{x}\\sum_{2\\le n\\le x} f(P_2(n)) \\longrightarrow κ_2\\) exist with \\(κ_1\\neqκ_2\\), where we set \\(f(P_2(n))=0\\) when \\(n\\) is a prime power. We prove that this is impossible: convergence of the first average forces convergence of the second to the same limit. On the \\(\\log\\log\\)-scale, the two averages are expressed as convolutions with explicit Dickman kernels. The Fourier transform of the Dickman kernel associated with the \\(P_1\\)-average has no real zeros. Wiener's Tauberian theorem then yields vague convergence of the translated measures associated with the weighted prime sums. The convergence of the second average follows.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.05191v1",
+        "pdf": "https://arxiv.org/pdf/2608.05191v1",
+        "source": "https://export.arxiv.org/e-print/2608.05191v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 3,
+        "lemmas": 11,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 328,
+        "bibliography_entries": 8,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rnels and to clarify the role of the counterexamples in his work. Professor Tenenbaum also suggested that a shorter proof of this step should exist; a possible such proof, based on smoothing, is included in the appendix. The author used AI tools to assist with grammatical corrections, language polishing, certain LaTeX and coding-related issues, and literature searches, including locating potentially relevant references. At the final stage, AI tools were also used to identify typog",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 29",
+          "page": 29
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:13:31.617668Z"
+      },
+      "score": 811.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 202.8,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 29,
+          "theorems": 18,
+          "lemmas": 44,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 82,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.02675",
       "version": 1,
       "title": "A 60-Vertex Lower Bound for Cubic Bipartite Counterexamples to the Erdős-Gyárfás Conjecture",
