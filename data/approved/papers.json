@@ -11394,6 +11394,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17206",
+      "version": 1,
+      "title": "Cotangent Models of Nilpotent Orbit Closures",
+      "authors": [
+        "Boming Jia"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T23:39:37Z",
+        "updated": "2026-08-17T23:39:37Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $\\mathcal O$ be a nonzero nilpotent orbit in a complex simple Lie algebra $\\mathfrak g$. For $\\mathfrak g$ of classical type, we classify the orbit closures $\\overline{\\mathcal O}$ that are isomorphic to $(T^*X)^{\\mathrm{aff}}$ for a smooth quasi-affine variety $X$. In types $G_2$, $F_4$, and $E_8$, we show that no nonzero nilpotent orbit closure admits such a cotangent model.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17206v1",
+        "pdf": "https://arxiv.org/pdf/2608.17206v1",
+        "source": "https://export.arxiv.org/e-print/2608.17206v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 3,
+        "lemmas": 7,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 143,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Onilp_v208.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "remaining candidates are the two minimal orbit closures and the closure of O(2A1 ) in type E7 . Acknowledgments. The author was supported by NSFC Grant No. 12225108 and the Shuimu Scholar Program in Tsinghua University. The author used ChatGPT extensively during the preparation of this work. He would like to thank the model GPT-5.6 Sol for generating an earlier draft of this paper and collaborating with the author throughout the revision process. 2 Group actions on nilpoten",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_text_generation",
+        "role_label": "Substantial text generation",
+        "multiplier": 7.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:57.230014Z"
+      },
+      "score": 850.85,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 121.55,
+        "multiplier": 7,
+        "contributions": {
+          "pages": 19,
+          "theorems": 18,
+          "lemmas": 28,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 35.75,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17194",
       "version": 1,
       "title": "Sharp Neumann eigenvalue estimates and $C^2$ elliptic regularity in non-obtuse polyhedral domains",
