@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17458",
+      "version": 1,
+      "title": "Finite Time Type I Singularities of the Kähler Ricci Flow",
+      "authors": [
+        "Tongxin Xu",
+        "Zhenlei Zhang"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T07:36:15Z",
+        "updated": "2026-08-18T07:36:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the Feldman--Ilmanen--Knopf conjecture for finite time Type I singularities of the Kähler--Ricci flow. More precisely, for any compact Kähler manifold $Y$ and its blow-up $π:\\operatorname{Bl}_pY\\longrightarrow Y$, if $[ω_0]-Tc_1(M)=π^*[ω_Y]$, then any Type I parabolic blow-up limit of the Kähler Ricci flow along the exceptional divisor is the FIK shrinker $\\operatorname{Tot}(\\mathcal{O}_{\\mathbb{P}^{n-1}}(-1))$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17458v1",
+        "pdf": "https://arxiv.org/pdf/2608.17458v1",
+        "source": "https://export.arxiv.org/e-print/2608.17458v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 2,
+        "lemmas": 7,
+        "propositions": 9,
+        "corollaries": 0,
+        "definitions": 4,
+        "displayed_equations": 52,
+        "bibliography_entries": 39,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Type_I_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "grateful to Zhixian Zhu for many helpful discus- sions and valuable advice on the algebraic-geometric aspects of this work. The main ideas, arguments, and overall direction of the paper were developed by the authors. AI tools (Chat GPT and Deepseek) were used during the preparation of the manuscript as technical assistants for checking arguments, locating relevant references, and improving the exposi- tion. In particular, AI tools suggested estimating the length of a relative extrema",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:22.482727Z"
+      },
+      "score": 943.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 117.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 17,
+          "theorems": 12,
+          "lemmas": 28,
+          "propositions": 36,
+          "corollaries": 0,
+          "definitions": 8,
+          "displayed_equations": 13,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17338",
       "version": 1,
       "title": "Entropy-type traces and moment expansions for the sine-kernel time-band limiting operator",
