@@ -41768,6 +41768,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28368",
+      "version": 2,
+      "title": "Log Canonical Models and Positive Geometries",
+      "authors": [
+        "Benjamin Hollering",
+        "Dmitrii Pavlov",
+        "Elizabeth Pratt"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T15:30:51Z",
+        "updated": "2026-08-19T15:14:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Constructing log canonical compactifications of open varieties is a central problem in birational geometry. Finding a natural coordinate system and obtaining the equations of these models is difficult in general. We show that for a large class of varieties explicit coordinates for the log canonical model are provided by canonical forms of positive geometries, and use this to compute the equations of these models. Our theory applies, for instance, to complements of hyperplane arrangements, cubic surfaces with lines removed, and the moduli space of marked cubic del Pezzo surfaces.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28368v2",
+        "pdf": "https://arxiv.org/pdf/2607.28368v2",
+        "source": "https://export.arxiv.org/e-print/2607.28368v2"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 51,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file blowuppq.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ed to X (3, 6). A direct computation with many points reveals that the generic fiber in this case has cardinality 2. An example of two points whose generalized Parke–Taylor forms all agree can be found in [34, Example 6.4]. AI Use. We used GPT-5.6 Sol and Claude Opus 5 to assist in finding and parsing prior work. We used Claude Opus 5 to generate a mock review which caught many typos and notational inconsistencies, and fixed a gap in the proof of Lemma 2.12. We also used Claude Sonn",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:09.696731Z"
+      },
+      "score": 168.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 28.1,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 23,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 5.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28284",
       "version": 1,
       "title": "ROSA: Metric Amplification on Noisy Graphs with Theoretical Guarantees for Amplified Spectral Distances",
