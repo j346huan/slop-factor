@@ -8424,6 +8424,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16746",
+      "version": 1,
+      "title": "The quantum Hikita conjecture via quasimaps",
+      "authors": [
+        "Hunter Dinkins",
+        "Ivan Karpov",
+        "Vasily Krylov"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.QA",
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T15:56:57Z",
+        "updated": "2026-08-17T15:56:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We propose a refinement of the quantum Hikita conjecture of Kamnitzer, McBreen, and Proudfoot that bridges the representation theory of Coulomb branches with the enumerative geometry of Higgs branches. We also introduce a general framework for proving it, which we carry out for ADE quiver gauge theories with minuscule framings and for the gauge theory corresponding to the Jordan quiver. As an application, we use the resulting quantum Hikita isomorphisms to give a geometric description of graded traces on quantized Coulomb branches.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16746v1",
+        "pdf": "https://arxiv.org/pdf/2608.16746v1",
+        "source": "https://export.arxiv.org/e-print/2608.16746v1"
+      },
+      "structural_counts": {
+        "pages": 107,
+        "theorems": 12,
+        "lemmas": 20,
+        "propositions": 33,
+        "corollaries": 6,
+        "definitions": 21,
+        "displayed_equations": 452,
+        "bibliography_entries": 131,
+        "appendix_pages": 103
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Hikita_arXiv-3.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "by the Simons Foundation Award 888988 as part of the Simons Collaboration on Global Categorical Symmetries. V. Krylov apologizes for making an incorrect claim in a couple of talks he gave on this work; see footnote 3 below. We used ChatGPT 5.6 Sol (High and Pro versions) to assist with editing the manuscript, providing examples, references, and proofreading. 2 Hikita Conjectures, Graded Traces, and Quasimaps 2.1 Quiver gauge t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:10.040023Z"
+      },
+      "score": 4698.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 783.1,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 107,
+          "theorems": 72,
+          "lemmas": 80,
+          "propositions": 132,
+          "corollaries": 18,
+          "definitions": 42,
+          "displayed_equations": 113,
+          "bibliography_entries": 13.1,
+          "appendix_pages": 206
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16740",
       "version": 1,
       "title": "Codegree Thresholds for $λ$-Choosability of Graphs",
