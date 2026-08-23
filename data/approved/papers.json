@@ -8424,6 +8424,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13539",
+      "version": 1,
+      "title": "HRT counterexamples with exponential tails",
+      "authors": [
+        "John Jasper",
+        "Dustin G. Mixon"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T17:54:31Z",
+        "updated": "2026-08-13T17:54:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We build on the recent breakthrough of Faulhuber, Petersen, van Velthoven, and Voigtlaender that disproved the HRT conjecture with a Schwartz function and a $12$-point configuration. We give a human-readable treatment of their mechanism and find HRT counterexample functions with exponential (or faster) decay. By a result of Bownik and Speegle, this is the fastest possible decay for an HRT counterexample, up to a logarithmic factor in the exponent.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13539v1",
+        "pdf": "https://arxiv.org/pdf/2608.13539v1",
+        "source": "https://export.arxiv.org/e-print/2608.13539v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 2,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 75,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file hrt_exp.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments JJ was supported in part by NSF DMS 2220320. DGM was supported by NSF DMS 2220304. DGM thanks OpenAI for complimentary access to ChatGPT-5.6 Pro. The authors first used ChatGPT to help digest the proof of the breakthrough result in [4], and then to explore possible extensions of that result, to examine various proof strategies, and to give feedback on writing. All mathematical claims were checked by the authors,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:20.493771Z"
+      },
+      "score": 541.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 67.65,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 12,
+          "theorems": 12,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 18.75,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13509",
       "version": 1,
       "title": "The distribution of $k$-free ideals in ray class groups",
