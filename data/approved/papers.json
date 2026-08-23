@@ -8937,6 +8937,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11035",
+      "version": 1,
+      "title": "Chooser-Picker Degree Games for Regular Graphs",
+      "authors": [
+        "Lajos Győrffy"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T15:12:23Z",
+        "updated": "2026-08-11T15:12:23Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In the unbiased Chooser-Picker (also known as Client-Waiter) game played on the edge set of a graph, Picker offers a pair of unclaimed edges in each turn, Chooser claims one, and the remaining edge goes back to Picker. We study the Chooser-Picker (C-P) degree game played on $d$-regular graphs, where Chooser aims to maximize the maximum degree of their induced subgraph, and Picker's objective is to defend every vertex by securing a certain minimum degree in Picker's own subgraph. While classical static pairing strategies guarantee a minimum degree of at least $\\lfloor d/4 \\rfloor$ for Breaker on general $d$-regular graphs in Maker-Breaker (M-B) games and for Picker in C-P games, outperforming this threshold has been a major open challenge in both frameworks. According to the foundational monograph of J. Beck, this challenge stands as the first among the seven most humiliating problems in combinatorial game theory. Our main result is that Picker can beat the $d/4$ bound. First, we prove that Picker can always guarantee a degree of at least one at every vertex on any $3$-regular graph. Based upon this we introduce a direct strategy to prove that Picker can secure a degree of at least $\\lfloor d/3 \\rfloor$ at every vertex for any $d$-regular graph. This highlights a fundamental structural advantage that Picker usually possesses over Breaker in sparse local games.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11035v1",
+        "pdf": "https://arxiv.org/pdf/2608.11035v1",
+        "source": "https://export.arxiv.org/e-print/2608.11035v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 8,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 6,
+        "displayed_equations": 1,
+        "bibliography_entries": 31,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file CP.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "express his gratitude to András Pluhár and András Lon- don. Their insightful comments, valuable suggestions, and constant encouragement were indispensable throughout the writing of this paper. Declaration on the use of generative AI. Gemini was used in a limited manner during manuscript preparation for language editing and organizational assistance. References [1] J. Balogh, A. Pluhár, The positive minimum degree game on sparse graph",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:16.937108Z"
+      },
+      "score": 333.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 83.35,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 17,
+          "theorems": 48,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 12,
+          "displayed_equations": 0.25,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11031",
       "version": 2,
       "title": "A Bayesian Proof of the Bernoulli Theorem",
