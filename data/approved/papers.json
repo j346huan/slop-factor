@@ -42955,6 +42955,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24454",
+      "version": 1,
+      "title": "Simply branched covers of curves and wild conductor exponents",
+      "authors": [
+        "Harry Spencer"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T13:57:58Z",
+        "updated": "2026-07-27T13:57:58Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We use deformation theory to show that a cover of smooth, projective, geometrically connected curves $π\\colon C\\to D$ over a $p$-adic field can be $p$-adically perturbed to obtain a nearby simply branched cover $π'\\colon C'\\to D$ and that, if $D=\\mathbb{P}^1$ and $π^*\\mathcal{O}_{\\mathbb{P}^1}(1)$ is very ample, then we may take $C'=C$. As an application, we give a formula for the wild conductor exponent of a curve at a prime $p>d$ in terms of the ramification data of any degree $d$ cover $C\\to\\mathbb{P}^1$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24454v1",
+        "pdf": "https://arxiv.org/pdf/2607.24454v1",
+        "source": "https://export.arxiv.org/e-print/2607.24454v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 2,
+        "lemmas": 7,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 51,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ion, so π is simple. Further, because (4 − 1)2 < 12, π is the unique gonal map of C by [15, Theorem 2]. Acknowledgements & Declarations. I thank Vladimir Dokchitser for his super- vision and Andrew Obus for reading a draft of this work. OpenAI’s ChatGPT suggested approaches to some technical lemmata herein, car- ried out literature searches and was used for some parts of the typesetting and proofreading process. However, all mathematical claims are verified by the author and this work is",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:18.451725Z"
+      },
+      "score": 468.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 93.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 14,
+          "theorems": 12,
+          "lemmas": 28,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 12.75,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24437",
       "version": 2,
       "title": "From Regions to Hodge Structures: The Topological Study of semialgebraic Curves Configurations",
