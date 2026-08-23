@@ -43124,6 +43124,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17421",
+      "version": 1,
+      "title": "Strong edge-colouring via local flag algebras",
+      "authors": [
+        "Eoin Davey",
+        "Eoin Hurley",
+        "Rémi de Joannis de Verclos",
+        "Ross J. Kang",
+        "Jan Volec"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-19T21:54:02Z",
+        "updated": "2026-07-19T21:54:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The strong chromatic index $χ'_s(G)$ is the smallest number of colours needed to colour the edges of a graph $G$ so that any two edges at distance at most $2$ receive different colours. Using the \\emph{local flag algebra} framework introduced in a companion paper, we prove $χ'_s(G) \\leq 1.73\\,Δ(G)^2$ for every graph $G$ of maximum degree $Δ(G)$, $χ'_s(G) \\leq 1.6255\\,Δ(G)^2$ for every bipartite $G$, and $χ'_s(G) \\leq 1.6633\\,Δ_A(G)\\,Δ_B(G)$ for every bipartite $G$ of side maximum degrees $Δ_A(G), Δ_B(G)$ with rational $Δ_B(G)/Δ_A(G) \\in (0, 1]$, provided $Δ(G)$, $Δ_A(G)$, $Δ_B(G)$ are sufficiently large. These three bounds make progress towards three established conjectures: those of Erdős-Nešetřil (1985) for general graphs, Faudree-Gyárfás-Schelp-Tuza (1989) for bipartite graphs, and Brualdi-Quinn Massey (1993) in the asymmetric bipartite setting. Additionally, for the random bipartite graph $G \\sim G(n_A, n_B, p)$ at constant $p \\in (0,1)$ and bounded aspect ratio $\\max(n_A, n_B) = O(\\min(n_A, n_B))$, we prove the Brualdi-Quinn Massey bound $χ'_s(G) \\leq Δ_A(G)\\,Δ_B(G)$ asymptotically almost surely.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17421v1",
+        "pdf": "https://arxiv.org/pdf/2607.17421v1",
+        "source": "https://export.arxiv.org/e-print/2607.17421v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 7,
+        "lemmas": 15,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 49,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file localflagstrong.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "coding effort used AI assistance. These results were made publicly accessible in 2024 via Eoin Davey’s MSc thesis [6] at the University of Amsterdam theses repository. During the third phase, we used one commercially available agentic AI system for the following purposes: 1. formal verification of the mathematical results in Lean 4; 2. empirical checks to sweep for potential counterexample graphs; 3. proof of subsidiary results (Theorem 1.4 and Proposition 8.1) under our",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:37.023403Z"
+      },
+      "score": 1169.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 146.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 23,
+          "theorems": 42,
+          "lemmas": 60,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 12.25,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17388",
       "version": 1,
       "title": "Mathematical Discovery in the Wild: AI-Guided Proofs in Banach Space Theory",
