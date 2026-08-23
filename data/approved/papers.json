@@ -42787,6 +42787,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00565",
+      "version": 1,
+      "title": "On the Log Determinant of Sample Correlation Matrices under Gaussianity",
+      "authors": [
+        "Hongru Zhao"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-01T10:02:26Z",
+        "updated": "2026-08-01T10:02:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a central limit theorem for the log determinant of a Gaussian Pearson sample correlation matrix as the dimension diverges. Only two conditions are imposed: the population correlation matrix is positive definite, and the sample degrees of freedom are at least the dimension. Both are necessary for the ordinary log determinant to be finite. To the best of our knowledge, no previous central limit theorem covers this full nonsingular domain. It covers every aspect ratio from dilute growth to the square hard edge. No uniform lower or upper bound is imposed on the eigenvalues of the population correlation matrices: the smallest may approach zero and the largest may diverge. The proof develops a coordinatewise Wiener chaos reduction for the random diagonal normalization and combines it with an exact Wishart transform comparison. Geometrically, the statistic is twice the log volume of a random parallelotope spanned by standardized Gaussian coordinate vectors.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00565v1",
+        "pdf": "https://arxiv.org/pdf/2608.00565v1",
+        "source": "https://export.arxiv.org/e-print/2608.00565v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 1,
+        "lemmas": 13,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 201,
+        "bibliography_entries": 45,
+        "appendix_pages": 18
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file new2026_R6_arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments The author thanks Tuan Pham for helpful comments on an earlier version. OpenAI’s GPT-5.6 Sol Ultra was used to assist with literature searches and organization, mathematical drafting and checks, language editing, LATEX formatting, and computational checks. The author independently verified and retains full responsibility for t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:50.999703Z"
+      },
+      "score": 963.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 192.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 34,
+          "theorems": 6,
+          "lemmas": 52,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 50.25,
+          "bibliography_entries": 4.5,
+          "appendix_pages": 36
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00459",
       "version": 1,
       "title": "A note on the saturation number for unions of three cliques",
