@@ -46200,6 +46200,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25002",
+      "version": 2,
+      "title": "How Random Is the Möbius Function? Smoothing, Probability, and the Riemann Hypothesis",
+      "authors": [
+        "Alberto Verjovsky"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T18:58:35Z",
+        "updated": "2026-08-14T15:07:34Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This article is primarily expository, but it also contains several new observations and reformulations concerning the Möbius function, probabilistic models, dynamical systems, and the Riemann hypothesis. Its starting question is classical: in what sense can the Möbius function be said to behave randomly? We begin with Denjoy's random-walk heuristic and place it in the context of later work on random multiplicative functions, short intervals, and Möbius pseudorandomness. We then develop two smoothing forms of the classical Mertens criterion for the Riemann hypothesis. The first uses the discrete Laplace transform \\[ Φ(t)=\\sum_{n\\geq1}μ(n)e^{-nt} \\] and identifies RH with the condition \\[ Φ\\in L^p(0,\\infty) \\qquad\\text{for every }1\\leq p<2. \\] The second uses normalized Möbius Fourier polynomials and local moments on arcs of length comparable with \\(1/N\\). The paper also revisits the author's earlier criterion for RH in terms of discrete measures, as presented in Broughan's account of analytic equivalents of RH. Denjoy's heuristic is made precise in a simple independent coefficient model, and this model is carefully distinguished from the modern theory of random multiplicative functions. The resulting coefficient space also gives a measure--category contrast: the relevant \\(L^p\\)-property has full measure but is topologically meagre. A further point of the paper is dynamical: the multiplicative semigroup of positive integers acts naturally on the coefficient space, and the Möbius sequence is a distinguished arithmetic point for this action. The aim throughout is explanatory, while keeping these new observations visible: to show how arithmetic, probability, Fourier analysis, Mellin transforms, and dynamics fit together, and to indicate what modern results add to the older random-walk picture.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25002v2",
+        "pdf": "https://arxiv.org/pdf/2607.25002v2",
+        "source": "https://export.arxiv.org/e-print/2607.25002v2"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 7,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 173,
+        "bibliography_entries": 38,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file How_random_is_the_Mobius_function_FINAL_REVISED.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "iplicative models, and other dynamical notions of Möbius randomness. Acknowledgments The author would like to acknowledge Proyecto PAPIIT IN103324 (DGAPA, UNAM, México) for its financial support. The author also acknowledges the use of ChatGPT (OpenAI) and Claude (Anthropic) for proofreading, bibliographic searches, and refinement of the exposition. The mathematical responsibility for the manuscript remains entirely with the author. References [1] E. H. el Abdalaoui, Exponent",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:38.370474Z"
+      },
+      "score": 250.1,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 125.05,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 28,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 28,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 43.25,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24724",
       "version": 1,
       "title": "Exponentially Many Circuit Double Covers",
