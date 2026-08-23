@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01396",
+      "version": 1,
+      "title": "Three Graffiti.pc Conjectures on Largest Induced Trees: Proofs of Conjectures 141, 142, and 143",
+      "authors": [
+        "Alper Ferudun"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T17:23:15Z",
+        "updated": "2026-08-02T17:23:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a finite simple graph $G$, let $t(G)$ be the largest order of an induced tree and let $g(G)$ be the girth. We prove three consecutive conjectures of DeLaViña's Graffiti.pc program. First, writing $\\ell(v)$ for the independence number of the subgraph induced by the neighbourhood of $v$, we prove $t(G) \\ge \\lfloor g(G)/2 \\rfloor - 1 + \\max_{v \\in V(G)} \\ell(v)$. Second, if $\\mathrm{Per}(G)$ is the periphery and $f(G) = \\max_x d(x, \\mathrm{Per}(G))$, we prove $t(G) \\ge \\frac{2}{3} g(G) + f(G)$, and establish the stronger integral bound $t(G) \\ge f(G) + \\lceil 2g(G)/3 \\rceil$ when $G$ contains a cycle. Third, if $δ'(G)$ is the second-smallest degree, counted with multiplicity, then every connected non-tree graph satisfies $t(G) δ'(G) \\ge g(G) + 1$. These are Conjectures 141, 142, and 143 of Written on the Wall II. Complete, machine-checked Lean 4 proofs of all three formal statements accompany the manuscript.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01396v1",
+        "pdf": "https://arxiv.org/pdf/2608.01396v1",
+        "source": "https://export.arxiv.org/e-print/2608.01396v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 3,
+        "lemmas": 10,
+        "propositions": 3,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 44,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file graffiti_141_143.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "etric estimate. Conjecture 143 reduces to a two-leaf induced-tree lemma. The associated Lean developments are recorded in Formal Conjectures pull requests #4454 and #4457 [15, 16] and are included as ancillary files. Use of generative AI. OpenAI GPT Pro and Codex were used for proof exploration, literature- search assistance, computational checks, Lean development, and manuscript preparation. They are not authors. Responsibility for verifying the work and for the submitted version",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:13:22.439528Z"
+      },
+      "score": 839.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 104.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 18,
+          "lemmas": 40,
+          "propositions": 12,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 11,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01393",
       "version": 2,
       "title": "Universal Triangle Covering Curve and Polygonal Chain: Escaping Forest and Fitting Worm",
