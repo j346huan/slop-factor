@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15853",
+      "version": 1,
+      "title": "Disconnected graphs and extremal bounds for realizable distance orders",
+      "authors": [
+        "Gerardo L. Maldonado",
+        "Leonardo Martínez-Sandoval",
+        "Miguel Raggi",
+        "Edgardo Roldán-Pensado"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T16:51:57Z",
+        "updated": "2026-08-16T16:51:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $G$ be a graph together with a total order $\\prec$ on its edges. We say that $\\prec$ is realizable in $\\mathbb{R}^d$ if there is a placement of the vertices of $G$ in $\\mathbb{R}^d$ such that the Euclidean lengths of the edges induce exactly the order $\\prec$. Almendra-Hernández and Martínez-Sandoval proved that every total order on the edges of the complete graph $K_n$ is realizable in $\\mathbb{R}^{n-2}$. We show that the same is not true for the disjoint union of two complete graphs: for every $n\\geq 3$ there is a total order on the edges of $K_n\\sqcup K_n$ that is not realizable in $\\mathbb{R}^{n-2}$, but is in $\\mathbb{R}^{n-1}$. Surprisingly, the realizability of an order on a disconnected graph is not determined by its restrictions to the connected components. We also study realizability on the real line: we characterize which disjoint unions of two cycles are realizable, and estimate the largest number of edges an $n$-vertex graph can have while all of its edge-orders remain realizable on the line. In general dimension, we show that the largest number of edges of an $n$-vertex graph all of whose edge-orders are realizable in $\\mathbb{R}^d$ is $dn+O\\!\\left(dn/\\ln(dn)\\right)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15853v1",
+        "pdf": "https://arxiv.org/pdf/2608.15853v1",
+        "source": "https://export.arxiv.org/e-print/2608.15853v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 4,
+        "lemmas": 6,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 67,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "lowship Program. The second author received support from UNAM DGAPA- PASPA to work on this topic during a sabbatical stay at the Instituto de Matemáticas, Unidad Juriquilla, UNAM. The authors acknowledge the use of Claude, developed by Anthropic, to assist with the drafting and reorganization of parts of the manuscript, including the figures, to improve the clarity and presentation of the exposition, and to help implement simple algorithms used during the exploratory stages of the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:10.657013Z"
+      },
+      "score": 510.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 102.05,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 21,
+          "theorems": 24,
+          "lemmas": 24,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 16.75,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15813",
       "version": 1,
       "title": "Quasianalyticity and geometric rigidity in anisotropic Calderón's problem",
