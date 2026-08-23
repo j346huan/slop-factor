@@ -41938,6 +41938,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23453",
+      "version": 1,
+      "title": "Tiling a triangle into a prime number of congruent triangles",
+      "authors": [
+        "Michael Beeson"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-26T04:32:43Z",
+        "updated": "2026-07-26T04:32:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We show that, apart from a few known exceptions, if a triangle is cut into $N$ congruent triangles, then $N$ is not a prime number. The exceptions are cutting an isosceles triangle in half, cutting an equilateral triangle in three, a 3-tiling of a 30-60-90 triangle, and the long-known biquadratic tilings of a certain right triangle, when $N$ is a sum of two squares.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23453v1",
+        "pdf": "https://arxiv.org/pdf/2607.23453v1",
+        "source": "https://export.arxiv.org/e-print/2607.23453v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 13,
+        "lemmas": 9,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 50,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file PrimeTilings.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "to two similar copies, subdivided quadratically into e2 and f 2 tiles. □ Remark. See Figure 1 for pictures of the exceptional prime tilings. Use of AI We used Claude (Anthropic) for proof-checking and copy-editing. But also Lemma 14 was proved on July 22, 2026 by the LLM, Claude Fable. It was in- vented by Claude in the course of answering the question, whether a triangle with angles (α, 2α, 3β) with α",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:41.616124Z"
+      },
+      "score": 1151.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 143.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 13,
+          "theorems": 78,
+          "lemmas": 36,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 12.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23391",
       "version": 1,
       "title": "The symmetric V-cycle can diverge under the multigrid axioms for cell-centred discretisations",
