@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10445",
+      "version": 1,
+      "title": "An Exact Dominant Degree Condition for Transitive Tournament Factors in Digraphs",
+      "authors": [
+        "Yufei Chang",
+        "Shuo Wei",
+        "Jin Yan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T03:59:39Z",
+        "updated": "2026-08-11T03:59:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $r\\ge2$, let $T_r$ denote the transitive tournament on $r$ vertices, and write $d_G^*(v):=\\max\\{d_G^+(v),d_G^-(v)\\}$. We prove that if $r\\mid n$ and an $n$-vertex digraph $G$ satisfies $d_G^*(x)+d_G^*(y)\\ge 2(1-1/r)n-1$ for every $x\\ne y \\in V(G)$ with $xy \\notin E(G)$, then $G$ has a $T_r$-factor, and the bound is best possible. Furthermore, by applying our main theorem, we settle Treglown's conjecture on the dominant degree $d^*_G(x) \\ge (1-1/r)n$ and answer Molla and Treglown's problem of determining the exact Ore-type threshold $2(1-1/r)n - 1$, and we obtain stronger versions of the theorems of Czygrinow, DeBiasio, Kierstead and Molla.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10445v1",
+        "pdf": "https://arxiv.org/pdf/2608.10445v1",
+        "source": "https://export.arxiv.org/e-print/2608.10445v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 9,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 8,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "+ o(1) n 2 2r · reg(r) contains a Tr -factor? Where reg(r) denote the order of the largest Tr -free regular tournament. Acknowledgment. During the preparation of this work, the authors used ChatGPT 5.6 to help identify the theorem of Kierstead and Kostochka used as a key ingredient in the proof. The authors take full responsibility for all content of this work. References [1] K. Corrádi a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:47.339576Z"
+      },
+      "score": 182.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 91.2,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 7,
+          "theorems": 54,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 2,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10418",
       "version": 1,
       "title": "A lower bound for stepsize-based acceleration of gradient descent",
