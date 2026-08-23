@@ -9621,6 +9621,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16119",
+      "version": 1,
+      "title": "Fully nonlinear parabolic equations under a fixed reference diffusion:weighted $L^2$ Hessian estimates and well-posedness",
+      "authors": [
+        "Jihao Long",
+        "Zhenhua Zhao"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.AP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T05:22:26Z",
+        "updated": "2026-08-17T05:22:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a fixed-reference weighted $L^2$ theory for terminal-value fully nonlinear parabolic equations. A prescribed uniformly elliptic diffusion starting from a point determines both the linear reference operator and a space--time occupation measure; time weights of order $α$ accommodate the point-start singularity. For the associated linear backward equation, we identify the optimal source-to-intrinsic-Hessian norm $C_w(X)$ and derive bounds on it from a moving-measure Bochner identity. We compute the sharp Brownian benchmark $C_α^{\\mathrm{Br}}=\\sup_{n\\in\\mathbb{N}, n\\geq 2}2\\sqrt{n(n-1)}/(n-1+α)$, prove that it is a universal tangent lower bound, and show that it is attained by regular weights for time-inhomogeneous affine Gaussian diffusions and is the infimum over such weights for normalized state-dependent covariances. Under the standing data and lower-order assumptions, the Hessian estimate yields our main nonlinear result: if the driver's Hessian Lipschitz constant satisfies $C_w(X)L_H<1$, then the equation has a unique weighted Sobolev solution and the Picard iteration on the source converges geometrically, with no smallness condition on the value or gradient channels. For the Brownian model at order $1/2$, counterexamples in dimensions $d\\geq7$ show that this strict threshold cannot be uniformly improved within the occupation-Sobolev class. For weights of order below one, additional spatial regularity and unweighted integrability of the data yield an unweighted spatial jet and a unique solution in the regular fixed-reference Markovian class for second-order backward stochastic differential equations (2BSDEs) defined here.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16119v1",
+        "pdf": "https://arxiv.org/pdf/2608.16119v1",
+        "source": "https://export.arxiv.org/e-print/2608.16119v1"
+      },
+      "structural_counts": {
+        "pages": 61,
+        "theorems": 21,
+        "lemmas": 13,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 6,
+        "displayed_equations": 427,
+        "bibliography_entries": 44,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file fully_nonlinear_pde_article.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "f Lemma 7.3 and the coefficient-norm and threshold comparisons used in Theorem 7.4. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used OpenAI GPT-5.6 Sol (model identifier gpt-5.6-sol) in order to assist in developing the counterexample constructions and exact matching calculations presented in Theorem 7.1, Lemma 7.3, and Theorem 7.4. After using this tool/service, the authors reviewed",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 59",
+          "page": 59
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:52.437872Z"
+      },
+      "score": 3881.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 388.15,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 61,
+          "theorems": 126,
+          "lemmas": 52,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 12,
+          "displayed_equations": 106.75,
+          "bibliography_entries": 4.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16116",
       "version": 1,
       "title": "New constructions of optimal arrangements of $2d$ lines in $\\mathbb{C}^d$",
