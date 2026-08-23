@@ -41766,6 +41766,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01516",
+      "version": 1,
+      "title": "Nondegeneracy and regularity of polynomial pushforwards",
+      "authors": [
+        "Egor Kosov",
+        "Anastasiia Zhukova"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.CA",
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T22:07:40Z",
+        "updated": "2026-08-02T22:07:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $μ$ be a log-concave probability measure on $\\mathbb R^n$ and let $f\\colon\\mathbb R^n\\to\\mathbb R^k$ be a polynomial mapping of degree at most $d$. We show that \\[ μ(f\\in A) \\le C\\bigl(λ_k(A)\\bigr)^{\\frac{1}{k(d-1)+1}} \\] for every Borel set $A\\subset\\mathbb R^k$ whenever the image measure $μ\\circ f^{-1}$ is absolutely continuous. The constant $C$ is independent of the dimension $n$, and the exponent $\\frac{1}{k(d-1)+1}$ is sharp. This extends the scalar Carbery--Wright inequality and answers, in the log-concave setting, a question raised by Avni, Glazer, and Larsen. In addition, we show that the density of $μ\\circ f^{-1}$, whenever it exists, belongs to the Nikolskii--Besov space $B^{\\frac{1}{k(d-1)+1}}_{1,\\infty}(\\mathbb R^k)$, with a dimension-free bound for the corresponding norm. A central difficulty in passing from scalar polynomials to vector-valued polynomial mappings is the lack of a suitable nondegeneracy parameter quantifying absolute continuity of $μ\\circ f^{-1}$, as the variance does in the scalar case. Natural candidates such as the covariance matrix or the Jacobian matrix either fail to characterize this property or do not lead to dimension-free estimates. We identify such a parameter and define it to be the covariance matrix of the vector formed by the monomials of degree up to $d^{k-1}$ in the normalized components of $f$. The dimension-free nature of our results allows us to extend Kusuoka's absolute continuity criterion for Gaussian polynomial random vectors to the log-concave setting. Moreover, in this setting, we obtain estimates relating convergence in distribution to convergence in total variation for polynomial random vectors.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01516v1",
+        "pdf": "https://arxiv.org/pdf/2608.01516v1",
+        "source": "https://export.arxiv.org/e-print/2608.01516v1"
+      },
+      "structural_counts": {
+        "pages": 38,
+        "theorems": 6,
+        "lemmas": 14,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 393,
+        "bibliography_entries": 48,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Regularity-log-conc-Aug02.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "dTV (Xn , X∞ ) ≤ CdKR (Xn , X∞ ) k(d−1)+2 ∀n ≥ n0 . Increasing C to account for the finitely many indices n < n0 completes the proof. □ Use of AI Tools ChatGPT was used for language editing, stylistic suggestions, draft wording for selected pas- sages, and help with locating some references. All AI-generated text and suggested references were checked, corrected where necessary, and subs",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:14:13.553069Z"
+      },
+      "score": 1230.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 246.05,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 38,
+          "theorems": 36,
+          "lemmas": 56,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 98.25,
+          "bibliography_entries": 4.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01504",
       "version": 1,
       "title": "Embedded surfaces with trivial extendable mapping class groups in simply connected $4$-manifolds",
