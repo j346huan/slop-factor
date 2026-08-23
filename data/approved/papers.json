@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23795",
+      "version": 1,
+      "title": "On the Thickness of Infinite Generalized Sidon Sets, II",
+      "authors": [
+        "Kevin O'Bryant"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-26T18:41:40Z",
+        "updated": "2026-07-26T18:41:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A set $\\mathcal{A}$ of nonnegative integers is a $B_h$-set if the sums $a_1+\\cdots+a_h$ with $a_1\\le\\cdots\\le a_h$ and $a_i\\in\\mathcal{A}$ are distinct; a $B_2$-set is a Sidon set. We prove that for every even $h$ and every $B_h$-set $\\mathcal{A}$, \\[ \\liminf_{n\\to\\infty} \\frac{ | \\mathcal{A}\\cap[0,n) | }{\\sqrt[h]{n/\\log n}} \\le \\left(\\fracπ{\\log 2} \\cdot \\frac{Γ(1+h/2)^2}{Γ(1+1/h)^{h}}\\right)^{1/h}. \\]",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23795v1",
+        "pdf": "https://arxiv.org/pdf/2607.23795v1",
+        "source": "https://export.arxiv.org/e-print/2607.23795v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 1,
+        "lemmas": 8,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 79,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 3-Part2-InfiniteBhsets.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Tool and computational resource disclosure This work was developed in interaction with Anthropic’s ClaudeAI, the Fable model. Algebra, calculus, and inequalities were checked with Wolfram’s Mathematica 14.3. Lamport’s LATEX was used both for typesetting and interacting with ClaudeAI. While the writing has been heavily influenced by Clau",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "formatting_typesetting",
+        "role_label": "Formatting or typesetting",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:36.507935Z"
+      },
+      "score": 76.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 76.75,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 13,
+          "theorems": 6,
+          "lemmas": 32,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 19.75,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23780",
       "version": 1,
       "title": "Free-by-cyclic groups are not relatively profinitely rigid",
