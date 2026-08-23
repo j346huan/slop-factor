@@ -41766,6 +41766,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13224",
+      "version": 1,
+      "title": "Gaussian FSBP operators: Comparison and application to numerical methods for hyperbolic conservation laws",
+      "authors": [
+        "Jan Glaubitz",
+        "Henry Haase",
+        "Philipp Öffner",
+        "Finnja Stafforst"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T19:33:41Z",
+        "updated": "2026-07-14T19:33:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Function-space summation-by-parts (FSBP) operators enable conservative and energy-stable numerical methods for hyperbolic conservation laws based on general, non-polynomial approximation spaces. Recent works show that using generalized Gaussian quadrature significantly reduces the number of grid points required compared to existing constructions that have mostly focused on equidistant grids. In this paper, we compare open and closed FSBP operators constructed with generalized Gaussian quadratures and apply them to numerically solve hyperbolic conservation laws. Furthermore, to support open node distributions, we extend the FSBP framework by introducing function-space exact extrapolation operators and operationalize them in numerical schemes for solving hyperbolic conservation laws. Our numerical experiments include the one-dimensional linear advection, non-viscous Burgers, and compressible Euler equations of gas dynamics. We observe that applying FSBP operators in numerical schemes can improve efficiency and accuracy. Notably, we demonstrate these advantages in more challenging time-dependent settings compared to other recent works on Gaussian FSBP operators.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13224v1",
+        "pdf": "https://arxiv.org/pdf/2607.13224v1",
+        "source": "https://export.arxiv.org/e-print/2607.13224v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 0,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 3,
+        "displayed_equations": 42,
+        "bibliography_entries": 222,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file efficient_FSBP_main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "as supported by the German Research Foundation (DFG) within the framework of the Priority Program SPP 2410 under project no. 525866748 (OE 661/5-1) and by DFG project no. 520756621 (OE 661/4-1). Declaration. The authors disclose that generative AI assistants (ChatGPT and Claude Code) were used during the preparation of this work to assist with code development, data analysis, and text formatting. All AI-assisted code and analyses were tested, reviewed, and verified by the authors, a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:16.528875Z"
+      },
+      "score": 197.1,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 65.7,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 23,
+          "theorems": 0,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 6,
+          "displayed_equations": 10.5,
+          "bibliography_entries": 22.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13222",
       "version": 1,
       "title": "Obstructions to homomorphisms between homogeneous C*-algebras",
