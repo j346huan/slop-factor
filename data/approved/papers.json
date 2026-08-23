@@ -9447,6 +9447,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08450",
+      "version": 1,
+      "title": "Tangent discontinuity in the oper stratification of de Rham moduli spaces",
+      "authors": [
+        "Pengfei Huang"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-09T03:34:00Z",
+        "updated": "2026-08-09T03:34:00Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $X$ be a smooth complex projective curve of genus $g$, and let $\\mathcal{M}_{\\mathrm{dR}}(X,r)$ be the moduli space of flat bundles of rank $r$. Over the stable locus, Simpson showed the oper stratification with Lagrangian fibers and asked whether these fibers are closed and fit together into a smooth foliation. This question is often referred to as the foliation conjecture. In this paper, we give a counterexample to this conjecture in rank two on every curve of genus $g\\geq4$. The main idea is to show that the tangent planes are discontinuous along a holomorphic curve crossing two adjacent strata, hence the foliation assertion fails.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08450v1",
+        "pdf": "https://arxiv.org/pdf/2608.08450v1",
+        "source": "https://export.arxiv.org/e-print/2608.08450v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 67,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file V-final-20260804-foliation_conjecture.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "emain positive, while the Higgs field must have a zero. These conditions are e ≥ 2 and degZ(θ) = 2g − 2 − 2e > 0. Acknowledgements. The author initially aimed to prove the foliation conjecture over compact curves with the assistance of OpenAI’s ChatGPT (versions 5.5 and 5.6 Plus), but did not receive a valuable approach even after hundreds of chats. Finally, AI instead suggested to examine whether the foliation assertion might be false, given its strength. This change of perspective led",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:02:37.690325Z"
+      },
+      "score": 351.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.55,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 11,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 16.75,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08441",
       "version": 1,
       "title": "A Disproof of Santharoubane's Conjecture on Presentations of Generic Skein Algebras",
