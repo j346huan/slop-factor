@@ -8511,6 +8511,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16363",
+      "version": 1,
+      "title": "The second pole of Witten zeta functions and exact evaluations in types F4 and D5",
+      "authors": [
+        "Jonas Matuzas"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T10:15:15Z",
+        "updated": "2026-08-17T10:15:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let Phi be an irreducible reduced crystallographic root system of rank r at least 2, let N = |Phi^+| be the number of positive roots, and let h be its Coxeter number. For the normalized Witten zeta function xi_Phi, we determine the first distinct pole below the leading pole 2/h. It is located at q_2(Phi) = (r-1)/(N-1) = 2(r-1)/(rh-2), is simple, and receives contributions precisely from the codimension-one faces of the dominant chamber. Its residue is zeta_R(q_2)/(N-1) times the sum of the corresponding wall periods, where zeta_R denotes the Riemann zeta function. These periods are finite and positive, so the residue is strictly negative. We also prove a Stokes relation for projective hyperplane-arrangement periods. Let A be an essential central real arrangement in R^n with weights lambda_H strictly between 0 and 1. Suppose that the sum of lambda_H over all H in A equals n, and that for every nonzero proper intersection flat X the sum of lambda_H over those H containing X is strictly less than the codimension of X. Then the vector of positive chamber periods lies in the kernel of the Varchenko matrix with weights exp(pi i lambda_H). Applying this relation, we evaluate the relevant wall periods in types F4 and D5. A two-orbit reduction and Dixon's 3F2(1) summation give a gamma-product evaluation in type F4, while a four-orbit reduction and Selberg's integral give a gamma-product evaluation of the complete wall sum in type D5. Consequently, we obtain exact formulas for the normalized and ordinary Witten zeta residues at 3/23 and 4/19.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16363v1",
+        "pdf": "https://arxiv.org/pdf/2608.16363v1",
+        "source": "https://export.arxiv.org/e-print/2608.16363v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 5,
+        "lemmas": 5,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 177,
+        "bibliography_entries": 26,
+        "appendix_pages": 11
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Universal_Second_Pole_Witten_Zeta_R49.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "chamber period; Dixon summation; Selberg integral; type F4 ; type D5 . Generative-AI disclosure and author responsibility. This work was produced using OpenAI’s ChatGPT 5.6 Pro. The author directed and audited the work throughout. Jonas Matuzas takes full responsibility for the mathematics and the final text. 1 Intr",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_text_generation",
+        "role_label": "Substantial text generation",
+        "multiplier": 7.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:25.707299Z"
+      },
+      "score": 1188.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 169.85,
+        "multiplier": 7,
+        "contributions": {
+          "pages": 25,
+          "theorems": 30,
+          "lemmas": 20,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 44.25,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 22
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16321",
       "version": 1,
       "title": "Supersaturation for Eventown via Generator Switching",
