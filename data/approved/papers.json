@@ -41768,6 +41768,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16854",
+      "version": 2,
+      "title": "Linear Turán Numbers of Uniform Hypertrees",
+      "authors": [
+        "Rajat Adak",
+        "Pragya Verma"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-18T15:32:12Z",
+        "updated": "2026-08-09T18:13:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A hypergraph is \\emph{linear} if every pair of vertices is contained in at most one hyperedge. For a family $\\mathcal{F}$ of $r$-uniform hypergraphs, let $\\operatorname{ex}^{\\mathrm{lin}}_r(n,\\mathcal{F})$ denote the maximum number of hyperedges in an $n$-vertex $\\mathcal{F}$-free linear $r$-uniform hypergraph. Extending earlier work on acyclic triple systems, we study linear Turán numbers of uniform hypertrees in higher uniformity. For the linear star $S_k^r$, we prove \\[ \\operatorname{ex}^{\\mathrm{lin}}_r(n,S_k^r)\\leq \\frac{n(k-1)}{r}, \\] with equality precisely for $(k-1)$-regular linear $r$-uniform hypergraphs, whenever such hypergraphs exist. Under suitable divisibility and design-existence assumptions, we also construct $T_k^r$-free hypergraphs with $n(k-1)/r$ edges for every linear $r$-uniform hypertree $T_k^r$ with $k$ hyperedges. For the four-edge broom $B_4^r$, we prove \\[ \\operatorname{ex}^{\\mathrm{lin}}_r(n,B_4^r)\\leq \\frac{(r+1)n}{r}, \\] with equality exactly for disjoint unions of Steiner systems $S(2,r,r^2)$, whenever such systems exist. For the crown $E_4^r$, we establish a degree-sensitive upper bound implying \\[ \\operatorname{ex}^{\\mathrm{lin}}_r(n,E_4^r)\\leq \\frac{(2r-1)n}{r}, \\] and give a lower-bound construction leaving a constant-factor gap. Finally, we settle the linear Turán problem for the four-edge path $P_4^r$ in every uniformity: \\[ \\operatorname{ex}^{\\mathrm{lin}}_r(n,P_4^r)\\leq \\frac{(r+1)n}{r}. \\] Equality holds precisely for disjoint unions of Steiner systems $S(2,r,r^2)$. We also give counterexamples to a key structural claim used in a previously proposed proof of the $4$-uniform case.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16854v2",
+        "pdf": "https://arxiv.org/pdf/2607.16854v2",
+        "source": "https://export.arxiv.org/e-print/2607.16854v2"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 7,
+        "lemmas": 11,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 112,
+        "bibliography_entries": 32,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "longer paths. Declaration of competing interest The authors declare that they have no known competing financial interests or personal relation- ships that could have appeared to influence the work reported in this paper. Declaration of Generative AI and AI-Assisted Technologies During the preparation of this work, the authors used ChatGPT (OpenAI) as an auxiliary research tool to assist with computations related to the proof of Lemma 6.4 and with the construction and verification of t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:28.244272Z"
+      },
+      "score": 1225.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 153.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 23,
+          "theorems": 42,
+          "lemmas": 44,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 28,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16743",
       "version": 1,
       "title": "The power set of a quasinilpotent backward weighted shift",
