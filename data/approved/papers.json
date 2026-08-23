@@ -43297,6 +43297,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00788",
+      "version": 2,
+      "title": "Positive Bidiagonal Factorizations for Banded Markov Processes",
+      "authors": [
+        "Manuel Mañas"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math-ph",
+          "math.PR",
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-01T17:39:04Z",
+        "updated": "2026-08-20T15:02:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An ordered positive bidiagonal factorization (PBF) is used to develop a spectral and probabilistic theory for Markov transition matrices of arbitrary finite bandwidth. The factors determine two families of mixed-type multiple orthogonal polynomials, an entrywise positive $q\\times p$ matrix of measures, and a sequence of elementary death-or-stay and birth-or-stay transitions. This yields Karlin-McGregor formulas for transition probabilities, Green kernels, resolvents, potentials, and first-passage transforms without reversibility or block symmetrizability. Rational stochastic PBFs are characterized by ordered finite-urn experiments. Cyclic reorderings give Darboux intertwinings, while a factor-resolved continued fraction gives the first-return law. Grouping states produces a finite-phase quasi-birth-and-death process and a matrix continued fraction for return time and phase. For bounded continuous-time generators, uniformization preserves the spectral data. For unbounded rates, a conservative generator whose shifted leading truncations all admit scalar PBFs must be tridiagonal; nevertheless, $Q=V(T-I)$ preserves arbitrary fixed bandwidth and separates the embedded chain from the holding rates. The theory is explicit for mixed Piñeiro and Jacobi-like systems. For Piñeiro, the exact PBF region and larger structural-band positivity regions are obtained. Jacobi-like beta-convolution weights admit Gamma-factor cancellations, complete cancellation recovering Piñeiro. For $q\\in\\{2,3,4\\}$, the strict ordering conditions give the only open PBF region, with further lower-dimensional cancellation strata. Rational $(3,2)$ examples provide all factors and the resulting Markov models.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00788v2",
+        "pdf": "https://arxiv.org/pdf/2608.00788v2",
+        "source": "https://export.arxiv.org/e-print/2608.00788v2"
+      },
+      "structural_counts": {
+        "pages": 81,
+        "theorems": 13,
+        "lemmas": 8,
+        "propositions": 26,
+        "corollaries": 17,
+        "definitions": 9,
+        "displayed_equations": 530,
+        "bibliography_entries": 51,
+        "appendix_pages": 80
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Positive_Bidiagonal_Factorizations_for_Banded_Markov_Processes_arXiv_v2_2026-08-20.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "• Author contributions. The author is solely responsible for the conception of the work, the development and verification of the mathematical results, and the writing of the manuscript. • Use of artificial intelligence. OpenAI Codex was used to assist with adversarial review of arguments, exact symbolic verification of selected recurrence formulas and rational identities, checks of internal consistency and citations, and language editing. Eve",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 79",
+          "page": 79
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:48.306025Z"
+      },
+      "score": 5292.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 661.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 81,
+          "theorems": 78,
+          "lemmas": 32,
+          "propositions": 104,
+          "corollaries": 51,
+          "definitions": 18,
+          "displayed_equations": 132.5,
+          "bibliography_entries": 5.1,
+          "appendix_pages": 160
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00780",
       "version": 1,
       "title": "Concentration theorems for $2$-homogeneous polynomials and bilinear forms with applications to the Kadec-Klee properties",
