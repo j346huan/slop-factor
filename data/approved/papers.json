@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11525",
+      "version": 1,
+      "title": "A Proof of Gluck's Conjecture",
+      "authors": [
+        "Baoyu Zhang"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T00:29:02Z",
+        "updated": "2026-08-12T00:29:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a finite group $H$, let $ν(H)$ denote the maximum order of a nilpotent subgroup of $H$. We prove that every finite solvable transitive permutation group $P$ on a finite set $Ω$ has a subset $Δ\\subseteqΩ$ such that $|P:P_Δ|\\geν(P_Δ)$. We also prove that if a finite solvable group $H$ acts faithfully and completely reducibly on a finite module $V$, then some $x\\in V$ satisfies $|H:H_x|\\geν(H_x)$. Consequently, we settle Gluck's well-known conjecture, open since 1985: every finite solvable group $G$ satisfies $|G:\\mathbf{F}(G)|\\le b(G)^2$, where $\\mathbf{F}(G)$ is the largest normal nilpotent subgroup of $G$ and $b(G)$ is the largest degree of an irreducible complex character of $G$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11525v1",
+        "pdf": "https://arxiv.org/pdf/2608.11525v1",
+        "source": "https://export.arxiv.org/e-print/2608.11525v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 11,
+        "lemmas": 20,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 5,
+        "displayed_equations": 102,
+        "bibliography_entries": 33,
+        "appendix_pages": 17
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file gluck.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ", University of Warwick. I also thank Prof. Derek Holt for a helpful discussion concerning possible corrections to the classification in [12] during the conference Modern Flavours of Finite Groups. During the preparation of this paper, the GPT-5.4 model was used to assist with debugging and improving some verification programs and translating GAP code into Magma. I checked and revised the resulting text and code, verified the computations, and take full responsibility for the conten",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:22.898159Z"
+      },
+      "score": 517.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 258.8,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 27,
+          "theorems": 66,
+          "lemmas": 80,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 10,
+          "displayed_equations": 25.5,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 34
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11198",
       "version": 1,
       "title": "(Non-)coincidence of critical parameters for Poisson Zoos and Loop Soup Percolation on $\\mathbb{Z^d}$, $d > 4$, and $\\mathbb{T}_d$,$ d \\ge 3$",
