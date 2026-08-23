@@ -8426,6 +8426,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15808",
+      "version": 2,
+      "title": "Uniform sine-kernel determinant asymptotics, tail-side quantiles, and prolate eigenvalue bounds",
+      "authors": [
+        "Ahmadreza Azimifard"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T15:34:19Z",
+        "updated": "2026-08-20T03:18:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $S_c=P_{(0,c)}QP_{(0,c)}$ be the one-dimensional sinc-kernel concentration operator, let $N_a(c)=\\#{n:λ_n(c)>a}$, and set $\\bar L=\\log((1-δ)/δ)$. We prove, uniformly for each fixed $A>0$, the tail-side quantile formula $N_δ(c)=c+π^{-2}\\bar L\\log(4π^2c/\\bar L)+O_A(\\log c+\\bar L)$ for $6\\le\\bar L\\le A\\log c$. It yields corresponding additive formulas for the lower half and full plunge, with main terms respectively $π^{-2}\\bar L\\log(4π^2c/\\bar L)$ and twice this quantity. An exact one-tail-coordinate selection gives, for fixed $A>0$, $d\\ge1$, and $q\\in(1/2,1)$, the one-sided tensor-product bound $Λ_δ(c;d)\\geπ^{-2}d c^{d-1}\\bar L\\log(4π^2c/\\bar L)-O_{A,d,q}(c^{d-1}(\\log c+\\bar L))$ for $L_{d,q}\\le\\bar L\\le A\\log c$, where $L_{d,q}=\\log(q^{-(d-1)}(e^6+1)-1)$; the tensor content is nontrivial for $d\\ge2$. The analytic input is a signed growing-parameter sine-kernel determinant asymptotic: uniformly for $0\\leω\\le A\\log s$, $\\log\\det(I+(e^{2ω}-1)K_s)=4ωs/π+2π^{-2}ω^2\\log(4s)+2\\log|G(1+iω/π)|^2+O_A((1+ω)^4\\log^2s/s)$, where $G$ is the Barnes $G$-function. We prove this negative-coupling counterpart of the Bothner--Deift--Its--Krasovsky theorem by direct IIKS steepest descent. We also retain the uniform head-side results and use a two-way determinant reduction to obtain the moving-depth lower-half bridge bound with constant $1/(32π^2)$; extending it to the deeper range uses Kulikov--Dam Larsen and may require a smaller constant. These counting formulas are additive. Their errors become uniformly relative when $\\bar L$ tends uniformly to infinity; fixed thresholds are covered separately by Landau--Widom. A Lambert-$W_{-1}$ formula is recorded only for the continuous main term, not for individual eigenvalues.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15808v2",
+        "pdf": "https://arxiv.org/pdf/2608.15808v2",
+        "source": "https://export.arxiv.org/e-print/2608.15808v2"
+      },
+      "structural_counts": {
+        "pages": 69,
+        "theorems": 15,
+        "lemmas": 46,
+        "propositions": 4,
+        "corollaries": 5,
+        "definitions": 9,
+        "displayed_equations": 346,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r 2 from (154) at the second, and Step 4 of the proof of Theorem 8.1 at the third. The L2 contribution ∥µ − I∥L2 ∥W ∥L2 ≤ 2C∗ ∥W ∥2L2 = OA ((1 + ω)4 /(s2 rs )) enters at the same order as the E± contribution and no worse. Acknowledgments AI-assisted tools were used during manuscript preparation for language editing, bibliographic cross-checking, and limited symbolic and numerical consistency checks. Such checks were used only as supporting verification and not as substitutes for mathe",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 67",
+          "page": 67
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:05.459450Z"
+      },
+      "score": 1441.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 480.4,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 69,
+          "theorems": 90,
+          "lemmas": 184,
+          "propositions": 16,
+          "corollaries": 15,
+          "definitions": 18,
+          "displayed_equations": 86.5,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15777",
       "version": 1,
       "title": "A finite forbidden family with superlinear surplus and no three-factor product extremizers",
