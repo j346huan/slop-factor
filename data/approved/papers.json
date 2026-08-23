@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18044",
+      "version": 1,
+      "title": "A positive square-energy strengthening of Turán's theorem",
+      "authors": [
+        "Yinchen Liu",
+        "Quanyu Tang",
+        "Shengtong Zhang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T15:12:53Z",
+        "updated": "2026-07-20T15:12:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $G$ be an $n$-vertex graph with clique number $ω(G)$, and let $s^+(G)$ denote the sum of the squared positive adjacency eigenvalues. We prove that $$ \\sqrt{s^+(G)}\\le\\left(1-\\frac{1}{ω(G)}\\right)n. $$ This strengthens Wilf's classical spectral Turán theorem and resolves a conjecture of Elphick and Wocjan. Adopting the relaxation of our companion paper on the square-energy conjecture, we reduce the theorem to a Motzkin--Straus inequality for doubly nonnegative matrices, which we prove via a local inverse-probability estimate for the Caro--Wei greedy algorithm on the complement.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18044v1",
+        "pdf": "https://arxiv.org/pdf/2607.18044v1",
+        "source": "https://export.arxiv.org/e-print/2607.18044v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 3,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 54,
+        "bibliography_entries": 38,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Turan.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "≤ ω, proving n− s (G) Conjecture 1.1. Acknowledgments and AI disclosure We used ChatGPT to generate exploratory code for testing conjectures and to help polish the language of proof drafts. All mathematical content was verified by the authors. The core ideas and the overall strategy of the proof were developed independently b",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:45.093275Z"
+      },
+      "score": 192.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 64.3,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 11,
+          "theorems": 18,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 13.5,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17672",
       "version": 1,
       "title": "Kirszbraun extensions preserving uniform distance in Hilbert spaces",
