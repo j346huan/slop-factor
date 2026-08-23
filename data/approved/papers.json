@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14497",
+      "version": 1,
+      "title": "Hybrid Dealiasing and Implicit Packing for Real Convolutions",
+      "authors": [
+        "Noel Murasko",
+        "John C. Bowman"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T17:12:59Z",
+        "updated": "2026-08-14T17:12:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Hybrid dealiasing is an FFT-based method for computing linear convolutions of complex-valued data that reduces the cost of dealiasing by performing zero padding implicitly. We develop two new algorithms that extend hybrid dealiasing to real-valued convolutions. The first algorithm exploits conjugate symmetries in the transformed data and computes each residue contribution directly. The second algorithm employs complex-valued hybrid dealiasing via a new implicit packing technique, which packs real-valued data into complex-valued arrays and performs all unpacking and packing operations implicitly in the transformed domain. Multidimensional versions of both algorithms are obtained by recursive decomposition into lower-dimensional convolutions. Based on these algorithms, efficient routines to compute convolutions of equal-length input arrays are implemented in the open-source FFTW++ library. These routines outperform the standard method of explicit zero padding in one, two, and three dimensions. In many cases, implicit packing without hybrid dealiasing is nearly as fast as the general hybrid dealiasing algorithm, particularly when multithreading.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14497v1",
+        "pdf": "https://arxiv.org/pdf/2608.14497v1",
+        "source": "https://export.arxiv.org/e-print/2608.14497v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 64,
+        "bibliography_entries": 0,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file real.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "4 as required. Acknowledgements. The authors thank Robert Joseph George for discussions regarding the extension of hybrid dealiasing to arrays of different sizes. The authors also acknowledge the use of ChatGPT and Qwen3.6 during the preparation of this manuscript to assist with code development, correct grammar and typographical er- rors, and improve the clarity and style of the text. The authors assume responsibility for all content. Financial support",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:31.174918Z"
+      },
+      "score": 90,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 45,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 19,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 16,
+          "bibliography_entries": 0,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14438",
       "version": 1,
       "title": "Positive Scalar Curvature and Volume Growth",
