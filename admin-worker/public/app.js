@@ -153,46 +153,61 @@ async function applyDecisionFile(file) {
   }
   const { decisions, skipped, errors } = validatedDecisions(value);
   const failures = [...errors];
-  let applied = 0;
+  let queuedApprovals = 0;
+  let rejected = 0;
   let deferred = 0;
-  for (const [index, item] of decisions.entries()) {
-    if (index > 0) {
-      await new Promise((resolve) => setTimeout(resolve, 3000));
-    }
+  const approvals = decisions.filter((item) => item.decision === "approve");
+  const rejections = decisions.filter((item) => item.decision === "reject");
+
+  if (approvals.length > 0) {
     try {
-      if (item.decision === "reject") {
-        await api(`/api/candidates/${item.candidate.issueNumber}/reject`, {
-          method: "POST",
-          body: JSON.stringify({
-            reason: "Rejected through imported decision file.",
-          }),
-        });
-        item.candidate.status = "rejected";
-      } else {
-        await api(`/api/candidates/${item.candidate.issueNumber}/approve`, {
-          method: "POST",
-          body: JSON.stringify({
-            evidenceIndex: item.evidenceIndex,
+      await api("/api/decisions/bulk", {
+        method: "POST",
+        body: JSON.stringify({
+          approvals: approvals.map((item) => ({
+            candidate: item.candidate,
             quotation: item.quotation,
             locationKind: item.locationKind,
             locationValue: item.location,
             page: item.page,
             classification: item.classification,
             multiplier: item.multiplier,
-          }),
-        });
+          })),
+        }),
+      });
+      for (const item of approvals) {
         item.candidate.status = "approval-submitted";
       }
-      applied += 1;
+      queuedApprovals = approvals.length;
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Request failed";
+      failures.push({
+        arxiv_id: `${approvals.length} approval(s)`,
+        error: message,
+      });
+    }
+  }
+
+  for (const [index, item] of rejections.entries()) {
+    if (index > 0) await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      await api(`/api/candidates/${item.candidate.issueNumber}/reject`, {
+        method: "POST",
+        body: JSON.stringify({
+          reason: "Rejected through imported decision file.",
+        }),
+      });
+      item.candidate.status = "rejected";
+      rejected += 1;
     } catch (error) {
       const message = error instanceof Error ? error.message : "Request failed";
       const rateLimited =
         error?.status === 429 ||
         message.toLowerCase().includes("secondary rate limit");
       if (rateLimited) {
-        deferred = decisions.length - index;
+        deferred = rejections.length - index;
         showNotice(
-          `GitHub temporarily limited writes. Applied ${applied}; ${deferred} deferred. Upload the same file later to resume.`,
+          `GitHub temporarily limited writes. Queued ${queuedApprovals} approvals; rejected ${rejected}; ${deferred} rejections deferred. Upload the same file later to resume.`,
           "error",
         );
         break;
@@ -206,7 +221,7 @@ async function applyDecisionFile(file) {
   elements["status-filter"].value = "pending";
   renderCandidates();
   renderCandidateCounts();
-  const summary = `Applied ${applied}; skipped ${skipped.length}; failed ${failures.length}; deferred ${deferred}.`;
+  const summary = `Queued ${queuedApprovals} approvals in one batch; rejected ${rejected}; skipped ${skipped.length}; failed ${failures.length}; deferred ${deferred}.`;
   const details = failures
     .map(
       (failure) =>

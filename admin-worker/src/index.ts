@@ -39,13 +39,18 @@ interface ApprovedCollection {
 interface CandidatePayload {
   candidate_id: string;
   paper: {
+    arxiv_id: string;
+    version: number;
     title: string;
     authors: string[];
     primary_category: string;
     secondary_categories: string[];
     submitted: string;
+    updated: string;
+    abstract: string;
     abstract_url: string;
     pdf_url: string;
+    source_url: string;
   };
   evidence: Array<{
     term?: string;
@@ -60,6 +65,16 @@ interface CandidatePayload {
     count_methods: Record<string, string>;
     count_notes: string[];
   };
+}
+
+interface BulkApprovalDraft {
+  candidate: CandidatePayload;
+  quotation: string;
+  locationKind: "page" | "metadata";
+  locationValue: string;
+  page: number | null;
+  classification: string;
+  multiplier: number;
 }
 
 interface ApprovalRequest {
@@ -179,13 +194,12 @@ function stableNumber(value: number): number {
 }
 
 function approvedRecord(
-  draft: Record<string, any>,
+  draft: BulkApprovalDraft,
   reviewer: string,
   verifiedAt: Date,
 ): object {
-  const candidate = draft.candidate as CandidatePayload;
-  const paper = candidate.paper as CandidatePayload["paper"] &
-    Record<string, any>;
+  const candidate = draft.candidate;
+  const paper = candidate.paper;
   const analysis = candidate.analysis;
   if (!paper.primary_category.startsWith("math.") || !analysis) {
     throw new Response("Approval lacks eligible metadata or analysis", {
@@ -232,11 +246,11 @@ function approvedRecord(
     Object.values(contributions).reduce((total, value) => total + value, 0),
   );
   const locationKind = String(draft.locationKind ?? "");
-  const page =
-    draft.page === null || draft.page === "" ? null : Number(draft.page);
+  const page = draft.page;
   if (
     !["page", "metadata"].includes(locationKind) ||
-    (locationKind === "page" && (!Number.isInteger(page) || page < 1))
+    (locationKind === "page" &&
+      (page === null || !Number.isInteger(page) || page < 1))
   ) {
     throw new Response("Approval has an invalid disclosure location", {
       status: 400,
@@ -750,22 +764,17 @@ async function api(
     }
     const verifiedAt = new Date();
     const records = approvals.map((draft) =>
-      approvedRecord(draft as Record<string, any>, user.login, verifiedAt),
+      approvedRecord(draft as BulkApprovalDraft, user.login, verifiedAt),
     );
     const main = await github<{ object: { sha: string } }>(
       token,
       `/repos/${env.PUBLIC_REPOSITORY}/git/ref/heads/main`,
     );
     const batchRef = `bulk-approval-${crypto.randomUUID()}`;
-    await github(
-      token,
-      `/repos/${env.PUBLIC_REPOSITORY}/git/refs`,
-      "POST",
-      {
-        ref: `refs/heads/${batchRef}`,
-        sha: main.object.sha,
-      },
-    );
+    await github(token, `/repos/${env.PUBLIC_REPOSITORY}/git/refs`, "POST", {
+      ref: `refs/heads/${batchRef}`,
+      sha: main.object.sha,
+    });
     try {
       await github(
         token,

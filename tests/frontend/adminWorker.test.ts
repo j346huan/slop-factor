@@ -99,6 +99,16 @@ describe("approval publication", () => {
     assert.doesNotMatch(workflow, /gh workflow run pages\.yml/);
   });
 
+  it("submits imported approvals through one bulk endpoint", () => {
+    const application = readFileSync("admin-worker/public/app.js", "utf8");
+    assert.match(application, /api\("\/api\/decisions\/bulk"/);
+    assert.match(application, /approvals: approvals\.map/);
+    assert.doesNotMatch(
+      application,
+      /candidates\/\$\{item\.candidate\.issueNumber\}\/approve/,
+    );
+  });
+
   it("recovers canceled approvals sequentially without stopping early", () => {
     const workflow = readFileSync(
       ".github/workflows/recover-cancelled-approvals.yml",
