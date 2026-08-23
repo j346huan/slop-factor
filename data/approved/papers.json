@@ -41769,6 +41769,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28988",
+      "version": 1,
+      "title": "Sharp Hausdorff Bounds for the Interior Singular Set of Convex $k$-Hessian Solutions",
+      "authors": [
+        "Xiyu Hu"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T03:32:22Z",
+        "updated": "2026-07-31T03:32:22Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $2\\le k\\le n$, let $Ω\\subset\\mathbb{R}^n$ be open and convex, and let $u$ be a convex viscosity solution of $σ_k(D^2u)=1$ in $Ω$. We prove that the set on which $u$ fails to be locally $C^2$ has vanishing $(n-1)$-dimensional Hausdorff measure. In the intermediate range $3\\le k<n$, this gives a codimension-one refinement of the known almost-everywhere partial regularity, and the exponent is sharp. More generally, for a convex viscosity subsolution of $σ_k(D^2u)\\geλ>0$, we obtain Hausdorff bounds for strata defined by the affine dimension of all supporting contact sets. The proof combines a support-dependent Chou--Wang barrier argument, an estimate for the product of the smallest $k$ semiaxes of a John ellipsoid, and Mooney's convex section-covering theorem. As a direct analytical consequence, the full distributional Hessian is absolutely continuous and $u\\in W^{2,1}_{\\mathrm{loc}}(Ω)$, yielding a $k$-Hessian counterpart of the $W^{2,1}$ regularity known for singular Monge--Ampère solutions. In a logically separate structural part, we characterize the distinguished number of flat directions, $n-k+1$, by an asymptotic infimum mean-value formula over affine sections, and explain how this mean-value heuristic leads to the supporting-contact geometry used in the proof.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28988v1",
+        "pdf": "https://arxiv.org/pdf/2607.28988v1",
+        "source": "https://export.arxiv.org/e-print/2607.28988v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 8,
+        "lemmas": 15,
+        "propositions": 5,
+        "corollaries": 4,
+        "definitions": 0,
+        "displayed_equations": 240,
+        "bibliography_entries": 38,
+        "appendix_pages": 9
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "suggestions that improved the presentation and writing, and to Xi-Nan Ma for reading an early draft and offering helpful comments. Statement on the use of artificial intelligence. During the preparation of this manuscript, the author used large language models as auxiliary technical tools for literature discovery, brainstorming conceptual frameworks, and improving the presentation of mathematical arguments and English prose. All mathematical claims and proofs were rigorously verified by the auth",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:22.426537Z"
+      },
+      "score": 511.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 255.8,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 34,
+          "theorems": 48,
+          "lemmas": 60,
+          "propositions": 20,
+          "corollaries": 12,
+          "definitions": 0,
+          "displayed_equations": 60,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 18
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28900",
       "version": 1,
       "title": "Finding 59:29 in the Monster",
