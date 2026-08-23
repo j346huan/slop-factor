@@ -8768,6 +8768,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16471",
+      "version": 1,
+      "title": "Lipschitz surjections between self-similar sets",
+      "authors": [
+        "Attila Gáspár"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.CA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T12:08:45Z",
+        "updated": "2026-08-17T12:08:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give a characterization of the existence of Lipschitz surjections between dust-like self-similar sets of the same dimension under the assumption that the similarity ratios are commensurable. Our results apply more generally to graph-directed fractals.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16471v1",
+        "pdf": "https://arxiv.org/pdf/2608.16471v1",
+        "source": "https://export.arxiv.org/e-print/2608.16471v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 6,
+        "lemmas": 8,
+        "propositions": 12,
+        "corollaries": 1,
+        "definitions": 5,
+        "displayed_equations": 53,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file gd_lip.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ents on an earlier version of the paper. The author was supported by the National Research, Development and Innova- tion Office – NKFIH, grants nos. 146922 and 152822. Declaration of generative AI and AI-assisted technologies OpenAI’s ChatGPT was used to obtain feedback on earlier drafts of this man- uscript, including possible mathematical inaccuracies, missing details, inconsisten- cies in constants and notation, typographical errors, and clear language issues. The mathematic",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:58.410343Z"
+      },
+      "score": 641,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 160.25,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 18,
+          "theorems": 36,
+          "lemmas": 32,
+          "propositions": 48,
+          "corollaries": 3,
+          "definitions": 10,
+          "displayed_equations": 13.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16464",
       "version": 1,
       "title": "Measurable Matroids: Foundations and Min--Max Theorems",
