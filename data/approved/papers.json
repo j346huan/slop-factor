@@ -9100,6 +9100,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09407",
+      "version": 2,
+      "title": "On the Hautus test for exact observability of normal semigroups",
+      "authors": [
+        "Jannik Daun",
+        "Birgit Jacob"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T10:34:02Z",
+        "updated": "2026-08-11T04:20:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $T$ be an exponentially stable strongly continuous semigroup on a Hilbert space $X$, $A$ its generator, $X_1$ the domain of $A$ with the norm $\\|v\\|_1 := \\|Av\\|$, and $C$ an admissible observation operator taking values in a Hilbert space $Y$. Russell and Weiss conjectured that if $(A,C)$ satisfies the infinite-dimensional Hautus test, then $(A,C)$ is exactly observable. After a counterexample was found their conjecture was modified to include the additional assumption that $T$ is similar to a contraction semigroup. We disprove this modified conjecture by constructing a counterexample in which $A$ is normal, $X$ has an orthonormal basis of eigenvectors of $A$ and $C: X_1 \\to Y$ is Hilbert-Schmidt. Since $A$ is normal and $T$ is exponentially stable, it follows that $T$ is a contraction semigroup. In contrast, we prove that the Hautus test implies exact observability for self-adjoint $A$. Finally, we show that if $A$ is normal and $C:X_1 \\to Y$ is compact, then the Hautus test implies that $A$ has compact resolvent. Consequently, for normal $A$ and finite-dimensional $Y$ the Hautus test implies exact observability.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09407v2",
+        "pdf": "https://arxiv.org/pdf/2608.09407v2",
+        "source": "https://export.arxiv.org/e-print/2608.09407v2"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 17,
+        "corollaries": 2,
+        "definitions": 5,
+        "displayed_equations": 117,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file article_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "α1 ≤ Im z ≤ α2 for all z ∈ σ(A), does the Hautus test imply exact observability? More generally, if A is normal and −A is sectorial of angle strictly less than π/2, does the Hautus test imply exact observability? Acknowledgments ChatGPT (GPT-5.6-sol) was used to proofread the paper, to find relevant literature, and to provide some initial proof ideas. Nevertheless, the final proofs in this paper are developed by the authors, using the ChatGPT-generated proof ideas as a starting po",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:04.681213Z"
+      },
+      "score": 1266,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 158.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 19,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 68,
+          "corollaries": 6,
+          "definitions": 10,
+          "displayed_equations": 29.25,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09394",
       "version": 1,
       "title": "A sharp extension of Halin's removable-edge theorem to matchings",
