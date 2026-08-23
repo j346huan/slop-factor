@@ -42366,6 +42366,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25031",
+      "version": 1,
+      "title": "Transfer Learning in High-Dimensional Clustering: Minimax Thresholds and Applications in Single-Cell Data",
+      "authors": [
+        "Abhinav Chakraborty",
+        "Sagnik Nandy"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "stat.ME",
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T19:43:03Z",
+        "updated": "2026-07-27T19:43:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Clustering is a fundamental problem in statistics, with applications across many scientific disciplines. In many modern applications involving clustering, the primary dataset (the target data) is accompanied by related datasets (the source data). Transferring information from such sources may improve clustering accuracy in the target, making transfer learning for clustering practically important. Despite recent progress, the conditions under which source data improve target clustering remain unclear in high-dimensional settings, even for the canonical Gaussian mixture model. In this paper, we study the clustering problem in a two-community Gaussian mixture model where relatedness is captured by the geometric alignment of the target and source cluster means. We develop a minimax-optimal transfer-assisted clustering procedure and characterize, up to logarithmic factors, the phase transition for consistent target clustering in terms of the signal-to-noise ratios, sample sizes, ambient dimension, and degree of alignment between the datasets. The technique is also extended to adaptively choose between the target-only or the source assisted clustering depending on the target signal strength. Furthermore, we also extend our techniques to accommodate multiple communities and and multiple source datasets. Extensive simulations and an analysis of a human lung single-cell RNA-sequencing atlas demonstrate the practical effectiveness of our methods.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25031v1",
+        "pdf": "https://arxiv.org/pdf/2607.25031v1",
+        "source": "https://export.arxiv.org/e-print/2607.25031v1"
+      },
+      "structural_counts": {
+        "pages": 90,
+        "theorems": 10,
+        "lemmas": 30,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 776,
+        "bibliography_entries": 123,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv_version.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "plore such areas in future research. Use of generative AI. The authors have used ChatGPT 5.5 and 5.6 for proof checking, copyediting text and brainstorming ideas. The major ideas underlying some proofs also developed from discussion with ChatGPT. The authors however verified correctness of all results, re-wrote the arguments and own complete responsibility. The authors have also used Claude code for simulations and data analysis. Once again, all codes were carefully checked by the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:40.591211Z"
+      },
+      "score": 3810.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 476.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 90,
+          "theorems": 60,
+          "lemmas": 120,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 194,
+          "bibliography_entries": 12.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25023",
       "version": 1,
       "title": "Schrijver Number Quasi-Tensorization and Multicolor Ramsey Bounds via Robust OR Polynomials",
