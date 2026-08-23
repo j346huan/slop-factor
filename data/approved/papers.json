@@ -42871,6 +42871,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29105",
+      "version": 1,
+      "title": "The N-Prime Graph Question is equivalent to the Prime Graph Question",
+      "authors": [
+        "Brecht Verbeken"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T07:33:53Z",
+        "updated": "2026-07-31T07:33:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $G$ be a finite group and let $V(\\mathbb ZG)$ be the group of normalized units of its integral group ring. We prove that every $N$-prime arc of $V(\\mathbb ZG)$ either already occurs in $G$ or admits commuting witnesses of distinct prime orders. Writing $A(Δ)$ for the arc set of a directed graph $Δ$, $E(Δ)$ for the edge set of an undirected graph, and $\\operatorname{Sym}(E)$ for the two orientations of the edges in $E$, this is equivalent to the exact formula \\[ A\\bigl(Γ_{\\mathrm N}(V(\\mathbb ZG))\\bigr) = A\\bigl(Γ_{\\mathrm N}(G)\\bigr) \\cup \\operatorname{Sym}\\!\\bigl( E(Γ_{\\mathrm{GK}}(V(\\mathbb ZG))) \\bigr). \\] Consequently, the $N$-Prime Graph Question has an affirmative answer for $G$ if and only if the Prime Graph Question does.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29105v1",
+        "pdf": "https://arxiv.org/pdf/2607.29105v1",
+        "source": "https://export.arxiv.org/e-print/2607.29105v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 24,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file nprime_pq_equivalence_proof.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "knowledgements The author is grateful to Ángel del Río and Emanuele Pacifici for carefully reading an earlier version of the manuscript, and for their helpful feedback and generous encouragement. Declaration on the use of automated tools OpenAI Codex and ChatGPT were used to assist with literature searches, manuscript organization, language editing, and LATEX preparation. The author verified the mathematical arguments and bibliographic information and assumes full responsibility",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:39.593252Z"
+      },
+      "score": 131.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 32.8,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 5,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 6,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29103",
       "version": 1,
       "title": "A topological proof that compact Hausdorff spaces are not finitely co-concrete",
