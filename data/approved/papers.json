@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17293",
+      "version": 1,
+      "title": "Characterizing the equality case in Brouwer's inequality for Laplacian eigenvalues",
+      "authors": [
+        "Yuhang Cui",
+        "Xiaodan Chen"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-19T15:24:59Z",
+        "updated": "2026-07-19T15:24:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Brouwer conjectured that the sum of the $k$ largest Laplacian eigenvalues of an $n$-vertex graph is less than or equal to the number of its edges plus $\\binom{k+1}{2}$ for every $k\\in \\{1,2,\\dots,n\\}$, which has been confirmed by Kothari and Tudose (2026) recently. In this note, we characterize the equality case in this inequality. Our main result is that for every $n$-vertex graph $G=(V,E)$ and for every $k\\in \\{1,2,\\dots,n-1\\}$, the equality $\\sum_{i=1}^kμ_i(G)=|E(G)|+\\binom{k+1}{2}$ holds if and only if $G$ is a threshold graph with clique number $k+1$, where $μ_1(G)\\geq μ_2(G)\\geq \\cdots\\geq μ_{n}(G)$ are the Laplacian eigenvalues of $G$. This, together with the confirmed Brouwer's conjecture, would yield a complete solution to the full Brouwer's conjecture posed by Li and Guo (2022). Our proof relies on the projection method of Kothari and Tudose and shows directly that the equality case can occur only for threshold graphs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17293v1",
+        "pdf": "https://arxiv.org/pdf/2607.17293v1",
+        "source": "https://export.arxiv.org/e-print/2607.17293v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 43,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Characterizing_the_equality_case_in_Brouwer_inequality_for_Laplacian_eigenvalues.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e projection method of Kothari and Tudose [15]. The main difference is that we show directly that the equality case can occur only for threshold graphs by Lemma 2.3, whereas the work [4] for split graphs. Declaration of AI Use. We used GPT 5.5 Pro to simplify our proof for Lemma 2.4. References [1] H. Bai, The Grone–Merris conjecture, Trans. Amer. Math. Soc. 363 (2011), 4463–4474. [2] J. Berndsen, Three problems in algebraic combinatorics, Master’s thesis, Eindhoven Univers",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:48.581884Z"
+      },
+      "score": 348.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 43.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 8,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 10.75,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16978",
       "version": 1,
       "title": "Real-World, Large Scale, Multi-Period Log Truck Routing and Scheduling : Application to Canadian Forestry",
