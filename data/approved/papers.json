@@ -42970,6 +42970,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12069",
+      "version": 2,
+      "title": "Noncommutative Floquet-Bloch Theory for Nilpotent Groups: Representation-Theoretic Foundations",
+      "authors": [
+        "Atsushi Katsuda"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.GR",
+          "math.OA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-13T18:41:48Z",
+        "updated": "2026-07-19T14:09:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Classical Floquet-Bloch theory decomposes abelian periodic problems over the character torus of the lattice. For nonabelian nilpotent lattices, the non-type I obstruction rules out a comparable parametrization of the full unitary dual. We do not attempt to remove this obstruction. Instead, we construct an exact Bloch-type replacement on the representation-theoretic part of the theory which is visible from rational Kirillov data and from finite-dimensional rational fibers. Let $Γ$ be a torsion-free finitely generated nilpotent group and let $G$ be its Malcev completion. For an irreducible unitary representation $π_l$ of $G$ attached to a rational Kirillov parameter $l\\in\\mathfrak{g}_{\\mathbb Q}^{*}$, we prove an exact restriction theorem for $π_l|_Γ$. The branching is first described by induced representations attached to rational polarizations. On the rational odd locus relevant to finite-dimensional representations, it further decomposes into finite-dimensional irreducible representations of $Γ$. On these finite-dimensional rational fibers we construct a positive finitely additive Plancherel measure. It gives Fourier inversion and normalized trace identities for nilpotent lattices, recovering Pytlik's formula in the discrete Heisenberg case.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12069v2",
+        "pdf": "https://arxiv.org/pdf/2607.12069v2",
+        "source": "https://export.arxiv.org/e-print/2607.12069v2"
+      },
+      "structural_counts": {
+        "pages": 60,
+        "theorems": 19,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 194,
+        "bibliography_entries": 32,
+        "appendix_pages": 59
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file NoncommutativeFB_foundations_v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "dard orbit-method facts for nilpotent Lie groups. The finite-quotient material included there is only a record of the trace-functional convention used in Section 3; it is not a second proof of the finite-dimensional decomposition. Use of AI tools AI and LLM tools were used as editorial and checking assistants: for copy-editing, notation and cross-reference checks, and assistance with LATEX preparation. They were not used as independent sources of mathematical results. All mathemati",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:55.180793Z"
+      },
+      "score": 1414.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 353.7,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 60,
+          "theorems": 114,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 48.5,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 118
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.11863",
       "version": 1,
       "title": "Magnitude homology of tope graphs",
