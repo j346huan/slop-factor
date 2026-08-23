@@ -41852,6 +41852,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24724",
+      "version": 1,
+      "title": "Exponentially Many Circuit Double Covers",
+      "authors": [
+        "Radek Hušek",
+        "Robert Šámal"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T17:55:57Z",
+        "updated": "2026-07-27T17:55:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The cycle double cover conjecture of Szekeres and Seymour, the proof of which was recently announced by OpenAI, states that every bridgeless graph has a collection of cycles covering every edge exactly twice. We study the counting version of this statement for cubic graphs, where we count circuit double covers --- collections of circuits (connected 2-regular subgraphs) covering every edge twice. We show that every 2-edge-connected 3-edge-colorable cubic graph on $n$ vertices has at least $2^{n/2-1}$ circuit double covers, matching our previously conjectured general lower bound. For every 3-edge-connected cubic graph with girth at least 16 we show a weaker exponential lower bound on circuit double covers. For both of these results we use the same system of linear equations used by OpenAI in their proof, however, we provide additional combinatorial interpretation. We characterize planarity of a cubic graph by solvability of this system of equations for arbitrary nowhere-zero $\\mathbb Z_2^k$-flow. We give a condition on the flow that is equivalent to existence of a 5-cycle double cover.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24724v1",
+        "pdf": "https://arxiv.org/pdf/2607.24724v1",
+        "source": "https://export.arxiv.org/e-print/2607.24724v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 9,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 6,
+        "definitions": 7,
+        "displayed_equations": 25,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file circuit_double_covers.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "low induced by its labels; Theorem 3.16 then gives the parity condition. Theorem 3.4 guarantees the existence of NZ Z32 -flows, but the remaining problem is to choose one with this additional parity property. Acknowledgments We have used GPT 5.6 and Claude Fable for draft versions of the paper. References [Cel] Uldis A. Celmins, On cubic graphs that do not have an edge 3-coloring, Ph.D. thesis, University of Waterloo, 1984. [DLMS] M. DeVos, R. Langhede, B. Mohar, R.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:54.462049Z"
+      },
+      "score": 549.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 109.95,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 16,
+          "theorems": 54,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 18,
+          "definitions": 14,
+          "displayed_equations": 6.25,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24697",
       "version": 2,
       "title": "Trace radicals and cocenters of free products",
