@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26673",
+      "version": 1,
+      "title": "Almost-Hermitian and Hermitian metrics",
+      "authors": [
+        "Daniele Angella"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math.CV"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-29T09:28:55Z",
+        "updated": "2026-07-29T09:28:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We describe three problems in Hermitian geometry related to the scalar curvature of the Chern connection, aimed at identifying and constructing canonical metrics. They are chosen as toy examples where different techniques naturally interact: analytic methods for partial differential equations, the notion of momentum map, and variational methods.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26673v1",
+        "pdf": "https://arxiv.org/pdf/2607.26673v1",
+        "source": "https://export.arxiv.org/e-print/2607.26673v1"
+      },
+      "structural_counts": {
+        "pages": 44,
+        "theorems": 9,
+        "lemmas": 0,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 245,
+        "bibliography_entries": 364,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "t along the way. Funding. The author is partially supported by GNSAGA of INdAM. Competing interests. The author is a member of the Scientific Committee and serves as Scientific Secretary of CIME. Tool and computational resource disclosure. Large language models were used to assist with English proofreading, notational consistency, and LATEX transcription of results established by the author and collaborators. In some instances, they were also used to cross-check computations and gather results fr",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 41",
+          "page": 41
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:37.473646Z"
+      },
+      "score": 652.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 217.65,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 44,
+          "theorems": 54,
+          "lemmas": 0,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 61.25,
+          "bibliography_entries": 36.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26671",
       "version": 1,
       "title": "A Brenier-Strassen Theorem on CAT(kappa) Spaces",
