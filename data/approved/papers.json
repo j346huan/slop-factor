@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13222",
+      "version": 1,
+      "title": "Obstructions to homomorphisms between homogeneous C*-algebras",
+      "authors": [
+        "Ilan Hirshberg",
+        "N. Christopher Phillips"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T19:30:32Z",
+        "updated": "2026-07-14T19:30:32Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a method to find new obstructions to the existence of homomorphisms between homogeneous C*-algebras with prescribed behavior on K-theory. As an application, we give a complete answer to a problem posed by Blackadar in 1993 concerning the existence of unital homomorphisms between algebras of matrix-valued functions on even spheres which are injective on K_0: we show that if n, d, k, r are natural numbers and k is not in the range n, n+1, ..., n+d-1, then there is no unital homomorphism from C (S^{2n}, M_r) to C (S^{2k}, M_{dr}) which is injective on K_0.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13222v1",
+        "pdf": "https://arxiv.org/pdf/2607.13222v1",
+        "source": "https://export.arxiv.org/e-print/2607.13222v1"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 4,
+        "lemmas": 18,
+        "propositions": 4,
+        "corollaries": 5,
+        "definitions": 5,
+        "displayed_equations": 169,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "4.1, which settles Blackadar’s problem. We conclude with a few remarks and open problems in Section 5. We thank Andrew Toms, Ben Elias, Robert Lipshitz, Nicholas Proudfoot and especially Dev Sinha for helpful conversations and pointers. ChatGPT was used to help simplify and generalize one of the technical steps in our cohomology computations, to search for references, to suggest draft language for a few passages, and to proofread. 2. Preliminaries",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:04.274013Z"
+      },
+      "score": 1073.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 214.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 33,
+          "theorems": 24,
+          "lemmas": 72,
+          "propositions": 16,
+          "corollaries": 15,
+          "definitions": 10,
+          "displayed_equations": 42.25,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13170",
       "version": 2,
       "title": "On Rates Attainable under Random Design: A Negative Answer to a Problem of Robins",
