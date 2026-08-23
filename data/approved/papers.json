@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.11648",
+      "version": 3,
+      "title": "Superlinear complexity of the $(3/2)^n$ steering word",
+      "authors": [
+        "Ralf Stephan"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-13T15:02:04Z",
+        "updated": "2026-08-03T08:59:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Write $(3/2)^n = m_n + \\varepsilon_n$ with $m_n$ the nearest integer and $\\varepsilon_n\\in[-\\tfrac12,\\tfrac12)$, and let $T=(t_n)$, $t_n=2m_{n+1}-3m_n$, be the resulting \\emph{steering word}: the step-by-step record of the map $x\\mapsto\\tfrac32 x$ on the orbit of 1, coded by nearest-integer rounding. Using results by Corvaja--Zannier and Nair--Kumar--Rout we prove that the subword complexity $p_{T}(k)$ of $T$ is superlinear, $p_{T}(k)/k\\to\\infty$. The argument is completely formalized in Lean~4 and rests on a single external input, the Evertse--Schlickewei $S$-arithmetic subspace theorem, from which both cited results are themselves derived within the formalization.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.11648v3",
+        "pdf": "https://arxiv.org/pdf/2607.11648v3",
+        "source": "https://export.arxiv.org/e-print/2607.11648v3"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 12,
+        "lemmas": 4,
+        "propositions": 4,
+        "corollaries": 4,
+        "definitions": 5,
+        "displayed_equations": 50,
+        "bibliography_entries": 24,
+        "appendix_pages": 7
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper-M4A3-v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "7. Acknowledgements The author thanks P. S. Nair, V. Kumar and S. S. Rout for their prompt response to the counterexample of Remark 5.4 and for the corrected state- ment recorded in Remark 5.5. The author utilized Claude Code as an AI coding assistant to aid in the Lean 4 formalization of the proofs presented in this paper. The author directed and reviewed all generated code and takes full responsibility for the mathematical integrity and final content of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:51:41.537310Z"
+      },
+      "score": 359.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 179.9,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 25,
+          "theorems": 72,
+          "lemmas": 16,
+          "propositions": 16,
+          "corollaries": 12,
+          "definitions": 10,
+          "displayed_equations": 12.5,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 14
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.11534",
       "version": 2,
       "title": "Fractal uncertainty principle over $\\mathbb{Q}_p$",
