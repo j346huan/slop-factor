@@ -42285,6 +42285,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28279",
+      "version": 1,
+      "title": "On Sirakov's equal-frequency uniqueness conjecture",
+      "authors": [
+        "Hong-Ge Chen",
+        "Yong Liu",
+        "Juncheng Wei",
+        "Wen Yang"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T14:28:43Z",
+        "updated": "2026-07-30T14:28:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $N\\in\\{2,3\\}$, $0<μ_1\\leqμ_2$, and $0<β<μ_1$. We prove that the equal-frequency two-component cubic Schrödinger system \\[ -Δu+u=μ_1u^3+βuv^2, \\qquad -Δv+v=μ_2v^3+βu^2v \\quad\\text{in }\\mathbb{R}^N \\] has exactly one positive solution in $H^1(\\mathbb{R}^N)\\times H^1(\\mathbb{R}^N)$ modulo simultaneous translations. More precisely, every positive solution is a simultaneous translate of the synchronized state constructed from the unique positive radial solution of $-Δw+w=w^3$ in $\\mathbb{R}^N$. This settles Sirakov's equal-frequency uniqueness conjecture throughout the weak-coupling range. The main difficulty in the proof is to exclude radial solutions for which the ratio of the normalized components is nonconstant. After normalization, the two components satisfy scalar equations with a common potential. We construct a weighted Pohozaev functional for the system together with a correction term and prove that both the corrected functional and the associated weighted functional are strictly positive. Combining these sign properties with a radial flux identity and an auxiliary quotient associated with the component ratio forces synchronization.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28279v1",
+        "pdf": "https://arxiv.org/pdf/2607.28279v1",
+        "source": "https://export.arxiv.org/e-print/2607.28279v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 1,
+        "lemmas": 9,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 161,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Weak-coupling_uniqueness-revised5.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "u (Grant No. MYRG- GRG2025-00051-FST), and the University of Macau Development Foundation (Grant No. TISF/2025/006/FST). Data availability statement: There are no data associated with this article. AI assistance statement: The authors used AI models to assist with calculations and writings; the main ideas, mathematical validation, and all final checks remain the sole responsibility of the human authors. R EFERENCES [1] T. Bartsch, Z.Q. Wang,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:36.460606Z"
+      },
+      "score": 352.05,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 117.35,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 22,
+          "theorems": 6,
+          "lemmas": 36,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 40.25,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28253",
       "version": 1,
       "title": "An improved range for the maximum critically $t$-intersecting hypergraphs",
