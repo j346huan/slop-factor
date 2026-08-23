@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20361",
+      "version": 1,
+      "title": "Selfless C*-correspondences, operator valued C*-probability spaces and completely positive maps",
+      "authors": [
+        "David Gao",
+        "Marius Junge",
+        "Srivatsav Kunnawalkam Elayavalli",
+        "Gregory Patchell",
+        "Leonel Robert"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T16:51:01Z",
+        "updated": "2026-07-22T16:51:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a general theory of selflessness for C*-correspondences, with several applications. Specializing this theory to completely positive maps, in particular to conditional expectations, gives rise to a novel notion of relative selflessness. Among applications, the machinery developed here yields new examples of selfless C*-algebras, for instance among minimal tensor products and reduced crossed products, new examples of MF C*-algebras arising as reduced amalgamated free products, a conceptually new proof of Kirchberg's $\\mathcal{O}_{\\infty}$-absorption theorem, and the lack of ``phantom'' traces on ultrapowers.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20361v1",
+        "pdf": "https://arxiv.org/pdf/2607.20361v1",
+        "source": "https://export.arxiv.org/e-print/2607.20361v1"
+      },
+      "structural_counts": {
+        "pages": 38,
+        "theorems": 23,
+        "lemmas": 10,
+        "propositions": 5,
+        "corollaries": 7,
+        "definitions": 11,
+        "displayed_equations": 212,
+        "bibliography_entries": 136,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file newmain.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ng from crossed products. Acknowledgments. We are grateful to the Brin Mathematical Research Center for hosting the workshop “Recent developments in operator algebras” organized by the third author, wherein this work began. AI statement. ChatGPT was used for English language editing, proofreading, and grammatical corrections. All mathematical content was generated solely by the human authors. 2. Preliminaries Throughout, all C*-algebras are assu",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:59.577474Z"
+      },
+      "score": 1382.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 345.6,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 38,
+          "theorems": 138,
+          "lemmas": 40,
+          "propositions": 20,
+          "corollaries": 21,
+          "definitions": 22,
+          "displayed_equations": 53,
+          "bibliography_entries": 13.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20359",
       "version": 3,
       "title": "Sphere Packings and Kissing Numbers in Dimensions 39, 43, and 45 from the Antipode Construction",
