@@ -43552,6 +43552,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26450",
+      "version": 2,
+      "title": "Improved Bounds for Distinct Multiples in Intervals",
+      "authors": [
+        "Kaizhe Chen",
+        "Samuel Korsky"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-29T04:03:50Z",
+        "updated": "2026-08-13T19:29:35Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $n\\ge1$, let $F(n)$ be the least $H$ such that any $H$ consecutive integers contain $n$ pairwise distinct integers $a_1, a_2, \\dots, a_n$ with $k \\mid a_k$ for $1\\le k\\le n$, and define $h_{\\mathbb P}(n)$ analogously for the primes at most $n$. We prove \\[ F(n)\\le n^{4/3}\\exp\\!\\left(O\\!\\left(\\frac{\\log n}{\\log\\log n}\\right)\\right), \\qquad h_{\\mathbb P}(n)\\ll \\frac{n^{4/3}}{(\\log n)^{1/3}}, \\] and \\[ F(n) \\ge h_{\\mathbb P}(n)\\ge n\\exp\\!\\left( \\left(\\frac{\\log 2}{2}-o(1)\\right) \\frac{\\log n}{\\log\\log n} \\right). \\] The upper bounds follow from a new estimate for unions of arithmetic progressions. The lower bound adapts a quadratic-residue compression construction of Green and Ruzsa.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26450v2",
+        "pdf": "https://arxiv.org/pdf/2607.26450v2",
+        "source": "https://export.arxiv.org/e-print/2607.26450v2"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 4,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 58,
+        "bibliography_entries": 11,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Distinct_Multiples.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "|ΓI(m,H) (S)| ≥ |ΓIb (S)| ≥ Bc|S|1/θ ≥ n1−1/θ |S|1/θ ≥ |S|. b=1 Hall’s theorem implies F (n) ≤ H ≪η n2−1/θ . Letting η → 0 gives the desired statement. Statement on AI The authors used ChatGPT-5.6 Sol as an exploratory and proof-auditing tool during the development and refinement of the arguments. The authors have carefully checked all mathematical proofs and take responsibility for the manuscript. References [1] P. Erdős, So",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:25.962514Z"
+      },
+      "score": 636.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 79.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 10,
+          "theorems": 24,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 14.5,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26378",
       "version": 1,
       "title": "Essential Simplices Dominate in Harmonic Representatives of One-Dimensional Persistent Classes",
