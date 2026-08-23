@@ -42102,6 +42102,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18128",
+      "version": 1,
+      "title": "Feedback Cycles in Exploratory Equilibria",
+      "authors": [
+        "Chen-Hung Wu"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.NA",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-20T16:20:55Z",
+        "updated": "2026-07-20T16:20:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Entropy regularization smooths equilibrium policies in time-inconsistent stochastic control. At low temperature, the same Gibbs response can strongly amplify errors in learned rewards and dynamics. We show that the derivative of an exploratory equilibrium is governed by a backward Volterra-parabolic resolvent. Along an aligned positive mode, a lower bound has the same exponential order. A block decomposition identifies the source of the amplification: causal paths contribute powers of 1/tau, whereas a positive feedback cycle can produce exponential growth. At fixed temperature, a local equilibrium branch is twice differentiable with respect to finite-dimensional model parameters, which yields a function-valued delta method. A bounded uniformly elliptic diffusion realizes this path-cycle distinction in every finite dimension. Closing one positive cycle changes the root-n linear-response boundary from a power law to order 1/log n; along the cyclic Perron mode, right-endpoint discretization is relatively consistent exactly when N tau^2 -> infinity. An affine model also gives an exact nonlinear transition at the Lambert-W temperature beta T / W(beta T sqrt(n)). Numerical calculations illustrate these rates.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18128v1",
+        "pdf": "https://arxiv.org/pdf/2607.18128v1",
+        "source": "https://export.arxiv.org/e-print/2607.18128v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 9,
+        "lemmas": 2,
+        "propositions": 4,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 147,
+        "bibliography_entries": 31,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file feedback_cycles_sicon.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nd fixed positive temperature, except in the exactly solvable affine model. Action-dependent diffusion, nonsmooth estimators, and graph criteria for state-dependent equilibria remain unresolved. Declaration of generative-AI assistance. OpenAI ChatGPT/Codex (July 2026) assisted with literature searches, drafting, editing, mathematical checks, and numerical code. The author assumes responsibility for all content. Code availability. The accompanying reproducibility archive contains th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:33.203811Z"
+      },
+      "score": 1350.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 168.85,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 36,
+          "theorems": 54,
+          "lemmas": 8,
+          "propositions": 16,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 36.75,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18121",
       "version": 1,
       "title": "Krasnosel'skii-Mann iterations beyond asymptotics: a combinatorial analysis",
