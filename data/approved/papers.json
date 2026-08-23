@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.19240",
+      "version": 1,
+      "title": "A Nonmonotone Real-Rootedness Set for Symmetric Imaginary Shifts",
+      "authors": [
+        "Vasily Stodolsky"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T17:06:43Z",
+        "updated": "2026-08-13T17:06:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a real polynomial $F$ and $ω\\geq 0$, set $A_ω(z)=(F(z+iω)+F(z-iω))/2$ and $Ω_F=\\{ω\\geq0:A_ω\\text{ has only real zeros}\\}$. We present an explicit rational even polynomial of degree eight for which $6/25$ and $12/25$ belong to $Ω_F$, while $3/10$ does not. Exact Sturm certificates give respectively eight, four, and eight distinct real zeros. Consequently $Ω_F$ is neither an interval nor an up-set. All zeros of $F$ lie in the strip $|\\operatorname{Im}z|\\leq11/25$, and the classical strip-contraction theorem gives the eventual tail $[11/25,\\infty)\\subsetΩ_F$. We also include a direct elementary proof of that tail and a standard-library exact verifier.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.19240v1",
+        "pdf": "https://arxiv.org/pdf/2608.19240v1",
+        "source": "https://export.arxiv.org/e-print/2608.19240v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 19,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file nonmonotone_imaginary_shifts.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ip and provenance update Authorship and accountability. The theorem statements and candidate proofs were materially generated and revised with AI systems. Vasily Stodolsky is the named author, approved this version, and accepts responsibility for all its contents. The end-matter AI Use and Proven",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:03.772824Z"
+      },
+      "score": 185.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 18.55,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 7,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 4.75,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13443",
       "version": 1,
       "title": "Fundamental Gaps for the Dirichlet \\(p\\)-Laplacian with Convex Potentials: Sharp One-Dimensional Bounds and a Higher-Dimensional Dichotomy",
