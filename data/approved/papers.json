@@ -9526,6 +9526,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17072",
+      "version": 1,
+      "title": "Mild p-Class Tower Groups of Imaginary Quadratic Fields",
+      "authors": [
+        "Denis Vogel"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T19:21:56Z",
+        "updated": "2026-08-17T19:21:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $K$ be an imaginary quadratic number field, let $p$ be an odd prime, and let $G_{\\emptyset}(K)(p)$ be the Galois group of the maximal everywhere unramified pro-$p$ extension of $K$. To each mod-$p$ character $x$ of this group we associate a secondary norm operator $D_x \\colon \\mathrm{Cl}(K)[p] \\to \\mathrm{Cl}(K)/p$. These operators determine all triple Massey products on $H^1(G_{\\emptyset}(K)(p), \\mathbb{F}_p)$, and hence the cubic initial relations of the group. In $p$-class rank three, the $2 \\times 2$ minors of the family $x \\mapsto D_x$ define a subscheme of $\\mathbb{P}^2_{\\mathbb{F}_p}$, an invariant of $K$ which we call the norm-degeneracy scheme. We prove: if this scheme has a reduced isolated closed point on the vanishing locus of the diagonal Massey product, then $G_{\\emptyset}(K)(p)$ is mild, and hence has cohomological dimension $2$. We treat every imaginary quadratic field with $|D_K| < 2^{30}$ of odd $p$-class rank three. The only primes that occur are $p = 3$, $5$, and $7$. We prove, unconditionally, mildness of the $p$-class tower group for $864$ of the $12749$ fields at $p = 3$, for $203$ of the $204$ fields at $p = 5$, and for all three fields at $p = 7$. To the best of our knowledge, these are the first number fields for which the full maximal everywhere unramified pro-$p$ Galois group is proved to be mild. In particular, they provide explicit infinite $p$-class towers whose Galois groups have cohomological dimension $2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17072v1",
+        "pdf": "https://arxiv.org/pdf/2608.17072v1",
+        "source": "https://export.arxiv.org/e-print/2608.17072v1"
+      },
+      "structural_counts": {
+        "pages": 63,
+        "theorems": 9,
+        "lemmas": 19,
+        "propositions": 10,
+        "corollaries": 5,
+        "definitions": 9,
+        "displayed_equations": 235,
+        "bibliography_entries": 48,
+        "appendix_pages": 57
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Massey-main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "c formula evaluated in these computations is that of Ahlqvist–Carlson [1], and the passage to the relations of the tower group uses the comparison of Ahlqvist–Pink [3]. The external ingredients are delimited in Appendix C. AI declaration. Large language model assistants (OpenAI GPT Sol; Anthropic Claude Fable and Claude Opus) were used throughout this work: for proof exploration, for imple- menting and running the code of the accompanying repository, and in the exposition. Their part in the sea",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:24.971617Z"
+      },
+      "score": 3548.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 443.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 63,
+          "theorems": 54,
+          "lemmas": 76,
+          "propositions": 40,
+          "corollaries": 15,
+          "definitions": 18,
+          "displayed_equations": 58.75,
+          "bibliography_entries": 4.8,
+          "appendix_pages": 114
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17045",
       "version": 1,
       "title": "Prime-Exponent Transition Geometry and Divisor Barriers Between Consecutive Highly Composite Numbers",
