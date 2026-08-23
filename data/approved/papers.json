@@ -41770,6 +41770,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19008",
+      "version": 1,
+      "title": "Spectral and Geometric Stability for the Reciprocal Sum of Neumann Eigenvalues",
+      "authors": [
+        "Yulong Li",
+        "Zuoqin Wang"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T11:48:01Z",
+        "updated": "2026-07-21T11:48:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish quantitative stability for the reciprocal-sum isoperimetric inequality for the first $d$ nonzero Neumann eigenvalues, recently proved by He, Li, and Tang. We prove that for bounded Lipschitz domains in $\\mathbb{R}^d$, the reciprocal-sum deficit controls quadratically both the normalized eigenvalue displacements and the Fraenkel asymmetry, while controlling the displacement of the eigenvalue sum linearly. A further result shows that the classical Szegő--Weinberger deficit controls both the gap between the first two nonzero eigenvalues and the full width of the first eigenvalue cluster. Nearly spherical perturbations demonstrate that all the stability exponents are optimal. In dimension two, the same matrix method yields improved constraints on the joint spectral image of the first two nonzero eigenvalues.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19008v1",
+        "pdf": "https://arxiv.org/pdf/2607.19008v1",
+        "source": "https://export.arxiv.org/e-print/2607.19008v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 7,
+        "lemmas": 4,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 168,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file reciprocal+sum0721v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "are realized by domains. This raises the natural problem of describing the spectral image I2 precisely. Declaration on the Use of Artificial Intelligence During the preparation of this manuscript, the authors used ChatGPT for language polishing and grammar checking. ChatGPT was also used to assist in identifying the explicit constant appearing in Lemma 4.1. The authors independently verified the mathematical derivation and the correctness of this constant,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:25.133028Z"
+      },
+      "score": 1040,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 130,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 21,
+          "theorems": 42,
+          "lemmas": 16,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 42,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18945",
       "version": 2,
       "title": "Generic polar divisors and flag residues for root-system zeta functions",
