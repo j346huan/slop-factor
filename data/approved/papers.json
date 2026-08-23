@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15666",
+      "version": 2,
+      "title": "Maximum-Area Small Polygons of Even Order",
+      "authors": [
+        "Dawid Trela"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-16T10:14:40Z",
+        "updated": "2026-08-19T11:27:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A small n-gon is a planar n-gon whose diameter is at most one. For odd n, Reinhardt proved that the regular polygon is optimal. For even n, the maximizer is nonregular, and only a few low orders were known exactly. We prove that for every even n >= 8 the maximum-area small n-gon is unique up to Euclidean isometry and reflection. Foster and Szabo's description of the diameter graph reduces a maximizer to an (n-1)-cycle of unit distances together with one pendant diameter. We determine the compatible boundary order, interpret the cycle as the centers of a Reuleaux (n-1)-gon, and eliminate the pendant vertex by a one-variable area calculation. The remaining first-order equations have conserved translation and rotation quantities. In the resulting radial variables they become the critical-point equations of an explicit function on a convex domain. We prove that this function is strictly concave by factoring the relevant principal minors of its local Hessian. Compactness gives existence, while strict concavity gives uniqueness. The proof is analytic. The symbolic scripts supplied with the paper check algebraic identities but are not used as part of the proof. Combined with the classical odd-order and low-order results, this determines the maximal area for every n >= 3.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15666v2",
+        "pdf": "https://arxiv.org/pdf/2608.15666v2",
+        "source": "https://export.arxiv.org/e-print/2608.15666v2"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 3,
+        "lemmas": 9,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 102,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "these programs is a logical premise of the analytic proof. Author contributions. Dawid Trela is the sole author of the work. Ethics approval and consent. Not applicable. AI-assisted tools. During preparation of the work, the author used OpenAI ChatGPT and Codex to assist with exploratory algebraic checks, code preparation, and manuscript editing. The author independently checked the mathematical arguments, references, computations, and final text and takes full responsibility for the ar",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:29.084675Z"
+      },
+      "score": 319.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 106.4,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 19,
+          "theorems": 18,
+          "lemmas": 36,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 25.5,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15616",
       "version": 1,
       "title": "Compact Support Property of Super-Brownian Motion with Irregular Drift",
