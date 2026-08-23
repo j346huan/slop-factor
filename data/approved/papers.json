@@ -9026,6 +9026,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11864",
+      "version": 2,
+      "title": "Equalities among simplest quartic fields: a complete classification",
+      "authors": [
+        "Zhi-Lin Zhang"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T09:49:03Z",
+        "updated": "2026-08-15T18:43:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a positive integer $n$, let $f_n(X)=X^4-nX^3-6X^2+nX+1$ and let $K_n=\\mathbb{Q}(ρ_n)$, where $ρ_n$ is a root of $f_n$. We determine all coincidences among these fields: for distinct positive integers $m,n$, $K_m=K_n \\Longleftrightarrow \\{m,n\\}\\in\\{\\{1,103\\},\\{2,22\\},\\{4,956\\}\\}$. Thus the three previously known equalities are the only ones. This extends Hoshi's finite-range classification to all positive integral parameters and, in particular, subsumes the uniqueness results of Pincus and Washington. The proof combines Hoshi's correspondence between equal simplest quartic fields and primitive solutions of a quartic Thue equation with estimates of Lettl--Pethő--Voutier for rational approximations to two of its real roots. A Gaussian-integer identity yields a lower bound for the denominator of the resulting rational approximation; the continued-fraction information and the approximation estimates then exclude every parameter exceeding $1000$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11864v2",
+        "pdf": "https://arxiv.org/pdf/2608.11864v2",
+        "source": "https://export.arxiv.org/e-print/2608.11864v2"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 6,
+        "lemmas": 0,
+        "propositions": 3,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 65,
+        "bibliography_entries": 4,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "8 ZHI-LIN ZHANG Declaration of AI use This manuscript was developed with extensive use of OpenAI’s ChatGPT. Chat- GPT played a major role in the selection and refinement of the research problem, the iterative formulation of the main theorem, literature searches, exploration of proof strategies, development and assembly of the proof, verificatio",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:40.238999Z"
+      },
+      "score": 786.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 78.65,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 8,
+          "theorems": 36,
+          "lemmas": 0,
+          "propositions": 12,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 16.25,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11863",
       "version": 1,
       "title": "Sharp bounds for frame counts and setwise stabilizers in classical groups",
