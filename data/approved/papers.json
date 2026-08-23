@@ -9018,6 +9018,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12201",
+      "version": 1,
+      "title": "Nielsen classes in outer automorphism groups of free groups",
+      "authors": [
+        "Ilya Kapovich"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "math.GT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T15:54:52Z",
+        "updated": "2026-08-12T15:54:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For every $n\\ge 8$, we construct explicit families of generating pairs of $GL(n,\\mathbb Z)$ and $SL(n,\\mathbb Z)$ representing countably infinitely many Nielsen equivalence classes. These pairs arise as the homology images of explicit torsion generating pairs in $Out(F_n)$ and its index-two subgroup $SOut(F_n)$, yielding countably infinitely many Nielsen classes of generating pairs in both outer groups. Within each constructed outer family, all pairs become Nielsen equivalent after one stabilization, obtained by adjoining a trivial coordinate. We derive a relation-module obstruction to Nielsen equivalence of once-stabilized generating tuples. Evans's non-cancellation examples show that this obstruction is nontrivial and can distinguish Nielsen classes of once-stabilized generating tuples. We also record a quotient relation-module refinement for possible future applications.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12201v1",
+        "pdf": "https://arxiv.org/pdf/2608.12201v1",
+        "source": "https://export.arxiv.org/e-print/2608.12201v1"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 6,
+        "lemmas": 5,
+        "propositions": 9,
+        "corollaries": 5,
+        "definitions": 5,
+        "displayed_equations": 166,
+        "bibliography_entries": 38,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file nielsen8.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "9. Disclosure of AI use AI-assisted tools were used in preparing preliminary drafts. The author has checked and edited the text and takes full responsibility for the paper. References [1] N. Avni and S. Garion, Connect",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:20.230709Z"
+      },
+      "score": 911.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 182.3,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 20,
+          "theorems": 36,
+          "lemmas": 20,
+          "propositions": 36,
+          "corollaries": 15,
+          "definitions": 10,
+          "displayed_equations": 41.5,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12188",
       "version": 1,
       "title": "Integrability of Freely Infinitely Divisible Distributions and Lévy Measures",
