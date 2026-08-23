@@ -41849,6 +41849,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23571",
+      "version": 2,
+      "title": "A Proof of the Novak--Woźniakowski Conjecture: Optimal Polynomial Tractability Exponents for the Inverse Star Discrepancy",
+      "authors": [
+        "Josef Dick"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T09:50:34Z",
+        "updated": "2026-08-01T05:58:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The inverse of the star discrepancy $n^\\ast(d, \\varepsilon)$ satisfies \\[ d \\varepsilon^{-1} \\lesssim n^{\\ast}(d,\\varepsilon)\\lesssim d\\varepsilon^{-2} \\] for all $d \\in \\mathbb{N}$ and $0 < \\varepsilon < \\varepsilon_0$. The upper bound was established by Heinrich, Novak, Wasilkowski and Woźniakowski (2001), while the lower bound is due to Hinrichs (2004). Steinerberger (2023) subsequently gave an elementary proof of the latter result. These bounds imply that the inverse of the star discrepancy depends linearly on the dimension, but the exact exponent of $\\varepsilon^{-1}$ had remained open. In this paper we prove a lower bound which shows that the exponent $2$ of $\\varepsilon^{-1}$ in the upper bound cannot be improved. More precisely, for every $0<α<1$ and fixed $0<A\\le B$, there exist constants $c_{α,B}>0$ and $\\varepsilon_{α,A}>0$ such that, for every $0<\\varepsilon<\\varepsilon_{α,A}$ and every integer $d$ satisfying \\[ A\\varepsilon^{-α}\\le d\\le B\\varepsilon^{-α}, \\] one has \\[ n^\\ast(d,\\varepsilon) \\ge c_{α,B}\\,d\\,\\varepsilon^{-(2-α)}. \\] Along these polynomial strips the right-hand side is of order $\\varepsilon^{-2}$. Consequently, every uniform polynomial upper estimate $n^{\\ast}(d,\\varepsilon)\\le C d^q\\varepsilon^{-p}$ must satisfy $p\\ge2$. Together with the lower bound of Hinrichs (2004), which forces $q\\ge1$, this proves that the exponents $p=2$ and $q=1$ in the Heinrich--Novak--Wasilkowski--Woźniakowski upper bound are individually optimal. In particular, the optimal exponent $p^\\ast = 2$, thereby proving the Novak--Woźniakowski conjecture.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23571v2",
+        "pdf": "https://arxiv.org/pdf/2607.23571v2",
+        "source": "https://export.arxiv.org/e-print/2607.23571v2"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 79,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Inv_Star_rev1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "n∗ (dε , ε) ≥ cα ε−2 , whereas the assumed upper estimate gives n∗ (dε , ε) ≤ C2q ε−(p+αq) . This is impossible as ε ↓ 0, because p + αq < 2. Therefore p∗ ≥ 2, and the theorem follows. Declaration of generative AI use The author used ChatGPT 5.6 Sol for literature searches, exploratory development, and the preparation of portions of the exposition and LaTeX source. All mathematical arguments, calculations, references, and conclusions were independen",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:05.353278Z"
+      },
+      "score": 420.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 52.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 11,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 19.75,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23570",
       "version": 1,
       "title": "Topological line arrangements and their topological invariants",
