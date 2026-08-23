@@ -8426,6 +8426,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16086",
+      "version": 1,
+      "title": "Quot scheme of points on torus knot singularities",
+      "authors": [
+        "Yifeng Huang",
+        "Ruofan Jiang",
+        "Alexei Oblomkov"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.CO",
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T04:30:36Z",
+        "updated": "2026-08-17T04:30:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $\\gcd(a,b)=1$, we show that the moduli space of $m$-codimensional $\\Bbbk[\\![T^a,T^b]\\!]$-submodules of $\\Bbbk[\\![T]\\!]^n$ is paved by affine cells, by proving that each Białynicki-Birula stratum of a closed related moduli space with respect to the natural $\\mathbb{G}_m$-action is an affine bundle over the fixed point locus and that the fixed point locus is an iterated Grassmannian bundle. As an application, we determine the motive of this moduli space in the Grothendieck ring of varieties in terms of an explicit two-variable series $N_{a,b;n}(q,t)$, and use it to explicit compute the groupoid volume of the category of finite modules over $\\mathbb{F}_q[\\![T^a,T^b]\\!]$. The series $N_{a,b;n}$ carries the conjectures we then formulate. At $n=\\infty$ we conjecture a bi-infinite family of Rogers--Ramanujan type identities by specializing the $t$-variable; we identify their product side with the normalized character of a module over the $\\mathcal{W}$-algebra minimal model $\\mathcal{W}_a(a,a+b)$, and observe a connetion to colored Jones tails. At $n<\\infty$ we conjecture that $N_{a,b;n}$ is computed by the bottom $α$-row of the trigraded $S^n$-colored HOMFLY homology of the torus knot $T(a,b)$, and that this same bottom row also computes the Quot schemes of finite codimensional $\\Bbbk[\\![T^a,T^b]\\!]$-submoudles of $\\Bbbk[\\![T^a,T^b]\\!]^n$ and the punctual Hilbert schemes of the non-reduced curve $(Y^a-X^b)^n=0$; the three quantities are special values at three points of the trigrading, and when $n=1$ they recover both the conjectures of Oblomkov--Rasmussen--Shende and of Kivinen--Trinh. Finally we conjecture that the one direction of the trigrading these three points do not see is a perverse filtration on the moduli spaces themselves, and we verify its prediction for a smooth germ at $n=2$ by computing the decomposition theorem for the $\\mathrm{GL}_2$ spectral-curve family.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16086v1",
+        "pdf": "https://arxiv.org/pdf/2608.16086v1",
+        "source": "https://export.arxiv.org/e-print/2608.16086v1"
+      },
+      "structural_counts": {
+        "pages": 60,
+        "theorems": 17,
+        "lemmas": 28,
+        "propositions": 7,
+        "corollaries": 2,
+        "definitions": 7,
+        "displayed_equations": 381,
+        "bibliography_entries": 261,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Zhiwei Yun, and Peng Zhou. AO research was partially supported by NSF grant DMS-2200798. The authors acknowledge that the discovery of further connections and conjectures in Sections 1.1 and 9 is partly assisted by generative AIs, such as ChatGPT-5.6 Sol. 2. Definitions and notation In this paper, N = {0, 1, . . . }. We use the q-Pochhammer symbol for n ∈ N ∪ {∞}: (a; q)n = (1 − a)(1 − aq) · · · (1 − aq n",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:48.150533Z"
+      },
+      "score": 2660.1,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 443.35,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 60,
+          "theorems": 102,
+          "lemmas": 112,
+          "propositions": 28,
+          "corollaries": 6,
+          "definitions": 14,
+          "displayed_equations": 95.25,
+          "bibliography_entries": 26.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15955",
       "version": 1,
       "title": "Canonical traces of Artinian truncations of Stanley-Reisner rings",
