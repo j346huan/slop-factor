@@ -42102,6 +42102,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18032",
+      "version": 1,
+      "title": "FRSB in the SK spin glass: convergence to full-interval support at zero temperature",
+      "authors": [
+        "Hong-Bin Chen"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "cond-mat.dis-nn",
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-20T15:00:32Z",
+        "updated": "2026-07-20T15:00:32Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove full replica symmetry breaking for the zero-field Sherrington-Kirkpatrick model at zero temperature: the Parisi minimizer is absolutely continuous, has a smooth density, and has support $[0,1)$. At inverse temperature $β>1$, [arxiv.org/abs/2607.11756v3] recently proved that the Parisi measure has support $[0,q_β]$. Here, we show $q_β$ converges to $1$ as $β\\to\\infty$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18032v1",
+        "pdf": "https://arxiv.org/pdf/2607.18032v1",
+        "source": "https://export.arxiv.org/e-print/2607.18032v1"
+      },
+      "structural_counts": {
+        "pages": 40,
+        "theorems": 3,
+        "lemmas": 12,
+        "propositions": 13,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 393,
+        "bibliography_entries": 20,
+        "appendix_pages": 40
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "40 pages: 25 main text, 15 appendices/references. Successor to an AI-generated aiXiv preprint. ChatGPT 5.6 is the actual author: it generated the proof arguments and prose. Hong-Bin Chen is formally listed as author only to comply with arXiv policy and accepts full responsibility. A conditional Lean 4 formalization machine-checks Theorems 1",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: comment",
+          "page": null
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:07.241946Z"
+      },
+      "score": 3382.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 338.25,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 40,
+          "theorems": 18,
+          "lemmas": 48,
+          "propositions": 52,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 98.25,
+          "bibliography_entries": 2,
+          "appendix_pages": 80
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17672",
       "version": 1,
       "title": "Kirszbraun extensions preserving uniform distance in Hilbert spaces",
