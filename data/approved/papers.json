@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13320",
+      "version": 1,
+      "title": "A Note on Compactness and Clique Size",
+      "authors": [
+        "David V. Feldman",
+        "Alexander Wilce"
+      ],
+      "categories": {
+        "primary": "math.GN",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T14:45:53Z",
+        "updated": "2026-08-13T14:45:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Say that a topological space $X$ has finite, respectively bounded, cliques iff every closed, irreflexive binary relation --- equivalently, every closed, loop-free directed graph --- on $X$ has cliques of finite, respectively bounded finite, size. Every compact space has bounded cliques. Having finite cliques implies limit-point compactness, and is implied by $ω$-limit point compactness (equivalently, countable compactness). Thus, for $T_1$ spaces, having finite cliques is equivalent to countable compactness. Having bounded cliques is strictly weaker than compactness. Indeed, any space $X$ such that $X^ω$ is countably compact has bounded cliques. However, we have found no example of a countably compact space having finite but unbounded cliques. The existence of such a space is the major open problem raised in this note.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13320v1",
+        "pdf": "https://arxiv.org/pdf/2608.13320v1",
+        "source": "https://export.arxiv.org/e-print/2608.13320v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 3,
+        "corollaries": 5,
+        "definitions": 2,
+        "displayed_equations": 11,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Compactness_Question_v7_arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "14 pages. Assisted by Anthropic's Claude; formalized in Lean 4 and machine-checked",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: comment",
+          "page": null
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:36.370673Z"
+      },
+      "score": 126.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 63.35,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 14,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 12,
+          "corollaries": 15,
+          "definitions": 4,
+          "displayed_equations": 2.75,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13314",
       "version": 1,
       "title": "Optimal semigroup estimates and functional calculus for the Laplacian on weighted Sobolev spaces",
