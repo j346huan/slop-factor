@@ -42438,6 +42438,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19817",
+      "version": 1,
+      "title": "Energy and independence number",
+      "authors": [
+        "Hitesh Kumar",
+        "Shivaramakrishna Pragada"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T06:51:31Z",
+        "updated": "2026-07-22T06:51:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a graph $G$ of order $n$, with adjacency eigenvalues $λ_1(G) \\geq \\cdots \\geq λ_n(G)$, the \\emph{energy} of $G$ is defined to be \\[\\mathcal{E}(G)=\\sum_{i=1}^{n} |λ_i(G)|.\\] A well-known conjecture from the 1980s by Fajtlowicz states that for any graph $G$, \\[\\mathcal{E}(G) \\ge 2\\left(n-α(G)\\right),\\] where $α(G)$ denotes the independence number. We prove this conjecture.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19817v1",
+        "pdf": "https://arxiv.org/pdf/2607.19817v1",
+        "source": "https://export.arxiv.org/e-print/2607.19817v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 38,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "AI statement We acknowledge the use of AI tools during the ideation phase. We declare that the text is not AI-generated. References [1] Aida Abiad, Gabriel Coutinho, Emanuel Juliano, and Luuk Reijnders. A graph energy con- jecture through the lenses of semidefinite programming,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:16.628896Z"
+      },
+      "score": 74,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 37,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 8,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 9.5,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19799",
       "version": 1,
       "title": "Simultaneous Recovery of the Initial Source and Sound Speed for the Wave Equation under a Constitutive Constraint",
