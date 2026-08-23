@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18832",
+      "version": 1,
+      "title": "Divisor moments of polynomials in Fourier coefficients of modular forms",
+      "authors": [
+        "Wonwoong Lee"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T08:15:59Z",
+        "updated": "2026-07-21T08:15:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study higher moments of the divisor function evaluated at polynomial expressions in the Fourier coefficients of a non-CM newform. The logarithmic exponent appearing in our estimates depends only on the number of irreducible factors of the polynomial and remains unchanged under a Sato--Tate restriction. The proof combines an effective Chebotarev theorem, or an effective Chebotarev--Sato--Tate theorem, with the arithmetic of joint cycle types and a mean value estimation for multivariable multiplicative functions with Frobenian support.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18832v1",
+        "pdf": "https://arxiv.org/pdf/2607.18832v1",
+        "source": "https://export.arxiv.org/e-print/2607.18832v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 6,
+        "lemmas": 12,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 241,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ons and valuable suggestions for this work. The author is also grateful to M. Ram Murty for suggesting that he revisit Erdös’s paper [Erd52], which helped remove some assumptions imposed in an earlier version of the paper. The author used OpenAI’s ChatGPT (GPT-5.6 Thinking, accessed in July 2026) to assist with language editing, the organization of parts of the exposition, and preliminary consistency checks. All mathematical statements and arguments were independently established, reviewed,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:59.852120Z"
+      },
+      "score": 1522,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 190.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 26,
+          "theorems": 36,
+          "lemmas": 48,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 60.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18793",
       "version": 2,
       "title": "On free generators in the Grothendieck-Teichmüller Lie Algebra",
