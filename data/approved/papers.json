@@ -8939,6 +8939,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10184",
+      "version": 1,
+      "title": "The sharp SAT/UNSAT phase transition in random ellipsoid fitting",
+      "authors": [
+        "Theodor Misiakiewicz",
+        "Garrett G. Wen"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "cond-mat.dis-nn",
+          "cs.DS",
+          "math.ST",
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T19:55:11Z",
+        "updated": "2026-08-10T19:55:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $x_1,\\ldots,x_n$ be independent standard Gaussian vectors in $\\mathbb{R}^d$. An \\emph{ellipsoid fit} is a matrix $S \\succeq 0$ such that $x_i^\\top S x_i =d$ for every $i$, so that all the points lie on the boundary of the centered ellipsoid $\\{ x : x^\\top S x = d\\}$. Saunderson, Parrilo and Willsky conjectured that, as $n,d \\to \\infty$, this semidefinite feasibility problem undergoes a sharp transition at $n \\sim d^2/4$. We prove this conjecture. If $\\lim \\sup n/d^2 = α^* <1/4$, then, with probability tending to one, an ellipsoid fit exists; moreover, one can choose $S$ with all eigenvalues in a fixed interval $[λ_- , λ_+] \\subset (0,\\infty)$ depending only on $α^*$. Conversely, if $\\lim \\inf n/d^2 > 1/4$, then, with probability tending to one, no ellipsoid fit exists, without any spectral restriction. Our proof builds on the Gaussian-equivalence framework developed by Bandeira and Maillard (2025) and closes the two gaps left open in their work: establishing exact fitting and removing the operator-norm constraint. On the satisfiable side, the new ingredients are a head-tail decomposition of the dual vector, exact correction of the sparse head constraints, and a Gaussian comparison principle for the low-influence tail. On the unsatisfiable side, we split a candidate into a low-rank spectral head and a Schatten-3 diffuse bulk, Gaussianize the bulk conditionally on the head, and apply a projected Gordon escape argument. The threshold is governed by the statistical dimension $d(d+1)/4$ of the positive semidefinite cone.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10184v1",
+        "pdf": "https://arxiv.org/pdf/2608.10184v1",
+        "source": "https://export.arxiv.org/e-print/2608.10184v1"
+      },
+      "structural_counts": {
+        "pages": 47,
+        "theorems": 4,
+        "lemmas": 25,
+        "propositions": 7,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 273,
+        "bibliography_entries": 44,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "107) and n/d2 → γ. Acknowledgments and use of AI TM would like to thank Basil Saeed for suggesting this problem and for helpful discussions. The authors are grateful to Afonso Bandeira for his support and encouragement. We used modern AI tools in this work. Specifically, we used ChatGPT 5.4 and 5.5 to explore several possible proof strategies. The approach presented in this paper was suggested by the authors and motivated directly by the dual formulation in [BMMP24, BM25] and by",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 43",
+          "page": 43
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:55.617425Z"
+      },
+      "score": 2245.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 280.65,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 47,
+          "theorems": 24,
+          "lemmas": 100,
+          "propositions": 28,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 68.25,
+          "bibliography_entries": 4.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09927",
       "version": 1,
       "title": "Dynamic $e$-closure for online hypotheses with any-time-valid evidence: closure principles and projective mergers",
