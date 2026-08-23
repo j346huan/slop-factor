@@ -8425,6 +8425,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09022",
+      "version": 1,
+      "title": "Provable Parameter-Free Fixed-Point Algorithms with Linear Convergence Rates",
+      "authors": [
+        "Quoc Tran-Dinh",
+        "Pham Ngoc Anh",
+        "Ha Manh Tien"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T02:25:00Z",
+        "updated": "2026-08-10T02:25:00Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we develop provable parameter-free and adaptive fixed-point algorithms for contractive mappings, with an emphasis on automatically exploiting hidden contractivity without requiring prior knowledge of the contraction factor. Our first method is a completely parameter-free variant of the Halpern fixed-point iteration. It requires no line search, bisection, or prior estimate of the contraction factor, while retaining essentially the same per-iteration computational cost as classical fixed-point schemes. We establish explicit linear convergence rates for both the fixed-point residual and the distance to the unique fixed point. The second algorithm is an adaptive Halpern method that requires only an upper bound on the contraction factor and reduces to an existing adaptive Halpern scheme in the nonexpansive case. This method also enjoys explicit linear convergence guarantees. We further extend these ideas in two directions. First, by combining the proposed fixed-point schemes with Tikhonov regularization, we obtain a parameter-free method for solving co-coercive equations and establish an iteration complexity of $\\mathcal{O}({ε^{-1}\\ln(ε^{-1})})$ for computing an $ε$-solution. Second, using the relation between Halpern iterations and Nesterov's accelerated fixed-point schemes, we derive parameter-free Nesterov's accelerated variants that inherit linear convergence in the contractive setting. Numerical experiments on several examples demonstrate that the proposed algorithms are competitive with, and often outperform, existing adaptive fixed-point methods. In particular, the methods successfully exploit contractive behavior when it is present while remaining effective on nonexpansive problems.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09022v1",
+        "pdf": "https://arxiv.org/pdf/2608.09022v1",
+        "source": "https://export.arxiv.org/e-print/2608.09022v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 3,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 79,
+        "bibliography_entries": 42,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ParaFreeHP_Algs_FinalDraft.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ere visiting the Vietnam Institute for Advanced Study in Mathematics (VIASM), Hanoi, Vietnam, in June 2026. Declaration of AI-Assisted Tools. During the preparation of this manuscript, we used large lan- guage models, including ChatGPT and Gemini, to assist in verifying elementary mathematical deriva- tions, algebraic manipulations, and properties of mathematical expressions. We also used Codex to assist with implementing the proposed algorithms, generating synthetic data, and prep",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:02.687944Z"
+      },
+      "score": 275.85,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 91.95,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 28,
+          "theorems": 18,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 19.75,
+          "bibliography_entries": 4.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08997",
       "version": 1,
       "title": "A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs",
