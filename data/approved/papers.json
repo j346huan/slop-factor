@@ -41683,6 +41683,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15522",
+      "version": 1,
+      "title": "Nonnegative Bakry--Émery Curvature on Bounded-Degree Graphs Implies Volume Doubling and Poincaré Inequalities",
+      "authors": [
+        "Qi Guo",
+        "Xueping Huang",
+        "Yi C. Huang"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math.CO",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-17T00:13:49Z",
+        "updated": "2026-07-17T00:13:49Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that every connected simple graph of bounded degree satisfying the classical dimension-free Bakry--Émery condition $\\mathrm{CD}(0,\\infty)$ for the unnormalised Laplacian is volume doubling and supports, at all integer graph scales, a scale-invariant $L^2$-Poincaré inequality with dilation two, with constants depending only on the maximum degree. This settles the polynomial-growth conjecture of Cushing, Liu, and Peyerimhoff in a stronger form. The main novelty is a dimension-free adaptation of the graph-theoretic modified nonlinear heat-flow method introduced by Münch and extended to infinite weighted graphs by Pajot and Russ: point-mass consequences of $Γ_2\\geq0$ and positive-resolvent smoothing replace any global $\\mathrm{CD}(0,n)$ reduction, while diffusive exit-time control and finite-volume localisation yield the Poincaré inequality.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15522v1",
+        "pdf": "https://arxiv.org/pdf/2607.15522v1",
+        "source": "https://export.arxiv.org/e-print/2607.15522v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 8,
+        "lemmas": 12,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 165,
+        "bibliography_entries": 39,
+        "appendix_pages": 34
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "thesis are required. □ Declarations of interest: None. Data availability statement: There are no new data associated with this article. AI assistance statement: The authors used AI tools to assist with initial conceptualization, symbolic checking and manuscript editing; all mathematical validation, final proof decisions, and final wording remain the sole responsibility of the human authors.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 32",
+          "page": 32
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:15.722287Z"
+      },
+      "score": 2121.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 265.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 34,
+          "theorems": 48,
+          "lemmas": 48,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 41.25,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 68
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15375",
       "version": 2,
       "title": "Lorentzian polynomials and matroids over triangular hyperfields 2: Analytic aspects",
