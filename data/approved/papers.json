@@ -8508,6 +8508,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16218",
+      "version": 1,
+      "title": "Singularities of rational maps: foundations and surfaces",
+      "authors": [
+        "Caucher Birkar"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T07:50:40Z",
+        "updated": "2026-08-17T07:50:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a theory of singularities of rational maps, focusing on maps $$ f\\colon X\\dashrightarrow \\mathbb P^n, $$ and using their polarised graphs and normalised polarised graphs even when the source $X$ is very singular. To measure singularities of the map at a point $x\\in X$, i.e. how far it is from being regular, we introduce invariants including the normalised graph fibre degree $δ_x(f)$, a generalised lc threshold $λ_x(f)$, and invariants measuring the singularities of the normalised graph itself. Numerous examples show that the resulting invariants measure genuinely different aspects of map singularities. We investigate the surface case in detail. We relate the normalised graph fibre degree to multiplicity, prove a sharp threshold--degree inequality for klt surface germs, and develop a detailed theory of linear type maps on smooth and singular surfaces. In particular, we connect the existence of linear type maps to existence of smooth curves through the given point, and with local class groups and complement theory. We conclude with questions and future directions concerning higher dimensions, complements and boundedness, moduli, Cremona groups, commutative algebra, curve-counting theories, and positive characteristic.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16218v1",
+        "pdf": "https://arxiv.org/pdf/2608.16218v1",
+        "source": "https://export.arxiv.org/e-print/2608.16218v1"
+      },
+      "structural_counts": {
+        "pages": 63,
+        "theorems": 9,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 1,
+        "displayed_equations": 690,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file sing-rational-maps-I-6.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "h support from a grant of Tsinghua University and a grant of the National Program of Overseas High Level Talent. The main ideas, definitions, questions, and overall direction of this work were developed by the author. AI tools (ChatGPT and DeepSeek) were used during the preparation of the paper as technical assistants to help with checking calculations and arguments, developing details of proofs and examples using standard techniques, locating relevant references, and improving the e",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:17.699557Z"
+      },
+      "score": 2613.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 326.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 63,
+          "theorems": 54,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 2,
+          "displayed_equations": 172.5,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16169",
       "version": 1,
       "title": "Absolute Borel Complexity of Moduli Spaces of Ultrametrics",
