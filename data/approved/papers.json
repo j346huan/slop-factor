@@ -8340,6 +8340,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08953",
+      "version": 1,
+      "title": "A computer-assisted counterexample to the planar Berenstein conjecture",
+      "authors": [
+        "Matthew J. Colbrook",
+        "Siavash Sadeghi",
+        "George Stepaniants"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math-ph",
+          "math.NA",
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T23:12:01Z",
+        "updated": "2026-08-09T23:12:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Recent work of Colbrook and Stepaniants produced the first counterexamples to the planar Pompeiu and Schiffer conjectures and introduced the conformal fixed-disc, disk-polynomial, and validated-tail machinery used here. By adapting this framework to the complementary Dirichlet endpoint, we disprove the unrestricted planar Berenstein conjecture. Specifically, we construct a bounded simply connected domain $Ω$ with real-analytic Jordan boundary, which is not a disc and for which there exist $k\\in(27.4381178838,27.4381198839)$ and a nonzero real-valued function $u\\in C^ω(\\overlineΩ)$ satisfying $(Δ+k^2)u=0$ in $Ω$, with $u=0, \\partial_νu=\\text{constant}\\ne0$ on $\\partialΩ$. Thus the overdetermined Dirichlet--Neumann data do not characterize the disc without an additional sign assumption on $u$. The domain has dihedral symmetry of order $26$, but is neither a disc nor centrally symmetric, and the corresponding eigenfunction changes sign. Equivalently, its boundary arclength measure satisfies $\\widehat{σ_{\\partialΩ}}(kω)=0$ for $ω\\in\\mathbb S^1$. After conformally transferring to the unit disc, exact support identities and quantitative disk-polynomial estimates yield rigorous control of the infinite-dimensional tail. A Newton--Kantorovich argument then reduces existence to finitely many explicit inequalities, which are certified using interval arithmetic. The extension from the Pompeiu--Schiffer problem is not formal. The earlier construction absorbs both boundary conditions into a single inverse-Laplacian equation. At the Dirichlet endpoint considered here, the nonzero Neumann datum forces the harmonic source modes to remain, producing a coupled interior--boundary system involving the full zero-Dirichlet inverse and its Neumann trace, together with a separate sign-recovery problem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08953v1",
+        "pdf": "https://arxiv.org/pdf/2608.08953v1",
+        "source": "https://export.arxiv.org/e-print/2608.08953v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 120,
+        "bibliography_entries": 39,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file berenstein_counterexample.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ical Sciences Postdoctoral Research Fellowship (MSPRF) under award number 2402074. AI declaration. We believe it is important to declare the use of AI in mathematical research, and in the present case its role is particularly noteworthy. ChatGPT 5.6 was given a substantial warm start consisting of an early draft and working code independently developed by MJC and GS for [7]. That material already contained the central construction, conformal fixed-disc formulation, coefficient spa",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:06:46.887355Z"
+      },
+      "score": 221.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 110.9,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 24,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 30,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08943",
       "version": 1,
       "title": "Countable compactness in powers of topological groups and Ramsey theoretic variations of compactness",
