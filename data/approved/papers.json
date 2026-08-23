@@ -42454,6 +42454,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14774",
+      "version": 2,
+      "title": "Aperiodicity and subword complexity in the binary expansion of powers of three",
+      "authors": [
+        "Ralf Stephan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-16T09:55:55Z",
+        "updated": "2026-08-03T16:13:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove two results on the fine structure of the binary digits of $3^{m}$. First, for every fixed period $p$, the number of positions at which the binary expansion of $3^{m}$ breaks $p$-periodicity grows in order like $\\log m/\\log\\log m$; equivalently, no window of the expansion deeper than a fixed power of $\\log m$ is $p$-periodic. Second, the finite binary word formed by the low-order digits of $3^{m}$ has full low-order subword complexity: its complexity function satisfies $p_{3^{m}}(n)\\ge n+1$ for every length $n$, once $m$ is large enough.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14774v2",
+        "pdf": "https://arxiv.org/pdf/2607.14774v2",
+        "source": "https://export.arxiv.org/e-print/2607.14774v2"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 7,
+        "lemmas": 6,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 58,
+        "bibliography_entries": 12,
+        "appendix_pages": 19
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper-A4+.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "APERIODICITY AND SUBWORD COMPLEXITY OF 3m IN BINARY 19 6. Acknowledgements The author utilized Claude Code as an AI coding assistant to aid in the Lean 4 formalization of the proofs presented in this paper. The author directed and reviewed all generated code and takes full responsibility for the mathematical integrity and final content of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:58.156436Z"
+      },
+      "score": 295.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 147.7,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 22,
+          "theorems": 42,
+          "lemmas": 24,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 14.5,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 38
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14773",
       "version": 1,
       "title": "Higher covering spaces in an $\\infty$-topos",
