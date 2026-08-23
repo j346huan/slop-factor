@@ -8507,6 +8507,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13822",
+      "version": 1,
+      "title": "Sharp Minimax Theory for Randomized Experiments",
+      "authors": [
+        "Timothy Sudijono",
+        "Edgar Dobriban",
+        "Eric Tchetgen Tchetgen"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "econ.EM",
+          "stat.ME"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T23:20:11Z",
+        "updated": "2026-08-13T23:20:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study minimax-optimal designs and estimators for estimating the sample average treatment effect in finite population randomized experiments, where both design and estimator are unrestricted. For binary potential outcomes, we show this minimax risk is equivalent to the minimax risk $ρ_n^*$ of an estimation problem with $2$ unknown parameters. We leverage this reduction to establish a second-order risk expansion $ρ_n^* = n^{-1} - Cn^{-4/3} + o_n(n^{-4/3})$ for an explicit constant $C$ related to the Airy function. The minimax risk is attained by Bernoulli randomization with a nonlinear shrinkage estimator. Our results show that standard procedures such as complete randomization with difference in means are only minimax optimal up to first order in $n.$ We derive further results on admissibility of these procedures and discuss the practical implications of our results.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13822v1",
+        "pdf": "https://arxiv.org/pdf/2608.13822v1",
+        "source": "https://export.arxiv.org/e-print/2608.13822v1"
+      },
+      "structural_counts": {
+        "pages": 38,
+        "theorems": 7,
+        "lemmas": 5,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 132,
+        "bibliography_entries": 57,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d, and have a well-developed inferential theory. Acknowledgements TS thanks Lihua Lei, Harrison Li, and Maggie Wang for helpful comments. This work was sup- ported in part by the US NSF, ARO, ONR, and the Sloan Foundation. AI assistance (ChatGPT 5.6) was used in the preparation of this work, including generating code and figures, suggesting and checking proofs, and revising the article. The authors wrote the exposition and prose. All proofs were verified by the authors and we take",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:41.333967Z"
+      },
+      "score": 1205.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 150.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 38,
+          "theorems": 42,
+          "lemmas": 20,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 33,
+          "bibliography_entries": 5.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13779",
       "version": 1,
       "title": "Homological Mirror Symmetry for Affine Log Calabi-Yau Surfaces",
