@@ -8425,6 +8425,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15664",
+      "version": 1,
+      "title": "Lie methods for countably categorical Engel groups: the Wilson conjecture for $4$-Engel $5$-groups",
+      "authors": [
+        "Christian d'Elbée"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T10:13:09Z",
+        "updated": "2026-08-16T10:13:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we are interested in the following conjecture of Wilson from 1981: every locally nilpotent countably categorical group is nilpotent. Following our previous work on the Lie algebra analogue of the conjecture, we use Lie methods to deduce the first nontrivial cases of the Wilson conjecture for $n$-Engel groups: countably categorical $3$-Engel groups and $4$-Engel $5$-groups are nilpotent, from which we also conclude that countably categorical $4$-Engel groups of odd exponent are nilpotent. This is implemented via an exceptional case of the Lazard correspondence, checked using computer algebra systems. We also study the transfer of nilpotency results between the three categories: groups, Lie algebras, associative algebras. Among other things, we prove that the Wilson conjecture implies the analogous nilpotency statement for associative algebras (modulo the commutative case).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15664v1",
+        "pdf": "https://arxiv.org/pdf/2608.15664v1",
+        "source": "https://export.arxiv.org/e-print/2608.15664v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 5,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 9,
+        "definitions": 0,
+        "displayed_equations": 35,
+        "bibliography_entries": 235,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the statements from Section 2 extend in a similar fashion from algebras to rings, with the appropriate adjustment. The only thing to check is that the hypotheses of the theorem are preserved under the map R → R/pR. AI Disclosure. I asked chatGPT to proofread the paper, correct mistakes and inaccuracies, which it did pretty well. It also provided me with a proof, shorter than mine, of Fact 2.2, which I included. I also asked if my theorems could be improved, and it made a bunch of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:32.145216Z"
+      },
+      "score": 938.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 104.25,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 15,
+          "theorems": 30,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 27,
+          "definitions": 0,
+          "displayed_equations": 8.75,
+          "bibliography_entries": 23.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15616",
       "version": 1,
       "title": "Compact Support Property of Super-Brownian Motion with Irregular Drift",
