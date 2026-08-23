@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10616",
+      "version": 1,
+      "title": "Valued Mosaics",
+      "authors": [
+        "Alessandro Linzi"
+      ],
+      "categories": {
+        "primary": "math.CT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T07:58:38Z",
+        "updated": "2026-08-11T07:58:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Nakamura--Reyes showed that the category of commutative mosaics---unital reversible hypermagmas, without associativity---is complete, cocomplete, and has free objects, in contrast to commutative polygroups. Krasner's multivalued addition is designed around ultrametric balls; we take that valuation-theoretic motivation as primary and equip mosaics with valuations, as unit-reflecting unitary morphisms into the tropical polygroup $T(Γ)$. Value-preserving morphisms form the slice over $T(Γ)$, which is complete and cocomplete. The larger lax category of valued mosaics over a fixed ordered abelian group $Γ$ is finitely complete and has all small coproducts; it recovers the category of commutative mosaics for the trivial value group, while lax coequalizers for nontrivial $Γ$ remain open. Associativity is analysed via factor nesting, which implies it under totality and characterises it among total product-ultrametric mosaics such as the Krasner hyperfield and $T(Γ)$, yet is strictly weaker without totality. Among total valued mosaics satisfying factor nesting, the Krasner ball axiom yields associativity and upgrades the weak valuation so that sums are ultrametric balls and the superiorly canonical package follows.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10616v1",
+        "pdf": "https://arxiv.org/pdf/2608.10616v1",
+        "source": "https://export.arxiv.org/e-print/2608.10616v1"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 10,
+        "lemmas": 6,
+        "propositions": 10,
+        "corollaries": 6,
+        "definitions": 13,
+        "displayed_equations": 30,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file RelQEKvhp.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s. Characterise monomorphisms, epimorphisms, and isometric embeddings in VMscΓ and in cMsc/T(Γ), in the spirit of [7]. Acknowledgements Parts of the preparation of this manuscript were assisted by the AI system Grok 4.5 (xAI), used via the Grok Build CLI, for drafting, editing, and checking mathematical arguments. The author retains full responsibility for the correctness of all results and for the final text.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:12.173814Z"
+      },
+      "score": 1569.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 196.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 20,
+          "theorems": 60,
+          "lemmas": 24,
+          "propositions": 40,
+          "corollaries": 18,
+          "definitions": 26,
+          "displayed_equations": 7.5,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10608",
       "version": 1,
       "title": "Asymptotic stability of the degree-one vortex in the abelian Yang-Mills-Higgs model: Spectral Theory and Numerics",
