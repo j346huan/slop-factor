@@ -41851,6 +41851,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24290",
+      "version": 1,
+      "title": "The $L_1$-Discrepancy with Nonnegative Weights Suffers from the Curse of Dimensionality",
+      "authors": [
+        "Josef Dick"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T11:38:31Z",
+        "updated": "2026-07-27T11:38:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that the $L_1$-discrepancy with arbitrary nonnegative weights suffers from the curse of dimensionality. More precisely, for every $\\varepsilon \\in (0,1)$ and $d \\in \\mathbb{N}$, the inverse of the $L_1$-discrepancy satisfies \\[ N_{1,+}(\\varepsilon, d) \\ge \\frac{(1-\\varepsilon)^2}{1 + \\varepsilon} \\left( \\frac{3+2 \\sqrt{3}}{6}\\right)^d, \\] where $(3+2\\sqrt{3})/6 = 1.07735\\ldots$. The proof combines a change to a volume-biased probability measure with a fractional-moment estimate for the normalized discrepancy function. The lower bound applies, in particular, to equally weighted point sets. The argument uses the nonnegativity of the weights in an essential way and does not cover arbitrary signed weights.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24290v1",
+        "pdf": "https://arxiv.org/pdf/2607.24290v1",
+        "source": "https://export.arxiv.org/e-print/2607.24290v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 38,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file L1_discrepancyv2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "bound in d up to a positive constant independent of d. Hence, for every 1 < C < Cθ , one has N1,+ (ε, d) ≥ C d for all sufficiently large d. This is the curse of dimensionality and completes the proof of Theorem 1.1. 3 Declaration of generative AI use The author used ChatGPT 5.6 Sol for literature search, during the exploratory development and in preparing portions of the exposition and LaTeX source. All mathematical arguments, calculations, references, and conclusions were independ",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:47.297808Z"
+      },
+      "score": 200.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 25.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 7,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 9.5,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24270",
       "version": 2,
       "title": "Multiplicative Subgroups of Prime Fields Are Not Sumsets",
