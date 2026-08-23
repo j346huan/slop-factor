@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23004",
+      "version": 1,
+      "title": "Exact values and exact upper bounds for families of integers with arithmetic progression intersections (Erdős Problem #272)",
+      "authors": [
+        "Zhanfu Yang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.AI"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T02:45:11Z",
+        "updated": "2026-07-25T02:45:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $t(N)$ be the largest $t$ for which there exist distinct sets $A_1,\\dots,A_t \\subseteq \\{1,\\dots,N\\}$ such that $A_i \\cap A_j$ is a nonempty arithmetic progression for all $i \\neq j$ (Erdos Problem #272). Simonovits and Sos proved $t(N)=O(N^2)$ and conjectured $\\binom{N}{2}+1$ is best possible; Szabo disproved this by a construction giving $t(N) \\geq \\binom{N}{2}+1+\\lfloor(N-1)/4\\rfloor$, proved the asymptotics $t(N)=N^2/2+O(N^{5/3}(\\log N)^3)$, and asked whether $t(N)=\\binom{N}{2}+O(N)$ and whether some element lies in all sets of any extremal family (the kernel question). We determine $t(N)$ exactly for all $3 \\leq N \\leq 12$ by exhaustive computation: in this entire range Szabo's lower bound is exact, and we conjecture that $t(N)=\\binom{N}{2}+1+\\lfloor(N-1)/4\\rfloor$ for every $N$. Towards the matching upper bound we prove, for every $N$, that Szabo's bound is the exact maximum over all families with a common element (starred families). The proof combines a self-contained ``defect-one'' counting inequality for staircase regions with a new structural theorem: every non-progression member of such a family contains a bad pair that no other member can share. Consequently the sharpened conjecture reduces to a single remaining statement, namely Szabo's kernel conjecture that some element lies in all sets of an extremal family, and we prove first structural constraints on putative non-starred extremal families.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23004v1",
+        "pdf": "https://arxiv.org/pdf/2607.23004v1",
+        "source": "https://export.arxiv.org/e-print/2607.23004v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 6,
+        "lemmas": 7,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 22,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ap_intersection_paper__3_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "n which all pairwise intersections must be APs of at least k terms, k ≥ 2; there even the qualitative question of [3, 4], whether the extremal systems consist of arithmetic progressions only, remains open. Acknowledgements The author used Claude (Anthropic) as an assistive tool for some computations and drafting. All proofs and computational claims have been checked by the author, who takes full responsibility for their correctness; where a result relies on computer verification,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:34.812664Z"
+      },
+      "score": 525.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 105.1,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 13,
+          "theorems": 36,
+          "lemmas": 28,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 5.5,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22988",
       "version": 2,
       "title": "An Explicit Counterexample to Stanley's Rankwise Lower-Bound Conjecture for Differential Posets",
