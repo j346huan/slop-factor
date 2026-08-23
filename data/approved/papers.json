@@ -41770,6 +41770,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25143",
+      "version": 1,
+      "title": "Intercity EV Charging Readiness in Türkiye: A Countrywide Scheduling and Economic Assessment",
+      "authors": [
+        "Taner Cokyasar"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T23:34:23Z",
+        "updated": "2026-07-27T23:34:23Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This paper assesses the readiness of Türkiye's electric vehicle (EV) charging infrastructure to support cost-competitive intercity travel compared to internal combustion engine (ICE) vehicles. Utilizing a directed acyclic graph-based scheduling framework, charging stops are optimized for over 2 million synthetic intercity EV trips across the national highway network, evaluating 9,641 licensed charging stations. An eight-scenario case study examines the interplay between charger power (5--350 kW) and station capacity (5 and 50 plugs), supplemented by a 200-run parametric sensitivity analysis on EV range, discharge rate, charger power, and state-of-charge (SoC) operating bounds. A three-tier economic analysis isolates operational costs, total cost of ownership (TCO), and infrastructure investments. Economically, EVs demonstrate a 23--26% operational cost advantage driven by Türkiye's favorable fuel-to-electricity price ratio, maintaining a 10--12% TCO advantage despite higher purchase prices. However, full-system infrastructure savings heavily depend on station sizing, yielding positive returns at 5 plugs per station but negative returns at 50. Ultimately, vehicle discharge rate emerges as the dominant economic lever. This study provides the first countrywide, vehicle-level assessment of intercity EV charging readiness for an emerging market, offering actionable insights for policymakers on infrastructure gaps, station sizing tradeoffs, and adoption incentives.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25143v1",
+        "pdf": "https://arxiv.org/pdf/2607.25143v1",
+        "source": "https://export.arxiv.org/e-print/2607.25143v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 3,
+        "bibliography_entries": 46,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file elsarticle_template.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "gy. Author Contributions: T. Cokyasar conducted study conception, design, data collection, analysis, and preparation. The author(s) reviewed and approved the manuscript. AI Use: During the preparation of this manuscript, the author(s) used Claude Opus 4.6 and Claude Sonnet 4.6 to improve language, spelling, readability, literature re- view, coding, and result analysis. After using these tools, the author(s) meticulously reviewed and edited the entire text, code, and references (includin",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:02.479423Z"
+      },
+      "score": 121.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 30.35,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 25,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0.75,
+          "bibliography_entries": 4.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25023",
       "version": 1,
       "title": "Schrijver Number Quasi-Tensorization and Multicolor Ramsey Bounds via Robust OR Polynomials",
