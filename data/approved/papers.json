@@ -43299,6 +43299,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27050",
+      "version": 1,
+      "title": "Second-Order Multi-Set Allocation Occupancy (MAO) Distributions under Pairwise-Intersection Constraints: Exact Laws, MAO Norms, Inequalities, and Limit Theory",
+      "authors": [
+        "Xing-gang Mao"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.ST"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-29T15:40:58Z",
+        "updated": "2026-07-29T15:40:58Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Our previous work established the multi-set allocation occupancy (MAO) distribution theory, including the norms, inequalities, and limit theory, under constraints on set sizes alone. By further conditioning on all pairwise intersections while leaving triple and higher-order membership patterns random, we develop the second-order extension. This extension naturally identifies the earlier marginal-size-only framework as the first-order MAO theory. Let $N$ be the population size, $T$ the number of labelled sets, and $M$ a feasible symmetric matrix whose diagonal and off-diagonal entries specify marginal sizes and pairwise intersections. Write $a=(a_B)_{B\\subseteq[T]}$ for the atomic membership counts, where $a_B$ is the number of elements belonging to exactly the sets indexed by $B$, and let $A(N,M)$ be the resulting feasible atomic region. With labelled multiplicity $w(a)=N!/\\left(\\prod_{B\\subseteq[T]}a_B!\\right)$, $Z_{N,M}=\\sum_{a\\in A(N,M)}w(a)$, we define the second-order exact-$t$ and at-least-$t$ MAO norms by the direct atom formulas $\\lVert t^r\\rVert_T=\\left(\\sum_{a\\in A(N,M)}\\left(\\sum_{|B|=t}a_B\\right)_r w(a)\\right)/\\left((N)_r Z_{N,M}\\right)$, $\\lVert [t,T]^r\\rVert_T=\\left(\\sum_{a\\in A(N,M)}\\left(\\sum_{|B|\\geq t}a_B\\right)_r w(a)\\right)/\\left((N)_r Z_{N,M}\\right)$. The moments can be calculated exactly based on the norms: If $X_{=t}$ and $X_{\\geq t}$ denote the numbers of elements with membership degree exactly $t$ and at least $t$, respectively, then for every $ν\\geq1$, $\\mathbb{E}_{N,M}[X_{=t}^ν]=\\sum_{i=1}^νS(ν,i)\\lVert t^i\\rVert_T$, $\\mathbb{E}_{N,M}[X_{\\geq t}^ν]=\\sum_{i=1}^νS(ν,i)\\lVert [t,T]^i\\rVert_T$. We further developed Poisson and normal limiting theory, verified by numerical approximation. The model provides a systematic route to higher-order MAO theories by prescribing intersections up to any chosen order.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27050v1",
+        "pdf": "https://arxiv.org/pdf/2607.27050v1",
+        "source": "https://export.arxiv.org/e-print/2607.27050v1"
+      },
+      "structural_counts": {
+        "pages": 57,
+        "theorems": 2,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 258,
+        "bibliography_entries": 37,
+        "appendix_pages": 32
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source parsing failed; PDF-text fallbacks were used: Downloaded source is neither a safe tar archive nor recognizable TeX",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements An OpenAI language model (ChatGPT) was used for language editing and limited assistance with data presentation and visualization. The author independently developed the underlying mathematical theory and its core computational implementation, indepe",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:49.561450Z"
+      },
+      "score": 804.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 201.2,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 57,
+          "theorems": 12,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 64.5,
+          "bibliography_entries": 3.7,
+          "appendix_pages": 64
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27049",
       "version": 1,
       "title": "Convergence of entropy-conservative summation-by-parts discretizations to smooth solutions of hyperbolic conservation laws",
