@@ -9017,6 +9017,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07375",
+      "version": 1,
+      "title": "Maximum spread of $K_{s,t}$-minor-free graphs II: the non-admissible cases",
+      "authors": [
+        "William Linz",
+        "Linyuan Lu",
+        "Zhiyu Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-07T16:17:13Z",
+        "updated": "2026-08-07T16:17:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We have previously determined the maximum-spread $K_{s, t}$-minor-free graph(s) on $n$ vertices when $n$ is sufficiently large, $2\\le s\\le t$, and $s=2$ or $t\\ge \\frac{3}{2}(s-3) + \\frac{4}{s-1}$. In this sequel paper, we completely determine the maximum-spread $K_{s, t}$-minor-free graphs on $n$ vertices for $n$ sufficiently large and $2\\le s\\le t$. In all of the remaining cases, the extremal graph is unique and is of the form $(K_r \\vee (s-1-r)K_1) \\vee (\\ell_r K_t \\cup (n-s+1-t\\ell_r)K_1)$, where $r$ is an integer determined by $s$ and $t$ and $\\ell_r$ is an integer determined by $n, s, t,$ and $r$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07375v1",
+        "pdf": "https://arxiv.org/pdf/2608.07375v1",
+        "source": "https://export.arxiv.org/e-print/2608.07375v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 6,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 103,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file non-admissible.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "read than Lx−1 for all sufficiently large N . Consequently, in every case the left graph in the actual extremal graph is Lr with r = ⌊s1 ⌋, and Proposition 1 determines the right graph uniquely. This proves Theorem 6. Acknowledgements OpenAI GPT-5.6 Pro was used as an aid for language and proof revision and to suggest symbolic algebraic manipulations. All claims were independently checked by the authors, and we take full responsibility for the contents of the paper.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:25.070413Z"
+      },
+      "score": 362.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 90.65,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 15,
+          "theorems": 36,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 25.75,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07338",
       "version": 1,
       "title": "An Explicit Five-Variable Counterexample to the Generalized Vanishing Conjecture",
