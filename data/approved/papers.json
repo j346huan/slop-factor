@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12251",
+      "version": 1,
+      "title": "$p$-adic Sum-Product, Projections, and Furstenberg Sets",
+      "authors": [
+        "Jiahe Shen"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.CO",
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T01:28:56Z",
+        "updated": "2026-07-14T01:28:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $p$ be a prime number. We prove the sharp Furstenberg set bound in the $p$-adic plane $\\mathbb{Q}_p^2$: every $(s,t)$-Furstenberg set $E\\subset\\mathbb{Q}_p^2$ satisfies $$ \\dim_H E\\ge \\min\\left\\{s+t,\\frac{3s+t}{2},s+1\\right\\}. $$ This matches the sharp lower bound in the Euclidean plane. We also derive two related consequences: a $p$-adic projection theorem for the maps $π_θ(x,y)=x+θy$, together with the corresponding exceptional set estimate giving a $p$-adic analogue of Oberlin's projection question; and a discretized fractal sum-product estimate over $\\mathbb{Q}_p$, showing that sufficiently non-concentrated subsets of $\\mathbb{Z}_p^\\times$ cannot have both small sum set and small product set. The proof follows the projection-theoretic and multiscale machinery developed in the Euclidean works of Orponen-Shmerkin (arXiv:2301.10199) and Ren-Wang (arXiv:2308.08819). The main task is to rebuild this machinery in the non-archimedean setting, and along the way we develop several new $p$-adic inputs needed to overcome the ultrametric features of the problem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12251v1",
+        "pdf": "https://arxiv.org/pdf/2607.12251v1",
+        "source": "https://export.arxiv.org/e-print/2607.12251v1"
+      },
+      "structural_counts": {
+        "pages": 66,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 1,
+        "bibliography_entries": 28,
+        "appendix_pages": 66
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2 is realized by a p-adic Wolff-type grid construction, formulated at finite scale and then passed to a limiting Moran construction. 1.5. Disclosure on the use of AI tools. During the preparation of this manuscript, the author used AI tools, including ChatGPT, as an auxiliary writing and editing aid. These tools were used to help improve exposition, reorganise preliminary drafts, check grammar, and suggest alternative ways of presenting arguments. They were also occasionally",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:07.977376Z"
+      },
+      "score": 1608.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 201.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 66,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0.25,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 132
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12201",
       "version": 1,
       "title": "Revisiting Simultaneous Methods for Dynamic Optimization in the GPU Era",
