@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25023",
+      "version": 1,
+      "title": "Schrijver Number Quasi-Tensorization and Multicolor Ramsey Bounds via Robust OR Polynomials",
+      "authors": [
+        "Ijay Narang",
+        "Yukai Tang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T19:32:34Z",
+        "updated": "2026-07-27T19:32:34Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce a robust OR polynomial framework for composing positive semidefinite certificates across OR constraints. We demonstrate the power of this method in two applications. The first is on acute-free families. A set $\\mathcal F=\\{(x_i^{(1)},\\ldots,x_i^{(r)})\\}_{i=1}^M \\subseteq (S^{n-1})^r$ is $r$-way acute-free if, for every $i\\neq j$, there is a coordinate $t\\in[r]$ such that $\\langle x_i^{(t)},x_j^{(t)}\\rangle\\leq 0$. We write $M_r(n)$ for the maximum size of such a set, and $M_r^{\\pm}(n)$ for the hypercube restriction. On the hypercube, $r$-way acute-free sets are independent sets for some strong power graph $G_n^{\\boxtimes r}$. The Lovász theta number $\\vartheta(G_n)$ is multiplicative but exponentially loose, whereas the Schrijver number $\\vartheta'(G_n)$ gives the correct order, but is not multiplicative. We bypass this obstruction by proving a general quasi-tensorization result for the Schrijver number. That is, for every collection of graphs $G_1,\\ldots, G_r$ satisfying $\\vartheta'(G_i)\\geq 2$, there is an absolute constant $C$ such that $\\vartheta'(G_1\\boxtimes \\cdots \\boxtimes G_r) \\leq \\prod_{i=1}^r \\vartheta'(G_i)^{C\\log r \\log \\vartheta'(G_i)}$. Applying this result gives that $M_r^{\\pm}(n) \\le M_r(n) \\le (2n)^{C_0 r\\log r\\log(2n)}$ for some absolute constant $C_0$. The second application is on multicolor Ramsey numbers. The $r$-color Ramsey number $R_r(k)$ is the minimum $n$ such that every $r$-coloring of the edges of the complete graph on $n$ vertices contains a monochromatic copy of $K_k$. In a breakthrough result, Balister et al. [arXiv:2410.17197] showed that $R_r(k)\\le \\exp(-Ω(k/r^{12}))r^{rk}$ via a geometric lemma. By improving the $r$ dependency in their geometric lemma via the OR polynomial framework, we prove that $R_r(k)\\le \\exp(-Ω(k/(r^9(\\log r)^6)))r^{rk}$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25023v1",
+        "pdf": "https://arxiv.org/pdf/2607.25023v1",
+        "source": "https://export.arxiv.org/e-print/2607.25023v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 2,
+        "lemmas": 11,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 119,
+        "bibliography_entries": 57,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "n Mathematics. Springer, Berlin, 3 edition, 1999. 2 [Wat44] G. N. Watson. A Treatise on the Theory of Bessel Functions. Cambridge University Press, 2nd edition, 1944. 15 AI Use Statement Artificial intelligence assistance (ChatGPT 5.5 Pro) was used to verify the correctness of mathemati- cal proofs, especially the parameter bookkeeping in the proof of Lemma 3.3. A Appendix A.1 Proof of Lemma 1.6 Proof of Lemma 1.6. Set λ = 1 − 1r , ui = 1 + ti and vi = 1 + λ",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:24.972164Z"
+      },
+      "score": 955.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 119.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 25,
+          "theorems": 12,
+          "lemmas": 44,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 29.75,
+          "bibliography_entries": 5.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24594",
       "version": 1,
       "title": "On Alweiss's example for multiple recurrence",
