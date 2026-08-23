@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26377",
+      "version": 2,
+      "title": "Entire Logarithmic Signatures of Bounded-Variation Paths in Finite Dimensions",
+      "authors": [
+        "Elena Boguslavskaya"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-29T01:24:48Z",
+        "updated": "2026-08-18T17:52:46Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We classify signatures of bounded-variation paths in finite-dimensional real normed spaces whose logarithms are entire, in the sense of superexponential homogeneous decay. The zero-first-level fibre is trivial; if the first level is $v\\neq0$, the signature is $a\\e^v a^{-1}$ with $a$ a bounded-variation signature, and every such conjugate is entire. For a given path, $a$ may be chosen from a prefix. For a tree-reduced representative, a gate-selected prefix gives weak path conjugacy to a line. The proof uses a finite-dimensional spectral-growth statement: if $q\\geq1$, $A:\\C\\to M_q(\\C)$ is entire, and $\\norm{\\e^{A(z)}}\\leq C\\e^{τ\\abs{z}}$, then the $k$th characteristic-polynomial coefficient of $A(z)$ has degree at most $k$ for $1\\leq k\\leq q$. Universal matrix isospectrality, resonant developments, metric-tree fixed points and compactness, and Stieltjes--Fourier reconstruction establish the bounded-variation modified Lyons--Sidorova conjecture under a hypothesis imposed only on the whole path.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26377v2",
+        "pdf": "https://arxiv.org/pdf/2607.26377v2",
+        "source": "https://export.arxiv.org/e-print/2607.26377v2"
+      },
+      "structural_counts": {
+        "pages": 44,
+        "theorems": 6,
+        "lemmas": 19,
+        "propositions": 11,
+        "corollaries": 4,
+        "definitions": 1,
+        "displayed_equations": 325,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Boguslavskaya_AdvMath_manuscript_Final.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "emma A.1 to x and Lx gives Equation (56); the first and last pieces have the common length d(x, A). Summing their lengths proves Equation (57), and equality with τ holds exactly on the closed line A, proving Equation (58). Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the development and preparation of this work, the author used OpenAI’s ChatGPT 5.6 Sol as a conversational aid for exploring possible proof routes, critically testin",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 43",
+          "page": 43
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:22.402687Z"
+      },
+      "score": 2379.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 297.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 44,
+          "theorems": 36,
+          "lemmas": 76,
+          "propositions": 44,
+          "corollaries": 12,
+          "definitions": 2,
+          "displayed_equations": 81.25,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26305",
       "version": 1,
       "title": "Inclusions between p-bounded crystalline loci in dimension two",
