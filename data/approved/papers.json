@@ -8761,6 +8761,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12147",
+      "version": 1,
+      "title": "The Average Singular Value of a Complex Gaussian Random Matrix Strictly Decreases with Dimension",
+      "authors": [
+        "Ondrej Hutník"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T15:09:04Z",
+        "updated": "2026-08-12T15:09:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We settle a conjecture of Bandeira, Kennedy and Singer, arising from their analysis of approximation ratios for the little Grothendieck problem over the unitary group, by proving that the average singular value of a normalized square complex Gaussian random matrix strictly decreases with the dimension. The starting point is a recurrence relation of Abreu, derived from the Christoffel--Darboux formula and a Turán determinant for Laguerre polynomials. This recurrence reduces the problem to the estimation of a mixed Laguerre integral. We transform this estimate into an explicit finite inequality by expanding the relevant integrals in the orthogonal basis associated with the weight $x^{1/2}\\,\\mathrm{e}^{-x}$. A telescoping identity then converts the resulting inequality into a positive form. The final positivity argument combines explicit estimates for central binomial coefficients, a logarithmic lower bound, and a finite verification of small dimensions. This completes the proof that the average singular value strictly decreases with the dimension in the square complex Gaussian case. As a consequence, the same monotonicity is obtained for $N\\times(N+λ)$ complex Gaussian matrices with fixed rectangularity $λ=0,1,2,\\dots$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12147v1",
+        "pdf": "https://arxiv.org/pdf/2608.12147v1",
+        "source": "https://export.arxiv.org/e-print/2608.12147v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 2,
+        "lemmas": 6,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 253,
+        "bibliography_entries": 8,
+        "appendix_pages": 18
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 01_complex_gaussian_average_sv_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rrence relation obtained in his work [1] on the average singular value of a square complex Gaussian matrix served as an important starting point for the proof presented here. During the preparation of this work, the author used ChatGPT (OpenAI) as an auxiliary tool for language and stylistic editing, organization of the presentation, and secondary consistency checks. The conception of the work, mathematical results, arguments, and proofs are the author’s own. The author takes fu",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 29",
+          "page": 29
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:07.171188Z"
+      },
+      "score": 752.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 188.05,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 29,
+          "theorems": 12,
+          "lemmas": 24,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 63.25,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 36
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12126",
       "version": 1,
       "title": "Two Relaxations of the Dominating Hadwiger's Conjecture",
