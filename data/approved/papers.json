@@ -43384,6 +43384,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23828",
+      "version": 1,
+      "title": "Powers of the Vandermonde determinant are eventually non-SNP",
+      "authors": [
+        "Thien Le",
+        "Melanie Weber"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T20:26:54Z",
+        "updated": "2026-07-26T20:26:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a conjecture of Monical, Tokcan, and Yong that every fixed positive power of the Vandermonde determinant is non-SNP in all sufficiently many variables, where a polynomial is non-SNP if there is a lattice point in its Newton polytope that does not appear with nonzero coefficient. This means our result proves that for every even power $k\\geq4$, there is always such a missing lattice monomial in large enough dimensions. The odd case follows from alternation, and the quadratic case was previously known. For every even power $k\\geq4$, we exhibit an explicit lattice point in the Newton polytope of $a_{δ_k}^k$ whose coefficient vanishes. The vanishing is obtained from a Dyson constant-term identity, proved using the finite-variable Jack scalar product and Macdonald's specialization formula. The key even-power construction and proof strategy arose from prompting with OpenAI Codex (GPT Sol 5.6 Extra High), a large language model; the complete transcript appears in the appendix. The authors subsequently checked and organized the argument. The accompanying Lean formalization is available at https://github.com/steven-le-thien/vandermonde-snp.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23828v1",
+        "pdf": "https://arxiv.org/pdf/2607.23828v1",
+        "source": "https://export.arxiv.org/e-print/2607.23828v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 69,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "= (−1)r (r + 1)tr . r≥0 Comparing coefﬁcients of tr yields (29): (73) ϵ−1/m (Er ) = (−1)r (r + 1). 7. G ENERATIVE AI USAGE OpenAI Codex (GPT Sol 5.6 Extra High) was used as an interactive research and writing aid in developing this proof. All prompts and follow-up instructions to Codex were sup- plied by the ﬁrst author. In the initial conversation (reproduced below)",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:31.544361Z"
+      },
+      "score": 564.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 70.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 34,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 17.25,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23817",
       "version": 1,
       "title": "Subquadratic growth and uniform property \\(Γ\\)",
