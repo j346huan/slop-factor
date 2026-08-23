@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17672",
+      "version": 1,
+      "title": "Kirszbraun extensions preserving uniform distance in Hilbert spaces",
+      "authors": [
+        "Krzysztof J. Ciosmak"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-20T08:24:35Z",
+        "updated": "2026-07-20T08:24:35Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $X$ be a subset of a real Hilbert space and let $v\\colon X\\to Y$, where $Y$ is a real Hilbert space. We prove that the following conditions are equivalent: whenever $A\\subset X$, $ρ\\geq0$, and $u\\colon A\\to Y$ is $1$-Lipschitz with $\\left\\lVert u(x)-v(x)\\right\\lVert\\leqρ$ for $x\\in A$, there is a $1$-Lipschitz extension $\\widetilde u\\colon X\\to Y$ with $\\left\\lVert \\widetilde u(x)-v(x)\\right \\lVert\\leqρ$ for $x\\in X$; and for every $1\\leq k\\leq\\dim Y$, $$ \\left\\lVert v(x_0)-\\sum_{i=1}^k t_i v(x_i)\\right\\lVert \\leq \\left\\lVert x_0-\\sum_{i=1}^k t_i x_i \\right \\lVert$$ whenever $x_0,\\ldots,x_k\\in X$, $t_1,\\ldots,t_k\\geq0$, and $\\sum_{i=1}^k t_i=1$. Previous necessity results required $\\dim Y\\leq3$ or convexity of $X$. For finite-dimensional targets, an application gives an exact data processing characterisation for a finite branching hierarchy connecting Wasserstein and barycentric weak transport. If $Y$ is infinite-dimensional or $\\dim\\operatorname{Aff}X+1\\leq\\dim Y$, we also obtain a lifting theorem for convex Lipschitz functions and transfer convex Poincaré inequalities without increasing the constant.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17672v1",
+        "pdf": "https://arxiv.org/pdf/2607.17672v1",
+        "source": "https://export.arxiv.org/e-print/2607.17672v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 3,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 86,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-8.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "16 KRZYSZTOF J. CIOSMAK Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used OpenAI Codex to assist in developing and checking mathematical arguments, organising the manuscript and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:36.279052Z"
+      },
+      "score": 552.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 69.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 17,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 12,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 21.5,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17630",
       "version": 1,
       "title": "Higher-Order Hankel Obstructions to Free Infinite Divisibility for Beta Distributions",
