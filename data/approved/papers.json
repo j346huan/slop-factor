@@ -41683,6 +41683,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28413",
+      "version": 1,
+      "title": "Windowed thinning and query complexity for the bouncy particle and Zigzag samplers",
+      "authors": [
+        "Jianfeng Lu",
+        "Yinchen Luo"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "cs.LG",
+          "math.PR",
+          "math.ST",
+          "stat.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T15:59:25Z",
+        "updated": "2026-07-30T15:59:25Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $μ(d x)\\propto e^{-U(x)} d x$ on $\\R^d$, where $U$ is $m$-strongly convex and $L$-smooth, and denote by $κ=L/m$ the condition number. We consider windowed thinning, an exact simulation method for the bouncy particle sampler and the coordinate Zigzag process. The method divides a trajectory into deterministic windows and uses a gradient evaluation at the beginning of each window to construct a tractable local envelope for the event rate. Combining this construction with quantitative mixing estimates and finite-time bounds on the expected numbers of bounces and flips yields query complexity guarantees from a Gaussian cold start. For total-variation error $\\varepsilon$, the expected query counts are $O(κ^{1/2}d\\,(d\\logκ+\\log\\frac1\\varepsilon))$ gradient queries for the bouncy particle sampler and $O(κd^{1/4}(d\\logκ+\\log\\frac1\\varepsilon))$ full-gradient equivalents for Zigzag, where $d$ coordinate-partial queries count as one equivalent.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28413v1",
+        "pdf": "https://arxiv.org/pdf/2607.28413v1",
+        "source": "https://export.arxiv.org/e-print/2607.28413v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 4,
+        "lemmas": 4,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 115,
+        "bibliography_entries": 35,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ate-partial queries count as one full-gradient equivalent. The letter C denotes a universal constant whose value may change from line to line. Use of AI tools. The general algorithm design and analysis approach are created by the authors. LLM-based assistants were used in the preparation of this manuscript for drafting, language editing, and consistency checks. The authors are responsible for independently checking every statement and proof and for the correctness and integrity",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:12.959253Z"
+      },
+      "score": 521.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 104.25,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 24,
+          "theorems": 24,
+          "lemmas": 16,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 28.75,
+          "bibliography_entries": 3.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00092",
       "version": 1,
       "title": "Explicit Green's Functions and Adjoint Problems for Differential Equations with Linear Functional Perturbations",
