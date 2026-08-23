@@ -44491,6 +44491,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12379",
+      "version": 2,
+      "title": "Asymptotic Behavior and Error Bounds for Fisher-KPP Equations on the Real Half-Line",
+      "authors": [
+        "Chu Chu",
+        "M. W. Wong"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-28T02:39:10Z",
+        "updated": "2026-08-14T01:32:47Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the Fisher--KPP equation on the half-line under Dirichlet,Neumann, and Robin boundary conditions. For the autonomous logistic equation, we identify bounded stationary profiles converging to $1$ and obtain exponential far-field comparison estimates. We prove local uniform convergence of nontrivial Neumann solutions to $1$. Assuming local uniform convergence of the Robin solution to its stationary profile, we derive asymptotic Neumann--Robin comparison estimates. We then consider small time-periodic Neumann and Robin boundary forcing. Under exponential stability of the homogeneous linearized semigroup, we construct a locally unique small periodic lifted mild solution and obtain a first-order expansion with a uniform $O(\\varepsilon^2)$ remainder in $C_0([0,\\infty))$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12379v2",
+        "pdf": "https://arxiv.org/pdf/2608.12379v2",
+        "source": "https://export.arxiv.org/e-print/2608.12379v2"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 5,
+        "lemmas": 2,
+        "propositions": 3,
+        "corollaries": 4,
+        "definitions": 3,
+        "displayed_equations": 659,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "(0) − 1∥X + CR e−µR t ∥UR (0) − VR ∥X . Taking µ := min{µN , µR }, C := max{CN , CR }, and choosing δ > 0 smaller than the two admissible perturbation radii yields the asserted estimate. Declaration of AI-assisted tools During the preparation of this manuscript, the first author used ChatGPT as an auxiliary tool to assist with LaTeX formatting and with drafting and organizing some proof arguments based on the first author’s ideas and prompts. The au",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:53.073893Z"
+      },
+      "score": 2110,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 263.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 29,
+          "theorems": 30,
+          "lemmas": 8,
+          "propositions": 12,
+          "corollaries": 12,
+          "definitions": 6,
+          "displayed_equations": 164.75,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25203",
       "version": 1,
       "title": "Projection and contraction methods with double inertial steps for variational inclusion problems on Hilbert spaces",
