@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16169",
+      "version": 1,
+      "title": "Absolute Borel Complexity of Moduli Spaces of Ultrametrics",
+      "authors": [
+        "Yoshito Ishiki"
+      ],
+      "categories": {
+        "primary": "math.GN",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T06:37:29Z",
+        "updated": "2026-08-17T06:37:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $X$ be an ultrametrizable space. We study the space of bounded compatible ultrametrics on $X$, equipped with its natural non-Archimedean distance. For every positive integer level, we prove that additive absolute Borel complexity of this moduli space implies multiplicative absolute Borel complexity of $X$ at the same level, and conversely. We also prove that an ultrametrizable space is a countable union of locally compact subspaces if and only if it is a countable union of closed subsets in every completion induced by a bounded compatible ultrametric. As a consequence, this moduli space is completely metrizable exactly when $X$ is a countable union of compact subsets.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16169v1",
+        "pdf": "https://arxiv.org/pdf/2608.16169v1",
+        "source": "https://export.arxiv.org/e-print/2608.16169v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 4,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 46,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "extension result used later. Sec- tion 4 proves the lifting theorem and its consequence, and Section 5 proves the two absolute Borel reversals. Section 6 proves the complete metrizability characterization stated in Theorem 6.1. Use of AI. OpenAI Codex was used in the preparation of this manuscript for language editing, LATEX typesetting assistance, and exploration of proof constructions. The author takes full responsibility for the mathematical content and the final version of the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:00.571063Z"
+      },
+      "score": 532,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 66.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 11,
+          "theorems": 24,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 11.5,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16116",
       "version": 1,
       "title": "New constructions of optimal arrangements of $2d$ lines in $\\mathbb{C}^d$",
