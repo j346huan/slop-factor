@@ -42027,6 +42027,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.11747",
+      "version": 5,
+      "title": "Optimal Embeddings of Constant-Dimensional Subspaces of $L^p$ into $\\ell_p^N$",
+      "authors": [
+        "Yi Li"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-13T16:06:14Z",
+        "updated": "2026-08-02T14:38:46Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $d \\geq 2$, $p \\geq 1$ and $ε> 0$, let $N_p(d,ε)$ be the smallest integer $N$ such that every $d$-dimensional subspace of $L^p[0,1]$ admits a linear embedding into $\\ell_p^N$ with distortion at most $1 + ε$. For fixed $d\\geq 2$ and $p\\geq 1$, the bound \\[ N_p(d,ε) \\lesssim_{d,p} ε^{-2(d-1)/(d+2p)} \\] is established. For $p \\notin 2\\mathbb{Z}$, this matches the known lower bound up to constant factors. For odd integers $p$, previous upper bounds with this exponent incurred additional logarithmic factors, except in the logarithm-free case $p = 1$; for non-integral $p$, no upper bound with this exponent was previously known. For even integers $p$, isometric embeddings of dimension independent of $ε$ are known. For $p \\notin 2\\mathbb{Z}$, the proof approximates $|t|^p$ by a polynomial with a remainder of small total variation. The polynomial part contributes no error, while the error from the remainder is controlled by an integrated equatorial-band discrepancy estimate.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.11747v5",
+        "pdf": "https://arxiv.org/pdf/2607.11747v5",
+        "source": "https://export.arxiv.org/e-print/2607.11747v5"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 7,
+        "lemmas": 12,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 239,
+        "bibliography_entries": 57,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "n AcRF Tier 1 grant RG21/25. The author used ChatGPT 5.5 Plus during the development of this work to explore and refine proof strategies, formulate intermediate results, and generate initial drafts of parts of the technical proofs. All AI-generated material was substantially revised, corrected, and integrated by the author. All mathematical claims, proofs, and references were independently checked by the author. 22",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:00.511209Z"
+      },
+      "score": 1914.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 191.45,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 33,
+          "theorems": 42,
+          "lemmas": 48,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 59.75,
+          "bibliography_entries": 5.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.11648",
       "version": 3,
       "title": "Superlinear complexity of the $(3/2)^n$ steering word",
