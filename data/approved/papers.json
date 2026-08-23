@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23598",
+      "version": 1,
+      "title": "Nonexistence of universal Fourier summation formulas for the degree below the Hölder threshold $α=1/3$",
+      "authors": [
+        "Michał Cieszyński"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T10:57:17Z",
+        "updated": "2026-07-26T10:57:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $(σ_{n,\\varepsilon})_{n\\in\\mathbb{Z},\\,0<\\varepsilon<1}$ be a summation process in the sense of Brezis, that is: \\[ \\forall \\varepsilon\\in(0,1),\\quad \\sup_{n\\in\\mathbb{Z}}|nσ_{n,\\varepsilon}|<\\infty \\qquad \\forall n\\in\\mathbb{Z},\\quad \\lim_{\\varepsilon\\rightarrow0^+}σ_{n,\\varepsilon}=1. \\] We prove that for every $0<α<1/3$ there exists $f\\in C^{0,α}(S^1;S^1)$ such that \\[ \\sum_{n\\in\\mathbb{Z}}σ_{n,\\varepsilon}n|\\widehat f(n)|^2 \\] does not converge to $\\mathrm{deg}\\,f$ as $\\varepsilon\\rightarrow 0^+$. This gives a negative answer to Open Problem 5.6 from Brezis's list of favourite open problems for all $p>3$ and $0<α<1/3$, leaving the endpoint $C^{0,1/3}$ unresolved. We also observe that, under their literal formulations, Open Problems 5.7 and 5.8 have immediate positive and negative answers, respectively. The proof of the main result combines degree-zero quotients of Blaschke factors with a Baire category argument.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23598v1",
+        "pdf": "https://arxiv.org/pdf/2607.23598v1",
+        "source": "https://export.arxiv.org/e-print/2607.23598v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 81,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s partially supported by National Sci- ence Centre grant 2022/01/1/ST1/00021 and by IMAI Centre (University of Warsaw). The author thanks his advisor Katarzyna Mazowiecka for drawing his atten- tion to this problem. Use of generative AI. ChatGPT (OpenAI) was used to generate prelimi- nary drafts of the proofs in this manuscript. The author subsequently verified each argument in detail, revised the proofs where necessary, checked the cited sources, and determined the final formulat",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:58.509826Z"
+      },
+      "score": 432.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 54.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 20.25,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23587",
       "version": 1,
       "title": "Actions of $(\\mathbb{Z}/4)^4$ on rationally connected threefolds",
