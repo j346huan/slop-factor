@@ -41770,6 +41770,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.11756",
+      "version": 3,
+      "title": "Full replica symmetry breaking in the Sherrington-Kirkpatrick model",
+      "authors": [
+        "Patrick Lopatto"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-13T16:13:26Z",
+        "updated": "2026-07-16T16:41:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that, at zero external field and for every inverse temperature $β>1$, the Parisi measure of the Sherrington-Kirkpatrick model is supported on a single interval $[0,q_β]$, has a smooth density on $[0,q_β)$, and has a single atom at $q_β$. The proof first establishes that zero is an accumulation point of the support. By direct analysis of the Gaussian Cole-Hopf solutions associated with finitely supported measures, followed by an approximation argument, we show that a positive gap separating zero from the rest of the support contradicts the variational characterization of the Parisi measure established by Jagannath and Tobasco (2017). We then derive a monotonicity constraint on a quantity appearing in the self-consistency conditions arising from the Parisi variational criteria, which is incompatible with the existence of any gap in the support. Finally, log-concavity of a transformed probability density associated with the optimal diffusion implies that the maximal support point carries an atom, while the regularity result of Auffinger and Chen (2015) excludes the possibility of other singular components.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.11756v3",
+        "pdf": "https://arxiv.org/pdf/2607.11756v3",
+        "source": "https://export.arxiv.org/e-print/2607.11756v3"
+      },
+      "structural_counts": {
+        "pages": 54,
+        "theorems": 1,
+        "lemmas": 10,
+        "propositions": 11,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 625,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "is an atom, and completes the proof of Theorem 1.1. 1.3. Acknowledgments. The author was partially supported by NSF grant DMS-2450004. We thank Amol Aggarwal for helpful conversations. This paper was prepared with the assistance of large language models, including suggesting possible arguments, drafting and revising the manuscript, and writing code for numerical checks.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:51:48.846691Z"
+      },
+      "score": 1538.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 307.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 54,
+          "theorems": 6,
+          "lemmas": 40,
+          "propositions": 44,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 156.25,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.11648",
       "version": 3,
       "title": "Superlinear complexity of the $(3/2)^n$ steering word",
