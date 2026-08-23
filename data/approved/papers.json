@@ -8340,6 +8340,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16398",
+      "version": 1,
+      "title": "On The Eaton-Moretó Conjecture for Principal Blocks of Finite Groups",
+      "authors": [
+        "Asier Arranz",
+        "Javier Gómez-Serrano",
+        "Gabriel Navarro",
+        "A. A. Schaeffer Fry"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.GR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T10:52:57Z",
+        "updated": "2026-08-17T10:52:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $G$ be a finite group and let $p$ be a prime. If $P$ is a nonabelian Sylow $p$-subgroup of $G$ and $m(P)$ is the smallest non-linear irreducible character degree of $P$, we prove that there exists $χ\\in {\\rm Irr}(G)$ in the principal $p$-block of $G$ such that $1<χ(1)_p\\le m(P)$, giving one inequality of the Eaton-Moretó conjecture for principal blocks. This, assuming Dade's Projective conjecture, implies the Eaton-Moretó conjecture for principal blocks.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16398v1",
+        "pdf": "https://arxiv.org/pdf/2608.16398v1",
+        "source": "https://export.arxiv.org/e-print/2608.16398v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 7,
+        "lemmas": 15,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 54,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file agsns_forArXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "one.” The theorem Navarro proposed was a weaker block–free version of Theorem A of this paper. After a few days and several suggestions, AI produced a proof of this result. For this purpose, we used a workflow involving ChatGPT-5.6-Sol and Claude Fable 5, with Gómez–Serrano and Navarro setting up the problem and asking Navarro for further input and advice approximately every ∼ 24h. A few days later, again with some help from AI, we managed to prove Theorem A of this paper. The pro",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:20.246627Z"
+      },
+      "score": 1396,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 139.6,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 19,
+          "theorems": 42,
+          "lemmas": 60,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 13.5,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16378",
       "version": 2,
       "title": "Mathematics in the age of the reproduction of intelligence",
