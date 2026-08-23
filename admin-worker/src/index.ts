@@ -313,6 +313,50 @@ function approvedRecord(
   };
 }
 
+export async function prepareApprovalBatch(
+  approvals: unknown[],
+  reviewer: string,
+  verifiedAt: Date,
+): Promise<{
+  records: object[];
+  queued_ids: string[];
+  failures: Array<{ arxiv_id: string; error: string }>;
+}> {
+  const records: object[] = [];
+  const queued_ids: string[] = [];
+  const failures: Array<{ arxiv_id: string; error: string }> = [];
+  for (const [index, draft] of approvals.entries()) {
+    const candidate =
+      draft && typeof draft === "object" && "candidate" in draft
+        ? (draft as { candidate?: unknown }).candidate
+        : null;
+    const arxivId =
+      candidate &&
+      typeof candidate === "object" &&
+      "candidate_id" in candidate &&
+      typeof (candidate as { candidate_id?: unknown }).candidate_id === "string"
+        ? (candidate as { candidate_id: string }).candidate_id
+        : `entry ${index + 1}`;
+    try {
+      records.push(
+        approvedRecord(draft as BulkApprovalDraft, reviewer, verifiedAt),
+      );
+      queued_ids.push(arxivId);
+    } catch (error) {
+      failures.push({
+        arxiv_id: arxivId,
+        error:
+          error instanceof Response
+            ? await error.text()
+            : error instanceof Error
+              ? error.message
+              : "Invalid approval",
+      });
+    }
+  }
+  return { records, queued_ids, failures };
+}
+
 function fromBase64Url(value: string): Uint8Array {
   const padded = value
     .replaceAll("-", "+")
@@ -762,10 +806,14 @@ async function api(
     if (approvals.length > 1000) {
       return json({ error: "Approval batch exceeds 1,000 papers" }, 400);
     }
-    const verifiedAt = new Date();
-    const records = approvals.map((draft) =>
-      approvedRecord(draft as BulkApprovalDraft, user.login, verifiedAt),
+    const { records, queued_ids, failures } = await prepareApprovalBatch(
+      approvals,
+      user.login,
+      new Date(),
     );
+    if (records.length === 0) {
+      return json({ accepted: false, approvals: 0, queued_ids, failures });
+    }
     const main = await github<{ object: { sha: string } }>(
       token,
       `/repos/${env.PUBLIC_REPOSITORY}/git/ref/heads/main`,
@@ -811,6 +859,8 @@ async function api(
       {
         accepted: true,
         approvals: records.length,
+        queued_ids,
+        failures,
         batch_ref: batchRef,
       },
       202,

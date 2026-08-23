@@ -161,7 +161,7 @@ async function applyDecisionFile(file) {
 
   if (approvals.length > 0) {
     try {
-      await api("/api/decisions/bulk", {
+      const result = await api("/api/decisions/bulk", {
         method: "POST",
         body: JSON.stringify({
           approvals: approvals.map((item) => ({
@@ -175,10 +175,14 @@ async function applyDecisionFile(file) {
           })),
         }),
       });
+      const queuedIds = new Set(result.queued_ids ?? []);
       for (const item of approvals) {
-        item.candidate.status = "approval-submitted";
+        if (queuedIds.has(item.candidate.candidate_id)) {
+          item.candidate.status = "approval-submitted";
+        }
       }
-      queuedApprovals = approvals.length;
+      queuedApprovals = result.approvals ?? 0;
+      failures.push(...(result.failures ?? []));
     } catch (error) {
       const message = error instanceof Error ? error.message : "Request failed";
       failures.push({
