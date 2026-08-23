@@ -44061,6 +44061,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17670",
+      "version": 1,
+      "title": "$L^2$-cohomology and deformations of the left regular representation",
+      "authors": [
+        "Christoph Gamm",
+        "Andreas Thom"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T08:21:45Z",
+        "updated": "2026-07-20T08:21:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study deformations of unitary representations $π\\colon G\\to U(H)$ whose coefficients lie in the Hilbert-Schmidt ideal $HS(H)\\subset B(H)$. Interesting applications arise for the left-regular representation of surface groups and, more generally, cocompact lattices in the automorphism group of a Fuchsian building of conformal dimension $<2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17670v1",
+        "pdf": "https://arxiv.org/pdf/2607.17670v1",
+        "source": "https://export.arxiv.org/e-print/2607.17670v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 5,
+        "lemmas": 9,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 3,
+        "displayed_equations": 71,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file deformations.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "for surface groups and more generally for the groups studied in this section. Acknowledgements The second author thanks Antonio López Neumann for interesting discussions on the last section. GPT (OpenAI) was used to assist in drafting parts of this manuscript. All content was reviewed and substantially revised by the authors, who are responsible for the final text. The content of this article is also part of the forthcoming doctoral thesi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:32.252861Z"
+      },
+      "score": 603.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 120.65,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 16,
+          "theorems": 30,
+          "lemmas": 36,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 6,
+          "displayed_equations": 17.75,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17630",
       "version": 1,
       "title": "Higher-Order Hankel Obstructions to Free Infinite Divisibility for Beta Distributions",
