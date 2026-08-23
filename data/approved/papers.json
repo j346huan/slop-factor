@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07265",
+      "version": 1,
+      "title": "Metric Non-Collapse in Learned World Models for Control: Approximation Theory, Finite-Sample Geometric Guarantees, and Deterministic Planning Transfer",
+      "authors": [
+        "Alain Bensoussan",
+        "Minh-Nhat Phung",
+        "Minh-Binh Tran"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-07T14:25:33Z",
+        "updated": "2026-08-07T14:25:33Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a three-part mathematical theory for metrically faithful learned world models for nonlinear deterministic control systems. First, on the approximation-theoretic side, we construct smooth exact latent realizations and verify the required finite-capacity $C^{1,1}$ approximation property for norm-constrained tensor-product B-spline classes with capacity-independent regularity budgets. Second, on the finite-sample geometric side, we introduce an encoder-only local--global metric hinge whose directional and separated-pair terms prevent infinitesimal collapse and global folding. Although the prediction loss is observation-based, evaluation of this penalty uses state-metric supervision through observable-state distances and tangent directions. Under a regular observable-factor assumption, lower-Ahlfors coverage, and uniform $C^{1,1}$ budgets, provided the explicit finite-sample deviation lies below the metric-margin threshold, every approximate empirical minimizer above a computable one-sided regularization threshold is pointwise co-Lipschitz and satisfies a uniform approximate controlled-semiconjugacy estimate, with approximation, statistical, and training-optimization errors kept separate. The $L^2$-to-$L^\\infty$ exponent used in this step is sharp under Lipschitz regularity. Third, for deterministic planning transfer, metric non-collapse induces compatible Lipschitz latent costs, while semiconjugacy gives uniform trajectory and finite-horizon cost bounds and an optimizer-transfer guarantee; learned latent cost heads enter through explicit compatibility errors. Numerical experiments use bounded latent ranges, archived fixed metric samples, a finite-capacity coefficient-box spline proxy motivated by the theorem, and latent model-predictive control on a controlled pendulum.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07265v1",
+        "pdf": "https://arxiv.org/pdf/2608.07265v1",
+        "source": "https://export.arxiv.org/e-print/2608.07265v1"
+      },
+      "structural_counts": {
+        "pages": 74,
+        "theorems": 2,
+        "lemmas": 12,
+        "propositions": 7,
+        "corollaries": 5,
+        "definitions": 5,
+        "displayed_equations": 509,
+        "bibliography_entries": 46,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ult is therefore the complete objective-to-geometry-to-dynamics-to-control implication, not a broad priority claim about the importance of latent geometry for planning. Declaration on the use of AI tools AI tools were used for language editing, code review, and manuscript organization. The authors assume responsibility for all content. References [1] R. S. Sutton. Dyna, an integrated architecture for",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 71",
+          "page": 71
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T04:59:49.010469Z"
+      },
+      "score": 637.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 318.85,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 74,
+          "theorems": 12,
+          "lemmas": 48,
+          "propositions": 28,
+          "corollaries": 15,
+          "definitions": 10,
+          "displayed_equations": 127.25,
+          "bibliography_entries": 4.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07233",
       "version": 1,
       "title": "Polytopal Bier spheres and nonrealizable central symmetries",
