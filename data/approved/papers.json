@@ -8427,6 +8427,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14217",
+      "version": 1,
+      "title": "The Quartic Hessian Conjecture in Dimension Four",
+      "authors": [
+        "Zixiang Ni"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "cs.AR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T11:48:06Z",
+        "updated": "2026-08-14T11:48:06Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Hessian conjecture asks whether a polynomial with nonzero constant Hessian determinant has a polynomial gradient inverse. It is known in dimensions at most three, false in dimensions at least five, and open in dimension four. We prove its four-variable quartic case. The top homogeneous part has zero Hessian determinant and, by the four-dimensional homogeneous Hesse theorem, is a cone. We divide its cone representative into three exhaustive types: a genuinely ternary quartic with nonzero ternary Hessian, a genuinely binary quartic, and a fourth power of a linear form. In the first type, the degree-seven determinant equation forces the cubic part to be affine-linear in the cone direction. In the binary type, the degree-six equation gives a constant null direction in a two-variable Hessian of the cubic part. In the unary type, the degree-five equation and a constant-direction lemma give the same conclusion. Every type therefore reduces to \\[ f=P(x_1,x_2,x_3)+x_4Q(x_1,x_2,x_3)+a x_4^2, \\qquad °Q\\leq2. \\] We prove, independently of the degree or top part of \\(P\\), that every constant-Hessian polynomial of this form has a polynomial gradient inverse. The branch \\(a\\ne0\\) descends from the known three-dimensional Hessian conjecture after a Schur complement. When \\(a=0\\), an isotropic-cone rank analysis eliminates rank two, solves the rank-one exception by an explicit triangular inverse, and reduces rank zero to the two-dimensional Hessian conjecture. The coupled degree-six identity is retained throughout; no component with respect to a fixed quadratic form is separated.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14217v1",
+        "pdf": "https://arxiv.org/pdf/2608.14217v1",
+        "source": "https://export.arxiv.org/e-print/2608.14217v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 2,
+        "lemmas": 8,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 73,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "C2n implies JCn . In particular, the full HC4 would imply the still-open JC2 , but the quartic result here addresses only a bounded-degree part of HC4 . Acknowledgments Generative-AI systems—GPT-5.6 Sol, GPT-5.6 Luna, Claude Fable 5, and DeepSeek V4 Pro— were used during the development of this work for exploring candidate arguments, adversarial proof review, algebraic checking, and editorial assistance. The author independently reviewed all mathematical arguments and references and a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:03.458459Z"
+      },
+      "score": 736.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 92.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 12,
+          "theorems": 12,
+          "lemmas": 32,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 18.25,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14115",
       "version": 2,
       "title": "The alpha spectrum of K-polystable toric $\\mathbb{Q}$-Fano varieties",
