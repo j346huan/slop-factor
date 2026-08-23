@@ -8425,6 +8425,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15925",
+      "version": 1,
+      "title": "Equilateral Completion in Floretion Triangular Coordinates: Locality, Product Points, and Reflection Symmetry",
+      "authors": [
+        "Creighton Dement"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.GR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-16T20:39:16Z",
+        "updated": "2026-08-16T20:39:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study unordered triples of order-n floretion base vectors whose tile centroids form nondegenerate equilateral triangles. A scaled integer centroid map converts Euclidean completion into exact arithmetic on a regular triangular lattice. Residues modulo 3 give a self-contained same-orientation theorem: every equilateral centroid triangle uses three tiles of one orientation; a three-color theorem of Ivrissimtzis, Dodgson, and Sabin gives an independent geometric interpretation. Combining this obstruction with the finite triangular-lattice completion counts of Brouwer, Joe, Noble, and Noble yields $|E_n|=4^n(4^n-1)/12$. Synchronized local cyclic actions form a distinguished subclass with $|L_n|=(7^n-4^n)/3$, hence an exponentially vanishing fraction of all equilateral centroid triangles. On the no-e support ${i,j,k}^n$, a mod-2 rigidity argument forces every equilateral centroid triangle to be local, yielding $(2^n-1)3^{n-1}$ examples. We also introduce the unsigned vertex product and its centroid, the product point, and characterize when this point equals the Euclidean center for local cycles. The resulting parity automata produce linear recurrences and Fibonacci subfamilies, including reflection-symmetric product-centered triangles. Finally, an equilateral triangle is multiplication-generated exactly when its unsigned vertex product is the identity, equivalently when its product point is the origin. Within the local class these are precisely the nontrivial global cyclic orbits; exhaustive exact enumeration through order 5 finds no nonlocal examples.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15925v1",
+        "pdf": "https://arxiv.org/pdf/2608.15925v1",
+        "source": "https://export.arxiv.org/e-print/2608.15925v1"
+      },
+      "structural_counts": {
+        "pages": 35,
+        "theorems": 6,
+        "lemmas": 5,
+        "propositions": 12,
+        "corollaries": 9,
+        "definitions": 9,
+        "displayed_equations": 240,
+        "bibliography_entries": 7,
+        "appendix_pages": 7
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file floretion_equilateral_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "for the research, author- ship, or publication of this article. Conflict of interest. The author declares that he has no conflict of interest. Use of generative AI. During the preparation and revision of this manu- script, the author used generative AI tools for language editing, structural suggestions, and exploratory mathematical discussion, including searching for relevant literature. All suggestions incorporated into the present manuscript were critically assessed and mathematically",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:39.045224Z"
+      },
+      "score": 517.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 258.7,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 35,
+          "theorems": 36,
+          "lemmas": 20,
+          "propositions": 48,
+          "corollaries": 27,
+          "definitions": 18,
+          "displayed_equations": 60,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 14
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15914",
       "version": 1,
       "title": "Absorption cutoff and stationary singularities for rounded Gaussian random dynamical systems",
