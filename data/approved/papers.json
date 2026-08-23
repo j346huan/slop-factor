@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22263",
+      "version": 1,
+      "title": "Explicit Iteration Complexity of Exact Data-Driven Inverse Optimization for Integer Linear Programs",
+      "authors": [
+        "Akira Kitaoka"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.AI",
+          "cs.LG",
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-24T12:56:54Z",
+        "updated": "2026-07-24T12:56:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A data-driven inverse optimization problem (DDIOP) is the problem of estimating the objective-function parameters (weights) that explain observed optimal-solution data, and it arises in many applications, including integer linear programming (ILP). It is known that, by applying gradient-based optimization methods to the suboptimality loss, the inverse optimization of ILPs can be solved exactly within finitely many oracle iterations, and that the required number of iterations is bounded as $T=O(1/γ(\\ell_{\\mathrm{sub}})^2)$ in terms of a problem-dependent geometric constant $γ(\\ell_{\\mathrm{sub}})$. However, no means of bounding $γ(\\ell_{\\mathrm{sub}})$ from below as a function of the problem size has been available, and hence the number of iterations could not be given as an explicit function of the problem size. We therefore give, when the forward problem is an integer linear program (ILP), the number of iterations sufficient for projected subgradient descent applied to the suboptimality loss to achieve exact consistency with the observed data, as a fully explicit function of the number of samples, the dimension of the features, the ranges of the features, and the structure of the constraint coefficient matrix, up to polynomial factors in the basic constants (the diameter of the weight set, the step-size parameter, and the Lipschitz constant of the suboptimality loss).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22263v1",
+        "pdf": "https://arxiv.org/pdf/2607.22263v1",
+        "source": "https://export.arxiv.org/e-print/2607.22263v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 11,
+        "lemmas": 2,
+        "propositions": 14,
+        "corollaries": 3,
+        "definitions": 6,
+        "displayed_equations": 81,
+        "bibliography_entries": 72,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file explicit_iteration_complexity_of_exact_DDIOP_ILP_v8_arXiv_EN.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "LPs, and the exponential dependence of the iteration bound on d is genuine. Sharpening the general ILP lower bound and improving its N d dependence are left for future work. Acknowledgement We also thank GPT-5.2, GPT-5.4, Opus 4.7, and Opus 4.8, Fable 5 for their assistance with proofreading the manuscript.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 29",
+          "page": 29
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:45.486881Z"
+      },
+      "score": 216.45,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 216.45,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 34,
+          "theorems": 66,
+          "lemmas": 8,
+          "propositions": 56,
+          "corollaries": 9,
+          "definitions": 12,
+          "displayed_equations": 20.25,
+          "bibliography_entries": 7.2,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18128",
       "version": 1,
       "title": "Nearest Graph Laplacians with Prescribed Connected Components: A Convex Framework for Network Reconstruction",
