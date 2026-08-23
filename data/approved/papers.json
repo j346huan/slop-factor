@@ -41772,6 +41772,97 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24847",
+      "version": 2,
+      "title": "Extremal Chowla sets and their linear analogues: A human-AI mathematical investigation using Co-Scientist",
+      "authors": [
+        "Mohsen Aliabadi",
+        "Keith Driscoll",
+        "Elliot Krop",
+        "Petar Sirkovic",
+        "Everett Sullivan",
+        "Elahe Vedadi"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "cs.AI",
+          "math.GR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T01:46:56Z",
+        "updated": "2026-07-29T03:21:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce an extremal invariant associated with Chowla-type order conditions in finite groups. A nonempty subset $S$ of a finite group $G$ is called a Chowla set if every element of $S$ has order greater than $|S|$, and we write $C(G)$ for the maximum cardinality of such a set. We first show that $C(G)$ is determined by the distribution of element orders in $G$. For cyclic groups, we derive an exact divisor formula and characterize the integers $n$ for which $C(\\mathbb{Z}/n\\mathbb{Z})=\\varphi(n)$. We prove that $\\liminf_{n\\to\\infty}C(\\mathbb{Z}/n\\mathbb{Z})/\\varphi(n)=1$, whereas $\\limsup_{n\\to\\infty}C(\\mathbb{Z}/n\\mathbb{Z})/\\varphi(n)=\\infty$, and we determine the corresponding lower and upper limits under normalization by $n$. For finite abelian groups, we obtain an explicit formula in terms of the invariant-factor decomposition, together with a closed formula for finite abelian $p$-groups. We then develop a linear analogue for finite field extensions. A nonzero $K$-subspace $A$ of an extension $L/K$ is called a Chowla subspace if $[K(a):K]>\\dim_K A$ for every nonzero $a\\in A$. Since this condition depends on $\\dim_K A$, it does not generally require every nonzero element of $A$ to generate $L$ over $K$. Nevertheless, when $L/K$ is finite and separable, we prove the exact formula $C(L/K)=[L:K]-d_{\\max}(L/K)$, where $d_{\\max}(L/K)$ is the largest degree over $K$ of a proper intermediate field. For finite fields, we give a direct proof in every degree using a normal-basis construction. This work was developed through an expert-guided human-AI collaboration. A reasoning-focused configuration of Co-Scientist was used to explore examples and potential proof strategies. The authors formulated the problem, independently verified and completed all arguments, and wrote the final proofs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24847v2",
+        "pdf": "https://arxiv.org/pdf/2607.24847v2",
+        "source": "https://export.arxiv.org/e-print/2607.24847v2"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 9,
+        "lemmas": 4,
+        "propositions": 7,
+        "corollaries": 10,
+        "definitions": 2,
+        "displayed_equations": 164,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ction pattern of the corresponding subfields. 7 Methodology This paper was produced through a human–AI collaborative workflow using a lightweight, reasoning-oriented configuration of Co-Scientist [13], with additional assistance from Gemini Deep Think [11] and Gemini Pro [12]. The human authors formulated the problem, directed the exploratory prompts, checked the resulting arguments, repaired gaps, supplied missing hypotheses, and wrote the final exposition. The AI systems as",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:27.666300Z"
+      },
+      "score": 2030,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 203,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 28,
+          "theorems": 54,
+          "lemmas": 16,
+          "propositions": 28,
+          "corollaries": 30,
+          "definitions": 4,
+          "displayed_equations": 41,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22828",
       "version": 1,
       "title": "A Salem-Spencer-Type Construction for Large Subsets of Integer Grids with No Isosceles Right Triangles",
