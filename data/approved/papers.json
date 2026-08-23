@@ -8508,6 +8508,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09267",
+      "version": 1,
+      "title": "Pseudo--Kähler induction on Lie groups with entire Grauert tubes",
+      "authors": [
+        "Gabriele Barbieri",
+        "Andrea Galasso"
+      ],
+      "categories": {
+        "primary": "math.SG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T08:23:53Z",
+        "updated": "2026-08-10T08:23:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Given a closed subgroup $H\\subseteq G$ and a Hamiltonian $H$-space $Y$, one can construct an induced Hamiltonian $G$-space. In this paper we investigate this construction in the setting where $Y$ is endowed with a compatible complex structure. Our aim is to develop symplectic induction in this framework and to establish the corresponding Kähler analogues of the classical results. The main idea is to replace the cotangent bundle $T^*G$, appearing in the standard construction of $\\operatorname{Ind}$, with the Grauert tube of $G$. We focus on Lie groups admitting a globally defined Grauert tube and study the resulting pseudo--Kähler induction procedure.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09267v1",
+        "pdf": "https://arxiv.org/pdf/2608.09267v1",
+        "source": "https://export.arxiv.org/e-print/2608.09267v1"
+      },
+      "structural_counts": {
+        "pages": 47,
+        "theorems": 9,
+        "lemmas": 14,
+        "propositions": 7,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 219,
+        "bibliography_entries": 33,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 05-08_final.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the Leiden Declaration on Artificial Intelligence and Mathematics [18], we disclose the following. The research questions, the conceptual framework and the mathematical direction of this work are entirely the authors’ own. An AI assistant (Anthropic’s Claude, July and August 2026) was used interactively in exploratory discussions concerning some of the arguments, in drafting parts of the text and in performing numerical consistency checks on explicit examples. No proof assistant or formal veri",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 44",
+          "page": 44
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:23.321843Z"
+      },
+      "score": 1230.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 246.05,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 47,
+          "theorems": 54,
+          "lemmas": 56,
+          "propositions": 28,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 54.75,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18146",
       "version": 1,
       "title": "Diffeological Tangent Spaces and Distributional Linearization for Lifted Euler--Reynolds Limits",
