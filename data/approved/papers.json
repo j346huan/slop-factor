@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08799",
+      "version": 1,
+      "title": "The $Δ$-Conjecture for CIS $d$-Graphs",
+      "authors": [
+        "Yinchen Liu",
+        "Quanyu Tang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-09T16:24:21Z",
+        "updated": "2026-08-09T16:24:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the $Δ$-conjecture, which dates back to Gurvich's 1978 thesis. Specifically, let the edges of a complete graph be colored with colors $1,\\ldots,d$, and for each $i$ let $G_i$ be the graph formed by the edges of color $i$. We prove that if every choice of a maximal stable set $S_i$ of $G_i$, one for each $i\\in[d]$, has nonempty intersection, then the coloring contains no rainbow triangle.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08799v1",
+        "pdf": "https://arxiv.org/pdf/2608.08799v1",
+        "source": "https://export.arxiv.org/e-print/2608.08799v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 15,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Statement on AI usage The main proof strategy, in particular the inductive use of the local configuration around a rainbow triangle together with restriction to a proper induced subgraph, was developed by the authors. ChatGPT was used during the preparation of the manuscript to assist with some technical details, including parts of the proof of Lemma 2.1. It was also used to help check and polish some arguments. All AI-assisted arguments were independently veri",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:06:11.772819Z"
+      },
+      "score": 238,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 29.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 5,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3.75,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08777",
       "version": 1,
       "title": "Response Geometry for Einstein metrics",
