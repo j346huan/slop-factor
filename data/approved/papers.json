@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18793",
+      "version": 2,
+      "title": "On free generators in the Grothendieck-Teichmüller Lie Algebra",
+      "authors": [
+        "Thomas Willwacher"
+      ],
+      "categories": {
+        "primary": "math.QA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T07:14:12Z",
+        "updated": "2026-08-06T12:15:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that any homogeneous family $σ_3,σ_5,\\ldots$ in $\\mathfrak{grt}_1(\\mathbb K)$ with nonzero coefficients of $x^{2k}y$ in $σ_{2k+1}$ generates a free Lie subalgebra, building on the work of Brown.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18793v2",
+        "pdf": "https://arxiv.org/pdf/2607.18793v2",
+        "source": "https://export.arxiv.org/e-print/2607.18793v2"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 3,
+        "lemmas": 9,
+        "propositions": 6,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 104,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_reworked_2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "was dicussed with the AI, on the basis of making my old lecture notes on Brown’s work into a paper, with the upgrade of replacing the role of the KZ associator in those notes by a more general one. After the exact plan was decided, I used ChatGPT 5.6 Pro to generate a first draft of the paper on the basis of the lecture notes, which was then iteratively improved in several rounds of prompting. Once this resulted in a somewhat acceptable text, I took over the editing and revised and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:49.897333Z"
+      },
+      "score": 609,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 121.8,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 15,
+          "theorems": 18,
+          "lemmas": 36,
+          "propositions": 24,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 26,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18694",
       "version": 1,
       "title": "A Local Classification of Four-Element Multiple Sumsets",
