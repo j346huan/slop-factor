@@ -9109,6 +9109,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12891",
+      "version": 1,
+      "title": "Non-derivability of Euclidean Division in $\\mathrm{PA}_{\\mathrm{smu}}^{-}$",
+      "authors": [
+        "Naoya Kato"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T07:13:06Z",
+        "updated": "2026-08-13T07:13:06Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "$\\mathrm{PA}_{\\mathrm{smu}}^{-}$ is a weak theory of arithmetic obtained by adding two principles concerning powers of two to basic axioms satisfied by the nonnegative part of a discretely ordered ring. We introduce a theory $\\mathrm{PA}_{\\mathrm{wit}}^{-}$ in which powers of two and the required witnesses are represented by primitive symbols. We show that, along a fixed sequence in the standard model of arithmetic, every one-variable term eventually agrees with a polynomial over the dyadic rationals. A finite avoidance lemma and the Compactness Theorem then yield a model of $\\mathrm{PA}_{\\mathrm{smu}}^{-}$ in which division by $3$ fails. In this model even the $n=3$ instance of the Standard Euclidean Division Principle pa16 fails. In fact, the model can be chosen to satisfy every universal $\\mathcal{L}_0$-sentence true in the standard model. Consequently, neither pa16 nor the Euclidean Division Principle pa17 is derivable even after these universal truths are adjoined to $\\mathrm{PA}_{\\mathrm{smu}}^{-}$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12891v1",
+        "pdf": "https://arxiv.org/pdf/2608.12891v1",
+        "source": "https://export.arxiv.org/e-print/2608.12891v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 1,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 4,
+        "definitions": 0,
+        "displayed_equations": 86,
+        "bibliography_entries": 3,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file PA_smu_pa17.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the question addressed in this paper, for carefully reading an earlier version of the manuscript, and for his valuable comments, suggestions, and encouragement. Statement on the Use of AI Tools In preparing this paper, the author used OpenAI Codex, based on GPT-5, as an interactive tool to assist in exploring proof strategies, checking mathematical arguments, organizing and revising the exposition, and preparing the English version. The author independently verified all defini",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:23.958569Z"
+      },
+      "score": 654.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 81.8,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 14,
+          "theorems": 6,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 12,
+          "definitions": 0,
+          "displayed_equations": 21.5,
+          "bibliography_entries": 0.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12855",
       "version": 1,
       "title": "Schwarz Symmetrization Can Increase a Nonlocal Thereshold Energy",
