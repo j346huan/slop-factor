@@ -42022,6 +42022,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12138",
+      "version": 1,
+      "title": "Broken-space Additive Schwarz Mass Inverse Approximations and (Block) Preconditioning",
+      "authors": [
+        "Oliver A. Krzysik",
+        "Ben S. Southworth",
+        "Golo A. Wimmer"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-13T20:40:43Z",
+        "updated": "2026-07-13T20:40:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Finite-element mass matrix solves and approximate inverses arise often in explicit time integration as well as Schur-complement-based block preconditioning. A diagonal approximation of the mass matrix is cheap and widely used, but can be a poor approximation, particularly for high-order elements. This paper introduces a broken-space additive Schwarz (BRAS) mass inverse approximation, formed by applying exact element-local inverse mass matrices on the broken finite-element space and averaging the result back to the conforming space. The construction uses the same element matrices and local-to-global maps as standard mass assembly, has the same element-adjacency sparsity graph as the conforming mass matrix, and is symmetric positive definite for any conforming space, mesh geometry, and polynomial basis. We prove spectral bounds for the preconditioned mass matrix, and wide-ranging numerical experiments for \\(H^1\\), \\(H(\\operatorname{curl})\\), and \\(H(\\operatorname{div})\\) finite elements on two- and three-dimensional simplicial meshes show that BRAS reduces spectral condition numbers, Krylov iterations, and solve times relative to diagonal preconditioning. For preconditioned conjugate gradient (CG), BRAS yields a 1.1--4.7$\\times$ speedup over diagonal/Jacobi preconditioning across all cases tested over finite-element orders $p\\in[1,4]$. Further, theory and numerical experiments show that in the block-preconditioning case, BRAS can improve Schur-complement approximations and reduce outer solve times. On mixed Poisson and biharmonic systems, BRAS yields a 1.5--3$\\times$ speedup in time-to-solution over a standard diagonal-based preconditioning approach.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12138v1",
+        "pdf": "https://arxiv.org/pdf/2607.12138v1",
+        "source": "https://export.arxiv.org/e-print/2607.12138v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 71,
+        "bibliography_entries": 32,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file mass_bras_strip.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d block preconditioning prob- lems, BRAS formulations lead to consistent solve-time improvements over diagonal preconditioning in essentially all of the tested cases, typically on the order of 1.5–3×. Acknowledgments. The authors used OpenAI’s ChatGPT during the prepa- ration of this manuscript, including for exploratory mathematical discussion, coding, and drafting of the exposition. All mathematical claims, proofs, computations, cita- tions, and final wording were reviewed, verified,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:20.417793Z"
+      },
+      "score": 567.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 70.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 23,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 17.75,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12090",
       "version": 1,
       "title": "Induced-Minor-Closed Classes have Linear, Square-Root, or Sub-Polynomial Tree-Independence",
