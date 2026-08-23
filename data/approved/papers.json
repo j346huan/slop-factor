@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00256",
+      "version": 1,
+      "title": "Naturality in real Heegaard Floer theory",
+      "authors": [
+        "Gary Guth",
+        "Ciprian Manolescu"
+      ],
+      "categories": {
+        "primary": "math.GT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T19:53:16Z",
+        "updated": "2026-07-31T19:53:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In a previous paper we defined real Heegaard Floer homology, an invariant of three-manifolds equipped with involutions. Here we prove that real Heegaard Floer homology is natural, and that it admits an action of the equivariant mapping class group. We also establish naturality of real link Floer homology and real sutured Floer homology, and give a definition of involutive real Heegaard Floer homology.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00256v1",
+        "pdf": "https://arxiv.org/pdf/2608.00256v1",
+        "source": "https://export.arxiv.org/e-print/2608.00256v1"
+      },
+      "structural_counts": {
+        "pages": 127,
+        "theorems": 19,
+        "lemmas": 33,
+        "propositions": 23,
+        "corollaries": 3,
+        "definitions": 75,
+        "displayed_equations": 246,
+        "bibliography_entries": 203,
+        "appendix_pages": 127
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the following. Theorem 4. Let (Y, τ ) be a real three-manifold and s a self-conjugate real Spinc structure. For ◦ ∈ {−, ∞, +, ˆ}, the isomorphism class of HFRI ◦ (Y, τ, s) is an invariant of the triple (Y, τ, s). Note on AI use. We used Gemini Deep Think and Claude to produce first drafts of the proofs of Propositions 3.8 and 4.22, Corollary 4.23, Lemmas 5.10, 5.11 and 5.12. The proofs were checked and then rewritten by the authors. During the revision process we used GPT-5.6",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:02.286006Z"
+      },
+      "score": 8638.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 959.8,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 127,
+          "theorems": 114,
+          "lemmas": 132,
+          "propositions": 92,
+          "corollaries": 9,
+          "definitions": 150,
+          "displayed_equations": 61.5,
+          "bibliography_entries": 20.3,
+          "appendix_pages": 254
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29490",
       "version": 1,
       "title": "Slice and Partition Rank Criteria for Polynomial Zero-Avoidance",
