@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27416",
+      "version": 1,
+      "title": "Exact Total Variation Minimizers as Non-Oscillatory Limiters in High-Order Methods for Conservation Laws",
+      "authors": [
+        "Gabriel P. Langlois",
+        "Jerome Darbon",
+        "Rongjie Lai",
+        "Chi-Wang Shu",
+        "Xiangxiong Zhang"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-29T19:35:03Z",
+        "updated": "2026-07-29T19:35:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "High-order numerical methods for conservation laws can generate spurious oscillations near discontinuities. We propose to suppress these oscillations by post-processing the numerical solution with a total variation (TV) denoising step that reduces the total variation of the nodal values. For a general analysis operator, the resulting discrete minimization problem need not satisfy the submodularity property that existing exact max-flow algorithms require, so we instead compute the TV minimizer exactly using a differential inclusion algorithm. In one dimension, the differential inclusion algorithm computes the TV minimizer in finitely many steps, requires no tuning of algorithmic parameters, and preserves the total mass. In two dimensions, we apply the 1D algorithm dimension by dimension. We test the method as a post-processing limiter for Fourier pseudospectral methods and a fifth-order finite difference scheme applied to scalar conservation laws, compressible Euler equations, and the two-dimensional incompressible Euler equations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27416v1",
+        "pdf": "https://arxiv.org/pdf/2607.27416v1",
+        "source": "https://export.arxiv.org/e-print/2607.27416v1"
+      },
+      "structural_counts": {
+        "pages": 37,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 22,
+        "bibliography_entries": 50,
+        "appendix_pages": 10
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Conceptualization, Methodology, Funding acquisition. Xiangxiong Zhang: Conceptualization, Methodology, Software, Investigation, Writing – original draft, Writing – review & editing, Supervision, Funding acquisition. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used Claude Code (An- thropic) in order to assist with mathematical discussions, numerical imple- mentation, and draftin",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 33",
+          "page": 33
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:25.936079Z"
+      },
+      "score": 540,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 67.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 37,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 5.5,
+          "bibliography_entries": 5,
+          "appendix_pages": 20
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27199",
       "version": 1,
       "title": "Settling the Optimal Exponent Relating Sumsets and Difference Sets",
