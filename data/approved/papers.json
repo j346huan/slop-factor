@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08473",
+      "version": 1,
+      "title": "Searching for $J$-holomorphic curves via machine: first steps",
+      "authors": [
+        "James Rowan",
+        "Yuan Yao"
+      ],
+      "categories": {
+        "primary": "math.SG",
+        "secondary": [
+          "math.GT",
+          "math.NA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T04:36:09Z",
+        "updated": "2026-08-09T04:36:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We assemble numerical algorithms to search for $J$-holomorphic curves in symplectic manifolds. Each algorithm employs several different numerical techniques, each technique addressing a different aspect of the geometric problem. We separately consider both classical Fourier expansion and deep neural networks in our algorithms and compare their performance. Our algorithms take as input a smooth curve in a given homology class and search for a $J$-holomorphic curve in the same homology class. We first verify we can produce explicitly known holomorphic curves in complex manifolds, for example the Weierstrass $\\wp$ function on the torus and curves in $S^2\\times S^2$ with the standard complex structure. Then we search for $J$-holomorphic curves in $S^2\\times S^2$ with non-integrable almost complex structures: essentially we start with a known holomorphic curve in an integrable almost complex structure $J_0$, deform $J_0$ to a nearby nonintegrable almost complex structure $J_ε$, and use our methods to find the nearby $J_ε$-holomorphic curve.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08473v1",
+        "pdf": "https://arxiv.org/pdf/2608.08473v1",
+        "source": "https://export.arxiv.org/e-print/2608.08473v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 33,
+        "bibliography_entries": 33,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ectic geometry, in this case J-holomorphic curves. It would be interesting to revisit on the pure math side the usage of variational techniques to find J-holomorphic curves. Acknowledgments The code was written with the help of Claude (primarily the Opus 4.8 and Opus 5 models). We read the code line-by-line and are responsible for its correctness. The observation that ℘(1) and ℘(2) are the unique two degree 2 holomorphic maps T 2 → S 2 satisfying the marked point constr",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:48.669710Z"
+      },
+      "score": 75.1,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 37.55,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 26,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 8.25,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08427",
       "version": 2,
       "title": "$R$-Bunce-Deddens Algebras",
