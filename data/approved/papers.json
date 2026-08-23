@@ -42866,6 +42866,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00377",
+      "version": 2,
+      "title": "Schubitopes are not Ehrhart positive",
+      "authors": [
+        "Yupeng Li",
+        "Avery St. Dizier"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-01T01:20:07Z",
+        "updated": "2026-08-08T16:50:06Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Schubitopes are a family of generalized permutahedra arising as the Newton polytopes of both Schubert polynomials and Demazure characters of $\\mathrm{GL}_n$. Monical, Tokcan, and Yong conjectured that Schubitopes are Ehrhart positive. We exhibit a counterexample to this conjecture, a Schubitope whose Ehrhart polynomial contains a negative coefficient in its monomial expansion. This example was found using GPT-5.6 Sol Pro in ChatGPT.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00377v2",
+        "pdf": "https://arxiv.org/pdf/2608.00377v2",
+        "source": "https://export.arxiv.org/e-print/2608.00377v2"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 37,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file schubitope_ehrhart_counterexample.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "o Ehrhart positivity of Schubitopes using GPT-5.6 Sol Pro in ChatGPT. The LLM found the counterexample SE ⊂ R14 above on the first prompt after 38 minutes (see the chat here). SageMath code to validate the counterexample was generated with ChatGPT (see the code here). Acknowledgments We are grateful to Jacob Matherne and Alejandro Morales for their work on the paper [MM26], which we consulted for guidance while preparing the present paper.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:38.287111Z"
+      },
+      "score": 384.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 38.45,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 8,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 9.25,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00256",
       "version": 1,
       "title": "Naturality in real Heegaard Floer theory",
