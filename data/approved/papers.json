@@ -44142,6 +44142,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13214",
+      "version": 1,
+      "title": "On almost disjoint families and Johnson-Lindenstrauss spaces",
+      "authors": [
+        "Antonio Avilés",
+        "Grzegorz Plebanek",
+        "Luis Sáenz"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T19:14:32Z",
+        "updated": "2026-07-14T19:14:32Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Every almost disjoint family $A$ of infinite subsets of $ω$ gives rise to a scattered compact space $K_A$ and a family of Johnson-Lindenstrauss spaces JL$_p(A)$. We consider almost disjoint families arising from finitely branching trees and investigate whether they define homeomorphic compacta and isomorphic Banach spaces.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13214v1",
+        "pdf": "https://arxiv.org/pdf/2607.13214v1",
+        "source": "https://export.arxiv.org/e-print/2607.13214v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 9,
+        "lemmas": 9,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 95,
+        "bibliography_entries": 51,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file jl_ver_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "esides the facts mentioned in this introduction, other finer but more technical results are included along the text. Finally, Section 7 lists some open problems. The main ideas used in this article were found by the authors. We used AI (Chatgpt 5.5) to revise and improve earlier versions of the work.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:57.551903Z"
+      },
+      "score": 1478.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 147.85,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 19,
+          "theorems": 54,
+          "lemmas": 36,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 23.75,
+          "bibliography_entries": 5.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13186",
       "version": 1,
       "title": "Quantum determinants in polynomial time",
