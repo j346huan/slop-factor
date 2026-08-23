@@ -42017,6 +42017,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19769",
+      "version": 1,
+      "title": "The missing two-point inequality in Weissler's conjecture",
+      "authors": [
+        "Yi C. Huang",
+        "Paata Ivanisvili"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.CA",
+          "math.CV"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-22T05:35:35Z",
+        "updated": "2026-07-22T05:35:35Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Weissler's conjectured characterization of complex hypercontractivity on the Hamming cube remained open in the ranges $2<p\\le q<3$ and $\\frac32<p\\le q<2$. Ivanisvili--Nazarov established the diagonal cases. We prove the remaining strict off-diagonal cases through the corresponding two-point inequality. In fact, our argument proves the two-point inequality for every $2<p<q<\\infty$ and, by duality, for every $1<p<q<2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19769v1",
+        "pdf": "https://arxiv.org/pdf/2607.19769v1",
+        "source": "https://export.arxiv.org/e-print/2607.19769v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 2,
+        "lemmas": 5,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 142,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file short-V2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "over the years. P. I. acknowledges partial support from the US NSF CAREER grant DMS-2152401, US NSF grant DMS-2554183, a Simons Fellowship, and a Humboldt Research Fellowship for Experienced Researchers. The authors acknowledge the use of AI tools. All mathematical arguments and proofs in the final manuscript were checked and written by the authors. References [1] Dominique Bakry, Ivan Gentil, and Michel Ledoux, Analysis and geometry of Ma",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:46.203507Z"
+      },
+      "score": 376.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 94.1,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 17,
+          "theorems": 12,
+          "lemmas": 20,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 35.5,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19560",
       "version": 1,
       "title": "Twisted Deligne products of semisimple tensor categories",
