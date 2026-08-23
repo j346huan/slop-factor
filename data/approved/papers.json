@@ -41768,6 +41768,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21420",
+      "version": 1,
+      "title": "Homotopy types of intervals in corank-three higher Bruhat orders",
+      "authors": [
+        "Daria Poliakova"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T15:24:53Z",
+        "updated": "2026-07-23T15:24:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove Reiner's conjecture for higher Bruhat orders in corank 3: the facial intervals of B(n,n-3) are precisely the spherical intervals, and all other intervals are contractible.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21420v1",
+        "pdf": "https://arxiv.org/pdf/2607.21420v1",
+        "source": "https://export.arxiv.org/e-print/2607.21420v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 9,
+        "corollaries": 1,
+        "definitions": 4,
+        "displayed_equations": 10,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper_referenced.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements I am grateful to Vadim Schechtman and Gleb Koshevoy for encouraging me to think about higher Bruhat orders, and to Eleni Tzanaki for encouraging me to think about poset topology. AI use declaration ChatGPT Pro (models 5.5 and 5.6 Sol) was used as search engine, proof assistant, vector graphics artist and editor. All the outputs of the proof assistant were thoroughly digested by human. Exposition in the current note is by human and for humans",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:32.533643Z"
+      },
+      "score": 654.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 81.8,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 9,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 36,
+          "corollaries": 3,
+          "definitions": 8,
+          "displayed_equations": 2.5,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21396",
       "version": 1,
       "title": "A six-neuron counterexample to the target-free clique conjecture",
