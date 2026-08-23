@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13794",
+      "version": 1,
+      "title": "Complete functional calculus bounds for $ρ$-contractions",
+      "authors": [
+        "Michael Hartz",
+        "Jens de Vries"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T12:58:21Z",
+        "updated": "2026-07-15T12:58:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $T$ be a $ρ$-contraction on a Hilbert space. We establish sharp bounds for the functional calculus of $T$ for matrix-valued analytic functions on the unit disc. These are complete versions of bounds established by Drury and by Schwenninger and the second author.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13794v1",
+        "pdf": "https://arxiv.org/pdf/2607.13794v1",
+        "source": "https://export.arxiv.org/e-print/2607.13794v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 3,
+        "lemmas": 8,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 127,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file rho-contractions.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e of the upper bound; see Theorem 5.3 for the precise statement. Acknowledgement. The authors are grateful to John Mc Carthy for helpful discussions. AI disclosure. The proofs of Lemma 3.3 and Proposition 3.5 were obtained with the help of ChatGPT, extending human generated arguments in special cases. Part of the construction in the proofs of Theorem 5.3 and Lemma 5.4 are based on arguments provided by ChatGPT. We also used ChatGPT for preliminary computations, typesetting, generati",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:07.566968Z"
+      },
+      "score": 1101.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 110.15,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 15,
+          "theorems": 18,
+          "lemmas": 32,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 31.75,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13787",
       "version": 1,
       "title": "The variety of nilpotent matrices is $F$-regular",
