@@ -8941,6 +8941,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15895",
+      "version": 1,
+      "title": "The nonlinear Hausdorff-Young inequality",
+      "authors": [
+        "Durvudkhan Suragan"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.CA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-16T18:58:17Z",
+        "updated": "2026-08-16T18:58:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the constant-one discrete nonlinear Hausdorff-Young inequality. As a consequence, by a discrete-to-continuous limiting argument, we obtain $$ \\|(\\log|a_f|^{2})^{1/2}\\|_{L^{p'}(\\mathbb{R})} \\le \\|f\\|_{L^{p}(\\mathbb{R})},\\quad 1\\le p<2, $$ for all $f\\in L^{p}(\\mathbb{R})$, where $a_f$ denotes the transmission coefficient of the nonlinear Fourier transform. In particular, this resolves the Muscalu-Tao-Thiele uniformity problem. The proof uncovers a hidden Hilbert-space structure that reduces the nonlinear inequality to classical interpolation.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15895v1",
+        "pdf": "https://arxiv.org/pdf/2608.15895v1",
+        "source": "https://export.arxiv.org/e-print/2608.15895v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 2,
+        "lemmas": 6,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 148,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Suragan_nonlinear_HY_Aug_16.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "trictly smaller than Bp in suitable small-data regimes. Acknowledgements. The author is grateful to Erlan Nursultanov for many valuable discussions on Hausdorff–Young inequalities over the past four years. The author acknowledge the use of AI tools. All mathematical arguments and proofs in the final manuscript were checked and written by the author. Funding. This research is funded by Nazarbayev University under the grant 110326CRP0806 (D.S.). Data Availability. This manuscript has",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:53.069278Z"
+      },
+      "score": 515.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 103.1,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 17,
+          "theorems": 12,
+          "lemmas": 24,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 37,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15873",
       "version": 1,
       "title": "Two Questions on $G$-harmonic Tuples",
