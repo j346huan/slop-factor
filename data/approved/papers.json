@@ -8507,6 +8507,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13392",
+      "version": 1,
+      "title": "Weighted Besov Spaces on Homogeneous Lie Groups and Applications to Parabolic Anderson Models",
+      "authors": [
+        "Harprit Singh"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math.FA",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T15:52:11Z",
+        "updated": "2026-08-13T15:52:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop an intrinsic theory of weighted, inhomogeneous Besov spaces on general homogeneous Lie groups without recourse to group-specific arguments. Starting from a definition in terms of localised test functions, we establish an equivalent, wavelet-like, multiscale characterisation. This provides a unified mechanism for deriving Besov embeddings, a Taylor-remainder characterisation, Young-type product estimates, Schauder estimates for convolution semigroups, and a weighted Kolmogorov criterion for random distributions. We apply this framework to parabolic Anderson-type equations associated with positive Rockland operators and with singular initial data. For space-time noise, our results cover the Young regime. For purely spatial noise, we also establish well-posedness in the first singular regime using a variant of the Cole-Hopf transform for Rockland operators. Both applications rely on a mild sewing lemma that accommodates time-dependent Banach spaces and increments with a singularity at the initial time.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13392v1",
+        "pdf": "https://arxiv.org/pdf/2608.13392v1",
+        "source": "https://export.arxiv.org/e-print/2608.13392v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 7,
+        "lemmas": 10,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 6,
+        "displayed_equations": 119,
+        "bibliography_entries": 47,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file HomLiePAM_submission.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements HS would like to thank Avi Mayorcas for a discussion on this work and gratefully acknowledges financial support from the Swiss National Science Foundation (SNSF), grant numbers 225606 and 239497. ChatGPT was used to proofread the manuscript which resulted in several minor corrections. 1.1 Background on Homogeneous Lie Groups In this section we collect some standard background on homogeneous Lie groups, cf. the standard works [FS82, FR16],",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:57.274107Z"
+      },
+      "score": 171.45,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 171.45,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 36,
+          "theorems": 42,
+          "lemmas": 40,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 12,
+          "displayed_equations": 29.75,
+          "bibliography_entries": 4.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13371",
       "version": 1,
       "title": "Gross vectors modulo 2 and elliptic curves of prime conductor",
