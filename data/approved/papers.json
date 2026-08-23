@@ -43980,6 +43980,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24139",
+      "version": 1,
+      "title": "Restricted Perron envelopes and quasibounded functions",
+      "authors": [
+        "Frank Wikström"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T08:19:08Z",
+        "updated": "2026-07-27T08:19:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $f$ be an upper semicontinuous function on a domain and consider the Perron envelope formed only with globally bounded-above subharmonic, or plurisubharmonic, minorants of $f$. Its upper semicontinuous regularization agrees with the envelope outside a polar, respectively pluripolar, set, but it is not immediate whether regularization is actually necessary. This question arises naturally when comparing quasiboundedness with quasiboundedness quasi-everywhere. We prove that in classical potential theory the restricted envelope is automatically upper semicontinuous, provided its regularization is subharmonic. The proof uses a local harmonic correction obtained from Brelot's resolutivity theorem. We then show that the corresponding pluripotential statement fails sharply by constructing a bounded B-regular complete Hartogs domain in $\\mathbb{C}^2$ and a positive, continuous, unbounded pluriharmonic function $W$ whose envelope of bounded plurisubharmonic minorants is discontinuous along an analytic disc. The function $W$ nevertheless admits a positive plurisuperharmonic majorant growing faster than $W$, and it is an increasing limit of bounded plurisubharmonic functions outside a pluripolar set. Thus the exceptional pluripolar set cannot in general be removed, even under these strong growth and approximation properties and on a B-regular domain.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24139v1",
+        "pdf": "https://arxiv.org/pdf/2607.24139v1",
+        "source": "https://export.arxiv.org/e-print/2607.24139v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 2,
+        "lemmas": 0,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 47,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file restricted_perron_envelopes.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "meness, but not the distinct Dirichlet-continuity question. Statements and declarations Competing interests. The author has no relevant financial or non-financial interests to disclose. Tool disclosure. OpenAI Codex (GPT-5.6 Sol, accessed July 2026) was used as an interactive research assistant for mathematical brainstorming and proof auditing. The author reviewed all generated material, independently checked the arguments and computations, and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:25.141411Z"
+      },
+      "score": 349.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 43.65,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 8,
+          "theorems": 12,
+          "lemmas": 0,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 11.75,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24138",
       "version": 1,
       "title": "Randomized Krylov-Projected Iterated Tikhonov Regularization for Large-Scale Ill-posed Problems Under A Posteriori Stopping Rule",
