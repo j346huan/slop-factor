@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11194",
+      "version": 1,
+      "title": "Lions' Maximal Regularity Problem for Divergence-Form Differential Operators: Failure at the $\\frac{1}{2}$-Hölder Endpoint",
+      "authors": [
+        "Lukas Niebel"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T17:52:02Z",
+        "updated": "2026-08-11T17:52:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this work we give a counterexample to maximal $\\mathrm{L}^2$-regularity in Lions' problem for divergence-form differential operators. On a bounded interval, we construct a bounded, uniformly elliptic, real scalar diffusion coefficient that is $\\frac{1}{2}$-Hölder continuous in time with values in spatial $\\mathrm{L}^\\infty$. It can be chosen arbitrarily close to the constant coefficient of the heat equation. For zero initial data and a forcing term that is continuous in time with square-integrable spatial values, the unique Lions variational solution has a time derivative that is not square integrable in space-time. Thus $\\frac{1}{2}$-Hölder continuity alone does not imply maximal $\\mathrm{L}^2$-regularity, even for arbitrarily small scalar perturbations of the heat equation. The construction is based on a lacunary family of oscillatory trigonometric modes localised on shrinking time intervals. The spatial profile and the oscillatory modes, together with their first spatial derivatives, vanish at both endpoints. This permits zero extension of the counterexample to the real line. Tensorisation and localisation by parabolic rescaling then yield real symmetric isotropic counterexamples on $\\mathbb{R}^d$ and on every bounded domain $Ω\\subset \\mathbb{R}^d$, for all $d\\ge1$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11194v1",
+        "pdf": "https://arxiv.org/pdf/2608.11194v1",
+        "source": "https://export.arxiv.org/e-print/2608.11194v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 175,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file lions_C12.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "irst counterexample was found by OpenAI’s GPT-5.5 Pro in two dimensions and on the full space. It was then verified and studied by the author, who simplified it and reduced it to the one- dimensional interval counterexample presented here. OpenAI’s GPT-5.6 Sol was used for drafting and revision of parts of the exposition. All mathematical claims, calculations, and AI-generated suggestions were critically reviewed and verified by the author, who takes full responsibility for the mathematical",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:11.614180Z"
+      },
+      "score": 1141.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 114.15,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 21,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 43.75,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11137",
       "version": 2,
       "title": "The Geometry of Cochains on Sampled Vietoris-Rips Complexes",
