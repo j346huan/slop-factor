@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08714",
+      "version": 1,
+      "title": "Jacobi Endpoint Pencils and Sharp Interlacing for Centered Binomial Samples",
+      "authors": [
+        "Seokho Jin"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T13:58:26Z",
+        "updated": "2026-08-09T13:58:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For an even or odd real entire function $H$ of order at most one, let $B_{2n+1}[H]$ denote its centered binomial sample of odd degree. After removing the zero at $z=\\pm1$ forced by the parity of $H$ and writing $x=z+z^{-1}$, one obtains a real quotient $C_n(x)$. We prove uniform strip conditions on the zeros of $H$ under which $C_n$ and $C_{n+1}$ generate a real-rooted pencil for every $n$. For even $H$ the optimal uniform half-width is $\\sqrt{15/28}$, whereas for odd $H$ the half-width $1$ is sufficient. This conclusion is genuinely stronger than separate unit-circle-rootedness of the two sampled polynomials: the latter may hold while the adjacent quotients fail to interlace. The structural result is a theorem for Jacobi spectral multipliers. For every $0<ν<2$, the quotient problem becomes preservation of the endpoint pencil $y^n(y+t)$. We obtain explicit fixed-$n$ and uniform strip thresholds and determine the exact threshold for $n=1$. The proof combines Bernstein variation diminution with total nonnegativity of finite Jacobi matrices attached to the zero orbits of $H$; a possible unpaired outer real pair, which is not covered by the full defect-class argument, is treated directly on the endpoint pencil. For nonpolynomial even sources satisfying the fixed-$n$ strip condition, a remote-zero-orbit deformation removes common zeros whenever the adjacent images have simple zeros in $(0,4)$. This yields strict interlacing for quotient families associated with Dedekind zeta derivatives and with nested critical-value blocks of self-dual newforms.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08714v1",
+        "pdf": "https://arxiv.org/pdf/2608.08714v1",
+        "source": "https://export.arxiv.org/e-print/2608.08714v1"
+      },
+      "structural_counts": {
+        "pages": 62,
+        "theorems": 9,
+        "lemmas": 30,
+        "propositions": 4,
+        "corollaries": 7,
+        "definitions": 1,
+        "displayed_equations": 455,
+        "bibliography_entries": 39,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "actors are positive on [−3/4, 1/4]. Therefore every coefficient of Cν,α (B) is nonnegative, and Cν,α (B) ≥ 0 for B ≥ 0. □ Use of generative-AI tools The author used OpenAI ChatGPT to review notation and cross-references, improve the organization and exposition, and edit LATEX and English prose. The tool was not used as a source of mathematical results or as a formal proof verifier. All proofs, computations, state- m",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 60",
+          "page": 60
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:02:18.077050Z"
+      },
+      "score": 1618.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 404.65,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 62,
+          "theorems": 54,
+          "lemmas": 120,
+          "propositions": 16,
+          "corollaries": 21,
+          "definitions": 2,
+          "displayed_equations": 113.75,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08681",
       "version": 1,
       "title": "Formal squares over the unit square separate FS-domains from RB-domains",
