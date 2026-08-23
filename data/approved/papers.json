@@ -41850,6 +41850,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21520",
+      "version": 1,
+      "title": "Asymptotic Analysis of Empirical Dynamic Programming in Infinite-Horizon Stochastic Optimal Control",
+      "authors": [
+        "Xin Chen",
+        "Elif Sena Isik",
+        "Johannes Milz"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-23T17:03:46Z",
+        "updated": "2026-07-23T17:03:46Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We derive statistical limit theorems for sample-based approximations of infinite-horizon discounted stochastic optimal control problems in discrete time. Our first result is a functional central limit theorem for the sample-based value function under a uniqueness-type condition on population optimal policies. The limiting law is a mean-zero Gaussian process characterized by a linear fixed point equation that resembles a dynamic programming principle. We compare these asymptotics with those obtained from sample-based policy optimization and illustrate that their limiting variances can be different. We also derive a limit theorem for models with nonunique optimal policies, where the limiting law may be non-Gaussian. Applications to inventory control and renewable harvesting illustrate the theory.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21520v1",
+        "pdf": "https://arxiv.org/pdf/2607.21520v1",
+        "source": "https://export.arxiv.org/e-print/2607.21520v1"
+      },
+      "structural_counts": {
+        "pages": 35,
+        "theorems": 2,
+        "lemmas": 11,
+        "propositions": 7,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 176,
+        "bibliography_entries": 35,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file CLT-Infinite-Horizon.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "xample using subsampling methods along the lines of those studied for two-stage stochastic programming in [6]. Acknowledgments We are grateful to Prof. Alexander Shapiro for many insightful discussions. The authors acknowledge the use of ChatGPT 5.5 and 5.6, and Claude (Opus 4.8) for assistance with language editing, organization, and presentation. The authors reviewed and revised all generated text and take responsibility for the final content. A. Proofs for Section 2 A.1. Proo",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:00.137312Z"
+      },
+      "score": 678,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 169.5,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 35,
+          "theorems": 12,
+          "lemmas": 44,
+          "propositions": 28,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 44,
+          "bibliography_entries": 3.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21474",
       "version": 1,
       "title": "Fatness and Flatness",
