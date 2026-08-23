@@ -43382,6 +43382,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28286",
+      "version": 3,
+      "title": "A MATLAB Tool for the Stable Generation of Matrix Polynomial Evaluation Schemes with Two-Product Savings",
+      "authors": [
+        "J. Ibáñez",
+        "J. Sastre",
+        "J. M. Alonso",
+        "E. Defez"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T14:32:33Z",
+        "updated": "2026-08-05T19:18:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Computing numerical approximations of matrix functions frequently relies on the efficient evaluation of high-degree matrix polynomials. Although computational bounds are historically governed by the Paterson--Stockmeyer (PS) method, recent theoretical developments have demonstrated the viability of evaluation schemes that eliminate two matrix products ($2M$). Existing literature documents stable instances of this $2M$ reduction only for isolated cases, such as specific degrees of Taylor approximations for the matrix exponential and the matrix logarithm. However, a generalized approach for arbitrary polynomials remains unestablished. To address this limitation, this work presents a software-driven procedure that extends these computational savings to polynomials of degrees $m \\in \\{18, 21, 24, 26, 27, 28\\}$ and all $m \\ge 30$, requiring primarily a non-zero leading coefficient. Since the underlying evaluation coefficients must be determined by solving systems of nonlinear equations (SNEs), selecting a numerically stable solution set is critical. We introduce an automated verification routine designed to filter and validate robust coefficient sets for floating-point execution. The primary contribution is a MATLAB implementation leveraging variable precision arithmetic to handle the underlying SNEs, verify stability, and project precision bounds. Numerical experiments involving various matrix functions verify that the developed implementation preserves or, in some instances, enhances the numerical accuracy of the classic PS method, while systematically achieving the theoretical reduction of $2M$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28286v3",
+        "pdf": "https://arxiv.org/pdf/2607.28286v3",
+        "source": "https://export.arxiv.org/e-print/2607.28286v3"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 27,
+        "bibliography_entries": 622,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file pol6s10.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "oject administration, Funding acquisition. Jose Miguel Alonso: Software, Investigation, Validation, Formal analysis, Writing - review & editing. Emilio Defez: Formal analysis, Validation, Writing - review & editing. Declaration of Generative AI and AI-assisted technologies in the writ- ing process During the preparation of this work the author(s) used Gemini in order to improve the language, ﬂow, and technical clarity of the manuscript. After using this tool, the authors rev",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:50.774159Z"
+      },
+      "score": 423.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 105.95,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 27,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 6.75,
+          "bibliography_entries": 62.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28284",
       "version": 1,
       "title": "ROSA: Metric Amplification on Noisy Graphs with Theoretical Guarantees for Amplified Spectral Distances",
