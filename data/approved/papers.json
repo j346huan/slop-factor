@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08997",
+      "version": 1,
+      "title": "A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs",
+      "authors": [
+        "Jaskaran Kaur",
+        "Hitesh Kumar"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT",
+          "math.RA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T01:33:12Z",
+        "updated": "2026-08-10T01:33:12Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $n>2$ and $k>1$, define the polynomial \\[F_{n,k}(x) = Φ_n(1 + x + \\cdots + x^k),\\] where $Φ_n$ denotes the $n$-th cyclotomic polynomial. The \\emph{cyclotomic conjecture} proposed by Gimbert (1999) exactly describes the irreducibility of $F_{n,k}(x)$ over $\\mathbb{Q}$ in terms of $n$ and $k$. Conde, Gimbert, González, Miller and Miret (2014) established that the cyclotomic conjecture, if true, would imply the non-existence of almost Moore digraphs - a well-known open question concerning the directed degree-diameter problem. In this article, we prove the cyclotomic conjecture and, as a consequence, show that there are no almost Moore digraphs with maximum out-degree $d$ and diameter $k$ for any $d>1$ and $k>2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08997v1",
+        "pdf": "https://arxiv.org/pdf/2608.08997v1",
+        "source": "https://export.arxiv.org/e-print/2608.08997v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 4,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 96,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Cyclotomic.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements The authors thank Gaurish Korpal for helpful comments. AI statement We acknowledge the use of AI tools during the ideation phase. We declare that the text is not AI-generated. References [1] Edy T. Baskoro, Arnau Messegué, and Josep M. Miret. New results regarding the permutation cycle structure of almost Moore digraphs. Discrete",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:06:53.161839Z"
+      },
+      "score": 172.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 86.2,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 16,
+          "theorems": 24,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 24,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08974",
       "version": 1,
       "title": "Jacobi descent charts and logarithmic quotient coordinates for split symmetric spaces",
