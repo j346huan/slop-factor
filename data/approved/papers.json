@@ -41853,6 +41853,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27114",
+      "version": 3,
+      "title": "Weak geometric lemma for ADR boundary of a uniform domain implies uniform rectifiability",
+      "authors": [
+        "Aritro Pathak"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-29T16:44:47Z",
+        "updated": "2026-08-03T11:27:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We resolve a conjecture of Guy David and Svitlana Mayboroda. We show that if $Ω\\subset \\mathbb{R}^n$ is a uniform domain with $(n-1)$-dimensional Ahlfors David regular boundary $E = \\partial Ω$, and if $E$ satisfies the Weak Geometric Lemma, then $E$ satisfies the Bilateral Weak Geometric Lemma. In particular, $E$ is uniformly rectifiable.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27114v3",
+        "pdf": "https://arxiv.org/pdf/2607.27114v3",
+        "source": "https://export.arxiv.org/e-print/2607.27114v3"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 13,
+        "displayed_equations": 42,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file WGL_tex.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "5 Acknowledgements The author is grateful for the support of the School of Mathematics, Tata Institute of Fundamental Research in Mumbai, where this work was completed. The figure in this manuscript was generated using Google Gemini’s Large Language Model. References [AHMNT14] Azzam, Jonas, Steve Hofmann, José Marı́a Martell, Kaj Nyström, and Tatiana Toro. ”A new charac- terization of chord-arc domains.” Journal of the European Mathematical Society 19, no. 4 (20",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:22.849860Z"
+      },
+      "score": 108.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 54.3,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 11,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 26,
+          "displayed_equations": 10.5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26871",
       "version": 1,
       "title": "Rigidity and stability for biased cross-intersecting families",
