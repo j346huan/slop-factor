@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29305",
+      "version": 1,
+      "title": "Pólya's conjecture for higher-dimensional Neumann balls",
+      "authors": [
+        "Nikolay Filonov",
+        "Michael Levitin",
+        "Iosif Polterovich",
+        "David A. Sher"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T11:24:02Z",
+        "updated": "2026-07-31T11:24:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove Pólya's conjecture for the Neumann eigenvalues of the Laplacian on Euclidean balls in dimensions three and higher. The proof further develops the approach introduced in our earlier work on the two-dimensional case and on Dirichlet eigenvalues in arbitrary dimensions. The main difficulty in the higher dimensional Neumann case is that one has to estimate zeros of the derivatives of ultraspherical Bessel functions, rather than of the usual Bessel functions. For low-lying eigenvalues, we use variational estimates involving dimension-dependent test functions, which is a novel ingredient allowing us to control a larger dimension-scaled frequency range. Other components of the proof include phase-function bounds, lattice-point counting techniques, and computer-assisted arguments.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29305v1",
+        "pdf": "https://arxiv.org/pdf/2607.29305v1",
+        "source": "https://export.arxiv.org/e-print/2607.29305v1"
+      },
+      "structural_counts": {
+        "pages": 39,
+        "theorems": 3,
+        "lemmas": 20,
+        "propositions": 10,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 284,
+        "bibliography_entries": 41,
+        "appendix_pages": 38
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arXiv-v1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Mathematica script and its printout are available for download at https://www.michaellevitin. net/polya.html#neumann. AI usage disclosure The authors acknowledge the use of several models of ChatGPT and Claude for mathematical discussions and editorial assistance. In particular, AI tools contributed to the development of the proofs of Lemma B.4 and several technical lemmas in Appendix C, as well as to the design and implementation of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:18.873617Z"
+      },
+      "score": 2640.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 330.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 39,
+          "theorems": 18,
+          "lemmas": 80,
+          "propositions": 40,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 71,
+          "bibliography_entries": 4.1,
+          "appendix_pages": 76
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28900",
       "version": 1,
       "title": "Finding 59:29 in the Monster",
