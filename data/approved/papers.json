@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00092",
+      "version": 1,
+      "title": "Explicit Green's Functions and Adjoint Problems for Differential Equations with Linear Functional Perturbations",
+      "authors": [
+        "Alberto Cabada",
+        "Paula Cambeses-Franco",
+        "Lucía López-Somoza"
+      ],
+      "categories": {
+        "primary": "math.GM",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T15:34:50Z",
+        "updated": "2026-07-30T15:34:50Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper we study a functional differential equation subject to two-point boundary value conditions, where the functional dependence is introduced through an operator of the form \\begin{equation*} \\sum_{k=1}^{l}γ_{k}(t)\\mathcal{C}_{k}(u), \\end{equation*} where $\\mathcal{C}_{k}:C(I) \\rightarrow \\mathbb{R}$, $k=1, \\ldots l$, ($I:=[a,b]$) are linear continuous operators and $γ_{k} \\in \\mathcal{L}^{1}(I)$ for all $k=1, \\ldots, l$. This formulation encompasses, among others, equations with piecewise constant arguments and those with integral-type dependence. We analyze this class of equations by deducing and characterizing their Green's function, as well as by computing the related adjoint problem. This approach enables us to establish connections among different types of functional equations and to relate equations with piecewise constant arguments to impulsive differential equations and non local boundary value problems. Next, we develop a series of comparison principles and results that allow us to characterize the regions where the Green's function of the original problem and of its adjoint maintain a constant sign. Finally, we illustrate the theoretical finding with representative examples.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00092v1",
+        "pdf": "https://arxiv.org/pdf/2608.00092v1",
+        "source": "https://export.arxiv.org/e-print/2608.00092v1"
+      },
+      "structural_counts": {
+        "pages": 45,
+        "theorems": 6,
+        "lemmas": 6,
+        "propositions": 4,
+        "corollaries": 7,
+        "definitions": 2,
+        "displayed_equations": 216,
+        "bibliography_entries": 39,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Cabada-Cambeses-Somoza-Functional-Adjoint.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work the authors used ChatGTP and Gemini in order to improve the quality of the English of the paper. After using this tool, the authors revi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 43",
+          "page": 43
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:05.266956Z"
+      },
+      "score": 1019.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 203.9,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 45,
+          "theorems": 36,
+          "lemmas": 24,
+          "propositions": 16,
+          "corollaries": 21,
+          "definitions": 4,
+          "displayed_equations": 54,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28284",
       "version": 1,
       "title": "ROSA: Metric Amplification on Noisy Graphs with Theoretical Guarantees for Amplified Spectral Distances",
