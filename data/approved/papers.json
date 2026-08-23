@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13225",
+      "version": 1,
+      "title": "Graph Puzzles III.1: A Proof of Sabidussi's Compatibility Conjecture",
+      "authors": [
+        "Nikolay Ulyanov"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T19:38:28Z",
+        "updated": "2026-07-14T19:38:28Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove Sabidussi's compatibility conjecture. Let $G$ be a finite connected multigraph in which every vertex has even degree and the minimum degree is at least four, and let $T$ be a closed trail that traverses every edge exactly once. The edges of $G$ can be partitioned into circuits (connected 2-regular subgraphs) so that no circuit contains the two edges used consecutively anywhere in $T$. In fact, the edges can be four-coloured so that every such pair receives two different colours and the subgraph formed by the edges of each colour has even degree at every vertex. Formalization in Lean 4 is also available in the author's github.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13225v1",
+        "pdf": "https://arxiv.org/pdf/2607.13225v1",
+        "source": "https://export.arxiv.org/e-print/2607.13225v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 34,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file sabidussi.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ed in section 3. The proof has also been formalized in Lean. The formalization is available in the author’s GitHub repository: https://github.com/gexahedron/sabidussi-lean. Statement of AI use. The proof in this paper is entirely due to GPT 5.6 Pro, and the writeup was prepared with help from GPT 5.6 Sol. Acknowledgements. The author thanks Tom de Groot for valuable suggestions on the exposition of the proof. 2 Reduction to a cyclic word Fix G and T as in theorem 1.1. Temporar",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:13.757403Z"
+      },
+      "score": 422,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 42.2,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 8,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 8.5,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13222",
       "version": 1,
       "title": "Obstructions to homomorphisms between homogeneous C*-algebras",
