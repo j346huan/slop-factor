@@ -8425,6 +8425,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14337",
+      "version": 1,
+      "title": "Weight decomposition for toroidal abelian fibrations",
+      "authors": [
+        "Younghan Bae",
+        "Jeremy Feusi",
+        "Aitor Iribar Lopez",
+        "Sam Molcho"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T14:23:46Z",
+        "updated": "2026-08-14T14:23:46Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the action of the rational multiplication by $N$ map on the Chow groups of degenerations of principally polarized abelian varieties of torus rank at most one, as well as its interaction with the Fourier transform. As applications, we compute the class of the unit section, prove a generalized weight decomposition of the relative Chow motive of the universal family of such degenerations, and completely determine its tautological ring.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14337v1",
+        "pdf": "https://arxiv.org/pdf/2608.14337v1",
+        "source": "https://export.arxiv.org/e-print/2608.14337v1"
+      },
+      "structural_counts": {
+        "pages": 100,
+        "theorems": 20,
+        "lemmas": 33,
+        "propositions": 17,
+        "corollaries": 18,
+        "definitions": 20,
+        "displayed_equations": 564,
+        "bibliography_entries": 65,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file BFILM_tr1_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "haripande, Alex Perry, Johannes Schmitt, Pim Spelier, Junliang Shen and Qizheng Yin for helpful discussions. Y.B. is especially grateful to Aaron Pixton for their collaboration, which inspired many of the ideas developed in this paper. Large Language Models were used in the preparation of this manuscript. They helped with image creation, handling the combinatorics and finding typos. The authors have reviewed all of these contributions and maintain full responsibility for the contents of this",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:19.084352Z"
+      },
+      "score": 1984.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 661.5,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 100,
+          "theorems": 120,
+          "lemmas": 132,
+          "propositions": 68,
+          "corollaries": 54,
+          "definitions": 40,
+          "displayed_equations": 141,
+          "bibliography_entries": 6.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14336",
       "version": 1,
       "title": "A Shrinkage Path Heuristic for Wasserstein Distributionally Robust Optimization",
