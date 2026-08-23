@@ -42784,6 +42784,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16772",
+      "version": 1,
+      "title": "On Zarankiewicz's bounds for valued vector spaces",
+      "authors": [
+        "Hongyi Gou",
+        "Mihir Mittal",
+        "Chieu-Minh Tran",
+        "Zhenyu Yang"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-18T11:14:56Z",
+        "updated": "2026-07-18T11:14:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish absolute and relative almost-linear Zarankiewicz bounds for semilinear relations in valued vector spaces. For every fixed arity and description complexity, a $K_{t,\\ldots,t}$-free semilinear $r$-partite hypergraph has at most \\[ O\\!\\left(n^{r-1}(\\log n)^c\\right) \\] edges, where $c$ depends only on the arity and the number of valuative literals. In the bipartite case a separate arbitrary-trace argument gives the explicit bound $O(n(\\log n)^{2s})$ for description complexity $(ρ,s)$. We also prove a relative extension theorem: intersecting any relation with a hereditary almost-linear profile by $s$ affine moving-radius comparisons increases the logarithmic exponent by at most $2s$. For the additive affine-valuative structures on $\\mathbb Q_p$ and $\\mathbb C_p$, quantifier elimination converts these semilinear results into bounds for all definable relations. Finally, over every valued field with infinite value group, we construct $K_{2,2}$-free semilinear point--box graphs of description complexity $(1,4)$ with $Ω(n\\log n/\\log\\log n)$ edges.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16772v1",
+        "pdf": "https://arxiv.org/pdf/2607.16772v1",
+        "source": "https://export.arxiv.org/e-print/2607.16772v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 9,
+        "lemmas": 19,
+        "propositions": 6,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 221,
+        "bibliography_entries": 40,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "milinear of bounded complexity. Section 7 constructs the point–box examples giving the superlinear lower bound. Acknowledgements. The authors are grateful to Erik Walsberg and Artem Chernikov for helpful discus- sions related to this work. Artificial intelligence tools were used for writing and editing assistance in the preparation of this paper; the authors are responsible for the final content. 2. Preliminaries on valued vector spaces Let (K, vK ) be a valued field wit",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:27.207315Z"
+      },
+      "score": 1251.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 250.25,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 24,
+          "theorems": 54,
+          "lemmas": 76,
+          "propositions": 24,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 55.25,
+          "bibliography_entries": 4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16743",
       "version": 1,
       "title": "The power set of a quasinilpotent backward weighted shift",
