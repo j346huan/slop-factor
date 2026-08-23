@@ -988,6 +988,11 @@ export default {
         error instanceof Error
           ? error.message
           : "Unexpected administrator error";
+      if (message.startsWith("GitHub API returned 401:")) {
+        return json({ error: "Authentication required" }, 401, {
+          "Set-Cookie": secureCookie("sf_session", "", 0),
+        });
+      }
       return json({ error: message }, 500);
     }
   },
