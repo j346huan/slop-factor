@@ -42381,6 +42381,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22784",
+      "version": 1,
+      "title": "$L^p$-Integrability of Radon-Nikodym Densities Between Harmonic Energy Measures on the Sierpinski Gasket",
+      "authors": [
+        "Konstantinos Tsougkas"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "math.FA",
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-24T11:41:54Z",
+        "updated": "2026-07-24T11:41:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "It is known that the energy measures of any two nonconstant harmonic functions on the standard Sierpiński gasket are mutually absolutely continuous. Strichartz and Tse reported numerical evidence for $L^p$-integrability of the corresponding Radon--Nikodym densities in the range \\[ 1<p<\\frac{\\log 15}{\\log 9}. \\] For arbitrary ordered pairs of nonconstant harmonic functions, we prove uniform boundedness of the associated density-ratio power sums, and hence $L^p$-integrability, in the subinterval \\[ 1<p<\\frac{\\log(35/3)}{\\log 9}. \\] When the denominator harmonic direction is represented by the boundary values $(0,-1,1)$, we prove boundedness throughout the full conjectured interval.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22784v1",
+        "pdf": "https://arxiv.org/pdf/2607.22784v1",
+        "source": "https://export.arxiv.org/e-print/2607.22784v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 2,
+        "lemmas": 6,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 150,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file UniformBoundpaperv1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ntifies membership of the Radon–Nikodym density in Lp (νh2 ) with boundedness of Sh1 ,h2 (n, p). The boundedness threshold just proved therefore gives the stated Lp equivalence. Acknowledgment This work was developed with assistance from GPT-5.6, which was used to explore ideas and support aspects of the technical development and writing. All results and arguments were independently verified by the author, who assumes full responsibility for the content of the paper. References",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:39.430872Z"
+      },
+      "score": 829.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 103.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 12,
+          "lemmas": 24,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 37.5,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18128",
       "version": 1,
       "title": "Nearest Graph Laplacians with Prescribed Connected Components: A Convex Framework for Network Reconstruction",
