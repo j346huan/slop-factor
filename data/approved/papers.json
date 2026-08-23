@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23836",
+      "version": 1,
+      "title": "Elementary Symmetric Polynomial Inequalities for Centered Vectors and Matrices",
+      "authors": [
+        "Yanjun Han",
+        "Jonathan Niles-Weed"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.IT",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-26T20:42:39Z",
+        "updated": "2026-07-26T20:42:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove new inequalities for elementary symmetric polynomials (ESPs) for vectors that sum to zero, and for square matrices with zero row and column sums. We apply these results to obtain a unified upper bound on the mean-field approximation guarantee for permutation mixtures, as well as a sharp $χ^2$ version of the de Finetti theorem for finite sequences over a small alphabet. The main proof ideas were developed by the GPT-5.5 Pro model.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23836v1",
+        "pdf": "https://arxiv.org/pdf/2607.23836v1",
+        "source": "https://export.arxiv.org/e-print/2607.23836v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 62,
+        "bibliography_entries": 92,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ain a unified upper bound on the mean-field approximation guarantee for permutation mixtures, as well as a sharp $χ^2$ version of the de Finetti theorem for finite sequences over a small alphabet. The main proof ideas were developed by the GPT-5.5 Pro model.",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:47.299346Z"
+      },
+      "score": 557.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 69.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 14,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 15.5,
+          "bibliography_entries": 9.2,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23795",
       "version": 1,
       "title": "On the Thickness of Infinite Generalized Sidon Sets, II",
