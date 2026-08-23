@@ -42020,6 +42020,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12693",
+      "version": 1,
+      "title": "Shock solutions for the one-dimensional information geometric regularization of compressible flow",
+      "authors": [
+        "William Barham",
+        "Brian K. Tran",
+        "Ben S. Southworth",
+        "Florian Schäfer"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T12:21:10Z",
+        "updated": "2026-07-14T12:21:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The information geometric regularization (IGR) is an inviscid regularization of the compressible Euler equations that alters the geometry of Lagrangian characteristics to prevent trajectories from crossing in finite time. Previous work on IGR established global strong solutions in one dimension, explored thermodynamic effects of the model, and enabled large-scale simulations of compressible flow. However, a fundamental question that remains is how this regularization alters the structure and regularity of a shock-like solution. We prove existence, uniqueness modulo translation, and regularity of transonic compressive IGR shock profiles in one spatial dimension. The analysis applies to the full thermodynamic compressible Euler--IGR model with a general equation of state, subject to mild convexity hypotheses. A traveling-wave ansatz reduces the Euler--IGR equations to a degenerate second-order scalar equation for the density profile. At the sonic crossing, the elliptic coefficient degenerates: the density profile remains continuous, but its derivative diverges. The profile is a classical solution away from this single point, while at the degeneracy it retains quantified Hölder and Sobolev regularity. We also analyze the vanishing-regularization limit, showing that the shock width scales like $\\sqrt{α}$ and that the IGR profiles converge to the entropy-admissible Euler shock.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12693v1",
+        "pdf": "https://arxiv.org/pdf/2607.12693v1",
+        "source": "https://export.arxiv.org/e-print/2607.12693v1"
+      },
+      "structural_counts": {
+        "pages": 35,
+        "theorems": 8,
+        "lemmas": 8,
+        "propositions": 8,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 200,
+        "bibliography_entries": 22,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "National Laboratory Report LA-UR-26-25301. Data availability statement. Data generated in this study are available from the corresponding author upon reasonable request. Declarations. The authors declare no competing interests. OpenAI’s ChatGPT was used for language editing and assistance with manuscript preparation. The authors assume responsibility for all content. REFERENCES [1] W. Barham, B. K. Tran, B. S. Southworth, and F. Schäfe",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:01.168127Z"
+      },
+      "score": 1101,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 220.2,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 35,
+          "theorems": 48,
+          "lemmas": 32,
+          "propositions": 32,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 50,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12613",
       "version": 1,
       "title": "Tensor-Based Reduced-Order Modeling for Optimization-Based Inverse Problems",
