@@ -46204,6 +46204,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22112",
+      "version": 1,
+      "title": "Existence of solutions to the voltage-conductance kinetic equation in a general conductivity regime",
+      "authors": [
+        "C Fonte Sanchez",
+        "S Mischler",
+        "D Salort"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-24T09:06:16Z",
+        "updated": "2026-07-24T09:06:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish the existence of a weak solution to the Voltage-Conductance kinetic equation for any conductivity parameter and any reasonable initial datum, and in particular without smallness condition as it was the case in [9]. The proof is based on some a priori estimates mainly drawn from [15], some trace results adapted from [14] and a DiPerna-Lions weak stability argument.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22112v1",
+        "pdf": "https://arxiv.org/pdf/2607.22112v1",
+        "source": "https://export.arxiv.org/e-print/2607.22112v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 7,
+        "lemmas": 1,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 79,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ExistVCk10.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "kshop in Ile-Rousse, February 2025, where this investigation project started, as well as the LJK, university of Greno- ble, for its kind hospitality. D. Salort is supported by the fundation Cino and Simone Del Duca, Institut de France. The Claude AI has been used to help proofread typos. It also suggested a classical convergence result which enabled us to make slightly shorter and simpler the proof of the trace Theorem 3.2. Apart from that, the text in this paper was fully generate",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:04.441312Z"
+      },
+      "score": 938,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 117.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 26,
+          "theorems": 42,
+          "lemmas": 4,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 19.75,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22032",
       "version": 1,
       "title": "On Grünbaum's problem for symmetric configurations",
