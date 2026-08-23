@@ -41683,6 +41683,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21589",
+      "version": 1,
+      "title": "The Frankl--Tokushige product conjectures for $r$-cross-intersecting families",
+      "authors": [
+        "Fan Chang",
+        "Hong Liu",
+        "Miao Liu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.CA",
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-23T17:58:16Z",
+        "updated": "2026-07-23T17:58:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We settle the uniform and biased product conjectures of Frankl and Tokushige for $r$-cross-intersecting families. Let $r\\geq2$, let $0\\leq k_i\\leq(r-1)n/r$, and let $\\mathcal{F}_i\\subseteq\\binom{[n]}{k_i}$ be $r$-cross-intersecting. We prove the sharp inequality $$\\prod_{i=1}^r\\frac{|\\mathcal{F}_i|}{\\binom{n}{k_i}}\\leq \\prod_{i=1}^r\\frac{k_i}{n},$$ with equality attained by the corresponding levels of a common $1$-star. As a consequence, we obtain the analogous $p_i$-biased measure theorem for $0\\leq p_i\\leq(r-1)/r$, $$ \\prod_{i=1}^rμ_{p_i}(\\mathcal{F}_i)\\leq \\prod_{i=1}^r p_i.$$The main difficulty is that unequal parameters do not determine a single common target level; instead, the target levels $\\ell_1,\\ldots,\\ell_r$ must satisfy $\\sum_{i=1}^r \\ell_i=(r-1)n$. We overcome this asymmetry in three steps. An ordered-partition coupling gives a sharp additive inequality for every such choice of target levels. A star-calibrated upper-shadow inequality relates the density of a family on its original level to the density of its upper shadow on a suitably chosen target level; it is proved by induction on $n$, with the induction step reduced to a two-point inequality. Finally, an analytic inequality shows that the resulting asymmetric additive estimate implies the required product bound. Perhaps surprisingly, the coupling captures all the combinatorial information of cross-intersection, reducing the remainder of the proof to an analytic argument.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21589v1",
+        "pdf": "https://arxiv.org/pdf/2607.21589v1",
+        "source": "https://export.arxiv.org/e-print/2607.21589v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 2,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 123,
+        "bibliography_entries": 42,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file cross-int-ArXiv0724.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Ting-wei Chao, Xingtong Guo, Guowei Sun, and Xianghai Zhang for valuable discussions during the fourth ECOPRO Student Research Program, held at the Institute for Basic Science (IBS) in the summer of 2026. The authors acknowledge the use of AI tools during the exploratory stage of this project. All mathematical arguments and proofs in the final manuscript were checked and written by the authors. References [1] R. Ahlswede and L. H. Khachatrian. The complete intersection theorem for",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:12.940912Z"
+      },
+      "score": 197.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 98.95,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 21,
+          "theorems": 12,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 30.75,
+          "bibliography_entries": 4.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21578",
       "version": 1,
       "title": "The Stability Landscape in Wave-Packet Scattering: Geometric Rigidity and Sharp Sobolev Thresholds",
