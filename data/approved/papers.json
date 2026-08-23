@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09632",
+      "version": 2,
+      "title": "A remark on Weyl-type bounds for Steklov eigenvalues",
+      "authors": [
+        "Luigi Provenzano"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T14:13:06Z",
+        "updated": "2026-08-18T17:10:25Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that, for $n\\geq 3$, there is no constant $C_n>0$ depending only on $n$ such that the Steklov eigenvalues $σ_k(Ω)$ satisfy $|\\partialΩ|^{\\frac 1{n-1}}σ_k(Ω)\\leq C_nk^{\\frac1{n-1}}$ for every smooth bounded domain $Ω\\subset\\mathbb R^n$ and every $k\\geq1 $. On the other hand, we prove that there exists a constant $C_n>0$ depending only on $n$ such that $|Ω|^{\\frac 1n}σ_k(Ω)\\leq C_nk^{\\frac1{n-1}}$ for every smooth bounded domain $Ω\\subset\\mathbb R^n$ and every $k\\geq 1$. This estimate, combined with an isoperimetric bound of Colbois-El Soufi-Girouard, implies the bound $|\\partialΩ|^{\\frac 1{n-1}}σ_k(Ω)\\leq C_nk^{\\frac1{n-1}+\\frac{n-2}{n(n-1)^2}}$, which we also prove to be sharp.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09632v2",
+        "pdf": "https://arxiv.org/pdf/2608.09632v2",
+        "source": "https://export.arxiv.org/e-print/2608.09632v2"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 3,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 111,
+        "bibliography_entries": 370,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file note_weyl_steklov_1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "é for helpful comments and stimulating exchanges concerning homogenisation methods and the question of the optimal eigenvalue growth rate. AI usage disclosure The author acknowledges the use of ChatGPT 5.6 Sol for mathematical discussions and editorial assistance. In particular, the AI tool contributed to the development of the proofs of the technical Lemmas 2.3, 2.4, 2.5 and 3.1. All AI-assisted arguments and computations were independe",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:48.924859Z"
+      },
+      "score": 966,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 120.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 18,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 27.75,
+          "bibliography_entries": 37,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09517",
       "version": 1,
       "title": "Classification of anomalous actions of finite groups with the Rokhlin property",
