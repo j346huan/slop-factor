@@ -41851,6 +41851,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13251",
+      "version": 1,
+      "title": "Completely Positive Matrix Products",
+      "authors": [
+        "Eric Evert",
+        "Michael T. Jury",
+        "Scott McCullough"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.OA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T20:32:21Z",
+        "updated": "2026-07-14T20:32:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Building on recent works that investigate positivity preserving matrix products, we {examine} the class of \\JCP (\\jcp) matrix products. A bilinear map on the Cartesian product of the space of n by n matrices with itself into m by m matrices is a \\jcp matrix product if the natural linear map it induces on the tensor product of the space of n by n matrices with itself into m by m matrices is completely positive. In particular, a matrix product is \\jcp if and only if its naturally associated Choi matrix is positive semidefinite. Similarly, a matrix product is \\jcp if and only if it admits a Choi-Kraus representation. We use the Choi-Kraus representation of \\jcp matrix products to study various basic properties, including positivity lower bounds, commutativity, units, causality, and separability. As examples, we apply our results to the Schur (Hadamard) product and the convolution product.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13251v1",
+        "pdf": "https://arxiv.org/pdf/2607.13251v1",
+        "source": "https://export.arxiv.org/e-print/2607.13251v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 6,
+        "lemmas": 6,
+        "propositions": 7,
+        "corollaries": 4,
+        "definitions": 0,
+        "displayed_equations": 146,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file jcpmp-arxiv1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ")V = ω(V ⊗ In )V . A concrete example is obtained by letting n = 3 and 2 defining a linear map V ∈ Cn ×n by V e1 = 0 and V e2 = e1 ⊗ e1 and V e3 = e1 ⊗ e2 + ωe2 ⊗ e1 . This example was generated with the aid of ChatGPT and was verified in Mathematica. A public Mathematica notebook that verifies the example is available at https://github.com/NCAlgebra/UserNCNotebooks. 5.3. Units. A left unit (resp. right unit) for a product Φ : Cn×n × Cn×n → Cn×n is a mat",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:40.140932Z"
+      },
+      "score": 1005,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 167.5,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 29,
+          "theorems": 36,
+          "lemmas": 24,
+          "propositions": 28,
+          "corollaries": 12,
+          "definitions": 0,
+          "displayed_equations": 36.5,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13232",
       "version": 1,
       "title": "Design of Carbon Capture Processes Under Part-load Operating Conditions",
