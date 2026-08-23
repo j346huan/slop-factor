@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12877",
+      "version": 3,
+      "title": "From Manifold Identification to Newton Acceleration on Intersections: Sparse Stiefel Optimization",
+      "authors": [
+        "Shixiang Chen",
+        "Wen Huang"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T15:25:52Z",
+        "updated": "2026-08-13T13:43:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study a Newton acceleration for sparse composite optimization on the Stiefel manifold. The main difficulty is geometric: the active manifold identified by the nonsmooth regularizer may fail to intersect the Stiefel manifold transversely, which obstructs a Riemannian Newton step on the identified manifold. In the transverse case, we prove local identification of the ManPG tangent proximal mapping. For nontransverse cases, we introduce an off-diagonally perturbed Stiefel family that generically restores the identification geometry while yielding an \\(O(\\|Δ\\|_F)\\)-KKT guarantee for the original problem. We also derive verifiable support-level conditions for clean intersection, which cover nontransverse sparse patterns and yield the smooth moving local models used by the Newton correction. Based on these results, we propose MIX, a safeguarded ManPG/Newton-CG method on moving identified intersections. In the general clean-intersection setting, we prove global descent and KKT-residual guarantees for MIX. In the transverse or generically perturbed cases, if the sequence has an accumulation point satisfying certain regularity assumptions and the second-order sufficient condition (SOSC), then the full sequence converges to that point, with finite active-manifold identification and a local Q-superlinear rate. Numerical experiments on compressed modes and sparse PCA show that MIX substantially improves efficiency while preserving solution quality. Beyond the Stiefel manifold, we also outline how the safeguarded global-convergence mechanism of MIX extends to general smooth equality-constrained manifolds.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12877v3",
+        "pdf": "https://arxiv.org/pdf/2607.12877v3",
+        "source": "https://export.arxiv.org/e-print/2607.12877v3"
+      },
+      "structural_counts": {
+        "pages": 74,
+        "theorems": 4,
+        "lemmas": 15,
+        "propositions": 11,
+        "corollaries": 1,
+        "definitions": 14,
+        "displayed_equations": 296,
+        "bibliography_entries": 686,
+        "appendix_pages": 73
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "X, and the use of Newton corrections on identified intersections—were formulated by the authors. ChatGPT assisted with specific searches of clean-intersection counterexamples. In preparing Version 3 of this manuscript, the authors used ChatGPT (GPT-5.6 Sol) to assist in developing and checking the revised local convergence analysis, in particular the proof that removes the sequence convergence assumption from the local convergence analysis of MIX. ChatGPT was additionally used f",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 49",
+          "page": 49
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:33.135747Z"
+      },
+      "score": 4172.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 521.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 74,
+          "theorems": 24,
+          "lemmas": 60,
+          "propositions": 44,
+          "corollaries": 3,
+          "definitions": 28,
+          "displayed_equations": 74,
+          "bibliography_entries": 68.6,
+          "appendix_pages": 146
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12613",
       "version": 1,
       "title": "Tensor-Based Reduced-Order Modeling for Optimization-Based Inverse Problems",
