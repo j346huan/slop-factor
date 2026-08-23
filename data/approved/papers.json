@@ -41683,6 +41683,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01576",
+      "version": 1,
+      "title": "Chevalley-Eilenberg cohomology of linearly reductive Lie algebras in the Verlinde category",
+      "authors": [
+        "Pavel Etingof",
+        "Serina Hu"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.CT",
+          "math.QA",
+          "math.RA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-03T01:23:01Z",
+        "updated": "2026-08-03T01:23:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $k$ be an algebraically closed field of characteristic $p\\geq 5$, and let $\\mathrm{Ver}_p^+$ be the even part of the Verlinde fusion category $\\mathrm{Ver}_p$, the semisimplification of $\\mathrm{Rep}_k(\\mathbb Z/p)$. Let $\\mathfrak g$ be a linearly reductive Lie algebra in $\\mathrm{Ver}_p^+$, i.e., one whose finite-dimensional representations are semisimple. A basic class of examples is obtained by semisimplifying a simple Lie algebra over $k$ equipped with the action of $\\mathbb Z/p$ by a principal unipotent element, when $p$ exceeds its Coxeter number. We prove that $\\mathfrak g$ is invariantless, i.e., that the unit object is not a summand of $\\mathfrak g$. For odd $m$ with $3\\leq m\\leq p-2$, set $\\mathfrak{g}_m:=\\operatorname{Hom}_{\\mathrm{Ver}_p^+}(L_m,\\mathfrak g)$ and $E_{\\mathfrak g}:=\\bigoplus_{3\\leq m\\leq p-2,\\ m\\ {\\rm odd}}\\mathfrak g_m^{(1)}[m]$, where $(1)$ denotes Frobenius twist. Our main result is an isomorphism of graded algebras $H^\\bullet_{\\mathrm{CE}}(\\mathfrak g)\\cong\\bigwedge^\\bullet E_{\\mathfrak g}^*$. We also identify this algebra with the de Rham cohomology $H^\\bullet_{\\mathrm{dR}}(G)$ of the group scheme $G=\\exp(\\mathfrak g)$ and show that the induced graded Hopf algebra structure agrees with the standard one on the exterior algebra. Moreover, if $V$ is a simple $\\mathfrak g$-module on which $\\mathfrak g$ acts nontrivially, then $H^\\bullet_{\\mathrm{CE}}(\\mathfrak g,V)=0$. Hence for every finite-dimensional $\\mathfrak g$-module $V$ one has $H^\\bullet_{\\mathrm{CE}}(\\mathfrak g,V)\\cong\\bigwedge^\\bullet E_{\\mathfrak g}^*\\otimes V^{\\mathfrak g}$. This recovers the theorem of Borel and Chevalley on the cohomology of complex semisimple Lie algebras and its analogue in sufficiently large positive characteristic.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01576v1",
+        "pdf": "https://arxiv.org/pdf/2608.01576v1",
+        "source": "https://export.arxiv.org/e-print/2608.01576v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 1,
+        "lemmas": 6,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 62,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file liecoho1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "of the corresponding group scheme. In Section 3 we prove the main theorem. In Section 4 we give examples, and in Section 5 we discuss applications to ordinary Lie algebra cohomology. Acknowledgements. In this paper we collaborated with ChatGPT 5.5 and 5.6 Pro. This work was partially supported by the NSF grant DMS-2502467. 2. Preliminaries 2.1. The categories Verp and Ver+ p and finiteness of symmetric and exterior algebras. Recall th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:14:21.577024Z"
+      },
+      "score": 690.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 86.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 14,
+          "theorems": 6,
+          "lemmas": 24,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 15.5,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01567",
       "version": 1,
       "title": "Algorithmic universal étale $(\\varphi,Γ)$-modules",
