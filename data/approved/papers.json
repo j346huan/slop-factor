@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28467",
+      "version": 2,
+      "title": "Spaces of metrics with positive spectral scalar curvature",
+      "authors": [
+        "Gioacchino Antonelli",
+        "Georg Frenck",
+        "Bernhard Hanke"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T16:25:10Z",
+        "updated": "2026-08-14T20:58:23Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $n\\geq2$ and let $M^n$ be a closed connected smooth manifold. Let $R^γ(M)$ be the space of smooth Riemannian metrics $g$ on $M$ for which the generalized conformal Laplace operator $-γΔ_g+\\mathrm{R}_g$ is strictly positive. We prove that if $n=2$ and $γ>0$, or if $n\\ge3$ and $0< γ\\leq 4(n-1)/(n-2)$, the inclusion $R^0(M)\\hookrightarrow R^γ(M)$ is a homotopy equivalence, thus generalizing, to all dimensions and in the maximal range, the results of Botvinnik--Rosenberg and Li--Mantoulidis. Then, we prove that if $n\\ge3$ and $γ>4(n-1)/(n-2)$, the space $R^γ(M)$ is contractible, and hence nonempty. This solves a homotopy-theoretic strengthening of a conjecture of Gromov (Conjecture 3, Section 6.1.2, \"Four Lectures on Scalar Curvature\") in the maximal possible coefficient range. Concerning Gromov's conjecture we also treat the equivariant case and the case of manifolds with boundary.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28467v2",
+        "pdf": "https://arxiv.org/pdf/2607.28467v2",
+        "source": "https://export.arxiv.org/e-print/2607.28467v2"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 3,
+        "lemmas": 3,
+        "propositions": 7,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 142,
+        "bibliography_entries": 28,
+        "appendix_pages": 21
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "for pointing out [Gro23, Conjecture 3, Section 6.1.2]. This project was initiated when G.A. was visiting G.F. and B.H. at the University of Augsburg. G.A. is grateful for the hospitality and perfect working conditions. The authors used GPT-5.6 Sol Pro for help with language editing, TeX formatting, routine algebraic checking, and locating potentially relevant literature. All mathematical claims and proofs in this paper have been written by the authors and are entirely the author",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:17.866733Z"
+      },
+      "score": 661.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 165.3,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 21,
+          "theorems": 18,
+          "lemmas": 12,
+          "propositions": 28,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 35.5,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 42
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28413",
       "version": 1,
       "title": "Windowed thinning and query complexity for the bouncy particle and Zigzag samplers",
