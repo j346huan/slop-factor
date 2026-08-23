@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17155",
+      "version": 1,
+      "title": "Fixed-particle-number optimizers for the Lieb--Oxford inequality",
+      "authors": [
+        "Matthew Rosenzweig"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "cond-mat.stat-mech",
+          "math-ph",
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T21:41:45Z",
+        "updated": "2026-08-17T21:41:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $\\mathsf{d}\\geq1$, $0<\\mathsf{s}<\\mathsf{d}$, and $N\\geq1$. We prove that the optimal fixed-particle-number constant $Λ_N(\\mathsf{s},\\mathsf{d})$ in the Riesz Lieb--Oxford inequality is attained and that these constants are strictly increasing in $N$. The proof combines grand-canonical concentration--compactness with a strict one-particle extension. After recentering, a limiting plan arising from a maximizing sequence may assign positive probability to several particle numbers and hence be grand-canonical. A strict $N$-particle completion excludes this case, while the inequalities $Λ_N>Λ_k$ for $k<N$ exclude limits with a fixed lower particle number. Once attainment at particle number $N$ is known, the compact-support theorem of Di Marino and Lelotte arXiv:2607.11440, valid for all $0<\\mathsf{s}<\\mathsf{d}$, permits a non-product one-particle extension and yields $Λ_{N+1}(\\mathsf{s},\\mathsf{d})>Λ_N(\\mathsf{s},\\mathsf{d})$. Together, these implications close an induction beginning at $N=1$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17155v1",
+        "pdf": "https://arxiv.org/pdf/2608.17155v1",
+        "source": "https://export.arxiv.org/e-print/2608.17155v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 1,
+        "lemmas": 8,
+        "propositions": 9,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 188,
+        "bibliography_entries": 37,
+        "appendix_pages": 8
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file lieb_oxford_fixed_N_riesz_existence_clean_20260817_205957_UTC.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "he strict lower-particle inequality. Section 6 proves the strict extension from N to N + 1. The induction is closed in Section 7, which also discusses consequences and outlook. 1.5. Statement on AI use. The author used generative AI tools (OpenAI’s ChatGPT and Codex) during the development and preparation of this paper to identify potentially relevant literature, explore and test mathematical arguments, improve the exposition, and check internal consistency and cross-references. The author t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:32.730201Z"
+      },
+      "score": 1357.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 169.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 27,
+          "theorems": 6,
+          "lemmas": 32,
+          "propositions": 36,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 47,
+          "bibliography_entries": 3.7,
+          "appendix_pages": 16
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17036",
       "version": 1,
       "title": "Hyperbolic models and stability recognition for Coxeter groups",
