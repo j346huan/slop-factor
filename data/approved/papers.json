@@ -41683,6 +41683,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16103",
+      "version": 1,
+      "title": "An improved upper bound for the planar Turán number of $C_8$",
+      "authors": [
+        "Xuqing Bai",
+        "Weichan Liu",
+        "Xiangxiang Nie",
+        "Xin Zhang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-17T16:38:27Z",
+        "updated": "2026-07-17T16:38:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that every $n$-vertex simple planar graph with no copy of $C_8$ has at most \\[ \\frac{69}{25}(n-2) \\] edges, for every $n\\ge 8$. This improves the best known bound \\[ \\frac{323}{108}n-6 \\qquad \\text{for every } n\\ge 27. \\]",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16103v1",
+        "pdf": "https://arxiv.org/pdf/2607.16103v1",
+        "source": "https://export.arxiv.org/e-print/2607.16103v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 2,
+        "lemmas": 18,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 52,
+        "bibliography_entries": 10,
+        "appendix_pages": 17
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2 69 e(G) ≤ (n − 2) = (n − 2), α 25 contradicting the choice of G. The theorem follows. Declaration on AI-assisted tools OpenAI Codex was used only as an assistive tool for implementing and checking computer programs used in the finite computations. Data and code availability The source codes, recorded outputs, machine-readable certificates, and repr",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:51.030142Z"
+      },
+      "score": 516,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 172,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 24,
+          "theorems": 12,
+          "lemmas": 72,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 13,
+          "bibliography_entries": 1,
+          "appendix_pages": 34
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16073",
       "version": 1,
       "title": "The $hp$-FEM does not suffer from the pollution effect for piecewise-smooth Helmholtz problems with Gevrey regularity at boundaries",
