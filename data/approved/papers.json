@@ -8423,6 +8423,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10926",
+      "version": 1,
+      "title": "A higher-connectivity spectral Ore theorem for triangle-free graphs",
+      "authors": [
+        "Joyentanuj Das",
+        "Sayan Gupta"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T13:57:36Z",
+        "updated": "2026-08-11T13:57:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $B_{n,k}$ be the graph obtained from the balanced complete bipartite graph on $n$ vertices by deleting a matching of size $k$. If $G$ is an $n$-vertex triangle-free graph with $κ(\\comp G)\\geq k$, we prove that $\\rhoA(G)\\leq\\rhoA(B_{n,k})$ for $n\\geq4k+2$, with equality precisely when $G\\cong B_{n,k}$, and we compute $\\rhoA(B_{n,k})$ explicitly. We also solve the bipartite problem for every $n\\geq2k+1$, determine the boundary value $\\operatorname{spex}_κ(2k,K_3;k)=k-1$, and settle the full problem for $k=2$. In particular, $B_{n,2}$ is uniquely extremal exactly from order $6$ onward. For $k=1$, equivalently when the complement is connected, $B_{n,1}=K_{\\ceil{n/2},\\floor{n/2}}-e$ is uniquely extremal for every $n\\geq3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10926v1",
+        "pdf": "https://arxiv.org/pdf/2608.10926v1",
+        "source": "https://export.arxiv.org/e-print/2608.10926v1"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 2,
+        "lemmas": 5,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 135,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file spectral_ore-k_connected_triangle-free.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "aplacian and normalized adjacency versions of Problems 5.1–5.2 appear to be unexplored. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used OpenAI Codex to discuss proof strategies, organize and check bibliographic information, check algebraic calculations and proof exposition, and improve language and readability. After using this tool, the authors reviewed and edited the content as",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:39.041292Z"
+      },
+      "score": 878,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 109.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 20,
+          "theorems": 12,
+          "lemmas": 20,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 33.75,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10919",
       "version": 1,
       "title": "Equationless quadratic Chabauty for non-split Cartan modular curves",
