@@ -42445,6 +42445,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13487",
+      "version": 1,
+      "title": "Golden Finsler Geometry: Local Properties and Global Deformations",
+      "authors": [
+        "Ebtsam H. Taha",
+        "Bankteshwar Tiwari",
+        "A. Soleiman"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T06:30:57Z",
+        "updated": "2026-07-15T06:30:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce the concept of a golden Finsler structure on a finite-dimensional smooth manifold $M$ and investigate it from both local (coordinate-based) and global (coordinate-free) perspectives. Locally, we explicitly compute the fundamental metric tensor, establish the positive definiteness condition, and derive the geodesic spray coefficients. Furthermore, we investigate the projective flatness of the golden $(α, β)$-metric and prove the non-existence of almost rational golden $(α, β)$-metrics. Globally, we define the golden Finsler change $\\widetilde{F}$ of a base Finsler metric $F$ and examine its geometric properties utilizing a special concurrent $π$-vector field. We explicitly determine how fundamental non-linear structures, including the Barthel and Berwald connections, transform under this change. Finally, we prove that $\\widetilde{F}$ and $F$ cannot be projectively related.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13487v1",
+        "pdf": "https://arxiv.org/pdf/2607.13487v1",
+        "source": "https://export.arxiv.org/e-print/2607.13487v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 6,
+        "lemmas": 4,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 6,
+        "displayed_equations": 96,
+        "bibliography_entries": 29,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file golden_Finsler_final_version.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "entz-violation would theoretically break down. Therefore, our results provide a rigorous structural founda- tion for future applications of golden Finsler manifolds in both differential geometry and theoretical physics. Declarations • Generative AI and AI-assisted technologies in the manuscript prepa- ration process: During the preparation of this work the authors used Google Gemini in order to refine the language and improve the structural flow of the text. After usin",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:28.626829Z"
+      },
+      "score": 503.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 125.9,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 23,
+          "theorems": 36,
+          "lemmas": 16,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 12,
+          "displayed_equations": 24,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13486",
       "version": 2,
       "title": "A complete curve of genus 10 in the moduli space of curves of genus 3 and related questions",
