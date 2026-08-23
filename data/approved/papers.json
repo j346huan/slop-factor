@@ -43980,6 +43980,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20823",
+      "version": 1,
+      "title": "Fluctuation impossibility results for stochastic burst networks",
+      "authors": [
+        "David F. Anderson"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "q-bio.MN",
+          "q-bio.QM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-23T01:24:01Z",
+        "updated": "2026-07-23T01:24:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Stochastic reaction networks often involve components at low copy number, where individual production and degradation events generate substantial fluctuations. Yan et al.\\ conjectured in 2019 that for networks with linear degradation and arbitrary cross-regulatory production rates, feedback cannot suppress the stationary fluctuations for each component below the fluctuations of its constant-rate counterpart. Their formulation allows random burst sizes $K_i$: the unit-birth case has $K_i\\equiv1$, the biologically important burst model takes $K_i$ to be geometrically distributed, but more general positive integer-valued burst laws are also permitted. The conjecture was recently proved for unit births, $K_i\\equiv1$. We show here that the conjecture is \\textit{false in general} by constructing a two-component network with bounded production rates and burst sizes in $\\{1,2\\}$ for which both stationary Fano factors lie below their common constant-rate baseline. We then prove the conjecture for positive geometric bursts, the canonical burst model in stochastic gene expression. For arbitrary regulatory architecture and nonlinear cross-regulatory production rates, we prove an exact weighted tradeoff that rules out simultaneous suppression of every component below its geometric-burst baseline. We also prove a complementary structural impossibility result for arbitrary positive integer-valued burst laws with finite second moments: if the activating and inhibiting interactions have a globally consistent sign structure, in the sense that every cycle of the regulatory interaction graph contains an even number of negative interactions, then every component individually satisfies $F_{X_i}\\ge B_i$, where $F_{X_i}$ is its stationary Fano factor and $B_i$ is its constant-rate burst baseline.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20823v1",
+        "pdf": "https://arxiv.org/pdf/2607.20823v1",
+        "source": "https://export.arxiv.org/e-print/2607.20823v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 3,
+        "lemmas": 7,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 204,
+        "bibliography_entries": 0,
+        "appendix_pages": 18
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file PRL_Geometric_arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments Material, follows the signed-order argument of Ref. [3]. Ordered copies of the burst process are coupled using the same burst-size realization for production events occurring The author used OpenAI’s ChatGPT as an interactive in both copies; signed monotonicity ensures that events assistant for bounded tasks involving exposition, algebraic occurring in only one copy cannot reverse the order. The manipulation, symbolic evaluation o",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:35.913553Z"
+      },
+      "score": 513,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 171,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 24,
+          "theorems": 18,
+          "lemmas": 28,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 51,
+          "bibliography_entries": 0,
+          "appendix_pages": 36
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20798",
       "version": 1,
       "title": "Frames from Functional Calculus",
