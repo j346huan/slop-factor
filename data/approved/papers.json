@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15344",
+      "version": 1,
+      "title": "A Harris recurrent continuous-time Markov process without wide-sense regenerative structure",
+      "authors": [
+        "Yanlin Qu",
+        "Peter Glynn"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-15T17:56:11Z",
+        "updated": "2026-08-15T17:56:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "While Harris recurrent Markov chains (in discrete time) automatically exhibit wide-sense regenerative structure, we construct a Harris recurrent Markov process (in continuous time) that is not wide-sense regenerative, thereby giving a negative answer to the open problem first raised in the 1990s and later posed in Glynn(2011). The counterexample exhibits the following rigidity property: every almost surely finite random time that is independent of the state observed at that time must be almost surely constant. A Cantor set linearly independent over the rationals plays a key role in the construction, turning calendar time into an algebraic record of the path already traversed.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15344v1",
+        "pdf": "https://arxiv.org/pdf/2608.15344v1",
+        "source": "https://export.arxiv.org/e-print/2608.15344v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 2,
+        "displayed_equations": 104,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file aap-template.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ive. In Section 5, for completeness, we provide an elementary construction of the Cantor set used in the counterexample. In Section 6, we collect the remaining technical details. Use of AI. This work was developed in collaboration with GPT-5.6 Sol Pro. In particular, the authors thank GPT for bringing the rationally independent Cantor set to their attention, which lit the way to resolving the open problem. Starting from GPT’s attempted resolution, the authors checked and correct",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:41.545666Z"
+      },
+      "score": 748,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 74.8,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 15,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 4,
+          "displayed_equations": 26,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15281",
       "version": 1,
       "title": "A Ten-Vertex Counterexample to a Conjecture on Unstable Graphs",
