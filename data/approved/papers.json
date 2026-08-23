@@ -42191,6 +42191,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18699",
+      "version": 1,
+      "title": "Semipositivity of the orbifold second Chern class in Fujiki's class",
+      "authors": [
+        "Masataka Iwai",
+        "Satoshi Jinnouchi",
+        "Shiyu Zhang"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.CV",
+          "math.DG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T04:35:41Z",
+        "updated": "2026-07-21T04:35:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study inequalities for orbifold second Chern classes of compact normal analytic varieties in Fujiki's class. We prove Miyaoka's inequality for singular varieties in Fujiki's class with nef canonical divisor, as well as the semipositivity of the orbifold second Chern class for varieties with nef anti-canonical divisor. To prove these results, we establish generic nefness theorems for tangent and cotangent sheaves and an orbifold Bogomolov--Gieseker inequality for mixed polarizations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18699v1",
+        "pdf": "https://arxiv.org/pdf/2607.18699v1",
+        "source": "https://export.arxiv.org/e-print/2607.18699v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 7,
+        "lemmas": 5,
+        "propositions": 7,
+        "corollaries": 4,
+        "definitions": 5,
+        "displayed_equations": 103,
+        "bibliography_entries": 55,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file semipositivity_chern_2026_0717.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "4 MASATAKA IWAI, SATOSHI JINNOUCHI, AND SHIYU ZHANG The authors made limited use of ChatGPT 5.6 Plus, a large language model, for language editing and mathematical discussions. All AI-assisted text was carefully reviewed and verified by the authors. The mathematical content, arguments, and proofs were developed and verified by th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:15.906219Z"
+      },
+      "score": 1354,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 169.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 26,
+          "theorems": 42,
+          "lemmas": 20,
+          "propositions": 28,
+          "corollaries": 12,
+          "definitions": 10,
+          "displayed_equations": 25.75,
+          "bibliography_entries": 5.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18694",
       "version": 1,
       "title": "A Local Classification of Four-Element Multiple Sumsets",
