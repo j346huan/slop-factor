@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07839",
+      "version": 1,
+      "title": "The Sharp Worst-Case Asymptotic Rate of the Barzilai--Borwein Method in $\\mathbb R^d$ and Hilbert Spaces",
+      "authors": [
+        "Shutai Yang",
+        "Ya-Xiang Yuan"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-08T00:47:52Z",
+        "updated": "2026-08-08T00:47:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish sharp asymptotic rates for the two Barzilai--Borwein (BB) rules on uniformly positive quadratics and local nonlinear problems. In finite dimensions, for either fixed rule and an arbitrary positive first step, the gradient root factor is bounded by $(b_0-a_0)/(b_0+a_0)$, where $[a_0,b_0]$ is the initially active spectral interval. Hence the worst trajectory factor is $c_H=(κ(H)-1)/(κ(H)+1)$. When $H$ has at least two distinct eigenvalues, matched initialization and a balanced endpoint trajectory attain this value. Under matched initialization, the same constant is the optimal uniform-envelope threshold. For bounded, self-adjoint, uniformly positive operators on Hilbert space, scalar spectral measures yield the corresponding active-support bound and optimal matched uniform-envelope threshold, including continuous endpoint spectrum. Finally, if the gradient is strictly Fréchet differentiable at a stationary point and its derivative is self-adjoint and uniformly positive, every $γ\\in(c_*,1)$, where $c_*=(κ(A_*)-1)/(κ(A_*)+1)$, is a uniform local envelope rate for either pure BB rule. Every well-defined trajectory converging to the stationary point has error and gradient root factors at most $c_*$ and objective-gap root factor at most $c_*^2$. Over the class of objectives with prescribed distinct derivative endpoints $m_*<M_*$, matched endpoint trajectories for quadratic and $C^\\infty$ genuinely nonquadratic examples in $\\mathbb R^2$ attain these factors.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07839v1",
+        "pdf": "https://arxiv.org/pdf/2608.07839v1",
+        "source": "https://export.arxiv.org/e-print/2608.07839v1"
+      },
+      "structural_counts": {
+        "pages": 51,
+        "theorems": 4,
+        "lemmas": 17,
+        "propositions": 7,
+        "corollaries": 7,
+        "definitions": 0,
+        "displayed_equations": 408,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file BB_Sharp_Rate.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e strict gap between the quadratic threshold and the prescribed envelope rate then permits restarts in uniformly bounded blocks. The nonlinear frozen-model strategy and the block-restart framework were formulated by Shutai Yang; OpenAI language models assisted him in reorganizing parts of the proof and proposing candidate derivations for selected technical estimates. 12.1 Strict linearization and the local BB iterations Let H be a real Hilbert space, let U ⊂ H be open, and let F : U",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:40.327209Z"
+      },
+      "score": 2371.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 296.4,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 51,
+          "theorems": 24,
+          "lemmas": 68,
+          "propositions": 28,
+          "corollaries": 21,
+          "definitions": 0,
+          "displayed_equations": 102,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07828",
       "version": 1,
       "title": "The Rank-Collapse Principle for Quadratic Optimization",
