@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18174",
+      "version": 1,
+      "title": "Improved Convergence Rate for Stochastic Multi-Gradient Descent: A Proof Discovered with AI",
+      "authors": [
+        "Lisha Chen"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T17:13:07Z",
+        "updated": "2026-07-20T17:13:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For smooth nonconvex stochastic multi-objective problems, stochastic multi-gradient descent (SMG) computes an approximate steepest common descent direction of the objectives from stochastic gradients. With unbiased, variance-bounded stochastic gradients, this note establishes a new convergence rate for SMG in terms of the squared Pareto-stationarity (PS) measure. With a constant stepsize and linearly growing mini-batches, this measure at the algorithm's output is $\\widetilde O(T^{-1})$ after $T$ iterations. This improves on the $\\widetilde O(T^{-1/4})$ bound obtained by Chen et al. (2024) under the same setting, where $\\widetilde O(\\cdot)$ suppresses logarithmic factors. The key to the rate improvement is to exploit the Lipschitz continuity of the PS measure, defined by the norm of the multi-gradient descent algorithm (MGDA) direction, rather than the $(1/2)$-Hölder continuity of the MGDA direction used by Chen et al. (2024). The proof was discovered while the author was preparing homework for a graduate course: ChatGPT 5.4 Thinking Extended generated the initial proof strategy in response to an author-written homework-solution prompt; the author then verified and reorganized the resulting argument. The appendices document the prompt and summarize the student submissions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18174v1",
+        "pdf": "https://arxiv.org/pdf/2607.18174v1",
+        "source": "https://export.arxiv.org/e-print/2607.18174v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 34,
+        "bibliography_entries": 41,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file smg_new.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "m of the multi-gradient descent algorithm (MGDA) direction, rather than the $(1/2)$-Hölder continuity of the MGDA direction used by Chen et al. (2024). The proof was discovered while the author was preparing homework for a graduate course: ChatGPT 5.4 Thinking Extended generated the initial proof strategy in response to an author-written homework-solution prompt; the author then verified and reorganized the resulting argument. The appendices document the prompt and summarize the stu",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:55.265688Z"
+      },
+      "score": 364.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 45.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 14,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 8.5,
+          "bibliography_entries": 4.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18146",
       "version": 1,
       "title": "The realization graph of every degree sequence has a Hamilton path",
