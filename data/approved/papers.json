@@ -41853,6 +41853,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21338",
+      "version": 2,
+      "title": "The Ehrhart series of magic squares of orders seven and eight",
+      "authors": [
+        "Dun Qiu",
+        "Guoce Xin",
+        "Zihao Zhang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T14:07:48Z",
+        "updated": "2026-08-17T14:45:49Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $\\mathrm{IMS}_n(m)$ count the $n\\times n$ nonnegative integer matrices whose row sums, column sums, main-diagonal sum, and antidiagonal sum are all $m$. We determine the Ehrhart series $F_n(q)=\\sum_{m\\geq0}\\mathrm{IMS}_n(m)q^m$ as reduced rational functions for $n=7$ and $n=8$. Their numerator--denominator degrees are respectively $(366,373)$ and $(540,548)$. Both numerators have positive integer coefficients, are palindromic and strictly unimodal. The proofs share one finite architecture: a signed SimpCone decomposition is evaluated by quotient characters over finite fields, a certified common denominator and Ehrhart reciprocity reduce the rational identity to finitely many coefficients, an explicit counting bound lifts modular congruences to integer equalities, and exact gcd computations prove reducedness. For order eight, a face-index pole certificate gives a degree-$598$ common denominator without enumerating the full face lattice, leaving $296$ independent coefficients in degrees $0$ through $295$. Once the candidate rational function is known, the first six production primes certify this finite prefix by the same bounded-coefficient argument used for order seven.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21338v2",
+        "pdf": "https://arxiv.org/pdf/2607.21338v2",
+        "source": "https://export.arxiv.org/e-print/2607.21338v2"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 7,
+        "lemmas": 1,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 132,
+        "bibliography_entries": 24,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ier-recursive-evaluator, volume, repeated-enumeration, and extreme-parameter checks are recorded above. The 16 direct evaluations are retained as a separate code-path check and are not used in the finite-prefix proof. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used ChatGPT for literature orientation and for the language and organization of the manuscript. Th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 32",
+          "page": 32
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:29.018028Z"
+      },
+      "score": 436.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 145.4,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 33,
+          "theorems": 42,
+          "lemmas": 4,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 33,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24832",
       "version": 1,
       "title": "Further proofs of conjectures from the OEIS",
