@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01504",
+      "version": 1,
+      "title": "Embedded surfaces with trivial extendable mapping class groups in simply connected $4$-manifolds",
+      "authors": [
+        "Weizhe Niu"
+      ],
+      "categories": {
+        "primary": "math.GT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T21:21:42Z",
+        "updated": "2026-08-02T21:21:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For every $g\\geq 3$, every closed, connected, oriented, simply connected smooth $4$-manifold $X$, and every knot $K\\subset S^3$, we construct infinitely many pairwise topologically inequivalent smoothly embedded oriented genus-$g$ surfaces $F\\subset X$ whose orientation-preserving extendable mapping class subgroups are trivial in both the topological and smooth categories and whose first Alexander modules are isomorphic to the Alexander module of $K$. In particular, there are infinitely many such surfaces with vanishing first Alexander module. The construction is supported in a $4$-ball. Although their Alexander data are prescribed independently, the surfaces are distinguished, and their mapping-class rigidity is detected, by the nonabelian centralizer structure of their exterior groups.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01504v1",
+        "pdf": "https://arxiv.org/pdf/2608.01504v1",
+        "source": "https://export.arxiv.org/e-print/2608.01504v1"
+      },
+      "structural_counts": {
+        "pages": 84,
+        "theorems": 9,
+        "lemmas": 35,
+        "propositions": 20,
+        "corollaries": 8,
+        "definitions": 8,
+        "displayed_equations": 782,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "he ordered filling system and prove rigidity. Section 15 computes the Alexander module, chooses the knots, proves the main results, and records group and exterior homology. Acknowledgement of AI use. The author used Prism, Overleaf AI, and Grammarly to assist with LaTeX formatting and English-language editing. DeepSeek was used to assist with the algebraic computations in Propositions 8.4, 9.4, and 15.2, as well as with proofreading and the preparation of the TikZ figures.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:14:00.743650Z"
+      },
+      "score": 2380.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 595.2,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 84,
+          "theorems": 54,
+          "lemmas": 140,
+          "propositions": 80,
+          "corollaries": 24,
+          "definitions": 16,
+          "displayed_equations": 195.5,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01485",
       "version": 1,
       "title": "Intertwining Operators for Siegel Parabolics over Finite Fields",
