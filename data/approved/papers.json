@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12080",
+      "version": 1,
+      "title": "Word-Length Spectral Triples of $(\\mathbb{Z}/2\\mathbb{Z})\\wr\\mathbb{F}_{d}$ Are Not Metric",
+      "authors": [
+        "Mario Klisse"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": [
+          "math.FA",
+          "math.GR",
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T14:03:13Z",
+        "updated": "2026-08-12T14:03:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Given a countable discrete group equipped with a proper length function, one can construct a natural spectral triple on its reduced group C$^{\\ast}$-algebra. A well-studied question in non-commutative metric geometry is whether the Connes pseudo-metric associated with such a triple recovers the weak$^{\\ast}$-topology on the state space, thereby yielding a compact quantum metric space in the sense of Rieffel. While this metric property is known to hold for several classes of groups - including those of polynomial growth and word-hyperbolic groups - it was widely expected that not every word-length function induces a compact quantum metric space. Despite this, no explicit counterexample has been identified to date. In this note, we provide the first family of counterexamples by proving that for every integer $d \\geq 2$ the canonical spectral triple of the Lamplighter group $(\\mathbb{Z}/2\\mathbb{Z})\\wr\\mathbb{F}_{d}$, equipped with the word-length function associated with a finite symmetric generating set, fails to be a spectral metric space.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12080v1",
+        "pdf": "https://arxiv.org/pdf/2608.12080v1",
+        "source": "https://export.arxiv.org/e-print/2608.12080v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 46,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Word_Length_Spectral_Triples_of_....tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "WORD-LENGTH SPECTRAL TRIPLES OF (Z/2Z) ≀ Fd ARE NOT METRIC 3 Acknowledgements. The author acknowledges the use of GPT-5.6 Sol as an exploratory tool to assist in finding the counterexample. The AI was used under the author’s strict mathematical guidance. All mathematical content and arguments were rigorously reviewed, verified, and sub- stantially revised by",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:30.087569Z"
+      },
+      "score": 644,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 64.4,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 11,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 11.5,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12011",
       "version": 1,
       "title": "$m$-Bell and $m$-Stirling numbers: Iterated binomial transforms, hyper-Bessel functions, and moments of the Conway--Maxwell--Poisson distribution",
