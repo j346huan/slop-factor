@@ -8600,6 +8600,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10849",
+      "version": 1,
+      "title": "An affine local criterion for toric projective space bundles",
+      "authors": [
+        "Osamu Fujino",
+        "Hiroshi Sato"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T12:23:27Z",
+        "updated": "2026-08-11T12:23:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study when an equidimensional toric morphism is forced to be a projective-space bundle. Our main result is an affine rigidity theorem: if the base space is affine, the toric relative canonical divisor is $\\mathbb Q$-Cartier, and its negative has degree greater than the relative dimension on every complete curve, then the morphism is equivariantly a trivial projective-space bundle. As an application, we derive a projective-space-bundle theorem for equidimensional toric contractions associated to long extremal rays, without assuming $\\mathbb Q$-factoriality.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10849v1",
+        "pdf": "https://arxiv.org/pdf/2608.10849v1",
+        "source": "https://export.arxiv.org/e-print/2608.10849v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 2,
+        "lemmas": 6,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 147,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file toricPdbdl.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "imension. Acknowledgments. The first author was partially supported by JSPS KAKENHI Grant Number JP23K20787. The second author was partially supported by JSPS KAKENHI Grant Number 24K06679. The authors acknowledge the use of Rethlas and ChatGPT during the development of this work. These tools were used in the exploratory phase of the research, including discussions of formulations and the construction of examples. All mathematical arguments, proofs, and final verifications were c",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:34.581200Z"
+      },
+      "score": 574.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 95.75,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 15,
+          "theorems": 12,
+          "lemmas": 24,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 36.75,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10771",
       "version": 1,
       "title": "The Weinstock inequality for convex domains in hyperbolic space",
