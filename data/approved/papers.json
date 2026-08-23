@@ -41859,6 +41859,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23177",
+      "version": 1,
+      "title": "Explicit Twisted Hilbert Class Components Beyond Classical Irregularity",
+      "authors": [
+        "Peter Chocian"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-25T12:16:11Z",
+        "updated": "2026-07-25T12:16:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $p \\equiv 1 \\pmod 6$ be prime and $K_p = \\mathbf{Q}(ζ_{3p})$. We study the reflected circular unit $μ_p = (1+zζ_p)/(1+\\bar zζ_p)$, $z = -ζ_3^2$, and its character projections. A universal Stirling polynomial $P_m$ gives an exact identity between the anti-spectrum of $μ_p$ and the primitive divided $χ_{-3}$-twisted Stickelberger spectrum: $P_{p-j}(h) - P_{p-j}(1-h) = -(2h-1)(j-1)!\\,b_j$, $h = z/(1+z)$. Thus the locally blind lines of the reflected unit are precisely the zeros of the corresponding divided twisted Bernoulli eigenvalues. For every $p < 500$ we enumerate these zeros. Exactly twelve character lines occur. On each line an explicit integral idempotent product of $μ_p$ is a local $p$-th power at the conductor primes but not a global $p$-th power. Small completely split primes provide finite Artin certificates. The generalized Bernoulli number has exact $p$-adic valuation one in every case; the character-wise Main Conjecture therefore proves that each radical generates the complete Hilbert-class-field component, which has order $p$. Seven of the twelve lines occur at classically regular primes, so twisted degeneracy below 500 is more often invisible to ordinary irregularity than aligned with it. The first case, $p = 67$, is worked out in full, and a deterministic integer-arithmetic program (included as an ancillary file) reproduces the enumeration and every certificate.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23177v1",
+        "pdf": "https://arxiv.org/pdf/2607.23177v1",
+        "source": "https://export.arxiv.org/e-print/2607.23177v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 5,
+        "lemmas": 3,
+        "propositions": 8,
+        "corollaries": 3,
+        "definitions": 1,
+        "displayed_equations": 105,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file explicit_twisted_hilbert_class_components.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "not a priority clearance. No definitive priority claim is made; specialist review and independent computer-algebra reproduction remain appropriate. Acknowledgements Computational exploration, drafting, and verification were assisted by OpenAI’s 5.6 Sol and Anthropic’s Fable 5. Responsibility for the mathematical statements, source selection, and final presentation remains with the author. 14",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:07.450156Z"
+      },
+      "score": 638.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 127.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 15,
+          "theorems": 30,
+          "lemmas": 12,
+          "propositions": 32,
+          "corollaries": 9,
+          "definitions": 2,
+          "displayed_equations": 26.25,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23148",
       "version": 1,
       "title": "A Linear Lower Bound for Dominating Sets in $k$-Majority Tournaments",
