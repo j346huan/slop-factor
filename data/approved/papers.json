@@ -43205,6 +43205,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20758",
+      "version": 1,
+      "title": "Zeros of the Dirichlet series of even zeta values",
+      "authors": [
+        "William D. Banks"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T22:19:52Z",
+        "updated": "2026-07-22T22:19:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give a complete unconditional description of the zero set of the Dirichlet series $D(s) := \\sum_{n\\ge1} ζ(2n)\\, n^{-s}$, which continues meromorphically to $\\mathbb{C}$ with a single simple pole at $s=1$. The series possesses neither an Euler product nor a self-dual functional equation, and descriptions with this level of completeness are exceedingly rare for such series. The key input is an exact functional equation of Hecke type, obtained from the Lipschitz summation formula, which expresses $D$ in the left half-plane as a gamma factor times a dual series over the complex logarithms of the perfect squares; Riemann's functional equation appears as a single column of the dual series. The zeros fall into four families. The half-plane $σ\\ge σ_0 = 1.5001\\cdots$ is zero-free, and $D$ has a real zero $ρ_0 = 0.2004\\cdots$, conjecturally its only one. The zeros in the critical strip are perturbed $a$-points of $ζ$ for values of $a$ near $-(ζ(2)-1)$, and their counting function obeys a Riemann-von Mangoldt law. The remaining zeros form two complex-conjugate strings that recede into the left half-plane along explicit rays, are eventually simple, and satisfy an asymptotic with geometrically decaying error. The string geometry is governed by interference between the two smallest frequencies of the dual series, $2\\log 2$ contributed by the entire part of $D$ and $\\pm 2πi$ contributed by $ζ$. No hypothesis of Riemann type is assumed at any point.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20758v1",
+        "pdf": "https://arxiv.org/pdf/2607.20758v1",
+        "source": "https://export.arxiv.org/e-print/2607.20758v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 3,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 87,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file zeta2n-zeros-CURRENT.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ed, through collisions of conjugate pairs on the real axis, as the real zeros that settle beside the remaining trivial zeros. A systematic treatment may be worthwhile. Acknowledgments The author used Claude (Anthropic) as a writing and verification assistant in the preparation of this paper. Its contributions comprised the drafting of Section 7 from the author’s certified computational output, revision of the prose for clarity and consistency",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:56.599335Z"
+      },
+      "score": 444.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 88.95,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 24,
+          "theorems": 18,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 21.75,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20750",
       "version": 1,
       "title": "Pattern avoidance in permutations and their rotations",
