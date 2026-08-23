@@ -42026,6 +42026,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01057",
+      "version": 1,
+      "title": "Arithmetic of elliptic curves induced by regular Diophantine triples",
+      "authors": [
+        "Nikola Adžaga"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T07:44:14Z",
+        "updated": "2026-08-02T07:44:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study elliptic curves induced by regular Diophantine triples, with emphasis on their torsion subgroups. We show that an elliptic curve $E$ induced by a regular Diophantine triple in integers necessarily has torsion subgroup $E(\\mathbb{Q})_{\\mathrm{tors}} \\cong \\mathbb{Z}/2\\mathbb{Z} \\times \\mathbb{Z}/2\\mathbb{Z}$. Moreover, we develop a criterion for when such an elliptic curve acquires a point of order $3$ over a quadratic field. For a particular family $\\{ k-1, k+1, 4k\\}$, we use it to show that this does not happen. Finally, we study both the torsion and the generic rank of a family of elliptic curves induced by the $D(-k^2)$-triple $\\{1, 2k^2, 2k^2+2k+1\\}$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01057v1",
+        "pdf": "https://arxiv.org/pdf/2608.01057v1",
+        "source": "https://export.arxiv.org/e-print/2608.01057v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 9,
+        "lemmas": 8,
+        "propositions": 3,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 74,
+        "bibliography_entries": 39,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Arithmetic_of_elliptic_curves_induced_by_regular_Diophantine_triples.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "such that the induced elliptic curve has Z/2Z×Z/6Z-torsion subgroup over Q? Let us note that this last question also appears in Dujella’s extensive list of open problems on Diophantine m-tuples and elliptic curves [Duj26]. Declaration of generative AI in the manuscript preparation The proofs of Theorem 12 and Lemma 11 were AI-assisted: this required work with ChatGPT and Gemini in many iterations; at the time (January-February 2026), neither was capable of generating the proofs independ",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:18.005757Z"
+      },
+      "score": 1179.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 147.4,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 54,
+          "lemmas": 32,
+          "propositions": 12,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 18.5,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01040",
       "version": 2,
       "title": "The equality case of Ehrhart's volume conjecture",
