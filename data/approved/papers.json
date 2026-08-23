@@ -42869,6 +42869,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16572",
+      "version": 1,
+      "title": "Tree-derived ideals: Fubini iterations, limit amalgamations, and Katetov obstructions",
+      "authors": [
+        "José de Jesús Pelayo Gómez"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-18T01:11:23Z",
+        "updated": "2026-07-18T01:11:23Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a machinery for deriving ideals on a countable set from a partition of $ω$ indexed by $ω^{<ω}$. A derivative operator on trace trees, parametrized by an auxiliary ideal $\\mathcal J$, yields a strict transfinite hierarchy $\\mathcal H^{\\mathcal J}_α$ of proper ideals, tall from level one onward and independent of the chosen partition. Its finite levels are exactly the Fubini powers, $\\mathcal H_n\\cong\\mathrm{Fin}^{\\otimes(n+1)}$, while $\\mathcal H_ω=\\bigcup_n\\mathcal H_n$ amalgamates all finite powers. We establish presentation independence, local homogeneity, Fubini recursion, and $Π^1_1$-completeness of the full hierarchy. Let $\\mathcal F_ω$ be Kwela's canonical inductive limit and $\\mathcal F'_ω$ his independent-partitions limit. We prove $\\mathcal F_ω\\not\\leq_K\\mathcal H_ω$, although $\\mathcal F'_ω\\sqsubseteq\\mathcal H_ω$ and every finite coherent fragment of a putative reduction is realizable over $\\mathcal H_ω$. The proof introduces essential depth, an invariant monotone along Katetov reductions of $\\mathrm{Fin}\\otimes\\mathrm{Fin}$, and gives the sharp non-extension bound $N(m)=m+2$. Thus $\\mathcal H_ω$ contains no isomorphic copy of $\\mathcal F_ω$, and $\\mathcal F_ω\\not\\leq_K\\mathcal F'_ω$. Applications include chromatic ideals $\\mathcal G_k\\in\\mathcal H_2\\setminus\\mathcal H_1$ whose inclusion order records divisibility and whose Katetov order records arithmetic. We also prove the orthogonality of Cantor--Bendixson and derivative ranks. Finally, $\\mathcal P(ω)/\\mathcal H$ is a $σ$-closed reduced power $\\mathbb B\\cong\\mathbb B^ω/\\mathrm{Fin}$, contains $\\mathcal P(ω)/\\mathrm{Fin}$ regularly, and under CH is forcing-equivalent to $(\\mathcal P(ω)/\\mathrm{Fin})^+$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16572v1",
+        "pdf": "https://arxiv.org/pdf/2607.16572v1",
+        "source": "https://export.arxiv.org/e-print/2607.16572v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 21,
+        "lemmas": 18,
+        "propositions": 9,
+        "corollaries": 8,
+        "definitions": 6,
+        "displayed_equations": 45,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "mark 7.4 strict in each coordinate? Does it realize an embedding of pairs of ordinals into the Katětov order (not only under inclusion)? Statement on the use of AI-assisted tools. During the preparation of this manuscript, the author used Claude (Anthropic) and Codex (OpenAI) to assist in writing computer code for finite examples and in translating, revising, reorganizing, and drafting parts of the text. All AI-assisted output was critically reviewed, edited, and independently ver",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:20.996378Z"
+      },
+      "score": 1550.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 310.05,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 27,
+          "theorems": 126,
+          "lemmas": 72,
+          "propositions": 36,
+          "corollaries": 24,
+          "definitions": 12,
+          "displayed_equations": 11.25,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16556",
       "version": 1,
       "title": "Largest density of a layered subgraph of a hypercube",
