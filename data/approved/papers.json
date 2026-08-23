@@ -10116,6 +10116,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16836",
+      "version": 1,
+      "title": "Nonnegative Quadratics over a Quadrant with a Bilinear Constraint",
+      "authors": [
+        "Yipeng Zhang",
+        "Yuyuan Ouyang",
+        "Boshi Yang"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T17:22:21Z",
+        "updated": "2026-08-17T17:22:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study quadratic polynomials that are nonnegative on the non-compact set \\[ F:=\\{(x_1,x_2)\\in\\mathbb R^2:\\ x_1\\ge 0,\\ x_2\\ge 0,\\ x_1x_2\\le 1\\}. \\] All extreme rays of the cone of nonnegative quadratic polynomials are characterized on this set. The characterization allows us to study parameterized valid inequalities for quadratic convexifications involving $F$, which yields a semidefinite representation of its lifted convex hull in the quadratic space. Our analysis on extreme ray characterization separates the positive-semidefinite (PSD) and non-PSD branches, reduces the latter to boundary nonnegativity, and classifies the boundary contacts of the relevant extreme rays. By reparameterization, we also find a non-trivial and non-permutation-symmetric six-dimensional linear section of the cone of nonnegative homogeneous ternary octics that are sum-of-squares. We also show that our lifted convex hull result yields a degree-bounded preordering certificate of nonnegative quadratics on $F$ and a degree-bounded certificate for a family of nonnegative quartics on the half-strip.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16836v1",
+        "pdf": "https://arxiv.org/pdf/2608.16836v1",
+        "source": "https://export.arxiv.org/e-print/2608.16836v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 6,
+        "lemmas": 7,
+        "propositions": 11,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 77,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file article.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e partially supported by AFOSR grant FA9550-25-1- 0278. This work was supported in part by OpenAI API credits provided by Clemson University and administered by Clemson University Research Computing and Data (RCD). It also used open-weight language models hosted by Clemson University and made available through the Clemson RCD LLM Service. The OpenAI 5.6 (Sol) model is used in proving Proposition 2.3, finding SOS decompositions in Theorem 3.2, the conic combinations in Propositions 4.14, 4.1",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:33.003016Z"
+      },
+      "score": 1287.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 160.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 28,
+          "theorems": 36,
+          "lemmas": 28,
+          "propositions": 44,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 19.25,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16799",
       "version": 1,
       "title": "Doubling the dimension yields a benign landscape for the squared-stress",
