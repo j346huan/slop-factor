@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.11367",
+      "version": 1,
+      "title": "Weak essentially undecidable theories of hereditarily finite multisets",
+      "authors": [
+        "Platon Sifnaios"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-13T10:31:52Z",
+        "updated": "2026-07-13T10:31:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce two first-order theories of hereditarily finite multisets: a schematic theory WF^- and a finitely axiomatized theory F^-, in the language with the empty multiset, singleton formation, multiset union, and a containment relation. We prove that WF^- is mutually interpretable with Robinson's theory R, and F^- with Robinson arithmetic Q; in particular, F^- is essentially undecidable. Multisets thereby join numbers, strings, trees, sets, and sequences in the mutual-interpretability classes of R and Q. The distinctive obstacle of the multiset case is the simultaneous failure of the standard devices for recovering ordered pairs: positional order, local order on immediate constituents, and idempotence-based Kuratowski pairing. We show that order is recoverable from bare multiplicity: the term pi(x,y) = <x> u <x> u <y> is provably injective in F^-, yielding a direct interpretation of the Kristiansen-Murwanashyaka tree theory T; conversely, F^- is interpreted in Q by arithmetizing a normal-form calculus for multiset terms within bounded arithmetic. Each structural axiom of F^- is shown independent of the others, with finite or Presburger-definable decidable witnesses, and the containment axiom is conservative. As an application, we identify Spencer-Brown's forms modulo commutative juxtaposition with hereditarily finite multisets and locate the boundary of essential undecidability within the calculus of indications.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.11367v1",
+        "pdf": "https://arxiv.org/pdf/2607.11367v1",
+        "source": "https://export.arxiv.org/e-print/2607.11367v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 10,
+        "lemmas": 11,
+        "propositions": 9,
+        "corollaries": 6,
+        "definitions": 0,
+        "displayed_equations": 15,
+        "bibliography_entries": 38,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "lity, exactly Robinson’s Q; and it is activated neither by iteration, nor by multiplicity, nor by feedback, but by unbounded discriminability of form within form. Acknowledgements During the preparation of this manuscript the author used Claude (Anthropic) as a sup- port tool for literature search, language editing, LaTeX drafting, bibliographic checking, and assistance with the formal expression of mathematical arguments. The research questions, conceptual development, mathemati",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:51:27.982755Z"
+      },
+      "score": 1492.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 186.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 21,
+          "theorems": 60,
+          "lemmas": 44,
+          "propositions": 36,
+          "corollaries": 18,
+          "definitions": 0,
+          "displayed_equations": 3.75,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.11330",
       "version": 3,
       "title": "Intrinsic ergodicity for $\\mathfrak{B}$-free integers in number fields",
