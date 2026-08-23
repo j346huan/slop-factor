@@ -42956,6 +42956,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15934",
+      "version": 1,
+      "title": "A Projected Drift-Randomized Milstein Method for SDEs with Non-differentiable and Super-linear Drift Coefficients",
+      "authors": [
+        "Shuai Wang"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T13:18:29Z",
+        "updated": "2026-07-17T13:18:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We propose a projected drift-randomized Milstein (PRM) method for stochastic differ ential equations with non-differentiable and super-linearly growing drift coefficients. The method extends the randomized Milstein approach beyond the globally Lipschitz setting by incorporating a drift projection into the randomized quadrature approximation. Moreover, unlike existing first-order Milstein-type methods for SDEs with super-linearly growing drift coefficients, the proposed method does not require spatial differentiability of the drift coefficient. Under suitable polynomial Lipschitz and one-sided Lipschitz conditions on the drift, together with standard regularity assumptions on the diffusion, we establish a one-step mean-square stability estimate and derive the required local residual bounds. These esti mates yield first-order strong convergence of the PRM method in the L2-sense. Numerical experiments confirm the theoretical convergence rate and demonstrate the applicability of the method to SDEs with non-differentiable and super-linearly growing drifts.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15934v1",
+        "pdf": "https://arxiv.org/pdf/2607.15934v1",
+        "source": "https://export.arxiv.org/e-print/2607.15934v1"
+      },
+      "structural_counts": {
+        "pages": 39,
+        "theorems": 1,
+        "lemmas": 8,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 373,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file PRM_Manu.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "uld be interesting to extend the present approach to other classes of SDEs with super-linearly growing coefficients, such as McKean–Vlasov SDEs and jump–diffusion SDEs. These extensions are left for future work. Declaration on the Use of Generative AI Generative artificial intelligence tools were used in the preparation of this manuscript for lan- guage polishing, improving the clarity of presentation, assisting with some routine mathematical derivations, and suggesting the construction",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 38",
+          "page": 38
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:34.168678Z"
+      },
+      "score": 865.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 173.05,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 39,
+          "theorems": 6,
+          "lemmas": 32,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 93.25,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15894",
       "version": 1,
       "title": "The minimum surface area of $k$ unequal boxes tiling a cube: sharp thresholds, a fault-free law, and a reduction to two dimensions",
