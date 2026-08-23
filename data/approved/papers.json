@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16610",
+      "version": 1,
+      "title": "ADMM Fails to Achieve an $O(K^{-1})$ Ergodic KKT Residual Bound",
+      "authors": [
+        "Kaihuang Chen",
+        "Defeng Sun",
+        "Yancheng Yuan",
+        "Guojun Zhang",
+        "Xinyuan Zhao"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T14:13:58Z",
+        "updated": "2026-08-17T14:13:58Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Karush--Kuhn--Tucker (KKT) residual is a fundamental measure of first-order optimality and, under an error bound condition, is comparable to the distance to the KKT solution set up to constant factors. Despite the $O(K^{-1})$ ergodic rates known for objective error and feasibility violations, we show that the KKT residual of classical ADMM cannot, in general, satisfy a uniform $O(K^{-1})$ bound. Specifically, we construct a fixed-dimensional, horizon-dependent family of two-block convex optimization problems for which the KKT residual is $Ω(K^{-1/2})$ at both the last iterate and the equal-weight ergodic average at the prescribed horizon $K$. Consequently, a uniform $O(K^{-1})$ KKT residual bound is impossible for either output.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16610v1",
+        "pdf": "https://arxiv.org/pdf/2608.16610v1",
+        "source": "https://export.arxiv.org/e-print/2608.16610v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 2,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 102,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Worst_case_for_ergodic_ADMM.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "stance up to constant factors. The same example also demonstrates that Halpern acceleration can improve both the KKT residual and the solution-set distance from Θ(K −1/2 ) for the equal-weight ergodic average to Θ(K −1 ). Acknowledgments GPT-5.6 was used as an auxiliary tool in developing the lower-bound construction. All mathe- matical arguments were independently verified by the authors. The work of Defeng Sun was sup- ported by the Research Center for Intelligent Operations Res",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:36.772755Z"
+      },
+      "score": 606,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 60.6,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 17,
+          "theorems": 12,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 25.5,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16547",
       "version": 1,
       "title": "Hyperuniform Delone Realizations and Rigidity",
