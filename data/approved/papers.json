@@ -41856,6 +41856,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21762",
+      "version": 1,
+      "title": "Quantitative analytic stable regularity",
+      "authors": [
+        "G. Conant",
+        "C. Terry"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-23T19:23:53Z",
+        "updated": "2026-07-23T19:23:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove quantitative stable regularity lemmas for binary real-valued functions, extending the work of Malliaris and Shelah for stable graphs. The statements of our results are modeled after non-quantitative theorems for stable functions due to Chavarria, Conant, and Pillay. One of the key tools in our quantitative proof is an \"analytic symmetry lemma\", which gives a function-theoretic analogue of the fact that a pair of good sets in a graph has density close to 0 or 1. We also develop a function-theoretic treatment of Malliaris and Shelah's random sampling method for refining partitions consisting of good sets into equipartitions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21762v1",
+        "pdf": "https://arxiv.org/pdf/2607.21762v1",
+        "source": "https://export.arxiv.org/e-print/2607.21762v1"
+      },
+      "structural_counts": {
+        "pages": 31,
+        "theorems": 16,
+        "lemmas": 6,
+        "propositions": 7,
+        "corollaries": 2,
+        "definitions": 15,
+        "displayed_equations": 81,
+        "bibliography_entries": 33,
+        "appendix_pages": 10
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file CT-QSAR-arxiv1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments Humans. The authors thank Aaron Anderson, Tom Waknine, and Julia Wolf for com- ments on a preliminary draft. We also thank Dhruv Mubayi for helpful conversations about hypergeometric distributions. AI. ChatGPT was used for proofreading and for finding several relevant and useful results in the literature. It also made the following mathematical contributions: (1) Examples 2.7 and B.6 were provided by ChatGPT upon direct request. Proposition B.1",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 29",
+          "page": 29
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:29.548632Z"
+      },
+      "score": 2585.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 258.55,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 31,
+          "theorems": 96,
+          "lemmas": 24,
+          "propositions": 28,
+          "corollaries": 6,
+          "definitions": 30,
+          "displayed_equations": 20.25,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 20
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21761",
       "version": 1,
       "title": "Encoding orders and trees in real-valued functions",
