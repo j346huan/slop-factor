@@ -41768,6 +41768,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23266",
+      "version": 1,
+      "title": "Large odd induced subgraphs via odd cuts",
+      "authors": [
+        "Qinghou Zeng"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-25T16:08:40Z",
+        "updated": "2026-07-25T16:08:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Gallai proved that every graph can be partitioned into two sets, each inducing a subgraph with all degrees even. We show that if a graph admits a bipartition in which every vertex has an odd number of neighbors in the opposite part, then it can be partitioned into two sets, each inducing a subgraph with all degrees odd. Consequently, every $n$-vertex graph without isolated vertices has an induced subgraph with all degrees odd on at least $n/5$ vertices, substantially improving the previously known universal lower bound.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23266v1",
+        "pdf": "https://arxiv.org/pdf/2607.23266v1",
+        "source": "https://export.arxiv.org/e-print/2607.23266v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 5,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 13,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 20260726.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "etween 1/5 and 2/7. Determining its exact value remains open. More broadly, the odd-cut viewpoint may be useful in parity problems where cross-degrees are easier to control than degrees within induced subgraphs. Declaration on the Use of Generative AI The author used ChatGPT (OpenAI) for language polishing, structural organization, and im- proving the exposition of some proofs. All mathematical arguments and proofs were indepen- dently checked and finalized by the author, who takes full",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:11.390552Z"
+      },
+      "score": 172.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 43.05,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 5,
+          "theorems": 30,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 3.25,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23196",
       "version": 1,
       "title": "A Fixed-Point Construction of the Elementary Transcendental Functions",
