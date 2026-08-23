@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15873",
+      "version": 1,
+      "title": "Two Questions on $G$-harmonic Tuples",
+      "authors": [
+        "Murali Menon"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-16T17:49:51Z",
+        "updated": "2026-08-16T17:49:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An $n$-tuple of positive integers is $G$-harmonic if there are subgroups of $G$ having those indices whose cosets can be chosen pairwise disjoint, and $\\mathbb{Z}$-harmonic if there are pairwise disjoint residue classes with those moduli. Ginosar asked whether every $G$-harmonic tuple is $\\mathbb{Z}$-harmonic. Margolis and Schnabel proved this for tuples of length at most $4$, and analysed a particular family of length-$5$ tuples that would yield a counterexample if any member were $G$-harmonic. We show that the bound $4$ is sharp: $(6,6,6,10,15)$ is $A_5$-harmonic but not $\\mathbb{Z}$-harmonic. Moreover, the five pairwise disjoint cosets realising this tuple can be extended to a coset partition of $A_5$ using only cosets of indices $6$, $10$, and $15$. The index tuple of this partition is not $\\mathbb{Z}$-harmonic; because its indices repeat, this does not contradict the Herzog--Schönheim conjecture. We also prove that no member of the length-$5$ family analysed by Margolis and Schnabel in connection with possible counterexamples is $G$-harmonic for any group $G$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15873v1",
+        "pdf": "https://arxiv.org/pdf/2608.15873v1",
+        "source": "https://export.arxiv.org/e-print/2608.15873v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 22,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r’s ques- tion negatively, was obtained by Anthropic’s Claude Opus 5 under the author’s prompt- ing. The proof that the Lemma 1.1 configuration is realised in no group (Theorem 4.2) was obtained by Z.ai’s GLM-5.2, likewise under prompting. Claude Opus 5 and GLM-5.2 were also prompted to critique and cross-check each other’s arguments; no transcript of this exchange was retained, but the corrections it produced are reflected in the final proofs. Computations were performed and independen",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:18:25.663606Z"
+      },
+      "score": 411,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 41.1,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 8,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 5.5,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15865",
       "version": 1,
       "title": "Bounded independence for the inverse star discrepancy",
