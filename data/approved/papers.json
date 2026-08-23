@@ -8340,6 +8340,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11960",
+      "version": 1,
+      "title": "Conifold Gap Theorem for Topological Recursion",
+      "authors": [
+        "Bohan Fang",
+        "Juping Chen",
+        "Linji Chen",
+        "Zhengyu Zong"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T11:43:58Z",
+        "updated": "2026-08-12T11:43:58Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a conifold gap theorem for the topological recursion of toric mirror curves: for every local analytic family acquiring a generic one-node degeneration and every fixed genus at least two, the conifold-polarized free energy has one universal polar term, and the remainder is jointly holomorphic in the transverse and spectator parameters. The result covers separating and nonseparating nodes and allows general family deformations beyond the pure filling-fraction case.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11960v1",
+        "pdf": "https://arxiv.org/pdf/2608.11960v1",
+        "source": "https://export.arxiv.org/e-print/2608.11960v1"
+      },
+      "structural_counts": {
+        "pages": 51,
+        "theorems": 11,
+        "lemmas": 3,
+        "propositions": 6,
+        "corollaries": 4,
+        "definitions": 0,
+        "displayed_equations": 374,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file tr-gap.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Gaussian matrix model in Section 5. 1.4. Statement on the usage of artificial intelligence. The mathematics and the writing of this paper were assisted by a modified Danus–Rethlas system [LGS26, JGJ26], and later by custom agents built on Claude and Codex. The authors steered the system, both mathematically and operationally, and verified all generated content. Acknowledgements. The first author would like to thank Chiu-Chu Melissa Liu and Song Yu for valuable mathematical discus",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:08.942857Z"
+      },
+      "score": 2090.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 261.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 51,
+          "theorems": 66,
+          "lemmas": 12,
+          "propositions": 24,
+          "corollaries": 12,
+          "definitions": 0,
+          "displayed_equations": 93.5,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11863",
       "version": 1,
       "title": "Sharp bounds for frame counts and setwise stabilizers in classical groups",
