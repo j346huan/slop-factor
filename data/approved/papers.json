@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09436",
+      "version": 1,
+      "title": "The hyperkähler period-index conjecture is false",
+      "authors": [
+        "Pieter Belmans",
+        "James Hotchkiss"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T11:08:48Z",
+        "updated": "2026-08-10T11:08:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Huybrechts conjectured that for every Brauer class $α$ on a hyperkähler variety $X$ we have that $\\mathop{\\rm ind}(α)\\mid\\mathop{\\rm per}(α)^{\\dim(X)/2}$, strengthening the usual period-index conjecture. We show that this fails on certain hyperkähler fourfolds, both in type $\\mathrm{K}3^{[2]}$ and $\\mathrm{Kum}^2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09436v1",
+        "pdf": "https://arxiv.org/pdf/2608.09436v1",
+        "source": "https://export.arxiv.org/e-print/2608.09436v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 3,
+        "lemmas": 10,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 34,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file expanded.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Hodge-theoretic index. The result for type Kum2 is given in Theorem 6, the results for type K3 [2] are given in Theorem 9 (for 2-torsion) and Theorem 12 (for 5-torsion). AI disclosure The starting points for this paper were two different LLM-assisted constructions of counterexamples, obtained independently by the authors. The paper is the synthesis of these construc- tions, with LLMs used to help with the copyediting. Acknowledgements We would like to thank Lie Fu and Alex Pe",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:30.042634Z"
+      },
+      "score": 795,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 79.5,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 11,
+          "theorems": 18,
+          "lemmas": 40,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 8.5,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09394",
       "version": 1,
       "title": "A sharp extension of Halin's removable-edge theorem to matchings",
