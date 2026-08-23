@@ -8508,6 +8508,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14914",
+      "version": 1,
+      "title": "Random blob methods for diffusion",
+      "authors": [
+        "Katy Craig",
+        "Claire Murphy"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "math.AP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T21:55:21Z",
+        "updated": "2026-08-14T21:55:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Linear and nonlinear diffusion equations arise in a range of phenomena of mathematical interest, including slow and fast diffusion, sandpile dynamics, height-constrained transport, the two-dimensional Navier-Stokes equation, and dynamics for sampling probability measures. In recent years, blob methods have attracted significant interest as an approach for numerically simulating these types of PDEs. To address the $O(N^2)$ computational bottleneck of blob methods, we consider stochastic discretizations of space and time. We compare the random batch method with a new approach, which we call the random multirate method. Both of these methods build on classical stochastic methods in the optimization literature, with many similarities to stochastic gradient descent and random coordinate descent. We find that, for linear and nonlinear diffusion equations, in the tradeoff between computational complexity and accuracy, the random multirate method has the best performance. On one hand, we prove that the random multirate method converges to the underlying ODE system at a rate of $O(k Δt)$, matching forward Euler, and show by example that this rate is theoretically sharp. On the other hand, we observe even better rates of convergence for the random multirate method when applied to ODEs arising from blob methods for diffusive PDEs. Finally, due to its ability to simulate a wide range of nonlinear diffusion equations, including height-constrained transport and sandpile dynamics, our method succeeds in capturing key features of PDEs for which few numerical approaches exist.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14914v1",
+        "pdf": "https://arxiv.org/pdf/2608.14914v1",
+        "source": "https://export.arxiv.org/e-print/2608.14914v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 53,
+        "bibliography_entries": 36,
+        "appendix_pages": 19
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "thank Hector Ceniceros, Matt Jacobs, Qin Li, and Olga Turanova for their valuable feedback on this project. The second author is grateful to Jack Pfaffinger for many illuminating conversations that helped shape this work. The authors used Claude, Gemini, and ChatGPT to conduct literature reviews, formulate theorems and proofs, write code, and prepare citations. The authors assume responsibility for all content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:32.637964Z"
+      },
+      "score": 1028.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 102.85,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 26,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 13.25,
+          "bibliography_entries": 3.6,
+          "appendix_pages": 38
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14897",
       "version": 1,
       "title": "Topological perspectives on the vanishing of some Bogomolov multipliers",
