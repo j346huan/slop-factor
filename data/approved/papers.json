@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24832",
+      "version": 1,
+      "title": "Further proofs of conjectures from the OEIS",
+      "authors": [
+        "Sela Fried"
+      ],
+      "categories": {
+        "primary": "math.GM",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T14:00:41Z",
+        "updated": "2026-07-23T14:00:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This is the fourth work in a series devoted to proving conjectures recorded in the On-Line Encyclopedia of Integer Sequences (OEIS). The problems considered here concern elementary and multiplicative number theory, Fibonacci numbers, decimal concatenation, Diophantine and Pell equations, binary representations and bitwise operations, lattice paths, parity patterns, recurrences, and formal power series. Several of the results give complete characterizations of the relevant sequences; others establish exact identities, recurrences, generating functions, asymptotic estimates, integrality properties, or nonoccurrence results. The proofs use combinatorial bijections, congruences, Möbius inversion, valuations, Fibonacci identities, Pell-type arguments, Lucas' theorem, Riordan arrays, Lagrange inversion, and generating-function methods.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24832v1",
+        "pdf": "https://arxiv.org/pdf/2607.24832v1",
+        "source": "https://export.arxiv.org/e-print/2607.24832v1"
+      },
+      "structural_counts": {
+        "pages": 57,
+        "theorems": 31,
+        "lemmas": 14,
+        "propositions": 1,
+        "corollaries": 6,
+        "definitions": 0,
+        "displayed_equations": 274,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ". Let A(x) be the generating function of (an )n∈N . Then x 2x2 A(x) = − . (1 − 3x)2 (1 + x)1/2 (1 − 3x)3/2 Declaration of generative AI and AI-assisted tech- nologies in the manuscript preparation process During the preparation of this manuscript, the author used ChatGPT to improve its language, clarity, and presentation. The author subsequently reviewed and edited the out",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 56",
+          "page": 56
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:07.582112Z"
+      },
+      "score": 1954.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 390.9,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 57,
+          "theorems": 186,
+          "lemmas": 56,
+          "propositions": 4,
+          "corollaries": 18,
+          "definitions": 0,
+          "displayed_equations": 68.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21222",
       "version": 3,
       "title": "An Asymptotically Tight $t\\log t$ Bound for $k$-Connected Subgraphs in Dense $K_t$-Minor-Free Graphs",
