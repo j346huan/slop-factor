@@ -8426,6 +8426,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18015",
+      "version": 1,
+      "title": "Non-orientable representation spheres",
+      "authors": [
+        "Sam K. Miller"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "math.AT",
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T17:05:53Z",
+        "updated": "2026-08-18T17:05:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For any finite group, we pose the following question: given an irreducible real representation, is the associated representation sphere non-orientable if and only if the representation is nontrivial of real type? We prove that the answer to this question is yes if the group has a normal Sylow 2-subgroup, but exhibit a 2-nilpotent group of order 112 for which the answer is no via elementary arguments. We also link the question to the unit group of the Burnside ring, where we recover a basis discovered by Bouc for 2-groups, and pose a conjecture about detection of non-orientability from solvable subgroups. The question is motivated by issues arising from the construction of permutation twisted cohomology for finite groups.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18015v1",
+        "pdf": "https://arxiv.org/pdf/2608.18015v1",
+        "source": "https://export.arxiv.org/e-print/2608.18015v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 5,
+        "lemmas": 5,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 7,
+        "displayed_equations": 39,
+        "bibliography_entries": 49,
+        "appendix_pages": 10
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rity functions The following GAP code checks whether the parity functions of all irreducible real representations are linearly independent for all groups up to a fixed order, thus providing a proof of Theorem 2.13. This was written with generative AI assistance. We omit groups of odd order and 2-groups, since these cases are already known to be strong nirrorno. ################################################################## ## ## orientation_parity.g",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:25.818303Z"
+      },
+      "score": 307.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 153.65,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 25,
+          "theorems": 30,
+          "lemmas": 20,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 14,
+          "displayed_equations": 9.75,
+          "bibliography_entries": 4.9,
+          "appendix_pages": 20
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18006",
       "version": 1,
       "title": "Obstructions to intrinsic perturbation for $A$-hypergeometric series",
