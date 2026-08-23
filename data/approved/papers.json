@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12919",
+      "version": 1,
+      "title": "Constructions of almost controllable graphs determined by their generalized spectra",
+      "authors": [
+        "Wei Wang",
+        "Manjin Shi",
+        "Fenjin Liu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T08:00:44Z",
+        "updated": "2026-08-13T08:00:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Identifying and constructing graphs that are determined by their generalized spectrum (DGS) is a significant and challenging problem in spectral graph theory. Recently, a simple criterion for almost controllable graphs to be DGS was proposed by Lin et al. (2026), utilizing the modified walk matrix. In this paper, we investigate the evolution of the modified walk matrix under disjoint union and join operations with a singleton vertex. We establish an exact algebraic identity for the determinant of the modified walk matrix of the resulting graph. Based on this identity and the DGS-criterion of Lin et al., we construct infinite families of almost controllable graphs that are DGS, extending the previous construction of Liu et al. (2019), which was restricted to controllable graphs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12919v1",
+        "pdf": "https://arxiv.org/pdf/2608.12919v1",
+        "source": "https://export.arxiv.org/e-print/2608.12919v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 9,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 58,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript_ACG.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "eorem 1.6. Acknowledgments This work is partially supported by the National Natural Science Foundation of China (Grant No. 12001006) and Wuhu Science and Technology Project, China (Grant No. 2024kj015). The authors acknowledge the use of Gemini 3.1 Pro for language polishing and detailed proofreading of the manuscript. References [1] D. Cvetković, P. Rowlinson, S. Simić, An Introduction to the Theory of Graph Spectra, Cambridge University Press, Cambridge, UK, 2010. [2] E. R.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:46.272476Z"
+      },
+      "score": 96.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 96.5,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 12,
+          "theorems": 54,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 14.5,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12844",
       "version": 2,
       "title": "The Hayman--Wu constant is $π^2$",
