@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01393",
+      "version": 2,
+      "title": "Universal Triangle Covering Curve and Polygonal Chain: Escaping Forest and Fitting Worm",
+      "authors": [
+        "Zhipeng Deng"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T17:17:32Z",
+        "updated": "2026-08-05T20:40:05Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we present a general formulation to address the problems of covering curves and polygonal chains with triangle, and fitting these curves into triangle. These problems can be formulated as special cases of Bellman's lost-in-a-forest problem (escaping triangular forest) and Moser's worm problem (covered by triangle). We model and reformulate the problem by keeping the curve stationary while allowing the triangle to translate and rotate. Subsequently, we derive the functional minimization formulation with support function constraints to solve. We also prove the equivalence and convergence of the formulas. Finally, we employ numerical methods and present results for covering curves with arbitrary triangles of various angles. We also present some corollaries and variant results, including closed curves and closed polygonal chains.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01393v2",
+        "pdf": "https://arxiv.org/pdf/2608.01393v2",
+        "source": "https://export.arxiv.org/e-print/2608.01393v2"
+      },
+      "structural_counts": {
+        "pages": 48,
+        "theorems": 4,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 58,
+        "bibliography_entries": 34,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "exact tendsto_of_tendsto_of_tendsto_of_le_of_le' hlow hvK hlower hupper end TriangleCovering AI usage disclosure: The language of this paper was polished by GPT-5.6 sol and Gemini 3.1 pro. The formalized proofs in Lean 4 code was assisted by GPT-5.6 sol. The AI tools were not used to generate substantive content and construct logical arguments. All intellectual contributions, theoretical frameworks, a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 48",
+          "page": 48
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:13:17.668975Z"
+      },
+      "score": 205.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 102.9,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 48,
+          "theorems": 24,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 14.5,
+          "bibliography_entries": 3.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01364",
       "version": 3,
       "title": "U-centering as subset ANOVA: edge regression and higher-order theory",
