@@ -8425,6 +8425,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16140",
+      "version": 1,
+      "title": "Internalized Truth in Reflective Grounded Arithmetic",
+      "authors": [
+        "Bryan Ford"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "cs.LO",
+          "cs.PL"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T05:48:42Z",
+        "updated": "2026-08-17T05:48:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "By Tarski's undefinability theorem, no consistent classical formal system that includes arithmetic can define its own truth predicate. Reflective Grounded Arithmetic (RGA) is a powerful arithmetic whose universal quantifier is grounded in its own reflected proof search, and whose paracompleteness circumvents Tarski's theorem. This paper presents a machine-checked Isabelle/HOL development that defines a truth predicate for RGA's full language, quantifiers included, as an internal term of RGA itself. This term is compiled from a primitive-recursive decider for its operational semantics, and proven adequate in both directions. Around this predicate the development closes a square of metatheorems: for every formula RGA proves, RGA derives the formula's internal truth; every grounded-true formula is internally provable; internal truth implies internal provability; and the consistency of RGA follows. The two directions run on disjoint internal machines---a certified decider and a certified proof-checker, both RGA terms. Reaching these results involved substantial ordinary reasoning carried out within RGA: coded syntax and substitution, compiled primitive-recursive functions with symbolic unfolding laws, internal strong induction, and a verified proof-checker for the system written in the system's own formal language. The development thus demonstrates along the way that RGA is a workable formal system supporting nontrivial mathematical reasoning.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16140v1",
+        "pdf": "https://arxiv.org/pdf/2608.16140v1",
+        "source": "https://export.arxiv.org/e-print/2608.16140v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 16,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 6,
+        "bibliography_entries": 149,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "on 8 reports as a methodology result in its own right. AI disclosure: both the machine-checked proofs and the first drafts of this paper’s text were produced with sub- stantial assistance from artificial intelligence (Claude Fable from Anthropic), working under the direction and review of the human author, as detailed later in Section 8. Section 2 develops the background sketched above; Section 3 builds the substrate and the two machines; Section 4 assembles the adequacy squar",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:03.650694Z"
+      },
+      "score": 1344,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 134.4,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 22,
+          "theorems": 96,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 1.5,
+          "bibliography_entries": 14.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16116",
       "version": 1,
       "title": "New constructions of optimal arrangements of $2d$ lines in $\\mathbb{C}^d$",
