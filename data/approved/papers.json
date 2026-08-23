@@ -42098,6 +42098,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01382",
+      "version": 1,
+      "title": "Applications of Almost Stationarity I: Quantitative Growth of Injectivity Radius and Stück-Zimmer Theorem",
+      "authors": [
+        "Ilya Gekhtman",
+        "Simon Machado",
+        "Omri Solan",
+        "Yuval Yifrach"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T17:04:23Z",
+        "updated": "2026-08-02T17:04:23Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Fraczyk and Gelander proved in \\cite{FG} that for any simple Lie group $G$ of high rank and for every non-lattice discrete subgroup $Γ\\leq G$, the injectivity radius of points in $G/Γ$ is unbounded, resolving a conjecture of Margulis. In this work we obtain an explicit lower bound on the growth rate of the maximal injectivity radius of points taken from growing balls in $G/Γ$. More explicitly, we prove that for any $R>0$, one can embed a ball of radius $c\\log^{(4)}R$ in $G/Γ$ centered at some point $[g]\\in G/Γ$ where $g$ is taken from $G_R$ and for some constant $c=c(G,Γ)$. In particular, we show that for a general discrete subgroup $Γ$, if the injectivity radius growth in $G/Γ$ is slower than $\\log^{(4)}$, $Γ$ must be a lattice. Additionally, we give a new, shorter and simpler proof of the Nevo-Stück-Zimmer Theorem, saying that every action of a high rank simple group with property $(T)$ is either essentially free or essentially transitive. The results in this paper are obtained using the almost structure of measures from the accompanying paper, together with additional geometric considerations. As a step in the proof, we develop the following characterization for lattices. A discrete subgroup $Γ\\leq G$ is a lattice if and only if there is a probability measure on $G/Γ$ which is sufficiently almost invariant under $G$. More precisely, suppose $Γ\\leq G$ is a discrete subgroup for which there exists a probability measure $ν$ on $G/Γ$ for which $W_1^{b}(gν,ν)\\leq \\eps_0$ for some $\\eps_0(Γ)>0$, then $Γ$ is a lattice.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01382v1",
+        "pdf": "https://arxiv.org/pdf/2608.01382v1",
+        "source": "https://export.arxiv.org/e-print/2608.01382v1"
+      },
+      "structural_counts": {
+        "pages": 64,
+        "theorems": 15,
+        "lemmas": 20,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 13,
+        "displayed_equations": 361,
+        "bibliography_entries": 129,
+        "appendix_pages": 25
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "support and infinite patience. This paper is dedicated to her with a lot of love. 1.9 Statement on the use of AI assistants The authors used AI assistants (LLM) in the preparation of this paper, as follows. Writing and presentation. AI assistants were used to help draft and rephrase exposition, to suggest reorganizations of the material, and to proofread. Every sentence was reviewed, and where necessary rewritten, by the authors. Discussion. The authors used AI assistants as a so",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:13:41.106818Z"
+      },
+      "score": 2175.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 435.15,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 64,
+          "theorems": 90,
+          "lemmas": 80,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 26,
+          "displayed_equations": 90.25,
+          "bibliography_entries": 12.9,
+          "appendix_pages": 50
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01364",
       "version": 3,
       "title": "U-centering as subset ANOVA: edge regression and higher-order theory",
