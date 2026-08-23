@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13888",
+      "version": 1,
+      "title": "An Order-One Lower Bound on the Error of Scalable Generalized Multiscale Finite Element Space Constructions",
+      "authors": [
+        "Changqing Ye"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T14:34:28Z",
+        "updated": "2026-07-15T14:34:28Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Several coefficient-adapted methods provide optimal-order approximation for elliptic equations with rough coefficients. Prominent examples include localized orthogonal decomposition, multiscale spectral GFEM, and constraint energy-minimizing GMsFEM. Their proven accuracy, however, is obtained by allowing the localization radius or the local spectral dimension to grow as the coarse scale \\(H\\) tends to zero. Classical MsFEM has an FEM-like local construction, but its available analysis does not give a coefficient-uniform \\(\\bigO(H)\\) energy estimate over the full bounded-contrast measurable coefficient class. Motivated by this gap, we formalize an FEM-like notion of structural scalability. A chosen spatially local basis has uniformly bounded overlap, hence \\(\\bigO(1)\\) stiffness entries per row, and every anchored local span uses coefficient information from only \\(\\bigO(1)\\) coarse-element layers. We prove that no deterministic construction satisfying fixed bounds on the support radius, coefficient-information radius, and local multiplicity can converge uniformly over the coefficient class. In fact, its worst-case \\(L^2\\)-to-energy Galerkin error remains bounded below by a positive constant independent of \\(H\\). The lower bound is established using a fixed finite family of smooth periodic coefficients and smooth right-hand sides. The proof combines coefficients that coincide on local patches, a finite-dimensional approximation lower bound for corrector fields, a positive-density mesh argument, and strong periodic corrector convergence. Thus uniform optimal accuracy requires at least one local construction parameter to grow or requires coefficient information beyond the fixed-visibility model.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13888v1",
+        "pdf": "https://arxiv.org/pdf/2607.13888v1",
+        "source": "https://export.arxiv.org/e-print/2607.13888v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 3,
+        "displayed_equations": 116,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "a rigorous error lower bound under fixed visibility and identifies removal of the local coefficient-information restriction as the case not covered by the argument. Acknowledgments The key construction was developed with assistance from OpenAI Codex. The author inde- pendently verified the proof, prepared the final manuscript, and assumes full responsibility for its mathematical content. The author thanks Eric Chung, Daniel Peterseim, and Chupeng Ma for helpful discussions on th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:11.255710Z"
+      },
+      "score": 1095,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 109.5,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 23,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 6,
+          "displayed_equations": 29,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13794",
       "version": 1,
       "title": "Complete functional calculus bounds for $ρ$-contractions",
