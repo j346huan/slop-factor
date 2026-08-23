@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12011",
+      "version": 1,
+      "title": "$m$-Bell and $m$-Stirling numbers: Iterated binomial transforms, hyper-Bessel functions, and moments of the Conway--Maxwell--Poisson distribution",
+      "authors": [
+        "Vencislav Popov"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T12:46:29Z",
+        "updated": "2026-08-12T12:46:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce a natural generalization of the Bell numbers: the $m$-Bell numbers $B^{(m)}_{n}$, characterized by the property that $m$ applications of the binomial transform reproduce the original sequence shifted $m$ places to the left. Their exponential generating functions satisfy $m$-th order ordinary differential equations whose solutions are hypergeometric (hyper-Bessel) functions, specializing to the exponential function when $m=1$ (classical Bell numbers) and to modified Bessel functions when $m=2$ (yielding \"Bessel-Bell\" numbers). Mirroring the Bell-Stirling correspondence, we construct $m$-Stirling triangular arrays from the two-term recurrence $S_m (n+1,k) = m \\left\\lfloor k/m \\right\\rfloor S_m(n,k)+S_m(n,k-1)$ and prove an elementary shift identity from which the central structure theorem follows: the row sums of the $m$-Stirling triangle reproduce $B^{(m)}_{n}$, and, more finely, the residue-class row sums are precisely the $m$ primitive $m$-Bell sequences. The $m$-Stirling numbers come in dual pairs (with first-kind partners, generalized falling factorials, and Lah-type companions), serve as conversion operators between polynomial bases, admit Dobiński-like formulas, and count congruence-constrained partitions in an urn model as well as restricted permutation insertion histories. Finally, we show that the $m$-Bell numbers govern the moments of the Conway-Maxwell-Poisson distribution with integer dispersion parameter $ν=m$: the scaled moments are combinations of fixed hyper-Bessel carrier ratios whose integer coefficients are precisely the primitive $m$-Bell sequences, recovering for $m=1$ the classical fact that the moments of the Poisson distribution are the Bell numbers.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12011v1",
+        "pdf": "https://arxiv.org/pdf/2608.12011v1",
+        "source": "https://export.arxiv.org/e-print/2608.12011v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 18,
+        "lemmas": 3,
+        "propositions": 7,
+        "corollaries": 3,
+        "definitions": 9,
+        "displayed_equations": 172,
+        "bibliography_entries": 26,
+        "appendix_pages": 10
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ", modified Bessel functions, hypergeometric functions. Computational results and other supporting information are available on GitHub. Claude Fable 5 (Anthropic) assisted with some of the derivations; its contributions are documented in the repository’s pull requests, whereas the human author’s contributions are direct commits, so the repository history",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:27.496876Z"
+      },
+      "score": 2252.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 281.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 41,
+          "theorems": 108,
+          "lemmas": 12,
+          "propositions": 28,
+          "corollaries": 9,
+          "definitions": 18,
+          "displayed_equations": 43,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 20
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12432",
       "version": 1,
       "title": "Generation of finite groups from subgroups of coprime index",
