@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15525",
+      "version": 1,
+      "title": "New lower bounds on domination--packing ratios in connected subcubic and cubic graphs",
+      "authors": [
+        "JiSun Huh",
+        "Juho Kim"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T04:38:40Z",
+        "updated": "2026-08-16T04:38:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a graph \\(G\\), let \\(γ(G)\\) and \\(ρ(G)\\) denote its domination number and packing number, respectively. Let \\(c_{\\mathrm{sub}}\\) and \\(c_{\\mathrm{cub}}\\) denote the respective limsups of \\(γ(G)/ρ(G)\\) over connected subcubic and connected cubic graphs as \\(ρ(G)\\to\\infty\\). We prove \\[ c_{\\mathrm{sub}}\\geq\\frac{13}{6}, \\qquad c_{\\mathrm{cub}}\\geq\\frac{17}{8}, \\] by constructing two explicit binary branching families. The connected noncubic subcubic graphs \\(\\widehat B_t^\\star\\) satisfy \\[ |V(\\widehat B_t^\\star)|=76\\cdot2^t-12,\\qquad γ(\\widehat B_t^\\star)=26\\cdot2^t-4,\\qquad ρ(\\widehat B_t^\\star)=12\\cdot2^t-2, \\] whereas the connected cubic graphs \\(\\widehat B_t^\\bullet\\) satisfy \\[ |V(\\widehat B_t^\\bullet)|=108\\cdot2^t-14,\\qquad γ(\\widehat B_t^\\bullet)=34\\cdot2^t-4,\\qquad ρ(\\widehat B_t^\\bullet)=16\\cdot2^t-2. \\] The constructions use the same binary connector composition and closing lemma, with different connectors and initial assemblies. As a consequence, both families give unbounded additive violations of \\(γ(G)\\leq2ρ(G)+1\\), disproving the proposed inequality even for connected cubic graphs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15525v1",
+        "pdf": "https://arxiv.org/pdf/2608.15525v1",
+        "source": "https://export.arxiv.org/e-print/2608.15525v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 2,
+        "lemmas": 10,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 5,
+        "displayed_equations": 82,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file DPM.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "is cubic, then 8γ(G) ≤ 17ρ(G) + 7. (3) In general, 6γ(G) ≤ 13ρ(G) + 5. Acknowledgments This project originated when the second author, an undergraduate, used OpenAI Codex, primarily with the GPT-5.6 Sol model, to identify an open conjecture and explore possible solutions. This preliminary AI-assisted exploration led to Conjecture 1.1 and suggested a candidate counterexample based on path-like assemblies of copies of the graph now deno",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:58.650361Z"
+      },
+      "score": 1027,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 102.7,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 15,
+          "theorems": 12,
+          "lemmas": 40,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 10,
+          "displayed_equations": 20.5,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15458",
       "version": 1,
       "title": "Five-Term and Higher Congruences Involving Arbitrary Sets and Short Intervals Modulo a Prime",
