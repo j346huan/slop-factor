@@ -41769,6 +41769,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23540",
+      "version": 1,
+      "title": "Hilbert matrix norms on weighted Bergman spaces: even exponents and a counterexample to the beta formula",
+      "authors": [
+        "Hasi Wulan",
+        "Mengmeng Zhou",
+        "Jian-Feng Zhu"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T08:31:26Z",
+        "updated": "2026-07-26T08:31:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $A_α^p$ be the weighted Bergman space on the unit disk, where $α>-1$. For $f(z)=\\sum_{k=0}^{\\infty}a_k z^k\\in A_α^p$, consider the Hilbert matrix operator $\\mathcal{H}f(z)=\\sum_{n=0}^{\\infty}\\left(\\sum_{k=0}^{\\infty}\\frac{a_k}{n+k+1}\\right)z^n =\\int_0^1\\frac{f(t)}{1-tz}\\,dt$. For even exponents $p=2m$, we prove that $\\|\\mathcal{H}\\|_{A_α^{2m}\\to A_α^{2m}}=B(a,1-a)$, where $a=(α+2)/(2m)$, whenever $0<a\\leq m/(2m-1)$. For $p=2,4,6,8,10$, the same formula holds throughout the admissible range. We also show that the beta-function norm formula does not hold for all admissible parameters. Set $a_0=800001/1000000$ and $α_p=a_0p-2$. Then, for every real $p\\geq 1100000$, $\\|\\mathcal{H}\\|_{A_{α_p}^p\\to A_{α_p}^p}>B(a_0,1-a_0)$. The counterexample is based on the fixed function $f_0(z)=(1-z^2)^{-4/5}=\\sum_{k=0}^{\\infty}\\frac{(4/5)_k}{k!}z^{2k}$. A rigorous interval estimate at $p=1100000$, together with monotonicity in $p$, yields the result on the entire half-line. In particular, the formula fails for every even exponent $p=2m$ with $m\\geq 550000$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23540v1",
+        "pdf": "https://arxiv.org/pdf/2607.23540v1",
+        "source": "https://export.arxiv.org/e-print/2607.23540v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 6,
+        "lemmas": 6,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 231,
+        "bibliography_entries": 14,
+        "appendix_pages": 9
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Hilbert-Matrix-Norm-2026-Explicit-P-Range-Revision.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "X (4/5)k 2k f0 (z) = (1 − z ) = z , k! k=0 was constructed with the assistance of OpenAI Codex. The authors independently verified the argument and take full responsibility for the final manuscript. References [1] NIST Digital Library of Mathematical Functions, Chapters 5 and 15,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:38.305639Z"
+      },
+      "score": 1305.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 163.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 22,
+          "theorems": 36,
+          "lemmas": 24,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 57.75,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 18
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23459",
       "version": 1,
       "title": "Odd-primary torsion in the homology of unordered configurations on the torus",
