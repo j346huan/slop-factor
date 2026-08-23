@@ -41768,6 +41768,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23302",
+      "version": 1,
+      "title": "Optimality of Wouter van Doorn's Upper Bound for the Mayer-Erdős Farey Problem",
+      "authors": [
+        "Ricky Cipollini"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-25T17:25:32Z",
+        "updated": "2026-07-25T17:25:32Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $\\mathcal{F}_n$ be the Farey sequence of order $n$, written in increasing order. Call two fractions $\\frac{a}{b} < \\frac{c}{d}$ badly ordered if $a < c$ and $b > d$. Let $f(n)$ be the minimum number of Farey fractions strictly between two badly ordered fractions in $\\mathcal{F}_n$. We prove $f(n)=\\left(\\frac{1}{4}+o(1)\\right)n$. In the equivalent indexing convention of Erdős Problem 1005, this determines the requested asymptotic constant as $c=1/4$. The upper bound $f(n)\\le n/4+O(1)$ was first obtained by Wouter van Doorn; the main result here is the matching lower bound.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23302v1",
+        "pdf": "https://arxiv.org/pdf/2607.23302v1",
+        "source": "https://export.arxiv.org/e-print/2607.23302v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 153,
+        "bibliography_entries": 4,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Erdos1005.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments and contribution statement This paper was written by GPT-5.5 Pro. The mathematical findings and proof strategy are due to Ricky Cipollini together with GPT-5.5 Thinking. The upper bound f (n) ≤ n/4 + O(1) and the conjecture that this is the optimal constant are due to Wouter van Doorn [3]; that cont",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:17.769129Z"
+      },
+      "score": 766.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 76.65,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 16,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 38.25,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23266",
       "version": 1,
       "title": "Large odd induced subgraphs via odd cuts",
