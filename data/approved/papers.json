@@ -41683,6 +41683,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27795",
+      "version": 1,
+      "title": "A Unified Discrete Gradient-SAV Framework for Structure-Preserving Integration",
+      "authors": [
+        "Elena Celledoni",
+        "David Martín de Diego",
+        "Brynjulf Owren",
+        "Miguel Vaquero"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T07:31:55Z",
+        "updated": "2026-07-30T07:31:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We present a framework combining discrete gradient (DG) methods with the Scalar Auxiliary Variable (SAV) approach to construct structure-preserving integrators for dissipative and conservative systems. The key observation is that SAV quadratization lifts the dynamics to an extended state space on which the modified energy has an exact discrete-gradient identity. This viewpoint yields three integrators with different accuracy and cost profiles: a first-order semi-implicit Forward Euler scheme, a second-order self-adjoint Midpoint scheme, and a second-order Predictive scheme with reduced implicitness. The construction extends to almost-Poisson systems and preserves selected Casimir invariants under an enforceable discrete condition. Numerical experiments cover the Allen--Cahn equation, an Ohta--Kawasaki-type nonlocal gradient flow, a double-well Hamiltonian oscillator, and a Poisson system with a nonlinear cubic Casimir.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27795v1",
+        "pdf": "https://arxiv.org/pdf/2607.27795v1",
+        "source": "https://export.arxiv.org/e-print/2607.27795v1"
+      },
+      "structural_counts": {
+        "pages": 31,
+        "theorems": 4,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 3,
+        "displayed_equations": 96,
+        "bibliography_entries": 50,
+        "appendix_pages": 27
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "al support from the Spanish Ministry of Science and Innovation under grants PID2022-137909NB-C21, PCI2024-155047-2 and from the Severo Ochoa Programme for Centres of Excellence in R&D (CEX2023-001347-S). Use of artificial intelligence. Generative AI tools were used to review and improve the writing of the manuscript and to assist with code for the numerical experiments. The authors take full responsibility for the content of the manuscript, including all mathematical statements, proof",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:00.778208Z"
+      },
+      "score": 510,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 170,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 31,
+          "theorems": 24,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 6,
+          "displayed_equations": 24,
+          "bibliography_entries": 5,
+          "appendix_pages": 54
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27691",
       "version": 1,
       "title": "Nuclear dimension, pure infiniteness and real rank for higher rank graph $C^*$-algebras",
