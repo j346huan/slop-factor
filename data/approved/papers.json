@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18945",
+      "version": 2,
+      "title": "Generic polar divisors and flag residues for root-system zeta functions",
+      "authors": [
+        "Jonas Matuzas"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T10:27:57Z",
+        "updated": "2026-07-22T21:35:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $Φ$ be an irreducible crystallographic root system, and let $Z_Φ(\\mathbf{s})$ denote the untwisted Komori-Matsumoto-Tsumura zeta function with one exponent for each positive coroot. For a nonempty set $S$ of simple nodes, let $H_{S,\\ell}$ be the hyperplane on which the exponents of the roots meeting $S$ sum to $|S|-\\ell$. We prove that every proper-support hyperplane $H_{S,\\ell}$ is a genuine polar divisor at a generic point, whereas exact homogeneity leaves only the unshifted full-support divisor. The residue on $H_{S,\\ell}$ is expressed as a finite Taylor-jet sum of reduced projective periods and polynomially weighted complementary root-system zeta functions. On the maximal support wonderful model, boundary terms are indexed by strict decorated flags. We derive recursive flag residues, component-mass gamma factors, and an incidence-complete formula for the Laurent coefficients on any transverse affine slice. In particular, the pole order is determined by the first nonzero aggregate coefficient, not by the largest order of an individual flag. The general formulas recover the classical $A_2$ and $A_3$ singular data, Zhao's Euler-Zagier residues, and the rank-two $C_2$ and $G_2$ residue functions. For $B_3$ and $C_3$ we derive the carrier geometry and the lower-rank factorizations of the positive residues, identify the three-term cancellation at $s=1/8$, and show that negative half-integers are the only possible locations of double poles. The known $B_3$ double coefficient at $-1/2$ is recovered in the flag normalization.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18945v2",
+        "pdf": "https://arxiv.org/pdf/2607.18945v2",
+        "source": "https://export.arxiv.org/e-print/2607.18945v2"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 8,
+        "lemmas": 10,
+        "propositions": 10,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 210,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "check finite Taylor expansions, support counts, simplex Jacobians, gamma-factor normalizations, and the displayed low-rank identities. The arguments in the paper are independent of numerical approximation. AI-assisted drafting disclosure. AI tools were used for mathematical exploration, literature search, proof checking, and drafting. The author reviewed the manuscript and accepts responsibility for its content. Data availability. The LATEX source is supplied with the manusc",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 32",
+          "page": 32
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:09.459792Z"
+      },
+      "score": 1768.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 221.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 33,
+          "theorems": 48,
+          "lemmas": 40,
+          "propositions": 40,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 52.5,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18861",
       "version": 1,
       "title": "Learning sufficient low-dimensional structures through conditional optimal transport",
