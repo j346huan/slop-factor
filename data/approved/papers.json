@@ -41934,6 +41934,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17114",
+      "version": 2,
+      "title": "On the wreath transfer in the homology of symmetric groups",
+      "authors": [
+        "Dezhou Li"
+      ],
+      "categories": {
+        "primary": "math.AT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-19T07:55:23Z",
+        "updated": "2026-08-04T02:36:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For an odd prime $p$, we give an explicit formula for the wreath transfer $\\mathrm{tr} \\colon H_*(Σ_{p^2};\\mathbb{F}_p)\\longrightarrow H_*(Σ_p\\wrΣ_p;\\mathbb{F}_p)$ associated with the standard inclusion $Σ_p\\wrΣ_p\\leΣ_{p^2}$. The proof is a direct algebraic computation, using Cartan's classical double-coset formula together with a generating-function argument. As an immediate consequence, we obtain an elementary proof of the validity of the mixed Adem relations in Goodwillie calculus.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17114v2",
+        "pdf": "https://arxiv.org/pdf/2607.17114v2",
+        "source": "https://export.arxiv.org/e-print/2607.17114v2"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 2,
+        "lemmas": 12,
+        "propositions": 9,
+        "corollaries": 2,
+        "definitions": 4,
+        "displayed_equations": 185,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s arising in the study of configuration spaces. I would also like to thank Guchuan Li for his support and for helping me extend the formula to the general case. Finally, I thank Dev Sinha for helpful conversations and encouragement. I used ChatGPT for language editing and for assistance with the coefficient-extraction formulation of the swap contribution (Proposition 4.8) in Section 4. All mathematical content was checked by the author. 2. Preliminaries",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:00.933776Z"
+      },
+      "score": 1486.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 185.85,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 28,
+          "theorems": 12,
+          "lemmas": 48,
+          "propositions": 36,
+          "corollaries": 6,
+          "definitions": 8,
+          "displayed_equations": 46.25,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16978",
       "version": 1,
       "title": "Real-World, Large Scale, Multi-Period Log Truck Routing and Scheduling : Application to Canadian Forestry",
