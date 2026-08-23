@@ -41680,6 +41680,91 @@
           "appendix_pages": 0
         }
       }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.11330",
+      "version": 3,
+      "title": "Intrinsic ergodicity for $\\mathfrak{B}$-free integers in number fields",
+      "authors": [
+        "Francesco Cellarosi"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-13T09:49:10Z",
+        "updated": "2026-07-24T08:44:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $K$ be a number field with ring of integers $\\mathscr{O}_K$, and let $\\mathfrak{B}$ be an Erdős family of ideals in $\\mathscr{O}_K$. We prove that the associated $\\mathfrak{B}$-free subshift $(X_{\\mathfrak{B}},(S_a)_{a\\in\\mathscr{O}_K})$ is intrinsically ergodic: it carries a unique measure of maximal entropy, which we identify explicitly as a relatively independent extension of the Haar rotation on $\\prod_{\\mathfrak{b}\\in\\mathfrak{B}}\\mathscr{O}_K/\\mathfrak{b}$. This is the first proof of intrinsic ergodicity for $\\mathfrak{B}$-free systems beyond dimension one, and relies on the work of Araújo--Dymek--Kułaga-Przymus. Via their reductions, we also settle the $k$-free and $\\mathfrak{B}$-free lattice-point cases and the $k$-free number-field case. We give two independent proofs of the underlying rigidity statement: one through a single-site relative-entropy argument, and one through an exact-tiling realisation of Peckner's induce-and-split scheme.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.11330v3",
+        "pdf": "https://arxiv.org/pdf/2607.11330v3",
+        "source": "https://export.arxiv.org/e-print/2607.11330v3"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 33,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements The author gratefully acknowledges the support of the Natural Sciences and Engineering Re- search Council of Canada through the NSERC Discovery Grants RGPIN-2022-04330. During the preparation of this work the author used Claude (Anthropic, Opus 4.8 and Fable 5 models, accessed via claude.ai) to draft and refine exposition and LaTeX and to assist with liter- ature and reference searches. All mathematical results, proofs, and conclusions are the author’s own. The a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:51:24.190130Z"
+      },
+      "score": 363.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 72.65,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 14,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 8.25,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
     }
   ]
 }
