@@ -41859,6 +41859,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12378",
+      "version": 2,
+      "title": "Odd Parts of Derivative Period Polynomials: Zero Geometry and a Logarithmic Transition",
+      "authors": [
+        "Seokho Jin"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T05:51:44Z",
+        "updated": "2026-08-09T08:21:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $f$ be a normalized level-one Hecke eigenform of even weight $k$, and let $Q_{f,m}$ be the derivative period polynomial formed from the critical values of the $m$-th derivative of its completed $L$-function. We study its odd part $Q^-_{f,m}(z)=(Q_{f,m}(z)-Q_{f,m}(-z))/2$. We prove that there is an absolute $K_0$ such that, for every even $k\\ge K_0$, every normalized level-one Hecke eigenform $f$ of weight $k$, and every integer $m\\ge0$, the nonzero zeros of $Q^-_{f,m}$ off the unit circle, if any, consist of four simple zeros forming a single real reciprocal quartet $\\{\\pm b,\\pm b^{-1}\\}$, where $0<b<1$. The occurrence and location of this possible quartet are governed by the critical derivative order $m_c(k)=(k-1)\\log((k-1)/π)$. If $m/m_c(k)\\toθ\\in(0,1)$, exactly one quartet occurs and $b\\to(1+θ)/2$; if $θ>1$, every nonzero zero is eventually simple and lies on the unit circle. At $θ=1$ the same real-or-unit-circle containment remains valid, and any quartet that is present consists of four simple zeros. For each fixed weight, all nonzero zeros are eventually simple and lie on the unit circle as $m\\to\\infty$. Consequently, the Diamantis--Rolen containment conjecture holds outside finitely many weight--derivative pairs. The proof combines an exact signed-reciprocal completion, uniform split-Mellin saddle estimates yielding a moving-sine model, and a winding count that transfers disk-zero information to the unit circle.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12378v2",
+        "pdf": "https://arxiv.org/pdf/2607.12378v2",
+        "source": "https://export.arxiv.org/e-print/2607.12378v2"
+      },
+      "structural_counts": {
+        "pages": 53,
+        "theorems": 7,
+        "lemmas": 20,
+        "propositions": 4,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 315,
+        "bibliography_entries": 19,
+        "appendix_pages": 9
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Odd_Parts_BMS.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "on would require explicit constant extraction followed, if necessary, by certified computation rather than floating-point evidence alone. Use of AI-assisted tools. For transparency, during the preparation of this manuscript the author used OpenAI ChatGPT to discuss possible gaps in arguments, review notation and cross-references, improve the organization and exposition, and edit LATEX and English prose. The tool was not used as a source of mathematical results or as a formal proof verifier",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 52",
+          "page": 52
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:29.524885Z"
+      },
+      "score": 2389.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 298.65,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 53,
+          "theorems": 42,
+          "lemmas": 80,
+          "propositions": 16,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 78.75,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 18
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12306",
       "version": 3,
       "title": "Compact Coefficient Formulae for Logarithmic Tangent and Hyperbolic Integrals",
