@@ -42022,6 +42022,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23611",
+      "version": 1,
+      "title": "Machine-checkable equivalence certificates at the length-14 Andrews-Curtis frontier",
+      "authors": [
+        "Josep Carreras"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T11:35:27Z",
+        "updated": "2026-07-26T11:35:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In rank 2, unconditional verification of the Andrews-Curtis conjecture stands at total relator length 12; at length 13 every balanced trivial-group presentation is AC-trivializable or AC-equivalent to the Akbulut-Kirby presentation AK(3), itself open. At length 14, Shehper et al. reduced the Miller-Schupp family to six hard presentations: four stated AC-equivalent to AK(3) with no published move sequences, and two unresolved. We prove four explicit AC-equivalences among these six as machine-checkable elementary-move certificates, replayable in under a second by a small dependency-free verifier: the classical candidate <x,y | x^-1 y^2 x = y^3, y^-1 x^2 y = x^3> (= MS(2, x^-2 y^-1 x^2 y) up to rotation) is equivalent to the unresolved MS(2, y x^2 y^-1 x^-2) (36 moves); MS(2, y x^2 y x^-2) to MS(2, x^-2 y^-1 x^2 y^-1) (85 moves); and MS(3, y x^2 y) and MS(3, y^-1 x^2 y^-1) each to AK(3) (66 and 13 moves). The latter two are, to our knowledge, the first public explicit certificates for any of the four AK(3)-equivalences asserted without proof by Shehper et al., making the MS(3) branch of the length-14 collapse unconditional. The first two realize the automorphism sigma: x -> x, y -> y^-1 on the remaining open classes. We complement the certificates with a computer-assisted exhaustive minimax analysis of the substitution-move graph: the bottleneck distance from MS(3, y x^2 y) to AK(3) is exactly 19, while any such path from either MS(2) representative to AK(3), or between them, must reach total length at least 27. We further analyze the public classification table of the \"Two-Hump\" campaign, derive a 214-pair class-merger program, and commit an AC-19 membership audit. All certificates, search engines, verifier, and one-command reproduction are archived.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23611v1",
+        "pdf": "https://arxiv.org/pdf/2607.23611v1",
+        "source": "https://export.arxiv.org/e-print/2607.23611v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 5,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 4,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ded, and [5]’s table is itself evidence that stronger unpublished computations exist (§6). AI assistance disclosure. Search code, certificates, verification tooling, and this manuscript were produced in a human-directed collaboration with AI systems; every mathematical claim rests on the replayable certificates and scripts in the archive, not on AI assertion. The develop- ment record, including all corrected intermediate claims, is documented in the archived claims ledger (RESULTS.md)",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:33.118708Z"
+      },
+      "score": 258,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 51.6,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 10,
+          "theorems": 30,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 1,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23598",
       "version": 1,
       "title": "Nonexistence of universal Fourier summation formulas for the degree below the Hölder threshold $α=1/3$",
