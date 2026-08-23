@@ -42624,6 +42624,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14615",
+      "version": 1,
+      "title": "Gradient-enhanced spline dimensional decomposition for uncertainty quantification with limited training samples",
+      "authors": [
+        "Eunho Heo",
+        "Dongjin Lee"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T06:27:08Z",
+        "updated": "2026-07-16T06:27:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A spline dimensional decomposition (SDD) surrogate effectively represents high-dimensional engineering responses with localized features and complex nonlinearities in uncertainty quantification (UQ). However, limited training data can make coefficient estimation from function values severely ill-conditioned. We propose gradient-enhanced SDD (GE-SDD), which trains the surrogate using function values and partial derivatives. A diagonal row-weight matrix balances the function and derivative blocks by their Frobenius norms. We solve the balanced system through ridge regression in probability-weighted Sobolev coordinates and select the regularization parameter using grouped K-fold cross-validation to prevent information leakage. Mapping the solution back to the L2-orthonormal SDD basis preserves closed-form mean and variance estimates. We evaluate the proposed GE-SDD on a two-dimensional continuous exponential function, a linear dynamical system with three uncertain parameters, and a 30-dimensional 25-bar truss. GE-SDD is more accurate than standard SDD and uses gradients more robustly than gradient-enhanced Kriging. GE-SDD achieves a median NRMSE of 1.022% on the nonsmooth benchmark, compared with 8.731% for Kriging. For the truss, GE-SDD yields lower NRMSE and more accurate standard-deviation estimates than Kriging at moderate training sizes and above. Overall, the benefits of gradient augmentation depend on input dimension, basis resolution, training size, and the target UQ quantity.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14615v1",
+        "pdf": "https://arxiv.org/pdf/2607.14615v1",
+        "source": "https://export.arxiv.org/e-print/2607.14615v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 134,
+        "bibliography_entries": 29,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Funding This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (RS-2025-00560781). Declaration of generative AI and AI-assisted technologies in the writing process During the preparation of this work, the authors used OpenAI’s ChatGPT and Anthropic’s Claude for English-language editing, grammar checking, wording refinement, and stylistic polish",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:01.995713Z"
+      },
+      "score": 362,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 72.4,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 28,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 33.5,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14527",
       "version": 1,
       "title": "Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits",
