@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12816",
+      "version": 1,
+      "title": "Fundamental Mathematics in the Age of AI -- The Residue, the Journey, and the Ecology",
+      "authors": [
+        "Benjamin Collas"
+      ],
+      "categories": {
+        "primary": "math.HO",
+        "secondary": [
+          "cs.CY"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T04:46:19Z",
+        "updated": "2026-08-13T04:46:19Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Large language models have begun refuting long-standing conjectures and, for a few thousand dollars of tokens, solving long-open problems (OpenAI, August 2026). The introspection this has prompted about the future of mathematical discovery is overdue, and the anxiety accompanying it legitimate -- but both are attached to the wrong loss. What machines now produce is the countable part of mathematics -- theorems, proofs, refutations -- which was always the \\emph{residue} of the work, not its product. The product is human understanding: not a stock of results but a collective, hard-won way of deciphering the world and acting upon it. The two are arcs of a single loop -- looking produces the residue; taking it up again, one journey at a time, is what rebuilds the shared understanding. Machines are strong on the countable arc, absent from the one that feeds it. The peril is to leave the loop open. AI did not create the confusion between residue and product; it has called a bluff long on the books, driving the cost of the residue towards zero and making the scarce thing visible at last. The pressing questions are therefore institutional: who can check the claims of AI companies, what the work becomes for the next generation of researchers, and whether the one thing that cannot be mass-produced -- the journey that nourish a shared understanding -- continues to be funded. Mathematics, we argue, is uniquely placed among the sciences on the first question -- a proof answers to no one's permission -- and uniquely exposed on the last: the journey has never had a price our institution knew how to pay. The decision is ours.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12816v1",
+        "pdf": "https://arxiv.org/pdf/2608.12816v1",
+        "source": "https://export.arxiv.org/e-print/2608.12816v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file BC-Math_and_AI_2026_ArXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "say are the author’s own. An AI assistant in arithmetic homotopy geometry – a field that rec- (Claude Fable 5 and Opus 4.8, Anthropic, ac- onciles the rigidity of numbers with the flexibility of cessed via Claude Code, July 2026) was used geometry. He leads the CNRS International Research to draft and restructure English prose from the Network AHGT, which links RIMS, the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:32.439333Z"
+      },
+      "score": 98.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 19.7,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 17,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12731",
       "version": 1,
       "title": "The multiplicity sequence of monomial ideals",
