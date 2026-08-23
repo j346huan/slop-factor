@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08620",
+      "version": 1,
+      "title": "Finite Gram Scalarization and Further Properties of Multiplier Submodule Sheaves",
+      "authors": [
+        "Jingcao Wu"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": [
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T10:07:49Z",
+        "updated": "2026-08-09T10:07:49Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $(E,h)$ be a singular Hermitian vector bundle on a complex manifold $X$, and let \\[ \\mathcal E(h)_x=\\{F\\in\\mathcal O(E)_x:|F|_h^2\\in L^1_{\\mathrm{loc},x}\\} \\] be its multiplier submodule sheaf. We introduce a finite plurisubharmonic Gram scalarization condition under which the higher-rank integrability problem reduces to finitely many scalar multiplier ideals. This reduction yields coherence and strong openness without imposing a general positivity hypothesis. When the scalar weights and the varying weight have analytic singularities, it also gives a theory of module jumping numbers, including a simultaneous-residue criterion for actual jumps. Finally, we study the induced Skoda filtration: Artin--Rees yields eventual periodicity, Tor controls whether periodicity starts at the scalar threshold, and a direct-image quotient measures the obstruction to descent.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08620v1",
+        "pdf": "https://arxiv.org/pdf/2608.08620v1",
+        "source": "https://export.arxiv.org/e-print/2608.08620v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 14,
+        "lemmas": 3,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 3,
+        "displayed_equations": 180,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file v1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "1 , and Theorem 5.9 then holds on all of X for every k ≥ k1 . Acknowledgments The author would like to thank Prof.Jixiang Fu for helpful discussions and valuable suggestions. The counterexample in Section 3.3 was first carried out by the ChatGPT Pro, and the author subsequently checked, refined, and wrote out the construction. The author was supported by the NSFC, Grant No. 12271275. 20",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:02:04.550818Z"
+      },
+      "score": 1993,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 199.3,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 21,
+          "theorems": 84,
+          "lemmas": 12,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 6,
+          "displayed_equations": 45,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08538",
       "version": 1,
       "title": "The Mathieu group $M_{23}$ is a Galois group over $\\mathbb{Q}$",
