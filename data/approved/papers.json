@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27471",
+      "version": 1,
+      "title": "Residual-Driven Lifting Identification for Nonlinear-Manifold Reduced-Order Models of Parametrized Linear PDEs",
+      "authors": [
+        "Francesco A. B. Silva",
+        "Jean C. Ragusa",
+        "Theron Guo",
+        "Rudy Geelen"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-29T21:23:23Z",
+        "updated": "2026-07-29T21:23:23Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce a residual-driven procedure for training nonlinear-manifold reduced-order models for parametrized linear partial differential equations that, given prescribed latent and lifting spaces, identifies the nonlinear lifting without high-fidelity solution snapshots. The approximation is represented by a low-dimensional latent coordinate together with a nonlinear lifting into a richer reduced space. Rather than fitting the lifting to snapshot data, we determine it by minimizing a computable residual-based upper bound for the state error. For affinely parametrized operators, the resulting training objective admits an efficient offline--online decomposition, and the lifting update reduces to a sequence of low-dimensional weighted least-squares problems. Numerical evaluations on an advection--diffusion problem and a plane-strain elasticity benchmark show that the proposed approach substantially improves accuracy over linear subspaces. The resulting nonlinear models achieve accuracy comparable to snapshot-driven nonlinear-manifold training while avoiding high-fidelity snapshots in the lifting-identification stage.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27471v1",
+        "pdf": "https://arxiv.org/pdf/2607.27471v1",
+        "source": "https://export.arxiv.org/e-print/2607.27471v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 53,
+        "bibliography_entries": 65,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "on-affine, nonlinear, time-dependent, or noncoercive problems would broaden the applicability of the method, but may require empirical interpolation, hyper- reduction, or alternative stability estimates. Acknowledgements The authors used ChatGPT and Claude for language editing and stylistic sug- gestions. The authors reviewed and are responsible for all scientific content, derivations, code, results, and conclusions. References [1] Peter Benner, Mario Ohlberger, Albert Cohen, a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 30",
+          "page": 30
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:41.754933Z"
+      },
+      "score": 207,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 51.75,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 32,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 13.25,
+          "bibliography_entries": 6.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27452",
       "version": 1,
       "title": "Counterexamples, Spectral Obstructions, and Deletion Stability for WOW-284",
