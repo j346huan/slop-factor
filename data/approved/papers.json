@@ -8420,6 +8420,93 @@
           "appendix_pages": 84
         }
       }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2608.07173",
+      "version": 1,
+      "title": "Modularity of Higher Theta Series III: Proof of the Modularity Conjecture",
+      "authors": [
+        "Tony Feng",
+        "Zhiwei Yun",
+        "Wei Zhang"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.AG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-07T12:45:34Z",
+        "updated": "2026-08-07T12:45:34Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the Modularity Conjecture for higher theta series on moduli stacks of Hermitian shtukas. For general linear shtukas, we establish a more refined phenomenon that we call supermodularity. As a key input, we prove the Trace Conjecture for Hitchin stacks of low corank, realizing virtual fundamental classes of special cycles as categorical traces.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07173v1",
+        "pdf": "https://arxiv.org/pdf/2608.07173v1",
+        "source": "https://export.arxiv.org/e-print/2608.07173v1"
+      },
+      "structural_counts": {
+        "pages": 79,
+        "theorems": 12,
+        "lemmas": 38,
+        "propositions": 12,
+        "corollaries": 5,
+        "definitions": 7,
+        "displayed_equations": 563,
+        "bibliography_entries": 149,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file FYZ-ModularityConjecture.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "hough the authors wrote their own proofs for some of the intermediate steps instead of using (or indeed, reading) GPT’s argument. No other results here were found with AI assistance. The paper was proofread and revised with assistance from AI tools including Codex, Claude Code, Refine.ink, and Gemini via Google’s Paper Assistant Tool (PAT). The figures and tables were produced by Codex. 1.7. Acknowledgments. T.F. was supported by the NSF (grants DMS-2302520 and DMS-2441922), the Sim",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T04:59:39.424959Z"
+      },
+      "score": 5356.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 535.65,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 79,
+          "theorems": 72,
+          "lemmas": 152,
+          "propositions": 48,
+          "corollaries": 15,
+          "definitions": 14,
+          "displayed_equations": 140.75,
+          "bibliography_entries": 14.9,
+          "appendix_pages": 0
+        }
+      }
     }
   ]
 }
