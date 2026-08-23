@@ -42204,6 +42204,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22946",
+      "version": 1,
+      "title": "A note on simple actions of small monoids",
+      "authors": [
+        "Ramón H. Ruiz-Medina"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-24T23:11:07Z",
+        "updated": "2026-07-24T23:11:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "These notes aim to exemplify the concept of action and partial action of a finite monoid $M$, identifying among the so-called indecomposable actions those that are also simple. We present all the simplified examples of monoids (non-groups) of order two and three, explicitly visualizing which are simple and which are not. In addition, we prove three general lemmas relating simplicity to indecomposability in the context of partial actions, and establish a result on the relation between sub-actions of total actions and partial actions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22946v1",
+        "pdf": "https://arxiv.org/pdf/2607.22946v1",
+        "source": "https://export.arxiv.org/e-print/2607.22946v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 0,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 14,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Simple_actions_over_small_monoids.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "in the study of larger monoids and in the connection with the theory of Burnside rings and C-sets. Acknowledgements Declarations Artificial intelligence assistance declaration During the preparation of this manuscript, the authors used DeepSeek-V4-Flash for lan- 19",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:52.985364Z"
+      },
+      "score": 187,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 37.4,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 21,
+          "theorems": 0,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3.5,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22912",
       "version": 1,
       "title": "Non-isomorphism of rings of integer-coefficient holomorphic functions on disks of varying radius",
