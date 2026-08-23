@@ -8425,6 +8425,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13180",
+      "version": 1,
+      "title": "Homogeneous Weights on Semigroup Algebras of Finite Commutative Semigroups",
+      "authors": [
+        "M. H. Shahzamanian"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.AC",
+          "math.GR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T12:45:19Z",
+        "updated": "2026-08-13T12:45:19Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The determinant of a finite semigroup is closely related to the Frobenius property of its corresponding semigroup algebra, and it plays a significant role in coding theory applications. In this paper, we study determinants of twisted contracted semigroup algebras over finite fields. We extend Steinberg's determinant theory to this setting by establishing a Frobenius criterion for twisted contracted semigroup algebras over finite fields. We also develop a structural theory for two-generated twisted contracted monoid algebras. In particular, we identify classes for which the determinant of the associated matrix depends only on its zero--nonzero pattern, and is therefore independent of the values of the cocycle. Consequently, it suffices to verify the determinant condition for the trivial character, from which the corresponding result for all characters follows. Under suitable assumptions, these semigroups are completely determined by a small set of defining identities. Motivated by the character-theoretic construction of homogeneous weights on finite Frobenius rings, we construct homogeneous weights for Frobenius twisted contracted semigroup algebras and investigate the non-Frobenius case. In particular, we characterize the principal ideals on which the character-average weight satisfies the averaging property of homogeneous weights and thereby extend the classical notion of homogeneous weight to a prescribed family of principal ideals.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13180v1",
+        "pdf": "https://arxiv.org/pdf/2608.13180v1",
+        "source": "https://export.arxiv.org/e-print/2608.13180v1"
+      },
+      "structural_counts": {
+        "pages": 37,
+        "theorems": 5,
+        "lemmas": 10,
+        "propositions": 9,
+        "corollaries": 1,
+        "definitions": 4,
+        "displayed_equations": 219,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Frobenius_algebras_02-02.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "isely the family of nonzero principal ideals on which ω satisfies condi- tion (iii) of Definition 2.5. In particular, ω is homogeneous on Iz ′ . Acknowledgments The author acknowledges the use of ChatGPT (OpenAI) for assistance with English-language editing. References [1] J. Almeida. Finite semigroups and universal algebra, volume 3 of Series in Algebra. World Scientific Publishing Co., Inc., River Edg",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 36",
+          "page": 36
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:09.287448Z"
+      },
+      "score": 211.45,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 211.45,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 37,
+          "theorems": 30,
+          "lemmas": 40,
+          "propositions": 36,
+          "corollaries": 3,
+          "definitions": 8,
+          "displayed_equations": 54.75,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13052",
       "version": 1,
       "title": "Spectral and Isoperimetric Bounds on Flat Tori",
