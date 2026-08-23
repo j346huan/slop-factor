@@ -41768,6 +41768,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18619",
+      "version": 1,
+      "title": "Chernoff's Density Is Strongly Log-Concave",
+      "authors": [
+        "Xianyang Zhang",
+        "Quan Zhou"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.ST"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T01:39:27Z",
+        "updated": "2026-07-21T01:39:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $f$ be the density of the Chernoff random variable $\\mathrm{argmax}_{t\\in\\mathbb{R}}\\{W(t)-t^2\\}$, where $W$ is a two-sided Brownian motion. This note proves the conjecture of Balabdaoui and Wellner (2014) that $f$ is strongly log-concave. The proof was generated in its entirety by GPT-5.6 Sol.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18619v1",
+        "pdf": "https://arxiv.org/pdf/2607.18619v1",
+        "source": "https://export.arxiv.org/e-print/2607.18619v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 62,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file chernoff_strong_logconcavity_revised.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ariable $\\mathrm{argmax}_{t\\in\\mathbb{R}}\\{W(t)-t^2\\}$, where $W$ is a two-sided Brownian motion. This note proves the conjecture of Balabdaoui and Wellner (2014) that $f$ is strongly log-concave. The proof was generated in its entirety by GPT-5.6 Sol.",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:43.589205Z"
+      },
+      "score": 467,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 46.7,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 9,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 15.5,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18453",
       "version": 1,
       "title": "A National-Scale EV Charging Scheduling Framework: Optimal Detour Routing Under Infrastructure Capacity Constraints",
