@@ -8849,6 +8849,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17227",
+      "version": 1,
+      "title": "Completing the Boundary Case of the Mahmoodian-Mirzakhani Conjecture and 117 New Computational 5-Cycle Decompositions of Complete Tripartite Graphs",
+      "authors": [
+        "Roozbeh Pournader"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T00:32:52Z",
+        "updated": "2026-08-18T00:32:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $K_{r,s,t}$, with $r\\le s\\le t$, denote the complete tripartite graph whose partite sets have sizes $r,s,t$. Mahmoodian and Mirzakhani gave three necessary conditions for $K_{r,s,t}$ to admit a decomposition into 5-cycles and conjectured that these conditions are sufficient. One of the conditions is $t\\le 4rs/(r+s)$. We prove the conjecture for every odd triple on the extremal boundary $t = 4rs/(r+s)$. The proof is constructive. After reducing an arbitrary odd boundary triple to $(r,s,t)=(hga,hgb,hab)$, $a+b=4g$, we give an explicit cyclic decomposition of $K_{ga,gb,ab}$ and use the Mahmoodian and Mirzakhani scaling theorem to supply the common factor $h$. Together with the previously known all-even result, this settles the conjecture for every triple satisfying the boundary condition with equality. We also report explicit computer-generated $C_5$-decompositions for 117 odd triples satisfying the necessary conditions, 116 of which are strict-interior cases. To the best of our knowledge, all 117 cases were previously unresolved: no decomposition for any of them had been reported, and none of the 117 triples is covered by earlier existence results, constructions, or their recursive consequences. Moreover, these 117 certificates together with the boundary construction settle every previously unresolved triple satisfying the necessary conditions with fewer than $4400$ edges. Each computation is supplied as a machine-readable cycle-list certificate and can be checked independently by a short Python verifier. We also give a complete human-readable edge-label-matrix certificate for $K_{9,19,23}$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17227v1",
+        "pdf": "https://arxiv.org/pdf/2608.17227v1",
+        "source": "https://export.arxiv.org/e-print/2608.17227v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 39,
+        "bibliography_entries": 7,
+        "appendix_pages": 7
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file tripartite_5_cycle.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "doi.org/10.5281/zenodo.21882725. The Zenodo record is the archival source for the certificates used in Proposition 5.1. Acknowledgment Sharareh Alipour kindly reviewed an earlier draft of this paper. Disclosure GPT-5.6 Sol (OpenAI) and Claude Opus 5 (Anthropic) were used in the development of this work to assist with proof development and verification, computer code and computations, and drafting and restructuring portions of the manuscript. The author reviewed and independently ver",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:10.249163Z"
+      },
+      "score": 507.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 63.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 15,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 9.75,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 14
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17155",
       "version": 1,
       "title": "Fixed-particle-number optimizers for the Lieb--Oxford inequality",
