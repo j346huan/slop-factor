@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13361",
+      "version": 2,
+      "title": "Aging in a spin glass with logarithmic correlations",
+      "authors": [
+        "Aser Cortines",
+        "Oren Louidor",
+        "Heng Ma",
+        "Adela Svejda"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T15:24:45Z",
+        "updated": "2026-08-14T14:40:17Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We consider a continuous-time random walk on the discrete two dimensional box, driven by the discrete Gaussian Free Field (DGFF) acting as potential: When at a vertex, the walk waits an exponentially distributed time with mean given by the exponential of the field times an inverse temperature parameter and then jumps to one of its neighbors uniformly at random. We prove that when the temperature is below the critical value the walk exhibits ``aging'' at a range of pre-equilibrium time scales: Observed at any such time and then again after an additional time of the same order, there is a positive probability that the walk is found within finite distance from where it was before, with this probability given asymptotically by the Generalized Arcsine Law with a temperature-dependent parameter. We show that this is a consequence of an intricate trapping mechanism which localizes the walk for periods of time which increase with the age of the system, and describe the complex structure of the underlying trapping landscape, which is intimately related to the geometry of the near-extreme level-sets of the DGFF. Altogether, this work demonstrates for the first time an Arcsine-Law aging in the case of a spin-glass-type system with a logarithmically correlated potential, throughout its glassy phase, as predicted in the physic literature.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13361v2",
+        "pdf": "https://arxiv.org/pdf/2608.13361v2",
+        "source": "https://export.arxiv.org/e-print/2608.13361v2"
+      },
+      "structural_counts": {
+        "pages": 72,
+        "theorems": 9,
+        "lemmas": 30,
+        "propositions": 11,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 542,
+        "bibliography_entries": 61,
+        "appendix_pages": 72
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Aging_GFF.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "𝑁 /𝑟𝑁 𝜋 This completes the proof. □ Disclosure of AI Use Large language models were used in the preparation of this paper. In particular, ChatGPT (GPT-5.5) identified an issue in an earlier version of the proof of Proposition 2.2: contrary to our initial claim, the random variable used in that argument did not have t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 70",
+          "page": 70
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:39.967079Z"
+      },
+      "score": 4628.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 578.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 72,
+          "theorems": 54,
+          "lemmas": 120,
+          "propositions": 44,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 135.5,
+          "bibliography_entries": 6.1,
+          "appendix_pages": 144
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13320",
       "version": 1,
       "title": "A Note on Compactness and Clique Size",
