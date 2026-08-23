@@ -8596,6 +8596,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17238",
+      "version": 1,
+      "title": "Small Cancellation Stability and Isomorphism Rigidity for Generic Finitely Presented Groups",
+      "authors": [
+        "Ilya Kapovich"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "math.GT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T00:54:43Z",
+        "updated": "2026-08-18T00:54:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $F_m=F(a_1,\\dots,a_m)$ with $m\\ge 2$, and fix $q\\ge 1$. For every fixed $0<λ<1$, we prove that a $q$-tuple $\\mathbf W_n$ of independent uniformly random cyclically reduced words of length $n$ is \\emph{$λ$-stable} with probability converging to $1$ exponentially fast. Namely, for every $Φ\\in Aut(F_m)$, the tuple $Φ(\\mathbf W_n)$, after cyclic reduction and symmetrization, satisfies the $C'(λ)$ small cancellation condition. Combining generic $λ$-stability with Greendlinger normal-closure rigidity and with previous results of Kapovich-Schupp-Shpilrain on generic Nielsen uniqueness and generic Whitehead rigidity we establish, for any fixed $m\\ge 2, q\\ge 1$, isomorphism rigidity for generic $m$-generator $q$-relator groups. Thus we show that two such generic groups $\\langle a_1,\\dots, a_m| r_1,\\dots, r_q\\rangle$ and $\\langle a_1,\\dots, a_m| s_1,\\dots, s_q\\rangle$ are isomorphic if and only if, after possibly permuting and inverting the generators $a_1,\\dots, a_m$, the relator tuples $(r_1,\\dots, r_q)$ and $(s_1,\\dots, s_q)$ are the same, up to reordering, cyclic permutations and inverting the relators. Among the applications, we obtain a quadratic-time algorithm that generically solves the isomorphism problem for $m$-generator $q$-relator groups, and show that the number of isomorphism types represented by $m$-generator $q$-relator presentations with cyclically reduced relators of length $n$ is asymptotic to \\[ \\frac{(2m-1)^{qn}}{2^{m+q}m!\\,q!\\,n^q}. \\] The proof of generic $λ$-stability relies on the use of geodesic currents and on our deterministic sufficient criterion for a $q$-tuple $\\mathbb W$ in $F_m$ to be $λ$-stable in terms of the components of $\\mathbb W$ being sufficiently projectively close to filling currents.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17238v1",
+        "pdf": "https://arxiv.org/pdf/2608.17238v1",
+        "source": "https://export.arxiv.org/e-print/2608.17238v1"
+      },
+      "structural_counts": {
+        "pages": 42,
+        "theorems": 9,
+        "lemmas": 22,
+        "propositions": 9,
+        "corollaries": 6,
+        "definitions": 7,
+        "displayed_equations": 305,
+        "bibliography_entries": 41,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file stability-new.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "gives |Cn | ∼ (2m − 1)n , proving the formula. □ 12. Disclosure of AI use Preparation of this paper substantially relied on chats with ChatGPT, but the author verified all the proofs given, reviewed and edited the content as needed and takes full responsibility for the content of the paper. References [AO96] G. N. Arzhants",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 41",
+          "page": 41
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:04.565208Z"
+      },
+      "score": 1661.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 332.35,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 42,
+          "theorems": 54,
+          "lemmas": 88,
+          "propositions": 36,
+          "corollaries": 18,
+          "definitions": 14,
+          "displayed_equations": 76.25,
+          "bibliography_entries": 4.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17232",
       "version": 1,
       "title": "Polyhedral Subspaces of $L_{p}$ and Polars of Zonotopes",
