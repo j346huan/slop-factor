@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13052",
+      "version": 1,
+      "title": "Spectral and Isoperimetric Bounds on Flat Tori",
+      "authors": [
+        "Emanuel Milman"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": [
+          "math.FA",
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T10:16:43Z",
+        "updated": "2026-08-13T10:16:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We record several elementary relations between spectral and isoperimetric parameters of a flat torus $\\mathbb{T}_Λ= \\mathbb{R}^n/Λ$ and the covariance structure of a fundamental domain $K$ for the lattice $Λ\\subset \\mathbb{R}^n$. For every measurable fundamental domain $K$ and nonzero vector $ξ$ in the dual lattice $Λ^*$, we observe the sharp directional variance estimate \\[ \\left\\langle \\operatorname{Cov}_K ξ,ξ\\right\\rangle \\geq \\frac{1}{12}. \\] This yields a lower bound on the torus spectral gap $λ_{\\mathrm{SG}}(\\mathbb{T}_Λ)$ (equivalently, the length of the shortest nonzero dual vector $λ_1(Λ^*)$) in terms of the maximal covariance of $K$: \\[ λ_{\\mathrm{SG}}(\\mathbb{T}_Λ) = 4π^2 λ_1(Λ^*)^2 \\geq \\frac{π^2}{3\\left\\|\\operatorname{Cov}_K\\right\\|_{\\mathrm{op}}}. \\] Analogous sharp results are obtained for the isoperimetric profile and the Cheeger constant $D_{\\mathrm{Che}}(\\mathbb{T}_Λ)$ using an old argument of Hadwiger. In particular, when the Voronoi cell $K_Λ$ of a lattice with $\\det Λ= 1$ is isotropic, the recent resolution of the Slicing Problem by Klartag and Lehec implies that \\[ D_{\\mathrm{Che}}(\\mathbb{T}_Λ),\\quad λ_{\\mathrm{SG}}(\\mathbb{T}_Λ),\\quad λ_1(Λ^*) \\geq c > 0, \\] where $c > 0$ is a universal constant independent of dimension $n$; this may be thought of as a positive resolution of the Kannan--Lovász--Simonovits conjecture for all flat tori. While there are lattices $Λ$ and corresponding Voronoi cells $K = K_Λ$ for which no dimension-independent converse inequality to the spectral-gap bound above can hold, we show that under a certain sectional tiling hypothesis, this inequality is in fact an equivalence (up to numerical constants).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13052v1",
+        "pdf": "https://arxiv.org/pdf/2608.13052v1",
+        "source": "https://export.arxiv.org/e-print/2608.13052v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 54,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file FlatTori.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ting point in this work was Hadwiger’s theorem, which implies an equivalence between the spectral and isoperimetric properties of KΛ and TΛ under a certain tiling condition on KΛ , yielding a version of Theorem 1.5; when prompted to check, ChatGPT found that this equivalence cannot hold for general lattices. Finally, ChatGPT provided a first draft of this note, which was checked and polished by the author. 2 A universal covariance lower bound We begin with the elementary Haar-m",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "substantial_text_generation",
+        "role_label": "Substantial text generation",
+        "multiplier": 7.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:00.569474Z"
+      },
+      "score": 401.1,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 57.3,
+        "multiplier": 7,
+        "contributions": {
+          "pages": 11,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 13.5,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13000",
       "version": 1,
       "title": "Dynamical comparison for local homeomorphisms",
