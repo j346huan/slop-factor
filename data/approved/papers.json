@@ -42020,6 +42020,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13159",
+      "version": 1,
+      "title": "Beyond Mock Modularity: Elliptic Corrections for Higher Dyson Ranks",
+      "authors": [
+        "Claudia Alfes",
+        "Ken Ono",
+        "Ashvin Swaminathan"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T18:07:26Z",
+        "updated": "2026-07-14T18:07:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "When $m = 1$, the Dyson rank generating function is a classical bridge between partition theory, Ramanujan's mock theta functions, and the theory of harmonic Maass forms and nonholomorphic Jacobi forms. The rank is a statistic on partitions, and the higher Dyson systems, for $m \\geq 2$, are a natural multivariable refinement of it, combining $m$ graded rank contributions. Unlike the classical case, these higher systems are not expected to fit the mock-modular framework, which raises the question of what analytic structure governs them. We show that their root-of-unity specializations carry a hidden elliptic structure. A finite $q$-difference recurrence produces an explicit polynomial obstruction to the expected index $m$ elliptic transformation law, and because the obstruction is finite, its partial fractions canonically determine finitely many Appell--Lerch correction terms that remove it. The corrected functions satisfy a twisted index $m$ elliptic law; a natural translation removes the twist, and their holomorphic finite parts admit finite theta decompositions. Thus, the natural analogue of Dyson's mock-modular phenomenon at higher $m$ is not mock modularity but a finite theta decomposition governed by an index $m$ elliptic transformation law. These results grew out of a human--AI collaboration, and the key new formulas were formalized and machine-verified in Lean/Mathlib by AxiomProver.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13159v1",
+        "pdf": "https://arxiv.org/pdf/2607.13159v1",
+        "source": "https://export.arxiv.org/e-print/2607.13159v1"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 10,
+        "lemmas": 3,
+        "propositions": 7,
+        "corollaries": 3,
+        "definitions": 1,
+        "displayed_equations": 288,
+        "bibliography_entries": 12,
+        "appendix_pages": 7
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_with_classifications.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "roduced, for each batch, a problem.lean for- malizing the statements and a solution.lean containing the complete Lean proofs. These files are located at Batch1/Output/, Batch2/Output/, Batch3/Output/, and Batch4/Output/. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process As described in Appendix B, AxiomProver (an AI tool under development) was used to formalize and formally verify, in Lean, the key new formu",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 33",
+          "page": 33
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:19.619814Z"
+      },
+      "score": 1156,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 231.2,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 33,
+          "theorems": 60,
+          "lemmas": 12,
+          "propositions": 28,
+          "corollaries": 9,
+          "definitions": 2,
+          "displayed_equations": 72,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 14
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12936",
       "version": 2,
       "title": "Cardinal invariants on universally null sets",
