@@ -42447,6 +42447,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18655",
+      "version": 2,
+      "title": "A proof of the mod 4 Kawauchi Conjecture",
+      "authors": [
+        "Jim Conant"
+      ],
+      "categories": {
+        "primary": "math.GT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T02:57:45Z",
+        "updated": "2026-08-02T22:29:12Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Kawauchi conjectured that the Conway polynomial of an amphicheiral knot factors as $\\nabla_K(z)=f(z)f(-z)$ for some integer polynomial $f(z)$. In joint work with Hartley, he showed this was true for strongly amphicheiral knots, and Hartley used the JSJ decomposition of the knot exterior to generalize to all negative amphicheiral knots. Ermotti--Hongler--Weber were the first to publish a counterexample to the general case. Independently, in 2006 the author had conjectured a statement which is equivalent to the statement that $\\nabla_K \\equiv f(z)f(-z) \\pmod 4$ for amphicheiral knots, based on certain patterns he noticed in finite type invariants. In this paper we prove this mod 4 version of Kawauchi's original conjecture as a consequence of a stronger integral statement. The mathematical content of this paper was produced with the help of Claude Fable 5.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18655v2",
+        "pdf": "https://arxiv.org/pdf/2607.18655v2",
+        "source": "https://export.arxiv.org/e-print/2607.18655v2"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 12,
+        "lemmas": 13,
+        "propositions": 4,
+        "corollaries": 4,
+        "definitions": 3,
+        "displayed_equations": 78,
+        "bibliography_entries": 17,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "terns he noticed in finite type invariants. In this paper we prove this mod 4 version of Kawauchi's original conjecture as a consequence of a stronger integral statement. The mathematical content of this paper was produced with the help of Claude Fable 5.",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:19.001551Z"
+      },
+      "score": 2122,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 212.2,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 23,
+          "theorems": 72,
+          "lemmas": 52,
+          "propositions": 16,
+          "corollaries": 12,
+          "definitions": 6,
+          "displayed_equations": 19.5,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18619",
       "version": 1,
       "title": "Chernoff's Density Is Strongly Log-Concave",
