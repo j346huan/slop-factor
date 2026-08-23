@@ -42277,6 +42277,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29111",
+      "version": 1,
+      "title": "Fitting's Theorem and Semirings of Normal Subgroups",
+      "authors": [
+        "Damiano Testa"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "cs.LO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-31T07:40:56Z",
+        "updated": "2026-07-31T07:40:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We define a non-unital, generally non-associative, commutative semiring structure on the collection of normal subgroups of a group $G$. This viewpoint allows us to recast in ring-theoretic terms Fitting's classical theorem that the join of two nilpotent normal subgroups is nilpotent. From this perspective, the two key inputs are a binomial expansion in a non-associative setting and the fact that the commutator subgroup of two normal subgroups lies in each factor. The development is formalized in Lean, making essential use of Mathlib for the core definitions and results.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29111v1",
+        "pdf": "https://arxiv.org/pdf/2607.29111v1",
+        "source": "https://export.arxiv.org/e-print/2607.29111v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 6,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file FittingsTheorem.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "5 Thomas Browning, Inna Capdeboscq, Jireh Loreaux, Dmitriy Rumynin and Gareth Tracey. AI usage. Aristotle [Aristotle25] was used to find alternative proofs. Some of that code was reused in the final version. Claude Opus 5 [Claude26] was used during revision, to help streamline the text and the Lean code, and to add the finishing touches. References [Aristotle25] Tudor Achim et al. Aristotle: IMO-level Automated Theorem",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:06.341271Z"
+      },
+      "score": 53.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 13.3,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 5,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 1.5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29103",
       "version": 1,
       "title": "A topological proof that compact Hausdorff spaces are not finitely co-concrete",
