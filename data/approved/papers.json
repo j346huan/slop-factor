@@ -42357,6 +42357,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24462",
+      "version": 1,
+      "title": "On Realisability of Twisted Homology",
+      "authors": [
+        "Mark Grant",
+        "Michael Jung",
+        "Baylee Schutte"
+      ],
+      "categories": {
+        "primary": "math.AT",
+        "secondary": [
+          "math.GT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T14:03:37Z",
+        "updated": "2026-07-27T14:03:37Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We discuss the question of when a homology or cohomology class with twisted integer coefficients of a manifold $X$ is realised by a submanifold. While this question is classical in nature, providing an answer requires relatively modern techniques from parametrised homotopy theory. More specifically, we introduce cobordism classes twisted by a coefficient system and then define a twisted Thom space $\\operatorname{M^\\mathrm{tw}O}(n)$ over $\\operatorname{BO}(1)$, which serves as the classifying object for this cobordism theory under a twisted Pontryagin-Thom construction. As a result, a twisted homology class is realisable if and only if its Poincaré dual is the image of the twisted Thom class in $\\operatorname{M^\\mathrm{tw}O}(n)$ under a parametrised map $X \\to \\operatorname{M^\\mathrm{tw}O}(n)$ over $\\operatorname{BO}(1)$. Finally, we construct the parametrised Postnikov tower of $\\operatorname{M^\\mathrm{tw}O}(n)$ over $\\operatorname{BO}(1)$ to derive obstructions to realisability and conclude by giving the first known examples of non-realisable integer homology classes in non-orientable manifolds.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24462v1",
+        "pdf": "https://arxiv.org/pdf/2607.24462v1",
+        "source": "https://export.arxiv.org/e-print/2607.24462v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 5,
+        "lemmas": 11,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 13,
+        "displayed_equations": 169,
+        "bibliography_entries": 33,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "On Realisability of Twisted Homology Generative AI disclosure The second author used Microsoft Copilot (GPT-5) to discuss the details of Lemma 3.4, which inspired the current form of the proof. Otherwise, all mathematical results, proofs and conclusions were developed and verified by the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:47.297278Z"
+      },
+      "score": 1636.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 204.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 36,
+          "theorems": 30,
+          "lemmas": 44,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 26,
+          "displayed_equations": 42.25,
+          "bibliography_entries": 3.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24437",
       "version": 2,
       "title": "From Regions to Hodge Structures: The Topological Study of semialgebraic Curves Configurations",
