@@ -8337,6 +8337,89 @@
           "appendix_pages": 0
         }
       }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2608.07198",
+      "version": 1,
+      "title": "Heath-Brown identities for fractional powers of $ζ$",
+      "authors": [
+        "Nicolas Robles"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-07T13:14:32Z",
+        "updated": "2026-08-07T13:14:32Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We construct finite Heath-Brown-type identities for the fractional powers $ζ(s)^{\\pm a/b}$ of the Riemann zeta-function, for every reduced fraction $a/b$ with $0 < a/b < 1$, from Newton's binomial series in the algebra of arithmetic functions, and we use them to prove the Vinogradov-quality bound $\\sum_{n \\le x} d_{\\pm a/b}(n)e(nα) \\ll_{a,b} ( x q^{-1/2} + x^{4/5} + x^{1/2} q^{1/2} ) (\\log 2x)^{C}$, for some constant $C=C(a,b)>0$, whenever $|α- r/q| \\le 1/q^2$ with $(r, q) = 1$. The bound carries no $x^{\\varepsilon}$ loss, and the same machinery gives the endpoint case of the Möbius function with an absolute constant. As applications we determine the major-arc expansion of $S_z(x, α) = \\sum_{n \\le x} d_z(n)e(nα)$ to arbitrary logarithmic precision for real $0<|z|<1$. For rational $z \\in (-1,1)$, we determine the order of magnitude of $\\sup_α |S_z(x, α)|$ and prove an asymptotic formula for the moments $\\int_0^1 |S_z(x, α)|^{s}\\, dα$ for every fixed real $s > 2$. The minor-arc analysis avoids the theory of $L$-functions entirely, and all constants are effective except those inherited from the Siegel-Walfisz theorem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07198v1",
+        "pdf": "https://arxiv.org/pdf/2608.07198v1",
+        "source": "https://export.arxiv.org/e-print/2608.07198v1"
+      },
+      "structural_counts": {
+        "pages": 48,
+        "theorems": 6,
+        "lemmas": 36,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 284,
+        "bibliography_entries": 23,
+        "appendix_pages": 42
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_HB_fractional.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "poulos for a helpful suggestion about future research directions. Moreover, the author also wishes to thank Kunjakanan Nath for fruitful discussions, valuable feedback, and for bringing the announced result [MPR] to the author’s attention. Anthropic’s Claude Opus 4.8 was used for proof development (with emphasis on §§2.3, 2.4, 4.4, 5.3 and Appendix A), exposition, and revision. Appendix A. Proof of Proposition 5.2 This appendix proves Proposition 5.2 by the cla",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 46",
+          "page": 46
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T04:59:32.107838Z"
+      },
+      "score": 3338.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 417.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 48,
+          "theorems": 36,
+          "lemmas": 144,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 71,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 84
+        }
+      }
     }
   ]
 }
