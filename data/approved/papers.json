@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15173",
+      "version": 1,
+      "title": "Landscape analysis for shallow neural networks: Complete classification of critical points for cubic activation and affine target functions",
+      "authors": [
+        "Shokhrukh Ibragimov",
+        "Ilkhom Mukhammadiev",
+        "Diyora Salimova"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T16:22:16Z",
+        "updated": "2026-07-16T16:22:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we study the optimization landscape induced by the true loss for shallow polynomial neural networks (PNNs) with $\\mathfrak{h} \\in \\mathbb{N}$ neurons on the hidden layer, one-dimensional input and output layers, and a monomial activation of degree $d \\in \\mathbb{N}$, trained against a non-constant affine linear target function. Our first main result provides for arbitrary activation degree $d$ a sharp existence/non-existence criterion for \\emph{global minimizers} with necessary structural conditions. We show that the infimum of the loss is always zero and achievable with at least $d$ active and visible hidden neurons -- that is, hidden neurons with non-zero inner and outer weights -- with pairwise distinct pivots. In contrast, if $\\mathfrak{h} < d$, then the infimum cannot be attained and any minimizing sequence of parameters necessarily diverges to infinity. In the second main result, we provide a complete classification of all critical points of the loss function for the cubic activation. We show that the loss landscape admits no \\emph{local maximizers}, critical points cannot have exactly two distinct pivots, global minimizers require at least three distinct pivots, critical points with no active hidden neurons correspond to \\emph{saddle points} only, and consequently, \\emph{non-global local minimizers} and non-trivial saddle points arise only in networks where all pivots coincide. Moreover, non-global local minimizers require all hidden neurons to be active and visible with exactly one hidden neuron having a slope sign matching that of the target function. Our second main result also guarantees that each hidden neuron of a critical point that is not a global minimizer has either input-dependent or zero contribution, but has no nonzero input-independent contribution, to its corresponding realization function.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15173v1",
+        "pdf": "https://arxiv.org/pdf/2607.15173v1",
+        "source": "https://export.arxiv.org/e-print/2607.15173v1"
+      },
+      "structural_counts": {
+        "pages": 37,
+        "theorems": 10,
+        "lemmas": 42,
+        "propositions": 6,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 405,
+        "bibliography_entries": 50,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "th the stylistic and linguistic refinement of the introductory texts, based on the authors’ original structural outline, and ChatGPT (GPT-5.5 and 5.6) for verifying mathematical statements and results upon completion of the manuscript. All AI-generated suggestions were strictly monitored, verified, and edited by the authors. The authors remain fully responsible for the final content. 33",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 33",
+          "page": 33
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:20.482667Z"
+      },
+      "score": 3282,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 410.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 37,
+          "theorems": 60,
+          "lemmas": 168,
+          "propositions": 24,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 101.25,
+          "bibliography_entries": 5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14965",
       "version": 1,
       "title": "Statistical Inference for Scenario-Based Dynamic Optimization under Uncertainty",
