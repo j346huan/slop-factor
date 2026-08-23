@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15563",
+      "version": 1,
+      "title": "Scaled boundary cubature scheme in higher dimensions: integration over polytopes and curved regions",
+      "authors": [
+        "Eric B. Chin",
+        "N. Sukumar"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T06:17:29Z",
+        "updated": "2026-08-16T06:17:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We extend the scaled boundary cubature (SBC) scheme from planar regions to higher-dimensional regions described by oriented boundary patches. The resulting parametrization transforms integrals over compact regions in $\\Re^d$ into sums of integrals over the boundary-patch parameter domains and a radial coordinate. In three dimensions, this yields a direct volume-integration rule for solids bounded by affine faces, triangular or tensor-product surface patches, B-spline patches, NURBS patches, and combinations of curved and affine boundary representations. For affine polytopes, recursive application of the scaled boundary map yields nested tensor-product rules over simplex sectors; in three dimensions, these reduce to tetrahedral-sector rules that apply equally to convex and nonconvex oriented polyhedra. We also develop transformations for weakly singular integrands. Placing the scaling center at a point singularity exposes the radial power cancelled by the Jacobian, while generalized radial scalings and Gauss--Jacobi quadrature handle fractional powers. A transverse scaled-boundary map provides the analogous construction for affine singular sets, with straight-line examples in three dimensions. Numerical examples verify polynomial exactness on affine polyhedra and a four-dimensional tesseract, rapid convergence on curved B-spline and NURBS solids, and the expected convergence improvements for point and line singularities. Near-boundary singularity tests also identify when additional patch subdivision or patch-parameter transformations are required.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15563v1",
+        "pdf": "https://arxiv.org/pdf/2608.15563v1",
+        "source": "https://export.arxiv.org/e-print/2608.15563v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 45,
+        "bibliography_entries": 86,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used GPT 5.5 to edit an initial draft of the paper and expand some sections of the manuscript based on detailed prompting from the authors. After using this tool/service, the authors reviewed and edited the content as needed and take full responsibilit",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "substantial_text_generation",
+        "role_label": "Substantial text generation",
+        "multiplier": 7.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:09.714508Z"
+      },
+      "score": 355.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 50.85,
+        "multiplier": 7,
+        "contributions": {
+          "pages": 27,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 11.25,
+          "bibliography_entries": 8.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15525",
       "version": 1,
       "title": "New lower bounds on domination--packing ratios in connected subcubic and cubic graphs",
