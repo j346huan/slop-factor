@@ -42610,6 +42610,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23462",
+      "version": 1,
+      "title": "A diamond-free claw-free cubic graph with strong chromatic index 7",
+      "authors": [
+        "Kanishk Raj Tanwar"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T05:07:39Z",
+        "updated": "2026-07-26T05:07:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A strong edge coloring is a proper edge coloring in which every color class is an induced matching; the least number of colors is the strong chromatic index $χ'_s(G)$. Lin and Lin proved that every claw-free subcubic graph other than the triangular prism satisfies $χ'_s(G) \\le 7$, with all their tight examples containing diamonds. Kardos (Problem 4.1 of the open-problem collection of the 33rd Workshop on Cycles and Colourings) asked whether every diamond-free claw-free cubic graph is strongly 6-edge-colorable, equivalently whether $χ'_s(T(G))=6$ for every cubic graph $G$, where $T(G)$ is the truncation of $G$. We exhibit an explicit connected, simple, diamond-free, claw-free cubic graph $H$ on 18 vertices with $χ'_s(H)=7$, and show that it has the fewest vertices possible for such a non-prism example. Hence the first formulation, over simple cubic graphs, is false even after excluding the prism; and since $H$ is the truncation of a cubic multigraph with parallel edges, the two formulations are not equivalent unless \"cubic graph\" is allowed to mean loopless multigraph, under which reading the problem is answered negatively. The narrower version restricted to truncations of simple base graphs remains open.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23462v1",
+        "pdf": "https://arxiv.org/pdf/2607.23462v1",
+        "source": "https://export.arxiv.org/e-print/2607.23462v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 10,
+        "bibliography_entries": 4,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file counterexample.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "(1) (2) q = a1 c0 , m = a0 a1 , n = a0 a2 , p = a1 a2 within each copy, and the bridge a2 a2 has color 3. Acknowledgments The counterexample H was found with the assistance of OpenAI’s GPT-5.6 Sol Pro; the model proposed the gadget construction, which the author then checked and formalized. Every claim was verified independently, both by hand and by the exact computation of Section 5. The author also thanks František Kardoš for",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:39.930614Z"
+      },
+      "score": 359,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 35.9,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 7,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2.5,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23459",
       "version": 1,
       "title": "Odd-primary torsion in the homology of unordered configurations on the torus",
