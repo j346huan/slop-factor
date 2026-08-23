@@ -42446,6 +42446,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23307",
+      "version": 1,
+      "title": "Digesting the proof of the sharp thin-shell inequality",
+      "authors": [
+        "Yuansi Chen",
+        "Boaz Klartag"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.FA",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T17:48:30Z",
+        "updated": "2026-07-25T17:48:30Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We present a proof that determines the optimal value of the universal constant in the thin-shell theorem for log-concave distributions in high dimensions. We prove that for any log-concave random vector $X = (X_1,\\ldots,X_n)$ in $\\mathbb{R}^n$ with mean zero and identity covariance, $$ {\\rm Var}( |X|^2 ) \\leq 8 n. $$ The constant $8$ is optimal: equality is attained when $X_1,\\ldots,X_n$ are independent, identically distributed, standard, centered exponential random variables. Moreover, among isotropic random vectors distributed uniformly on convex bodies in $\\mathbb{R}^n$, the quantity ${\\rm Var}(|X|^2)$ is maximized by the uniform distribution on a regular simplex. We also provide a corresponding sharp bound on the Hilbert-Schmidt norm of the tensor of $3^{rd}$-moments of isotropic, log-concave distributions. The argument relies on the analysis of a weighted Riemannian manifold associated with log-concave moment measures and the Monge-Ampère equation. This manifold was studied in this context in \\cite{lc_moment}. The main improvement over \\cite{lc_moment} comes from a concise yet effective analysis of the $3^{rd}$-derivatives tensor of the potential. The proof was found by GPT-5.6 Pro in response to prompts supplied by the first-named author, following general discussions between the two authors concerning log-concave moment measures. The prompts referred to the paper ``Logarithmically-concave moment measures I'' and suggested bootstrapping a bound on the second trace moment.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23307v1",
+        "pdf": "https://arxiv.org/pdf/2607.23307v1",
+        "source": "https://export.arxiv.org/e-print/2607.23307v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 4,
+        "lemmas": 10,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 137,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file sharp_thin.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "he second-named author to the ETH Institute for Theoretical Studies, and he is grateful to the Institute for its hospitality. The second- named author is supported by a grant from the Israel Science Foundation (ISF). AI use statement. GPT-5.6 Pro produced the initial proof in response to prompts from the first-named author. Both authors verified and revised the argument, and rewrote it to make it more accessible. GPT-5.6 was then used to polish the writing. 2 Background on",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:51.134443Z"
+      },
+      "score": 1142.55,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 126.95,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 23,
+          "theorems": 24,
+          "lemmas": 40,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 34.25,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23302",
       "version": 1,
       "title": "Optimality of Wouter van Doorn's Upper Bound for the Mayer-Erdős Farey Problem",
