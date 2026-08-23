@@ -42374,6 +42374,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22032",
+      "version": 1,
+      "title": "On Grünbaum's problem for symmetric configurations",
+      "authors": [
+        "Andrii Arman",
+        "Andriy Bondarenko",
+        "Andriy Prymak",
+        "Danylo Radchenko"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-24T06:57:43Z",
+        "updated": "2026-07-24T06:57:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $g_n$ be the largest number of Euclidean balls of diameter $1$ which may be needed to cover a set of diameter $1$ in $\\mathbb{R}^n$. We study this problem for finite sets invariant under all coordinate permutations. We prove that the exponential growth rate in this symmetric problem can be characterized exactly as a finite-alphabet squared-error rate-distortion supremum $α_0$. Specialized to the two-point case, i.e., for subsets of Boolean cubes, this gives the explicit lower bound \\[g_n\\ge (1.160235457\\ldots-o(1))^n,\\] improving the previous best bound $(2/\\sqrt3-o(1))^n$. Using Fix's Gaussian characterization of the rate-distortion problem, we give a numerical three-point construction with exponent base greater than $1.160497831$. Finally, we show that $α_0$ is not attained by any finitely supported distribution.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22032v1",
+        "pdf": "https://arxiv.org/pdf/2607.22032v1",
+        "source": "https://export.arxiv.org/e-print/2607.22032v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 107,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main260722.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e end of Section 3 gives a finitely supported variable with α(X) = log αbin > 0. Hence no finitely supported random variable can attain α0 . □ AI use disclosure Generative AI was used as a writing and editing tool in the preparation of this manuscript. References [1] A. Arman, A. Bondarenko, and A. Prymak, Convex bodies of constant width with exponential illumina",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:24.247794Z"
+      },
+      "score": 343.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 68.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 15,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 26.75,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22017",
       "version": 1,
       "title": "Exterior power sums",
