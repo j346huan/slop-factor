@@ -41850,6 +41850,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20595",
+      "version": 2,
+      "title": "Log-concavity of elementary coefficients for low-rank abelian Hessenberg graphs, with a counterexample in general",
+      "authors": [
+        "Boris Kafidov"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T17:14:28Z",
+        "updated": "2026-08-01T03:51:32Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $X_{G_h}(\\mathbf{x};q)=\\sum_{μ\\vdash n}c_μ(q)e_μ(\\mathbf{x})$ be the chromatic quasisymmetric function of the natural unit interval graph attached to a Hessenberg function $h$. We establish an infinite class, valid in all orders, for which every nonzero polynomial $c_μ(q)$ has a nonnegative, log-concave coefficient sequence with interval support. Namely, this holds whenever $h$ is abelian and its complement-Ferrers partition $λ$ satisfies $\\min\\{λ_1,\\ell(λ)\\}\\leq 3$; equivalently, the diagram has at most three rows or at most three columns. Cubic interpolation reduces the rank-three case to a uniform theorem for a difference of two products of four $q$-integers, proved by positive decomposition, interval methods, and finite-window smoothing. The argument also yields explicit formulas for every supported elementary coefficient in complement-Ferrers rank at most three. We also include a connected 13-vertex natural unit interval graph for which one elementary coefficient is positive, palindromic, and unimodal but not log-concave, thereby recording the failure of the unrestricted conjecture. Thus low complement-Ferrers rank gives a substantial positive regime even though coefficientwise $e$-log-concavity fails in general.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20595v2",
+        "pdf": "https://arxiv.org/pdf/2607.20595v2",
+        "source": "https://export.arxiv.org/e-print/2607.20595v2"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 8,
+        "lemmas": 4,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 199,
+        "bibliography_entries": 14,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rsion 1 of this article. They are adapted and reproduced here so that the negative result and the positive abelian theorem can be evaluated together; version 1 contains no form of the rank-at-most-three theorem. Use of generative-AI tools. OpenAI’s ChatGPT with Codex assisted with exploration, verification code, literature searches, proof organization, drafting, and editing. Mathematical claims rest on the arguments and exact certificate presented here, and the author remains responsible for",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:12.437427Z"
+      },
+      "score": 885.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 177.15,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 29,
+          "theorems": 48,
+          "lemmas": 16,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 49.75,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20361",
       "version": 1,
       "title": "Selfless C*-correspondences, operator valued C*-probability spaces and completely positive maps",
