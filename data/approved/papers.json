@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01350",
+      "version": 1,
+      "title": "The Middle Stair for Complete Bipartite Parallel Chip-Firing",
+      "authors": [
+        "Minkyu Jung"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T16:12:40Z",
+        "updated": "2026-08-02T16:12:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the middle-stair conjecture for every complete bipartite graph. If a parallel chip-firing game on $K_{a,b}$ has configuration $σ$ with $2ab-a-b<|σ|<2ab$, then its eventual period is $2$. The balanced case $K_{a,a}$ was proved by Ji, Li, and Wang using one-parameter conjugate configurations. We introduce two-parameter conjugates $c^{k,\\ell}$, in which the rank shift on one side supplies the additive offset on the other. These conjugates preserve both the total number of chips and the activity. An exact Ferrers-diagram count then produces a nonnegative conjugate with two-round firing coverage on one side. The coverage propagates in alternating two-round waves, giving activity $1/2$; non-clumpiness then forces period $2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01350v1",
+        "pdf": "https://arxiv.org/pdf/2608.01350v1",
+        "source": "https://export.arxiv.org/e-print/2608.01350v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 35,
+        "bibliography_entries": 5,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "0’s. At density 1/2, either possibility forces that vertex’s word to alternate. After two rounds every vertex has fired exactly once, and the configuration returns. Thus the period is 2. Acknowledgement The author acknowledges the use of AI-assisted tools in the development and preparation of this work and takes full responsibility for its mathematical content. References [1] J. Bitar and E. Goles, Parallel chip-firing games on graphs, Theoret. Comput. Sci. 92 (1992), 291–300. [2] T",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:13:03.125482Z"
+      },
+      "score": 346,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 43.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 5,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 8.75,
+          "bibliography_entries": 0.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01340",
       "version": 1,
       "title": "Question-Guided Learning for Mathematics Education: An Autonomous Online Inquiry-Based Approach",
