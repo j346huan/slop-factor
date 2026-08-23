@@ -41852,6 +41852,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.05185",
+      "version": 1,
+      "title": "On the heat flow conjecture for random matrices",
+      "authors": [
+        "Theodoros Assiotis"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T17:03:54Z",
+        "updated": "2026-07-27T17:03:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove general cases of the heat flow conjecture for random matrices of Hall-Ho. In particular, the empirical measure of the zeros of the heat-flow-evolved characteristic polynomial of a complex Ginibre matrix converges almost surely to the semicircle law.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.05185v1",
+        "pdf": "https://arxiv.org/pdf/2608.05185v1",
+        "source": "https://export.arxiv.org/e-print/2608.05185v1"
+      },
+      "structural_counts": {
+        "pages": 42,
+        "theorems": 2,
+        "lemmas": 16,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 8,
+        "displayed_equations": 337,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file HeatFlowConj.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "subsequential limit and prove Proposition 10.1. Section 12 then rotates and translates this Hermitian endpoint to prove Theorem 1.9. Tool and computational resource disclosure In the course of the research presented here I have been using AI tools extensively, most significantly ChatGPT Pro 5.5 and ChatGPT 5.6 Sol Ultra for ideation, technical help, editing and checking the proofs and general editing and proofreading of the manuscript, at the level of a co-author. All mistakes are m",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:43.430329Z"
+      },
+      "score": 1946.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 243.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 42,
+          "theorems": 12,
+          "lemmas": 64,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 16,
+          "displayed_equations": 84.25,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24594",
       "version": 1,
       "title": "On Alweiss's example for multiple recurrence",
