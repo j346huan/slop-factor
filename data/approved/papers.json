@@ -9024,6 +9024,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16672",
+      "version": 1,
+      "title": "The Bethe-Hessian down to the Percolation Threshold",
+      "authors": [
+        "Dingding Dong",
+        "Theo McKenzie"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "math.CO",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T15:00:27Z",
+        "updated": "2026-08-17T15:00:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Bethe-Hessian is a symmetric matrix for which the negative spectrum has been observed to encode the informative structure of sparse stochastic block models. We prove that, in the stochastic block model where all vertices have expected degree $d>1$, the number of negative eigenvalues of the Bethe-Hessian is exactly the number predicted by the eigenvalues of the planted model lying outside the bulk spectrum. The condition $d>1$ is optimal, and matches a regime in which existing spectral approaches based on larger non-Hermitian matrices apply. Our result extends a theorem of Stephan and Zhu, who established the same conclusion under the assumption $d\\geq 2$. Our improvement relies on two main ideas. First, we construct test vectors on the $2$-core, where degree fluctuations are substantially smaller, and then extend them to the entire graph while controlling the quadratic form. Second, we construct the test vectors using an isotropic basis of the underlying Markov random field, with coefficients adapted to each relevant planted eigenvalue. This allows us to control the fluctuations of the test vectors throughout the sparse regime.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16672v1",
+        "pdf": "https://arxiv.org/pdf/2608.16672v1",
+        "source": "https://export.arxiv.org/e-print/2608.16672v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 2,
+        "lemmas": 9,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 4,
+        "displayed_equations": 122,
+        "bibliography_entries": 45,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "onically to the full graph. Acknowledgements. T.M. was supported by a Stanford Science Fellowship. The main idea of the test vectors and analysis were developed by the authors, building upon the prior work [8] as well as methods from [6]. OpenAI’s ChatGPT 5.6 Sol was used to check for errors, simplify explication, and give feedback on the manuscript. 2 Main result 2.1 The Stochastic Block Model Given a symmetric nonnegative matrix P ∈ Rr×r and a distribution π over [r], the stocha",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:26.945135Z"
+      },
+      "score": 500,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 125,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 19,
+          "theorems": 12,
+          "lemmas": 36,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 8,
+          "displayed_equations": 30.5,
+          "bibliography_entries": 4.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16664",
       "version": 1,
       "title": "Random Quadratic Form with random forcing: Metastable synchronization by noise",
