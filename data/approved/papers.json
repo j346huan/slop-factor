@@ -41851,6 +41851,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27538",
+      "version": 2,
+      "title": "An Asymptotic Bound for Non-covering Congruence Systems over Fq[x]",
+      "authors": [
+        "Rongyin Wang"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T00:14:33Z",
+        "updated": "2026-08-10T00:03:58Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Fix a prime power $q$. Let $D_q(n)$ be the largest possible least degree of a polynomial omitted by a non-covering family of $n$ congruence classes in $\\mathbb F_q[x]$. Assuming the known theorem that every non-covering family of $n$ classes omits a polynomial of degree less than $n$, we prove \\[ D_q(n)=\\frac{n}{q-1}+O_q(1). \\] The upper bound combines a minimal-counterexample reduction to irreducible moduli with a truncated inclusion--exclusion (Brun sieve) argument. A nested-modulus construction gives the matching lower bound. This is a follow-up to the author's 2025 work.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27538v2",
+        "pdf": "https://arxiv.org/pdf/2607.27538v2",
+        "source": "https://export.arxiv.org/e-print/2607.27538v2"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 71,
+        "bibliography_entries": 1,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ". (5.5) s Combining (5.2) and (5.5) proves the theorem. Declaration of generative AI use During the preparation of this work, the author used OpenAI’s ChatGPT 5.6 SOL to search for counterexamples to the earlier conjecture and to explore possible proof strategies. The system produced the example recorded as Example 3 and suggested the truncated CRT/Brun-sieve approach used in Lemma 7. The author",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:57.305138Z"
+      },
+      "score": 498.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 49.85,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 8,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 17.75,
+          "bibliography_entries": 0.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27471",
       "version": 1,
       "title": "Residual-Driven Lifting Identification for Nonlinear-Manifold Reduced-Order Models of Parametrized Linear PDEs",
