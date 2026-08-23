@@ -8591,6 +8591,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07910",
+      "version": 1,
+      "title": "Positive Lower Density for Hofstadter's $ab-1$ Problem",
+      "authors": [
+        "Samuel Korsky"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-08T04:28:36Z",
+        "updated": "2026-08-08T04:28:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $A$ be the smallest set of positive integers containing $2$ and $3$ such that $ab-1\\in A$ whenever $a,b\\in A$ are distinct. We prove that $A$ has positive lower density, answering a problem of Erdős attributed to Hofstadter.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07910v1",
+        "pdf": "https://arxiv.org/pdf/2608.07910v1",
+        "source": "https://export.arxiv.org/e-print/2608.07910v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 42,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Hofstadter.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "≥ > 0. x 17q d Acknowledgments The author thanks Thomas Bloom for helpful advice on the exposition, and Boris Alexeev for formalizing the proof in Lean [1]. GPT-5.6 Pro assisted in searching for and checking the finite interval and drift data. The author verified the argument and takes responsibility for the proof. References [1] B. Alexeev and Codex, Lean formalization of a solution to Erdős Prob",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:06.107534Z"
+      },
+      "score": 103.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 34.5,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 8,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 10.5,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07906",
       "version": 1,
       "title": "Long Lattice Paths with No Three Collinear Vertices",
