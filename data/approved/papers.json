@@ -41936,6 +41936,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21262",
+      "version": 1,
+      "title": "Zeta functions of $\\mathrm{PGL}_n$ over non-Archimedean local fields",
+      "authors": [
+        "Ming-Hsuan Kang",
+        "Jiu-Kang Yu"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T12:35:01Z",
+        "updated": "2026-07-23T12:35:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $\\mathscr{B}$ be the Bruhat--Tits building of $\\mathrm{PGL}_n(F)$, where $F$ is a non-Archimedean local field. We introduce geometric $k$-geodesics in $\\mathscr{B}$ by means of CAT(0) convexity and combinatorial $k$-geodesics by a local successor relation on pointed $k$-facets. We prove that the two notions coincide. This allows us to use the local combinatorial definition on quotients $Γ\\backslash\\mathscr{B}$, without referring to the universal covering. When $Γ$ is discrete, torsion-free, cocompact, and type-preserving, the primitive closed $k$-geodesics define zeta functions $Z_k$ and their $ε$-twisted variants $Z_k^ε$. Our main result identifies an alternating product of these zeta functions with the unramified $L$-function of $L^2(Γ\\backslash \\mathrm{PGL}_n(F))$: $(1-u^n)^{χ(Γ\\backslash\\mathscr{B})}L(Γ,q^{(n-1)/2}u)=\\prod_{k=1}^{n-1} Z_k^ε(Γ\\backslash\\mathscr{B},u)^{(-1)^{k+1}}$. This gives a uniform Ihara-type identity for all $\\mathrm{PGL}_n$. We also extend the construction and the identity to $\\mathrm{PGL}_n(D)$, where $D$ is a central division algebra over $F$; in that setting the residue parameter is $Q=|\\mathcal{O}_D/\\mathfrak{p}_D|$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21262v1",
+        "pdf": "https://arxiv.org/pdf/2607.21262v1",
+        "source": "https://export.arxiv.org/e-print/2607.21262v1"
+      },
+      "structural_counts": {
+        "pages": 47,
+        "theorems": 11,
+        "lemmas": 17,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 225,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "is formal and depends only on the finite cochain complex of pointed facets. Applying it to BD,Γ proves the displayed identity. □ Acknowledgments The authors acknowledge the use of ChatGPT for editorial assistance in improving the exposition and organization of this manuscript. References [AB08] Peter Abramenko and Kenneth S. Brown, Buildings, Graduate Texts in Mathema",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 46",
+          "page": 46
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:26.146951Z"
+      },
+      "score": 496.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 248.25,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 47,
+          "theorems": 66,
+          "lemmas": 68,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 56.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21222",
       "version": 3,
       "title": "An Asymptotically Tight $t\\log t$ Bound for $k$-Connected Subgraphs in Dense $K_t$-Minor-Free Graphs",
