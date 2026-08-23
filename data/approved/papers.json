@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17294",
+      "version": 1,
+      "title": "Enumerating forcing and strongly forcing (0,1)-matrices",
+      "authors": [
+        "Lei Cao",
+        "Jesse Geneson"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T02:47:29Z",
+        "updated": "2026-08-18T02:47:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $Q$ be a nonzero $s\\times t$ $(0,1)$-pattern, and let $m\\ge s$ and $n\\ge t$. An $m\\times n$ matrix is strongly $Q$-forcing if every $1$-entry belongs to an $s\\times t$ submatrix equal to $Q$. Let $F^{*}(m,n,Q)$ count these matrices. Put $H=m-s+1$ and $W=n-t+1$. We prove \\[ F^{*}(m,n,Q)\\ge 2^{HW}. \\] Writing $r$ and $c$ for the numbers of nonzero rows and columns of $Q$, equality holds if and only if \\[ (H=1\\text{ or }r=1)\\qquad\\text{and}\\qquad(W=1\\text{ or }c=1). \\] Thus the minimum over all nonzero $s\\times t$ patterns is $2^{HW}$, attained exactly by singleton patterns when $H,W>1$, and every fixed nonzero pattern has square growth rate $1$. We also refine the count by weight. If $o(Q)$ is the number of $1$-entries of $Q$, then the number of strongly $Q$-forcing matrices at the minimum positive weight $o(Q)$ is $\\binom{H+r-1}{r}\\binom{W+c-1}{c}$; at every fixed density in $(0,1)$, the logarithmic growth rate is the binary entropy when $m$ and $n$ are comparable. For ordinary forcing, where every $s\\times t$ submatrix contains the $1$-entries of $Q$ in their prescribed positions, let $F(m,n,Q)$ be the number of forcing matrices and let $\\mathfrak m(m,n,Q)$ be their minimum weight. We prove \\[ F(m,n,Q)=2^{mn-\\mathfrak m(m,n,Q)} \\quad\\text{and}\\quad 2^{\\,mn-\\mathfrak m(m,n,Q)+HW} \\le F(m,n,Q)F^{*}(m,n,Q) \\le 2^{mn}. \\] The lower product bound has the same equality cases as the strong-forcing lower bound above, while the upper product bound is attained exactly by singleton patterns. In particular, the product is at least $2$, with equality exactly when $s=m$, $t=n$, and $Q$ is the all-ones pattern.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17294v1",
+        "pdf": "https://arxiv.org/pdf/2608.17294v1",
+        "source": "https://export.arxiv.org/e-print/2608.17294v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 10,
+        "lemmas": 13,
+        "propositions": 0,
+        "corollaries": 4,
+        "definitions": 3,
+        "displayed_equations": 100,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file counting_pattern_forcing_submit.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration of generative AI and AI-assisted technologies During the preparation of this draft, JG used Codex with GPT-5.6 Sol Ultra to assist with manuscript editing. The authors reviewed and edited the content as needed and take full re- sponsibility for the content of the article. References [1] D. Bienstock, E. Győri, An extremal problem on sparse 0-1",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:50.657494Z"
+      },
+      "score": 715.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 178.9,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 22,
+          "theorems": 60,
+          "lemmas": 52,
+          "propositions": 0,
+          "corollaries": 12,
+          "definitions": 6,
+          "displayed_equations": 25,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17232",
       "version": 1,
       "title": "Polyhedral Subspaces of $L_{p}$ and Polars of Zonotopes",
