@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24466",
+      "version": 2,
+      "title": "Infinitely Many Components in Auslander--Reiten Quivers of Representation-Infinite Algebras over Perfect Fields",
+      "authors": [
+        "Wen Chang",
+        "Quanyu Tang"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.RA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T14:05:36Z",
+        "updated": "2026-08-17T04:47:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $k$ be a perfect field and let $A$ be a representation-infinite finite-dimensional $k$-algebra. We prove that the Auslander--Reiten quiver of $A$ has infinitely many connected components. This establishes, for finite-dimensional algebras over perfect fields, a conjecture of Auslander, Reiten, and Smalø concerning Artin algebras. Over an algebraically closed field, the proof combines a localized polynomial representation embedding with semilinear twists induced by field automorphisms. The passage from a perfect field to its algebraic closure is obtained by separable base change: we prove that if the Auslander--Reiten quiver of $A$ has only finitely many components, then the same holds for the scalar extension to the algebraic closure.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24466v2",
+        "pdf": "https://arxiv.org/pdf/2607.24466v2",
+        "source": "https://export.arxiv.org/e-print/2607.24466v2"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 2,
+        "lemmas": 11,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 91,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file C3-perfect-field-v7.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "te algebras. The second author subsequently proposed that the orbit lengths of adjacent vertices in the AR-quiver under category self-equivalences can be used, via large primes, to define an invariant of the components of the AR-quiver. ChatGPT assisted with the technical construction and verification of the semilinear twist argument in Lemma 4.2. ChatGPT was used in extending the result from al- gebraically closed fields to arbitrary perfect fields. In particular, it assisted wi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:55.936866Z"
+      },
+      "score": 890.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 111.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 19,
+          "theorems": 12,
+          "lemmas": 44,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 22.75,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24361",
       "version": 1,
       "title": "Nikiforov's spectral consecutive cycle problem and the connected-matching method",
