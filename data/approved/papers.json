@@ -8764,6 +8764,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11653",
+      "version": 1,
+      "title": "Fermat's Last Theorem in star-invariant subspaces: capacity-zero boundary spectrum",
+      "authors": [
+        "Stephan Ramon Garcia"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T04:53:05Z",
+        "updated": "2026-08-12T04:53:05Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that the Fermat equation $f^n+g^n=h^n$ with exponent $n\\geq 4$ has no nontrivial solutions $f,g,h$ in the star-invariant subspace $K_θ^p$, in which $1\\leq p\\leq\\infty$, whenever the boundary spectrum of the inner function $θ$ has logarithmic capacity zero. This gives a positive answer, for this class of inner functions and exponents, to a problem posed by Dyakonov.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11653v1",
+        "pdf": "https://arxiv.org/pdf/2608.11653v1",
+        "source": "https://export.arxiv.org/e-print/2608.11653v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 12,
+        "bibliography_entries": 34,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file FLTSIS.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "acknowledge fruitful discussions with ChatGPT, which located crucial references which finally permitted the author to make some progress on this problem after many years of unsuccessful contemplation. After the initial draft was complete, Claude was then used to proofread and criticize this note. Any remaining mistakes are, of course, the fault of the author. This brief note is organized as follows. Section 2 contains preliminary material about the projective Fermat curve and h",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:18.591487Z"
+      },
+      "score": 60.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 30.4,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3,
+          "bibliography_entries": 3.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12415",
       "version": 1,
       "title": "Sharp Phase Transition for Ellipsoid Fitting",
