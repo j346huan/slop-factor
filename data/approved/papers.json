@@ -41768,6 +41768,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13259",
+      "version": 1,
+      "title": "Ill-posedness in the critical Sobolev space for the Fokas-Olver-Rosenau-Qiao equation",
+      "authors": [
+        "Dan-Andrei Geba"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T20:45:45Z",
+        "updated": "2026-07-14T20:45:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This article proves norm inflation in the critical Sobolev space $H^{5/2}(\\mathbb{R})$ for the Fokas-Olver-Rosenau-Qiao equation, which is a modified Camassa-Holm-type equation with cubic nonlinearity. This result complements the well-posedness theory for this equation, which was previously known to be locally well-posed in $H^{s}(\\mathbb{R})$ for $s>5/2$. The proof relies on the construction of explicit initial data satisfying the previously known blow-up criteria for the Fokas-Olver-Rosenau-Qiao equation, a step that appears to be of independent interest.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13259v1",
+        "pdf": "https://arxiv.org/pdf/2607.13259v1",
+        "source": "https://export.arxiv.org/e-print/2607.13259v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 3,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 47,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s for Their love, patience, and mercy, which inspired him while working on this paper. He is also thankful to Alex Himonas for his friendship and for introducing and guiding him to work on Camassa-Holm-type equations. The author used OpenAI’s ChatGPT during the exploratory phase of this work to assist in generating and refining candidate initial data for the equation under study.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:34.404833Z"
+      },
+      "score": 316.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 52.75,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 10,
+          "theorems": 18,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 11.75,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13232",
       "version": 1,
       "title": "Design of Carbon Capture Processes Under Part-load Operating Conditions",
