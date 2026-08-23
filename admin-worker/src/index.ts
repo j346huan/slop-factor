@@ -94,6 +94,7 @@ interface ScanSession {
   created_at: string;
   updated_at: string;
   completed_at?: string;
+  completed_release_dates?: string[];
 }
 
 const API_VERSION = "2022-11-28";
@@ -633,6 +634,12 @@ async function api(
       .flatMap((scan) => [scan.start_date, scan.end_date])
       .filter((value): value is string => Boolean(value));
     for (const scan of scans) {
+      if (scan.completed_release_dates?.length) {
+        for (const date of scan.completed_release_dates) {
+          completedDates.add(date);
+        }
+        continue;
+      }
       if (!countsAsCompletedScan(scan) || !scan.start_date || !scan.end_date)
         continue;
       for (
@@ -640,7 +647,7 @@ async function api(
         date <= scan.end_date;
         date = nextDate(date)
       ) {
-        completedDates.add(date);
+        if (!isWeekend(date)) completedDates.add(date);
       }
     }
     const scannedDates = [...completedDates].sort();
@@ -702,6 +709,7 @@ async function api(
       candidates: 0,
       errors: 0,
       current: "",
+      completed_release_dates: [],
       created_at: createdAt,
       updated_at: createdAt,
     };
