@@ -41771,6 +41771,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15501",
+      "version": 1,
+      "title": "Cycle lengths and chords under chromatic and degree constraints",
+      "authors": [
+        "Xiaozheng Chen",
+        "Bo Ning"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T23:10:25Z",
+        "updated": "2026-07-16T23:10:25Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We mainly consider three problems on cycle lengths and cycles with chords in graphs: (a) Gao, Huo, and Ma \\cite[Question~1.5]{GaoHuoMa2021} asked whether, for every fixed $k\\ge3$, there is a function $f_k(n)\\to\\infty$ such that every $n$-vertex $(k+1)$-critical graph contains $f_k(n)$ consecutive cycle lengths. (b) Let $g_k(n)$ be the maximum integer $t$ such that every $n$-vertex $k$-critical graph with $k\\ge4$ contains an odd cycle with at least $t$ chords. Voss conjectured (see \\cite[pp.~168]{VossBook}) that $g_k(n)\\to\\infty$ as $n\\to\\infty$ for each $k\\ge4$, which extends a 1976 conjecture of Erdős (see also Erdős Problem~1091 \\cite{Bloom1091}). (c) Kára and Král \\cite{KaraKral2003} conjectured that every graph on $31$ vertices with minimum degree at least $8$ contains a cycle with at least $31$ chords. We answer question (a) in the negative for $k=3$, and disprove conjecture (b) for all $k\\ge5$. We point out the work of Alexeev-Putterman-Sawhney-Sellke-Valiant (2026) on Erdős Problem 1901 disproves the case $k=4$ for conjecture (b). We prove conjecture (c). We also discuss two other related problems in the part of concluding remark.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15501v1",
+        "pdf": "https://arxiv.org/pdf/2607.15501v1",
+        "source": "https://export.arxiv.org/e-print/2607.15501v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 11,
+        "lemmas": 15,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 10,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file v4_Cycle_lengths_and_chords_under_chromatic_and_degree_constraints.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nt The second author is grateful to Jie Ma for providing the reference [2] and for introducing him to the Erdős Problems website. The authors also thank Thomas Bloom for creating and sustaining the website [4]. Declaration of AI usage An AI assistant (Chatgpt 5.5) was used in the search for a construction in Theorem 1.2 with the initial requirement based on the Hajós join suggested by the second author. After several rounds of refinement, talks with AI and checking, we have the current",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:19.347175Z"
+      },
+      "score": 1429.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 178.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 66,
+          "lemmas": 60,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 2.5,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15375",
       "version": 2,
       "title": "Lorentzian polynomials and matroids over triangular hyperfields 2: Analytic aspects",
