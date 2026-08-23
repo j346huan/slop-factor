@@ -45259,6 +45259,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25230",
+      "version": 1,
+      "title": "Analytic Bertini theorem II --- The local case",
+      "authors": [
+        "Mingchen Xia"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.CV",
+          "math.DG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T03:17:14Z",
+        "updated": "2026-07-28T03:17:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the local analytic Bertini theorem, confirming a conjecture of Boucksom in full generality.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25230v1",
+        "pdf": "https://arxiv.org/pdf/2607.25230v1",
+        "source": "https://export.arxiv.org/e-print/2607.25230v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 4,
+        "lemmas": 4,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 102,
+        "bibliography_entries": 395,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the near future. Acknowledgments. AI plays a key role in this project. The idea of the proof was due to the author before the AI era. The details were, however, first carried out by the Rethlas agent using the OpenAI GPT-5.6-sol model. The AI-generated proofs were later simplified and largely rewritten by the author. The author would like to thank Charles Favre for accidentally bringing the book [EKF25] to his attention, which turns out to be indispensable for this problem. The aut",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:30.139386Z"
+      },
+      "score": 1270,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 127,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 12,
+          "theorems": 24,
+          "lemmas": 16,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 25.5,
+          "bibliography_entries": 39.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12379",
       "version": 2,
       "title": "Asymptotic Behavior and Error Bounds for Fisher-KPP Equations on the Real Half-Line",
