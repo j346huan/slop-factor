@@ -10055,6 +10055,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12607",
+      "version": 1,
+      "title": "A Quantum Latin Square of Order Six with Cardinality 29",
+      "authors": [
+        "Aishwarya P. Das",
+        "Durgesh Kumar"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T21:42:38Z",
+        "updated": "2026-08-12T21:42:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We construct an explicit real quantum Latin square of order six with cardinality $29$, the last unresolved value in the order-six spectrum. We first construct a punctured $6 \\times 6$ array in $\\mathbb{R}^5$ whose punctured rows and columns are orthonormal bases, and then adjoin a common diagonal vector in an orthogonal one-dimensional summand. The six diagonal entries lie on one ray. Of the thirty off-diagonal entries, two rays occur twice and the other twenty-six occur once; exact support and coordinate-ratio comparisons establish this count. Together with the known constructions, this closes the cardinality spectrum of quantum Latin squares of order $6$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12607v1",
+        "pdf": "https://arxiv.org/pdf/2608.12607v1",
+        "source": "https://export.arxiv.org/e-print/2608.12607v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 2,
+        "displayed_equations": 37,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file QLS6_cardinality_29.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e Hadamard products. It remains an interesting question whether cardinality 29 can also be obtained from a Hadamard-product construction, or from a construction with simpler and more symmetric coordinates. Computational and AI assistance OpenAI Codex assisted with the parameter search, exact symbolic verification, reference checking, and manuscript revision. The authors take responsibility for the mathematical content and the final text. A Projective signatures for cardinal",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:14.219581Z"
+      },
+      "score": 133.65,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 44.55,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 9,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 4,
+          "displayed_equations": 9.25,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12604",
       "version": 1,
       "title": "Density bounds for permutations avoiding monotone arithmetic progressions",
