@@ -79,7 +79,12 @@ async function api(path, options = {}) {
   });
   const payload = response.headers.get("Content-Type")?.includes("json")
     ? await response.json()
-    : { error: await response.text() };
+    : {
+        error:
+          response.status >= 500
+            ? `Administrator request failed (${response.status})`
+            : await response.text(),
+      };
   if (!response.ok)
     throw new Error(payload.error || `Request failed (${response.status})`);
   return payload;
