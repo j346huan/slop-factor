@@ -32,10 +32,6 @@ interface GitHubComment {
   body: string;
 }
 
-interface ApprovedCollection {
-  papers: Array<{ arxiv_id: string; version: number }>;
-}
-
 interface CandidatePayload {
   candidate_id: string;
   paper: {
@@ -281,24 +277,6 @@ async function github<T>(
   throw new Error(`GitHub API returned an empty response for ${path}`);
 }
 
-async function githubRaw(token: string, path: string): Promise<string> {
-  const response = await fetch(`https://api.github.com${path}`, {
-    headers: {
-      Accept: "application/vnd.github.raw+json",
-      Authorization: `Bearer ${token}`,
-      "User-Agent": "slop-factor-admin/0.1",
-      "X-GitHub-Api-Version": API_VERSION,
-    },
-  });
-  if (!response.ok) {
-    const details = await response.text();
-    throw new Error(
-      `GitHub API returned ${response.status}: ${details.slice(0, 300)}`,
-    );
-  }
-  return response.text();
-}
-
 async function githubPages<T>(token: string, path: string): Promise<T[]> {
   const results: T[] = [];
   for (let page = 1; ; page += 1) {
@@ -519,33 +497,7 @@ function candidateStatus(issue: GitHubIssue): string {
   return "pending";
 }
 
-async function reconcileApprovedIssues(
-  token: string,
-  repository: string,
-  issues: GitHubIssue[],
-  approvedCandidateIds: Set<string>,
-): Promise<void> {
-  const updates = issues.filter((issue) => {
-    if (candidateStatus(issue) !== "approval-submitted") return false;
-    return approvedCandidateIds.has(
-      candidatePayload(issue.body ?? "").candidate_id,
-    );
-  });
-  await Promise.allSettled(
-    updates.map((issue) =>
-      github(token, `/repos/${repository}/issues/${issue.number}`, "PATCH", {
-        state: "closed",
-        state_reason: "completed",
-        labels: ["paper-candidate", "candidate:approved"],
-      }),
-    ),
-  );
-}
-
-function publicCandidate(
-  issue: GitHubIssue,
-  approvedCandidateIds: Set<string>,
-): object {
+function publicCandidate(issue: GitHubIssue): object {
   const payload = candidatePayload(issue.body ?? "");
   return {
     ...payload,
@@ -553,9 +505,7 @@ function publicCandidate(
     issueUrl: issue.html_url,
     createdAt: issue.created_at,
     updatedAt: issue.updated_at,
-    status: approvedCandidateIds.has(payload.candidate_id)
-      ? "approved"
-      : candidateStatus(issue),
+    status: candidateStatus(issue),
   };
 }
 
@@ -598,31 +548,19 @@ async function api(
   }
 
   if (pathname === "/api/candidates" && request.method === "GET") {
-    const [issues, approvedFile] = await Promise.all([
-      githubPages<GitHubIssue>(
-        token,
-        `/repos/${env.GITHUB_REPOSITORY}/issues?state=all&labels=paper-candidate&per_page=100`,
-      ),
-      githubRaw(
-        token,
-        `/repos/${env.PUBLIC_REPOSITORY}/contents/data/approved/papers.json?ref=main`,
-      ),
-    ]);
-    const approved = JSON.parse(approvedFile) as ApprovedCollection;
-    const approvedCandidateIds = new Set(
-      approved.papers.map((paper) => `${paper.arxiv_id}v${paper.version}`),
-    );
-    await reconcileApprovedIssues(
+    const issues = await githubPages<GitHubIssue>(
       token,
-      env.GITHUB_REPOSITORY,
-      issues,
-      approvedCandidateIds,
+      `/repos/${env.GITHUB_REPOSITORY}/issues?state=all&labels=paper-candidate&per_page=100`,
     );
-    return json({
-      candidates: issues.map((issue) =>
-        publicCandidate(issue, approvedCandidateIds),
-      ),
-    });
+    const candidates: object[] = [];
+    for (const issue of issues) {
+      try {
+        candidates.push(publicCandidate(issue));
+      } catch {
+        // A malformed historical issue must not prevent the review queue from loading.
+      }
+    }
+    return json({ candidates });
   }
 
   if (pathname === "/api/site/deploy" && request.method === "POST") {
