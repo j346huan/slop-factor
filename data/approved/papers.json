@@ -8934,6 +8934,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17194",
+      "version": 1,
+      "title": "Sharp Neumann eigenvalue estimates and $C^2$ elliptic regularity in non-obtuse polyhedral domains",
+      "authors": [
+        "Nick Edelen",
+        "Chao Li"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math.AP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T23:16:47Z",
+        "updated": "2026-08-17T23:16:47Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For integers $n\\ge 1$, consider assertions: $\\mathbf{(P_n)}$: Let $Ω\\subset S^n$ be a spherical domain enclosed by totally geodesic $S^{n-1}$'s with non-obtuse dihedral angles. Then in $[0,2(n+1)]$, its Neumann spectrum can only take values among $\\{0,n,2(n+1)\\}$. Moreover, $n$ is a Neumann eigenvalue if and only if the corresponding eigenfunction is the restriction of a linear function in $\\mathbb{R}^{n+1}$, while $2(n+2)$ is a Neumann eigenvalue if and only if the corresponding eigenfunction is restriction of a quadratic polynomial in $\\mathbb{R}^{n+1}$. $\\mathbf{(Q_n)}$: A weak solution $u$ to $Δu = f$ with the Neumann boundary condition, with $f$ Hölder continuous, in a conical polyhedral domain $Ω$ in $\\mathbb{R}^n$ with non-obtuse dihedral angles, is in $C^{2,α}_{loc}(\\overlineΩ)$. We prove the implications \\[\\mathbf{(Q_n)} \\Rightarrow \\mathbf{(P_n)},\\qquad \\mathbf{(P_n)}\\Rightarrow \\mathbf{(Q_{n+1})}.\\] Consequently, both assertions hold in all dimensions. These give the optimal Neumann eigenvalue lower bound and $C^2$ elliptic regularity in non-obtuse Riemannian polyhedral domains.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17194v1",
+        "pdf": "https://arxiv.org/pdf/2608.17194v1",
+        "source": "https://export.arxiv.org/e-print/2608.17194v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 4,
+        "lemmas": 8,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 124,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "pectral information serves as an integrability condition: after subtracting the appropriate affine and quadratic approximations, it yields an excess-decay estimate and, ultimately, the desired C 2,α regularity. 1.5. The use of AI. We used ChatGPT Pro 5.6 Sol for reference searches, and to find the best constant in the algebraic Lemma 2.6 as well as a clean presentation of its proof. Other parts of this article is solely at the responsibility of the authors. This article does not co",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:19.116282Z"
+      },
+      "score": 947.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 118.4,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 17,
+          "theorems": 24,
+          "lemmas": 32,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 31,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17155",
       "version": 1,
       "title": "Fixed-particle-number optimizers for the Lieb--Oxford inequality",
