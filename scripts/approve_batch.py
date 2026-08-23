@@ -33,9 +33,7 @@ def main() -> int:
         reverse=True,
     )
     proposed = {"schema_version": 1, "papers": papers}
-    schema = json.loads(
-        Path("data/schema/approved-paper.schema.json").read_text("utf8")
-    )
+    schema = json.loads(Path("data/schema/approved-paper.schema.json").read_text("utf8"))
     errors = validate_collection(proposed, schema)
     if errors:
         details = "\n".join(f"- {error}" for error in errors)
