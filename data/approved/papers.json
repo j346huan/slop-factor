@@ -41771,6 +41771,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27702",
+      "version": 1,
+      "title": "Schur Eisenstein series and Schur MacMahon series",
+      "authors": [
+        "Henrik Bachmann",
+        "Jinbo Yu"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO",
+          "math.QA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T05:38:51Z",
+        "updated": "2026-07-30T05:38:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce and study two partition-indexed families of quasimodular forms obtained from Schur functions: Schur Eisenstein series and Schur MacMahon series. An explicit transition between them can be interpreted as a convolution in a Faà di Bruno Hopf algebra of symmetric functions. We discuss the classical sl2-action and prove that Schur Eisenstein series for partitions with parts of size at most 3 give a basis for quasimodular forms. Further, we conjecture that the Schur MacMahon series span all quasimodular forms with integral coefficients.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27702v1",
+        "pdf": "https://arxiv.org/pdf/2607.27702v1",
+        "source": "https://export.arxiv.org/e-print/2607.27702v1"
+      },
+      "structural_counts": {
+        "pages": 37,
+        "theorems": 12,
+        "lemmas": 4,
+        "propositions": 9,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 249,
+        "bibliography_entries": 23,
+        "appendix_pages": 1
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file SchurEisensteinMacMahonV1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ree with (4.16), and the obstruction to the naive bound B(k) = k/2 is 3-primary in every computed case. AI & computational resource disclosure: The main results, their formulation, and the underlying idea of proof are the authors’ own. ChatGPT 5.6 and Claude Fable 5 were used throughout as research assistants: they carried out and checked computations, and helped with implementing all the objects in SageMath. All statements and proofs were verified by the authors, who take sole",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 36",
+          "page": 36
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:04.043176Z"
+      },
+      "score": 709.65,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 236.55,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 37,
+          "theorems": 72,
+          "lemmas": 16,
+          "propositions": 36,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 62.25,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 2
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27691",
       "version": 1,
       "title": "Nuclear dimension, pure infiniteness and real rank for higher rank graph $C^*$-algebras",
