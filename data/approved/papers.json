@@ -42194,6 +42194,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26272",
+      "version": 1,
+      "title": "Nonnegative Low-Rank Matrix Correction under an Orthogonality Constraint in Conservative Vlasov Simulations",
+      "authors": [
+        "Yue Wu",
+        "Stephen Becker",
+        "Jingmei Qiu",
+        "Xiangxiong Zhang"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T21:07:37Z",
+        "updated": "2026-07-28T21:07:37Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In low-rank numerical methods for Vlasov dynamics, the SVD-type truncation procedure may introduce negative entries into the numerical solution. Such negative values are unphysical because the solution is a probability distribution function. We design optimization-based post-processing algorithms to recover nonnegativity while preserving the macroscopic quantities (density, momentum, and energy) pointwise. The preservation of the macroscopic quantities is written as an orthogonality constraint on the correction term. For a convex formulation based on squared nuclear norm minimization, we show that the proximal operator with the orthogonality constraint is characterized by an implicit singular value thresholding equation, and the threshold can be computed efficiently by bisection. Based on this result, we develop five algorithms for the convex formulation: Douglas--Rachford splitting, restarted dual FISTA, restarted dual accelerated gradient descent, dual PR+ conjugate gradient, and dual L-BFGS. We also consider a non-convex formulation with an explicit rank constraint and develop a tangent-space accelerated alternating projection algorithm that only requires a \\(2r \\times 2r\\) SVD per iteration. Numerical results for a Landau damping test case show that the proposed algorithms give comparable correction quality. Among them, the tangent-space accelerated alternating projection is the most cost-efficient, increasingly so as the problem size grows. We further demonstrate the correction as a positivity limiter inside a time-dependent conservative low-rank Vlasov solver, where it removes the negativity introduced by the SVD-type truncation while preserving the conserved mass, momentum, and energy.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26272v1",
+        "pdf": "https://arxiv.org/pdf/2607.26272v1",
+        "source": "https://export.arxiv.org/e-print/2607.26272v1"
+      },
+      "structural_counts": {
+        "pages": 38,
+        "theorems": 1,
+        "lemmas": 6,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 3,
+        "displayed_equations": 80,
+        "bibliography_entries": 35,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "orthogonality residual. Both methods incur a modest, comparable overhead. Declaration of AI-assisted technologies All original ideas, as well as codes, are attributed to the authors. During the preparation of this work, the authors used Anthropic’s Claude Code to assist with mathematical discussions, further numerical implementation, and drafting of the manuscript. After using this tool, the authors care- fully reviewed and edited the content as needed and take full responsibility for the f",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 36",
+          "page": 36
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:58.086763Z"
+      },
+      "score": 812,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 101.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 38,
+          "theorems": 6,
+          "lemmas": 24,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 6,
+          "displayed_equations": 20,
+          "bibliography_entries": 3.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26271",
       "version": 2,
       "title": "Sharp bounds for the fractional chromatic number of high-girth $d$-degenerate graphs",
