@@ -8684,6 +8684,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16464",
+      "version": 1,
+      "title": "Measurable Matroids: Foundations and Min--Max Theorems",
+      "authors": [
+        "Kristóf Bérczi",
+        "András Imolay",
+        "Ádám Schweitzer"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T12:03:14Z",
+        "updated": "2026-08-17T12:03:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a measure-theoretic analogue of matroid theory on standard atomless measure spaces. Motivated by the quotient-convergence framework for submodular set functions, our aim is to identify suitable measurable objects on the limit side of finite matroid theory and to develop their basic structural and optimization theory. We prove that measurable matroids admit equivalent descriptions by independent sets, bases, rank functions, and closure operators. The class includes normalized finite matroids, cycle matroids of graphings, and measurable analogues of partition, nested, lattice path, transversal, and matching matroids. We establish measurable analogues of truncation, elongation, direct sum, duality, and minors. We prove measurable versions of Edmonds' matroid intersection theorem and the Edmonds--Fulkerson matroid union theorem, together with an attainment theorem for common bases. The intersection theorem retains the classical min--max form, with the maximum replaced in general by a supremum. Applied to partition matroids, it gives an exact Hall-deficiency formula for measurable matchings in bipartite graphings and a min--max theorem for continuous bipartite $b$-matchings, with applications to capacity-constrained transport and prescribed cross-sections. We give a rank-expansion criterion under which the supremum is attained. For bipartite graphings, this criterion specializes to the measurable perfect matching theorem of Lyons and Nazarov. For measurable union, the Edmonds--Fulkerson rank formula remains valid. As a main application of measurable union and its attainment theorem, we prove measurable Nash-Williams--Tutte theorems for graphings, characterizing approximate coverings and packings by hyperfinite essential spanning forests and obtaining exact decompositions under strengthened rank inequalities.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16464v1",
+        "pdf": "https://arxiv.org/pdf/2608.16464v1",
+        "source": "https://export.arxiv.org/e-print/2608.16464v1"
+      },
+      "structural_counts": {
+        "pages": 93,
+        "theorems": 26,
+        "lemmas": 21,
+        "propositions": 29,
+        "corollaries": 21,
+        "definitions": 0,
+        "displayed_equations": 420,
+        "bibliography_entries": 102,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file measurable_matroids.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "stance contributed substantively to the identification of mathematical results is Section 7.2. The direction studied there was proposed by the authors, while some of the formulations and results were first identified with the assistance of ChatGPT. The corresponding arguments were subsequently checked and rewritten by the authors before being included in the paper. All mathematical arguments and claims produced with AI assistance were verified by the authors, who take full responsib",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 89",
+          "page": 89
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:49.620994Z"
+      },
+      "score": 6272,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 627.2,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 93,
+          "theorems": 156,
+          "lemmas": 84,
+          "propositions": 116,
+          "corollaries": 63,
+          "definitions": 0,
+          "displayed_equations": 105,
+          "bibliography_entries": 10.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16398",
       "version": 1,
       "title": "On The Eaton-Moretó Conjecture for Principal Blocks of Finite Groups",
