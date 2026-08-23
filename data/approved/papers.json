@@ -8425,6 +8425,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14336",
+      "version": 1,
+      "title": "A Shrinkage Path Heuristic for Wasserstein Distributionally Robust Optimization",
+      "authors": [
+        "Lingjun Meng",
+        "Ryan Cory-Wright",
+        "Wolfram Wiesemann"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T14:23:03Z",
+        "updated": "2026-08-14T14:23:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Wasserstein distributionally robust optimization (DRO) is a versatile and widely adopted framework for decision-making under uncertainty, yet its standard deterministic reformulations generally contain non-convex inner subproblems that are challenging to solve. To address this issue, we propose a shrinkage path heuristic that reduces the solution of a DRO problem to a one-dimensional search over the line segment connecting the (typically benign) sample average approximation (SAA) and the (more demanding but practically solvable) classical robust optimization solution. We derive a priori suboptimality bounds in stylized settings and, for the general case, a posteriori bounds obtained by applying a similar heuristic to a dual formulation. Numerical experiments on a multi-item newsvendor and an appointment scheduling problem show that the shrinkage path heuristic attains 85-110% (resp. 45-70%) of the out-of-sample performance improvements of Wasserstein DRO over SAA, at a fraction of the computational cost.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14336v1",
+        "pdf": "https://arxiv.org/pdf/2608.14336v1",
+        "source": "https://export.arxiv.org/e-print/2608.14336v1"
+      },
+      "structural_counts": {
+        "pages": 48,
+        "theorems": 5,
+        "lemmas": 9,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 132,
+        "bibliography_entries": 36,
+        "appendix_pages": 9
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "whereas the regularized SAA benchmarks (ℓ1 -RSAA-CV and ℓ2 -RSAA-CV) barely improve on SAA. Boxes, whiskers, and shaded bands follow the conventions of Figure 3. Use of Large Language Models Large language models (including Claude Fable 5 and Chat-GPT-Pro 5.6) were used to assist in writing the manuscript and implementing the numerical experiments. The authors have carefully reviewed and edited all generated content and take full responsibility fo",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:16.158689Z"
+      },
+      "score": 898,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 179.6,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 48,
+          "theorems": 30,
+          "lemmas": 36,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 33,
+          "bibliography_entries": 3.6,
+          "appendix_pages": 18
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14232",
       "version": 1,
       "title": "Ollivier--Ricci Curvature on Groups of Polynomial Growth",
