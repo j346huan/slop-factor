@@ -8679,6 +8679,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16205",
+      "version": 1,
+      "title": "Transpose Symmetry of Injectivity over Commutative Semirings",
+      "authors": [
+        "Sixuan Gu",
+        "Wei Qi",
+        "Yaoyu Cheng"
+      ],
+      "categories": {
+        "primary": "math.RA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T07:38:39Z",
+        "updated": "2026-08-17T07:38:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let R be a commutative semiring, not necessarily with a multiplicative identity, and let A be an element of Mn(R). We prove that the map x to Ax on Rn is injective if and only if x to AT x is injective. Equivalently, the left- and right-cancellative elements of the multiplicative semigroup Mn(R) coincide. The proof splits formal determinant expansions into their even and odd halves; it uses no subtraction, additive cancellation, group completion, inverse, or multiplicative identity. As consequences we recover the stable-finiteness theorem for matrices over unital commutative semirings. We also prove that surjectivity is invariant under transpose. In fact, the existence of a surjective square matrix of positive size forces R to have a multiplicative identity.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16205v1",
+        "pdf": "https://arxiv.org/pdf/2608.16205v1",
+        "source": "https://export.arxiv.org/e-print/2608.16205v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 2,
+        "lemmas": 4,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 44,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file transpose-injectivity.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e University of Hong Kong (Shenzhen) during this research. Professor Yu gave valuable advice on generalizing the theorem from dimension 3 to arbitrary dimensions, and to surjectivity of the linear maps. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used OpenAI’s ChatGPT to explore proof strategies, check formal polynomial identities, and assist in drafti",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:23.197567Z"
+      },
+      "score": 432,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 54,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 8,
+          "theorems": 12,
+          "lemmas": 16,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 11,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16169",
       "version": 1,
       "title": "Absolute Borel Complexity of Moduli Spaces of Ultrametrics",
