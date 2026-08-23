@@ -41767,6 +41767,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16502",
+      "version": 1,
+      "title": "Asymptotic Behavior of Path Functionals for Vector-Valued Gaussian Processes at High Levels",
+      "authors": [
+        "Pavel Ievlev",
+        "Timofei Shashkov",
+        "Svyatoslav Novikov"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T20:46:59Z",
+        "updated": "2026-07-17T20:46:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study precise asymptotics for high-level exceedance probabilities of path functionals of continuous vector-valued Gaussian processes. The probabilities have the form $$ \\mathbb{P}\\{Γ_{[0,T]}(\\check{\\boldsymbol{u}}(\\boldsymbol{X}-u\\boldsymbol{b}))>L_u\\}, \\qquad u\\to\\infty, $$ where $\\boldsymbol{X}$ is a centered $\\mathbb R^d$-valued Gaussian process and $Γ$ belongs to a broad class satisfying natural monotonicity, scaling, no-atom, and continuity assumptions. The class covers classical sojourn times, Choquet-type sojourn integrals, area-under-the-curve functionals, and, through a local-footprint extension, shrinking-window Parisian persistence functionals. We obtain exact asymptotics in the stationary case and in the non-stationary case when the inverse generalized variance has a unique minimizer at the boundary point. The non-stationary theorem covers the regimes $α<β$, $α=β$, and $α>β$, which lead respectively to Pickands-type, Piterbarg-type, and deterministic limiting constants. We also derive conditional limit laws for the first exceedance time. The main claims are stated in the body of the paper, while the proofs and auxiliary estimates are collected in the appendices.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16502v1",
+        "pdf": "https://arxiv.org/pdf/2607.16502v1",
+        "source": "https://export.arxiv.org/e-print/2607.16502v1"
+      },
+      "structural_counts": {
+        "pages": 50,
+        "theorems": 3,
+        "lemmas": 21,
+        "propositions": 3,
+        "corollaries": 8,
+        "definitions": 3,
+        "displayed_equations": 364,
+        "bibliography_entries": 31,
+        "appendix_pages": 45
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file sojourns.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ew x P {A(x)} dx ≤ CF ≤ CF ecF (G+σ ) . D2 Summing over the finitely many orthants proves the lemma. □ Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work the authors used ChatGPT 5.5 and Claude Opus 4.8 in order to edit the text, improve its style, and revise it for potential mistakes or",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 48",
+          "page": 48
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:12.960730Z"
+      },
+      "score": 1890.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 378.1,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 50,
+          "theorems": 18,
+          "lemmas": 84,
+          "propositions": 12,
+          "corollaries": 24,
+          "definitions": 6,
+          "displayed_equations": 91,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 90
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16188",
       "version": 1,
       "title": "Optimal control of symmetry-breaking dynamics near criticality",
