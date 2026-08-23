@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08246",
+      "version": 1,
+      "title": "Hilbertian Kahane--Salem--Zygmund Inequalities: Extremizers and Quantitative Gaps",
+      "authors": [
+        "Daniel M. Pellegrino",
+        "Anselmo Raposo"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-08T17:16:02Z",
+        "updated": "2026-08-08T17:16:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study real multilinear forms with coefficients in $\\{-1,1\\}$ on finite-dimensional Hilbert spaces. Every trilinear sign form on $\\ell_2^r\\times\\ell_2^n\\times\\ell_2^n$ has norm at least $\\sqrt n$. Writing $K_{r,n}$ for the least norm divided by $\\sqrt n$, we prove that $K_{r,n}=1$ exactly when a Hadamard matrix of order $n$ exists and $r\\leρ(n)$, where $ρ$ is the Hurwitz--Radon function. If equality fails, we obtain an explicit gap above $\\sqrt n$. We also prove two asymptotic results. If $1\\le m_n\\le n$ and $\\limsup r_n/\\log_2 n<2$, there are sign forms on $\\ell_2^{r_n}\\times\\ell_2^{m_n}\\times\\ell_2^n$ with norm $(1+o(1))\\sqrt n$. In the square case, if $r\\ge2\\lceil\\log_2(8n)\\rceil$, then $K_{r,n}-1\\ge c(1+\\log_2 n)^{-4}$. We also prove a fourth-moment estimate in every fixed multilinear order, characterize equality, and give exact and asymptotic constructions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08246v1",
+        "pdf": "https://arxiv.org/pdf/2608.08246v1",
+        "source": "https://export.arxiv.org/e-print/2608.08246v1"
+      },
+      "structural_counts": {
+        "pages": 45,
+        "theorems": 16,
+        "lemmas": 13,
+        "propositions": 6,
+        "corollaries": 11,
+        "definitions": 2,
+        "displayed_equations": 387,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file DOC-20260808-WA0026_final_submission-1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this article. Use of Generative AI OpenAI’s ChatGPT was used to assist with exposition, language refinement, and bibliographic searches. All AI-assisted material was reviewed and verified by the authors, who take full responsibility for the content of the manuscript.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 44",
+          "page": 44
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:14.388695Z"
+      },
+      "score": 1413,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 353.25,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 45,
+          "theorems": 96,
+          "lemmas": 52,
+          "propositions": 24,
+          "corollaries": 33,
+          "definitions": 4,
+          "displayed_equations": 96.75,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08193",
       "version": 1,
       "title": "The sharp volume gap for Kähler manifolds with positive Ricci curvature",
