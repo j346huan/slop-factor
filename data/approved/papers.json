@@ -41683,6 +41683,97 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23196",
+      "version": 1,
+      "title": "A Fixed-Point Construction of the Elementary Transcendental Functions",
+      "authors": [
+        "François Alouges",
+        "Giovanni Di Fratta",
+        "Alberto Fiorenza",
+        "Renato Fiorenza"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": [
+          "cs.DC",
+          "cs.MS",
+          "math.FA",
+          "math.NA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T13:18:22Z",
+        "updated": "2026-07-25T13:18:22Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We present a unified fixed-point construction of the elementary transcendental functions, encompassing the real exponential, the complex exponential (sine and cosine), and the natural logarithm. Each function is characterized as the unique solution of a duplication identity established through the Banach contraction principle. These foundational identities are $e(2x)=e^2(x)$ for the exponentials, and $\\log(x^{2})=2\\log x$ for the logarithm. Because a direct iteration of these identities is numerically unstable, owing to local expansiveness at the target, the central idea transfers the analysis to a residual function, on which the operator becomes a strict contraction with an explicit convergence rate. Beyond its theoretical economy, which dispenses with differential equations and power series, this characterization translates into efficient algorithms for the machine evaluation of elementary functions: the underlying framework yields floating-point kernels whose accuracy and iteration depth are governed by the theoretical contraction rate. We also present a computational study showing that, in a throughput-bound vectorized regime, these kernels are competitive with standard production libraries, and in favorable configurations exceed them, with the sine--cosine kernel faster at every tested iteration depth. These implementations operate without lookup tables or memory traffic, an architectural advantage for modern high-performance and energy-efficient computing.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23196v1",
+        "pdf": "https://arxiv.org/pdf/2607.23196v1",
+        "source": "https://export.arxiv.org/e-print/2607.23196v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 3,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 65,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ADFFF_Fixed_Point_Transcendental_Functions_Manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "his work are currently available from the corresponding author upon reasonable request. The authors plan to clean, document, and host the complete codebase in a publicly accessible GitHub repository before final publication. Declaration of Generative AI and AI-Assisted Technologies: During the preparation of this manuscript, the authors used Grammarly and Gemini to check spelling and improve the fluency of selected portions of the text. The manuscript was initially prepared using TeXmacs",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:56.299142Z"
+      },
+      "score": 81.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 81.75,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 23,
+          "theorems": 18,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 16.25,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23148",
       "version": 1,
       "title": "A Linear Lower Bound for Dominating Sets in $k$-Majority Tournaments",
