@@ -42969,6 +42969,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12402",
+      "version": 1,
+      "title": "A Fourier-Aware Projection-Based Periodic Parareal Method for Time-Periodic Problems",
+      "authors": [
+        "Chenyi Tan",
+        "Yuncheng Xu",
+        "Yehao Zhang",
+        "Yangfeng Su"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T06:22:39Z",
+        "updated": "2026-07-14T06:22:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Time-periodic problems arise when the desired solution is a periodic steady state rather than a transient trajectory. The periodic parareal algorithm with a periodic coarse problem (PP-PC) is a periodicity-preserving parallel-in-time approach for such problems. Projection-based correction can accelerate convergence of both parareal and PP-PC. In this paper, we propose a Fourier-aware construction of projection spaces and a new correction scheme to further accelerate the convergence of projection-based PP-PC. We develop a convergence analysis of projection-based PP-PC with the discrepancy-based correction scheme for general nonlinear time-periodic problems. For an arbitrary orthogonal projection, we derive a local one-step convergence estimate controlled by the unresolved error and explicit nonlinear contributions. A temporal Fourier decomposition bounds the unresolved error by a tail-leak quantity, which is small when dominant error modes are selected and their coefficients are captured by the projection space. For linear problems, the nonlinear contributions vanish, yielding a globally valid one-step tail-leak convergence estimate under weaker assumptions. Experiments on linear and nonlinear problems show that Fourier-aware PP-PC requires fewer outer iterations than Krylov-enhanced PP-PC. For the linear problems, the errors track the tail-leak bound. For the nonlinear problems, the experiments quantify the unresolved-error and explicit nonlinear contributions in the local one-step estimate and show that the evaluated tail-leak estimate follows the observed decay.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12402v1",
+        "pdf": "https://arxiv.org/pdf/2607.12402v1",
+        "source": "https://export.arxiv.org/e-print/2607.12402v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 100,
+        "bibliography_entries": 32,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "25 Acknowledgments. This work was supported by the National Key R&D Pro- gram of China under Grant Nos. 2020YFA0711900 and 2020YFA0711902. During the preparation of this manuscript, the authors used OpenAI’s ChatGPT to improve its readability and assist with the design of code for the numerical experiments. The authors assume responsibility for all content. REFERENCES [1] P. Amodio and L. Brugnano, Paralle",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:22.711712Z"
+      },
+      "score": 228.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 76.2,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 26,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 25,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12378",
       "version": 2,
       "title": "Odd Parts of Derivative Period Polynomials: Zero Geometry and a Logarithmic Transition",
