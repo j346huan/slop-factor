@@ -41855,6 +41855,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26048",
+      "version": 1,
+      "title": "Isotropic Decompositions via Inverse Eigenvectors",
+      "authors": [
+        "Gergely Ambrus"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.AG",
+          "math.CV",
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T17:56:12Z",
+        "updated": "2026-07-28T17:56:12Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a residue-theoretic framework for studying inverse eigenvectors of a square matrix, defined by the nonlinear equation $Mα=α^{-1}$. Our main result is an inverse analogue of the spectral theorem: under natural transversality and properness assumptions, the identity operator admits an explicit decomposition into rank-one tensors associated with the inverse eigenvectors. The proof is based on residues of rational differential forms in several complex variables. For real correlation matrices whose off-diagonal entries have modulus strictly less than one, we remove the properness assumption and show that the coefficients in the decomposition are positive and sum to~$1$. Consequently, the inverse eigenvectors support an explicit centered discrete isotropic probability measure and form a weighted tight frame. We extend the construction to arbitrary real Gram matrices, diagonal inverse eigenvectors, and weighted inverse-eigenvector equations. Simple trace and arithmetic--geometric mean arguments yield inverse eigenvectors with controlled Euclidean norm and coordinate product. These estimates lead to short proofs of the strong real polarization inequality and the $n$th real linear polarization inequality, together with weighted and matrix-valued generalizations and further geometric and analytic applications.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26048v1",
+        "pdf": "https://arxiv.org/pdf/2607.26048v1",
+        "source": "https://export.arxiv.org/e-print/2607.26048v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 5,
+        "lemmas": 9,
+        "propositions": 4,
+        "corollaries": 9,
+        "definitions": 0,
+        "displayed_equations": 182,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file InverseSpectral.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ance during the author’s doctoral studies at UCL, and Péter Frenkel, Máté Matolcsi, Oscar Ortega-Moreno, and Szilárd Révész for valuable conversations on polarization problems. During the preparation of this manuscript, the author used ChatGPT (GPT-5.6 Think- ing) as a research assistant.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:19.508415Z"
+      },
+      "score": 905.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 181.1,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 24,
+          "theorems": 30,
+          "lemmas": 36,
+          "propositions": 16,
+          "corollaries": 27,
+          "definitions": 0,
+          "displayed_equations": 45.5,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25920",
       "version": 1,
       "title": "Asymptotically sharp bounds for affine subspace statistics in $\\mathbb F_2^n$",
