@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21578",
+      "version": 1,
+      "title": "The Stability Landscape in Wave-Packet Scattering: Geometric Rigidity and Sharp Sobolev Thresholds",
+      "authors": [
+        "Max Getter",
+        "S. Ivan Trapasso"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T17:55:31Z",
+        "updated": "2026-07-23T17:55:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A central challenge in modern harmonic analysis is to quantify the balance between the approximation power of finely resolved multiscale representations and their robustness to nonlinear changes of coordinates, a problem arising naturally in signal processing and partial differential equations. Motivated by Mallat's pioneering results on the wavelet scattering transform, we identify a sharp resolution--robustness trade-off for scattering-type nonlinear multiscale representations built upon general wave-packet systems, showing that stability under small diffeomorphisms is governed by the geometry of the underlying frequency decomposition. In particular, for wave-packet systems with finer transverse resolution than wavelets, including curvelets and shearlets, we establish a geometric rigidity phenomenon: arbitrarily small, smooth, compactly supported deformations can move high-frequency mass across adjacent channels, leading to instability already at the first scattering layer. We complement this obstruction by identifying the sharp Sobolev threshold for deformation stability: below the critical regularity no Mallat-type estimate can hold, while at and above it stability is recovered by means of matched commutator bounds that allow deformations to be propagated through the frequency channels. Together, these results provide a systematic deformation-stability theory for Euclidean scattering transforms and yield the first stability estimates intrinsic to the scattering architecture beyond the classical wavelet setting.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21578v1",
+        "pdf": "https://arxiv.org/pdf/2607.21578v1",
+        "source": "https://export.arxiv.org/e-print/2607.21578v1"
+      },
+      "structural_counts": {
+        "pages": 55,
+        "theorems": 4,
+        "lemmas": 15,
+        "propositions": 10,
+        "corollaries": 7,
+        "definitions": 2,
+        "displayed_equations": 400,
+        "bibliography_entries": 53,
+        "appendix_pages": 8
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file GetterTrapasso_landscape.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ". Lagrange” (DISMA) for their hospitality during a research visit where much of this work originated. The authors thank Hartmut Führ and Sebastian Walcher for insightful comments on an earlier version of the manuscript. The authors used generative AI tools to assist with problem exploration and manuscript drafting. All outputs were reviewed and verified by the authors; in particular, the mathematical arguments and proofs reflect the authors’ own development and validation, for which th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 53",
+          "page": 53
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:49.768725Z"
+      },
+      "score": 1626.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 325.3,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 55,
+          "theorems": 24,
+          "lemmas": 60,
+          "propositions": 40,
+          "corollaries": 21,
+          "definitions": 4,
+          "displayed_equations": 100,
+          "bibliography_entries": 5.3,
+          "appendix_pages": 16
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21474",
       "version": 1,
       "title": "Fatness and Flatness",
