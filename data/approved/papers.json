@@ -42872,6 +42872,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17430",
+      "version": 1,
+      "title": "Critical thresholds and instantaneous norm inflation for super-diffusive integro-differential equations",
+      "authors": [
+        "Bruno de Andrade"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-19T22:36:48Z",
+        "updated": "2026-07-19T22:36:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This manuscript investigates the Cauchy problem for a class of nonlinear integro-differential equations governing anomalous super-diffusive transport in $\\mathbb{R}^N$. The linear dynamics are driven by a dual-scale memory kernel whose Laplace transform is sectorial and exhibits distinct power-law asymptotics at high and low frequencies. This super-diffusive structure precludes the infinite regularizing capacity characteristic of classical parabolic theory; consequently, the associated resolvent operator possesses a heavy algebraic tail in Fourier space, acting as a pseudo-differential operator in the Hörmander class $S^{-2}_{1,0}$ and restricting spatial smoothing. By establishing rigorous $L^q-L^p$ multiplier estimates, the critical Lebesgue threshold $q_c$ for local well-posedness is determined. To demonstrate the sharpness of this threshold, instantaneous norm inflation -- and consequent ill-posedness -- is proven in the supercritical regime $1 < q < q_c$. Furthermore, tracking the structural crossover to the long-time relaxation parameter resolves the global asymptotic dynamics. The nonlocal Fujita-type critical exponent $ρ_F$ is identified, and global-in-time existence along with algebraic decay is established for small initial data in intersection spaces, provided the nonlinearity remains supercritical and overcomes the structural algebraic barrier connecting the dual scales. This general framework applies directly to canonical physical models, including Cole-Cole fractional retardation and multi-scale Prabhakar memory.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17430v1",
+        "pdf": "https://arxiv.org/pdf/2607.17430v1",
+        "source": "https://export.arxiv.org/e-print/2607.17430v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 182,
+        "bibliography_entries": 38,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Superdiffusion_Fourier.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ately validates the sharpness of the supercritical ill-posedness threshold. Acknowledgement and declarations Bruno de Andrade is partially supported by CNPQ (grant 310384/2022-2) and FAPITEC/SE (grant 019203.01303/2024-1). Declaration of Generative AI and AI-assisted technologies in the writing process: During the preparation of this work, the author used Gemini to improve the English language. After using this tool, the author reviewed and edited the content as needed and take full res",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 33",
+          "page": 33
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:19.158446Z"
+      },
+      "score": 611.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 122.3,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 34,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 45.5,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17388",
       "version": 1,
       "title": "Mathematical Discovery in the Wild: AI-Guided Proofs in Banach Space Theory",
