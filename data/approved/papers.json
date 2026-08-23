@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12613",
+      "version": 1,
+      "title": "Tensor-Based Reduced-Order Modeling for Optimization-Based Inverse Problems",
+      "authors": [
+        "Sahidul Islam",
+        "Andreas Mang",
+        "Maxim Olshanskii"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T10:46:07Z",
+        "updated": "2026-07-14T10:46:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a tensor reduced-order modeling (TROM) framework for optimization-based inverse problems governed by parameter-dependent dynamical systems. The approach approximates the parameter-to-observation map directly in tensor-train format, using either TT-SVD or TT-Cross compression, and integrates the resulting representation into a regularized nonlinear least-squares formulation. Beyond accelerating forward evaluations, the low-rank tensor structure is used to reformulate the inverse problem in reduced coordinates, assemble the Gauss--Newton quantities without forming the full observation-space Jacobian, and perform TROM-based objective minimization over the discrete parameter grid. This tensor optimization step can be used either as a stand-alone approximate minimization procedure or as a data-informed initialization for a subsequent Gauss--Newton solve. The method is studied for two inverse problems: an inverse heat-transfer problem in a heterogeneous medium, where the unknown parameters describe the locations of multiple low-conductivity inclusions, and a FitzHugh--Nagumo parameter-estimation problem with a highly nonconvex optimization landscape. Numerical experiments assess the effects of ROM approximation error, measurement noise, regularization, initialization, spatial discretization, and increasing parameter dimension. The results show that TROM can reproduce the behavior of full-order inversion at a substantially reduced online cost. The experiments also demonstrate that reduced-coordinate inversion, tensor-based optimization, and appropriate regularization improve robustness in higher-dimensional, noisy, and strongly nonconvex regimes.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12613v1",
+        "pdf": "https://arxiv.org/pdf/2607.12613v1",
+        "source": "https://export.arxiv.org/e-print/2607.12613v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 73,
+        "bibliography_entries": 55,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ogate, espe- cially in higher parameter dimension. Once this surrogate is available, however, the online inverse solves are inexpensive. Disclosure of AI-assisted tools. During the preparation of this manuscript, the authors used the generative AI tools ChatGPT (OpenAI) and Claude (Anthropic) to assist with language and style editing, correction of typographical and grammatical errors, and the drafting of scripts. All mathematical developments, derivations, modeling, and analyses we",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:26.580525Z"
+      },
+      "score": 293.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 58.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 29,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 18.25,
+          "bibliography_entries": 5.5,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12461",
       "version": 1,
       "title": "Local flag algebras",
