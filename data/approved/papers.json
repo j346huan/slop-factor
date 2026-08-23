@@ -41850,6 +41850,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20055",
+      "version": 3,
+      "title": "The Gromov--Ros conjecture for rank-one symmetric spaces of noncompact type",
+      "authors": [
+        "David Kalaj"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T11:57:30Z",
+        "updated": "2026-08-16T09:44:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the Gromov--Ros conjecture for every rank-one symmetric space of noncompact type: finite-perimeter isoperimetric regions are precisely the geodesic balls, up to ambient isometry and null sets. The proof is organized uniformly in the root multiplicities $(p,q)$. We introduce the volume radius \\[ R(r)^n=n\\int_0^r\\sinh^{n-1}s\\,\\cosh^q s\\,ds, \\] which converts the polar volume form into $R^{n-1}dR\\,dσ$. Hence radial--angular stretches $R\\mapsto e^{t\\varphi(θ)}R$ have the exact Jacobian $e^{nt\\varphi}$. Starting from a volume geometric median, a log-partition correction produces an exactly volume-preserving family of global bi-Lipschitz stretches. The reduced-boundary area formula and the ambient cofactor yield a universal pointwise trace identity depending only on $(p,q)$ and the horizontal and vertical components of the measure-theoretic normal. Its specializations for $q=1,3,7$ admit explicit strict sign certificates, forcing the normal of an isoperimetric region to be radial almost everywhere. Isotropy invariance in BV and a one-dimensional weighted endpoint comparison then force a single ball. For complex hyperbolic space we additionally prove that every smooth bounded fixed-volume stable critical domain is a geodesic ball. The resulting complex-hyperbolic isoperimetric theorem removes the geometric hypothesis in several sharp weighted-Bergman contraction, Faber--Krahn, and Lieb--Wehrl inequalities, and their high-weight scaling limit recovers holomorphic Gaussian hypercontractivity.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20055v3",
+        "pdf": "https://arxiv.org/pdf/2607.20055v3",
+        "source": "https://export.arxiv.org/e-print/2607.20055v3"
+      },
+      "structural_counts": {
+        "pages": 58,
+        "theorems": 17,
+        "lemmas": 15,
+        "propositions": 4,
+        "corollaries": 8,
+        "definitions": 2,
+        "displayed_equations": 698,
+        "bibliography_entries": 27,
+        "appendix_pages": 11
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ns needed to audit the formulas by hand have been displayed above. Statements and declarations Competing interests. The author has no relevant financial or non-financial interests to disclose. Declaration of generative AI use During the preparation of this manuscript, the author used OpenAI’s ChatGPT (GPT-5.6 Sol) as an auxiliary tool for linguistic and stylistic editing, exploratory algebra, symbolic consistency checks, development and exposition of the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 56",
+          "page": 56
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:56.722132Z"
+      },
+      "score": 1852.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 463.2,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 58,
+          "theorems": 102,
+          "lemmas": 60,
+          "propositions": 16,
+          "corollaries": 24,
+          "definitions": 4,
+          "displayed_equations": 174.5,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 22
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20051",
       "version": 1,
       "title": "The Duval--Reiner Conjecture: Counterexamples and the Second Partial-Sum Inequality",
