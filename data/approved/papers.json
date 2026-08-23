@@ -8424,6 +8424,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17437",
+      "version": 1,
+      "title": "Spectral gap for unlabelled Ginibre Interacting Brownian motion",
+      "authors": [
+        "Kohei Suzuki"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math-ph",
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T07:13:21Z",
+        "updated": "2026-08-18T07:13:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We determine the exact spectral gaps for both the finite-particle and infinite-particle unlabelled Ginibre interacting Brownian motions. In every finite-particle system, the spectral gap is equal to one, whereas for the infinite-particle system it is equal to two. The infinite-particle dynamics therefore has a strictly larger spectral gap than any of its finite-particle counterparts, revealing an enhancement of spectral gaps in the passage from finite to infinite particle systems.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17437v1",
+        "pdf": "https://arxiv.org/pdf/2608.17437v1",
+        "source": "https://export.arxiv.org/e-print/2608.17437v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 135,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Ginibre_arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "pectral gap is at most 2. Together with (3.14), this proves that the sharp spectral gap is exactly 2. ■ Disclosure. Interactive discussions with an AI tool assisted in exploring proof ideas and polishing the language. All mathematical details were independently verified by the author, who takes full responsibility for their correctness. Ref",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:30.002399Z"
+      },
+      "score": 582,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 72.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 14,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 33.75,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17350",
       "version": 1,
       "title": "A 15/31 Counterexample Family to the Albertson-Berman Conjecture",
