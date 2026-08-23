@@ -41766,6 +41766,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21144",
+      "version": 2,
+      "title": "Some Integrability Properties of $m$-Subharmonic Functions",
+      "authors": [
+        "Genglong Lin"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T10:24:37Z",
+        "updated": "2026-08-07T12:02:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $1\\le m<n$ and let $u$ be an $m$-subharmonic function on a domain in $\\mathbb{C}^n$. We study local exponential and polynomial integrability, with particular attention to the sharp polynomial exponent predicted by Błocki's conjecture. Explicit radial examples show that direct analogues of the Guan--Zhou strong openness theorem and Skoda's integrability criterion formulated in terms of the $m$-Lelong number fail when $m<n$. We classify a family of radial power-logarithmic singularities and determine the exact $L^p$-integrability range for each member, including endpoint behavior. We resolve two problems posed by Benali--Ghiloufi. The normalized limit of the ball maximum always equals the $m$-Lelong number; this follows by combining their spherical-mean formula with the strong uniqueness theorem for tangents. The pointwise integrability exponent is lower semicontinuous in the base point. However, even when restricted to $SH_m$, it is not lower semicontinuous with respect to the $L^1_{\\loc}$ topology. We also disprove their polynomial openness conjecture using an explicit power-logarithmic endpoint example. Finally, we introduce a scale of local Hessian-capacity conditions, denoted by $C_{m,δ}$. The volume-capacity inequality and the layer-cake formula yield $$u\\in L^s_{loc}\\quad\\text{for every}\\quad s<\\frac{(m+δ)n}{n-m}.$$ The critical condition $\\mathrm C_{m,0}=\\mathrm C_m$ holds for negative functions of finite total Hessian mass with relatively compact deep sublevel sets, and for radial functions. More generally, functions in the energy class $\\mathcal E_{p,m}$ satisfy $\\mathrm C_{m,p}$, recovering the full Åhag--Czy{ż} Sobolev exponent. These results provide partial progress toward Błocki's conjecture, which has remained open for more than two decades.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21144v2",
+        "pdf": "https://arxiv.org/pdf/2607.21144v2",
+        "source": "https://export.arxiv.org/e-print/2607.21144v2"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 7,
+        "lemmas": 2,
+        "propositions": 4,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 98,
+        "bibliography_entries": 11,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file integrability_properties_m_subharmonic2026_polished.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "63 (2025), 1335–1346. [11] C. H. Lu and V.-D. Nguyen, Degenerate complex Hessian equations on compact Kähler manifolds, Indiana Univ. Math. J. 64 (2015), 1721–1745. Acknowledgments The author thanks BIMSA for its hospitality. ChatGPT (Ope- nAI) was used for language editing and exploratory discussion during preparation of the manuscript. The author is solely responsible for the mathematical content. 16",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:03.677787Z"
+      },
+      "score": 450.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 112.6,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 16,
+          "theorems": 42,
+          "lemmas": 8,
+          "propositions": 16,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 24.5,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20886",
       "version": 1,
       "title": "Maximal topological complexity of monotone symplectic 4-manifolds",
