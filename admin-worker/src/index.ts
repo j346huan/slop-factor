@@ -548,9 +548,14 @@ async function api(
   }
 
   if (pathname === "/api/candidates" && request.method === "GET") {
-    const issues = await githubPages<GitHubIssue>(
+    const url = new URL(request.url);
+    const requestedPage = Number(url.searchParams.get("page") ?? "1");
+    const page =
+      Number.isInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1;
+    const perPage = 50;
+    const issues = await github<GitHubIssue[]>(
       token,
-      `/repos/${env.GITHUB_REPOSITORY}/issues?state=all&labels=paper-candidate&per_page=100`,
+      `/repos/${env.GITHUB_REPOSITORY}/issues?state=all&labels=paper-candidate&per_page=${perPage}&page=${page}`,
     );
     const candidates: object[] = [];
     for (const issue of issues) {
@@ -560,7 +565,11 @@ async function api(
         // A malformed historical issue must not prevent the review queue from loading.
       }
     }
-    return json({ candidates });
+    return json({
+      candidates,
+      page,
+      has_more: issues.length === perPage,
+    });
   }
 
   if (pathname === "/api/site/deploy" && request.method === "POST") {
