@@ -8676,6 +8676,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12237",
+      "version": 1,
+      "title": "On the Turán Density of $C_{10}$ in the Hypercube",
+      "authors": [
+        "Marko Pejić"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T16:34:09Z",
+        "updated": "2026-08-12T16:34:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The $n$-dimensional hypercube $Q_n$ is the graph with vertex set $\\{0,1\\}^n$ in which two vertices are adjacent if they differ in exactly one coordinate. For a graph $H$, let $\\operatorname{ex}(Q_n,H)$ be the maximum number of edges in an $H$-free subgraph of $Q_n$. The hypercube Turán density of $H$ is defined by $π_{\\square}(H) = \\lim_{n \\rightarrow \\infty} \\operatorname{ex}(Q_n,H)/|E(Q_n)|$. In this short note, we prove \\[ π_{\\square}(C_{10})\\leq π_{\\square}(C_6). \\] Combined with Baber's upper bound on $π_{\\square}(C_6)$, this yields $π_{\\square}(C_{10})\\leq 0.36577$. Our proof first bounds the number of copies of $C_6$ in $C_{10}$-free subgraphs of $Q_n$, and then applies an averaging argument over the subcubes of $Q_n$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12237v1",
+        "pdf": "https://arxiv.org/pdf/2608.12237v1",
+        "source": "https://export.arxiv.org/e-print/2608.12237v1"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 10,
+        "bibliography_entries": 11,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "≤ . n − 1 e( Qn ) n−1 The last inequality follows since ex( Qn , C10 ) ≤ e( Qn ). This proves Corollary 3.1. Open Question. Is π□ (C10 ) = π□ (C6 )? AI Disclosure. OpenAI’s ChatGPT-5.6 Plus assisted in developing the connection between the C6 -counting argument and the subcube-averaging argument as used in the final part of the proof of Theorem 1.1. That part was subsequently checked, shortened, and reworked by the a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:09.752190Z"
+      },
+      "score": 156.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 19.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 4,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 2.5,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12188",
       "version": 1,
       "title": "Integrability of Freely Infinitely Divisible Distributions and Lévy Measures",
