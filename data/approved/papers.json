@@ -44328,6 +44328,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24566",
+      "version": 1,
+      "title": "Aomoto interpolation and Coxeter systems",
+      "authors": [
+        "Ángel D. Martínez",
+        "Oscar Ortega-Moreno"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": [
+          "math.AG",
+          "math.CO",
+          "math.FA",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T15:34:57Z",
+        "updated": "2026-07-27T15:34:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we construct a Lagrange-type basis for the Aomoto space $AO(\\mathcal A)$, naturally indexed by the chambers of the hyperplane arrangement $\\mathcal A$. The construction relies on a dimension theorem of Orlik and Terao and yields an interpolation formula for elements of $AO(\\mathcal A)$. We use this formula to characterize the extremal configurations in the strong polarization inequality as those arising from finite Coxeter reflection systems. We further show that the interpolation formula gives rise to a family of \\emph{chamber identities}, including identities that were central to our earlier proof of the strong polarization problem and the Gaussian product inequality. Finally, we adapt the recent breakthrough of Ouimet and Greaves to prove a generalized Gaussian Product Inequality for completely monotone functions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24566v1",
+        "pdf": "https://arxiv.org/pdf/2607.24566v1",
+        "source": "https://export.arxiv.org/e-print/2607.24566v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 9,
+        "lemmas": 9,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 2,
+        "displayed_equations": 87,
+        "bibliography_entries": 38,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Aomoto_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ed author was visiting Bruno Staffa at the Max Planck Institute for Mathematics (at Bonn). He is grateful to them for their support and hospitality. The authors acknowledge the use of Artificial Intelligence in the form of interaction with Large Language Models both in the research and drafting of this manuscript. References [1] M. L. Agranovsky and Y. Krasnov. Quadratic divisors of harmonic polynomials in Rn . Journal d’Analyse Mathématique, 82(1):379–395, Dec. 2000. [2] K. Aomoto and P. J",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:54.436228Z"
+      },
+      "score": 752.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 150.55,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 16,
+          "theorems": 54,
+          "lemmas": 36,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 4,
+          "displayed_equations": 21.75,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24540",
       "version": 1,
       "title": "Density-Dependent Operators on Density-Projection Condensation Spaces: Ambient Extensions, Zero-Density Defects, and Stability",
