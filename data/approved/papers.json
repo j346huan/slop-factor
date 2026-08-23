@@ -41940,6 +41940,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25616",
+      "version": 1,
+      "title": "Stealthy point processes and lattice induction",
+      "authors": [
+        "Michael Björklund"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T11:45:42Z",
+        "updated": "2026-07-28T11:45:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a realization theorem for stealthy point processes based on lattice induction, together with a converse in dimension one. Every probability-preserving $\\mathbb R^d$-action induced from a full-rank lattice admits a generating Delone cross-section whose Bartlett spectrum vanishes on a neighborhood of the origin. The construction can be chosen so that first-order linear statistics detect a nonzero part of the inducing spectral type. Bernoulli bases yield a nonzero absolutely continuous component, while weakly mixing bases of singular maximal spectral type yield a nonzero singular-continuous component. To our knowledge, these are the first rigorously constructed translation-invariant stealthy point processes on $\\mathbb R^d$ with non-pure-point Bartlett spectrum. Conversely, let $η$ be an ergodic translation-invariant point process on $\\mathbb R$ with positive intensity and local second moments. If \\[ \\int_{0<|ξ|<1}\\frac{1}{ξ^2}\\,dσ_η(ξ)<\\infty, \\] then its translation action has a nonzero eigenvalue and is lattice-induced. Consequently, an ergodic probability-preserving Borel $\\mathbb R$-space is lattice-induced if and only if it admits a generating stealthy Delone cross-section. This should be compared with a theorem of Borichev, Sodin and Weiss stating that a translation-invariant point process on $\\mathbb Z$ with proper spectral support is periodic.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25616v1",
+        "pdf": "https://arxiv.org/pdf/2607.25616v1",
+        "source": "https://export.arxiv.org/e-print/2607.25616v1"
+      },
+      "structural_counts": {
+        "pages": 57,
+        "theorems": 16,
+        "lemmas": 7,
+        "propositions": 11,
+        "corollaries": 11,
+        "definitions": 5,
+        "displayed_equations": 560,
+        "bibliography_entries": 52,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file B_StealthyPointProcesses_Submit_Arxiv_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ateful to Mattias Byléhn, Alexander Fish, Tobias Hartnick, Pavel Kurasov, Günter Last, Luca Lotz, and Michael Klatt for valuable discussions related to this work. Use of AI tools During the preparation of this manuscript, the author used ChatGPT (OpenAI, GPT-5.6 Sol) for exploratory mathematical discussion, organization, and drafting assistance, and Aristotle (Harmonic) as an additional informal check on selected arguments. All AI-assisted material was independently verified and e",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:05.086372Z"
+      },
+      "score": 3305.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 413.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 57,
+          "theorems": 96,
+          "lemmas": 28,
+          "propositions": 44,
+          "corollaries": 33,
+          "definitions": 10,
+          "displayed_equations": 140,
+          "bibliography_entries": 5.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25598",
       "version": 2,
       "title": "Projective Ore-Degree Conditions for Intersection Theorems in Vector Spaces",
