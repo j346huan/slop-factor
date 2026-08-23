@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15281",
+      "version": 1,
+      "title": "A Ten-Vertex Counterexample to a Conjecture on Unstable Graphs",
+      "authors": [
+        "Prateek R. Srivastava"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-15T15:26:34Z",
+        "updated": "2026-08-15T15:26:34Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Mizzi conjectured that every nontrivially unstable graph contains cycles C_k and C_{2k} for some odd k. We give a connected, nonbipartite, vertex-determining counterexample on ten vertices. Its instability is certified by an explicit nontrivial two-fold automorphism, and its complete set of simple-cycle lengths is {5,5,6}.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15281v1",
+        "pdf": "https://arxiv.org/pdf/2608.15281v1",
+        "source": "https://export.arxiv.org/e-print/2608.15281v1"
+      },
+      "structural_counts": {
+        "pages": 2,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 8,
+        "bibliography_entries": 2,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nstructs the graph from (2), checks all ten neighbourhood identities, checks the induced automorphism of the canonical double cover, and enumerates every simple cycle. The example, verifier, and drafting were developed with assistance from OpenAI Codex. The proof above is self-contained, and the author takes responsibility for all claims. References [1] J. Lauri, R. Mizzi, and R. Scapellato, Unstable graphs: a fresh outlook via TF-automorphisms, Ars Math. Contemp. 8 (2015), 1",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:38.511619Z"
+      },
+      "score": 51,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 10.2,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 2,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2,
+          "bibliography_entries": 0.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15093",
       "version": 1,
       "title": "The Awareness Logic of Ambiguity (ALA): Triadic Interpretive States and Their Structure-Preserving Operational Core",
