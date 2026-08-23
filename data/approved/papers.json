@@ -42022,6 +42022,97 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15941",
+      "version": 1,
+      "title": "Generalized Nordhaus--Gaddum Inequalities for Eigenvalues",
+      "authors": [
+        "Sahil Agarwal",
+        "Carter Antley",
+        "Joseph Aulenbacher",
+        "George Brooks",
+        "Ian Gonzalez",
+        "Luke Hawranick",
+        "William Linz",
+        "Linyuan Lu",
+        "Aiden Williams"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T13:24:33Z",
+        "updated": "2026-07-17T13:24:33Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a graph $G$, let $ λ_1(G)\\ge λ_2(G)\\ge \\cdots \\ge λ_n(G)$ denote the adjacency eigenvalues of $G$. We investigate the asymptotic maximum of \\[ λ_i(G)+λ_j(\\overline G) \\] for fixed $i$ and $j$. We prove general bounds on $λ_i(G) + λ_{j}(\\overline{G})$ for all pairs $(i, j)$ and also give general bounds on the related problem of minimizing $λ_{n-i+1}(G) + λ_{n-j+1}(\\overline{G})$ for fixed $i$ and $j$. We prove that for all looped graphs $G$ on $n$ vertices, \\[λ_1(G) + λ_2(\\overline{G}) \\le \\frac87 n. \\] Our method also gives a new short proof of the Nordhaus-Gaddum result for the spectral radius proved by Terpai that $λ_1(G) + λ_1(\\overline{G}) \\le \\frac43n - 1$. We also show the close relation of these Nordhaus-Gaddum type problems to recent work on the maximum spectral gaps of graphs by Brooks, Linz and Lu.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15941v1",
+        "pdf": "https://arxiv.org/pdf/2607.15941v1",
+        "source": "https://export.arxiv.org/e-print/2607.15941v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 11,
+        "lemmas": 5,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 99,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "or 8. Similarly, G2 has 13 vertices and each of them has degree either 6 or 7. From the matrix perspective, this means that each row of the adjacency matrices has as close as possible to the same number of ones and zeros. Acknowledgement ChatGPT 5.5 was used to help with several of the computations. ChatGPT 5.5 Pro also generated the proof idea for a special case of Lemma 16. All of the writing was done by the authors, and we take full responsibility for the contents of the paper.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:00.632530Z"
+      },
+      "score": 1159.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 144.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 66,
+          "lemmas": 20,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 24.75,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15894",
       "version": 1,
       "title": "The minimum surface area of $k$ unequal boxes tiling a cube: sharp thresholds, a fault-free law, and a reduction to two dimensions",
