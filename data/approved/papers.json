@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16547",
+      "version": 1,
+      "title": "Hyperuniform Delone Realizations and Rigidity",
+      "authors": [
+        "Michael Björklund"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T13:19:07Z",
+        "updated": "2026-08-17T13:19:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a measurable realization theorem for hyperuniform Delone point processes. In dimensions \\(d\\geq2\\), for every prescribed \\(q\\geq1\\), every essentially free ergodic p.m.p.\\ action of \\(\\mathbb R^d\\) admits, at every sufficiently large prescribed intensity, a generating Delone realization whose return-time point process \\(η\\) is measurably isomorphic to the original action and whose Bartlett spectrum \\(σ_η\\) satisfies \\[ σ_η(B_\\varepsilon)=o(\\varepsilon^{2q}) \\qquad(\\varepsilon\\downarrow0). \\] Thus arbitrarily high finite-order low-frequency suppression can be imposed without changing the prescribed measurable dynamics. The same realizations can be chosen with surface-order ball variance and linear rigidity to any prescribed finite order, while also being maximally rigid and almost surely bounded-displacement equivalent to a lattice. For essentially free Euclidean-motion actions whose translation subaction is ergodic, the construction can be made isotropic and \\(V\\)-ergodic, and hence \\(V\\)-weakly mixing. In dimension one, every essentially free ergodic flow admits generating Delone realizations with logarithmic interval discrepancy, maximal rigidity, and near-quadratic decay of the Bartlett spectrum at the origin.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16547v1",
+        "pdf": "https://arxiv.org/pdf/2608.16547v1",
+        "source": "https://export.arxiv.org/e-print/2608.16547v1"
+      },
+      "structural_counts": {
+        "pages": 66,
+        "theorems": 4,
+        "lemmas": 17,
+        "propositions": 23,
+        "corollaries": 6,
+        "definitions": 0,
+        "displayed_equations": 565,
+        "bibliography_entries": 49,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file B_HyperuniformRealization_Submit.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tasets were generated or analysed during the current study. Use of artificial-intelligence tools. The author used ChatGPT (OpenAI) during the preparation of the manuscript for editorial assistance and consistency checking, and used Claude (Anthropic), Gemini (Google DeepMind), and Aristotle (Harmonic) as additional tools for independent manuscript and proof audits. Aristotle was also used to formally check several isolated algebraic and analytic computations. All outputs were independ",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 65",
+          "page": 65
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:28.125446Z"
+      },
+      "score": 3313.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 414.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 66,
+          "theorems": 24,
+          "lemmas": 68,
+          "propositions": 92,
+          "corollaries": 18,
+          "definitions": 0,
+          "displayed_equations": 141.25,
+          "bibliography_entries": 4.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16398",
       "version": 1,
       "title": "On The Eaton-Moretó Conjecture for Principal Blocks of Finite Groups",
