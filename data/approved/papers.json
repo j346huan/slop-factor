@@ -42190,6 +42190,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19106",
+      "version": 1,
+      "title": "A Two-Fluxes Stochastic Model of Traffic Waves",
+      "authors": [
+        "Alberto Bressan",
+        "Sumantha Kanale Suresha"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T13:47:53Z",
+        "updated": "2026-07-21T13:47:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The paper introduces a stochastic model for the spontaneous formation of traffic waves on a highway. This is formulated in terms of a conservation law with discontinuous, gradient-dependent flux. In an unstable regime, the non-uniqueness of solutions allows for the emergence of $N$-shaped spikes in the traffic density, at random points and times. Bounds are proved on the expected value of the total variation of the random solution and on the expected number of shocks. Further bounds are obtained on the average velocity and on the expected average acceleration of cars, along a given stretch of highway. Finally, it is proved that the Markov process, whose paths are random solutions to the conservation law, admits a unique stationary probability distribution and is ergodic.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19106v1",
+        "pdf": "https://arxiv.org/pdf/2607.19106v1",
+        "source": "https://export.arxiv.org/e-print/2607.19106v1"
+      },
+      "structural_counts": {
+        "pages": 38,
+        "theorems": 4,
+        "lemmas": 3,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 4,
+        "displayed_equations": 244,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "scussions and suggestions, which were instrumental in establishing the ergodicity of the stochastic process. They also wish to thank Rinaldo Colombo for his help in writing the Python code used in the numerical simulations, with the aid of chatGPT. References [1] D. Amadori, A. Bressan and W. Shen, Conservation laws with discontinuous gradient- dependent flux: the stable case. Math. Models Methods Appl. Sci. 35 (2025), 1421– 1469. [2] D. Amadori, A. Bressan and W. She",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 36",
+          "page": 36
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:01.117315Z"
+      },
+      "score": 496.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 165.4,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 38,
+          "theorems": 24,
+          "lemmas": 12,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 8,
+          "displayed_equations": 61,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19075",
       "version": 1,
       "title": "From Operations to Elderly Care Outcomes: A Thematic Review of Industrial Engineering and Decision-Support Approaches",
