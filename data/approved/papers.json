@@ -9184,6 +9184,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17365",
+      "version": 1,
+      "title": "A Counting Lemma for Somewhat Restricted 3-APs",
+      "authors": [
+        "Amey Bhangale",
+        "Subhash Khot",
+        "Yang P. Liu",
+        "Dor Minzer"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.CC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T04:37:02Z",
+        "updated": "2026-08-18T04:37:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a prime $p\\geq 3$, a somewhat restricted $3$-AP in $\\mathbb{F}_p^n$ is a triplet $(x,x+a,x+2a)$, where $x\\in\\mathbb{F}_p^n$ and $a\\in \\{0,1,2\\}^n$. We prove a counting lemma for somewhat restricted $3$-APs in dense sets in $\\mathbb{F}_p^n$. More precisely, we prove that for all $α>0$, there exists $β>0$, such that for sufficiently large $n$, if a set $A\\subseteq \\mathbb{F}_p^n$ has density at least $α$, then it contains at least $β$ fraction of all somewhat restricted $3$-APs. Our proof builds on recently developed machinery from [Bhangale, Khot, Minzer, 2026]. Our main new ingredient is an arithmetic regularity lemma for patterns such as somewhat restricted 3-APs. This result is in the spirit of arithmetic regularity lemmas from the theory of Gowers uniformity norms [Green, Tao, 2010] and may be of independent interest.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17365v1",
+        "pdf": "https://arxiv.org/pdf/2608.17365v1",
+        "source": "https://export.arxiv.org/e-print/2608.17365v1"
+      },
+      "structural_counts": {
+        "pages": 58,
+        "theorems": 5,
+        "lemmas": 16,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 26,
+        "displayed_equations": 252,
+        "bibliography_entries": 38,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "n the spirit of rank discussed above (see Definitions 2.13 and 2.14). Finally, in Section 5 we show how to use our arithmetic regularity lemma in conjunction with the invariance principle to prove Theorem 1.4. Statement of AI use: we used ChatGPT 5.5 during the polishing of this write-up, and to write the proofs from Section A. All other mathematical content in this paper is due to the authors. 2 Preliminaries Notations. For a vector x ∈ Σn and a subset I ⊆ [n] of coordinates,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:01.409191Z"
+      },
+      "score": 2581.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 286.8,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 58,
+          "theorems": 30,
+          "lemmas": 64,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 52,
+          "displayed_equations": 63,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17350",
       "version": 1,
       "title": "A 15/31 Counterexample Family to the Albertson-Berman Conjecture",
