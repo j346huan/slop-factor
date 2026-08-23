@@ -8929,6 +8929,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08565",
+      "version": 1,
+      "title": "The $q<1$ Random-Cluster Model on Wired Trees: Uniqueness and Negative Dependence",
+      "authors": [
+        "Heehyun Park"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T08:08:59Z",
+        "updated": "2026-08-09T08:08:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The random-cluster model with cluster weight $0<q<1$ is expected to exhibit negative dependence, but without FKG even pairwise negative correlation remains open on general graphs. We study the model on the infinite $Δ$-regular tree with wired boundary conditions. Write $\\widehat p:=p/(p+q(1-p))$ and $p_{\\mathsf c}:=q/(Δ+q-2)$. Classical results identify the product wired state for $p\\le p_{\\mathsf c}$ and construct a percolative all-wired limit for $p>p_{\\mathsf c}$. We prove that the supercritical wired DLR specification has a unique Gibbs measure, namely this all-wired limit. Consequently, the wired DLR phase diagram is complete: the unique measure is Bernoulli bond percolation with parameter $\\widehat p$ for $p\\le p_{\\mathsf c}$, while it percolates for $p>p_{\\mathsf c}$. We also establish negative dependence across wired branches. On a finite wired tree, the vector of branch-connectivity indicators satisfies conditional negative association under positive external fields (CNA+). Hence bounded increasing observables supported on disjoint collections of branches incident to a common vertex have nonpositive covariance. The same inequality holds in the unique infinite-volume wired measure for every $p$, with equality for $p\\le p_{\\mathsf c}$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08565v1",
+        "pdf": "https://arxiv.org/pdf/2608.08565v1",
+        "source": "https://export.arxiv.org/e-print/2608.08565v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 7,
+        "lemmas": 11,
+        "propositions": 3,
+        "corollaries": 4,
+        "definitions": 5,
+        "displayed_equations": 137,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ge sets. The argument requires a vertex whose incident branches separate the supports of the two observ- ables. Such a vertex need not exist for general disjoint supports. Disclosure of generative AI use OpenAI’s ChatGPT was used to assist with English-language editing, exposition, and pre- submission review of the manuscript. All mathematical ideas, arguments, and results are the author’s own, and the author takes full responsibility for the contents of t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:02:27.052922Z"
+      },
+      "score": 754.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 188.65,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 32,
+          "theorems": 42,
+          "lemmas": 44,
+          "propositions": 12,
+          "corollaries": 12,
+          "definitions": 10,
+          "displayed_equations": 34.25,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08538",
       "version": 1,
       "title": "The Mathieu group $M_{23}$ is a Galois group over $\\mathbb{Q}$",
