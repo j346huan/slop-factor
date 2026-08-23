@@ -8508,6 +8508,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17456",
+      "version": 1,
+      "title": "Non-unique $L^2$ solutions to the stationary Navier--Stokes equations on the whole plane",
+      "authors": [
+        "Mikihiro Fujii"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T07:35:31Z",
+        "updated": "2026-08-18T07:35:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that, for a suitable small external force in $\\dot H^{-2}(\\mathbb R^2)$, the stationary Navier--Stokes equations on $\\mathbb R^2$ admit multiple solutions in $L^2(\\mathbb R^2)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17456v1",
+        "pdf": "https://arxiv.org/pdf/2608.17456v1",
+        "source": "https://export.arxiv.org/e-print/2608.17456v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 1,
+        "lemmas": 15,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 166,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file v5-13.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2,q 2,q which completes the proof. Acknowledgments. The author was supported by JSPS KAKENHI, Grant Number JP25K17279. Dur- ing the initial brainstorming stage of this research, the author used ChatGPT 5.6 Pro, whereas the author carried out all calculations and assumes full responsibility for all contents. Conflict of interest. The author declares no conflict of interest. Data availability. No data were generated or analyzed in this stu",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:41.447193Z"
+      },
+      "score": 289,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 144.5,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 25,
+          "theorems": 6,
+          "lemmas": 60,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 41.5,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17437",
       "version": 1,
       "title": "Spectral gap for unlabelled Ginibre Interacting Brownian motion",
