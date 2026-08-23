@@ -8425,6 +8425,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10488",
+      "version": 1,
+      "title": "Tensor-normal maximum likelihood estimation at the operator-norm sample threshold",
+      "authors": [
+        "Hengzhi He",
+        "Guang Cheng"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T05:03:38Z",
+        "updated": "2026-08-11T05:03:38Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $X_1,\\ldots,X_n$ be independent Gaussian tensors in $\\mathbb{R}^{d_1}\\otimes\\cdots\\otimes\\mathbb{R}^{d_k}$ whose covariance is a Kronecker product of $k$ unknown positive-definite factors, and put $D=\\prod_{a=1}^k d_a$ and $d_{\\max}=\\max_a d_a$. A recent result of Franks et al. (2026) established condition-number-free nonasymptotic guarantees for the tensor-normal maximum likelihood estimator under the sample threshold $nD\\gtrsim k^2 d_{\\max}^3$. They asked whether the cubic dependence on $d_{\\max}$ could be replaced by the operator-norm scale $d_{\\max}^2$. We answer this question affirmatively. We prove that, for $t\\geq 1$, the maximum likelihood estimator exists uniquely with high probability whenever $nD\\geq Ck^2 d_{\\max}^2 t^2$, and satisfies $d_{\\mathrm{FR}}(\\widehatΘ,Θ)\\leq Ct\\sqrt{k}\\,d_{\\max}/\\sqrt{n}$ and $d_{\\mathrm{FR}}(\\widehatΘ_a,Θ_a)\\leq Ct\\sqrt{k d_a}\\,d_{\\max}/\\sqrt{nD}$. For every mode of largest dimension, we also obtain the sharp Thompson bound $d_{\\mathrm{op}}(\\widehatΘ_a,Θ_a)\\leq Ct\\,d_{\\max}/\\sqrt{nD}$. No sparsity, condition-number bound or warm start is assumed. For fixed $k$, the threshold has the information-theoretically optimal dependence on $d_{\\max}$, and the displayed rates for the full precision and the largest factor match Gaussian minimax lower bounds up to a factor $\\sqrt{k}$. The proof extends a random Gram bound for local group-orbit directions to the full local Lie algebra, transports it to a fixed Thompson ball by exact conjugation, and combines sensitivity of a constrained maximum likelihood estimator with an equivariant Kirszbraun extension and Gaussian concentration. This removes the Frobenius-to-operator loss responsible for the previous extra factor $d_{\\max}$ and resolves the explicit open problem posed in the earlier work.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10488v1",
+        "pdf": "https://arxiv.org/pdf/2608.10488v1",
+        "source": "https://export.arxiv.org/e-print/2608.10488v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 86,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "previous extra factor dmax and resolves the explicit open problem posed in the earlier work. The proof was developed with substantial assistance from GPT-5.6 and Claude Fable 5, and was manually checked by the authors. Some key words: geodesic convexity; Kronecker covariance; maximum likelihood; operator norm",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:00.546524Z"
+      },
+      "score": 680,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 68,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 16,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 21.5,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10482",
       "version": 1,
       "title": "Predicting Diagonalizability of a Mean Matrix",
