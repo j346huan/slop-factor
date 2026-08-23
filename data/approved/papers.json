@@ -41766,6 +41766,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18746",
+      "version": 1,
+      "title": "Polynomiality of Stretched Schubert Structure Constants and Key Coefficients",
+      "authors": [
+        "Per Alexandersson"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.AG",
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T06:11:08Z",
+        "updated": "2026-07-21T06:11:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that monomial coefficients in affine families of key and Schubert polynomials are eventually polynomial. The proof combines Demazure operators with vector partition functions and, in the Schubert case, P.~Magyar's orthodontic formula. These coefficient results extend to finite products. Using M.~Watanabe's Schubert duality, we deduce that stretched Schubert structure constants are eventually polynomial, proving a conjecture of I.~Pak and Z.~Slonim. For key polynomials, this resolves the polynomiality part of a conjecture of P.~Alexandersson and E.~Alhajjar.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18746v1",
+        "pdf": "https://arxiv.org/pdf/2607.18746v1",
+        "source": "https://export.arxiv.org/e-print/2607.18746v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 6,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 55,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file key-schubert-kostka-ALEXANDERSSON-revised.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "formula in the three partition parameters [Ras04]. Acknowledgments We thank Igor Pak for asking about polynomiality of stretched Schubert coefficients; that question was the starting point for this paper. OpenAI’s Codex was used during the preparation of this paper for proof exploration and editorial assistance. References [AA19] Per Alexandersson and Elie Alhajjar. Ehrhart positivity and Demazure characters.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:59:53.791848Z"
+      },
+      "score": 790.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 98.85,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 14,
+          "theorems": 36,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 13.75,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18694",
       "version": 1,
       "title": "A Local Classification of Four-Element Multiple Sumsets",
