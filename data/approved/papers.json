@@ -8340,6 +8340,96 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14506",
+      "version": 1,
+      "title": "Nodal discontinuous Galerkin methods for non-ideal equations of state: pressure equilibrium preservation and entropy correction",
+      "authors": [
+        "Jesse CHan",
+        "Hendrik Ranocha",
+        "Raymond Park",
+        "Joshua Lampert",
+        "Eric Ching",
+        "Ayaboe Edoh"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "cs.CE"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T17:22:04Z",
+        "updated": "2026-08-14T17:22:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Structure-preserving discontinuous Galerkin (DG) methods typically improve the robustness of high order simulations of real fluids. In addition to conservation, key structures include the preservation of pressure equilibrium and satisfaction of at least one entropy inequality. In this work, we investigate conservative discretizations using exactly pressure equilibrium conserving (EPEC) and approximately pressure equilibrium conserving (APEC) flux differencing DG formulations, as well as entropy stable formulations through the use of minimally dissipative corrections for non-ideal equations of state (EOS). We introduce an analysis of EPEC schemes and a new procedure for designing such fluxes based on a generalization of Tadmor's shuffle condition. We also analyze APEC DG schemes and show that the incorporation of dissipative interface penalization terms does not significantly increase pressure equilibrium errors, especially at higher orders of approximation. Finally, we observe that when combined with APEC flux differencing formulations, entropy correction improves robustness for under-resolved solutions and long-time simulations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14506v1",
+        "pdf": "https://arxiv.org/pdf/2608.14506v1",
+        "source": "https://export.arxiv.org/e-print/2608.14506v1"
+      },
+      "structural_counts": {
+        "pages": 38,
+        "theorems": 0,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 94,
+        "bibliography_entries": 308,
+        "appendix_pages": 11
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "dge the Texas Advanced Computing Center (TACC) at The University of Texas at Austin for providing computational resources that have contributed to the research results reported within this paper. Finally, the authors acknowledge the use of AI tools such as Cursor in the data analysis and preparation of figures for this manuscript. 27",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:40.683545Z"
+      },
+      "score": 354.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 118.3,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 38,
+          "theorems": 0,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 23.5,
+          "bibliography_entries": 30.8,
+          "appendix_pages": 22
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14497",
       "version": 1,
       "title": "Hybrid Dealiasing and Implicit Packing for Real Convolutions",
