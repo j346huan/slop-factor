@@ -121,6 +121,7 @@ async function applyDecisionFile(file) {
   } catch {
     throw new Error("Decision file is not valid JSON");
   }
+  await loadCandidates();
   const { decisions, skipped, errors } = validatedDecisions(value);
   const failures = [...errors];
   let applied = 0;
