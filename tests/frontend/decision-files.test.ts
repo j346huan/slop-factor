@@ -116,7 +116,7 @@ describe("pending decision files", () => {
     assert.equal(result.multiplier, 5);
   });
 
-  it("skips non-pending papers and collects errors without stopping", () => {
+  it("skips non-pending papers, accepts quotation overrides, and continues", () => {
     const approved = {
       ...pending,
       candidate_id: "2608.00002v1",
@@ -145,9 +145,9 @@ describe("pending decision files", () => {
     assert.deepEqual(result.skipped, [
       { arxiv_id: approved.candidate_id, reason: "not pending" },
     ]);
-    assert.equal(result.errors.length, 1);
-    assert.match(result.errors[0].error, /do not match exported evidence/);
-    assert.equal(result.decisions.length, 1);
-    assert.equal(result.decisions[0].candidate, laterPending);
+    assert.equal(result.errors.length, 0);
+    assert.equal(result.decisions.length, 2);
+    assert.equal(result.decisions[0].quotation, "Different passage");
+    assert.equal(result.decisions[1].candidate, laterPending);
   });
 });

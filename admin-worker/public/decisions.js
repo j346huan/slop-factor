@@ -78,7 +78,8 @@ export function validateDecisionInput(value, candidates, classifications) {
           ? evidence.page === null || evidence.page === undefined
           : Number(evidence.page) === page);
       let evidenceIndex = candidate.evidence.findIndex(
-        (evidence) => evidence.quotation === quotation && locationMatches(evidence),
+        (evidence) =>
+          evidence.quotation === quotation && locationMatches(evidence),
       );
       if (evidenceIndex < 0) {
         evidenceIndex = candidate.evidence.findIndex(locationMatches);
