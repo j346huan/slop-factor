@@ -42446,6 +42446,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17163",
+      "version": 2,
+      "title": "Iwahori component of the Gelfand--Graev representation for reductive groups",
+      "authors": [
+        "Yi Luo"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-19T09:51:20Z",
+        "updated": "2026-07-31T07:41:05Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $G$ be a connected reductive group over a $p$-adic field $F$, $U$ the unipotent radical of a minimal parabolic subgroup, $ψ$ a depth-zero non-degenerate character of $U(F)$, and $I$ an Iwahori subgroup of $G(F)$. We show that, as a module over the Iwahori-Hecke algebra ${H}$, the space of $I$-fixed vectors in the Gelfand-Graev representation $\\mathrm{ind}_U^Gψ$ is isomorphic to ${H} \\otimes_{{H}_{W_0}} \\mathrm{sgn}$. Here $\\mathrm{sgn}$ is the sign representation of the finite Hecke subalgebra ${H}_{W_0}$ attached to the relative Weyl group. This extends the theorem of Chan-Savin from split groups to all connected reductive groups.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17163v2",
+        "pdf": "https://arxiv.org/pdf/2607.17163v2",
+        "source": "https://export.arxiv.org/e-print/2607.17163v2"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 2,
+        "lemmas": 6,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 41,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file gcs-compact.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "T OOL AND COMPUTATIONAL RESOURCE DISCLOSURE When preparing this paper, we used AI tools at two levels. At the model level, we used the Anthropic large language models Claude Opus 4.8 and Claude Fable 5. At the agent level, we used Claude Code and a custom agent built by the author for mathematical research. These tools drafted parts of the text, revised the exposition, and checked the citations. The human author verified all mathematical content and takes full responsibili",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:38.857381Z"
+      },
+      "score": 698.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 87.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 15,
+          "theorems": 12,
+          "lemmas": 24,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 10.25,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17114",
       "version": 2,
       "title": "On the wreath transfer in the homology of symmetric groups",
