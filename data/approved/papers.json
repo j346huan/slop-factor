@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14444",
+      "version": 1,
+      "title": "The analogue of Belinskaya's theorem for measure-preserving flows",
+      "authors": [
+        "Konstantin Slutsky"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T00:36:25Z",
+        "updated": "2026-07-16T00:36:25Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove the analogue of Belinskaya's theorem for measure-preserving flows: two free ergodic measure-preserving flows whose $\\mathrm{L}^1$ full groups are isomorphic as abstract groups are conjugate up to a scalar time change. This answers a question posed by François Le Maître and the author. We show that whenever two free ergodic flows generate the same orbit equivalence relation and one is contained in the other's $\\mathrm{L}^1$ full group, their positive half-orbits are commensurate after possibly reversing time. Katznelson's criterion then yields conjugacy after a scalar time change. The key new ingredient is a commensuration criterion asserting that a measurable subset of the real line whose symmetric differences with its translates have finite average measure over the unit interval is commensurate with exactly one of the empty set, the whole line, and the two half-lines. This criterion and its application were discovered autonomously by a two-agent AI system. The author independently verified the proofs and prepared the final text.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14444v1",
+        "pdf": "https://arxiv.org/pdf/2607.14444v1",
+        "source": "https://export.arxiv.org/e-print/2607.14444v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 42,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file belinskaja-theorem-flows.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "mulated the task, configured and initiated the loop, independently verified every mathematical step, edited the final proofs, and assumes full responsibility for the manuscript. Proofreading and stylistic editing were performed with Codex (GPT-5.6-sol, OpenAI). 2. A commensuration criterion For measurable sets A, B ⊆ R, write A △ B = (A \\ B) ∪ (B \\ A) for their symmetric difference. The sets are commensurate if",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:43.371144Z"
+      },
+      "score": 162,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 40.5,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 9,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 10.5,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14312",
       "version": 2,
       "title": "The role of expanders in the spectral geometry of metric graphs",
