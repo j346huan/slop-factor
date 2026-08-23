@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12432",
+      "version": 1,
+      "title": "Generation of finite groups from subgroups of coprime index",
+      "authors": [
+        "Richie Sater"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T12:44:56Z",
+        "updated": "2026-08-12T12:44:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $d(G)$ denote the least size of a generating set of a finite group $G$. We prove that if $G$ has a family $\\mathcal H$ of subgroups such that $d(H)\\leq d$ for every $H\\in\\mathcal H$ and $\\gcd\\{\\lvert G:H\\rvert:H\\in\\mathcal H\\}=1$, then $d(G)\\leq d+1$. This gives an affirmative answer to Kourovka Problem 21.87. The proof reduces a minimal counterexample to a critical crown-based power with nonabelian socle. An exact crown multiplicity formula and a uniform lower bound for conditional generation give a lower bound for the number of crown factors. A subgroup containing a Sylow $2$-subgroup gives the contradictory upper bound, via a pointwise centralizer estimate for Sylow $2$-subgroups of finite simple groups.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12432v1",
+        "pdf": "https://arxiv.org/pdf/2608.12432v1",
+        "source": "https://export.arxiv.org/e-print/2608.12432v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 1,
+        "lemmas": 5,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 26,
+        "bibliography_entries": 11,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "al generation, and generation of simple groups depend on the classification of finite simple groups. A literature search conducted before submission found no earlier paper asserting this conclusion, but this does not establish priority. OpenAI Codex was used for literature organization, proof stress-testing, and editorial assistance. The author is responsible for all content and mathematical claims in this manuscript. References 1. Timothy C",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:24.864971Z"
+      },
+      "score": 484.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 60.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 7,
+          "theorems": 6,
+          "lemmas": 20,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 6.5,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11990",
       "version": 1,
       "title": "On spanning trees whose degrees are congruent to one modulo $\\ell$",
