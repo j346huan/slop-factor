@@ -11571,6 +11571,96 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16967",
+      "version": 1,
+      "title": "Meshfree Snow Modelling using a Modified Cam-Clay Approach",
+      "authors": [
+        "Erik Schlesinger",
+        "Chaitanya Sanghavi",
+        "Jörg Kuhnert",
+        "Carsten Schilde",
+        "Pratik Suchde"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "physics.comp-ph",
+          "physics.flu-dyn"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T08:37:51Z",
+        "updated": "2026-08-17T08:37:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Snow is a complex geomaterial whose macroscopic response is governed by density, temperature, and the topology of its evolving microstructure. Its mechanical behavior spans elastic, plastic, viscous, and failure dominated regimes, imposing significant challenges for numerical methods, which intends to simulate large deformations, evolving free surfaces, and complex boundary interactions. This work presents the first integration of a Modified Cam-Clay constitutive formulation for snow into a purely meshfree strong-form collocation framework based on the Generalized Finite Difference Method. The main methodological contribution is a numerical coupling that combines a global implicit mixed formulation for pressure and velocity with a constitutive return-mapping algorithm. The hydrostatic pressure contribution is obtained from a Poisson equation and subsequently corrected through the Modified Cam-Clay return-mapping procedure, while the deviatoric response is treated semi-implicitly using a numerical viscosity formulation. This partitioned treatment of the volumetric and deviatoric stress contributions enables stable simulations with comparatively large time steps while producing smooth spatial pressure fields. As a result, forces on complex boundary geometries can be evaluated accurately. Numerical results of this coupling illustrate the algorithmic stability of the framework, the effective imposition of boundary conditions, and the suitability of local spatial refinement. The feasibility of applying the framework to vehicle-snow interaction through rigid-body coupling is also illustrated. The presented formulation provides a robust basis for future simulations of dynamic snow loading on vehicle structures.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16967v1",
+        "pdf": "https://arxiv.org/pdf/2608.16967v1",
+        "source": "https://export.arxiv.org/e-print/2608.16967v1"
+      },
+      "structural_counts": {
+        "pages": 39,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 81,
+        "bibliography_entries": 53,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration of Generative AI and AI-assisted technologies in the writing pro- cess During the preparation of this work the authors used ChatGPT and Gemini in order to assist the writing. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article. Declaration of Competing Interest The authors declar",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:16.203599Z"
+      },
+      "score": 352.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 70.55,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 39,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 20.25,
+          "bibliography_entries": 5.3,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16218",
       "version": 1,
       "title": "Singularities of rational maps: foundations and surfaces",
