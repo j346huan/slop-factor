@@ -42108,6 +42108,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27049",
+      "version": 1,
+      "title": "Convergence of entropy-conservative summation-by-parts discretizations to smooth solutions of hyperbolic conservation laws",
+      "authors": [
+        "Hendrik Ranocha"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-29T15:39:54Z",
+        "updated": "2026-07-29T15:39:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Although entropy-based summation-by-parts (SBP) discretizations of hyperbolic conservation laws are widely used for their robustness and stability properties, there are very few results on their convergence. We extend a recent convergence analysis of Worku, Del Rey Fernández, and Zingg (2026, DOI: 10.48550/arXiv.2603.18369) in two ways. First, instead of allowing only hyperbolic conservation laws whose fluxes are homogeneous and have globally bounded second derivatives (a restriction essentially to linear or quadratic fluxes), we consider general hyperbolic systems with strictly convex entropy and source terms depending on time and space. Second, instead of requiring a special class of SBP operators, we consider a general framework of diagonal-norm SBP operators on curved meshes, including finite differences, continuous and discontinuous Galerkin methods. Since the error analysis is based on a discrete relative entropy, it is restricted to smooth solutions. To enable a unified treatment of conservation laws, we restrict the analysis to periodic boundary conditions. Numerical results demonstrate that the predicted convergence rates are sharp in general, but can be improved for special cases such as discontinuous Galerkin methods with even polynomial degree and multi-block finite difference methods. An optimal analysis is expected to require more sophisticated arguments specialized to the class of methods instead of the general framework of SBP operators used in this work.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27049v1",
+        "pdf": "https://arxiv.org/pdf/2607.27049v1",
+        "source": "https://export.arxiv.org/e-print/2607.27049v1"
+      },
+      "structural_counts": {
+        "pages": 44,
+        "theorems": 1,
+        "lemmas": 12,
+        "propositions": 3,
+        "corollaries": 4,
+        "definitions": 1,
+        "displayed_equations": 105,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file convergence_sbp__arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ruc- tion (B.13) (where Lemma B.5 deduces it from (M3) through the trace formula defining 𝐽 ℎ ), the implementation’s definition of 𝐽 ℎ makes it follow from (M3). ⊳ Tool disclosure Claude Opus 4.8 and Codex GPT-5.5 were used to assist in the preparation of this work. Acknowledgments HR was supported by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation, project number 528753982 as well as within the DFG prior",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:33.839413Z"
+      },
+      "score": 601,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 150.25,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 44,
+          "theorems": 6,
+          "lemmas": 48,
+          "propositions": 12,
+          "corollaries": 12,
+          "definitions": 2,
+          "displayed_equations": 26.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26871",
       "version": 1,
       "title": "Rigidity and stability for biased cross-intersecting families",
