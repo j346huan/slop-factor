@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20359",
+      "version": 3,
+      "title": "Sphere Packings and Kissing Numbers in Dimensions 39, 43, and 45 from the Antipode Construction",
+      "authors": [
+        "Xiaoming Sun",
+        "Chengu Wang"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T16:50:42Z",
+        "updated": "2026-08-18T22:43:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We construct non-lattice sphere packings in dimensions $39$ and $43$, improving records that had stood since Conway and Sloane's (1982) Laminated lattices construction. Both packings come from the antipode construction applied to cross-sections of $P_{48}$ lattices. Our $39$-dimensional packing is built on the very cross-section of $P_{48p}$ that Conway and Sloane used in 1982, but we place a ten-point antipode cluster over it. Our $43$-dimensional packing is built on a new five-dimensional cross-section of both $P_{48n}$ and $P_{48m}$ that supports a six-point antipode cluster. We also reconstruct all twelve of the 1982 cross-section packings (dimensions $38$-$47$) in closed form and compute their kissing numbers, which appear never to have been computed: in dimensions $42$-$47$ they exceed the best previously tabulated lower bounds. A further antipode packing in dimension $45$ beats the kissing number record.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20359v3",
+        "pdf": "https://arxiv.org/pdf/2607.20359v3",
+        "source": "https://export.arxiv.org/e-print/2607.20359v3"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 2,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 16,
+        "bibliography_entries": 17,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "convenience, the search code, the verifier, and machine-checkable certificates for all packings of this paper, including the twelve of Section 4, are available at https://github.com/wcgbg/sphere-packing. Acknowledgments Generative AI tools were used throughout this work: in background research and literature searches, in generating and exploring ideas, in developing the search and verification code, in checking mathematical derivations, in running and analyzing the com",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:49.918860Z"
+      },
+      "score": 91.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 45.7,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 12,
+          "theorems": 12,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 4,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20315",
       "version": 2,
       "title": "A Reduced-Trace-Zero Element That Is Not a Commutator in a Central Division Algebra",
