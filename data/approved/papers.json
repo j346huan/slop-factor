@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19835",
+      "version": 1,
+      "title": "Beyond recency and magnitude: Learning-aware uncertainty estimation for safety stock under evolving forecast-error distributions",
+      "authors": [
+        "Luis Fernández-Palacios",
+        "Manuel Ceballos",
+        "Yolanda Muñoz-Ocaña"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T07:16:15Z",
+        "updated": "2026-07-22T07:16:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a non-parametric approach to refine forecast-error histories for safety stock estimation without relying on error magnitude or recency alone. Using forecast-error data from a fast-moving consumer goods environment, we show that one year of errors is insufficient to characterize service-level risk, while pooling several years is problematic because error distributions change over time. Non-parametric annual comparisons indicate a progressive reduction in bias and dispersion, consistent with learning in the forecasting process. We propose LOWDII (Leave-One-Out Wasserstein Distributional Influence Index), a diagnostic that evaluates the distributional influence of each historical forecast error on the empirical uncertainty distribution used for safety stock calibration. LOWDII identifies observations whose influence is disproportionate to their representativeness, separating transient distortions from persistent tail behaviour without imposing parametric assumptions. We evaluate the method in a discrete-event simulation using subsequent-year demand realizations as validation. The results show that LOWDII achieves the target service level while reducing average stock by 5.1% to 22.6% relative to benchmark methods. From a managerial perspective, LOWDII helps firms translate improvements in the forecasting process into safety stock decisions, avoiding the projection of obsolete historical errors into the future and capturing the economic benefit of lower uncertainty requirements earlier.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19835v1",
+        "pdf": "https://arxiv.org/pdf/2607.19835v1",
+        "source": "https://export.arxiv.org/e-print/2607.19835v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 22,
+        "bibliography_entries": 1,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source parsing failed; PDF-text fallbacks were used: Downloaded source is neither a safe tar archive nor recognizable TeX",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "o commercial confidentiality restrictions. The remaining authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process: During the preparation of this work, the authors used Undermind to support the bibliographic search process and identify potentially relevant references. ChatGPT was used",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 30",
+          "page": 30
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:27.675944Z"
+      },
+      "score": 198,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 39.6,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 34,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 5.5,
+          "bibliography_entries": 0.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19799",
       "version": 1,
       "title": "Simultaneous Recovery of the Initial Source and Sound Speed for the Wave Equation under a Constitutive Constraint",
