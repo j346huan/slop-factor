@@ -8423,6 +8423,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10973",
+      "version": 1,
+      "title": "Invisible singularities in complex algebraic geometry",
+      "authors": [
+        "Maurício Corrêa",
+        "János Kollár",
+        "Stefan Schreieder",
+        "Botong Wang"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.CV"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T14:30:58Z",
+        "updated": "2026-08-11T14:30:58Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We construct morphisms between smooth complex projective varieties that have singular fibers, but look topologically smooth. We use this to give negative answers to the following four conjectures and questions: the smoothness conjecture of Fernández~de~Bobadilla and Kollár, a question of Kollár and Pardon on universal covers, Kotschick's conjecture on 1-forms, and a conjecture of Schreieder on Aomoto complexes.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10973v1",
+        "pdf": "https://arxiv.org/pdf/2608.10973v1",
+        "source": "https://export.arxiv.org/e-print/2608.10973v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 9,
+        "lemmas": 7,
+        "propositions": 6,
+        "corollaries": 9,
+        "definitions": 2,
+        "displayed_equations": 94,
+        "bibliography_entries": 46,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file invisible.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "v)]) implies that f ∗ ω has no zeros, and so f is smooth. This forces g to be smooth as well. □ AI disclosure The mathematical content of the paper is due to the authors. ChatGPT was used by one of us to assist with parts of the drafting process. Acknowledgements We are grateful to Javier Fernández de Bobadilla, Feng Hao, Claudio Llosa–Isenrich, Simone Noja, Simon Pietig,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:43.959743Z"
+      },
+      "score": 960.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 192.1,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 27,
+          "theorems": 54,
+          "lemmas": 28,
+          "propositions": 24,
+          "corollaries": 27,
+          "definitions": 4,
+          "displayed_equations": 23.5,
+          "bibliography_entries": 4.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10940",
       "version": 2,
       "title": "Prescribed-performance position tracking for infinite-dimensional passive systems",
