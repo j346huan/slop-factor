@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17686",
+      "version": 1,
+      "title": "On the p-adic Wirsing problem",
+      "authors": [
+        "Anup B Dixit"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T11:58:52Z",
+        "updated": "2026-08-18T11:58:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a real transcendental number $ξ$, let $ω_n^*(ξ)$ denote the supremum of all $ω$ for which there exist infinitely many real algebraic numbers $α$ of degree $\\leq n$ satisfying $|ξ-α|\\leq H(α)^{-ω-1}$, where $H(α)$ is the naive height of the minimal polynomial of $α$. A celebrated result of Wirsing gives the uniform lower bound $ω_n^*(ξ)\\geq\\frac{n+1}{2}$, which was improved significantly in a recent work of Poëls to $\\frac{n}{2-\\log 2}$. In this paper, we establish a $p$-adic counterpart of Poëls's result. Let $p$ be a prime and $ξ\\in\\Qp$ be transcendental. Let $ω_{n,p}^*(ξ)$ be the supremum of all real numbers $ω$ for which there exist infinitely many algebraic numbers $α\\in \\Qp$ of degree $\\leq n$ such that $|ξ-α|_p\\leq H(α)^{-ω-1}$. We show that $ω^*_{n,p}(ξ)\\geq\\frac{n}{2-\\log 2}-1$. This improves the known lower bounds in the $p$-adic setting, namely the analogue of Wirsing's theorem, due to Morrison and Teulié.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17686v1",
+        "pdf": "https://arxiv.org/pdf/2608.17686v1",
+        "source": "https://export.arxiv.org/e-print/2608.17686v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 2,
+        "lemmas": 8,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 200,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file p-adic-Wirsing.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "□ Acknowledgements The author thanks Anthony Poëls for sharing the slides from his CIRM talk, which were helpful in gaining a better understanding of the concept of generalized resultants. ChatGPT (non-pro version) was used occasionally as an aid to check details of arguments already developed by the author and in improving the clarity of exposition. References [1] D. Badziahin and J. Sch",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:44.385098Z"
+      },
+      "score": 1040,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 130,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 12,
+          "lemmas": 32,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 50,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17606",
       "version": 1,
       "title": "Delannoy--Steinhaus triangles over $\\mathbb{Z}/2\\mathbb{Z}$: weight spectrum, balanced triangles, and extremal values",
