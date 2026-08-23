@@ -42110,6 +42110,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.06391",
+      "version": 2,
+      "title": "Asymptotic Uniformity of Permanents of Random Matrices over Finite Fields of Odd Characteristic",
+      "authors": [
+        "Shuang Sun",
+        "Yuyao Yang",
+        "Jiasheng Zeng"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T04:42:46Z",
+        "updated": "2026-08-14T07:55:47Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $q$ be an odd prime power, and let $A_n=(a_{ij})\\in\\mathbb F_q^{n\\times n}$ be a random matrix whose entries are independent and uniformly distributed on $\\mathbb F_q$. The permanent of $A_n$ is defined by $\\operatorname{per}(A_n)=\\sum_{σ\\in S_n}\\prod_{i=1}^n a_{i,σ(i)}$, where $S_n$ denotes the symmetric group on $[n]$. Ghasemi, Gross, and Kopparty conjectured the zero-mass asymptotic $\\Pr[\\operatorname{per}(A_n)=0]=1/q+o(1)$ for every fixed odd prime power $q$, and Hunter, Kwan, and Sauermann subsequently stated its equivalent full-distribution formulation: for every fixed $q$ and every $x\\in\\mathbb F_q$, \\[ \\lim_{n\\to\\infty}\\Pr[\\operatorname{per}(A_n)=x]=\\frac1q. \\] In this paper, we prove this conjecture. More precisely, we prove that there is an absolute constant $C>0$ such that \\[\\frac12\\sum_{x\\in\\mathbb F_q}\\left|\\Pr[\\operatorname{per}(A_n)=x]-\\frac1q\\right|\\le C\\frac{\\log n}{n}\\] for every odd prime power $q$ and every $n\\ge 7$. The estimate is uniform in $q$, so the conclusion remains valid for every sequence $q=q(n)$ of odd prime powers.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.06391v2",
+        "pdf": "https://arxiv.org/pdf/2608.06391v2",
+        "source": "https://export.arxiv.org/e-print/2608.06391v2"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 1,
+        "lemmas": 6,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 43,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration on the Use of AI During the development of the proof in Section 3, the authors used generative AI tools as research aids. The conditional-probability formulation leading to the map TG , the recognition that an approach using only one additional row would result in a circular argument, and the resulting introduction of a second row and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:52.458765Z"
+      },
+      "score": 635.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 63.55,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 13,
+          "theorems": 6,
+          "lemmas": 24,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 10.75,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25185",
       "version": 1,
       "title": "Turbulent Flame Speed Can Increase under Curvature Smoothing",
