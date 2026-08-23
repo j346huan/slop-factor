@@ -42535,6 +42535,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00838",
+      "version": 1,
+      "title": "On the role of positivity preservation for high order approximations of the Dean--Kawasaki equation",
+      "authors": [
+        "Ana Damnjanović",
+        "Ana Djurdjevac",
+        "Nicolas Perkowski"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.NA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-01T19:42:48Z",
+        "updated": "2026-08-01T19:42:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study a spectral regularization of the Dean--Kawasaki equation and quantify how the failure of positivity preservation affects its weak approximation of the empirical measure of independent Brownian particles. For initial densities bounded away from zero, we prove a uniform-in-time weak error measured through the Laplace transform and prove a superpolynomial convergence rate for smooth test functions. When the initial density is allowed to vanish, the negative part of the regularized solution leads to weaker upper bounds, and a one-dimensional example gives a lower error bound ruling out superpolynomial convergence. We also present numerical experiments that confirm the theoretical results and illustrate main observations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00838v1",
+        "pdf": "https://arxiv.org/pdf/2608.00838v1",
+        "source": "https://export.arxiv.org/e-print/2608.00838v1"
+      },
+      "structural_counts": {
+        "pages": 40,
+        "theorems": 3,
+        "lemmas": 10,
+        "propositions": 2,
+        "corollaries": 4,
+        "definitions": 1,
+        "displayed_equations": 197,
+        "bibliography_entries": 888,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file DamnjanovicDjurdjevacPerkowski.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "0 ≲ Kpβ p C p pp/2 + Kpγ p C p pp , for some C > 0, by the scaling in p of the moments of normal and exponential random variables. AI declaration In preparing this work we used ChatGPT, versions 5.2–5.5, via ChatGPT and Codex, for the following purposes: discussion of parts of the proof strategy, in the course of which the model suggested an approach for some arguments that we then worked out and wrote up in full; clarif",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 38",
+          "page": 38
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:02.442322Z"
+      },
+      "score": 2160.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 270.05,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 40,
+          "theorems": 18,
+          "lemmas": 40,
+          "propositions": 8,
+          "corollaries": 12,
+          "definitions": 2,
+          "displayed_equations": 49.25,
+          "bibliography_entries": 88.8,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00802",
       "version": 1,
       "title": "Counterexamples to the Landis conjecture in dimensions three and higher",
