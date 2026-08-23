@@ -42366,6 +42366,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23016",
+      "version": 2,
+      "title": "An independent proof of the plunge-region conjecture for time-frequency localization operators in dimension one",
+      "authors": [
+        "Ahmadreza Azimifard"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.CA",
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-25T03:17:05Z",
+        "updated": "2026-08-09T04:42:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $A_0,B_0\\subset\\mathbb{R}$ be bounded measurable sets of positive measure with finite topological boundaries, and let $S_{cA_0,B_0}=P_{cA_0}Q_{B_0}P_{cA_0}$ be the associated time-frequency localization operator, where $P_E$ is multiplication by $\\mathbf{1}_E$ and $Q_E=\\mathcal{F}^{-1}P_E\\mathcal{F}$. We prove that the plunge count $Λ_\\varepsilon=\\#\\{n:\\varepsilon<λ_n(S_{cA_0,B_0})<1-\\varepsilon\\}$ satisfies $Λ_\\varepsilon \\le C(A_0,B_0)\\,\\widetilde{L}\\,(1+\\ln_+(ca/\\widetilde{L}))$, with $\\widetilde{L}=\\ln(1/(\\varepsilon(1-\\varepsilon)))$, for all $c>0$ and $0<\\varepsilon<1/2$, where $a$ is the largest component length of $A_0$ and $C(A_0,B_0)$ is explicit. In particular this establishes, in dimension $d=1$, the conjecture of Kulikov and Dam Larsen (arXiv:2603.23832). The proof does not invoke the Kulikov-Dam Larsen parallelepiped theorem or any prolate-spheroidal or Chebyshev-polynomial spectral machinery for $S$ itself. Instead it works directly with the off-diagonal factor $T=P_{(cA_0)^c}Q_{B_0}P_{cA_0}$: an exact oscillation factorization special to $d=1$ reduces each one-sided, one-scale piece of $T$ to a fixed Hankel kernel $1/(2π(s+r))$; a scale-uniform Bernstein-ellipse estimate gives geometric singular-value decay; and a Taylor-rank bound controls the boundary layer. The pieces are assembled by the Rotfel'd $p$-quasi-norm inequality over $O(\\log)$ dyadic scales of a one-variable decomposition, sidestepping the failure of Cotlar-Stein almost-orthogonality in Schatten $p$-quasi-norms. We indicate precisely which steps are specific to $d=1$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23016v2",
+        "pdf": "https://arxiv.org/pdf/2607.23016v2",
+        "source": "https://export.arxiv.org/e-print/2607.23016v2"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 1,
+        "lemmas": 7,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 57,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Paper_A_dimension_one_R2_3.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d nothing proved above settles it. Of the three d = 1-specific ingredients, (b) is the obstruction we cannot presently circumvent; whether (a) and (c) admit substitutes in d ≥ 2 we leave open. Acknowledgments AI Use Disclosure. Generative AI tools were used to assist with language editing and copy- editing of this manuscript. Selected equations and derivations were additionally checked using an internal model-verification pipeline developed by Harmonic Research Technologies (H",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:15.372575Z"
+      },
+      "score": 303,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 75.75,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 15,
+          "theorems": 6,
+          "lemmas": 28,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 14.25,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23004",
       "version": 1,
       "title": "Exact values and exact upper bounds for families of integers with arithmetic progression intersections (Erdős Problem #272)",
