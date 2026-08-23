@@ -8860,6 +8860,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09004",
+      "version": 1,
+      "title": "A Tight Lower Bound for Smooth Nonconvex Stochastic Optimization with Bounded Gradient Noise",
+      "authors": [
+        "Jikai Jin"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.CC",
+          "cs.LG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T01:45:56Z",
+        "updated": "2026-08-10T01:45:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a sharp lower bound for smooth nonconvex stochastic optimization with uniformly bounded gradient noise. In the \\(K=1\\) fresh-sample model, every randomized adaptive algorithm requires $$Ω\\left( \\frac{ΔL}{ε^2} + \\frac{ΔLσ^2}{ε^4} \\right)$$ queries to find a point with expected gradient norm at most \\(ε\\). This matches the standard upper bound and, to the best of our knowledge, resolves the question raised by [Arjevani et al. 2023] of whether almost-surely bounded oracle error permits a better rate than bounded variance. The proof was independently generated with GPT-5.6 Sol in Codex's Ultra mode during a two-hour session. The human author supplied the prompt and was responsible only forchecking the proof and revising and polishing the manuscript.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09004v1",
+        "pdf": "https://arxiv.org/pdf/2608.09004v1",
+        "source": "https://export.arxiv.org/e-print/2608.09004v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 1,
+        "lemmas": 8,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 4,
+        "displayed_equations": 138,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file bounded_noise_lower_bound_revised_2026-08-09.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ard upper bound and, to the best of our knowledge, resolves the question raised by [Arjevani et al. 2023] of whether almost-surely bounded oracle error permits a better rate than bounded variance. The proof was independently generated with GPT-5.6 Sol in Codex's Ultra mode during a two-hour session. The human author supplied the prompt and was responsible only forchecking the proof and revising and polishing the manuscript.",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:15.649352Z"
+      },
+      "score": 1071,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 107.1,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 22,
+          "theorems": 6,
+          "lemmas": 32,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 8,
+          "displayed_equations": 34.5,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08997",
       "version": 1,
       "title": "A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs",
