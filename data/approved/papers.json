@@ -8508,6 +8508,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14695",
+      "version": 1,
+      "title": "Exact Ordered Ruzsa-Szemeredi Numbers for Matchings of Size Two",
+      "authors": [
+        "Xidan Song",
+        "Ruifeng Cao"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-09T20:41:29Z",
+        "updated": "2026-08-09T20:41:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An ordered Ruzsa-Szemeredi graph is a graph whose edge set is partitioned into equal-size matchings, each induced in the suffix of the ordering that begins with it. Behnezhad and Ghafari introduced them to parametrize the update time of fully dynamic matching, but almost nothing is known about the numbers themselves. Writing f(n) for the largest number of parts when the matchings have size two, we determine f(n) exactly for every order from five to nineteen, narrow order twenty to two consecutive values, and give an explicit asymptotic construction. The engine is a bijection between ordered decompositions and K_4-peelings of the complete graph, each step deleting a perfect matching from four vertices that currently span a clique. This yields the counting bound floor(n(n-4)/4) at once and reduces equality to whether a cubic or near-cubic remainder is reachable. Structural lemmas cut the candidates to connected bridgeless graphs, and a contraction correspondence carries odd orders to the even census one larger, leaving a finite case analysis that we discharge by isomorphism-free reverse search. The bound is attained only at orders five through nine and eleven, and missed by exactly one at every other order we reach. Order eleven is thus an isolated exception rather than a parity phenomenon: the natural equality conjecture fails, and fails irregularly. Upper bounds are certified by fail-closed sweeps over complete cubic censuses, and every decomposition is re-checked against the definition by an independent verifier. Which of its two values order twenty takes remains open.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14695v1",
+        "pdf": "https://arxiv.org/pdf/2608.14695v1",
+        "source": "https://export.arxiv.org/e-print/2608.14695v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 9,
+        "lemmas": 6,
+        "propositions": 6,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 91,
+        "bibliography_entries": 22,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source parsing failed; PDF-text fallbacks were used: Archive member exceeds size limit: 'anc/results/cubic20_edge_reducible_s62.bin'",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "etween 78 and 79 remains open. Determining that choice, continuing exact computation from order 21, and explaining structurally why the counting bound fails remain open. Declaration on the use of generative AI. OpenAI ChatGPT/Codex and Anthropic Claude (accessed July–August 2026) assisted with source discovery, ex- ploratory proof development and checking, manuscript drafting and revision, soft- ware development and review, test design, and orchestration of computational checks. Their ou",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:06:37.512518Z"
+      },
+      "score": 1255.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 156.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 54,
+          "lemmas": 24,
+          "propositions": 24,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 22.75,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08893",
       "version": 1,
       "title": "Sharp $\\ell^p$-Improving Estimates for Fixed-Radius Discrete Spherical Averages",
