@@ -45167,6 +45167,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23791",
+      "version": 1,
+      "title": "Precise cover times for branching random walks on Hamming graphs: (iterated) logarithmic corrections",
+      "authors": [
+        "Zhenyuan Zhang"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T18:27:51Z",
+        "updated": "2026-07-26T18:27:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove tight asymptotics of the cover time $τ_{\\mathrm{cov}}(d)$ of a continuous-time branching random walk on the Hamming graph $\\{0,1,\\dots,b-1\\}^d$, as $d\\to\\infty$. We focus on the slow-branching regime, where particles move at rate one and branch at rate $λ\\in(0,1)$. For $b>2$, we show that $τ_{\\mathrm{cov}}(d)=x_\\star d+λ^{-1}\\log d+O_{\\mathbb P}(1)$. For $b=2$, we show that $τ_{\\mathrm{cov}}(d)=x_\\star d+χ^{-1}\\log\\log d+O_{\\mathbb P}(1)$. Here, $x_\\star$ and $χ$ are explicit positive constants depending only on $b$ and $λ$. Our results sharpen previously known linear-order estimates. The dichotomy reflects the geometry of the last uncovered region: for $b>2$, there are exponentially many antipodes, whereas the binary hypercube has a unique antipode and its neighbors govern the final coverage. Our proofs combine classic spine change of measure techniques and many-to-few estimates with a multiscale decomposition of the genealogy and a weighted martingale analysis of the early population.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23791v1",
+        "pdf": "https://arxiv.org/pdf/2607.23791v1",
+        "source": "https://export.arxiv.org/e-print/2607.23791v1"
+      },
+      "structural_counts": {
+        "pages": 50,
+        "theorems": 2,
+        "lemmas": 28,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 293,
+        "bibliography_entries": 29,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main__7_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments The author has supplied the key mathematical arguments to generative AI. During the revision process, GPT 5.5 pro and 5.6 pro were used to prepare figures and simulations, to expand omitted details, to review literature, and to produce neater proofs, particularly the elementary lemmas in the appendices. Every AI-assisted argument has been reviewed",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 33",
+          "page": 33
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:44.162146Z"
+      },
+      "score": 2065.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 258.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 50,
+          "theorems": 12,
+          "lemmas": 112,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 73.25,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23780",
       "version": 1,
       "title": "Free-by-cyclic groups are not relatively profinitely rigid",
