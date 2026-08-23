@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16188",
+      "version": 1,
+      "title": "Optimal control of symmetry-breaking dynamics near criticality",
+      "authors": [
+        "Pearson W. Miller"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T17:59:13Z",
+        "updated": "2026-07-17T17:59:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the problem of optimal control for dynamical systems near a pitchfork bifurcation, motivated by the role of external cues in guiding symmetry-breaking transitions in cell-fate selection and other natural processes. Using an asymptotic expansion of the optimality conditions obtained from the Pontryagin maximum principle, the leading-order optimal control law for a general n-dimensional system is examined across three dynamical regimes distinguished by scaling of control strength with respect to the distance from criticality. While in the strong control limit the results reduce to known approximations from linear-quadratic control, we derive generalized amplitude equations for the co-evolution of state and costate variables describing the optimized trajectory in the weak and intermediate control regimes. These control normal forms are validated against numerical solutions of the full optimal control problem for a canonical model of a bistable biochemical switch. The bifurcation structure of the optimal control problem is analyzed in the weak control regime. Finally, we demonstrate the construction of asymptotic solutions in the long time limit in this regime using boundary-layer methods.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16188v1",
+        "pdf": "https://arxiv.org/pdf/2607.16188v1",
+        "source": "https://export.arxiv.org/e-print/2607.16188v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 108,
+        "bibliography_entries": 39,
+        "appendix_pages": 33
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ": 1) the Github Copilot extension of VS code was used to assist in the development and debugging of research code, 2) this framework was likewise used as Tex formatting assistant and editorial aid for constructing the submitted manuscript. Claude (by Anthropic) was used for literature search and for proof-reading. The author assumes responsibility for all data and analysis presented here. 36",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 36",
+          "page": 36
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:03.915884Z"
+      },
+      "score": 1063.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 132.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 36,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 27,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 66
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16382",
       "version": 1,
       "title": "The Zombie Damage Number of a Graph",
