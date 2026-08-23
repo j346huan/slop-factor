@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14517",
+      "version": 1,
+      "title": "A disproof of a gap-one conjecture for the equitable chromatic number of block graphs",
+      "authors": [
+        "Juho Lauri"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T17:39:21Z",
+        "updated": "2026-08-14T17:39:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a graph $G$, let $L(G)=\\max\\{ω(G),\\lceil (|V(G)|+1)/(α_{\\min}(G)+1)\\rceil\\}$, where $ω(G)$ is the clique number and $α_{\\min}(G)$ is the minimum, over all vertices $v$, of the largest size of an independent set containing $v$. Dybizbański, Furmańczyk, and Mkrtchyan (Discrete Appl. Math. 354 (2024), 15--28) conjectured that every block graph $G$ satisfies $L(G)\\leqχ_{=}(G)\\leq L(G)+1$, where $χ_{=}(G)$ is the equitable chromatic number of $G$. We disprove this conjecture in a strong form. For every pair of integers $d\\geq 2$ and $k\\geq 4d-1$, we construct a connected block graph $G_{d,k}$ such that $L(G_{d,k})=k$ and $χ_{=}(G_{d,k})=k+d$. Thus the difference $χ_{=}(G)-L(G)$ is unbounded on connected block graphs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14517v1",
+        "pdf": "https://arxiv.org/pdf/2608.14517v1",
+        "source": "https://export.arxiv.org/e-print/2608.14517v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 20,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file eqblock.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Moreover, setting k = 4d − 1 gives χ= (Gd,4d−1 )/L(Gd,4d−1 ) = (5d − 1)/(4d − 1) → 5/4 as d → ∞. Acknowledgments. The author thanks the anonymous referee for helpful comments that improved the presentation of the results. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used OpenAI ChatGPT in order to assist with language editing and manuscript polishing. After using this tool, the author rev",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:51.285882Z"
+      },
+      "score": 40.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 40.8,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14506",
       "version": 1,
       "title": "Nodal discontinuous Galerkin methods for non-ideal equations of state: pressure equilibrium preservation and entropy correction",
