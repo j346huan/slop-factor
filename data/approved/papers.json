@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27452",
+      "version": 1,
+      "title": "Counterexamples, Spectral Obstructions, and Deletion Stability for WOW-284",
+      "authors": [
+        "Samuil Petkov"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-29T20:34:55Z",
+        "updated": "2026-07-29T20:34:55Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "WOW-284 asserts that the minimum dual degree of every connected graph of order at least three and girth at least five does not exceed the negative of its least distance eigenvalue. We refute it with exact counterexamples of orders $38,39,40,42$, and $50$, and develop a structural theory of the failure. For a connected $k$-regular graph of girth at least five and diameter three, we prove $δ^*(G)+λ_{\\min}(D(G))=2k-2-\\max_{θ\\ne k}(θ+1)^2$. Here $θ$ ranges over the nonprincipal adjacency eigenvalues. We further prove that every regular strict counterexample has degree at least six and diameter at most four, while diameter four forces degree at least ten. We solve the associated one-variable nonbacktracking linear program exactly, including optimizer rigidity. For regular strict counterexamples of diameter three, the optimizer yields a positive-semidefinite slack matrix whose integral excess gives the stronger bound $|V(G)|\\le\\left\\lfloor 3(k+2)^2(k^2+3)/(18k+41)\\right\\rfloor$; this follows from a three-to-one quantization theorem for the integral excess. The slack matrix's principal minors also recover local cycle constraints. In particular, regular degree-six counterexamples have order at most $50$, and at the degree-six, order-$50$ boundary the associated signed complement is necessarily disconnected. We determine the distance spectra of one- and two-vertex punctures of Moore graphs and establish a uniform deletion-stability bound: every deletion of at most five vertices from the Hoffman--Singleton graph remains a strict counterexample, whereas an explicit six-vertex deletion does not. All theorem-level computations use exact arithmetic. Lean 4.31 kernel-checks the explicit $50$-vertex Hoffman--Singleton counterexample at graph level, finite spectral certificates at orders $38,39,40,42$, and the analytic LP optimum and rigidity for every integer $k\\ge4$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27452v1",
+        "pdf": "https://arxiv.org/pdf/2607.27452v1",
+        "source": "https://export.arxiv.org/e-print/2607.27452v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 21,
+        "lemmas": 1,
+        "propositions": 8,
+        "corollaries": 6,
+        "definitions": 1,
+        "displayed_equations": 286,
+        "bibliography_entries": 27,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ts survive when homogeneity or commutativity is lost? Can degree- weighted operators, nonbacktracking operators, or matrix-valued orthogonal polynomials provide comparably sharp certificates for irregular or multitype systems? OpenAI ChatGPT-5.6 Sol Pro assisted with adversarial proof checking, proof exploration, and Lean formalization. The author assumes full responsibility for the mathematics, attribution, and conclusions. The source, exact certificates, and build instructio",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:30.696169Z"
+      },
+      "score": 2273.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 284.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 28,
+          "theorems": 126,
+          "lemmas": 4,
+          "propositions": 32,
+          "corollaries": 18,
+          "definitions": 2,
+          "displayed_equations": 71.5,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27416",
       "version": 1,
       "title": "Exact Total Variation Minimizers as Non-Oscillatory Limiters in High-Order Methods for Conservation Laws",
