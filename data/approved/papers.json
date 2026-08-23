@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24138",
+      "version": 1,
+      "title": "Randomized Krylov-Projected Iterated Tikhonov Regularization for Large-Scale Ill-posed Problems Under A Posteriori Stopping Rule",
+      "authors": [
+        "Ravi Verma",
+        "Harshit Bajpai",
+        "Ankik Kumar Giri"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T08:18:16Z",
+        "updated": "2026-07-27T08:18:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce two novel randomized iterative regularization frameworks, termed \\texttt{RIGKT} and \\texttt{RIAT}, for solving large-scale linear ill-posed inverse problems governed by systems of equations. The proposed methods combine randomized iterated Tikhonov regularization with Krylov subspace projection techniques, utilizing Golub--Kahan bidiagonalization for general rectangular systems (\\texttt{RIGKT}) and Arnoldi decomposition for square systems (\\texttt{RIAT}). Unlike existing deterministic schemes that rely on fixed iteration counts, our framework incorporates randomized equation selection, an adaptive step-size strategy, and a global, discrepancy-based a posteriori early-stopping rule tailored specifically to the stochastic setting. We present a comprehensive regularization analysis establishing Bregman-distance monotonicity, finite termination, exact-data convergence, and pathwise stability under noise. Furthermore, we prove that the stopped iterates converge almost surely and in the mean-square sense to the true solution, establishing a rigorous regularization property. To the best of our knowledge, this is the first theoretical framework to simultaneously account for randomization, Krylov-subspace dimension reduction, and implementable early stopping. Numerical experiments involving two-dimensional X-ray computed tomography (CT) and image deblurring demonstrate that \\texttt{RIGKT} and \\texttt{RIAT} reliably reconstruct structural features across various noise regimes.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24138v1",
+        "pdf": "https://arxiv.org/pdf/2607.24138v1",
+        "source": "https://export.arxiv.org/e-print/2607.24138v1"
+      },
+      "structural_counts": {
+        "pages": 35,
+        "theorems": 4,
+        "lemmas": 8,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 186,
+        "bibliography_entries": 64,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "bility. The data and source code underlying the results of this study can be obtained from the authors upon reasonable request. Acknowledgment The authors acknowledge the use of the coding assistant Claude for code debugging and verifica- tion.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 33",
+          "page": 33
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:00.580206Z"
+      },
+      "score": 295.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 147.9,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 35,
+          "theorems": 24,
+          "lemmas": 32,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 46.5,
+          "bibliography_entries": 6.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24103",
       "version": 3,
       "title": "Existence of generalized bent functions in the exceptional $q\\equiv2\\pmod4$, odd-dimensional case",
