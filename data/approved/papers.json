@@ -43991,6 +43991,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22874",
+      "version": 2,
+      "title": "The signature of connected line graphs is unbounded",
+      "authors": [
+        "Luke Francis",
+        "Trevor Uptain"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-24T19:30:10Z",
+        "updated": "2026-07-29T00:14:05Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Akbari, Elphick, Kumar, Pragada and Tang [Discrete Math. 349 (2026) 114953] conjectured that for every connected graph G, the line graph of G has at most one more positive than negative adjacency eigenvalue; equivalently, the signature of a connected line graph is at most 1. We refute the conjecture with two independently found counterexamples: a 14-vertex cactus consisting of two pentagons attached by bridges to adjacent vertices of a square, whose line graph has inertia (9,0,7) by an exact characteristic-polynomial certificate, and a 48-vertex triangle-free graph found by simulated annealing and verified in exact rational arithmetic. Indeed, chaining copies of the 14-vertex graph yields connected graphs on 14k vertices whose line graphs have signature k+1 for every k >= 1. The signature of connected line graphs is therefore unbounded, and no constant-bound repair of the conjecture is possible.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22874v2",
+        "pdf": "https://arxiv.org/pdf/2607.22874v2",
+        "source": "https://export.arxiv.org/e-print/2607.22874v2"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 5,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file revised.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "noted that these con- jectures are well suited to AI-based counterexample search. Both counterexamples arose from precisely such searches, conducted independently and with different systems: the 14-vertex ex- ample via a search assisted by ChatGPT 5.6 Pro (OpenAI), the 48-vertex example and the results of Section 4 via a search and proof development assisted by Claude Fable 5 (Anthropic), with all computations reproduced by separately coded audits in exact arithmetic. That inde- pen",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:01.777603Z"
+      },
+      "score": 255.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 31.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 5,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 1.25,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22828",
       "version": 1,
       "title": "A Salem-Spencer-Type Construction for Large Subsets of Integer Grids with No Isosceles Right Triangles",
