@@ -43815,6 +43815,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13532",
+      "version": 1,
+      "title": "Computing Strong Rank-Revealing Factorizations for Matrices with Orthonormal Rows",
+      "authors": [
+        "Anil Damle"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T07:32:43Z",
+        "updated": "2026-07-15T07:32:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We show that a pivoting strategy due to Stewart (based on work by Bischof) computes a strong rank-revealing factorization when applied to a matrix with orthonormal rows. When paired with the classical column selection algorithm of Golub, Klema, and Stewart (GKS) it helps achieve rank-$k$ approximation accuracy bounds and basis conditioning as good as those from applying a strong rank-revealing factorization directly to A. We then extend this framework in two directions: (1) providing analysis of GKS when only approximations of right singular vectors are available and (2) providing a randomized variant of the pivoting strategy for matrices with orthonormal rows that achieves the same theoretical guarantees but can return the desired subset two orders of magnitude faster than the deterministic variant.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13532v1",
+        "pdf": "https://arxiv.org/pdf/2607.13532v1",
+        "source": "https://export.arxiv.org/e-print/2607.13532v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 6,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 111,
+        "bibliography_entries": 52,
+        "appendix_pages": 7
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Robert Web- ber, Ilse Ipsen, Mark Embree, Laura Grigori, Yuji Nakatsukasa, Mark Fornace, Alex Townsend, and Michael Lindsey sharpened our thinking of the relationship between mGKS and Osinsky’s results. Implementations were produced using Anthropic’s Claude Code [1]. As was code to run numerical experiments and generate plots. OpenAI Codex [4] was used for code review and early prototyping. Deterministic im- plementations were validated against a carefully audited oracle implementation (albei",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:40.474897Z"
+      },
+      "score": 350.85,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 116.95,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 25,
+          "theorems": 36,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 27.75,
+          "bibliography_entries": 5.2,
+          "appendix_pages": 14
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13519",
       "version": 1,
       "title": "Noninvertibility and Bifurcation Phenomena in a Four-Partitions Piecewise Linear Map",
