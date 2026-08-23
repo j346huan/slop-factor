@@ -42447,6 +42447,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13761",
+      "version": 1,
+      "title": "Nonstandard likelihood-ratio limits under semidefinite rank constraints",
+      "authors": [
+        "Didier Concordet"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T12:21:26Z",
+        "updated": "2026-07-15T12:21:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study likelihood-ratio tests for the hypothesis that a positive-semidefinite matrix has rank at most a prescribed value. The null hypothesis is stratified: points of maximal allowed rank lie on a regular boundary stratum, whereas lower-rank points are singular. Consequently, the usual chi-bar-square calibration on the top stratum does not by itself describe the whole composite null, especially along sequences whose rank changes at the local $n^{-1/2}$ scale. After profiling regular nuisance parameters, we derive a common reduced Gaussian experiment for every fixed null rank and for all admissible local rank transitions. On the top stratum, the classical chi-bar-square law is recovered. At lower ranks, the limit generally involves projection onto a nonconvex rank-constrained semidefinite set. Our main calibration result shows that, under isotropy, the top-stratum law is least favourable over all fixed null strata and all local null rank transitions. We also prove the corresponding transition dominance under arbitrary anisotropy when the active corank is one. Finally, on the top stratum, we obtain a conditional shape derivative for the limiting distribution and its critical value. Gaussian covariance models and finite-sample experiments illustrate nuisance profiling, rank transitions, anisotropy, and orientation sensitivity.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13761v1",
+        "pdf": "https://arxiv.org/pdf/2607.13761v1",
+        "source": "https://export.arxiv.org/e-print/2607.13761v1"
+      },
+      "structural_counts": {
+        "pages": 46,
+        "theorems": 5,
+        "lemmas": 5,
+        "propositions": 9,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 254,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Geometry_LR_calibration_arXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nique best rank-constrained approximations and is therefore inherently set-valued. The canonical transition family and the active covariance operator provide a common framework for both questions. Acknowledgments The author used ChatGPT (OpenAI) to assist with editorial review, bibliographic checking, code review, and independent computational cross-checks. The author reviewed and verified all AI-assisted suggestions and remains fully responsible for the mathematical arguments, n",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:37.963193Z"
+      },
+      "score": 1700.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 212.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 46,
+          "theorems": 30,
+          "lemmas": 20,
+          "propositions": 36,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 63.5,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13519",
       "version": 1,
       "title": "Noninvertibility and Bifurcation Phenomena in a Four-Partitions Piecewise Linear Map",
