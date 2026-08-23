@@ -42962,6 +42962,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23926",
+      "version": 2,
+      "title": "Balance Constants, Majority Cycles, and the Gold Partition Conjecture through Fourteen Elements",
+      "authors": [
+        "Anish Gupta"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T01:41:27Z",
+        "updated": "2026-07-30T06:19:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We determine the exact extremal balance data of all 1,338,193,159,771 unlabeled posets on fourteen elements. The least balance constant exceeding $1/3$ is $37/106$. The least over posets that are not nontrivial ordinal sums is $254/725$, attained by a ladder with broken rungs; this confirms a conjecture of Peczarski at order 14, while orders 12 and 13 reproduce De Loof, De Baets, and De Meyer. No balance constant lies in the gap above $1/3$ that Peczarski conjectures to be empty. Exactly 128 classes attain $1/3$, and every one is an ordinal sum of singletons and copies of the three-element poset with one relation, a family whose non-chain members are counted by $a(n)-1$, where $a(n)=a(n-1)+a(n-3)$. In the linear-extension-majority digraph the longest simple cycle has length 8, against 7 at order 13, and exactly 30 classes attain it; of the thirteen such classes whose witnesses the census retains, nine have a cycle spectrum containing no odd cycle at all. A second exhaustive pass over the same classes verifies Peczarski's Gold Partition Conjecture through fourteen elements, extending his order-11 frontier and implying in particular that the $1/3$-$2/3$ Conjecture holds through order 14. All arithmetic is exact and every extremal witness is recomputed by an independent program.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23926v2",
+        "pdf": "https://arxiv.org/pdf/2607.23926v2",
+        "source": "https://export.arxiv.org/e-print/2607.23926v2"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 4,
+        "lemmas": 1,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 11,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rential small-order checks, aggregation tests, and an end-to-end sharding test. An earlier version of this paper reported the Gold Partition result alone, without the census of Sections 3–4. Acknowledgment of generative-AI assistance. Anthropic Claude Code (Claude 5 family) and OpenAI Codex (GPT-5.6 family) were used extensively for software development and op- timization, computational experiment design, literature discovery, and drafting and editing the manuscript. The author selected",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:17.927910Z"
+      },
+      "score": 301.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 60.35,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 16,
+          "theorems": 24,
+          "lemmas": 4,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 2.75,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23836",
       "version": 1,
       "title": "Elementary Symmetric Polynomial Inequalities for Centered Vectors and Matrices",
