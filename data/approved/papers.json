@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10028",
+      "version": 2,
+      "title": "A human-checkable proof of the 112-vertex counterexample to the Petersen coloring conjecture",
+      "authors": [
+        "Jorik Jooken"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-09T20:07:05Z",
+        "updated": "2026-08-14T15:08:33Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Petersen coloring conjecture of Jaeger asserts that every bridgeless cubic graph admits a Petersen coloring. Recently, Putman presented an explicit counterexample on $112$ vertices and verified its non-colorability by showing, using a SAT solver, that an instance with $3640$ variables and $68324$ clauses is unsatisfiable. We give a short human-checkable proof that this graph is indeed a counterexample. Our proof determines the coloring behavior of the multipoles used in the construction by means of small explicit finite case analyses and reduces the final contradiction to a simple structural property of the line graph of the Petersen graph. Besides providing a proof that does not rely on a large SAT computation, our approach gives further insight into the gadgets underlying the construction.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10028v2",
+        "pdf": "https://arxiv.org/pdf/2608.10028v2",
+        "source": "https://export.arxiv.org/e-print/2608.10028v2"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 1,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 10,
+        "bibliography_entries": 15,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file mainAddedForthcomingWork.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s work, the author used ChatGPT (OpenAI, GPT-5.6 Sol) for assistance with proofreading, improving the presentation and rewriting parts of the proofs, as well as with the preparation of figures and tables. The author critically reviewed all AI-assisted output and edited it where necessary. All mathematical statements, arguments, and proofs in this paper were independently verified by the author, who takes full responsibility for the correctness and content of the manuscript. References",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:06:21.107193Z"
+      },
+      "score": 124,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 31,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 9,
+          "theorems": 6,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2.5,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08861",
       "version": 1,
       "title": "Simultaneous Group-Envelope Bounds for $Γ$-Robust Multiple-Choice Knapsack Problems",
