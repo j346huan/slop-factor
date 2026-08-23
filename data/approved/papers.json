@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.22828",
+      "version": 1,
+      "title": "A Salem-Spencer-Type Construction for Large Subsets of Integer Grids with No Isosceles Right Triangles",
+      "authors": [
+        "Gyula Károlyi",
+        "Jozsef Solymosi"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-24T18:08:11Z",
+        "updated": "2026-07-24T18:08:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $F(n)$ be the largest size of a subset of $\\{0,1,\\ldots,n-1\\}^2$ containing no nondegenerate isosceles right triangle. We give a modified Salem--Spencer-type construction over the Gaussian integers showing that $F(n)=Ω(n^{1.3})$. The best known upper bound is $F(n)\\ll n^2/(\\log n)^{1+c}$ for some absolute constant $c>0$, so there is still a large gap between the bounds.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.22828v1",
+        "pdf": "https://arxiv.org/pdf/2607.22828v1",
+        "source": "https://export.arxiv.org/e-print/2607.22828v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 33,
+        "bibliography_entries": 11,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "dinates to be divisible by 4k + 2, hence both vanish. This implies δ = 0. 4 The AlphaEvolve-optimized 281-point construction To find a good construction, we used AlphaEvolve, an AI coding agent developed by Google DeepMind that uses large language models and evolutionary computation to automatically design, evaluate, and optimize complex algorithms. Increasing the modulus of β, first the points of P tend to be concentrated next to the boundary of its convex hull in a zig-zagging fashion, l",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:07.344290Z"
+      },
+      "score": 453.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 45.35,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 12,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 8.25,
+          "bibliography_entries": 1.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.22515",
       "version": 1,
       "title": "Matroid flat counts are not unimodal",
