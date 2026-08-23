@@ -8678,6 +8678,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17958",
+      "version": 1,
+      "title": "A First-Order Entropy Law for Canonical T-Complexity of Finite-Alphabet i.i.d. Sources",
+      "authors": [
+        "Thomas Schürmann"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "cs.IT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T16:12:24Z",
+        "updated": "2026-08-18T16:12:24Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $W_N$ be an exact length-$N$ block from a strictly positive i.i.d. source $\\mathbf p$ on a fixed finite alphabet. We prove that the canonical T-complexity $c_T$ satisfies \\[ \\frac{c_T(W_N)}{e^{-γ}h(\\mathbf p) N/\\log N}\\longrightarrow1 \\] in probability and in $L^r$ for every fixed $1\\le r<\\infty$, where $h(\\mathbf p)$ is the source entropy in nats and $γ$ is the Euler-Mascheroni constant. The proof combines an exact length budget for canonical recovery, a critical-scale $E_1$ estimate for an ideal backward chain, and an exact finite-block boundary representation. An exact Doob-transform identity expresses the finite-boundary law relative to the ideal law conditioned at each step to avoid the current history-dependent successor codeword. A history-uniform renewal estimate then makes the telescoping endpoint density uniformly asymptotic to one, so no one-step approximation errors accumulate.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17958v1",
+        "pdf": "https://arxiv.org/pdf/2608.17958v1",
+        "source": "https://export.arxiv.org/e-print/2608.17958v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 6,
+        "lemmas": 18,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 154,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuskript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e mathematical argu- ments; writing–review and editing. The author reviewed and approved the final manuscript and assumes full responsibility for its correctness and integrity. Use of artificial intelligence. GPT-5.6 Sol Pro was used as an AI-assisted tool for formal analysis and for developing and drafting the mathematical proofs. All AI-generated mathemati- cal content was reviewed and validated by the author. GPT-5.6 Sol Pro is not an author and assumes no responsibility for the cont",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:31.497716Z"
+      },
+      "score": 1784,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 178.4,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 10,
+          "theorems": 36,
+          "lemmas": 72,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 38.5,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17953",
       "version": 1,
       "title": "Symmetric Differentials on K3 Surfaces",
