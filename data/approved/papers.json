@@ -8340,6 +8340,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10880",
+      "version": 1,
+      "title": "Distinguishing elliptic curves modulo $p$ and identifying images of product representations",
+      "authors": [
+        "Jessica Bennett",
+        "Jeffrey Hatley",
+        "Sasha Kononova",
+        "Vincent Macri",
+        "Zachary Porat",
+        "Naina Praveen"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T12:57:47Z",
+        "updated": "2026-08-11T12:57:47Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Given two elliptic curves defined over $\\mathbb{Q}$ and a rational prime $p$, we study the product of their residual Galois representations. Using Goursat's lemma, we explicitly enumerate and completely characterize all possible images of such product representations. We also define associated invariants to these image groups, which we call \\textit{witness ratios}, and we explain their computational utility and their relationship to the well-known Sturm bound for testing congruences between modular forms.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10880v1",
+        "pdf": "https://arxiv.org/pdf/2608.10880v1",
+        "source": "https://export.arxiv.org/e-print/2608.10880v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 9,
+        "lemmas": 8,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 2,
+        "displayed_equations": 83,
+        "bibliography_entries": 241,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper-draft-new-order.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "̄E1 ,p × ρ̄E2 ,p lies in ∆ and projects onto both factors. We work up to conjugacy in G × G, so that our arguments are independent of our choice of basis of E1 [p] and E2 [p]. The results in this section were discovered with the help of Claude (Fable 5). 3.1. Classifying the admissible subgroups. Let us define the following subgroups of G × G : Γid = {(g, g) | g ∈ G}, Γχ = {(g, χ(det g)g) | g ∈ G}, and H± = {(g, ±g) | g ∈ G}, with Γid , Γχ ⊂ H± ⊂ ∆, the first t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:24.163481Z"
+      },
+      "score": 1868.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 186.85,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 22,
+          "theorems": 54,
+          "lemmas": 32,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 4,
+          "displayed_equations": 20.75,
+          "bibliography_entries": 24.1,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10771",
       "version": 1,
       "title": "The Weinstock inequality for convex domains in hyperbolic space",
