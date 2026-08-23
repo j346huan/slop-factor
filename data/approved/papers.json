@@ -9103,6 +9103,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13872",
+      "version": 1,
+      "title": "$C_2$-Cofiniteness and Rationality of the Icosahedral Orbifold $V_{L_2}^{A_5}$",
+      "authors": [
+        "Shun Xu"
+      ],
+      "categories": {
+        "primary": "math.QA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T01:49:05Z",
+        "updated": "2026-08-14T01:49:05Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $L_2=\\mathbb{Z}α$ be the rank-one root lattice with $(α,α)=2$, and let $A_5$ act on the lattice vertex operator algebra $V_{L_2}$ through an icosahedral subgroup of $\\operatorname{Aut}(V_{L_2})\\cong PSL_2(\\mathbb{C})$. We prove that the fixed-point vertex operator algebra $V_{L_2}^{A_5}$ is $C_2$-cofinite and strongly rational.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13872v1",
+        "pdf": "https://arxiv.org/pdf/2608.13872v1",
+        "source": "https://export.arxiv.org/e-print/2608.13872v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 4,
+        "lemmas": 22,
+        "propositions": 15,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 107,
+        "bibliography_entries": 19,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "thesis-independent audit of the explicit irreducible-module list, as well as intrinsic characterization of VLA25 , remains separate work. Acknowledgments We gratefully acknowledge the use of OpenAI’s GPT5.6 Sol model as a research assistance tool in the preparation of this manuscript. The model was employed to support literature ex- ploration, conceptual brainstorming, and language polishing, which contributed to improving the clarity and eﬀi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 40",
+          "page": 40
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:06.241897Z"
+      },
+      "score": 507.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 253.65,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 41,
+          "theorems": 24,
+          "lemmas": 88,
+          "propositions": 60,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 26.75,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13836",
       "version": 1,
       "title": "A counterexample to a log-concavity conjecture of Brenti",
