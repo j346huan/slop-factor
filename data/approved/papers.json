@@ -8678,6 +8678,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17989",
+      "version": 1,
+      "title": "A note on the partial sum of bounded Dirichlet series",
+      "authors": [
+        "Yukun Chen",
+        "Xiangdi Fu"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T16:33:58Z",
+        "updated": "2026-08-18T16:33:58Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $\\mathcal H^\\infty$ be the space of all Dirichlet series that admit a bounded holomorphic extension to the open right half-plane $ \\{s\\in \\mathbb C: \\operatorname{Re} s >0\\}, $ and let $$ \\mathcal S_N: \\mathcal H^\\infty \\to \\mathcal H^\\infty; \\sum_{n=1}^\\infty a_n n^{-s} \\mapsto \\sum_{n=1}^N a_n n^{-s}. $$ be the $N$-th partial sum operator. This note establishes the asymptotic lower bound $$ \\liminf_{N\\to \\infty} \\frac{\\|\\mathcal S_N\\|_{\\mathcal H^\\infty \\to \\mathcal H^\\infty}}{\\log N} \\geq \\frac{1}{2π}. $$ Together with the upper bound of R. Balasubramanian, B. Calado, and H. Queffélec, this shows that the growth of $\\|\\mathcal S_N\\|_{\\mathcal H^\\infty\\to \\mathcal H^\\infty}$ is of sharp logarithmic order.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17989v1",
+        "pdf": "https://arxiv.org/pdf/2608.17989v1",
+        "source": "https://export.arxiv.org/e-print/2608.17989v1"
+      },
+      "structural_counts": {
+        "pages": 7,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 45,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file A_note_on_the_partial_sum_of_Dirichlet_series.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "π The proof is completed. AI Disclosure. The proof of the logarithmic lower bound was developed with the assistance of OpenAI’s ChatGPT-5.5 Plus. After the authors formulated the problem and interacted with ChatGPT over several rounds, ChatGPT identified a suitable test function and supplied a complete proof, which the authors subse- quently verified. The original proof invoked the Baker–Harman–Pintz theorem on primes in short intervals [BHP01]; the authors later eliminated this",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:44.107672Z"
+      },
+      "score": 337.05,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 37.45,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 7,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 11.25,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17958",
       "version": 1,
       "title": "A First-Order Entropy Law for Canonical T-Complexity of Finite-Alphabet i.i.d. Sources",
