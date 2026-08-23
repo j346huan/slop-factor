@@ -41767,6 +41767,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17278",
+      "version": 1,
+      "title": "Log-Concavity of Conic Intrinsic Volumes",
+      "authors": [
+        "Houshan Fu",
+        "Suijie Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-19T14:51:50Z",
+        "updated": "2026-07-19T14:51:50Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $n\\ge1$ and $C\\subseteq\\mathbb{R}^n$ be a closed convex cone with conic intrinsic volumes $v_0(C),\\ldots,v_n(C)$. We prove the long-standing log-concavity conjecture for this sequence, in the stronger form \\[ v_k(C)^2\\ge ρ_kρ_{n-k}v_{k-1}(C)v_{k+1}(C), \\qquad 1\\le k\\le n-1, \\] where, for $l\\ge1$, $ρ_l=\\frac{l+1}{l}\\frac{ω_{l-1}ω_{l+1}}{ω_l^2}>1$ and $ω_j$ is the volume of the Euclidean unit ball in $\\mathbb{R}^j$. The proof applies the Alexandrov--Fenchel inequality to the Takemura--Kuriki identity \\[ V(A[k],D[n-k])=\\frac{ω_kω_{n-k}}{\\binom nk}v_k(C),\\qquad A=C\\cap B^n,\\quad D=C^\\circ\\cap B^n, \\] where $C^\\circ$ is the polar cone, $B^n$ is the Euclidean unit ball, and repeated arguments are indicated by brackets. A Master Steiner argument gives the identity directly for arbitrary closed convex cones, including degenerate ones. We also give a circular-cone counterexample to the standard ultra-log-concavity normalizations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17278v1",
+        "pdf": "https://arxiv.org/pdf/2607.17278v1",
+        "source": "https://export.arxiv.org/e-print/2607.17278v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 30,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Manuscript.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "inuous under conic Hausdorff convergence and circular cones admit polyhedral approximations [8, Fact 7.4 and Proposition 8.2], the same strict violations occur for all sufficiently close polyhedral approximants. Declaration on the use of generative AI During the preparation of this manuscript, the authors used ChatGPT primarily to assist with literature searches and identify relevant prior work. The authors carefully examined all cited sources, verified their relevance and mathema",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:51.541217Z"
+      },
+      "score": 49.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 24.9,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 7.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16978",
       "version": 1,
       "title": "Real-World, Large Scale, Multi-Period Log Truck Routing and Scheduling : Application to Canadian Forestry",
