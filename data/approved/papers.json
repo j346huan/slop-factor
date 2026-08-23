@@ -9020,6 +9020,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14520",
+      "version": 1,
+      "title": "Comment on arXiv:2106.08363v3 [math.NA], E. Abreu, A. Espirito Santo, W. Lambert, and J. Perez, Convergence of a Lagrangian--Eulerian scheme by a weak asymptotic analysis for one-dimensional hyperbolic problems",
+      "authors": [
+        "Frederico Furtado",
+        "Felipe Pereira",
+        "Li-Ming Yeh"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T17:42:26Z",
+        "updated": "2026-08-14T17:42:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This Comment concerns arXiv:2106.08363v3 [math.NA] by E. Abreu, A. Espirito Santo, W. Lambert and J. Perez, published in Numer. Methods Partial Differential Equations 39 (2023) 2400-2443. That article builds its scheme on space-time control volumes whose lateral boundaries, called \"no-flow curves\", solve dsigma/dt = H(u)/u and are presented as new. We show, equation by equation, that this object is the space-time integral curve of the locally conservative Eulerian-Lagrangian method of Douglas, Pereira and Yeh [Comput. Geosci. 4 (2000) 1-40], that the no-flow region is the tube those curves bound, and that its scalar forward-tracked form appears in Mancuso, Pereira and de Souza [TEMA 8 (2007) 269-276, 277-286]. At issue is not moving a control volume, which is generic, but which curve moves it: H'(u) and H(u)/u coincide identically only for a linear flux, and only the latter makes lateral mass flux vanish. The commented article itself calls the 2000 paper the first to introduce space-time local conservation, with an integral tube bounded by integral curves, while its abstract calls the same object introduced by the authors. A full-text corpus documents the changing terminology and attribution. Papers published in 2025 and 2026 use the same construction while citing later work but not DPY. Another 2026 paper gives mixed attribution: it calls the no-flow curve an \"extension\" of the DPY integral curve, although its own zero-flux definition and ratio ODE show identity, and it states that diffusion and dispersion do not modify the defining vector field. It extends the model, scheme and analysis, not the continuous curve. The later discrete contributions are not challenged.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14520v1",
+        "pdf": "https://arxiv.org/pdf/2608.14520v1",
+        "source": "https://export.arxiv.org/e-print/2608.14520v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 13,
+        "bibliography_entries": 44,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arXiv-Aug-13-26.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "analyzed; all material quoted or cited is available in the published sources listed in the references. Declaration of generative AI and AI-assisted technologies in the writing process. During the preparation of this work, the authors used OpenAI’s ChatGPT and Codex to assist with language editing, stylistic polishing, document organization, consistency and cross-reference checks, LaTeX preparation, and drafting of the schematic figure. After using these tools, the authors reviewed and edite",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "formatting_typesetting",
+        "role_label": "Formatting or typesetting",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:35.762874Z"
+      },
+      "score": 29.65,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 29.65,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 18,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3.25,
+          "bibliography_entries": 4.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14517",
       "version": 1,
       "title": "A disproof of a gap-one conjecture for the equitable chromatic number of block graphs",
