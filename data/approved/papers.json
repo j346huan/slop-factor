@@ -8340,6 +8340,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12681",
+      "version": 1,
+      "title": "Volume and Projection Inequalities I: Zonoids and Courtade's Conjecture",
+      "authors": [
+        "Matthieu Fradelizi",
+        "Alfredo Hubard",
+        "Auttawich Manui",
+        "Cheikh Saliou Ndiaye",
+        "Shouda Wang",
+        "Artem Zvavitch"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T00:41:36Z",
+        "updated": "2026-08-13T00:41:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study volume and projection inequalities for zonoids through the multiaffine determinant polynomials that encode their volumes. We show that a log-submodularity conjecture for the volume of zonoids is equivalent to the Rayleigh property of zonotope volume polynomials, which we prove for the case when the degree or codegree is at most 3. This result is sharp in that when the degree and codegree are at least 4, we construct counterexamples using the existence of non-Rayleigh matroids in ranks at least four. Additionally, we provide unimodular or graphical counterexamples in dimensions four and higher to an equivalent projection inequality formulation of the conjecture. We also show that a stronger projection inequality fails already in dimension three. We next disprove Courtade's conjecture using a pair of orthogonal double bodies of revolution. Although Courtade's conjecture was originally formulated for general convex bodies, we show that it fails even for zonoids in every dimension at least three.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12681v1",
+        "pdf": "https://arxiv.org/pdf/2608.12681v1",
+        "source": "https://export.arxiv.org/e-print/2608.12681v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 5,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 180,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Volume_Projection_I_Zonoids.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Israel Binational Science Foundation (BSF) Grant 2018115. A. M. was supported by the Chateaubriand Fellowship of the Office for Science & Technology of the Embassy of France in the United States. During the preparation of this paper, OpenAI’s GPT-5.6 Sol was used as an auxiliary tool to explore examples, test determinant computations, and assist with preliminary proof development. The mathematical arguments, final statements, and computations presented here are those of the authors, wh",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:15.152980Z"
+      },
+      "score": 1044.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 130.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 27,
+          "theorems": 30,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 45,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12604",
       "version": 1,
       "title": "Density bounds for permutations avoiding monotone arithmetic progressions",
