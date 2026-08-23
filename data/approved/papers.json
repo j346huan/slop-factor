@@ -44059,6 +44059,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13376",
+      "version": 1,
+      "title": "On the $K$-theoretic logarithmic double ramification class",
+      "authors": [
+        "Kamyar Amini",
+        "You-Cheng Chou",
+        "Leo Herr",
+        "David Holmes",
+        "Irit Huq-Kuruvilla",
+        "Yuan-Pin Lee"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T01:50:41Z",
+        "updated": "2026-07-15T01:50:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The logarithmic double ramification cycle is the virtual fundamental class of the locus where a line bundle on a family of curves is fiberwise trivial. We construct a K-theoretic logarithmic double ramification class and prove a product formula and a \\(\\mathrm{GL}_r(\\mathbb Z)\\)-invariance property. We also give an explicit formula for this class in terms of a Grothendieck polynomial via a novel $K$-theoretic Thom--Porteous formula for vector bundles on algebraic stacks.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13376v1",
+        "pdf": "https://arxiv.org/pdf/2607.13376v1",
+        "source": "https://export.arxiv.org/e-print/2607.13376v1"
+      },
+      "structural_counts": {
+        "pages": 54,
+        "theorems": 13,
+        "lemmas": 14,
+        "propositions": 10,
+        "corollaries": 6,
+        "definitions": 31,
+        "displayed_equations": 234,
+        "bibliography_entries": 144,
+        "appendix_pages": 54
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rr, and Mark Shimozono for discussions about Grothendieck polynomials. These results were presented at IMJ-PRG and in ICTS-TIFR. We thank A. Chiodo, P. Georgieva, C. Ravi and B. Sreedhar for inviting us to deliver a talk on this topic. AI (ChatGPT and Claude) made us aware of the Eagon–Northcott complex, created the glossary, checked for typos, and substantially helped with editing. The proofs of Lemmas B.5, B.6 were refined in collaboration with AI upon noticing a mistake in an ear",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:29.904990Z"
+      },
+      "score": 3911.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 488.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 54,
+          "theorems": 78,
+          "lemmas": 56,
+          "propositions": 40,
+          "corollaries": 18,
+          "definitions": 62,
+          "displayed_equations": 58.5,
+          "bibliography_entries": 14.4,
+          "appendix_pages": 108
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13335",
       "version": 1,
       "title": "Closing the Oracle-Complexity Gap in Derivative-Free Convex Optimization: A Near-Quadratic Lower Bound from Exact Function Values",
