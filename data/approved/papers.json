@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17821",
+      "version": 1,
+      "title": "Witt rings, Pfister forms, and equivariant birational geometry",
+      "authors": [
+        "Brendan Hassett",
+        "Yuri Tschinkel"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T14:20:05Z",
+        "updated": "2026-08-18T14:20:05Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study equivariant birational geometry of quadrics with actions of finite groups and develop analogs of Witt groups and Pfister theory in the equivariant context.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17821v1",
+        "pdf": "https://arxiv.org/pdf/2608.17821v1",
+        "source": "https://export.arxiv.org/e-print/2608.17821v1"
+      },
+      "structural_counts": {
+        "pages": 46,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 23,
+        "corollaries": 4,
+        "definitions": 9,
+        "displayed_equations": 259,
+        "bibliography_entries": 38,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file MainPfisterEquivariant.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "29284. The second author was partially supported by NSF grant 2301983. We are grateful to Candace Bethea for conversa- tions that informed this project, and to Barry Mazur for suggestions on a draft of this paper. We used MAGMA [BCP97] and Gemini for computations informing our results, and ChatGPT and Claude to proofread the text. 2. Equivariant birational geometry We recall main terms and constructions in equivariant birational geometry; for a more detailed discu",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:55.852455Z"
+      },
+      "score": 727.65,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 242.55,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 46,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 92,
+          "corollaries": 12,
+          "definitions": 18,
+          "displayed_equations": 64.75,
+          "bibliography_entries": 3.8,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17815",
       "version": 1,
       "title": "Second-pole wall periods for Witten zeta functions in the classical families",
