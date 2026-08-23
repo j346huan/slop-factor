@@ -8340,6 +8340,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09777",
+      "version": 1,
+      "title": "A pre-triangulated category which is not triangulated",
+      "authors": [
+        "Xiao-Wu Chen",
+        "Jian Liu",
+        "Xue-Song Lu",
+        "Chencheng Zhang"
+      ],
+      "categories": {
+        "primary": "math.CT",
+        "secondary": [
+          "math.AG",
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T16:05:07Z",
+        "updated": "2026-08-10T16:05:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this article, we construct an explicit pre-triangulated category which is not a triangulated category. Its underlying additive category is the category of finitely generated projective modules of the type-$A_5$ preprojective algebra over $\\mathbb F_2$, and the suspension is induced by the graph-reflection automorphism.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09777v1",
+        "pdf": "https://arxiv.org/pdf/2608.09777v1",
+        "source": "https://export.arxiv.org/e-print/2608.09777v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 6,
+        "displayed_equations": 60,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 2026CLLZ.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "trary to Theorem 3.14. Hence TR4 fails. Acknowledgements. The mathematical search leading to the construction was carried out with sub- stantial assistance from Eureka, an autonomous multi-agent mathematical-reasoning system. We also used GPT-5.6 Sol to check and revise this manuscript. We would like to thank the JIUCHONG team at the University of Science and Technology of China for providing us with access to Eureka. We are grateful to Jie Li and Tianyang Sun for their assistance",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:01.184691Z"
+      },
+      "score": 1035,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 103.5,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 14,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 12,
+          "displayed_equations": 15,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09759",
       "version": 1,
       "title": "Information geometric regularization for computing sensitivities of flows with shocks",
