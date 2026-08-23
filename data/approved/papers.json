@@ -43222,6 +43222,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13890",
+      "version": 1,
+      "title": "Heat Kernel and Closed Geodesic Asymptotics for Nilpotent Coverings",
+      "authors": [
+        "Atsushi Katsuda"
+      ],
+      "categories": {
+        "primary": "math.SP",
+        "secondary": [
+          "math.AP",
+          "math.DG",
+          "math.DS",
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-15T14:35:08Z",
+        "updated": "2026-07-15T14:35:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish all order long-time asymptotic expansions for heat kernels on nilpotent coverings and for prime closed geodesics in fixed central classes of nilpotent quotients of compact hyperbolic surfaces. The exact lattice-side input is the finite-dimensional rational Floquet-Bloch theory of the companion paper: rational Kirillov restrictions give exact finite-dimensional fibers, and a generalized Pytlik functional gives exact Fourier-inversion and normalized-trace identities. At a rational parameter $p/q$ the decomposition is exact, and the fluctuation of the fiber integrand is controlled only by $q$. Hence the large-denominator comparison with the smooth Kirillov or Schrödinger normal form is uniform on the rational support of the Pytlik functional; irrational parameters do not enter the rigorous trace argument. For general nilpotent models, coefficient-weighted spectral sums are justified to every fixed order by positive Rockland estimates, the Plancherel-Mellin formula, and a trace-level order-balance argument. In contrast with approaches which usually give leading terms or integrated Edgeworth-type asymptotics, the method gives genuinely local, pointwise higher-order heat-kernel expansions. The same representation-theoretic quantity governs the leading term in the closed-geodesic asymptotics, producing a nilpotent Chebotarev-type phenomenon. The Heisenberg model is computed to the first correction term, and the Engel model is represented through the resolvent and heat-kernel calculus of the quartic oscillato",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13890v1",
+        "pdf": "https://arxiv.org/pdf/2607.13890v1",
+        "source": "https://export.arxiv.org/e-print/2607.13890v1"
+      },
+      "structural_counts": {
+        "pages": 84,
+        "theorems": 13,
+        "lemmas": 2,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 417,
+        "bibliography_entries": 65,
+        "appendix_pages": 82
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file applicationmain.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "function of that model operator. Ap- pendix A recalls a resolvent representation for the quartic-oscillator zeta value. This example illustrates why the general nilpotent constants are most naturally stated in spectral-zeta form. Use of AI Tools AI and LLM tools, including Microsoft Copilot and ChatGPT, were used as editorial and checking assistants: for copy-editing, notation and cross-reference checks, symbolic book- keeping, consistency checks, and assistance with LATEX prepara",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:43.932958Z"
+      },
+      "score": 1859,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 464.75,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 84,
+          "theorems": 78,
+          "lemmas": 8,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 104.25,
+          "bibliography_entries": 6.5,
+          "appendix_pages": 164
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13888",
       "version": 1,
       "title": "An Order-One Lower Bound on the Error of Scalable Generalized Multiscale Finite Element Space Constructions",
