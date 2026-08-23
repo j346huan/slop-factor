@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13486",
+      "version": 2,
+      "title": "A complete curve of genus 10 in the moduli space of curves of genus 3 and related questions",
+      "authors": [
+        "Samuel Grushevsky",
+        "Christophe Ritzenthaler"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-15T06:29:09Z",
+        "updated": "2026-08-02T00:54:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We show the existence of a complete trigonal curve of geometric genus 10 in the moduli space $\\mathcal{M}_3$ of smooth complex projective curves of genus $3$, and of a complete curve of geometric genus 102 through a general point of $\\mathcal{M}_3$. We also show that the moduli space $\\mathcal{A}_3$ of principally polarized complex abelian threefolds contains a complete curve whose normalization is a hyperelliptic curve of genus 4.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13486v2",
+        "pdf": "https://arxiv.org/pdf/2607.13486v2",
+        "source": "https://export.arxiv.org/e-print/2607.13486v2"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 27,
+        "bibliography_entries": 562,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main_final.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "[u1 , . . . , u6 ], which by a direct computation one can further check are non-zero. But then {f = 0} is a degree 8 hypersurface in C7 , which thus has degree of irrationality at most 8. Acknowledgments. The second-named author used the Gemini large language model to draft arguments for the generators and representation of Γ3 (1) (before finding appropriate references). The first-named author had a long conversation with ChatGPT 5.6 exploring possible curves in S invariant under",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:43.027271Z"
+      },
+      "score": 671.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 83.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 11,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 6.75,
+          "bibliography_entries": 56.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13316",
       "version": 1,
       "title": "Braid groups and Burnside groups",
