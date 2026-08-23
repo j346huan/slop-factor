@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13000",
+      "version": 1,
+      "title": "Dynamical comparison for local homeomorphisms",
+      "authors": [
+        "Shirly Geffen",
+        "Shanshan Hua",
+        "Julian Kranz"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": [
+          "math.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T09:22:28Z",
+        "updated": "2026-08-13T09:22:28Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove dynamical comparison for Deaconu--Renault groupoids associated to minimal surjective non-injective local homeomorphisms of compact metrizable spaces with finite Lebesgue covering dimension. As a corollary, the associated $C^*$-algebras are UCT Kirchberg algebras, recovering results by Carlsen--Thomsen via dynamical methods. In the zero-dimensional case, our result also verifies Matui's AH-conjecture for these groupoids using a recent breakthrough of Xin Li. Our proof combines techniques from both the purely infinite and stably finite regimes: We construct partial actions of non-abelian free groups as suitable ``large subgroupoids'' and establish comparison properties for these using the paradoxical towers technique developed by Gardella--Geffen--Kranz--Naryshkin. The boundary of the subgroupoid is controlled by a groupoid version of the topological small boundary property which we deduce from finite covering dimension of the unit space. As a byproduct, we prove the classical small boundary property for minimal actions of countable discrete groups on finite-dimensional compact metrizable spaces without any freeness assumption.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13000v1",
+        "pdf": "https://arxiv.org/pdf/2608.13000v1",
+        "source": "https://export.arxiv.org/e-print/2608.13000v1"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 7,
+        "lemmas": 9,
+        "propositions": 1,
+        "corollaries": 6,
+        "definitions": 7,
+        "displayed_equations": 132,
+        "bibliography_entries": 71,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "luding the research question, the overall proof strategy and the proofs themselves have been developed by the authors with the exception of preliminary drafts of the proofs of Lemma 5.2 and Theorem 5.8 which were developed with the help of ChatGPT Plus 5.5, closely following [Sza15], and heavily revised by the authors, as well as two minor technical gaps in the proofs of Lemmas 3.2 and 4.2 which have been fixed using helpful comments by ChatGPT Plus 5.5. The authors take full respon",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:51.306739Z"
+      },
+      "score": 1638.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 182.1,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 28,
+          "theorems": 42,
+          "lemmas": 36,
+          "propositions": 4,
+          "corollaries": 18,
+          "definitions": 14,
+          "displayed_equations": 33,
+          "bibliography_entries": 7.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12919",
       "version": 1,
       "title": "Constructions of almost controllable graphs determined by their generalized spectra",
