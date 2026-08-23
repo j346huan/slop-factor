@@ -43204,6 +43204,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20157",
+      "version": 2,
+      "title": "Matchings and Near-Optimal 2-Factor Packings in Percolated Vertex-Transitive Graphs",
+      "authors": [
+        "Mengyu Cao",
+        "Mei Lu",
+        "Xiamiao Zhao"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T13:54:01Z",
+        "updated": "2026-07-26T13:49:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $G$ be a connected simple vertex-transitive graph on $n$ vertices with degree $d$, and let $G_p$ be the random spanning subgraph obtained by retaining each edge of $G$ independently with probability $p$. Put $q:=1-p$. Motivated by a conjecture of Bedert, Draganić, Müyesser, and Pavez-Signé on Hamilton cycles in percolated Cayley graphs, we establish the corresponding matching and $2$-factor statements uniformly over the larger class of all connected vertex-transitive host graphs. For every $A>0$, if $q^d\\le n^{-(5A+250)},$ then, with probability at least $1-n^{-A}$, the graph $G_p$ has a perfect matching when $n$ is even and is factor-critical when $n$ is odd. Separately, if $0<ε<1$ and $ ε^2pd\\ge64(A+6)\\log(2n), $ then, with probability at least $1-n^{-A}$, the graph $G_p$ contains at least \\[ \\left\\lfloor\\frac{(1-ε)pd}{2}\\right\\rfloor \\] pairwise edge-disjoint spanning $2$-factors. Moreover, if $pd/\\log n\\to\\infty$, then \\[ ν_2(G_p)=(1+o(1))\\frac{pd}{2} \\] with high probability, which is asymptotically optimal, where $ν_2(G)$ is the maximum number of pairwise edge-disjoint spanning 2-factors in $G$. Thus logarithmic-order percolation already forces these two factor-theoretic consequences of Hamiltonicity beyond the Cayley setting.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20157v2",
+        "pdf": "https://arxiv.org/pdf/2607.20157v2",
+        "source": "https://export.arxiv.org/e-print/2607.20157v2"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 10,
+        "lemmas": 20,
+        "propositions": 9,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 144,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "he gap in (20). In particular, determine whether the lower bound C∗ (A) = 2A + 2 is sharp, and classify the minimal parity-preclusion sets that determine the leading failure probability. Acknowledgement The authors acknowledge the use of AI tools during the exploratory stage of this project. All mathematical arguments and proofs in the final manuscript were checked and written by the authors. References [1] B. Bedert, N. Draganić, A. Müyesser, and M. Pavez-Signé, The Lovász",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:11.135434Z"
+      },
+      "score": 500.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 250.1,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 23,
+          "theorems": 60,
+          "lemmas": 80,
+          "propositions": 36,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 36,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20113",
       "version": 1,
       "title": "Forward-Reflected-Backward algorithm with Linesearch",
