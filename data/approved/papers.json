@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13443",
+      "version": 1,
+      "title": "Fundamental Gaps for the Dirichlet \\(p\\)-Laplacian with Convex Potentials: Sharp One-Dimensional Bounds and a Higher-Dimensional Dichotomy",
+      "authors": [
+        "Rui Chen",
+        "Daniel Hauer"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T16:29:36Z",
+        "updated": "2026-08-13T16:29:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study fundamental gaps for the Dirichlet \\(p\\)-Laplacian on bounded convex domains with convex potentials. We prove log-concavity of the positive first eigenfunction by a regularization and two-point maximum principle. For \\(N\\geq2\\), we identify a sharp transition at \\(p=2\\) through collapsing smooth convex domains: the gap vanishes for \\(1<p<2\\), remains of order \\(D^{-2}\\) for \\(p=2\\), and diverges for \\(p>2\\). For \\(p\\geq2\\) and convex potentials, we first establish a degenerate weighted Poincaré inequality, which yields quantitative stability estimates for the \\(L^p\\)-Poincaré inequality and, in turn, dimension-free bounds for the fundamental gap; for zero potential, we further obtain an enhanced gap estimate involving both the first eigenvalue and the diameter. We also prove existence of diameter-normalized gap minimizers for \\(p>2\\) and show that they degenerate as \\(p\\downarrow2\\). Finally, for $N=1,$ we prove the sharp inequality \\[ λ_{2,p}(I_D,V)-λ_{1,p}(I_D,V) \\geq (p-1)(2^p-1)\\left(\\frac{π_p}{D}\\right)^p \\] for every \\(p>1\\) and every convex potential, with equality precisely for constant potentials.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13443v1",
+        "pdf": "https://arxiv.org/pdf/2608.13443v1",
+        "source": "https://export.arxiv.org/e-print/2608.13443v1"
+      },
+      "structural_counts": {
+        "pages": 35,
+        "theorems": 7,
+        "lemmas": 9,
+        "propositions": 10,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 292,
+        "bibliography_entries": 66,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file fundamental_gap_p_laplacian.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "t the development of this work. Conflict of interest. The authors declare that they have no conflict of interest. Data availability. No datasets were generated or analyzed during the current study. AI assistance statement. The authors used OpenAI models as assistive tools in preparing this manuscript. All mathematical arguments, proofs, and verifications were carried out by the authors, who take full responsibility for the content of the paper.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 31",
+          "page": 31
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:51.472635Z"
+      },
+      "score": 1193,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 238.6,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 35,
+          "theorems": 42,
+          "lemmas": 36,
+          "propositions": 40,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 73,
+          "bibliography_entries": 6.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13371",
       "version": 1,
       "title": "Gross vectors modulo 2 and elliptic curves of prime conductor",
