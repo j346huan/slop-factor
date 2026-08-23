@@ -8513,6 +8513,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12089",
+      "version": 2,
+      "title": "Complexity rank one implies real rank zero",
+      "authors": [
+        "Qingnan An",
+        "Zhichao Liu"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T14:12:59Z",
+        "updated": "2026-08-20T15:25:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We show that $C^*$-algebras with complexity rank one have real rank zero, as an application, the uniform Roe algebra $C_u^*|\\mathbb{Z}|$ has real rank zero.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12089v2",
+        "pdf": "https://arxiv.org/pdf/2608.12089v2",
+        "source": "https://export.arxiv.org/e-print/2608.12089v2"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 3,
+        "corollaries": 3,
+        "definitions": 8,
+        "displayed_equations": 94,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file complexrank.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "15 It is also used for language editing. All arguments and ideas are developed and substantially revised by the authors with the exception of preliminary drafts of the proofs of Lemma 2.7 which were developed with the help of ChatGPT. The authors take full responsibility of the content of this paper. References [1] M. Amini, K. Li, D. Sawicki and A. Shakibazadeh. Dynamic asymptotic dimension for actions of virtually cyclic groups.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:47.154453Z"
+      },
+      "score": 1052.1,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 116.9,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 16,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 12,
+          "corollaries": 9,
+          "definitions": 16,
+          "displayed_equations": 23.5,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12080",
       "version": 1,
       "title": "Word-Length Spectral Triples of $(\\mathbb{Z}/2\\mathbb{Z})\\wr\\mathbb{F}_{d}$ Are Not Metric",
