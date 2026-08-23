@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21396",
+      "version": 1,
+      "title": "A six-neuron counterexample to the target-free clique conjecture",
+      "authors": [
+        "Jesse Geneson"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-23T14:58:30Z",
+        "updated": "2026-07-23T14:58:30Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The target-free clique conjecture asserts that the supports of stable fixed points of a nondegenerate combinatorial threshold-linear network (CTLN) are exactly its target-free cliques: bidirected cliques for which no outside vertex receives an edge from every clique vertex. We give an explicit six-neuron counterexample. For every sufficiently small $\\varepsilon>0$, the CTLN defined by one fixed graph at $δ=29\\varepsilon/25$ is nondegenerate and has a stable fixed point with nonclique full support. Its values of $q=δ(1-\\varepsilon)/\\varepsilon$ tend to $29/25$. In the complementary direction, for any CTLN on $n\\geq3$ vertices, we prove that in the parameter range \\[ q\\geq n-2-\\frac{n-3}{2}\\varepsilon, \\] no nonclique support can satisfy both the fixed-point positivity and linear stability conditions. Consequently, throughout this range, every nondegenerate CTLN has exactly its target-free cliques as supports of stable fixed points. In particular, this holds when $\\varepsilon\\leqδ/(δ+n-2)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21396v1",
+        "pdf": "https://arxiv.org/pdf/2607.21396v1",
+        "source": "https://export.arxiv.org/e-print/2607.21396v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 83,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file target_free_clique_conjecture_false_jul22.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tion give (33) as the smaller root. The larger root exceeds (δ + n − 2)/(n − 3) > 1, while legal ε satisfies 0 < ε < 1. Hence (33) implies (35). Finally, (34) is equivalent to q ≥ n − 2, which implies (25). Acknowledgments Codex with GPT-5.6 and Claude Code with Opus 4.8 and Fable 5 were used for proof exploration, proof criticism, exposition, and revision. 11",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:15.457518Z"
+      },
+      "score": 455.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 56.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 12,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 20.75,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24832",
       "version": 1,
       "title": "Further proofs of conjectures from the OEIS",
