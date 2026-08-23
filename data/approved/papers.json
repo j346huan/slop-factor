@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28195",
+      "version": 1,
+      "title": "The Follow-the-Leader scheme with non-monotone velocity",
+      "authors": [
+        "Marco Di Francesco"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T13:32:14Z",
+        "updated": "2026-07-30T13:32:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This paper addresses the approximation of entropy solutions to a one-dimensional scalar conservation law via the so-called Follow-the-Leader particle scheme in case the velocity map is \\emph{non monotone}. The result is based on a discrete maximum principle, on $BV$ estimates of the approximated density, and on the characterization of the limit as entropy solution in the sense of Kru\\v zkov.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28195v1",
+        "pdf": "https://arxiv.org/pdf/2607.28195v1",
+        "source": "https://export.arxiv.org/e-print/2607.28195v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 4,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 86,
+        "bibliography_entries": 29,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ftl_non_monotone_MDF.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "8W4, Nonlinear Evolutions PDEs, fluid dynamics and transport equations: theoretical foundations and applica- tions. The author is also partially supported by the InterMaths Network, www.intermaths.eu. The author acknowledges the use of the AI assistant Claude (Anthropic) during the early stage of this project, in identifying the connection between the follow-the-leader scheme and Godunov-type numerical Hamiltonians for Hamilton–Jacobi equations, and in locating the relevant references [3",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:42.374087Z"
+      },
+      "score": 164.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 82.4,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 16,
+          "theorems": 24,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 21.5,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27918",
       "version": 1,
       "title": "OptGraph: Large Language Models Enhanced Evolutionary Optimization Via Graph Retrieval-Augmented Generation",
