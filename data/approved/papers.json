@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14232",
+      "version": 1,
+      "title": "Ollivier--Ricci Curvature on Groups of Polynomial Growth",
+      "authors": [
+        "Camillo Brena",
+        "Elia Bruè"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math.MG",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T12:06:08Z",
+        "updated": "2026-08-14T12:06:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study Ollivier--Ricci curvature on Cayley graphs of groups of polynomial growth. Our main result shows that non-negative Ollivier--Ricci curvature forces the group to be virtually abelian. As an application, we prove that connected vertex-transitive graphs of polynomial growth and non-negative Ollivier--Ricci curvature are quasi-isometric to $\\mathbb{Z}^k$, for some $k\\in\\mathbb{N}$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14232v1",
+        "pdf": "https://arxiv.org/pdf/2608.14232v1",
+        "source": "https://export.arxiv.org/e-print/2608.14232v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 9,
+        "lemmas": 9,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 4,
+        "displayed_equations": 242,
+        "bibliography_entries": 41,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper_august_2026.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e proof of Theorem 3.5, specifically in verifying that the claimed set of generators can be chosen as stated. Finally, ChatGPT suggested the observation in Remark 3.4 after the authors prompted it with the group to look for the example. ChatGPT was also used for proofreading. All mathematical arguments, computations, and conclusions were independently verified by the authors. No text in this article was written by AI. 1.7. Acknowledgments. Part of this work was carried out whil",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:57.902520Z"
+      },
+      "score": 1716.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 214.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 36,
+          "theorems": 54,
+          "lemmas": 36,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 8,
+          "displayed_equations": 60.5,
+          "bibliography_entries": 4.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14115",
       "version": 2,
       "title": "The alpha spectrum of K-polystable toric $\\mathbb{Q}$-Fano varieties",
