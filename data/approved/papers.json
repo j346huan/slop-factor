@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13747",
+      "version": 1,
+      "title": "The small Davenport constant of the Heisenberg group of order 343",
+      "authors": [
+        "Andreas Volkmann"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T20:02:00Z",
+        "updated": "2026-08-13T20:02:00Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a finite group $G$, let $\\mathsf{d}(G)$ denote the maximum length of a sequence having no nonempty subsequence whose terms can be ordered to have product one. For an odd prime $p$, let $H_{p^3}=\\operatorname{UT}*3(\\mathbb{F}*p)$. Godara and Sarkar proved $\\mathsf{d}(H*{27})=6$ and conjectured $\\mathsf{d}(H*{p^3})=3p-3$; in a recent preprint, White proved the next case $\\mathsf{d}(H_{125})=12$ and left $18\\leq\\mathsf{d}(H_{343})\\leq24$. We prove $\\mathsf{d}(H_{343})=18$. We adopt White's product-one criterion and spread framework and develop a $p=7$-specific direction stratification. An explicit product-one-free sequence gives the lower bound. For the upper bound, we stratify a hypothetical product-one-free sequence of length $19$ by the number of central terms and by the occupied projective directions of its quotient multiset. Supports on at most two directions are excluded by a theoretical argument whose finite auxiliary statements are exhaustively checked; the three-direction case and the case of five central terms are settled by exact finite computations. The remaining thirty strata are encoded by a counterexample-guided SAT procedure. A separately implemented checker verifies all $9{,}920{,}815$ seed cuts and all $27{,}207$ learned cuts, and each final unsatisfiable instance is accompanied by a checked LRAT certificate. A separate implementation-level audit verifies the master encoding, the proof archives, and the lower-bound witness.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13747v1",
+        "pdf": "https://arxiv.org/pdf/2608.13747v1",
+        "source": "https://export.arxiv.org/e-print/2608.13747v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 50,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Volkmann_H343_preprint.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "check. Declaration of generative AI and AI-assisted technologies in the research and manuscript preparation process During the research and preparation of this work, the author used An- thropic Claude through the Fable service and OpenAI ChatGPT and Codex to assist with exploratory mathematics, the design and implementation of the search architecture, code generation, draft exposition, adversarial review of intermediate claims, redesign of verification steps, and a separate audit",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:23.380574Z"
+      },
+      "score": 707.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 88.4,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 15,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 12.5,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13739",
       "version": 1,
       "title": "An Almost-Covering Threshold for Golomb-Ruler Difference Packings",
