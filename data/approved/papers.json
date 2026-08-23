@@ -8511,6 +8511,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11856",
+      "version": 1,
+      "title": "Regulators of canonical extensions are torsion:the case of two transversally intersecting smooth divisors",
+      "authors": [
+        "Jaya NN Iyer",
+        "Carlos Simpson"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T09:44:54Z",
+        "updated": "2026-08-12T09:44:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This note extends the main result of \\cite{IS} 2007 --- torsion of the extended Chern--Simons (regulator) classes of the Deligne canonical extension of a flat bundle with unipotent monodromy at infinity --- from the case of a smooth irreducible boundary divisor to the case of a boundary divisor $D = D_1\\cup D_2$ with two smooth irreducible components meeting transversally along a smooth center $Z=D_1\\cap D_2$. Let $X$ be a smooth projective variety defined over $\\mathbb{C}$, and $U:=X-D$. Given a flat bundle $(E,\\nabla)$ on $U$ with unipotent monodromy around the components of $D$ consider Deligne's canonical extension $(\\overline{E},\\overline{\\nabla})$ on $X$. Then the extended Chern-Simons classes $$ c_p(\\overline{E},\\overline{\\nabla})\\in H^{2p-1}(X,\\mathbb{C}/\\mathbb{Z}) $$ are torsion, for $p\\geq 2$. These notes were prepared in 2009-2010, and the preprint \\cite[2026]{IS2} treats the full normal crossing case via a different approach.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11856v1",
+        "pdf": "https://arxiv.org/pdf/2608.11856v1",
+        "source": "https://export.arxiv.org/e-print/2608.11856v1"
+      },
+      "structural_counts": {
+        "pages": 43,
+        "theorems": 2,
+        "lemmas": 21,
+        "propositions": 10,
+        "corollaries": 4,
+        "definitions": 2,
+        "displayed_equations": 84,
+        "bibliography_entries": 22,
+        "appendix_pages": 43
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ext2ncd.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r was partly supported by the ERC Horizon Syn- ergy grant 101167526 (MALINCA), the Horizon 2020 grant 670624 (Mai Gehrke’s DuaLL project), and the ANR program IsoMoDyn (ANR-25-CE40-1360). AI disclosure: Proof-checking of the article used Claude AI. 2. The cubical geometry of neighborhoods 2.1. Compatible tubular data. Choose hermitian metrics on the normal bundles and compatible tubular neighborhood structures so that near Z the two tubular projections com",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:12.731606Z"
+      },
+      "score": 2433.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 304.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 43,
+          "theorems": 12,
+          "lemmas": 84,
+          "propositions": 40,
+          "corollaries": 12,
+          "definitions": 4,
+          "displayed_equations": 21,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 86
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11723",
       "version": 1,
       "title": "Every 2-Subdivision of a Cubic Graph Is Antimagic",
