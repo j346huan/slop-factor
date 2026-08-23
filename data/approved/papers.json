@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27691",
+      "version": 1,
+      "title": "Nuclear dimension, pure infiniteness and real rank for higher rank graph $C^*$-algebras",
+      "authors": [
+        "David Pask"
+      ],
+      "categories": {
+        "primary": "math.OA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T05:24:18Z",
+        "updated": "2026-07-30T05:24:18Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the structure and regularity of higher rank graph $C^*$-algebras, with particular emphasis on their nuclear dimension. For a row-finite, locally convex $k$-graph $Λ$ with no sources, we characterise pure infiniteness of $C^*(Λ)$ in terms of generalised cycles, maximal tails, and strong aperiodicity, and we relate these conditions to topological dimension zero of the primitive ideal space and to the structure of gauge-invariant ideals. Our main application is that whenever $C^*(Λ)$ is purely infinite of topological dimension zero---in particular whenever its ideal lattice is finite---it is strongly purely infinite, $\\mathcal O_\\infty$-stable, and of nuclear dimension one, \\emph{even when $C^*(Λ)$ is not simple}. This extends to the non-simple, higher-rank setting the nuclear-dimension-one computation known for simple UCT-Kirchberg $2$-graph algebras. Along the way we refine and correct several results in the existing graph $C^*$-algebra literature.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27691v1",
+        "pdf": "https://arxiv.org/pdf/2607.27691v1",
+        "source": "https://export.arxiv.org/e-print/2607.27691v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 14,
+        "lemmas": 2,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 18,
+        "displayed_equations": 41,
+        "bibliography_entries": 40,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file P8_-_submitted.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tion; his emphasis, complementary to ours, is on the stably finite (AF) branch, where Z-stability is equivalent to the absence of elementary subquotients. Acknowledgement of the use of AI tools. In preparing this article the author used an AI assistant (Anthropic’s Claude) as a tool to help brainstorm connections with an earlier manuscript and to assist with copy-editing, notational consistency, and LATEX of the resulting document. All mathematical content, arguments, and results are the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:48.993622Z"
+      },
+      "score": 681,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 170.25,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 17,
+          "theorems": 84,
+          "lemmas": 8,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 36,
+          "displayed_equations": 10.25,
+          "bibliography_entries": 4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27605",
       "version": 2,
       "title": "Radial Hyperbolic Measures: Shell Geometry, Pyramid Limits, and Gaussian Phase Transitions",
