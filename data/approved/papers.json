@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14931",
+      "version": 1,
+      "title": "Möbius Covariance and Coefficient Duality: From Bernoulli Series to Enumerative Applications",
+      "authors": [
+        "Max A. Alekseyev"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-14T22:43:50Z",
+        "updated": "2026-08-14T22:43:50Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A coefficient duality first encountered for formal Bernoulli series is shown to be equivalent to a general Möbius covariance law for formal power series. We obtain a structural characterization, an eigenspace interpretation, and a weighted form of this duality. The Catalan convolution and Chebyshev identities from the motivating Bernoulli setting extend to arbitrary Möbius-covariant families and yield a general Ramanujan-type summation formula encompassing consecutive half-integer powers. The framework also recovers classical Bernoulli and Euler recurrences and produces recurrence families for colored matchings and generalized central trinomial coefficients, with further realizations from reflection-symmetric Appell sequences and Gorenstein Hilbert series.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14931v1",
+        "pdf": "https://arxiv.org/pdf/2608.14931v1",
+        "source": "https://export.arxiv.org/e-print/2608.14931v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 4,
+        "lemmas": 0,
+        "propositions": 9,
+        "corollaries": 14,
+        "definitions": 2,
+        "displayed_equations": 250,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file rev20.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "directions for extending the framework, while the cubic multisection above suggests a systematic study of higher root-of-unity filters and their relation to known lacunary recurrences. Acknowledgements The author acknowledges the use of OpenAI’s ChatGPT as an assistive tool in the preparation of this manuscript, including literature discovery, exploratory derivations, symbolic and computational checks, organization of the exposition, and language and LaTeX editing. All mathematical statem",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 34",
+          "page": 34
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:16:15.041008Z"
+      },
+      "score": 621.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 207.1,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 36,
+          "theorems": 24,
+          "lemmas": 0,
+          "propositions": 36,
+          "corollaries": 42,
+          "definitions": 4,
+          "displayed_equations": 62.5,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14897",
       "version": 1,
       "title": "Topological perspectives on the vanishing of some Bogomolov multipliers",
