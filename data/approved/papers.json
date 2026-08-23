@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08154",
+      "version": 1,
+      "title": "Exact Zarankiewicz Values On Two Finite Frontier Slices",
+      "authors": [
+        "Koyar Afrasyab"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.AI"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-08T14:32:40Z",
+        "updated": "2026-08-08T14:32:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Zarankiewicz number Z(m,n,s,t) is the maximum number of edges in a bipartite graph with parts of orders m and n containing no copy of Ks,t. We give one combined, certificate-based computer-assisted proof for two finite slices and a corrected neighboring frontier: Z(12,n,3,3) = 6n (18 <= n <= 22), Z(13,22,3,3) = 137, Z(13, 18, 3, 3) = 116, Z(14, 18, 3, 3) = 124, Z(15,18,3,3) = 132, Z(14, 17, 3, 3) = 118, Z(15, 17, 3, 3) = 126, 132 <= Z(16,17,3,3) <= 133. The load-bearing new upper bounds are the exact 12 x 18 and 13 x 18 certificate packages. Their orbit certificates exclude every hypothetical matrix at the next edge count. Deletion lemmas and explicit witnesses close four neighboring cells, while the 16 x 17 entry is deliberately reported as an interval because only its 132-edge lower witness and the published 133 upper bound are certified here. Separately, the 13 x 22 proof excludes 138 ones by reducing to 83 degree profiles, rationally separating 77 of them, and eliminating the remaining six by marked-row congruences, leave enumeration, modular Gram tests, and exact Farkas certificates. All accepted claims are replayed by standard-library Python and exact integer/rational arithmetic; floating-point optimization is used only to discover certificates.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08154v1",
+        "pdf": "https://arxiv.org/pdf/2608.08154v1",
+        "source": "https://export.arxiv.org/e-print/2608.08154v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 47,
+        "bibliography_entries": 8,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "EXACT ZARANKIEWICZ VALUES ON TWO FINITE FRONTIER SLICES 11 Acknowledgements OpenAI GPT 5.6 Sol High was used for assistance with exploratory reasoning, implemen- tation, verification, manuscript integration, and packaging. The author is solely responsible for the mathematical claims and final manuscript. No heuristic solver stat",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:01:08.208275Z"
+      },
+      "score": 199.65,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 66.55,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 12,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 11.75,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08150",
       "version": 1,
       "title": "Vanishing of $\\ell^2$-Betti numbers for inner amenable groups",
