@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07338",
+      "version": 1,
+      "title": "An Explicit Five-Variable Counterexample to the Generalized Vanishing Conjecture",
+      "authors": [
+        "Alexander Dvorsky"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-07T15:33:13Z",
+        "updated": "2026-08-07T15:33:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give an explicit counterexample in five variables to the Generalized Vanishing Conjecture. The construction is motivated by the recent counterexample to the Mathieu conjecture for SU(2). In the polynomial ring C[a,b,c,d,t], set P = (t+c)(ad+bt), Q = c, and let Λ = d/dt (d/da d/dd - d/db d/dc). We prove that Λ^m(P^m) = 0 for every m >= 1, whereas for every m >= 2, Λ^m(QP^m) = (-1)^m (m!)^2 (m+1)! t, which is nonzero. Thus the Generalized Vanishing Conjecture fails in dimension 5.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07338v1",
+        "pdf": "https://arxiv.org/pdf/2608.07338v1",
+        "source": "https://export.arxiv.org/e-print/2608.07338v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 51,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file gvc_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "form of the construction. The verification below is entirely algebraic and does not require a general implication from the Mathieu conjecture to the Generalized Vanishing Conjecture. During the preparation of this note, the author used OpenAI ChatGPT (model GPT-5.6 Sol, July 2026) as an interactive research assistant. ChatGPT assisted in testing the homogenized five- variable construction, generating computational verification code and locating relevant literature. All computations and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T04:59:56.233612Z"
+      },
+      "score": 58.65,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 19.55,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 6,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 12.75,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07265",
       "version": 1,
       "title": "Metric Non-Collapse in Learned World Models for Control: Approximation Theory, Finite-Sample Geometric Guarantees, and Deterministic Planning Transfer",
