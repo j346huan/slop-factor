@@ -42626,6 +42626,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28118",
+      "version": 1,
+      "title": "Osgood meets Ambrosio-DiPerna-Lions",
+      "authors": [
+        "Guido De Philippis",
+        "Leonardo Franchi"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T12:27:20Z",
+        "updated": "2026-07-30T12:27:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this note we extend the Ambrosio-DiPerna-Lions theory on the well-posedness of the transport equation to the case in which the vector field satisfies an $L^p$ Osgood condition. In particular we show that bounded distributional solutions to the transport equation are unique and thus renormalized. As opposed to the classical proof, we do not rely on the vanishing of a commutator, but we show that a weighted energy built out of the Littlewood-Paley decomposition of the solution is conserved.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28118v1",
+        "pdf": "https://arxiv.org/pdf/2607.28118v1",
+        "source": "https://export.arxiv.org/e-print/2607.28118v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 132,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "m the Isaac Newton Trust through a Trinity Cambridge Research Studentship. LF also acknowledges the support of the Scuola Galileiana di Studi Superiori, where part of this work was carried out during his time as a student. The authors used ChatGPT and Claude for minor copyediting assistance during the final revision of this paper. The manuscript and all mathematical content were written entirely by the authors. 2. Littlewood-Paley decomposition and preliminary estimates",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:32.743431Z"
+      },
+      "score": 389.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 97.4,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 18,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 33,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27918",
       "version": 1,
       "title": "OptGraph: Large Language Models Enhanced Evolutionary Optimization Via Graph Retrieval-Augmented Generation",
