@@ -42190,6 +42190,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20749",
+      "version": 1,
+      "title": "Convergence and mixed-precision preconditioning for the naive Jacobi eigenvalue algorithm",
+      "authors": [
+        "Erna Begovic",
+        "Marija Miloloza Pandur",
+        "Ana Perkovic"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T22:02:04Z",
+        "updated": "2026-07-22T22:02:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The paper studies a Jacobi-type method for the eigenvalue problem of general complex matrices with simple eigenvalues. The method applies elementary triangular similarity transformations in order to annihilate selected off-diagonal elements and, when convergent, produces highly accurate eigenvalues. We give a new proof of its asymptotic quadratic convergence and derive an explicit, verifiable bound that describes the region in which this convergence is guaranteed. To make the method applicable well beyond matrices already close to the diagonal form, we introduce a preconditioning strategy. We use two types of preconditioners, both based on theoretical convergence results. The preconditioner is computed at lower precision to reduce computational cost, the associated similarity transformation is applied either at working or at higher precision, to preserve spectral information, while the main algorithm performs at working precision. Numerical experiments demonstrate that the resulting algorithm is robust and produces very accurate eigenvalues.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20749v1",
+        "pdf": "https://arxiv.org/pdf/2607.20749v1",
+        "source": "https://export.arxiv.org/e-print/2607.20749v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 130,
+        "bibliography_entries": 39,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file clanak.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ments The authors thank Krešimir Veselić for suggesting this research topic and for his valuable insights. The authors also thank Zlatko Drmač for useful discussion. Declaration of AI Use OpenAI’s ChatGPT 5.4 Pro was used to sharpen the inequality (3.10) from Lemma 3.4. References [1] Advanpix, Multiprecision Computing Toolbox for MATLAB, Advanpix, Tokyo, Japan, 2026. Version 5.2, https",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:56.925164Z"
+      },
+      "score": 827.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 103.4,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 29,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 32.5,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20731",
       "version": 1,
       "title": "Rule-Induced Behavior of Fuzzy Scalar Objective Functions for Reliable Multi-Criteria Decision Making",
