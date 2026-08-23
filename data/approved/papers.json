@@ -8340,6 +8340,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10608",
+      "version": 1,
+      "title": "Asymptotic stability of the degree-one vortex in the abelian Yang-Mills-Higgs model: Spectral Theory and Numerics",
+      "authors": [
+        "Jonas Luhrmann",
+        "José M. Palacios",
+        "Fabio Pusateri",
+        "Wilhelm Schlag",
+        "Sohrab Shahshahani"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T07:52:45Z",
+        "updated": "2026-08-11T07:52:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This is the first of three papers proving asymptotic stability of the degree-one vortex under equivariant perturbations in the $(1+2)$-dimensional abelian Yang-Mills-Higgs model at self-dual coupling. In the orthogonal gauge, the linearized dynamics are governed by a selfadjoint matrix Schrödinger operator $\\mathbf{M}$. The super-symmetric partner operator is a diagonal matrix whose diagonal entries are strongly singular radial Schrödinger operators on $\\mathbb{R}^2$. After a conjugation, this reduces the spectral problem to the analysis of two strongly singular scalar half-line operators. Combining analysis with rigorous interval arithmetic, we prove absence of threshold resonances and show that the discrete spectrum of $\\mathbf{M}$ consists of exactly one positive gap eigenvalue (internal mode) with a two-dimensional eigenspace. We also certify that the relevant nonlinear Fermi Golden Rule coefficients form a definite quadratic form, yielding effective nonlinear damping of the internal mode. These spectral inputs form the basis of the stability analysis in the subsequent papers.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10608v1",
+        "pdf": "https://arxiv.org/pdf/2608.10608v1",
+        "source": "https://export.arxiv.org/e-print/2608.10608v1"
+      },
+      "structural_counts": {
+        "pages": 81,
+        "theorems": 1,
+        "lemmas": 19,
+        "propositions": 8,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 621,
+        "bibliography_entries": 105,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file LPPSS1_Part1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Institute in Cambridge for its hospitality during the preparation of this paper. S.S. was supported by the Simons Foundation grant 639284. The authors relied on OpenAI’s Codex system for assistance with writing and running the C++ code, reviewing numerical transcripts, and preparation of reproducibility materials. All mathematical",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:02.660557Z"
+      },
+      "score": 727.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 363.75,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 81,
+          "theorems": 6,
+          "lemmas": 76,
+          "propositions": 32,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 155.25,
+          "bibliography_entries": 10.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10585",
       "version": 1,
       "title": "Small Lie algebras in the Verlinde category",
