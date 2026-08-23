@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12257",
+      "version": 1,
+      "title": "Power sums and Siegel-type zero-free regions for L-functions",
+      "authors": [
+        "Jesse Thorner"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T17:00:49Z",
+        "updated": "2026-08-12T17:00:49Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $π$ and $π'$ be unitary cuspidal automorphic representations of $\\mathrm{GL}(n)$ and $\\mathrm{GL}(n')$ over a number field $F$. Let $\\mathfrak{C}_π$ be the analytic conductor of $π$. We develop a new approach to zero-free regions for $L$-functions via lower bounds for power sums, proving for all $\\varepsilon>0$ the existence of ineffective constants $c=c_{n,F,\\varepsilon}>0$ and $c'=c'_{n,F,π',\\varepsilon}>0$ such that the standard $L$-function $L(s,π)$ satisfies \\[ |L(σ+it,π)|\\geq c(\\mathfrak{C}_π(|t|+3))^{-\\varepsilon},\\qquad σ\\geq 1-c(\\mathfrak{C}_π(|t|+3))^{-\\varepsilon} \\] and the Rankin-Selberg $L$-function $L(s,π\\timesπ')$ satisfies \\[ |L(σ+it,π\\timesπ')|\\geq c'(\\mathfrak{C}_π(|t|+3))^{-\\varepsilon},\\qquad σ\\geq 1-c'(\\mathfrak{C}_π(|t|+3))^{-\\varepsilon}. \\] Applications include improvements to the prime number theorems for these $L$-functions and new generalizations of the Brauer-Siegel theorem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12257v1",
+        "pdf": "https://arxiv.org/pdf/2608.12257v1",
+        "source": "https://export.arxiv.org/e-print/2608.12257v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 5,
+        "lemmas": 13,
+        "propositions": 7,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 97,
+        "bibliography_entries": 45,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file JAThorner_NewZeroFreeRegion.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "unable to prove Theorem 1.1 unconditionally using only the current knowledge on modularity of Rankin–Selberg L-functions. Faithful, time-stamped transcripts of these conversations are available upon request. After these conversations, the LLMs assisted with proofreading and error detection. All suggestions were independently checked by the author. 2. Strategy for Theorem 1.2 2.1. Lower bounds for power sums. Our proof of Theorem 1.2 relies on two lo",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:51.354600Z"
+      },
+      "score": 159.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 159.75,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 21,
+          "theorems": 30,
+          "lemmas": 52,
+          "propositions": 28,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 24.25,
+          "bibliography_entries": 4.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12126",
       "version": 1,
       "title": "Two Relaxations of the Dominating Hadwiger's Conjecture",
