@@ -41938,6 +41938,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29269",
+      "version": 1,
+      "title": "Volume of quasi-homogeneous sublevel sets: Two linear algebra deterministic algorithms with convergence rates",
+      "authors": [
+        "Didier Henrion",
+        "Jean B Lasserre"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T10:40:24Z",
+        "updated": "2026-07-31T10:40:24Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We consider the problem of computing the Lebesgue volume of the unit sublevel set of a positive quasi-homogeneous polynomial. Pushing the Lebesgue measure of an ambient bounding box forward through the polynomial reduces this high-dimensional volume to a one-dimensional moment problem. This removes the ambient dimension from the optimization and confines the dimension to a single preprocessing stage, computing the moments of the polynomial over the box, which is polynomial in the ambient dimension for sparse or separable polynomials. We propose two deterministic algorithms for the resulting univariate relaxations, each returning certified upper and lower bounds on the volume. Both bypass semidefinite optimization entirely and rely only on standard numerical linear algebra. The first approximates a piecewise-constant function by a Chebyshev polynomial, so that each relaxation reduces to a fast cosine transform, and converges at a polynomial rate in the relaxation order. The second extracts the volume bounds from a single generalized eigenvalue problem involving moment and localizing matrices whose size grows linearly with the relaxation order, and converges at an exponential rate; the ratio governing this rate is determined by an a priori upper bound on the polynomial over the bounding box. Finally, the univariate polynomials produced by either algorithm are feasible for the multivariate moment-SOS volume hierarchy. The algebraic and geometric rates therefore transfer to the hierarchy itself, improving on its best known convergence rates.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29269v1",
+        "pdf": "https://arxiv.org/pdf/2607.29269v1",
+        "source": "https://export.arxiv.org/e-print/2607.29269v1"
+      },
+      "structural_counts": {
+        "pages": 47,
+        "theorems": 7,
+        "lemmas": 11,
+        "propositions": 10,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 150,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file pushvol.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ch. Making this precise, and estimating that critical value effectively, seems to us the natural continuation. Acknowledgments The authors are grateful to Matteo Tacchi-Bénard for useful exchanges. The authors acknowledge the use of AI (ChatGPT 5.6 and Claude Fable 5) for assistance with brainstorming ideas, mathematical development, coding and drafting the manuscript. The final content, analysis and conclusions remain the sole responsibility of the authors. References [1] F.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 46",
+          "page": 46
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:41.359167Z"
+      },
+      "score": 1142.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 228.5,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 47,
+          "theorems": 42,
+          "lemmas": 44,
+          "propositions": 40,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 37.5,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00109",
       "version": 1,
       "title": "On the Integer Domination Root Conjecture",
