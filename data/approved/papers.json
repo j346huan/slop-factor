@@ -9015,6 +9015,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17891",
+      "version": 1,
+      "title": "Thompson's Conjecture for Finite Simple Groups of Lie Type over Small Fields",
+      "authors": [
+        "Jun Liao",
+        "Lizhong Wang",
+        "Jiping Zhang"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T15:24:14Z",
+        "updated": "2026-08-18T15:24:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that every finite simple group of Lie type over a field of order at most 8 contains a conjugacy class whose square is the whole group. Together with the previously established cases, our results complete the proof of Thompson's conjecture. We explicitly construct the required class, address all low-rank identifications, and provide the precise computational certificates used in the exceptional character calculations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17891v1",
+        "pdf": "https://arxiv.org/pdf/2608.17891v1",
+        "source": "https://export.arxiv.org/e-print/2608.17891v1"
+      },
+      "structural_counts": {
+        "pages": 69,
+        "theorems": 23,
+        "lemmas": 9,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 439,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Thompson.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgement In the course of this research, the authors utilized ChatGPT to explore alternative proof strategies, employed AI-assisted computations, speciﬁcally invoking GAP and Python for char- acter calculations, and used AI tools for English-language polishing. Every mathematical claim and proof step suggested by the AI was independently veriﬁed and rigorously checked by the authors before inclusion. This work was supported by the NSF of China (Nos. 12431001, 12",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 68",
+          "page": 68
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:54.360057Z"
+      },
+      "score": 2838,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 354.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 69,
+          "theorems": 138,
+          "lemmas": 36,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 109.75,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17879",
       "version": 1,
       "title": "Cohomological Cohen--Macaulayness in Non-Noetherian Rings",
