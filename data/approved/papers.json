@@ -42018,6 +42018,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24528",
+      "version": 1,
+      "title": "On Feige's conjecture",
+      "authors": [
+        "Zipei Nie",
+        "Jiaye Wei"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T15:07:59Z",
+        "updated": "2026-07-27T15:07:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We present a short proof of Feige's conjecture: for $n$ independent nonnegative random variables with expectation one, the probability that their sum is less than $n+1$ is at least $\\left(\\frac{n}{n+1}\\right)^n\\ge \\frac{1}{e}$. The proof was obtained with the assistance of GPT-5.6 Sol and builds on the recent breakthrough of Vlassis and Thomas establishing Gaffke's conjecture on the finite-sample validity of a distribution-free $p$-value. We also discuss the implications of the subsequent work of Ming, Ramdas, Shen, Wang, and Waudby-Smith.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24528v1",
+        "pdf": "https://arxiv.org/pdf/2607.24528v1",
+        "source": "https://export.arxiv.org/e-print/2607.24528v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 4,
+        "lemmas": 3,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 3,
+        "displayed_equations": 40,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s conjecture: for $n$ independent nonnegative random variables with expectation one, the probability that their sum is less than $n+1$ is at least $\\left(\\frac{n}{n+1}\\right)^n\\ge \\frac{1}{e}$. The proof was obtained with the assistance of GPT-5.6 Sol and builds on the recent breakthrough of Vlassis and Thomas establishing Gaffke's conjecture on the finite-sample validity of a distribution-free $p$-value. We also discuss the implications of the subsequent work of Ming, Ramdas, Shen,",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:35.376257Z"
+      },
+      "score": 617,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 61.7,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 8,
+          "theorems": 24,
+          "lemmas": 12,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 6,
+          "displayed_equations": 10,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24483",
       "version": 1,
       "title": "The exact solution of Bellman's lost-in-a-forest problem for the golden gnomon",
