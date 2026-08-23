@@ -8510,6 +8510,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11016",
+      "version": 1,
+      "title": "Gromov-Wasserstein Quantization and Clustering: Structure, Rates, and Algorithms",
+      "authors": [
+        "Florian Beier",
+        "Stephan Eckstein"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.CG",
+          "cs.LG",
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T14:58:31Z",
+        "updated": "2026-08-11T14:58:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Clustering is a fundamental class of data analysis techniques with the most important representatives being centroid-based methods like $k$-means. Such methods are strongly connected to quantization problems, which aim to approximate general probability measures with discrete ones. For example, $k$-means corresponds to quantization with respect to the Wasserstein distance. While Wasserstein quantization clusters points within a fixed space, this paper studies Gromov-Wasserstein (GW) quantization, which additionally aims at clustering the ambient geometry of the space. We show existence of solutions to the GW quantization problem and give a characterization that justifies an analogue to the $k$-means algorithm (Lloyd's algorithm) to approximate them numerically. We further calculate the quantization rate for usual Euclidean geometries that are used in the GW context, and relate it to standard Wasserstein quantization rates. Finally, numerical experiments show that GW quantization opens up many modeling possibilities beyond normal clustering methods (e.g., for geodesic distances of 3D shapes or structured pruning of neural networks) and that the introduced algorithm leads to useful numerical solutions with approximation quality often in line with theoretically optimal rates.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11016v1",
+        "pdf": "https://arxiv.org/pdf/2608.11016v1",
+        "source": "https://export.arxiv.org/e-print/2608.11016v1"
+      },
+      "structural_counts": {
+        "pages": 50,
+        "theorems": 8,
+        "lemmas": 9,
+        "propositions": 5,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 187,
+        "bibliography_entries": 179,
+        "appendix_pages": 27
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "1/(4(n + 1)) n+1 Hence no constant c > 0 with qGW n ≥ c qW n can hold uniformly over GM, for any of the three gauges. AI Tool Disclosure. We used AI, primarily Claude Opus 5 and Fable 5, as follows: First, to identify many inaccuracies in earlier versions of this paper. Second, to generate most of the code for the experiments; we only reviewed the correctness via structural tests and by spot-checking parts o",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 46",
+          "page": 46
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:53.212084Z"
+      },
+      "score": 563.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 281.65,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 50,
+          "theorems": 48,
+          "lemmas": 36,
+          "propositions": 20,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 46.75,
+          "bibliography_entries": 17.9,
+          "appendix_pages": 54
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10992",
       "version": 1,
       "title": "Sharpness of the avalanche phase transition in the Bak--Sneppen model",
