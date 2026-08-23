@@ -41852,6 +41852,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19184",
+      "version": 2,
+      "title": "A counter-example to Batyrev's conjecture on the non-negativity of stringy Hodge numbers",
+      "authors": [
+        "Matthew Satriano",
+        "Jeremy Usatine"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-21T15:16:49Z",
+        "updated": "2026-08-04T00:34:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Batyrev's conjecture on the non-negativity of stringy Hodge numbers has been a fundamental open problem, guiding and motivating many beautiful mathematical results in motivic integration, mirror symmetry, and the McKay correspondence. Let $M_0$ be the coarse moduli space of rank 2 semistable bundles with trivial determinant over a fixed smooth projective genus 3 curve. Using a formula, obtained by Kiem and Kiem-Li, for the stringy $E$-function of $M_0$, we verify that $M_0 \\times\\mathbb{P}^1$ is a counter-example to Batyrev's conjecture.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19184v2",
+        "pdf": "https://arxiv.org/pdf/2607.19184v2",
+        "source": "https://export.arxiv.org/e-print/2607.19184v2"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 2,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 9,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "A COUNTER-EXAMPLE TO BATYREV’S CONJECTURE 3 We present the following counter-example to Conjecture 1.1, which was discov- ered with the assistance of ChatGPT. Theorem 1.2. Let C be a smooth complex projective curve of genus 3 and let M0 be the coarse moduli space of rank 2 semistable bundles over C with trivial determinant. Then X = M0 × P 1 is a 7-dimension",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:46.274768Z"
+      },
+      "score": 182.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 18.25,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 4,
+          "theorems": 12,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2.25,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19075",
       "version": 1,
       "title": "From Operations to Elderly Care Outcomes: A Thematic Review of Industrial Engineering and Decision-Support Approaches",
