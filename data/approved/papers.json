@@ -41851,6 +41851,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14773",
+      "version": 1,
+      "title": "Higher covering spaces in an $\\infty$-topos",
+      "authors": [
+        "Virgile Constantin"
+      ],
+      "categories": {
+        "primary": "math.AT",
+        "secondary": [
+          "math.CT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-16T09:54:50Z",
+        "updated": "2026-07-16T09:54:50Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We develop a systematic theory of $(n-1)$-truncated maps, called $n$-covering maps, in a fixed $\\infty$-topos $\\mathscr{E}$, guided by the analogy with classical covering spaces. We prove an equivalence of $n$-categories between $n$-coverings over a pointed connected object $(X,x)$ and $\\infty$-actions of the fundamental $n$-group $Π_n(X,x)$ on $(n-1)$-truncated objects, which restricts to a classification of pointed connected $n$-coverings in terms of sub-$n$-groups of $Π_n(X,x)$. We study the $n$-group of deck transformations $\\mathscr{D}\\mathrm{eck}(p)$, identifying it with $Π_n(X,x)$-equivariant autoequivalences of the fiber $F$. For normal $n$-coverings, it is further described as a quotient of $Π_n(X,x)$, yielding a classification of such coverings in terms of normal subgroups of $π_n(X,x)$. For an arbitrary $n$-covering, the deck $n$-group arises as a quotient of a suitable normalizer. Our approach relies on a careful study of $n$-groups and their $\\infty$-actions, on the use of univalent universes, and on an internal Yoneda embedding. When $n=1$ and $\\mathscr{E}$ is the $\\infty$-category of homotopy types, our results recover the classical theory of covering spaces. We further illustrate the theory in sheaf and étale $\\infty$-topoi, where the external deck group recovers cohomology of the base, and in cohesive $\\infty$-topoi, where it recovers the $1$-covering theory of manifolds.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14773v1",
+        "pdf": "https://arxiv.org/pdf/2607.14773v1",
+        "source": "https://export.arxiv.org/e-print/2607.14773v1"
+      },
+      "structural_counts": {
+        "pages": 70,
+        "theorems": 23,
+        "lemmas": 7,
+        "propositions": 39,
+        "corollaries": 31,
+        "definitions": 37,
+        "displayed_equations": 313,
+        "bibliography_entries": 68,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "cohesively discrete objects, where Disc is the left adjoint of the terminal geometric morphism, and the shape adjunction recovers Hoyois’s external classification from ours. Use of AI assistance. The writing of this paper was assisted by Claude, a large language model made by Anthropic. The AI contributed in two ways. Editorially, it suggested trimming certain passages for conciseness, and assisted with English phrasing and overall smoothness of the exposition. Math- ematically,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:11.966752Z"
+      },
+      "score": 3220.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 644.05,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 70,
+          "theorems": 138,
+          "lemmas": 28,
+          "propositions": 156,
+          "corollaries": 93,
+          "definitions": 74,
+          "displayed_equations": 78.25,
+          "bibliography_entries": 6.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14527",
       "version": 1,
       "title": "Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits",
