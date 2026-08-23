@@ -41768,6 +41768,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15116",
+      "version": 1,
+      "title": "The order of long rainbow arithmetic progressions",
+      "authors": [
+        "Jesse Geneson"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-16T15:26:01Z",
+        "updated": "2026-07-16T15:26:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $T_k$ be the minimum positive integer $t$ such that, for every positive integer $n$, every equinumerous $t$-coloring of $[tn]$ contains a rainbow $k$-term arithmetic progression. Jungić, Licht, Mahdian, Nešetřil and Radoičić conjectured that $T_k=Θ(k^2)$, while Conlon, Fox and Sudakov proved that $T_k=O(k^2\\log k)$. We prove the matching lower bound $T_k=Ω(k^2\\log k)$, and hence $T_k=Θ(k^2\\log k)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15116v1",
+        "pdf": "https://arxiv.org/pdf/2607.15116v1",
+        "source": "https://export.arxiv.org/e-print/2607.15116v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 2,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 66,
+        "bibliography_entries": 4,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file order_long_rainbow_AP.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "12st = t(12s), this is a counterexample to the defining property of Tk with the positive integer n = 12s. Hence no such t satisfies that property, so Tk > ⌊ck 2 log k⌋. Since Tk is an integer, Tk > ck 2 log k. Acknowledgments Codex with GPT-5.6 and Claude Code with Fable 5 were used for proof exploration, proof criticism, exposition, and revision. References [1] V. Jungić, J. Licht, M. Mahdian, J. Nešetřil and R. Radoičić, Rainbow arithmetic progressions and anti-Ramse",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:50.997077Z"
+      },
+      "score": 479.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 59.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 11,
+          "theorems": 12,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 16.5,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15071",
       "version": 2,
       "title": "Two problems on booksize and triangular edges in Nosal graphs",
