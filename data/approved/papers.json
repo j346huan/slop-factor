@@ -43214,6 +43214,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28387",
+      "version": 2,
+      "title": "Eventually greedy best Egyptian underapproximations of rational numbers via optimal control",
+      "authors": [
+        "Vjekoslav Kovač",
+        "Quanyu Tang"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CA",
+          "math.CO",
+          "math.OC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T15:43:43Z",
+        "updated": "2026-08-04T17:26:33Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that every positive rational number has eventually greedy best Egyptian underapproximations, both when repetitions of the denominators are allowed and when the denominators are required to be distinct. This answers affirmatively a problem originating with Erdős and Graham and later revisited by Nathanson, and yields an application concerning the maximal asymptotic growth of denominators in unit fraction series converging to a given rational number. We reformulate the question as an optimal control problem for a dynamical system, construct an appropriate payoff function, and study properties of the associated Bellman function. We also answer another question of Nathanson by constructing an irrational number with unique and greedy best Egyptian underapproximations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28387v2",
+        "pdf": "https://arxiv.org/pdf/2607.28387v2",
+        "source": "https://export.arxiv.org/e-print/2607.28387v2"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 2,
+        "lemmas": 11,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 204,
+        "bibliography_entries": 32,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file underapproximations.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "imal terminal decompositions, and the study of competing nongreedy underapproximations) were provided by OpenAI’s GPT-5.6 Sol. The authors placed them in the natural context of optimal control theory and rewrote them accordingly, using the ChatGPT-generated outputs as a starting point. Figure 1 was also created with GPT-5.6 Sol. The final statements of the results, the complete proofs presented here, and the remaining manuscript text were written by the authors, who take full respon",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "complete_proof_drafting",
+        "role_label": "Drafting a complete proof for author revision",
+        "multiplier": 9.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:57.757000Z"
+      },
+      "score": 1288.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 143.2,
+        "multiplier": 9,
+        "contributions": {
+          "pages": 30,
+          "theorems": 12,
+          "lemmas": 44,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 51,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00092",
       "version": 1,
       "title": "Explicit Green's Functions and Adjoint Problems for Differential Equations with Linear Functional Perturbations",
