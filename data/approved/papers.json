@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16382",
+      "version": 1,
+      "title": "The Zombie Damage Number of a Graph",
+      "authors": [
+        "Randy Davila"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T16:42:51Z",
+        "updated": "2026-07-17T16:42:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In the damage variant of Cops and Robber, the \\emph{damage number} \\(\\dmg(G)\\) is the number of distinct vertices damaged by the robber under optimal play, with one cop minimizing and the robber maximizing this number. We introduce the \\emph{zombie damage number} \\(\\zdmg(G)\\), obtained by requiring the pursuer to move at every turn along a shortest path toward the survivor. The parameter therefore measures the cost of geodesic pursuit when the objective is containment rather than capture alone. We prove that \\(\\dmg(G)\\leq\\zdmg(G)\\) and characterize the graphs with \\(\\zdmg(G)=0\\). Geodesic pursuit incurs no additional damage on trees, and we determine the parameter exactly for paths, cycles, split graphs, and complete multipartite graphs. In particular, \\(\\zdmg(C_n)=n\\) for \\(n\\geq5\\), while \\(\\zdmg(K_{n_1,\\ldots,n_k})=n_1+n_2-2\\) when \\(n_i\\geq2\\) for every \\(i\\). We also develop a nonbacktracking trace argument for sparse graphs. If \\(G\\) is connected, \\(δ(G)\\geq2\\), and \\(g(G)\\geq5\\), then every vertex is damaged, and hence \\(\\zdmg(G)=n(G)\\). The same argument gives the sharp bound \\(\\zdmg(G)\\geq g(G)\\) for every connected graph of finite girth at least five. It follows that fully subdividing each edge of a connected graph of minimum degree at least two produces a graph with maximum zombie damage. These results yield an unbounded separation from the ordinary damage number. Most of the questions leading to these results, as well as the open conjectures, arose through \\textsc{Theo-Conjecture}, an advisor-supervised discovery loop combining automated conjecturing, exact computation, language-model-assisted exploration, and human mathematical judgment.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16382v1",
+        "pdf": "https://arxiv.org/pdf/2607.16382v1",
+        "source": "https://export.arxiv.org/e-print/2607.16382v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 7,
+        "lemmas": 2,
+        "propositions": 4,
+        "corollaries": 5,
+        "definitions": 1,
+        "displayed_equations": 36,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tion when triangles and quadrilaterals are absent. Computer assistance was used during the formulation of questions. The computer system Theo-Conjecture compared exact values on finite graphs and proposed relations for further study. A language model helped interpret the candidates and suggest counterexample searches. The author selected the problems, assessed their significance, and developed and checked the proofs. This use of computation continues the graph-theoretic practice of mac",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:54.704259Z"
+      },
+      "score": 868,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 108.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 15,
+          "theorems": 42,
+          "lemmas": 8,
+          "propositions": 16,
+          "corollaries": 15,
+          "definitions": 2,
+          "displayed_equations": 9,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16103",
       "version": 1,
       "title": "An improved upper bound for the planar Turán number of $C_8$",
