@@ -41767,6 +41767,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20765",
+      "version": 1,
+      "title": "Multiplier obstructions for Legendre pairs of length 333",
+      "authors": [
+        "Arthur F. Ramos",
+        "David B. Hulak",
+        "Ruy J. G. B. de Queiroz"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T22:31:56Z",
+        "updated": "2026-07-22T22:31:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A Legendre pair of length 333 would yield a Hadamard matrix of order 668, the smallest order presently unresolved by the Hadamard conjecture. We study the structured case in which both sequences are fixed by a common subgroup $H\\leq(\\mathbb Z/333\\mathbb Z)^\\times$ acting by coordinate multiplication. We prove that such a pair can exist only when $|H|\\leq 6$. After a mod-3 compression reduces the problem to an order-108 kernel, there are exactly 30 subgroups. We exclude 21 of them, including all 19 subgroups of order at least 9. The final order-9 subgroup is eliminated analytically: its orbit structure restricts the 9-compressed entries to $\\{\\pm1,\\pm17,\\pm19,\\pm35,\\pm37\\}$; the Legendre equations force a $+17,-17$ pair in one compressed sequence, and a single-shift autocorrelation bound then contradicts the required compressed correlation. The remaining exclusions use full-image compression, a row-sum congruence, exact meet-in-the-middle enumeration, and proof-carrying pseudo-Boolean encodings. The solver-assisted cases are accompanied by independently checked DRAT proofs or direct arithmetic certificates. The result constrains fixed common-multiplier symmetry only; the unrestricted existence problems remain open.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20765v1",
+        "pdf": "https://arxiv.org/pdf/2607.20765v1",
+        "source": "https://export.arxiv.org/e-print/2607.20765v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 47,
+        "bibliography_entries": 17,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file multiplier_lp333.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "3 18 Direct PB upper bound 29 ⟨4, 7, 13⟩ 108 10 3 36 Surjective mod-37 compression ACKNOWLEDGMENTS The authors thank the developers of SageMath, OR-Tools, CaDiCaL, and drat-trim. Generative AI tools were used to assist with code generation, literature discovery, and language editing. The authors independently checked the mathematical arguments, citations, computations, and proof certificates and take full responsibility for the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:40.227356Z"
+      },
+      "score": 715.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 89.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 12,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 11.75,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20731",
       "version": 1,
       "title": "Rule-Induced Behavior of Fuzzy Scalar Objective Functions for Reliable Multi-Criteria Decision Making",
