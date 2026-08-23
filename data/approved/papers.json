@@ -9607,6 +9607,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17580",
+      "version": 1,
+      "title": "Crown-free families and forbidden subposets with $e(P)\\in \\{1,2\\}$",
+      "authors": [
+        "Balázs Patkós",
+        "Casey Tompkins"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T09:44:07Z",
+        "updated": "2026-08-18T09:44:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The maximum size of a weak $P$-free family $\\mathcal{F}\\subseteq 2^{[n]}$ is denoted by $La(n,P)$. Let $e(P)$ denote the maximum integer $k$ such that the union of any $k$ consecutive layers of $2^{[n]}$ is weak $P$-free. In recent years, multiple examples of posets with $e(P)<π^-(P):=\\liminf_{n\\to\\infty} \\frac{La(n,P)}{\\binom{n}{\\lfloor \\frac{n}{2}\\rfloor}}$ have been found. We add several further posets with $e(P)=1$ to this list. We define a family $\\mathcal{F}\\subseteq 2^{[n]}$ of size at least $(1.22+o(1))\\binom{n}{\\lfloor \\frac{n}{2}\\rfloor}$ that is weak $O_6$-free, where $O_6$ is the six-element crown poset. We also show an infinite set of posets $P$ with $1=e(P)<π^-(P)$ that are minimal with respect to this property. Finally, we consider how far apart $e(P)$ and $π^-(P)$ can be. We prove that for every fixed finite poset $P$ with $e(P)=1$, there is a constant $δ_P>0$ such that $La(n,P)\\le(2-δ_P+o(1))\\binom{n}{\\lfloor n/2\\rfloor}$. The value 2 is optimal: explicit vertex-edge incidence posets with $e(P)=1$ have $π^-(P)$ values tending to $2$. In contrast, for every $K>0$ we construct a finite poset $P$ with $e(P)=2$ and lower density greater than $K$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17580v1",
+        "pdf": "https://arxiv.org/pdf/2608.17580v1",
+        "source": "https://export.arxiv.org/e-print/2608.17580v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 5,
+        "lemmas": 7,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 54,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file extended.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "AI declaration. The constructions in this manuscript were obtained through the use of Chat- GPT 5.6. The arguments have been reworked and carefully verified by the authors, who take full responsibility for the content of the manuscript. References [1] M. Axenovich, R.R. Martin, B. Patkós, Extremal Poset Theory, In: A. Gagarin, R. Beh",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:34.825367Z"
+      },
+      "score": 979,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 97.9,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 13,
+          "theorems": 30,
+          "lemmas": 28,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 13.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17525",
       "version": 1,
       "title": "Shape Theory of $\\infty$-Topoi: Inverse Limits, Products, and (Co)homology",
