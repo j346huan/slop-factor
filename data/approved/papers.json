@@ -8424,6 +8424,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17350",
+      "version": 1,
+      "title": "A 15/31 Counterexample Family to the Albertson-Berman Conjecture",
+      "authors": [
+        "Heejae Jung"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T04:15:59Z",
+        "updated": "2026-08-18T04:15:59Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For a graph $G$, let $a(G)$ be the maximum number of vertices in an induced forest. The Albertson-Berman conjecture, posed in 1979, asserts that every $n$-vertex planar graph satisfies $a(G)\\ge n/2$. Borodin's bound $a(G)\\ge 2n/5$ remains the general lower bound toward this problem. We disprove the conjecture with an explicit 31-vertex plane triangulation $T$ satisfying $a(T)=15$. Moreover, for every integer $k\\ge2$, we construct a simple planar graph $M_k$ with $|V(M_k)|=31k$ and $a(M_k)=15k$, so that $a(M_k)/|V(M_k)|=15/31<1/2$. Every member of the family has minimum degree five. The construction starts from a $31$-vertex seed obtained by substituting a $14$-vertex two-terminal gadget into a pentagonal bipyramid, and then uses annular joins along facial triangles to preserve the exact ratio. The resulting graphs are sphere triangulations, and hence maximal planar.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17350v1",
+        "pdf": "https://arxiv.org/pdf/2608.17350v1",
+        "source": "https://export.arxiv.org/e-print/2608.17350v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 2,
+        "lemmas": 6,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 51,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file disproving_albertson_berman_15_31.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "is the minimum within our construction; smaller counterexamples from other constructions may well exist. 8 Acknowledgments and AI disclosure The initial gadget and several proof ideas emerged from exploratory sessions with OpenAI’s GPT- 5.6 Sol, which also assisted in preparing the manuscript and verification code. The author is responsible for the problem selection, the mathematical verification, and the final form of all proofs, and assumes full responsibility for",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:27.414299Z"
+      },
+      "score": 548.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 68.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 12,
+          "theorems": 12,
+          "lemmas": 24,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 12.75,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17338",
       "version": 1,
       "title": "Entropy-type traces and moment expansions for the sine-kernel time-band limiting operator",
