@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20829",
+      "version": 1,
+      "title": "Prescribed extension spectra of mock automorphisms over finite fields",
+      "authors": [
+        "Stefan Barańczuk",
+        "Tomasz Ślusarski"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T01:28:53Z",
+        "updated": "2026-07-23T01:28:53Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We classify the finite-extension permutation spectra occurring in an explicit family of mock automorphisms over finite fields. Every finite nonempty divisor-closed subset of $\\N_{>0}$ occurs; in particular, this disproves Maubach and Willems conjecture that every mock automorphism permutes infinitely many finite extensions. Every finite-spectrum map satisfying \\[ \\Jac(F)=I_n,\\qquad F|_{\\F_q^n}=\\id \\] has total degree at least $p(q+1)$. For every $n\\geq2$, this bound is attained by a map with spectrum $\\{1\\}$. In dimension one, the same bound and exact spectrum $\\{1\\}$ are attained over every odd field and over $\\F_2$; for even $q>2$ we give a nonexceptional construction with an effective finite bound for its spectrum. If $δ_p$ denotes the least degree of a nonlinear reduced permutation polynomial over $\\mathbb F_p$, then the least degree $μ_p$ of a nonexceptional one-variable mock automorphism satisfies \\[ μ_2=6,\\qquad μ_3=12,\\qquad μ_p=pδ_p\\quad(p\\ge5). \\] We also record a cofinite-spectrum criterion and isolate the surviving prime-to-$p$ question. Every nontrivial counterexample constructed here has geometric generic degree divisible by $p$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20829v1",
+        "pdf": "https://arxiv.org/pdf/2607.20829v1",
+        "source": "https://export.arxiv.org/e-print/2607.20829v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 9,
+        "lemmas": 8,
+        "propositions": 10,
+        "corollaries": 6,
+        "definitions": 4,
+        "displayed_equations": 111,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file _2026_07_22_prescribed_extension_spectra_mock_automorphisms.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "te spectrum characterizes polynomial automorphisms among Keller maps. The prime-to-p generic-degree condition is a natural surviving boundary for the constructions considered here and remains unresolved in higher dimension. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used ChatGPT (GPT-5.6 Sol) for exploratory mathematical brainstorming, manuscript organization and language e",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:02:36.657514Z"
+      },
+      "score": 1028.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 205.65,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 24,
+          "theorems": 54,
+          "lemmas": 32,
+          "propositions": 40,
+          "corollaries": 18,
+          "definitions": 8,
+          "displayed_equations": 27.75,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20731",
       "version": 1,
       "title": "Rule-Induced Behavior of Fuzzy Scalar Objective Functions for Reliable Multi-Criteria Decision Making",
