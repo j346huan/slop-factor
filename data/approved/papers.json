@@ -8427,6 +8427,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10355",
+      "version": 1,
+      "title": "Quadratic Expansion over Prime Fields via Centered Collisions and Popular-Sum Amplification",
+      "authors": [
+        "Zhi Yao"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T01:26:26Z",
+        "updated": "2026-08-11T01:26:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $p$ be an odd prime, let $\\varnothing\\neq A\\subseteq\\mathbb F_p$ have cardinality $N$, and let $f\\in\\mathbb F_p[x,y]$ be a non-degenerate quadratic polynomial. Writing $S=|A+A|$ and $M=|f(A,A)|$, we prove the full-range trade-off $S^8M^6\\gtrsim N^{17}(1+N^3/p^2)^{-3}$. Consequently, $\\max\\{|A+A|,|f(A,A)|\\}\\gtrsim \\min\\{N^{17/14},p^{3/7}N^{4/7}\\}$, and in particular the exponent $17/14$ holds throughout $N\\le p^{2/3}$. The proof combines a centered collision estimate for $F(u,v,w)=f(u+v,w)$, a mixed fourth-energy bound, and a popular-sum amplification. Two complementary incidence estimates enter the argument: a centered spectral bound in the dense collision regime and a point--plane bound in the sparse regime.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10355v1",
+        "pdf": "https://arxiv.org/pdf/2608.10355v1",
+        "source": "https://export.arxiv.org/e-print/2608.10355v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 4,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 3,
+        "definitions": 1,
+        "displayed_equations": 62,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ors used ChatGPT 5.5 Plus as an auxiliary research tool during the development of this work. In particular, the formulation and proof strategy of Lemma 2.1 were substantially inspired by suggestions generated through interactions with this AI tool. ChatGPT 5.5 Plus was also used to assist with some algebraic computations, consistency checks, and intermediate calculations arising in the course of the proof. All mathematical statements, arguments, and computations used in the final ma",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:42.932304Z"
+      },
+      "score": 597.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 74.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 10,
+          "theorems": 24,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 9,
+          "definitions": 2,
+          "displayed_equations": 15.5,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10197",
       "version": 1,
       "title": "An Optimal Energy Production Problem with Energy Source Switching and Load Following Nuclear Power Plants",
