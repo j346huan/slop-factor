@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23148",
+      "version": 1,
+      "title": "A Linear Lower Bound for Dominating Sets in $k$-Majority Tournaments",
+      "authors": [
+        "Jiangdong Ai",
+        "Xiangjie Yi"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-25T10:58:54Z",
+        "updated": "2026-07-25T10:58:54Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A $k$-majority tournament on a finite vertex set is defined by $2k-1$ linear orders, with $u\\to v$ when $u$ lies above $v$ in at least $k$ of the orders. Let $F(k)$ be the maximum, over all $k$-majority tournaments, of the size of a minimum dominating set. Alon, Brightwell, Kierstead, Kostochka, and Winkler proved that $C_1k/\\log k \\leq F(k) \\leq C_2k\\log k$ for suitable positive constants $C_1$ and $C_2$. In this paper, we prove the linear lower bound $F(k)\\ge \\left\\lfloor\\frac{k+1}{2}\\right\\rfloor $ for $k\\ge 3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23148v1",
+        "pdf": "https://arxiv.org/pdf/2607.23148v1",
+        "source": "https://export.arxiv.org/e-print/2607.23148v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 1,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 25,
+        "bibliography_entries": 15,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main__2_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "increase in the number of orders. In view of the upper bound in (1), the principal remaining asymptotic question is whether F (k) = O(k). Declaration on the use of generative AI During the preparation of this manuscript, the authors used OpenAI’s ChatGPT (5.6 Sol) in a limited supporting role for language polishing, presentation, bibliographic checks, and exploratory mathematical discussion. Some mathematical ideas and elements of the construction arose through interaction between the auth",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:46.122463Z"
+      },
+      "score": 447.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 44.75,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 8,
+          "theorems": 6,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 6.25,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23116",
       "version": 2,
       "title": "KAYROS: An Anytime and Exact Open-Source Solver for Duration-Minimization Time-Dependent Vehicle Routing. A Technical Report and a Case Study in Human-AI Engineering",
