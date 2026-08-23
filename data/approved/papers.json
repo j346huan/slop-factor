@@ -63892,6 +63892,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20816",
+      "version": 4,
+      "title": "Cofinite Zeros of High Derivatives",
+      "authors": [
+        "Eric Hou"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T01:05:15Z",
+        "updated": "2026-08-17T23:21:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We construct a transcendental entire function $f$ for which every nonempty open subset of the complex plane contains a zero of $f^{(n)}$ for all sufficiently large~$n$. Earlier Gaussian proposals by Almeida and Chojecki use expected-zero and Offord-type estimates. Here the coefficients are independent and uniformly distributed on the closed unit disk. A saddle-point estimate, one-coordinate anti-concentration and the mean value property of $\\log|f^{(n)}|$ give summable fixed-disk hole probabilities. The selected function has order exactly two and satisfies $|f(z)|\\leq\\sqrt2\\exp(|z|^2)$. It is therefore a counterexample to Boas and Reddy's printed assertion that every transcendental entire function of order at most two and finite type admits an arbitrarily large fixed disk zero-free for infinitely many successive derivatives.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20816v4",
+        "pdf": "https://arxiv.org/pdf/2607.20816v4",
+        "source": "https://export.arxiv.org/e-print/2607.20816v4"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 7,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 62,
+        "bibliography_entries": 13,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "hanks Xi Chen for detailed suggestions that improved the introduction, theorem formulation, order calculation and circle-average estimate. Declarations Use of AI. In July–August 2026, the author used OpenAI GPT-5.6 Sol and Anthropic Claude Fable 5 to assist with the small-ball estimate and editing, source retrieval, manuscript revision and independent argument auditing. The author checked every",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T21:12:55.442889Z"
+      },
+      "score": 526.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 65.8,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 28,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 15.5,
+          "bibliography_entries": 1.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20798",
       "version": 1,
       "title": "Frames from Functional Calculus",
