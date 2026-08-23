@@ -42966,6 +42966,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25203",
+      "version": 1,
+      "title": "Projection and contraction methods with double inertial steps for variational inclusion problems on Hilbert spaces",
+      "authors": [
+        "Moin Uddin",
+        "Mohammed Alshahrani",
+        "Qamrul Hasan Ansari"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.NA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T02:16:43Z",
+        "updated": "2026-07-28T02:16:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we propose three projection--contraction algorithms for solving variational inclusion problems in the setting of Hilbert spaces, each incorporating a double inertial technique into the projection--contraction framework. The first algorithm \\algoO achieves weak convergence under monotonicity and Lipschitz continuity of the single-valued operator, with an adaptive stepsize rule that does not require prior knowledge of the Lipschitz constant. A modified variant \\algoT of \\algoO attains $R$-linear convergence under the strong monotonicity assumption. The third algorithm \\algoDIM obtains strong convergence to the minimum-norm solution without requiring strong monotonicity. We illustrate the proposed methods on an abstract variational inclusion problem and apply them to the split feasibility problem and the elastic net regularization problem, comparing them with existing methods in the literature. The $R$-linear convergence of \\algoT is also verified through numerical simulations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25203v1",
+        "pdf": "https://arxiv.org/pdf/2607.25203v1",
+        "source": "https://export.arxiv.org/e-print/2607.25203v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 5,
+        "lemmas": 8,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 198,
+        "bibliography_entries": 53,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "corresponding author upon reasonable request. Funding This work was supported by King Fahd University of Petroleum & Minerals (KFUPM) through project No. IN26075. AI Use Declaration During the preparation of this work the authors used Claude (Anthropic) in order to assist with manuscript editing, including tightening prose, drafting and revising portions of the numerical-experiments narrative, verifying LaTeX formatting, checking internal consistency of cross-references and no",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 38",
+          "page": 38
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:11:33.636779Z"
+      },
+      "score": 809,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 161.8,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 41,
+          "theorems": 30,
+          "lemmas": 32,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 49.5,
+          "bibliography_entries": 5.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25185",
       "version": 1,
       "title": "Turbulent Flame Speed Can Increase under Curvature Smoothing",
