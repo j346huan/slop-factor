@@ -8425,6 +8425,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09071",
+      "version": 1,
+      "title": "Two-Step MV-DeepONet: Probabilistic Operator Learning for Uncertainty Propagation Driven by Random Input Fields",
+      "authors": [
+        "Yupei Nie",
+        "Lei Wang",
+        "Jiasen Liu"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "cs.AI"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T03:21:10Z",
+        "updated": "2026-08-10T03:21:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Forward uncertainty propagation in complex physical systems can induce structured covariance across field-valued outputs. For a probabilistic surrogate, the total predictive covariance comprises the covariance of conditional means across input realizations and the average conditional predictive covariance. Probabilistic DeepONet (Prob-DeepONet) provides lightweight uncertainty quantification by predicting pointwise Gaussian means and variances in a single forward pass, but its conditional predictive covariance is restricted to a diagonal form. To represent cross-location conditional dependence without explicitly parameterizing a full high-dimensional covariance matrix, we develop a two-step mean-variance DeepONet (two-step MV-DeepONet) through two principal modifications. First, two-step training is used to decouple output-basis learning from the input-to-coefficient mapping, together with basis orthogonalization and subspace rotation. Second, Gaussian probabilistic modeling is transferred from the high-dimensional physical output space to the low-dimensional rotated coefficient space. Mapping these probabilistic coefficients through the shared basis induces a generally non-diagonal conditional predictive covariance in the physical output space while retaining single-pass inference. A Frobenius-norm error decomposition and corresponding upper bound identify low-rank covariance compressibility, trunk-subspace approximation, finite-sample statistical error, and coefficient-space covariance estimation as the principal factors governing covariance recovery. Numerical experiments on three representative problems governed by partial differential equations (PDEs) and a hypersonic blunt-body aerothermal problem show improved generalization, more structured uncertainty bands, and accurate recovery of off-diagonal correlation patterns compared with Prob-DeepONet.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09071v1",
+        "pdf": "https://arxiv.org/pdf/2608.09071v1",
+        "source": "https://export.arxiv.org/e-print/2608.09071v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 116,
+        "bibliography_entries": 79,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file NYP-COV-26.8.9.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "or multimodality, future work may adopt non-Gaussian coeﬀicient-space distributions to improve robustness in scenarios involving strong nonlinearity, high-dimensional random inputs, and complex spatially correlated outputs. Declaration of Generative AI and AI-assisted technologies in the writing process During the preparation of this work the authors used ChatGPT in order to improve readability and language. After using this tool, the authors reviewed and edited the content as neede",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 35",
+          "page": 35
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:05.382892Z"
+      },
+      "score": 359.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 89.9,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 41,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 29,
+          "bibliography_entries": 7.9,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09022",
       "version": 1,
       "title": "Provable Parameter-Free Fixed-Point Algorithms with Linear Convergence Rates",
