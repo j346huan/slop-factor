@@ -45862,6 +45862,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26028",
+      "version": 1,
+      "title": "A Spectral Proof of the Hypergraph Moore Bound",
+      "authors": [
+        "Alexander Schmidhuber",
+        "Matthew B. Hastings"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM",
+          "quant-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T17:38:31Z",
+        "updated": "2026-07-28T17:38:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A nonempty subfamily of a $k$-uniform hypergraph is an \\emph{even cover} if every vertex lies in an even number of its hyperedges; for $k=2$ these are edge-disjoint unions of cycles, so the minimum size of an even cover is the natural hypergraph analogue of girth. We prove Feige's 2008 conjecture on the hypergraph Moore bound: there are absolute constants $A$ and $C$ (independent of $k$) such that for every $k\\ge3$ and every $1\\le\\ell\\le n$, any $k$-uniform hypergraph on $n$ vertices with more than $C\\,n^{k/2}/\\ell^{k/2-1}$ hyperedges contains an even cover of size at most $A\\,\\ell\\log(en/\\ell)$. Our proof is based on sharp spectral bounds for Kikuchi matrices, which we expect to be of independent interest; we apply them to the refutation of random constraint satisfaction problems in a companion paper.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26028v1",
+        "pdf": "https://arxiv.org/pdf/2607.26028v1",
+        "source": "https://export.arxiv.org/e-print/2607.26028v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 3,
+        "lemmas": 11,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 51,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Moore_main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "this yields k-independent constants in Theorem 1.1 and also finds applications to other problems such as those in our companion paper [1]. On the use of AI models. All proof ideas were conceived and developed by the authors. We have used Large Language Models to assist with writing and proofreading. All mistakes are ours. 2 Even uniformity Throughout this section and the next, we choose the hierarchy level ℓ to lie in the central range 2k ≤ ℓ,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:48.340737Z"
+      },
+      "score": 100.15,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 100.15,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 14,
+          "theorems": 18,
+          "lemmas": 44,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 12.75,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27252",
       "version": 1,
       "title": "On the Definability of Strong Negation in Bilateral Logics",
