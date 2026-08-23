@@ -43382,6 +43382,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18726",
+      "version": 1,
+      "title": "On the possible values of the Rearrangement Number",
+      "authors": [
+        "Vinicius de Oliveira Rodrigues"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T05:36:11Z",
+        "updated": "2026-07-21T05:36:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The rearrangement number $\\mathfrak{rr}$ is the least cardinality of a collection of permutations of $ω$ such that every conditionally convergent real series is disrupted by some permutation in the collection. Blass, Brendle, Brian, Hamkins, Hardy, and Larson proved that $\\max\\{\\operatorname{cov}(\\mathcal N),\\mathfrak b\\}\\leq\\mathfrak{rr}\\leq\\operatorname{non}(\\mathcal M)$ and asked whether $\\mathfrak{rr}<\\mathrm{non}(\\mathcal M)$ is consistent. We prove that $\\mathfrak{rr}<\\operatorname{non}(\\mathcal M)$ is consistent with ZFC. We also prove, in a different forcing extension, that $\\max\\{\\operatorname{cov}(\\mathcal N),\\mathfrak b\\}<\\mathfrak{rr}$. We further derive consequences for the subseries number $\\mathfrak{s}_{\\mathrm{sub}}$ and the splitting number $\\mathfrak s$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18726v1",
+        "pdf": "https://arxiv.org/pdf/2607.18726v1",
+        "source": "https://export.arxiv.org/e-print/2607.18726v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "as financed, in part, by the São Paulo Research Foundation (FAPESP), Brazil. Process Number 2025/07302-0. Declaration on the use of generative artificial intelligence. During the research and preparation of this manuscript, the author used OpenAI Codex, powered by GPT-5.6 Sol, as for exploratory proof development, literature discovery, revision, grammar, and LATEX editing. The author critically evaluated and edited all AI-assisted material used to write the manuscript. The author t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:14.728302Z"
+      },
+      "score": 139.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 17.4,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18699",
       "version": 1,
       "title": "Semipositivity of the orbifold second Chern class in Fujiki's class",
