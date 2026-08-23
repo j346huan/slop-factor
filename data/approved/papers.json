@@ -8424,6 +8424,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13397",
+      "version": 3,
+      "title": "Polynomial gaps below linear growth for Kreiss bounded semigroups and operators",
+      "authors": [
+        "Loris Arnold"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T15:55:28Z",
+        "updated": "2026-08-20T08:17:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that every Kreiss bounded $C_0$-semigroup $(T_t)_{t\\geq0}$ on a Hilbert space satisfies \\[ \\|T_t\\|\\leq C(1+t)^{1-\\varepsilon_K}, \\qquad t\\geq0, \\] where $\\varepsilon_K>0$ depends explicitly only on the Kreiss constant. The same conclusion is obtained for positive Kreiss bounded $C_0$-semigroups on $L^p$-spaces, $1<p<\\infty$, and in discrete time for Kreiss bounded operators on Hilbert spaces and positive Kreiss bounded operators on $L^p$-spaces. Finally, we obtain a non-quantitative polynomial gap for individually eventually positive Kreiss bounded $C_0$-semigroups on $L^p$-spaces.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13397v3",
+        "pdf": "https://arxiv.org/pdf/2608.13397v3",
+        "source": "https://export.arxiv.org/e-print/2608.13397v3"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 3,
+        "lemmas": 3,
+        "propositions": 8,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 143,
+        "bibliography_entries": 9,
+        "appendix_pages": 3
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file V3_Polynomial_gaps_below_linear_growth_for_Kreiss_bounded_semigroups_and_operators.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "(Z; H) ∩ ℓ2 (Z; H) is dense in ℓ2 (Z; H), this proves (23) and the multiplier identity (24) extends by density. □ Declaration on the use of generative AI. The author used ChatGPT (GPT-5.6 Sol, OpenAI) during the preparation of this manuscript for language editing, presentation, and exploratory feedback. All mathematical content was independently verified by the author, who takes full responsibility for the manuscri",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:55.050442Z"
+      },
+      "score": 121.65,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 121.65,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 17,
+          "theorems": 18,
+          "lemmas": 12,
+          "propositions": 32,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 35.75,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 6
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13371",
       "version": 1,
       "title": "Gross vectors modulo 2 and elliptic curves of prime conductor",
