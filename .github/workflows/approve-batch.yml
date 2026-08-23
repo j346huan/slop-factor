@@ -1,0 +1,59 @@
+name: Prepare approval batch
+run-name: Prepare bulk approval pull request
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_ref:
+        description: Temporary branch containing private/bulk-approval.json
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: approval-publication
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out staged approval batch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.batch_ref }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install approval tooling
+        run: python -m pip install -e .
+
+      - name: Apply and validate all approvals
+        run: |
+          python scripts/approve_batch.py --batch private/bulk-approval.json
+          python scripts/validate_approved.py
+
+      - name: Create one reviewable pull request
+        env:
+          BATCH_REF: ${{ inputs.batch_ref }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm private/bulk-approval.json
+          git add -- data/approved/papers.json private/bulk-approval.json
+          git commit -m "data: apply verified approval batch"
+          git push origin "HEAD:${BATCH_REF}"
+          gh pr create \
+            --base main \
+            --head "${BATCH_REF}" \
+            --title "Publish verified approval batch" \
+            --body "Bulk human-review decisions validated and applied in one dataset update."

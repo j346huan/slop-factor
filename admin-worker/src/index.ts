@@ -39,13 +39,18 @@ interface ApprovedCollection {
 interface CandidatePayload {
   candidate_id: string;
   paper: {
+    arxiv_id: string;
+    version: number;
     title: string;
     authors: string[];
     primary_category: string;
     secondary_categories: string[];
     submitted: string;
+    updated: string;
+    abstract: string;
     abstract_url: string;
     pdf_url: string;
+    source_url: string;
   };
   evidence: Array<{
     term?: string;
@@ -60,6 +65,16 @@ interface CandidatePayload {
     count_methods: Record<string, string>;
     count_notes: string[];
   };
+}
+
+interface BulkApprovalDraft {
+  candidate: CandidatePayload;
+  quotation: string;
+  locationKind: "page" | "metadata";
+  locationValue: string;
+  page: number | null;
+  classification: string;
+  multiplier: number;
 }
 
 interface ApprovalRequest {
@@ -165,6 +180,137 @@ function base64Url(bytes: Uint8Array): string {
     .replaceAll("+", "-")
     .replaceAll("/", "_")
     .replace(/=+$/, "");
+}
+
+function standardBase64(value: string): string {
+  const encoded = base64Url(encoder.encode(value))
+    .replaceAll("-", "+")
+    .replaceAll("_", "/");
+  return encoded.padEnd(Math.ceil(encoded.length / 4) * 4, "=");
+}
+
+function stableNumber(value: number): number {
+  return Math.round(value * 1e10) / 1e10;
+}
+
+function approvedRecord(
+  draft: BulkApprovalDraft,
+  reviewer: string,
+  verifiedAt: Date,
+): object {
+  const candidate = draft.candidate;
+  const paper = candidate.paper;
+  const analysis = candidate.analysis;
+  if (!paper.primary_category.startsWith("math.") || !analysis) {
+    throw new Response("Approval lacks eligible metadata or analysis", {
+      status: 400,
+    });
+  }
+  const classification = String(draft.classification ?? "");
+  const selected = classifications[classification];
+  const multiplier = Number(draft.multiplier);
+  if (
+    !selected ||
+    !Number.isFinite(multiplier) ||
+    multiplier < 1 ||
+    multiplier > 10 ||
+    (selected.multiplier !== null && multiplier !== selected.multiplier)
+  ) {
+    throw new Response("Approval has an invalid classification", {
+      status: 400,
+    });
+  }
+  const counts = analysis.structural_counts;
+  const weights: Record<string, number> = {
+    pages: 1,
+    theorems: 6,
+    lemmas: 4,
+    propositions: 4,
+    corollaries: 3,
+    definitions: 2,
+    displayed_equations: 0.25,
+    bibliography_entries: 0.1,
+    appendix_pages: 2,
+  };
+  const contributions: Record<string, number> = {};
+  for (const [name, weight] of Object.entries(weights)) {
+    const value = counts[name];
+    if (!Number.isInteger(value) || value < 0) {
+      throw new Response("Approval has invalid structural counts", {
+        status: 400,
+      });
+    }
+    contributions[name] = stableNumber(value * weight);
+  }
+  const baseScore = stableNumber(
+    Object.values(contributions).reduce((total, value) => total + value, 0),
+  );
+  const locationKind = String(draft.locationKind ?? "");
+  const page = draft.page;
+  if (
+    !["page", "metadata"].includes(locationKind) ||
+    (locationKind === "page" &&
+      (page === null || !Number.isInteger(page) || page < 1))
+  ) {
+    throw new Response("Approval has an invalid disclosure location", {
+      status: 400,
+    });
+  }
+  const quotation = String(draft.quotation ?? "").trim();
+  const locationValue = String(draft.locationValue ?? "").trim();
+  if (!quotation || !locationValue) {
+    throw new Response("Approval lacks a quotation or location", {
+      status: 400,
+    });
+  }
+  return {
+    record_version: 1,
+    arxiv_id: paper.arxiv_id,
+    version: paper.version,
+    title: paper.title,
+    authors: paper.authors,
+    categories: {
+      primary: paper.primary_category,
+      secondary: paper.secondary_categories,
+    },
+    dates: {
+      submitted: paper.submitted,
+      updated: paper.updated,
+      approved: verifiedAt.toISOString().slice(0, 10),
+    },
+    abstract: paper.abstract,
+    urls: {
+      abstract: paper.abstract_url,
+      pdf: paper.pdf_url,
+      source: paper.source_url,
+    },
+    structural_counts: counts,
+    count_methods: analysis.count_methods,
+    count_notes: analysis.count_notes,
+    disclosure: {
+      quotation,
+      location: {
+        kind: locationKind,
+        value: locationValue,
+        page: locationKind === "metadata" ? null : page,
+      },
+      classification,
+      role_label: selected.label,
+      multiplier,
+    },
+    verification: {
+      status: "verified",
+      reviewer,
+      verified_at: verifiedAt.toISOString(),
+    },
+    score: stableNumber(baseScore * multiplier),
+    score_breakdown: {
+      formula_version: "1.0",
+      base_score: baseScore,
+      multiplier,
+      contributions,
+    },
+  };
 }
 
 function fromBase64Url(value: string): Uint8Array {
@@ -605,6 +751,70 @@ async function api(
       page,
       has_more: issues.length === perPage,
     });
+  }
+
+  if (pathname === "/api/decisions/bulk" && request.method === "POST") {
+    const body = await requestBody(request);
+    const approvals = body.approvals;
+    if (!Array.isArray(approvals) || approvals.length === 0) {
+      return json({ error: "Approval batch is empty" }, 400);
+    }
+    if (approvals.length > 1000) {
+      return json({ error: "Approval batch exceeds 1,000 papers" }, 400);
+    }
+    const verifiedAt = new Date();
+    const records = approvals.map((draft) =>
+      approvedRecord(draft as BulkApprovalDraft, user.login, verifiedAt),
+    );
+    const main = await github<{ object: { sha: string } }>(
+      token,
+      `/repos/${env.PUBLIC_REPOSITORY}/git/ref/heads/main`,
+    );
+    const batchRef = `bulk-approval-${crypto.randomUUID()}`;
+    await github(token, `/repos/${env.PUBLIC_REPOSITORY}/git/refs`, "POST", {
+      ref: `refs/heads/${batchRef}`,
+      sha: main.object.sha,
+    });
+    try {
+      await github(
+        token,
+        `/repos/${env.PUBLIC_REPOSITORY}/contents/private/bulk-approval.json`,
+        "PUT",
+        {
+          message: "data: stage verified approval batch",
+          content: standardBase64(JSON.stringify({ version: 1, records })),
+          branch: batchRef,
+        },
+      );
+      await github<unknown>(
+        token,
+        `/repos/${env.PUBLIC_REPOSITORY}/actions/workflows/approve-batch.yml/dispatches`,
+        "POST",
+        {
+          ref: "main",
+          inputs: { batch_ref: batchRef },
+        },
+      );
+    } catch (error) {
+      try {
+        await github(
+          token,
+          `/repos/${env.PUBLIC_REPOSITORY}/git/refs/heads/${batchRef}`,
+          "DELETE",
+        );
+      } catch {
+        // Preserve the original staging or dispatch error.
+      }
+      throw error;
+    }
+    return json(
+      {
+        accepted: true,
+        approvals: records.length,
+        batch_ref: batchRef,
+      },
+      202,
+    );
   }
 
   if (pathname === "/api/site/deploy" && request.method === "POST") {
