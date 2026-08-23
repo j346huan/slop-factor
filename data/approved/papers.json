@@ -41766,6 +41766,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19439",
+      "version": 1,
+      "title": "Dittert's conjecture in dimension 16 via a joint-deficit scaling lemma",
+      "authors": [
+        "Boris Kafidov"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.RA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T07:34:02Z",
+        "updated": "2026-07-21T07:34:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Dittert's conjecture asserts that, among nonnegative $n\\times n$ matrices whose entries sum to $n$, the functional $φ(A)=\\prod_{i=1}^n r_i+\\prod_{j=1}^n c_j-\\operatorname{per}(A)$ is uniquely maximized by the uniform matrix $J_n/n$. This paper proves the conjecture for $n=16$. The key observation is that, for a near-maximizer, the deficits of the row-sum and column-sum products satisfy a single joint constraint rather than two independent bounds. Combining this joint-deficit estimate with a Pinsker-type subset-sum bound yields a sharper scalar dilation to a doubly superstochastic matrix. The Knopp-Sinkhorn boundary lower bound for permanents then excludes maximizers with a zero entry, and Hwang's positive-support theorem identifies the unique maximizer. Together with Pang's result for $n\\ge 17$ (arXiv:2606.01531), this establishes Dittert's conjecture for every $n\\ge 16$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19439v1",
+        "pdf": "https://arxiv.org/pdf/2607.19439v1",
+        "source": "https://export.arxiv.org/e-print/2607.19439v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 41,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file dittert_dimension16_kafidov.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "superstochastic matrix. The proof strategy, central lemma, and most of the initial exposition were produced by OpenAI’s GPT-5.6 Sol through ChatGPT under the direction of the author. See the disclosure at the end of the paper. 1",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:03.243245Z"
+      },
+      "score": 338.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 33.85,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 10.25,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18793",
       "version": 2,
       "title": "On free generators in the Grothendieck-Teichmüller Lie Algebra",
