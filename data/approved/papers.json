@@ -41769,6 +41769,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.14498",
+      "version": 1,
+      "title": "Neural Very Weak Formulations enabling Hardware-Oriented deep PDE solvers",
+      "authors": [
+        "Gabriel Acosta",
+        "Francisco Bersetche"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T02:24:20Z",
+        "updated": "2026-07-16T02:24:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We show, as a proof of concept, that least-squares very weak formulations of elliptic problems can be effectively discretized by neural networks possessing low regularity, provided the test functions are drawn from appropriately smooth spaces. Apart from the immediate computational benefit of avoiding automatic differentiation, this approach, evaluated across various neural network spaces, demonstrates good performance even in challenging contexts, such as singular solutions and high dimensional settings. Particular attention is paid to trial functions based on step activations and one bit quantized linear functions, which are amenable to efficient hardware-oriented implementations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.14498v1",
+        "pdf": "https://arxiv.org/pdf/2607.14498v1",
+        "source": "https://export.arxiv.org/e-print/2607.14498v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 36,
+        "bibliography_entries": 75,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "l results reveal a sensitivity to the hyperparameters h, Nx , Ny , and Nb . Deriving their optimal scaling remain as an open problem. Declaration of AI-Assisted Technologies in Manuscript Preparation. The authors ac- knowledge the use of AI tools to improve the English phrasing and grammar, assuming complete responsibility for all the scientific content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:54:54.508482Z"
+      },
+      "score": 187.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 37.5,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 21,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 9,
+          "bibliography_entries": 7.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.14444",
       "version": 1,
       "title": "The analogue of Belinskaya's theorem for measure-preserving flows",
