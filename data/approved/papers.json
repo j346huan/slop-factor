@@ -41683,6 +41683,95 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12461",
+      "version": 1,
+      "title": "Local flag algebras",
+      "authors": [
+        "Eoin Davey",
+        "Eoin Hurley",
+        "Rémi de Joannis de Verclos",
+        "Ross J. Kang",
+        "Jan Volec"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T07:43:42Z",
+        "updated": "2026-07-14T07:43:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce local flag algebras, a variant of Razborov's flag algebra framework in which densities are normalised by the maximum degree $Δ(G)$ rather than the order $|G|$. The framework supports the same semidefinite-method machinery as the classical version, but is tailored to extremal problems that scale with the maximum degree. As an illustrative first application we bound the number of pentagons in a triangle-free graph $G$ as a function of $|G|$ and $Δ(G)$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12461v1",
+        "pdf": "https://arxiv.org/pdf/2607.12461v1",
+        "source": "https://export.arxiv.org/e-print/2607.12461v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 9,
+        "lemmas": 30,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 5,
+        "displayed_equations": 215,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "neither coding effort used AI assistance. These results were made publicly accessible in 2024 via Eoin Davey’s MSc thesis [5] at the University of Amsterdam theses repository. During the third phase, one commercially available agentic AI system was used for the following purposes: 1. formal verification of the mathematical results in Lean 4; 2. empirical checks to sweep for potential counterexample graphs; 3. proof of subsidiary results (Theorems 1.5 and 1.6) under ou",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:52:22.582658Z"
+      },
+      "score": 2225.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 278.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 30,
+          "theorems": 54,
+          "lemmas": 120,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 10,
+          "displayed_equations": 53.75,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12306",
       "version": 3,
       "title": "Compact Coefficient Formulae for Logarithmic Tangent and Hyperbolic Integrals",
