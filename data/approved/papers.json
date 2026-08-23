@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20051",
+      "version": 1,
+      "title": "The Duval--Reiner Conjecture: Counterexamples and the Second Partial-Sum Inequality",
+      "authors": [
+        "Jing Huang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T11:49:13Z",
+        "updated": "2026-07-22T11:49:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let \\(F\\subseteq\\binom{V}{q}\\) be a \\(q\\)-uniform family on a finite vertex set \\(V\\). Write \\(s_r(F)\\) for the sum of the \\(r\\) largest eigenvalues of its simplicial up-Laplacian and \\(d_F(v)\\) for the degree of \\(v\\in V\\). Then $D_r(F)=\\sum_{v\\in V}\\min\\{d_F(v),r\\}$ is the \\(r\\)-th partial sum of the conjugate degree sequence of \\(F\\). The majorization assertion in the Duval--Reiner conjecture [Trans. Amer. Math. Soc., 2002] states that \\(s_r(F)\\le D_r(F)\\) for every \\(q\\)-uniform family \\(F\\) and every \\(r\\ge1\\). We disprove this assertion in two complementary senses: for every \\(r\\ge5\\), there is a strict counterexample at index \\(r\\) in some uniformity, while every uniformity \\(q\\ge3\\) admits a strict counterexample at some index \\(r\\ge5\\). In contrast, we prove the universal inequality \\(s_2(F)\\le D_2(F)\\) and classify all equality cases. The counterexamples are obtained from two \\(3\\)-uniform seeds with explicitly computed characteristic polynomials through defect-preserving ridge-whiskering and set-complement duality. For the second partial sum, core completion reduces the problem to the boundary matrix of a complete simplex, where Ky Fan variational and compression arguments yield both the inequality and its equality classification.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20051v1",
+        "pdf": "https://arxiv.org/pdf/2607.20051v1",
+        "source": "https://export.arxiv.org/e-print/2607.20051v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 2,
+        "lemmas": 20,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 122,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Duval-Reiner-Conjecture.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration on the use of AI During the preparation of this manuscript, we used ChatGPT and DeepSeek for language editing, which included grammar verification, stylistic polishing, and the improvement of expository clarity. References [1] R. Abebe, A conjectural Brouwer inequality for higher-dimensional Laplacian spectra,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:01:32.713814Z"
+      },
+      "score": 621.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 155.4,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 23,
+          "theorems": 12,
+          "lemmas": 80,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 30.5,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19835",
       "version": 1,
       "title": "Beyond recency and magnitude: Learning-aware uncertainty estimation for safety stock under evolving forecast-error distributions",
