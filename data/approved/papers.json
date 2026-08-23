@@ -9272,6 +9272,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17112",
+      "version": 1,
+      "title": "Group Theory in School Mathematics? Teaching Permutation Cycles Through the 15-Puzzle",
+      "authors": [
+        "Bence Torma",
+        "Tamás Waldhauser"
+      ],
+      "categories": {
+        "primary": "math.HO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T20:40:18Z",
+        "updated": "2026-08-17T20:40:18Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Permutation cycles are generally associated with undergraduate abstract algebra. This exploratory study examined whether students in Grades 5-11 could construct and use cycle representations in the context of the 15-puzzle. After a 45-minute teacher-guided lesson moving from puzzle manipulation to arrow diagrams and cycle notation, 313 students analyzed one of two new configurations - one solvable and one unsolvable - and used a supplied rule to classify it. Of these students, $78.3\\%$ constructed a correct cycle representation, and $67.7\\%$ both constructed the representation correctly and reached the correct classification. Cycle-construction accuracy was similar for the two configurations, but classification was less often correct for the unsolvable configuration. The findings concern immediate, supported performance rather than full understanding of permutation cycles or group theory. Nevertheless, they show that many students could use cycle representations after brief instruction and that constructing the representation and using it to reach a conclusion were separate demands. One reason to teach permutations is that, as finite, discrete, non-formulaic functions, they can extend students' experience of functions beyond familiar formulae and continuous graphs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17112v1",
+        "pdf": "https://arxiv.org/pdf/2608.17112v1",
+        "source": "https://export.arxiv.org/e-print/2608.17112v1"
+      },
+      "structural_counts": {
+        "pages": 26,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 5,
+        "bibliography_entries": 20,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source parsing failed; PDF-text fallbacks were used: Downloaded source is neither a safe tar archive nor recognizable TeX",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "atGPT (OpenAI) was used during the preparation of this manuscript to suggest wording, reformulate some passages, and comment on the English, clarity, organization and consistency of the text. The authors critically reviewed and revised all AI-assisted text and made the final decisions about the mathematical and educational content. The authors take full responsibility for the final manuscript. REFERENCES [1] Ainsworth, S. (2006). DeFT: A conceptual framework for considering learnin",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:12.888422Z"
+      },
+      "score": 165,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 41.25,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 26,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 1.25,
+          "bibliography_entries": 2,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17045",
       "version": 1,
       "title": "Prime-Exponent Transition Geometry and Divisor Barriers Between Consecutive Highly Composite Numbers",
