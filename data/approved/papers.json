@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.25533",
+      "version": 1,
+      "title": "Computable Quantification in Reflective Grounded Arithmetic",
+      "authors": [
+        "Bryan Ford"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "cs.LO",
+          "cs.PL"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-28T10:18:18Z",
+        "updated": "2026-07-28T10:18:18Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Informal statements of Gödel's incompleteness theorems often run: \"no consistent formal system with arithmetic can be complete\" - omitting the fact that the theorems as proved assume classical logic. This paper presents reflective grounded arithmetic (RGA), a paracomplete arithmetic in which truth is grounded in computation rather than assumed by classical fiat, and in which universal quantification is grounded reflectively: a universal statement is true when the system's own proof search certifies its schematic instance, and false when it refutes a particular numeral instance. RGA permits unconstrained recursive definitions, proves the totality of addition and multiplication as internally quantified theorems, and represents exactly the recursively enumerable sets - the ingredient list of the folklore Gödel statement - while remaining consistent. This work proves, with all results machine-checked in Isabelle/HOL: soundness and consistency; open completeness - provability coincides with grounded truth on well-formed statements; N-soundness - every provable totality claim is backed by an actual value; a Church-Turing characterization of RGA's expressive power; and $ω$-incompleteness - grounded truth is recursively enumerable, and therefore some family of statements has every numeric instance provable while its universal closure is not merely unprovable but semantically ungrounded. The resulting logic occupies a Markov-flavored, substructural corner distinct from both classical and intuitionistic arithmetic: double-negation elimination holds, quantified excluded middle fails, refuted universals yield explicit counterexample witnesses, and the deduction theorem's abstraction direction fails precisely at ungrounded hypotheses.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.25533v1",
+        "pdf": "https://arxiv.org/pdf/2607.25533v1",
+        "source": "https://export.arxiv.org/e-print/2607.25533v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 15,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 5,
+        "bibliography_entries": 145,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "The full mechanically-checked development will be released on formal publication of this paper. AI disclosure: both the mechanically-verified proofs and the writing of this paper were significantly assisted by artificial intelligence (Claude Fable from Anthropic), as detailed in Section 10.3. 2",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:22.013105Z"
+      },
+      "score": 1070,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 133.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 22,
+          "theorems": 90,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 1.25,
+          "bibliography_entries": 14.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.25442",
       "version": 1,
       "title": "On an asymmetric additive energy inequality",
