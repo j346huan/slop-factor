@@ -42277,6 +42277,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23655",
+      "version": 2,
+      "title": "Hessian degeneracy of the torsion function on smooth simply connected nonconvex planar domains",
+      "authors": [
+        "Xiuda Liang",
+        "Peng Luo",
+        "Wenjie Wang"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T13:44:13Z",
+        "updated": "2026-08-17T02:08:20Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We construct a family of bounded, smooth, simply connected, nonconvex planar domains $Ω_{a,ε}$. Let $u_{a,ε}$ be the corresponding torsion function satisfying \\[ -Δu_{a,ε}=1\\quad\\text{in }Ω_{a,ε},\\qquad u_{a,ε}=0\\quad\\text{on }\\partialΩ_{a,ε}. \\] There exists \\(a^*\\in(0,1)\\) such that, for every \\(a\\in(a^*,1)\\) and all sufficiently small \\(ε>0\\), the origin is a unique global maximizer of $u_{a,ε}$. Moreover, \\[ \\lim_{a\\downarrow a^*}\\lim_{ε\\to0} λ_{\\max}\\bigl(D^2u_{a,ε}(0)\\bigr)=0. \\] In addition, the ratios $\\text{diam}(Ω_{a,ε}) / \\text{inrad}(Ω_{a,ε})$ are uniformly bounded. Hence the Hessian estimate proved by Steinerberger (J. Funct. Anal. 274, 1611--1630, 2018) for convex planar domains cannot be extended to smooth, simply connected, nonconvex planar domains. \\vskip0.2cm Our domains are star-shaped, symmetric with respect to both coordinate axes and convex in the horizontal direction. When the limiting slit is sufficiently long, we further show that certain superlevel sets of the torsion function are not star-shaped. This strengthens the counterexample to the star-shapedness question raised by Gladiali and Grossi (Amer. J. Math. 144, 1221--1240, 2022) under stronger geometric assumptions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23655v2",
+        "pdf": "https://arxiv.org/pdf/2607.23655v2",
+        "source": "https://export.arxiv.org/e-print/2607.23655v2"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 2,
+        "lemmas": 12,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 209,
+        "bibliography_entries": 31,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file A_simply_connected_counterexample_to_steinerberger_s_hessian_estimate_for_the_torsion_problem.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "tional Key R&D Program (No. 2023YFA1010002) and the National Natural Science Foundation of China (Grant No. 12422106). Data availability statement: No data were generated or analyzed in this study. AI assistance statement: The authors used OpenAI tools solely for language polishing and editorial assistance. The authors independently verified all mathematical arguments, references, and conclusions and take full responsibility for the content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:50.216662Z"
+      },
+      "score": 1418.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 177.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 25,
+          "theorems": 12,
+          "lemmas": 48,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 52.25,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23611",
       "version": 1,
       "title": "Machine-checkable equivalence certificates at the length-14 Andrews-Curtis frontier",
