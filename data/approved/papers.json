@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08633",
+      "version": 1,
+      "title": "Exact Finite-Horizon Memory, Conditioning, and Dissipative Decay in Coarse Upwind Finite-Volume Prediction",
+      "authors": [
+        "Antonis Polemitis",
+        "Nicholas Christakis",
+        "Dimitris Drikakis"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-09T10:38:49Z",
+        "updated": "2026-08-09T10:38:49Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Coarse finite-volume averages do not generally form a predictive state: realized interface fluxes close a conservative update, but distinct fine-grid states with identical parent averages can generate different future coarse histories. We analyze this failure for periodic scalar advection discretized by a first-order upwind finite-volume method with forward Euler time integration. We derive a finite-horizon observation-rank law: each additional observation exposes one new child-cell layer and contributes one fewer independent direction than the number of parent cells, until the unresolved layers are exhausted. Centralized prediction therefore requires one fewer additional coordinate than the number of parent cells per exposed layer, whereas product-local prediction requires one coordinate per layer in each parent. An anchored flux-divergence queue attains the centralized bound, identifies the periodic flux gauge, and, at saturation, forms a minimal autonomous predictive state with the parent averages. We then distinguish exact observability from stable recoverability. The collar-to-queue map becomes rapidly ill-conditioned as the Courant number decreases, so algebraically visible delayed information may fall below a prescribed numerical tolerance. For Courant numbers strictly between zero and one, we prove contraction of the nonconstant component under bounded arithmetic perturbations, with separate control of mean drift, an explicit perturbation neighborhood, and a grid-dependent decay time. Numerical experiments illustrate the rank ladder, effective-rank loss, queue conditioning, step-function flattening, and delayed coarse separation followed by dissipative decay. The results provide a solvable benchmark for assessing state sufficiency in coarse, reduced, multiscale, and learned scientific models.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08633v1",
+        "pdf": "https://arxiv.org/pdf/2608.08633v1",
+        "source": "https://export.arxiv.org/e-print/2608.08633v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 3,
+        "lemmas": 1,
+        "propositions": 2,
+        "corollaries": 6,
+        "definitions": 0,
+        "displayed_equations": 174,
+        "bibliography_entries": 48,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file sn-article.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "hematical analysis, numerical analysis, software, interpretation, verification, and writing. D.D. contributed to conceptualization, numerical analysis, interpretation, verification, and writing. Acknowledgments The authors used generative-AI tools in the course of this work, for literature discovery, adversarial review of the mathematical arguments, copyediting suggestions, and assistance with experiment and verification code. The research questions, results, and conclusions are the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:02:07.688088Z"
+      },
+      "score": 986.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 123.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 27,
+          "theorems": 18,
+          "lemmas": 4,
+          "propositions": 8,
+          "corollaries": 18,
+          "definitions": 0,
+          "displayed_equations": 43.5,
+          "bibliography_entries": 4.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08620",
       "version": 1,
       "title": "Finite Gram Scalarization and Further Properties of Multiplier Submodule Sheaves",
