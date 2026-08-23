@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16378",
+      "version": 2,
+      "title": "Mathematics in the age of the reproduction of intelligence",
+      "authors": [
+        "Ali Enayat"
+      ],
+      "categories": {
+        "primary": "math.HO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-17T10:30:56Z",
+        "updated": "2026-08-20T12:06:35Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Drawing on Walter Benjamin's account of technological reproducibility and aura in relation to art, together with insights from Yehuda Rav and Ludwig Wittgenstein, this speculative essay reflects on the impact of AI systems on the practice of pure mathematics.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16378v2",
+        "pdf": "https://arxiv.org/pdf/2608.16378v2",
+        "source": "https://export.arxiv.org/e-print/2608.16378v2"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 37,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ed from classical martial arts, Baron von Münchhausen, and Gödel, the subject’s own strength is turned back on itself in the writing of this essay. The first draft of this essay was developed through an extended process of author-directed, AI-assisted drafting, criticism, and revision. I conceived the project, determined its intellectual direction, and supplied the principal arguments and critical interventions that shaped successive versions. ChatGPT assisted in developing and testing",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_text_generation",
+        "role_label": "Substantial text generation",
+        "multiplier": 7.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:09.631291Z"
+      },
+      "score": 102.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 14.7,
+        "multiplier": 7,
+        "contributions": {
+          "pages": 11,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 3.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16169",
       "version": 1,
       "title": "Absolute Borel Complexity of Moduli Spaces of Ultrametrics",
