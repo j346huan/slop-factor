@@ -8592,6 +8592,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11078",
+      "version": 1,
+      "title": "A Fourier-analytic Uniqueness Theorem for Lattice-point Enumerators",
+      "authors": [
+        "António Rocha-Neves"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T15:39:32Z",
+        "updated": "2026-08-11T15:39:32Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We consider a bounded set $P \\subset \\mathbb{R}^d$ and the lattice-point enumerator $L_P(t) = |tP \\cap \\mathbb{Z}^d|$ for real $t > 0$. We show that if two bounded measurable sets with boundary of measure zero have the same real-parameter lattice-point enumerators for all integer translates, then their indicator functions agree almost everywhere. As a corollary, any convex body is uniquely determined by this data. Our proof is short and Fourier-analytic, where the key device is a periodic point-counting function whose Fourier coefficients recover the Fourier transform of the indicator function on a dense set. This recovers and extends, with a unified argument, the uniqueness results for rational polytopes and symmetric convex bodies established by Royer [arXiv:1712.01973, arXiv:1712.03937], whose proofs relied on intricate case-specific geometric constructions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11078v1",
+        "pdf": "https://arxiv.org/pdf/2608.11078v1",
+        "source": "https://export.arxiv.org/e-print/2608.11078v1"
+      },
+      "structural_counts": {
+        "pages": 4,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 22,
+        "bibliography_entries": 4,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "problem likely requires a more refined approach. Acknowledgments. The author would like to thank Sinai Robins for suggesting the study of this problem, as well as many insightful discussions. AI Disclosure. The author made use of an AI assistant during the development of this work. References [HMY25] Akihiro Higashitani, Satoshi Murai, and Masahiko Yoshinaga. Ehrhart quasi-polynomials and parallel translations. Combin",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:00.991885Z"
+      },
+      "score": 51.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 25.9,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 4,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 5.5,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11031",
       "version": 2,
       "title": "A Bayesian Proof of the Bernoulli Theorem",
