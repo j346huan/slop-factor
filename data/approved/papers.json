@@ -9461,6 +9461,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12637",
+      "version": 1,
+      "title": "Density Estimation on Compact Manifolds under Intrinsic Spectral Block Variation",
+      "authors": [
+        "Olga Klopp",
+        "Fedor Noskov"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T22:53:34Z",
+        "updated": "2026-08-12T22:53:34Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce an intrinsic spectral sparsity model for nonparametric density estimation on compact connected Riemannian manifolds. Instead of penalizing coefficients in an arbitrarily chosen Laplace--Beltrami eigenbasis, we group each complete eigenspace and measure the Hilbert norm of its spectral component. The resulting block-variation space is basis independent and isometry invariant. We establish its structural, atomic, and nonlinear approximation properties and clarify its relation to Sobolev, Besov, and coefficientwise spectral $\\ell^1$ classes. We then construct a coordinate-free block-shrinkage estimator and prove a nonasymptotic signal-dependent $L^2$-oracle inequality that adapts to the unknown set of detectable eigenspaces. Under polynomial spectral growth, the risk theory separates the number of spectral blocks from their multiplicities and exhibits two regimes: one driven by a single high-dimensional eigenspace and the other by cumulative spectral complexity. Under matching spectral-growth and nondegeneracy assumptions, corresponding minimax lower bounds show that this multiplicity dependence is intrinsic, with sharp consequences for spheres and the rotation group $SO(3)$. Finally, we develop a positive, normalized, block-penalized exponential spectral sieve for log-densities and derive likelihood oracle inequalities together with expected Kullback--Leibler, Hellinger, and $L^2$ risk bounds. The resulting framework provides a geometry-respecting theory of sparse density estimation that remains invariant under changes of eigenbasis.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12637v1",
+        "pdf": "https://arxiv.org/pdf/2608.12637v1",
+        "source": "https://export.arxiv.org/e-print/2608.12637v1"
+      },
+      "structural_counts": {
+        "pages": 54,
+        "theorems": 6,
+        "lemmas": 8,
+        "propositions": 11,
+        "corollaries": 7,
+        "definitions": 3,
+        "displayed_equations": 371,
+        "bibliography_entries": 120,
+        "appendix_pages": 36
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ness, radius, and density envelope, combi- nations of exact spectral invariance with spatial localization, and matching lower bounds for the log-density classes. Acknowledgments During the preparation of this manuscript, the authors used OpenAI’s ChatGPT for language editing and LATEX assistance. All AI-assisted material was independently checked and revised by the authors, who take full responsibility for the mathematical content, references, and numerical results. References [1] Andre",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "formatting_typesetting",
+        "role_label": "Formatting or typesetting",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:54.533857Z"
+      },
+      "score": 369.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 369.75,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 54,
+          "theorems": 36,
+          "lemmas": 32,
+          "propositions": 44,
+          "corollaries": 21,
+          "definitions": 6,
+          "displayed_equations": 92.75,
+          "bibliography_entries": 12,
+          "appendix_pages": 72
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12604",
       "version": 1,
       "title": "Density bounds for permutations avoiding monotone arithmetic progressions",
