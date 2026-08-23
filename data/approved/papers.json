@@ -41683,6 +41683,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17490",
+      "version": 2,
+      "title": "Finite Potential Energy for Entire Solutions of the Planar Ginzburg--Landau Equation",
+      "authors": [
+        "Hongge Chen",
+        "Juncheng Wei",
+        "Haicheng Yan",
+        "Wen Yang"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-20T02:32:20Z",
+        "updated": "2026-07-21T01:47:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that every smooth entire solution $ u\\colon\\mathbb{R}^2\\to\\mathbb{R}^2 $ of the Ginzburg--Landau equation $ -Δu=u(1-|u|^2) $ with $ |u(x)|\\to1 $ as $ |x|\\to\\infty $ has finite potential energy, i.e., \\begin{equation*} \\int_{\\mathbb{R}^2}(1-|u|^2)^2 \\mathrm{d}x<+\\infty, \\end{equation*} thereby resolving Brezis' Open Problem 2.5 in [4]. The main difficulty stems from the possible presence of a curl-free mode that carries nonzero circulation and decays only like $ |x|^{-1} $; such a mode lies outside $ L^2 $ and does not admit a single-valued potential. By minimizing over $ L^2 $ gradient corrections, we construct a comparison field that solves the homogeneous equation and inherits the same circulation. The Kelvin inversion, combined with the De Giorgi--Nash--Moser theory for quasilinear elliptic equations, then produces the optimal decay $ O(|x|^{-1}) $. For a Ginzburg--Landau solution, the Bernstein estimate and the coercivity of the Jacobi form produce an $ L^2 $ forcing term in the exterior phase equation. The resulting $ L^4 $ bound on the phase field implies $1-|u|^2\\in L^2(\\mathbb{R}^2)$, and therefore the potential energy is finite.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17490v2",
+        "pdf": "https://arxiv.org/pdf/2607.17490v2",
+        "source": "https://export.arxiv.org/e-print/2607.17490v2"
+      },
+      "structural_counts": {
+        "pages": 28,
+        "theorems": 2,
+        "lemmas": 9,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 234,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Brezis-2.5.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "UMDF and MYRG- GRG2025-00051-FST), and the University of Macau Development Foundation (Grant No. TISF/2025/006/FST). Data availability statement: There are no new data associated with this article. AI assistance statement: The authors used OpenAI models to assist with language polishing and manuscript editing. R EFERENCES [1] F. Bethuel, H. Brezis, and F. Hélein, Ginzburg–Landau Vortices, Progress in Nonlinear Differen- tial Equatio",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:11.712342Z"
+      },
+      "score": 592.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 148.1,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 28,
+          "theorems": 12,
+          "lemmas": 36,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 58.5,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17373",
       "version": 1,
       "title": "Hardy-type norms of matrices",
