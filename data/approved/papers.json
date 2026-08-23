@@ -43718,6 +43718,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15420",
+      "version": 1,
+      "title": "Harnessing GPU Acceleration in Large-Scale Process Optimization",
+      "authors": [
+        "Boxun Huang",
+        "David Y. Shu",
+        "Michel Schanen",
+        "Mihai Anitescu",
+        "Rahul Gandhi",
+        "Sungho Shin"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-16T19:51:21Z",
+        "updated": "2026-07-16T19:51:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This paper presents a proof-of-concept workflow for equation-oriented process optimization that runs entirely on a GPU. Process optimization models often incorporate complex interconnected unit operations, dynamics, and uncertainties, resulting in large nonlinear programs that can be computationally demanding for conventional CPU-based solvers. Although emerging GPU-based solvers offer substantial computational benefits, their application to process optimization has been limited by the lack of GPU-compatible process modeling tools. We address this gap by prototyping the GPU-compatible process optimization models using an existing GPU-capable optimization software stack, including ExaModels (algebraic modeling system), MadNLP (optimization solver), and cuDSS (linear solver). ExaModels formulates the process optimization problem in a GPU-compatible way by exposing its repeated algebraic structure, while MadNLP and cuDSS solve the resulting nonlinear program on the GPU. This workflow is demonstrated on a CO2 absorber design problem under feed uncertainty, in which a shared column diameter is minimized subject to equilibrium and hydraulic constraints in all scenarios. For the largest case with 5,000 scenarios and 1.5 million variables, the GPU workflow achieves a speedup of approximately 21\\times over a single-threaded CPU baseline using JuMP, Ipopt, and MA57.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15420v1",
+        "pdf": "https://arxiv.org/pdf/2607.15420v1",
+        "source": "https://export.arxiv.org/e-print/2607.15420v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 39,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source parsing failed; PDF-text fallbacks were used: Downloaded source is neither a safe tar archive nor recognizable TeX",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "P/Ipopt, CPU-based ExaModels.jl/MadNLP.jl, and DECLARATION OF USE OF AI GPU-based ExaModels.jl/MadNLP.jl. The CPU configura- Generative AI tools were used solely to assist with tions were executed in single-threaded mode to serve as language editing and to improve the clarity, concision, a sequent",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:38.745558Z"
+      },
+      "score": 63,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 15.75,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 6,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 9.75,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15419",
       "version": 1,
       "title": "Sets of unit fractions without two members whose average is a unit fraction",
