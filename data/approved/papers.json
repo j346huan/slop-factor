@@ -8676,6 +8676,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15629",
+      "version": 1,
+      "title": "A proof of Bickle's conjecture on collapsible graphs",
+      "authors": [
+        "Xingzhi Zhan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-16T08:50:04Z",
+        "updated": "2026-08-16T08:50:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A graph $G$ is said to be $k$-collapsible if $G$ has minimum degree $k$ and every non-null proper induced subgraph of $G$ has minimum degree less than $k.$ In 2018, Bickle conjectured that the minimum number of vertices of degree $k$ in a $k$-collapsible graph of order $n$ with $k\\ge 3$ is ${\\rm max}\\{\\lceil 2n/(2k-1)\\rceil,\\, k^2-k-2-(k-3)n\\}.$ We prove this conjecture.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15629v1",
+        "pdf": "https://arxiv.org/pdf/2608.15629v1",
+        "source": "https://export.arxiv.org/e-print/2608.15629v1"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 66,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file bicklez.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "− v is (k − 1)-degenerate for every v ∈ V (G). Lemma 3 shows that G is k-collapsible. Finally, s = M (k, n), so G has the required number of bottom vertices. 2 Declaration of AI Use ChatGPT was used to assist in developing and checking the constructions and proofs. The author independently verified all mathematical arguments, wrote the paper, and takes full responsibility for its content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:46.653003Z"
+      },
+      "score": 276,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 34.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 17,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 16.5,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15616",
       "version": 1,
       "title": "Compact Support Property of Super-Brownian Motion with Irregular Drift",
