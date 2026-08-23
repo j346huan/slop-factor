@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17338",
+      "version": 1,
+      "title": "Entropy-type traces and moment expansions for the sine-kernel time-band limiting operator",
+      "authors": [
+        "Ahmadreza Azimifard"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T03:58:01Z",
+        "updated": "2026-08-18T03:58:01Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the sine-kernel time--band limiting operator $S_c$ on $L^2(0,c)$ through the entropy-type trace $\\operatorname{Tr}\\varphi_u(S_c)$, where $\\varphi_u(x)=\\log(1+(e^u-1)x)-ux$. A Fourier factorization gives $S_c=A_c^*A_c$ and $\\operatorname{Tr}S_c=c$. We derive an exact identity for $\\operatorname{Tr}(S_c-S_c^2)$ and the lower bound $\\operatorname{Tr}(S_c-S_c^2)\\geπ^{-2}\\log c-π^{-3}$, which in turn yields $\\operatorname{Tr}\\varphi_u(S_c)\\ge u\\log c/(4π^2)$. We also obtain a positive moment expansion $\\operatorname{Tr}\\varphi_u(S_c)=\\sum_{n\\ge1}A_n(u)T_n(c)$ and, for each fixed $n$, the Landau--Widom asymptotic $T_n(c)=\\log c/(π^2n)+o_n(\\log c)$. Three natural uniformity hypotheses, denoted (LC), (MT), and (QM), lead to a quadratic lower bound of order $u^2\\log c$ on logarithmically growing windows. We prove the implications among these hypotheses and the resulting bounds, with explicit constants, and explain why the fixed-index asymptotic alone does not provide the required uniformity. The hypotheses themselves remain open. Finally, a signed growing-parameter sine-kernel determinant theorem from a companion paper gives the quadratic lower bound independently of (LC), (MT), and (QM). This separates the conclusions available from elementary operator methods from those that use Riemann--Hilbert asymptotics.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17338v1",
+        "pdf": "https://arxiv.org/pdf/2608.17338v1",
+        "source": "https://export.arxiv.org/e-print/2608.17338v1"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 8,
+        "lemmas": 9,
+        "propositions": 6,
+        "corollaries": 3,
+        "definitions": 7,
+        "displayed_equations": 119,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "of (1)–(3) would be of interest independently of (Tα ), and would remain of interest given Corollary 9.5. Conversely, no argument in this note, and no argument known to us, derives any of them from the determinant route. Acknowledgments AI-assisted tools were used during manuscript preparation for language editing, bibliographic cross-checking, and limited symbolic and numerical consistency checks. Such checks were used only as supporting verification and not as substitutes for mathe",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:20:53.652055Z"
+      },
+      "score": 544.05,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 181.35,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 20,
+          "theorems": 48,
+          "lemmas": 36,
+          "propositions": 24,
+          "corollaries": 9,
+          "definitions": 14,
+          "displayed_equations": 29.75,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17294",
       "version": 1,
       "title": "Enumerating forcing and strongly forcing (0,1)-matrices",
