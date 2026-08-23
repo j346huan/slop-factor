@@ -43810,6 +43810,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23974",
+      "version": 1,
+      "title": "Sharp Minimax Rates for Smooth Two-Sample Testing under Central Differential Privacy",
+      "authors": [
+        "Ilmun Kim"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T03:54:22Z",
+        "updated": "2026-07-27T03:54:22Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish sharp minimax limits for two-sample testing of Hölder-smooth densities under central differential privacy. Given two independent samples, the goal is to decide whether the underlying distributions are identical or separated in $L_1$ distance, while releasing only an $\\varepsilon$-differentially private decision. We show that privacy changes the classical smooth-testing boundary through multiple regimes: the optimal separation radius is the maximum of four terms, consisting of the classical nonprivate rate and three distinct privacy-induced barriers. Which barrier is active depends on the privacy budget and the smoothness-to-dimension ratio, yielding a sharp phase diagram. Our upper bound discretizes the samples, applies a private discrete two-sample test to the resulting histograms, and chooses the bin resolution to balance approximation bias, sampling fluctuations, and privacy noise. The procedure also admits a permutation-calibrated implementation with finite-sample type~I error control. For the lower bounds, we combine smooth perturbation constructions with privacy-specific coupling and transport inequalities, showing that all four terms are unavoidable. Finally, when the smoothness is unknown, we develop a multiscale private test that attains the optimal adaptive rate and prove a matching lower bound. Adaptation costs exactly an iterated-logarithmic factor, and this cost appears only in the classical nonprivate term.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23974v1",
+        "pdf": "https://arxiv.org/pdf/2607.23974v1",
+        "source": "https://export.arxiv.org/e-print/2607.23974v1"
+      },
+      "structural_counts": {
+        "pages": 96,
+        "theorems": 5,
+        "lemmas": 27,
+        "propositions": 10,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 596,
+        "bibliography_entries": 54,
+        "appendix_pages": 78
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file minimaxdp.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "it would be interesting to extend the theory to unbounded or heavy-tailed classes, where both the tests and the lower-bound arguments would need to account explicitly for tail behavior. Acknowledgements During this work, the author used ChatGPT 5.5 Pro for language editing, proof brainstorming, and mathematical checks. The author verified all AI-assisted material and assumes full responsibility for the correctness and content of the work. References Jayadev Acharya, Ziteng Sun,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:10:06.895618Z"
+      },
+      "score": 4795.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 599.4,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 96,
+          "theorems": 30,
+          "lemmas": 108,
+          "propositions": 40,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 149,
+          "bibliography_entries": 5.4,
+          "appendix_pages": 156
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23926",
       "version": 2,
       "title": "Balance Constants, Majority Cycles, and the Gold Partition Conjecture through Fourteen Elements",
