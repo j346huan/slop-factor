@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24361",
+      "version": 1,
+      "title": "Nikiforov's spectral consecutive cycle problem and the connected-matching method",
+      "authors": [
+        "Bo Ning",
+        "Mingqing Zhai"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T12:37:14Z",
+        "updated": "2026-07-27T12:37:14Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $ρ(G)$ denote the adjacency spectral radius of a graph $G$ of order $n$. We determine the sharp constant in an open problem of Nikiforov (2008) on cycles of consecutive lengths. For every $\\varepsilon>0$ and all sufficiently large $n$, if $G$ is an $n$-vertex graph with $ρ(G)>\\sqrt{\\lfloor{n^2/4}\\rfloor},$ then $G$ contains a cycle $C_\\ell$ for every integer length $3\\le \\ell\\le (\\frac{3-\\sqrt5}{2}-\\varepsilon)n.$ The constant $(3-\\sqrt5)/2$ is best possible, as shown by the split graph $K_k\\vee\\overline K_{n-k}$ with $k\\sim(3-\\sqrt5)n/4$. Our result improves all previous results [LAA2008, CPC2020, JGT2023, JGT2023, GC2024]. The proof combines the degree form of Szemerédi's regularity lemma, a spectral matching theorem of Feng-Yu-Zhang, Weyl's inequality, a refinement of Łuczak's connected-matching embedding method, and other ideas.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24361v1",
+        "pdf": "https://arxiv.org/pdf/2607.24361v1",
+        "source": "https://export.arxiv.org/e-print/2607.24361v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 6,
+        "lemmas": 11,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 68,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Nikiforov_s_spectral_consecutive_cycle_problem_and_the_connected-matching_method.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "for sharing his ideas on constructing consecutive odd cycles in an email, before the arXiv version of [2] was submitted. This directly led to the joint work [10] and indirectly to the reading of [13]. Declaration of AI usage The AI (Chatgpt 5.6) assistant helped with proofreading, grammar checking, and language polishing. In particular, the second author and AI independently found gaps for the original proof of Lemma 3.4. The current version of Lemma 3.4 and its proof were or",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:40.175500Z"
+      },
+      "score": 1012,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 126.5,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 21,
+          "theorems": 36,
+          "lemmas": 44,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 17,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24270",
       "version": 2,
       "title": "Multiplicative Subgroups of Prime Fields Are Not Sumsets",
