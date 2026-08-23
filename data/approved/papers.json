@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29423",
+      "version": 1,
+      "title": "Schwarzian Field Theory at High Temperatures",
+      "authors": [
+        "Ilya Losev"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-31T13:44:44Z",
+        "updated": "2026-07-31T13:44:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this work we study the high-temperature limit of the Schwarzian Field Theory probability measure. We show that on large scales this limit concentrates on jump processes, while its small-scale behaviour is governed by a process which we call Schwarzian Field Theory on the real line. This Schwarzian Theory on the real line can be viewed as the infinite-volume version of the Schwarzian Field Theory. In addition to showing this local convergence, we also provide a systematic treatment of the Schwarzian Theory on the real line. This includes the calculation of the correlation functions and a corresponding uniqueness theorem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29423v1",
+        "pdf": "https://arxiv.org/pdf/2607.29423v1",
+        "source": "https://export.arxiv.org/e-print/2607.29423v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 8,
+        "lemmas": 10,
+        "propositions": 11,
+        "corollaries": 3,
+        "definitions": 5,
+        "displayed_equations": 210,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Schw_high_temp.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "w Wiles Building, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG, UK. E-mail: ilya.losev@maths.ox.ac.uk. AI disclosure: In this work, AI tools were used solely for proofreading and linguistic refinement. 1",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:15:37.195715Z"
+      },
+      "score": 247.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 247.3,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 41,
+          "theorems": 48,
+          "lemmas": 40,
+          "propositions": 44,
+          "corollaries": 9,
+          "definitions": 10,
+          "displayed_equations": 52.5,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29325",
       "version": 1,
       "title": "I-MCHM: Interface Multicontinuum Homogenization for Multiscale Elliptic Problems",
