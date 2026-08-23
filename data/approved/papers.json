@@ -8429,6 +8429,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09161",
+      "version": 1,
+      "title": "Time-Dependent Potential Recovery from Local Data on Conformally Transversally Anisotropic Manifolds",
+      "authors": [
+        "Yujian Zheng",
+        "Zhiwen Duan",
+        "Shiqi Jing"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-10T06:16:31Z",
+        "updated": "2026-08-10T06:16:31Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the recovery of a time-dependent potential in a parabolic equation on a conformally transversally anisotropic manifold. The initial state and a lateral Dirichlet datum supported near the front face are used as inputs, while the terminal state and the Neumann trace near the back face are observed. Assuming injectivity of the attenuated geodesic ray transform on the transversal manifold for all sufficiently small constant attenuations, we prove that these partial input-output data uniquely determine the potential. No simplicity assumption is imposed on the transversal manifold. The proof combines a conformal reduction, transversal Gaussian beam quasimodes, boundary Carleman estimates, and geometric optics solutions with prescribed lateral supports.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09161v1",
+        "pdf": "https://arxiv.org/pdf/2608.09161v1",
+        "source": "https://export.arxiv.org/e-print/2608.09161v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 1,
+        "lemmas": 4,
+        "propositions": 9,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 221,
+        "bibliography_entries": 27,
+        "appendix_pages": 28
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Zheng_Duan_Jing_Manuscript_with_Author_Details.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "elevant. Time reversal changes the forward operator into the adjoint, while ∂ν (−x1 ) = −∂ν φh . This proves (B.2) without repeating the Ij -calculation. Generative AI statement During the preparation of this manuscript, the authors used OpenAI ChatGPT and OpenAI Codex (GPT-5, accessed August 2026) to assist with drafting and revising parts of the exposition and the LATEX source, with the aim of improving clarity, organization, and typesetting consistency. All mathematical arguments, pro",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:07:13.315847Z"
+      },
+      "score": 1019.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 203.95,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 30,
+          "theorems": 6,
+          "lemmas": 16,
+          "propositions": 36,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 55.25,
+          "bibliography_entries": 2.7,
+          "appendix_pages": 56
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09113",
       "version": 2,
       "title": "Critical $p$-Laplace equations with monotone coefficients: Liouville classification and a Schoen-type Harnack inequality",
