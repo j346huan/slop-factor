@@ -8423,6 +8423,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14080",
+      "version": 1,
+      "title": "Scrollar invariants of singular curves on toric surfaces",
+      "authors": [
+        "Karl Christ",
+        "Xiang He",
+        "Ilya Tyomkin"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T08:43:39Z",
+        "updated": "2026-08-14T08:43:39Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Given a curve on a toric surface, a monomial projection induces a map from the normalization of the curve to the projective line. We determine the associated scrollar invariants for general integral curves of fixed geometric genus for a large class of toric surfaces. This generalizes a combinatorial formula to calculate such scrollar invariants for smooth curves in characteristic zero due to Castryck and Cools. We describe an expected behaviour for any toric surface, but provide examples where this fails at least on some irreducible component of the corresponding Severi variety.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14080v1",
+        "pdf": "https://arxiv.org/pdf/2608.14080v1",
+        "source": "https://export.arxiv.org/e-print/2608.14080v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 3,
+        "lemmas": 6,
+        "propositions": 5,
+        "corollaries": 5,
+        "definitions": 5,
+        "displayed_equations": 36,
+        "bibliography_entries": 32,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxivv1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "at Stony Brook University for hosting a sabbatical stay while this work was being completed, and thanks Samuel Grushevsky for the invitation and insightful discussions. The suggestion to use Quot schemes in the proof of Lemma 3.1 is due to ChatGPT 5.5 Pro and Gemini 3.1 Pro was used to prepare some of the figures. 1.4. Conventions and notation. Throughout the paper we work over the algebraic closure K of a complete discretely valued field of arbitrary characteristic. We denote b",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:55.553466Z"
+      },
+      "score": 977.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 122.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 23,
+          "theorems": 18,
+          "lemmas": 24,
+          "propositions": 20,
+          "corollaries": 15,
+          "definitions": 10,
+          "displayed_equations": 9,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14057",
       "version": 1,
       "title": "Local Smith Profiles of Twisted Calabi--Yau Algebras",
