@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.08909",
+      "version": 1,
+      "title": "The universal cover of the second-type locus of a cubic",
+      "authors": [
+        "Frank Gounelas"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-09T20:49:08Z",
+        "updated": "2026-08-09T20:49:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that the surface of second-type lines on a general cubic fourfold has fundamental group of order two. Its universal cover, constructed by Huybrechts, is obtained by considering the two ramification points of the Gauss map along each second-type line.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.08909v1",
+        "pdf": "https://arxiv.org/pdf/2608.08909v1",
+        "source": "https://export.arxiv.org/e-print/2608.08909v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 1,
+        "lemmas": 5,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 91,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "mental group of the second- type locus in the first place. I am also indebted to Alexis Kouvidakis for explaining to me most things I know about cubics. This work was supported by the ERC Synergy Grant HyperK (ID 854361). The OpenAI LLM GPT-4.6-Sol was used in the writing and editing of this paper. 2. The second-type surface and its double cover Write X = {g = 0} ⊂ P(V ), dim V = 6, 3 ∨ where g ∈ Sym (V ) is a cubic e",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:06:30.046193Z"
+      },
+      "score": 338.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 67.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 11,
+          "theorems": 6,
+          "lemmas": 20,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 22.75,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.08893",
       "version": 1,
       "title": "Sharp $\\ell^p$-Improving Estimates for Fixed-Radius Discrete Spherical Averages",
