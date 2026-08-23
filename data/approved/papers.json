@@ -41766,6 +41766,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28157",
+      "version": 1,
+      "title": "Derangement permutation matrices and orbit harmonics",
+      "authors": [
+        "Yupeng Li",
+        "Jasper Liu",
+        "Brendon Rhoades"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.AC"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T12:59:35Z",
+        "updated": "2026-07-30T12:59:35Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $\\mathbf{x}_{n \\times n}$ be an $n \\times n$ matrix of variables and let $S = \\mathbb{F}[\\mathbf{x}_{n \\times n}]$ be the polynomial ring over these variables where $\\mathbb{F}$ is a field of characteristic zero. Regard $S$ as the coordinate ring of the affine space $\\mathbb{F}^{n \\times n}$ of $n \\times n$ $\\mathbb{F}$-matrices. Let $\\mathfrak{D}_n \\subseteq \\mathbb{F}^{n \\times n}$ be the locus of derangement permutation matrices. We study the orbit harmonics quotient ring ${\\bf R}(\\mathfrak{D}_n) = S/\\mathrm{gr} \\, \\mathbf{I}(\\mathfrak{D}_n)$ where $\\mathrm{gr} \\, \\mathbf{I}(\\mathfrak{D}_n)$ is the associated graded ideal of the vanishing ideal $\\mathbf{I}(\\mathfrak{D}_n) \\subseteq S$. We give an explicit generating set of $\\mathrm{gr} \\, \\mathbf{I}(\\mathfrak{D}_n),$ relate the Hilbert series of $\\mathbf{R}(\\mathfrak{D}_n)$ to the Foata transformation and the longest increasing subsequence statistic on $\\mathfrak{S}_n$, and give an alternating sum formula for the graded $\\mathfrak{S}_n$-character of $\\mathbf{R}(\\mathfrak{D}_n)$. Our proofs make heavy use of the mapping cone construction of homological algebra.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28157v1",
+        "pdf": "https://arxiv.org/pdf/2607.28157v1",
+        "source": "https://export.arxiv.org/e-print/2607.28157v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 6,
+        "lemmas": 19,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 247,
+        "bibliography_entries": 21,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file DerangementsSubmit.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ts The authors thank Vic Reiner for asking about the structure of R(𝔇𝑛 ). B. Rhoades was partially supported by NSF Grant DMS-2246846. B. Rhoades got the idea of using mapping cones after long conversations with ChatGPT. The authors used ChatGPT for assistance in revising the paper. The authors wrote the entire paper themselves and take full responsibility for its contents. References [1] J. Baik, P. Deift, and K. Johansson. On t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 33",
+          "page": 33
+        },
+        "classification": "substantial_text_generation",
+        "role_label": "Substantial text generation",
+        "multiplier": 7.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:46.082731Z"
+      },
+      "score": 1524.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 217.85,
+        "multiplier": 7,
+        "contributions": {
+          "pages": 34,
+          "theorems": 36,
+          "lemmas": 76,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 61.75,
+          "bibliography_entries": 2.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27918",
       "version": 1,
       "title": "OptGraph: Large Language Models Enhanced Evolutionary Optimization Via Graph Retrieval-Augmented Generation",
