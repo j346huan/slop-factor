@@ -41934,6 +41934,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12935",
+      "version": 1,
+      "title": "A Separable Banach Space with a Schauder Basis Which Is Not a Lipschitz Retract of Its Bidual",
+      "authors": [
+        "Antonio Acuaviva"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-14T16:08:57Z",
+        "updated": "2026-07-14T16:08:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We construct a separable Banach space $X$ with a Schauder basis such that $B_X$ is not a uniformly continuous retract of $B_{X^{**}}$. Consequently, $X$ is not a uniformly continuous retract of $X^{**}$ and hence is not a Lipschitz retract of $X^{**}$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12935v1",
+        "pdf": "https://arxiv.org/pdf/2607.12935v1",
+        "source": "https://export.arxiv.org/e-print/2607.12935v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 6,
+        "corollaries": 1,
+        "definitions": 2,
+        "displayed_equations": 156,
+        "bibliography_entries": 12,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "use. Large language models, in particular OpenAI’s ChatGPT 5.6 Pro, were used during the exploratory and preparatory stages of this work. The author proposed and directed the renorming amplifica- tion strategy underlying the construction. ChatGPT assisted in working out parts of the technical implementation, including auxiliary lemmas and technical details, as well as with literature retrieval, consistency checks, and LATEX preparation. The author takes full responsibility for the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:07.773106Z"
+      },
+      "score": 945.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 118.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 21,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 24,
+          "corollaries": 3,
+          "definitions": 4,
+          "displayed_equations": 39,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12895",
       "version": 1,
       "title": "Fano 4-fold quiver moduli from subspace quivers",
