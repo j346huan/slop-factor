@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23587",
+      "version": 1,
+      "title": "Actions of $(\\mathbb{Z}/4)^4$ on rationally connected threefolds",
+      "authors": [
+        "Konstantin Loginov"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-26T10:32:18Z",
+        "updated": "2026-07-26T10:32:18Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $G=(\\mathbb{Z}/4)^4$. We prove that if $X$ is a rationally connected threefold with a faithful action of $G$, then $X$ is $G$-birational to the Fermat quartic threefold. If $X$ is a terminal $G\\mathbb{Q}$-Fano threefold, this birational equivalence is biregular. Consequently, the group $G$ acts faithfully on a rationally connected threefold but does not embed into $\\operatorname{Cr}_3(\\mathbb{C})$. Combined with earlier results, this yields a complete classification of the pairs $(m,r)$ for which $(\\mathbb{Z}/m)^r$ embeds into $\\operatorname{Cr}_3(\\mathbb{C})$, and of those for which it embeds into $\\operatorname{Bir}(X)$ for a rationally connected threefold $X$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23587v1",
+        "pdf": "https://arxiv.org/pdf/2607.23587v1",
+        "source": "https://export.arxiv.org/e-print/2607.23587v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 7,
+        "lemmas": 7,
+        "propositions": 11,
+        "corollaries": 7,
+        "definitions": 1,
+        "displayed_equations": 67,
+        "bibliography_entries": 37,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file g1_cremona_ver4.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "–Roch formula. In Section 5 we show that the group (Z/6)4 cannot act faithfully on a rationally connected threefold, which is needed to prove Theorem 1.7. Finally, in Section 6 we prove the main results. Acknowledgements. Version 5.6 of OpenAI’s ChatGPT was used to explore proof ideas, test preliminary arguments, and identify possible references. The author independently checked every source and argument, wrote the final text, and assumes full responsibility for its content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:06:44.839659Z"
+      },
+      "score": 1363.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 170.45,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 13,
+          "theorems": 42,
+          "lemmas": 28,
+          "propositions": 44,
+          "corollaries": 21,
+          "definitions": 2,
+          "displayed_equations": 16.75,
+          "bibliography_entries": 3.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23570",
       "version": 1,
       "title": "Topological line arrangements and their topological invariants",
