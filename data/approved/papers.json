@@ -44817,6 +44817,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00217",
+      "version": 2,
+      "title": "Truncated Differentiation Through Primal-Dual Solvers for Inverse Potential Mean-Field Games",
+      "authors": [
+        "Siting Liu",
+        "Yat Tin Chow",
+        "Samy Wu Fung"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "math.NA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-31T19:02:46Z",
+        "updated": "2026-08-05T04:30:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study inverse potential mean-field games (MFGs), in which an unknown spatial inverse-cost (mobility) map is inferred from observed population densities. We solve the forward MFG with a preconditioned primal-dual hybrid gradient (PDHG) method and develop Jacobian-free backpropagation (JFB-$r$), which records only the final $r$ iterations from a detached warm start while retaining the full forward solve. To analyze this truncated differentiation method, we show that the exact-proximal dual-extrapolated PDHG map is a metric resolvent of the maximal monotone KKT operator. This resolvent view shows that JFB-$r$ exactly differentiates a finite-trajectory surrogate and, under a locally fixed active set at an exact equilibrium detach point, converges to the implicit gradient as the tracked depth increases. Across several inverse-MFG settings, numerical experiments show that JFB-r at moderate tracked depths can achieve recovery accuracy comparable to full unrolling while reducing memory and runtime.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00217v2",
+        "pdf": "https://arxiv.org/pdf/2608.00217v2",
+        "source": "https://export.arxiv.org/e-print/2608.00217v2"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 5,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 117,
+        "bibliography_entries": 69,
+        "appendix_pages": 24
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv_main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ve depth, generalized kink sensitivity, and extending the framework to higher-dimensional inverse problems arising in control and dynamics [35, 17], as well as inverse transport and flow reconstruction [59, 48, 24, 5]. Acknowledgments. ChatGPT (OpenAI) was used to polish the authors’ written text for spelling, grammar, and style. Claude (Anthropic) was used to assist with JAX-based accel- eration of portions of the numerical implementation, specifically translating and vectorizi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:19:18.521703Z"
+      },
+      "score": 172.15,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 172.15,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 36,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 20,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 29.25,
+          "bibliography_entries": 6.9,
+          "appendix_pages": 48
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00177",
       "version": 1,
       "title": "A counterexample to Han's conjecture",
