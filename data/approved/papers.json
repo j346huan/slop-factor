@@ -41937,6 +41937,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.29483",
+      "version": 1,
+      "title": "Edge-Span Chern Algebras of Graphical Configuration Spaces",
+      "authors": [
+        "Jackson Walters"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.AT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-31T14:48:50Z",
+        "updated": "2026-07-31T14:48:50Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Place the vertices of a finite graph at projective points. Each edge defines a span map to $\\mathrm{Gr}(2,n)$; the pulled-back Chern classes generate a graded algebra $A_G^{(n)}$. This assignment is a covariant graph functor, so the abstract graded-algebra type is a graph invariant. In ambient dimension four, the Hilbert series is incomparable with the chromatic and Tutte polynomials. On five vertices in dimension three, the $34$ graph classes yield $33$ algebra types, strictly refining both classical polynomials. For every tree $T$, we obtain a closed Hilbert-series formula depending only on $|V(T)|$ and $n$, while $A_T^{(3)}$ determines $T$ up to isomorphism. More precisely, its cubic relation data is a complete tree invariant of polynomial size. Finally, the graphical configuration space embeds as a dense open in the picture variety, and picture spaces with equal additive homology can have nonisomorphic edge-Chern algebras.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.29483v1",
+        "pdf": "https://arxiv.org/pdf/2607.29483v1",
+        "source": "https://export.arxiv.org/e-print/2607.29483v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 5,
+        "lemmas": 1,
+        "propositions": 10,
+        "corollaries": 3,
+        "definitions": 2,
+        "displayed_equations": 171,
+        "bibliography_entries": 31,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file edge_span_chern_algebras_of_graphical_configuration_spaces.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "out the collision boundary of the picture variety? Acknowledgments This disclosure follows the recommendations of the Leiden Declaration on Artificial Intelli- gence and Mathematics [2]. OpenAI’s Codex was used extensively to develop the construction and arguments, draft and revise the manuscript, conduct preliminary literature searches, and implement and test the software. Anthropic’s Claude was used for discussion and editorial f",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:13.425727Z"
+      },
+      "score": 1254.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 156.85,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 24,
+          "theorems": 30,
+          "lemmas": 4,
+          "propositions": 40,
+          "corollaries": 9,
+          "definitions": 4,
+          "displayed_equations": 42.75,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.29423",
       "version": 1,
       "title": "Schwarzian Field Theory at High Temperatures",
