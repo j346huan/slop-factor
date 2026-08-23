@@ -41683,6 +41683,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15375",
+      "version": 2,
+      "title": "Lorentzian polynomials and matroids over triangular hyperfields 2: Analytic aspects",
+      "authors": [
+        "Matthew Baker",
+        "June Huh",
+        "Mario Kummer",
+        "Oliver Lorscheid"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.MG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-16T18:20:23Z",
+        "updated": "2026-08-18T15:29:52Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Brändén and Huh showed that Lorentzian polynomials unify Hodge-Riemann relations in combinatorics: their supports are M-convex, and every M-convex set supports a Lorentzian polynomial. Baker, Huh, Kummer, and Lorscheid later proved that, for every $q>0$, the projectivized space $\\mathbf{P}\\operatorname{L}_J$ of Lorentzian polynomials with support $J$ is homeomorphic to the thin Schubert cell $\\operatorname{Gr}^{\\mathrm{w}}_J(\\mathbb{T}_q)$ of weak representations of $J$ over the generalized triangular hyperfield $\\mathbb{T}_q$. We study the quantitative relation between Lorentzian polynomials and representations over triangular hyperfields. For every matroid $M$, we prove that some $q>0$ depending on $M$ satisfies $\\operatorname{Gr}^{\\mathrm{w}}_M(\\mathbb{T}_q)\\subseteq\\mathbf{P}\\operatorname{L}_M\\subseteq\\operatorname{Gr}^{\\mathrm{w}}_M(\\mathbb{T}_2)$. Thus $\\mathbf{P}\\operatorname{L}_M$ lies between two thin Schubert cells, each homeomorphic to it. More generally, for every M-convex set $J$, some $q>0$ depending on $J$ satisfies $\\operatorname{N}\\operatorname{Gr}^{\\mathrm{w}}_J(\\mathbb{T}_q)\\subseteq\\mathbf{P}\\operatorname{L}_J\\subseteq\\operatorname{N}\\operatorname{Gr}^{\\mathrm{w}}_J(\\mathbb{T}_2)$, where $\\operatorname{N}$ denotes normalization. We also study $q(M):=\\sup\\{q>0:\\operatorname{Gr}^{\\mathrm{w}}_M(\\mathbb{T}_q)\\subseteq\\mathbf{P}\\operatorname{L}_M\\}$. For $q(n):=q(U_{2,n})$, we prove $q(4)=2$ and $q(5)=\\log_2 3$, with matching upper and lower bounds of order $1/n$; hence $q(n)=Θ(1/n)$, so in particular no universal positive lower bound for $q(n)$ exists.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15375v2",
+        "pdf": "https://arxiv.org/pdf/2607.15375v2",
+        "source": "https://export.arxiv.org/e-print/2607.15375v2"
+      },
+      "structural_counts": {
+        "pages": 88,
+        "theorems": 17,
+        "lemmas": 25,
+        "propositions": 17,
+        "corollaries": 5,
+        "definitions": 20,
+        "displayed_equations": 540,
+        "bibliography_entries": 238,
+        "appendix_pages": 87
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file part2_sandwiches.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "f AI during the preparation of this manuscript. Most notably, the proof of Theorem 7.16 is due to ChatGPT 5.5, with some conceptual simplifications due to Claude Opus 4.8 and the authors. With the help of David Renshaw, we were able to get Claude Code to auto-formalize Theorem 7.16 and Corollary 7.17 in Lean. ChatGPT 5.5 also came up with the idea of using the weighted natural matroid construction in Section 5. Parts of this manuscript were initially drafted by ChatGPT 5.5 and then",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:55:55.506094Z"
+      },
+      "score": 7458,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 745.8,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 88,
+          "theorems": 102,
+          "lemmas": 100,
+          "propositions": 68,
+          "corollaries": 15,
+          "definitions": 40,
+          "displayed_equations": 135,
+          "bibliography_entries": 23.8,
+          "appendix_pages": 174
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15173",
       "version": 1,
       "title": "Landscape analysis for shallow neural networks: Complete classification of critical points for cubic activation and affine target functions",
