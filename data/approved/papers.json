@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.19276",
+      "version": 1,
+      "title": "A Chain-Level Borsuk--Ulam Obstruction Proof of Norine's Antipodal-Coloring Conjecture",
+      "authors": [
+        "Hehui Wu",
+        "Ningyuan Yang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.AT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-21T16:47:51Z",
+        "updated": "2026-07-21T16:47:51Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove Norine's conjecture: every red--blue edge-coloring of the \\(n\\)-dimensional hypercube \\(Q_n\\), \\(n\\geq2\\), in which antipodal edges have opposite colors contains a monochromatic path joining some vertex to its antipode. From a hypothetical counterexample we construct an antipodally equivariant, augmentation-preserving chain map from the cellular chains of the cubical boundary of a cube to subdivision-invariant polyhedral chains on a sphere of one lower dimension. A purely algebraic chain-level Borsuk--Ulam obstruction rules out this map.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.19276v1",
+        "pdf": "https://arxiv.org/pdf/2607.19276v1",
+        "source": "https://export.arxiv.org/e-print/2607.19276v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 2,
+        "lemmas": 12,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 153,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file hypercube_coloring_topological.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "irst author is grateful for the resources and facilities provided by SIMIS, which were essential for the completion of this work. Statement of AI Use. The central proof idea in this manuscript was first generated with the assistance of GPT 5.6 Sol Ultra. The manuscript was drafted with the assistance of Codex (using GPT 5.6 Sol), and subsequently revised and approved by the authors.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:00:48.872852Z"
+      },
+      "score": 1081.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 135.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 12,
+          "lemmas": 48,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 38.25,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.19251",
       "version": 1,
       "title": "Basic properties of kappa classes",
