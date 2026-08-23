@@ -41766,6 +41766,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24483",
+      "version": 1,
+      "title": "The exact solution of Bellman's lost-in-a-forest problem for the golden gnomon",
+      "authors": [
+        "Alexander Temerev",
+        "Alessio Doria"
+      ],
+      "categories": {
+        "primary": "math.MG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T14:18:28Z",
+        "updated": "2026-07-27T14:18:28Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We solve Bellman's lost-in-a-forest problem for the golden gnomon $G$, the isosceles triangle with equal sides $1$ and apex angle $108^\\circ$: the shortest curve guaranteed to reach the boundary of $G$ from an unknown starting position and heading is a symmetric seven-piece path of segments, circular shoulders, and tangents, of exactly determined length $C=1.282676025459\\ldots$. To our knowledge, this is the first proved exact optimum for an isosceles triangle whose base angle is below $45^\\circ$. The curve's parameters come from one isolated quartic root, and $C$ is transcendental. Equivalently, $C^{-1}G$ is the smallest homothetic golden-gnomon cover of all unit arcs. The proof introduces a balanced support calibration: one weighted family of escape inequalities, built on the linear relation among the triangle's three normals, exactly saturated by the candidate, through eighteen exact support windows, and confronting every shorter competitor at once. Aggregation along the normal fan compresses the calibration to a finite zero-sum family of supported vectors; summation by parts then bounds its total by path length whenever the running suffix balance, the ledger, stays in the unit disk. A local two-gap surgery and cyclic bitonicity force a shortest hypothetical counterexample into exactly the temporal order the ledger tolerates. Lean 4 verifies the two finite algebraic certificate families and the reusable discrete ledger identities and bounds.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24483v1",
+        "pdf": "https://arxiv.org/pdf/2607.24483v1",
+        "source": "https://export.arxiv.org/e-print/2607.24483v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 2,
+        "lemmas": 15,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 180,
+        "bibliography_entries": 22,
+        "appendix_pages": 25
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file gnomon.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Key words and phrases. Bellman’s lost-in-a-forest problem, escape path, support function, convex geometry, calibration, golden gnomon. Large language models were used throughout this work—Claude Fable 5, GPT 5.6 Sol, and Claude Opus 5—to search for the extremal curve, to draft the arguments given here, and to write the accompanying Lean development. T",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:13.794448Z"
+      },
+      "score": 1091,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 218.2,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 27,
+          "theorems": 12,
+          "lemmas": 60,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 45,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 50
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24466",
       "version": 2,
       "title": "Infinitely Many Components in Auslander--Reiten Quivers of Representation-Infinite Algebras over Perfect Fields",
