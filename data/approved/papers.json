@@ -8425,6 +8425,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11183",
+      "version": 1,
+      "title": "A reformulation of the discrete Convexity Conjecture via $k$-thresholds",
+      "authors": [
+        "Ruben Ascoli",
+        "Xiaoyu He",
+        "Jinyoung Park",
+        "Michel Talagrand"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.PR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T17:43:45Z",
+        "updated": "2026-08-11T17:43:45Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce the notion of \"$k$-thresholds'' and show that Talagrand's discrete convexity conjecture is equivalent to the assertion that, for some universal integer $k \\ge 2$, the $k$-threshold of every increasing family is at most a universal constant times its expectation threshold. We prove a reduction theorem that bounds the $k$-threshold of any increasing graph property in terms of ordinary thresholds of graphs in suitable decompositions of its members. As a consequence, we determine, up to a constant factor, the $k$-threshold of every fixed graph in terms of a natural $k$-density parameter. We also prove that $k=2$ suffices for several classical spanning graph containment properties. More generally, we establish the conjectured comparison between $k$-thresholds and expectation thresholds for broad classes of graph containment properties whose target graphs have low degeneracy.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11183v1",
+        "pdf": "https://arxiv.org/pdf/2608.11183v1",
+        "source": "https://export.arxiv.org/e-print/2608.11183v1"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 10,
+        "lemmas": 4,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 7,
+        "displayed_equations": 67,
+        "bibliography_entries": 102,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Main_document.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "this work was carried out while the third and fourth authors visited the KIAS-KAIST Workshop on Current Challenges in Mathematics, and the authors gratefully acknowledge KIAS and KAIST for their support and hospitality. The authors used generative AI to assist with editing this manuscript. All original mathematical ideas and final language are our own. JP was supported by NSF Grant DMS-2324978, NSF CAREER Grant DMS-2443706 and a Sloan Fellow- ship.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:13.913643Z"
+      },
+      "score": 149.95,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 149.95,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 22,
+          "theorems": 60,
+          "lemmas": 16,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 14,
+          "displayed_equations": 16.75,
+          "bibliography_entries": 10.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11137",
       "version": 2,
       "title": "The Geometry of Cochains on Sampled Vietoris-Rips Complexes",
