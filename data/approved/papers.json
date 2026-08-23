@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12126",
+      "version": 1,
+      "title": "Two Relaxations of the Dominating Hadwiger's Conjecture",
+      "authors": [
+        "António Girão",
+        "Sergey Norin",
+        "Youri Tamitegama",
+        "Jane Tan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T14:47:56Z",
+        "updated": "2026-08-12T14:47:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Illingworth and Wood recently proposed the Dominating Hadwiger's Conjecture, a strengthening of Hadwiger's Conjecture which asserts that every graph with no dominating $K_t$-model is $(t-1)$-colorable. We prove two relaxations of this conjecture. First, we show that every graph with average degree $Ct (\\log t)^2$ contains a dominating $K_t$-model for some absolute constant $C$. This bound improves on the $2^{t-2}$ due to Illingworth and Wood and is within an $O(\\log t)$ factor from optimal. Second, we prove that the vertices of every graph with no dominating $K_t$-model can be partitioned into $t-1$ parts such that the subgraph induced by each part has bounded maximum degree.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12126v1",
+        "pdf": "https://arxiv.org/pdf/2608.12126v1",
+        "source": "https://export.arxiv.org/e-print/2608.12126v1"
+      },
+      "structural_counts": {
+        "pages": 20,
+        "theorems": 1,
+        "lemmas": 12,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 46,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "without any AI use. ChatGPT 5.6 Sol and Codex were later used to fill in the details of the proof of Theorem 2 and reorganize parts of it. The output was checked and edited by the authors, who take full responsibility for its correctness. ChatGPT 5.6 Sol was also used for proofreading the paper. References [1] K. Appel and W. Haken. Every Planar Map is Four Colorable, volume 98 of Contemporary Mathematics. American Mathematical Society, Providence, RI, 1989. [2] M. Delcour",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:37.924476Z"
+      },
+      "score": 773.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 96.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 20,
+          "theorems": 6,
+          "lemmas": 48,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 11.5,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12080",
       "version": 1,
       "title": "Word-Length Spectral Triples of $(\\mathbb{Z}/2\\mathbb{Z})\\wr\\mathbb{F}_{d}$ Are Not Metric",
