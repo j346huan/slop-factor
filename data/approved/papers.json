@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14115",
+      "version": 2,
+      "title": "The alpha spectrum of K-polystable toric $\\mathbb{Q}$-Fano varieties",
+      "authors": [
+        "Xian Wu"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T09:17:22Z",
+        "updated": "2026-08-17T07:16:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We explicitly determine the numerical spectrum of the ordinary, non-equivariant global invariant for $n$-dimensional K-polystable toric $\\mathbb{Q}$-Fano varieties. Specifically, we prove that $$\\left\\{ α(X)\\mid X\\text{ is an $n$-dimensional K-polystable toric $\\mathbb{Q}$-Fano variety}\\right \\} = \\mathbb{Q}\\cap \\left[\\frac{1}{n+1},\\frac{1}{2}\\right].$$ This result establishes a complete toric realization theorem, which strengthens a question raised by Liu and Zhuang and refines the recent construction results of Liu and Zhu. The initial construction of the examples in this work was suggested by GPT-5.6 Sol, and was subsequently refined and rigorously developed by the author.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14115v2",
+        "pdf": "https://arxiv.org/pdf/2608.14115v2",
+        "source": "https://export.arxiv.org/e-print/2608.14115v2"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 8,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 39,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file The_alpha_spectrum_of_K-polystable_toric_Q-Fano_varieties.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "sult establishes a complete toric realization theorem, which strengthens a question raised by Liu and Zhuang and refines the recent construction results of Liu and Zhu. The initial construction of the examples in this work was suggested by GPT-5.6 Sol, and was subsequently refined and rigorously developed by the author.",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:53.337569Z"
+      },
+      "score": 428.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 71.45,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 6,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 32,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 9.75,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.14057",
       "version": 1,
       "title": "Local Smith Profiles of Twisted Calabi--Yau Algebras",
