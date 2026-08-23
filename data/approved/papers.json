@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10585",
+      "version": 1,
+      "title": "Small Lie algebras in the Verlinde category",
+      "authors": [
+        "Joseph Newton"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.CT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T07:14:34Z",
+        "updated": "2026-08-11T07:14:34Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "This paper studies simple Lie algebras in the Verlinde category, with canonical fundamental group action, using combinatorial methods. We give an exhaustive list of such Lie algebras which either have length at most 3, or appear as a subalgebra of the restriction of the Lie algebra of a simple algebraic group along a principal morphism. The results and exceptions answer several questions and conjectures regarding Verlinde categories of algebraic groups and their Lie algebras.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10585v1",
+        "pdf": "https://arxiv.org/pdf/2608.10585v1",
+        "source": "https://export.arxiv.org/e-print/2608.10585v1"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 5,
+        "lemmas": 6,
+        "propositions": 10,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 91,
+        "bibliography_entries": 32,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file LieAlgs_Aug11.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "The large language model GPT-5.6 Sol was used for writing computer programs, ﬁnding references, and proofreading. All material in this paper was written by the author. 1. SL2 combinatorics Let us ﬁrst establish combinatorial form",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:08:58.213842Z"
+      },
+      "score": 323.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 161.95,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 32,
+          "theorems": 30,
+          "lemmas": 24,
+          "propositions": 40,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 22.75,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10482",
       "version": 1,
       "title": "Predicting Diagonalizability of a Mean Matrix",
