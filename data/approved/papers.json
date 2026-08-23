@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.27872",
+      "version": 1,
+      "title": "The nucleus of a semisymmetric quasigroup",
+      "authors": [
+        "Andrew Richard Kozlik"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T08:46:27Z",
+        "updated": "2026-07-30T08:46:27Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A binary operation $\\cdot$ which satisfies the identity $(x \\cdot y) \\cdot x = y$ is called a semisymmetric quasigroup. We show that the nucleus of a semisymmetric quasigroup is either empty or an elementary abelian 2-group coinciding with the centre, and that a semisymmetric quasigroup with a non-empty nucleus is necessarily a Mendelsohn loop, i.e. the loop associated with a Mendelsohn triple system. We derive necessary and sufficient conditions for the existence of a semisymmetric quasigroup of order $n$ with nucleus of order $m$. Furthermore, we characterize the nuclear elements of a Mendelsohn loop in terms of a particular orientation of the Pasch configuration in the associated triple system.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.27872v1",
+        "pdf": "https://arxiv.org/pdf/2607.27872v1",
+        "source": "https://export.arxiv.org/e-print/2607.27872v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 2,
+        "lemmas": 6,
+        "propositions": 7,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 14,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file mtsnucl.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ents The author would like to thank Aleš Drápal for pointing out the possible con- nection of Lemma 3.5 with LCC loops and for suggesting the investigation of the binary operation in Proposition 3.9. The author acknowledges the use of Claude Fable 5 (Anthropic) in developing the statements and proofs of Propositions 3.10 and 3.12, the discussion following Proposition 2.5 and in conducting the literature review, which brought the papers [7], [8] and [14] to the author’s attenti",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:13:18.583699Z"
+      },
+      "score": 859,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 85.9,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 11,
+          "theorems": 12,
+          "lemmas": 24,
+          "propositions": 28,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 3.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.27795",
       "version": 1,
       "title": "A Unified Discrete Gradient-SAV Framework for Structure-Preserving Integration",
