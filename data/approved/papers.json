@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11137",
+      "version": 2,
+      "title": "The Geometry of Cochains on Sampled Vietoris-Rips Complexes",
+      "authors": [
+        "Darrick Lee",
+        "Kelly Maggs"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math.AT",
+          "math.ST"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-11T16:58:41Z",
+        "updated": "2026-08-12T16:16:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the geometry of simplicial cochains on Vietoris-Rips complexes built from i.i.d. samples of a compact embedded manifold. By integrating differential forms over affine simplices, we define a cochain map from smooth forms to simplicial cochains and equip the latter with kernel-weighted inner products determined by ambient pairwise distances. At scales where the sampled complex recovers the homotopy type of the manifold, we prove quantitative high-probability convergence of these inner products and, under uniform sampling, of the associated codifferential energies to their continuum counterparts. As consequences, we obtain spectral upper bounds for the discrete Hodge Laplacian and, for orientable manifolds, convergence of harmonic representatives of discretized harmonic one-forms and consistency of harmonic smoothing for circular coordinates.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11137v2",
+        "pdf": "https://arxiv.org/pdf/2608.11137v2",
+        "source": "https://export.arxiv.org/e-print/2608.11137v2"
+      },
+      "structural_counts": {
+        "pages": 45,
+        "theorems": 7,
+        "lemmas": 23,
+        "propositions": 9,
+        "corollaries": 6,
+        "definitions": 7,
+        "displayed_equations": 280,
+        "bibliography_entries": 43,
+        "appendix_pages": 45
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the use of the geometric U-kernel (Section 6.2) which allowed us to apply an additional symmetry argument to improve the rates. • The general outline of the proof of Theorem 4.5 was developed in collaboration with AI tools, by adapting the proof of Theorem 4.1. In particular, AI tools suggested the variation of the trace formula in Lemma 7.6. • In order to deal with the discontinuity of the VR kernels, AI tools were used to refine th",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 42",
+          "page": 42
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:04.263464Z"
+      },
+      "score": 4113,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 411.3,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 45,
+          "theorems": 42,
+          "lemmas": 92,
+          "propositions": 36,
+          "corollaries": 18,
+          "definitions": 14,
+          "displayed_equations": 70,
+          "bibliography_entries": 4.3,
+          "appendix_pages": 90
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11132",
       "version": 1,
       "title": "Kohayakawa's conjecture and clique coverings of complements of paths and cycles",
