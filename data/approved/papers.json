@@ -9095,6 +9095,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15202",
+      "version": 1,
+      "title": "A $p$-step generalization of the Q-order of convergence",
+      "authors": [
+        "Gabriel Jarry-Bolduc"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-15T12:35:02Z",
+        "updated": "2026-08-15T12:35:02Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The notion of Q-order convergence is arguably the most important tool for describing the asymptotic behavior of a convergent sequence. Loosely speaking, it captures the``speed''of convergence of an iterative method. The concept of Q-order convergence is not always well suited for sequences whose errors do not decrease monotonically at every step. In this paper, we introduce the notion of $p$-step Q-order convergence. It generalizes the classical notion of Q-order convergence by comparing errors that are $p$ iterations apart rather than errors of successive iterates. This definition recovers classical Q-order convergence as the special case $p=1$. We show that it extracts meaningful convergence information from certain non-monotonic sequences for which the classical Q-order either does not exist or assigns an overly pessimistic classification. We develop the basic theory of the new notion and locate it within the classical hierarchy by proving that $p$-step Q-order at least $α$ implies R-order at least $α$. Natural applications include iterative methods whose updates alternate or cycle over multiple steps.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15202v1",
+        "pdf": "https://arxiv.org/pdf/2608.15202v1",
+        "source": "https://export.arxiv.org/e-print/2608.15202v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 22,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ARXIV.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "onsent Statement: Not applicable Data Availability Statement: No new data were created or analyzed in this study. Data sharing is not applicable to this article. Acknowledgments: During the preparation of this manuscript, the author used Claude Fable 5 for the purposes of rephrasing some sentences, proofreading, and to generate Figure 1. The author have reviewed and edited the output and take full responsibility for the content of this publication.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:04.934162Z"
+      },
+      "score": 76,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 19,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 11,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 5.5,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15093",
       "version": 1,
       "title": "The Awareness Logic of Ambiguity (ALA): Triadic Interpretive States and Their Structure-Preserving Operational Core",
