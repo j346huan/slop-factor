@@ -44059,6 +44059,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00323",
+      "version": 1,
+      "title": "On a conjecture of Han and Xiong for fractional Gaussian binomial coefficients",
+      "authors": [
+        "Ken Ono"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-31T22:23:29Z",
+        "updated": "2026-07-31T22:23:29Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Han and Xiong recently extended the Gaussian binomial coefficient $\\genfrac{[}{]}{0pt}{}{r+k}{k}_{q}$ to positive rational $r$ and conjectured that its integer trace, the integer-exponent part of the resulting power series, is coefficientwise largest at $r=1/2$. We prove a support-dominance theorem comparing rational parameters under an explicit divisibility condition. It settles the conjecture for every $r\\geq 1/2$ and reduces the full conjecture to the unit fractions $r=\\frac{1}{2m}$, only finitely many of which are nontrivial for each fixed $k$. A computer computation then verifies the conjecture for every positive rational $r$ and every $k\\leq 200$. The theoretical results were autonomously produced and verified in Lean by AxiomProver.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00323v1",
+        "pdf": "https://arxiv.org/pdf/2608.00323v1",
+        "source": "https://export.arxiv.org/e-print/2608.00323v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 3,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 61,
+        "bibliography_entries": 4,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-5.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ch paper is a narrative designed to communicate ideas to people, whereas a Lean file is written to satisfy a proof-checking kernel. At first glance, therefore, the formal proofs do not resemble the narrative presented here. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process As described in the preceding appendix, AxiomProver was used to produce and formally verify, in Lean, the proofs of Theorem 1.3, Corollary 1.4, a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:39.734632Z"
+      },
+      "score": 637.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 79.65,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 13,
+          "theorems": 18,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 15.25,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00256",
       "version": 1,
       "title": "Naturality in real Heegaard Floer theory",
