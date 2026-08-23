@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07399",
+      "version": 1,
+      "title": "Siegel zeros and small gaps between zeros of the Riemann zeta function",
+      "authors": [
+        "Andriy Bondarenko",
+        "Winston Heap"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-07T16:42:11Z",
+        "updated": "2026-08-07T16:42:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "On assuming the Riemann Hypothesis, we show that Siegel zeros imply the existence of gaps between the zeros of the Riemann zeta function less than 1/2 the normalised length. Specifically, we show that an infinite family of Siegel zeros implies $\\liminf_{n\\to\\infty}(γ_{n+1}-γ_n)\\log(γ_n)/2π< 0.4733$ on RH. This refutes the existence of certain strong alternative hypotheses under these assumptions. Our arguments incorporate long Dirichlet polynomials of length $T^{17/14-\\varepsilon}$ into the Montgomery--Odlyzko method.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07399v1",
+        "pdf": "https://arxiv.org/pdf/2608.07399v1",
+        "source": "https://export.arxiv.org/e-print/2608.07399v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 3,
+        "lemmas": 5,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 159,
+        "bibliography_entries": 22,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Siegel_zeros_and_small_gaps_v5.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "result regarding a positive proportion of small gaps is due to Chirre–Gonçalves–de Laat [6] at 0.6039 with refinements due to Bui–Goldston– Milinovich–Montgomery [1]. Acknowledgments. The authors gratefully acknowledge the assistance of OpenAI’s ChatGPT, whose exploratory discussions, calculations and numerics helped stimulate the development of this paper. 2. The Montgomery–Odlyzko setup with long polynomials 2.1. Weight choices and the small gaps condition. Our aim is to compute",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:05.464641Z"
+      },
+      "score": 395.85,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 131.95,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 27,
+          "theorems": 18,
+          "lemmas": 20,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 39.75,
+          "bibliography_entries": 2.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07388",
       "version": 2,
       "title": "The Banach lattice Lean library",
