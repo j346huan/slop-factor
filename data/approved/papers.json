@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11198",
+      "version": 1,
+      "title": "(Non-)coincidence of critical parameters for Poisson Zoos and Loop Soup Percolation on $\\mathbb{Z^d}$, $d > 4$, and $\\mathbb{T}_d$,$ d \\ge 3$",
+      "authors": [
+        "Volker Betz",
+        "Alexander Drewitz",
+        "Andreas Klippel",
+        "Christian Mönch"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T17:56:09Z",
+        "updated": "2026-08-11T17:56:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this article we investigate the (non)-coincidence of critical parameters for various related percolation problems. More precisely, for the random walk loop soup we show that on $\\mathbb Z^d$, $d\\ge 5$, the critical parameters for the percolation problems differ on the discrete graph and the respective metric graph. Moreover, on trees we deduce an analogous statement as well as the coincidence of the critical parameters for percolation and susceptibility for a more general class of percolation problems, the so-called Poisson zoo. Along the way we develop the useful notion of sensitivity to Bernoulli enhancements of such percolation problems with long range correlations, which builds on previously developed enhancement ideas.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11198v1",
+        "pdf": "https://arxiv.org/pdf/2608.11198v1",
+        "source": "https://export.arxiv.org/e-print/2608.11198v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 3,
+        "lemmas": 6,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 126,
+        "bibliography_entries": 55,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file minimal_tree.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "(5) Then the inner sum in (A.1) is 𝑎 𝑚 , so all terms in the following finite computation are rational. The target bound (3.11) was obtained with the following Python 3 code. The program was written with the help of Codex-GPT 5.5 and verified by the authors. The class Fraction performs the finite computation in exact rational arithmetic; floating-point arithmetic is used only to print decimal values and to evaluate the explicit analytic tail bound. from fractions",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 26",
+          "page": 26
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:19.469743Z"
+      },
+      "score": 224,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 112,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 29,
+          "theorems": 18,
+          "lemmas": 24,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 31.5,
+          "bibliography_entries": 5.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11194",
       "version": 1,
       "title": "Lions' Maximal Regularity Problem for Divergence-Form Differential Operators: Failure at the $\\frac{1}{2}$-Hölder Endpoint",
