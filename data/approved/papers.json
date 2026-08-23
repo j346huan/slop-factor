@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.26871",
+      "version": 1,
+      "title": "Rigidity and stability for biased cross-intersecting families",
+      "authors": [
+        "Yongjiang Wu",
+        "Lihua Feng"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-29T12:59:13Z",
+        "updated": "2026-07-29T12:59:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $\\mathbf p=(p_1,\\ldots,p_n)$ and $\\mathbf q=(q_1,\\ldots,q_n)$ belong to $(0,1/2]^n$, and let $μ_{\\mathbf p}$ and $μ_{\\mathbf q}$ be the associated measures on $2^{[n]}$. Suppose that $p_1q_1=\\max_{i\\in[n]}p_iq_i$. We prove that every pair of cross-intersecting families $\\mathcal A,\\mathcal B\\subseteq2^{[n]}$ satisfies the sharp inequality $μ_{\\mathbf p}(\\mathcal A)μ_{\\mathbf q}(\\mathcal B)\\leq p_1q_1$. This confirms a conjecture of Suda, Tanaka and Tokushige [Math. Program. 166 (2017) 113--130]. We also determine all equality cases. When $p_1q_1<1/4$, equality is attained only when both families consist of all subsets containing the same product-maximizing coordinate. At the endpoint $p_1q_1=1/4$, we identify precisely the additional extremal pairs, which are induced by half-sized increasing families on the coordinates satisfying $p_i=q_i=1/2$. We further resolve the remaining conjecture from the same paper by proving a dimension-free stability theorem. Assume that the first coordinate has maximum probability under both measures and that $p_1,q_1<1/2$. If $μ_{\\mathbf p}(\\mathcal A)μ_{\\mathbf q}(\\mathcal B)\\geq(1-\\varepsilon)p_1q_1$, then there exists a coordinate $j$ such that both $\\mathcal A$ and $\\mathcal B$ are within $c(p_1,q_1)\\varepsilon$, in their respective measures, of the family of all subsets containing $j$. This improves the conjectured $O(\\sqrt{\\varepsilon})$ bound to a linear one. The main new ingredient in the sharp measure theorem is a log-odds interpolation combined with induction on coordinate sections, while stability follows from a semidefinite estimate and a one-coordinate approximation theorem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.26871v1",
+        "pdf": "https://arxiv.org/pdf/2607.26871v1",
+        "source": "https://export.arxiv.org/e-print/2607.26871v1"
+      },
+      "structural_counts": {
+        "pages": 51,
+        "theorems": 2,
+        "lemmas": 16,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 473,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Rigidity_and_stability.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "i∈[n] Declaration of competing interest The authors declare that they have no competing interests. Data availability No data was used for the research described in the article. Acknowledgments The authors used AI tools only for early-stage exploration. They independently derived and confirmed all proofs and conclusions. References [1] P. Borg, The maximum product of weights of cross-intersecting families, J. London Math. Soc. 94 (2016) 993–1018.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 50",
+          "page": 50
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:12:01.687942Z"
+      },
+      "score": 509.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 254.95,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 51,
+          "theorems": 12,
+          "lemmas": 64,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 118.25,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.26863",
       "version": 1,
       "title": "Convergence rates for pivoted QR and LU",
