@@ -8425,6 +8425,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13208",
+      "version": 1,
+      "title": "Universality in dimension 1 of kinetically constrained lattice gases",
+      "authors": [
+        "Assaf Shapira"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-13T13:11:19Z",
+        "updated": "2026-08-13T13:11:19Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Kinetically constrained lattice gases are interacting particle systems with conserved number of particles, having degenerate rates caused by a kinetic constraint. Over the past decade, there has been major progress in the study of their non-conservative counterpart, kinetically constrained spin models: in dimensions 1 and 2, we have a good understanding of the universality classes of these models. However, the conservative systems are much more challenging to analyze, and very few results are available. The purpose of this paper is to describe universality in the one dimensional case. We will characterize the three universality classes, determining whether such a model is always ergodic, never ergodic, or exhibits an ergodicity phase transition.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13208v1",
+        "pdf": "https://arxiv.org/pdf/2608.13208v1",
+        "source": "https://export.arxiv.org/e-print/2608.13208v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 3,
+        "lemmas": 13,
+        "propositions": 2,
+        "corollaries": 4,
+        "definitions": 7,
+        "displayed_equations": 54,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 1d_kclg.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgements I would like to thank Cristina Toninelli and Oriane Blondel for the useful discussions. The code for the simulation discussed in Section 7 was written with the assistance of Claude (Anthropic). References [1] Lorenzo Bertini and Cristina Toninelli. Exclusion processes with degenerate rates: convergence to equilib- rium and tagged particle. Journal of Statistical Physics,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:11.851328Z"
+      },
+      "score": 269.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 134.9,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 16,
+          "theorems": 18,
+          "lemmas": 52,
+          "propositions": 8,
+          "corollaries": 12,
+          "definitions": 14,
+          "displayed_equations": 13.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13180",
       "version": 1,
       "title": "Homogeneous Weights on Semigroup Algebras of Finite Commutative Semigroups",
