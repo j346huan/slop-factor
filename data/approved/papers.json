@@ -42106,6 +42106,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16463",
+      "version": 1,
+      "title": "Linear extremal bounds for a family of forbidden $0$-$1$ matrices",
+      "authors": [
+        "Jesse Geneson"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-17T19:06:41Z",
+        "updated": "2026-07-17T19:06:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Fulek defined the $0$-$1$ matrix \\[ L_3=\\begin{pmatrix} 1&0&0&1&0\\\\ 0&0&0&0&1\\\\ 0&1&1&0&0 \\end{pmatrix} \\] and asked whether $\\text{ex}(n,L_3) = O(n)$. We prove that every $r\\times s$ $0$-$1$ matrix avoiding $L_3$ has at most $27r+2s$ $1$ entries. Fulek's general lower bound construction has $6n-8$ $1$ entries, so \\[ 6n-8\\leq \\text{ex}(n,L_3)\\leq29n \\] for $n\\geq5$. The same argument applies to an infinite family. If $Q_{a,b,k,\\ell}$ is the light three-row matrix with column word $1^a3^k1^b2^\\ell$, where $a,b,\\ell\\geq1$ and $k\\geq2$, then \\[ \\text{ex}(r,s,Q_{a,b,k,\\ell}) \\leq\\bigl(5(k-1)(4b+1)+a+b+\\ell-1\\bigr)r+2s. \\] This verifies a conjecture of Pettie and Tardos on linear light patterns for an infinite family that includes the previously unresolved weight-five pattern $L_3$. The proof assigns matrix entries to edges of a bar $1$-visibility hypergraph, cuts gaps to control the multiplicity of these edges, and charges the cuts to a noncrossing graph on the rows.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16463v1",
+        "pdf": "https://arxiv.org/pdf/2607.16463v1",
+        "source": "https://export.arxiv.org/e-print/2607.16463v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 50,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file fulek_L3_rg.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2. Fulek proposed L4 together with L3 and noted that the extremal functions of both are in O(nα(n)), where α is the inverse Ackermann function [1]. The method of this note does not prove a linear bound for L4 . Acknowledgments Codex with GPT-5.6 and Claude Code with Fable 5 were used for proof exploration, proof criticism, exposition, and revision. References [1] R. Fulek, Linear bound on extremal functions of some forbidden patterns in 0-1 matrices, Discrete Math. 309 (2009",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:31.074138Z"
+      },
+      "score": 362.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 45.3,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 9,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 12.5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.16447",
       "version": 1,
       "title": "Surrogate-to-code verification of a non-intrusive POD-GPR machine-learning emulator of peak thermomechanical fields, with application to a carbon-carbon aircraft brake disc",
