@@ -9355,6 +9355,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.07649",
+      "version": 1,
+      "title": "Relative Property (T), simplices of invariant measures, and existentially closed models",
+      "authors": [
+        "Tomás Ibarlucía"
+      ],
+      "categories": {
+        "primary": "math.LO",
+        "secondary": [
+          "math.FA",
+          "math.GR"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-07T17:23:42Z",
+        "updated": "2026-08-07T17:23:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a Bauer-Poulsen dichotomy theorem for simplices of invariant measures associated with permutation groups. More precisely, let $G$ be a transitive group of permutations of a countable set $\\mathcal{S}$, and let $H$ be the stabilizer of a point of $\\mathcal{S}$. Let $\\overline{G}$ and $\\overline{H}$ denote their closures in the topology of pointwise convergence. Assume the Polish group $\\overline{H}$ has relative Property (T) in $\\overline{G}$. Then the simplex $\\mathcal{M}_\\mathrm{inv}(2^\\mathcal{S})$ of invariant probability measures for the induced action $G\\curvearrowright 2^\\mathcal{S}$ is Bauer if and only if $\\overline{G}$ has Property (T), and is Poulsen otherwise. This addresses some examples and questions considered by Austin. We deduce this result from a more general model-theoretic statement of independent interest. To this end, we initiate the study of existentially closed models in affine logic.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.07649v1",
+        "pdf": "https://arxiv.org/pdf/2608.07649v1",
+        "source": "https://export.arxiv.org/e-print/2608.07649v1"
+      },
+      "structural_counts": {
+        "pages": 56,
+        "theorems": 13,
+        "lemmas": 49,
+        "propositions": 25,
+        "corollaries": 15,
+        "definitions": 0,
+        "displayed_equations": 182,
+        "bibliography_entries": 46,
+        "appendix_pages": 56
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Bauer-Poulsen-aec.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "se; see Section 11. As we show subsequently in Section 13, under the hypothesis that the pair (G, H ) has Property (T), the main assumption of Theorem 1.3 is also satisfied by the theory PMPG/H This yields Theorem 1.1. Acknowledgments. AI assistants (ChatGPT and Gemini) were used primarily for proofreading and, in that context, contributed minor textual and mathematical correc- tions. They were also used for literature searches and stylistic editing. The mathemat- ical ideas and argum",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:00:55.520704Z"
+      },
+      "score": 1274.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 637.1,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 56,
+          "theorems": 78,
+          "lemmas": 196,
+          "propositions": 100,
+          "corollaries": 45,
+          "definitions": 0,
+          "displayed_equations": 45.5,
+          "bibliography_entries": 4.6,
+          "appendix_pages": 112
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.07421",
       "version": 1,
       "title": "The noncommutative topological factor theorem for rank-one product lattices",
