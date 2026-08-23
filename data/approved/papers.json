@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.15616",
+      "version": 1,
+      "title": "Compact Support Property of Super-Brownian Motion with Irregular Drift",
+      "authors": [
+        "Leonid Mytnik",
+        "Johanna Weinberger"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.AP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-16T08:31:56Z",
+        "updated": "2026-08-16T08:31:56Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study the one-dimensional stochastic partial differential equation \\[ d_t X_t(x)=\\frac{1}{2}ΔX_t(x) +b_1\\unicode{x1D7D9}_{\\{X_t(x)>0\\}} +\\sqrt{X_t(x)}\\dot W(t,x), \\] where $b_1>0$, $\\dot W$ is space-time white noise, and the initial condition is a nonnegative, compactly supported continuous function. We prove that its unique weak solution has the compact support property. The drift term lies outside the usual regularity assumptions for the Dawson--Girsanov theorem. Instead, the proof is based on a layer decomposition in which the solution is constructed as the monotone limit of sums of super-Brownian motions with random immigration rates determined recursively by the positivity sets of the preceding layers. By comparison, the compact support property extends to a broader class of bounded nonnegative drifts vanishing at the origin. Finally, support-radius estimates yield a comparison of the total mass of $X$ with a squared Bessel process, which allows us to show that $X$ has a positive extinction probability.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.15616v1",
+        "pdf": "https://arxiv.org/pdf/2608.15616v1",
+        "source": "https://export.arxiv.org/e-print/2608.15616v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 3,
+        "lemmas": 11,
+        "propositions": 8,
+        "corollaries": 0,
+        "definitions": 2,
+        "displayed_equations": 160,
+        "bibliography_entries": 174,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the authors was supported in part by the ISF grant No. 1985/22. Statement on AI use The mathematical results and core arguments of this paper were devel- oped by the authors independently. At a late stage of preparation, the authors used OpenAI’s Chat- GPT [5.6 Pro; accessed August 2026] for critical reading and language editing of the manuscript, including identifying passages and proof steps requiring further clarification. All resulting revi- sions were independently evaluated,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:17:25.323140Z"
+      },
+      "score": 721.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 180.4,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 25,
+          "theorems": 18,
+          "lemmas": 44,
+          "propositions": 32,
+          "corollaries": 0,
+          "definitions": 4,
+          "displayed_equations": 40,
+          "bibliography_entries": 17.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.15563",
       "version": 1,
       "title": "Scaled boundary cubature scheme in higher dimensions: integration over polytopes and curved regions",
