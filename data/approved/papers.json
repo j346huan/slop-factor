@@ -41944,6 +41944,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23069",
+      "version": 1,
+      "title": "Geometry-aware LegONet for PDE Learning on Arbitrary Domains",
+      "authors": [
+        "Jiahao Zhang",
+        "Yueqi Wang",
+        "Guang Lin"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-25T06:35:11Z",
+        "updated": "2026-07-25T06:35:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Learned PDE solvers often entangle governing operators with the geometry, boundary conditions, and discretization used for training. This limits reuse when the same physics is posed on new domains, and it also makes physical-law discovery geometry-dependent. We introduce Geometry-aware LegONet (gLegONet), a boundary-manifold extension of Lego-like operator learning. Physical mechanisms are pretrained once as modular variational blocks on an ambient spectral domain. For a target geometry, sampled boundary constraints define an affine admissible manifold. Its mass-orthonormal tangent coordinates are used to evolve the dynamics and evaluate candidate law-discovery features directly. Changing the domain therefore changes only an algebraic coordinate interface, not the learned operator blocks. This converts arbitrary-domain PDE learning from geometry-specific retraining or soft penalty enforcement into boundary-guaranteed assembly of reusable mechanisms. In forward simulations and sparse identification tests on unseen domains, the method maintains boundary residuals near the algebraic tolerance and yields predictive governing laws from short-time observations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23069v1",
+        "pdf": "https://arxiv.org/pdf/2607.23069v1",
+        "source": "https://export.arxiv.org/e-print/2607.23069v1"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 40,
+        "bibliography_entries": 32,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "are mechanism representations that can be reused when analytic deriva- tion or repeated geometry-specific assembly is difficult. The same realized mechanisms can then support both forward simulation and physical-law identification. Use of AI-assisted tools A large language model, ChatGPT, was used during manuscript preparation to assist with language editing, consistency checks and the identification of passages that could benefit from further clarification. All suggested revisions wer",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:05:59.792048Z"
+      },
+      "score": 231,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 46.2,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 33,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 10,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23017",
       "version": 1,
       "title": "Level-set entropy and sparse randomized embeddings",
