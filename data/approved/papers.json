@@ -41939,6 +41939,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.16040",
+      "version": 1,
+      "title": "A gap theorem for non-trivial maximal intersecting families and an exact weighted asymptotic",
+      "authors": [
+        "El'mira Yu. Kalimulina"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T15:15:13Z",
+        "updated": "2026-07-17T15:15:13Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $D_n$ be the disjointness graph on the nonempty subsets of $[n]$, whose independent sets are exactly the intersecting families on $[n]$. We study the weighted independent-set polynomial $W(n)=\\sum_F\\prod_{S\\in F}w(S)$, the sum running over these families, for the doubly exponential weight $w(S)=2^{2^{n-|S|}}-1$. The kernel-bearing (trivial) part $Z_\\cap(n)$ is exact by inclusion-exclusion and satisfies $Z_\\cap(n)\\sim n\\cdot 2^{3^{n-1}}$. For the kernel-free remainder we prove the exact prefactor $R(n)=(3/4+o(1))n\\cdot 2^{3^{n-1}-2^{n-1}+2}$, whence $\\log_2(Z_\\cap(n)/R(n))=2^{n-1}-2+\\log_2(4/3)+o(1)$, an additive $o(1)$, not merely a leading-order one. The engine is a second-level extremal theorem: among kernel-free maximal linked systems other than the $n$ one-flip stars, the largest weight exponent is $3^{n-1}-3\\cdot 2^{n-2}+6$, a fixed gap $2^{n-2}-4$ below the maximum, with the extremisers classified exactly. None of this is special to the weight: for $w_B(S)=B^{B^{n-|S|}}-1$ with integer $B\\ge 2$ the same stars dominate, the near-extremal families sit a gap $B^{n-2}-B^2$ below, and the prefactor is $1-B^{-B}$. The combinatorial input is the $p$-biased extremal problem for non-trivial intersecting families: $M_2(n,p)=p-pq^{n-1}+qp^{n-1}$ for all $n\\ge 3$, $0<p\\le 1/2$, $q=1-p$. This first level is essentially known: the extremal family is the Wheel coterie of Peleg and Wool, and at $p=1/Q$ the statement, with its maximiser classification, is the case $r=n$ of Borg's Hilton-Milner theorem for signed sets (2013). We give a short self-contained Erdős-Ko-Rado proof, uniform in real $p\\in(0,1/2]$, whose layer-two rigidity feeds the second level. The novelty claimed lies at the second level and in the prefactor, where the classification cannot be read off the layer profile alone: at $n=5$ one profile carries two non-isomorphic types of extremisers.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.16040v1",
+        "pdf": "https://arxiv.org/pdf/2607.16040v1",
+        "source": "https://export.arxiv.org/e-print/2607.16040v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 11,
+        "lemmas": 9,
+        "propositions": 6,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 289,
+        "bibliography_entries": 35,
+        "appendix_pages": 9
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "y stage of this project, in particular in connection with the three-valued-logic problem (Appendix A) that motivated the weight (5). Declarations Competing interests. The author declares that she has no competing interests. Declaration of generative AI and AI-assisted technologies in the writing process. During the preparation of this work the author used a large language model (Claude, Anthropic) to translate the manuscript from Russian into English, to refine the English style and gram",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:58.077531Z"
+      },
+      "score": 1318.75,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 263.75,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 29,
+          "theorems": 66,
+          "lemmas": 36,
+          "propositions": 24,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 72.25,
+          "bibliography_entries": 3.5,
+          "appendix_pages": 18
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15894",
       "version": 1,
       "title": "The minimum surface area of $k$ unequal boxes tiling a cube: sharp thresholds, a fault-free law, and a reduction to two dimensions",
