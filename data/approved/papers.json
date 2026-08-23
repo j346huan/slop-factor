@@ -41683,6 +41683,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24270",
+      "version": 2,
+      "title": "Multiplicative Subgroups of Prime Fields Are Not Sumsets",
+      "authors": [
+        "Misha Rudnev",
+        "Fred Tyrrell"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-27T11:10:30Z",
+        "updated": "2026-08-12T14:50:04Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $H \\leq \\mathbb{F}_p^*$ be a proper multiplicative subgroup, and suppose that $H = A+B$ for some $A,B \\subseteq \\mathbb{F}_p$. We prove that either one of the summands is a singleton, or $|A|=|B|=2$ and $|H|=4$. In particular, no proper multiplicative subgroup of $\\mathbb{F}_p^*$ can be written as $A+B$ with $|A|,|B|>2$. Our proof builds on the Hanson-Petridis polynomial method and Kalmynin's subsequent resolution of Sárközy's conjecture for quadratic residues. Using Kalmynin's $|A|=|B|$ theorem as a structural input, we develop uniform combinatorial and arithmetic arguments which apply to multiplicative subgroups of arbitrary index.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24270v2",
+        "pdf": "https://arxiv.org/pdf/2607.24270v2",
+        "source": "https://export.arxiv.org/e-print/2607.24270v2"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 2,
+        "lemmas": 28,
+        "propositions": 4,
+        "corollaries": 4,
+        "definitions": 2,
+        "displayed_equations": 405,
+        "bibliography_entries": 23,
+        "appendix_pages": 5
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main__36_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nowledgements We thank Ben Hobson for interesting discussions during the early stages of this project while a Martingale scholar at Bristol. We also thank Bogdan Nica for informing us that Lemma 3.3 is a folklore identity of Sylvester. ChatGPT, accessed via a ChatGPT Plus subscription and using the GPT-5.4, GPT-5.5 and GPT-5.6 models, was used in the preparation of this manuscript for algebraic and numerical checks, generation of code, assistance with presentation, and proofread",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:08:26.278867Z"
+      },
+      "score": 310.55,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 310.55,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 41,
+          "theorems": 12,
+          "lemmas": 112,
+          "propositions": 16,
+          "corollaries": 12,
+          "definitions": 4,
+          "displayed_equations": 101.25,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 10
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24170",
       "version": 1,
       "title": "On non-monotonicity of logarithmic energy for random matrices",
