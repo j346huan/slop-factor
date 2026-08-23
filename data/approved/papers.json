@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17373",
+      "version": 1,
+      "title": "Hardy-type norms of matrices",
+      "authors": [
+        "Leonid V. Kovalev"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-19T18:26:26Z",
+        "updated": "2026-07-19T18:26:26Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We show that the function that assigns to each square matrix $A$ the geometric mean of $|Ax|$ over all unit vectors $x$ is a norm. The same holds for $L^p$ means with $0<p<1$. Some properties of these norms are proved, and others are conjectured.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17373v1",
+        "pdf": "https://arxiv.org/pdf/2607.17373v1",
+        "source": "https://export.arxiv.org/e-print/2607.17373v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 54,
+        "bibliography_entries": 9,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "uality n1 tr AT B ≤ ∥A∥H 4 ∥B∥H 1 \u0001 (A, B ∈ Rn×n ) which is conjectured to hold for n > 2 even though it fails for n = 2. Generative AI disclosure. The author used ChatGPT by OpenAI and Claude by An- thropic during all stages of this work. The final version of the text was written by the author, who is responsible for its correctness. 2. Preliminaries Let Rn+ = {x ∈ R",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:57:57.630624Z"
+      },
+      "score": 282,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 56.4,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 10,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 13.5,
+          "bibliography_entries": 0.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17293",
       "version": 1,
       "title": "Characterizing the equality case in Brouwer's inequality for Laplacian eigenvalues",
