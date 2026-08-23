@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.24594",
+      "version": 1,
+      "title": "On Alweiss's example for multiple recurrence",
+      "authors": [
+        "Ben Green"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-27T15:58:36Z",
+        "updated": "2026-07-27T15:58:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this expository note we discuss the example of R.~Alweiss giving a construction of a set $S \\subset \\mathbf{N}$ which intersects every nil-Bohr set, but which is not a set of $2$-recurrence.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.24594v1",
+        "pdf": "https://arxiv.org/pdf/2607.24594v1",
+        "source": "https://export.arxiv.org/e-print/2607.24594v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 1,
+        "lemmas": 1,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 20,
+        "bibliography_entries": 8,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "l remarks and Ryan Alweiss for correspondence about his paper. In the main part of the note, only very minor use was made of AI tools. However, I used ChatGPT 5.6 Pro to prove Proposition A.1, which shows that the set S is a set of recurrence.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:09:21.517057Z"
+      },
+      "score": 318.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 39.8,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 6,
+          "theorems": 6,
+          "lemmas": 4,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.24540",
       "version": 1,
       "title": "Density-Dependent Operators on Density-Projection Condensation Spaces: Ambient Extensions, Zero-Density Defects, and Stability",
