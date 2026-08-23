@@ -41771,6 +41771,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.17388",
+      "version": 1,
+      "title": "Mathematical Discovery in the Wild: AI-Guided Proofs in Banach Space Theory",
+      "authors": [
+        "Antonio Acuaviva",
+        "Pablo Acuaviva"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "cs.AI"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-19T19:22:40Z",
+        "updated": "2026-07-19T19:22:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We investigate the capacity of current language models to contribute to mathematical research. In Banach space theory, AI systems generated key ideas and proofs for five new results, which were then verified and refined by humans. We also developed an automated system that searches the literature for open problems and attempts solutions at scale. Our results show both the potential of language models for mathematical discovery and the continuing importance of expert verification.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.17388v1",
+        "pdf": "https://arxiv.org/pdf/2607.17388v1",
+        "source": "https://export.arxiv.org/e-print/2607.17388v1"
+      },
+      "structural_counts": {
+        "pages": 141,
+        "theorems": 13,
+        "lemmas": 36,
+        "propositions": 6,
+        "corollaries": 3,
+        "definitions": 12,
+        "displayed_equations": 784,
+        "bibliography_entries": 75,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "We investigate the capacity of current language models to contribute to mathematical research. In Banach space theory, AI systems generated key ideas and proofs for five new results, which were then verified and refined by humans. We also developed an automated system that searches the literature for open problems and attempts solutions at scale. Our results show bot",
+        "location": {
+          "kind": "metadata",
+          "value": "arXiv metadata: abstract",
+          "page": null
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:14.371256Z"
+      },
+      "score": 6235,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 623.5,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 141,
+          "theorems": 78,
+          "lemmas": 144,
+          "propositions": 24,
+          "corollaries": 9,
+          "definitions": 24,
+          "displayed_equations": 196,
+          "bibliography_entries": 7.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.17373",
       "version": 1,
       "title": "Hardy-type norms of matrices",
