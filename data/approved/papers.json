@@ -9529,6 +9529,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14755",
+      "version": 1,
+      "title": "Resilient Spectrum Scheduling for Colocated Space Networks",
+      "authors": [
+        "Most Esrat Jahan",
+        "Md. Kamrujjaman"
+      ],
+      "categories": {
+        "primary": "math.GM",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T06:58:18Z",
+        "updated": "2026-08-14T06:58:18Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Ground station handovers across Earth based Deep Space Network (DSN) terminals incur carrier lock reacquisition delays of 4 to 8 minutes per event, introducing periodic telemetry blackouts during cislunar flights. We address this limitation by formulating temporal handover sequences as perfect interval conflict graphs. For single spacecraft trajectories, we establish that adding a single reserve channel ($k=4$) enables static offline channel preallocation, eliminating spacecraft transponder retuning during station switches. To sustain link availability under unexpected atmospheric fades or station outages, we construct a Robust Space Communication Graph (R-SCG) model, demonstrating that four channels suffice to maintain uninterrupted coverage under single node failure conditions. For unmodeled link disruptions, we implement a distributed local recoloring scheme with $O(1)$ amortized complexity, augmented by Random Forest state classification for predictive channel reassignment. Furthermore, for colocated spacecraft clusters, we show that the joint ground space conflict graph retains chordality, bounding the required spectrum to $3+c$ channels for $c$ concurrent assets. A 10 day orbital simulation demonstrates that static channel preassignment recovers up to 2.7~hours of telemetry throughput relative to conventional reactive handover schemes.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14755v1",
+        "pdf": "https://arxiv.org/pdf/2608.14755v1",
+        "source": "https://export.arxiv.org/e-print/2608.14755v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 4,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 5,
+        "displayed_equations": 19,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 26_manuscript_colormap.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "riting–review & editing. All authors have read and agreed to the published version of the manuscript. Competing interests: The authors declare no competing interests. Consent for publication: No consent is required to publish this article. Generative AI Statement: The author(s) acknowledge the use of generative AI and text-editing tools, in the preparation and linguistic refinement of this paper. After using these tools, the authors reviewed and edited all content as needed and take full",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:15:34.026970Z"
+      },
+      "score": 268.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 67.05,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 19,
+          "theorems": 24,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 10,
+          "displayed_equations": 4.75,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13978",
       "version": 1,
       "title": "Pure braid groups are RFRS",
