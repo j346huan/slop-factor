@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.21440",
+      "version": 1,
+      "title": "Decomposing a Multi-Scale Optimization Framework for Grid-Integrated Electrolysis using Aggregate-Informed Benders",
+      "authors": [
+        "Kiernan X. Jennings",
+        "Victor M. Zavala",
+        "Styliani Avraamidou"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-23T15:47:50Z",
+        "updated": "2026-07-23T15:47:50Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Demand response (DR) operation of electrolysis devices is gaining traction to capitalize on volatile electricity markets, but their dynamic operation poses challenges to the durability and lifespan of these systems. Our recently developed multi-scale optimization framework for grid-integrated electrolysis systems studied the impacts of DR and effects on device durability. A major hurdle in that work is tractably scaling the model to include participation in high-frequency electricity markets and/or longer time horizons. To address this, in this work, we developed an aggregate-informed Benders decomposition method to tractably solve large instances of this problem structure. To illustrate the efficacy, we solve a case study with market participation in the day-ahead market (DAM) and real-time markets (RTM) for up to 40 years to effectively capture the effects of device lifespan change. We compare our decomposition algorithm to both commercial solvers and traditional Benders decomposition. We find that incorporating aggregate subproblem information accelerates convergence, reducing the final optimality gap by up to ~81% relative to traditional Benders on the 40-year horizon instances that otherwise stall near 85%. We additionally apply the algorithm to find that RTM participation offers economic advantages under the higher price volatility.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.21440v1",
+        "pdf": "https://arxiv.org/pdf/2607.21440v1",
+        "source": "https://export.arxiv.org/e-print/2607.21440v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 32,
+        "bibliography_entries": 0,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source parsing failed; PDF-text fallbacks were used: Downloaded source is neither a safe tar archive nor recognizable TeX",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "bles in linear programs. Operations Research DELCARATION OF USE OF AI 28:403-418 (1980) https://doi.org/10.1287/opre.28.2.403 Generative AI was used in programming the cluster- 9. Chattopadhyay S, Gandhi R, Grossmann IE, Torres ing algorithm and in producing the figures. The authors AI. A novel algorithm for bounding the optimal reviewed and edited the conten",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:03:18.706095Z"
+      },
+      "score": 28,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 14,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 6,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 8,
+          "bibliography_entries": 0,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.21396",
       "version": 1,
       "title": "A six-neuron counterexample to the target-free clique conjecture",
