@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12604",
+      "version": 1,
+      "title": "Density bounds for permutations avoiding monotone arithmetic progressions",
+      "authors": [
+        "Jesse Geneson"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T21:27:09Z",
+        "updated": "2026-08-12T21:27:09Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "For $X\\in\\{\\mathbb{N},\\mathbb{Z}\\}$, let $α_X(\\ell)$ and $β_X(\\ell)$ denote the supremal upper and lower densities of subsets of $X$ admitting $ω$-permutations without monotone $\\ell$-term arithmetic progressions. We strengthen the published lower bounds for the three-term upper-density parameters by proving \\[ α_{\\mathbb{N}}(3)\\geq\\frac23,\\qquad α_{\\mathbb{Z}}(3)\\geq\\frac23. \\] We also prove $β_{\\mathbb{Z}}(4)=1$ by constructing four-permutable subsets of the integers whose lower symmetric densities approach one.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12604v1",
+        "pdf": "https://arxiv.org/pdf/2608.12604v1",
+        "source": "https://export.arxiv.org/e-print/2608.12604v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 2,
+        "lemmas": 13,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 76,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ap34_aug12.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Declaration of generative AI and AI-assisted technologies During the preparation of this draft, the author used Codex with GPT-5.6 Sol Ultra to assist with proof development, literature searches, and manuscript editing. The author reviewed and edited the content as needed and takes full responsibility for the content of the article. References [1] S. Adenwalla, Avo",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:12:11.809139Z"
+      },
+      "score": 830.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 103.8,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 14,
+          "theorems": 12,
+          "lemmas": 52,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 19,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12588",
       "version": 1,
       "title": "Lommel polynomials and explicitly solvable prediction problems on the unit circle",
