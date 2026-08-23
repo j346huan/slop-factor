@@ -8679,6 +8679,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11986",
+      "version": 1,
+      "title": "Variational Principles and Rearrangement Inequalities for asymmetric Operators on Periodic Lattices",
+      "authors": [
+        "Xing Liang"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math.FA",
+          "math.OC",
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T12:23:11Z",
+        "updated": "2026-08-12T12:23:11Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In this paper, we establish variational formulas and a rearrangement inequality for principal eigenvalues of asymmetric second-order difference operators on periodic lattices. For a general irreducible nearest-neighbor operator, positive right and left eigenvectors give an explicit saddle point and hence equal minimum--maximum and maximum--minimum formulas over positive profiles and periodic logarithmic correctors. The corrector is unique and satisfies a nonlinear discrete flux-conservation law. For exponentially tilted symmetric diffusion, the formula separates the discrete Dirichlet and potential terms from an exact nonlinear periodic correction. In one dimension the flux is constant, and an elementary scalar-flux representation yields a bell-shaped cyclic rearrangement that maximizes the tilted principal eigenvalue for every tilt.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11986v1",
+        "pdf": "https://arxiv.org/pdf/2608.11986v1",
+        "source": "https://export.arxiv.org/e-print/2608.11986v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 3,
+        "lemmas": 4,
+        "propositions": 2,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 103,
+        "bibliography_entries": 32,
+        "appendix_pages": 4
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file principal_eigenvalue_rearrangement_submission.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "g Supnick’s fixed-tour theorem, of which we had previously been unaware. After further investigation, we found that Supnick’s theorem substantially simplified our original argument, and the final manuscript adopts this simplified proof. ChatGPT also assisted with mathematical exposition, notation, grammar, and presentation. The final manuscript was carefully revised and approved by the human author, who takes full responsibility for its content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:33.678416Z"
+      },
+      "score": 879.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 109.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 18,
+          "lemmas": 16,
+          "propositions": 8,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 25.75,
+          "bibliography_entries": 3.2,
+          "appendix_pages": 8
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11960",
       "version": 1,
       "title": "Conifold Gap Theorem for Topological Recursion",
