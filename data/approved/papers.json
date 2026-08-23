@@ -41771,6 +41771,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01279",
+      "version": 1,
+      "title": "Stochastic heat equation with nondegenerate Hölder diffusion coefficient: uniqueness below the three-fourth threshold",
+      "authors": [
+        "Yi Han"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T14:45:03Z",
+        "updated": "2026-08-02T14:45:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We consider stochastic heat equation (SHE) defined on 1-d torus $\\mathbb{T}$ of the form $$\\partial_t u=Δu+g(u)\\dot{W},$$where $\\dot{W}$ is a space-time white noise and $g$ is a real-valued function which is uniformly elliptic (i.e., $|g|$ is uniformly bounded away from 0), and is globally $β$-Holder continuous for some $β\\in(0,1)$. We prove that weak uniqueness holds as long as $β>\\frac{2}{3}$. The same uniqueness holds for vector-valued solutions where the coefficient $G$ has the same dimension as the white noise. Previously, uniqueness of solutions to the SHE with Holder diffusion coefficient was only established for $β>\\frac{3}{4}$ via a Yamada Watanabe argument by Mytnik and Perkins (arxiv:0809.0248) without assuming $g$ is nonzero. And when $β<\\frac{3}{4}$, Mueller, Mytnik and Perkins (arXiv:1201.2767) constructed a non-unique SPDE example satisfying $g(0)=0$. A later generalized coupling argument for nondegenerate $g$ also stopped at the same threshold $\\frac{3}{4}$. Our result shows that uniform ellipticity of $g$ restores uniqueness to SHEs in the Holder regime where the same SHE with non-elliptic $g$ and the same Holder regularity are often non-unique in law. This constitutes the first general class of SHE weak uniqueness results in the $β\\in(\\frac{2}{3},\\frac{3}{4}]$ regime.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01279v1",
+        "pdf": "https://arxiv.org/pdf/2608.01279v1",
+        "source": "https://export.arxiv.org/e-print/2608.01279v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 2,
+        "lemmas": 16,
+        "propositions": 0,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 178,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s affiliated with IAS Princeton, during which the author was supported by a fellowship from IAS provided by the S.S. Chern Foundation for Mathematical Research Fund and the Fund for Mathematics. Declaration of generative AI usage The author used OpenAI’s ChatGPT as an assistance tool for language editing and exploratory checking of some calculations. All mathematical arguments were independently verified by the author, who takes full responsibility for the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 25",
+          "page": 25
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:11.228978Z"
+      },
+      "score": 477,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 159,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 27,
+          "theorems": 12,
+          "lemmas": 64,
+          "propositions": 0,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 44.5,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01182",
       "version": 1,
       "title": "Wasserstein gradient flows of Maximum Mean Discrepancy with energy kernels",
