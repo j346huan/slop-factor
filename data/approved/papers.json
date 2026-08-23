@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17953",
+      "version": 1,
+      "title": "Symmetric Differentials on K3 Surfaces",
+      "authors": [
+        "Frank Gounelas",
+        "Christian Liedtke"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T16:06:58Z",
+        "updated": "2026-08-18T16:06:58Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove that a K3 surface over an algebraically closed field admits a nonzero global symmetric differential of positive degree if and only if the characteristic is $p=2$, and it is supersingular of Artin invariant $σ_0=1$. Vanishing was previously only known in characteristic zero by a result of Kobayashi. For the exceptional case we show that there is a unique (up to scaling) nontrivial global symmetric differential in every positive even degree. Along the way, we extend a theorem of Jang and show that a supersingular K3 surface in characteristic $p>0$ is isomorphic to a smooth quartic surface if and only if $p\\geq3$ or $p=2$ and it is of Artin invariant $σ_0\\geq3$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17953v1",
+        "pdf": "https://arxiv.org/pdf/2608.17953v1",
+        "source": "https://export.arxiv.org/e-print/2608.17953v1"
+      },
+      "structural_counts": {
+        "pages": 37,
+        "theorems": 2,
+        "lemmas": 7,
+        "propositions": 12,
+        "corollaries": 5,
+        "definitions": 1,
+        "displayed_equations": 186,
+        "bibliography_entries": 57,
+        "appendix_pages": 37
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file symmdiffk3charp-2026-08-15.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "that the ERC Synergy Grant HyperK (ID 854361) for its support. Artificial Intelligence: Some of the results of this paper were obtained with the assistance of the Danus system, an automated proof-search and verification system, along with OpenAI’s GPT-5.6-Sol model. Any errors or inaccuracies of this article are, of course, the authors’ sole responsibility. Notation and conventions A K3 surface X over a field k is a geometrically connected, smooth, proper surf",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:04.818716Z"
+      },
+      "score": 2682,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 268.2,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 37,
+          "theorems": 12,
+          "lemmas": 28,
+          "propositions": 48,
+          "corollaries": 15,
+          "definitions": 2,
+          "displayed_equations": 46.5,
+          "bibliography_entries": 5.7,
+          "appendix_pages": 74
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17821",
       "version": 1,
       "title": "Witt rings, Pfister forms, and equivariant birational geometry",
