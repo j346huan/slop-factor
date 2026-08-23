@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.14057",
+      "version": 1,
+      "title": "Local Smith Profiles of Twisted Calabi--Yau Algebras",
+      "authors": [
+        "Atabey Kaygun"
+      ],
+      "categories": {
+        "primary": "math.RA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-14T08:00:08Z",
+        "updated": "2026-08-14T08:00:08Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The matrix Hilbert series of a locally finite elementary twisted Calabi--Yau algebra is the inverse of a matrix polynomial. The Smith normal form of this polynomial over the power series ring at $x=1$ produces a finite list of local exponents refining the Gelfand--Kirillov dimension, which records only the largest of them. We show that the Calabi--Yau symmetry makes this local data rigid: the algebra decomposes into ring factors according to the average Artin--Schelter index along Nakayama cycles, and after a local normalization the symmetry induces a nonsingular linking form on the Smith cokernel together with a finite-order Nakayama action on its layers, forcing reciprocal-eigenvalue and parity constraints on the multiplicities of the exponents. We compute the complete local data for cyclic skew-group algebras, derive a parity sieve for quiver classifications in dimension three, and realize, as an iterated smash product of a graded down-up algebra, a four-vertex type that a recent classification had left open.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.14057v1",
+        "pdf": "https://arxiv.org/pdf/2608.14057v1",
+        "source": "https://export.arxiv.org/e-print/2608.14057v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 5,
+        "lemmas": 5,
+        "propositions": 3,
+        "corollaries": 3,
+        "definitions": 0,
+        "displayed_equations": 59,
+        "bibliography_entries": 30,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file calabi-yau.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "e never used as a source for verification of the arguments. (b) We used LLMs to help identify potentially relevant references. We carefully sifted the suggestions and then checked every reference cited in the paper by hand. (c) We used LLMs for a directed and curated search for examples constrained by the theoretical results developed in the paper. In particular, the three- and four-vertex examples in Section 4 were found through this process. The resulting candidates",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:14:49.976784Z"
+      },
+      "score": 610.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 101.75,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 13,
+          "theorems": 30,
+          "lemmas": 20,
+          "propositions": 12,
+          "corollaries": 9,
+          "definitions": 0,
+          "displayed_equations": 14.75,
+          "bibliography_entries": 3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13978",
       "version": 1,
       "title": "Pure braid groups are RFRS",
