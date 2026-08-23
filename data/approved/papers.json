@@ -41853,6 +41853,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28456",
+      "version": 1,
+      "title": "Graph Neural Multilevel Preconditioners for Iterative Solvers",
+      "authors": [
+        "Zechen Zhang",
+        "Rui Peng Li",
+        "Yousef Saad"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "cs.LG"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-30T16:19:41Z",
+        "updated": "2026-07-30T16:19:41Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Solving large, sparse linear systems is a core task in scientific computing, and efficient iterative solvers rely critically on effective and robust preconditioning. While classical methods such as algebraic multigrid (AMG) are highly scalable, their robustness can degrade on indefinite or nonsymmetric systems where heuristics originally developed for elliptic PDEs are less reliable. Recently, Graph Neural Networks (GNNs) have emerged as data-driven preconditioners; yet, the practical impact of imposing an AMG-style hierarchy remains underexplored for general sparse matrices. In this work, we propose a Graph Neural Multilevel Preconditioner (GMP) that adopts an AMG hierarchy as a structural prior and learns smoothing, restriction, and interpolation operators in a unified framework. Our method targets general sparse systems and is instantiated as a drop-in preconditioner for standard Krylov solvers. On a benchmark of over 800 sparse matrices, we compare against classical AMG, single-level ILUT, and state-of-the-art GNN preconditioners, and characterize the regimes where multilevel graph neural preconditioning improves convergence or, conversely, introduces overhead relative to strong single-level baselines. These results highlight both the promise and the limitations of enforcing AMG-style multilevel structure in learned preconditioners for large-scale scientific simulations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28456v1",
+        "pdf": "https://arxiv.org/pdf/2607.28456v1",
+        "source": "https://export.arxiv.org/e-print/2607.28456v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 25,
+        "bibliography_entries": 28,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "these factors help explain why GMP is able to achieve robust residual reduction in cases where both classical 7 Use of GenAI AMG and AIR struggle. For a balanced comparison, we also include in Appendix A.6 We employed Claude 4.5 Opus to assist with code implementation, several examples in which AMG and AIR outperform GMP. and ChatGPT-5.2 to assist with paper revision. 5 Conclusion Acknowled",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:29.292470Z"
+      },
+      "score": 108.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 27.05,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 12,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 6.25,
+          "bibliography_entries": 2.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28413",
       "version": 1,
       "title": "Windowed thinning and query complexity for the bouncy particle and Zigzag samplers",
