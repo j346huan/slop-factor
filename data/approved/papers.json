@@ -9100,6 +9100,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17660",
+      "version": 1,
+      "title": "An improved lower bound for Bloch's constant",
+      "authors": [
+        "Frank Wikström"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-18T11:34:24Z",
+        "updated": "2026-08-18T11:34:24Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $B$ denote Bloch's constant. We prove \\[ B \\ge \\frac{\\sqrt{3}}{4}+0.0153 = 0.448312701\\ldots, \\] improving the lower bounds by Chen--Gauthier ($\\sqrt{3}/4+2\\cdot10^{-4}$) and Xiong ($\\sqrt{3}/4+3\\cdot10^{-4}$). The proof refines Bonk's method through computer-assisted estimates rigorously verified using interval arithmetic.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17660v1",
+        "pdf": "https://arxiv.org/pdf/2608.17660v1",
+        "source": "https://export.arxiv.org/e-print/2608.17660v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 6,
+        "lemmas": 4,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 81,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file bloch.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": ". The role of floating-point computation is only to find multipliers and midpoint dual solutions; interval arithmetic allows only their rigorously enclosed consequences into the proof. Tool disclosure. OpenAI Codex (GPT-5.6 Sol) as well as Anthropic Claude Code (Opus 5.0), both accessed August 2026, were used as interactive research assistants for mathematical brainstorming and proof auditing. The models assisted with numerical exploration as well as with developing the interval- arithmet",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:17.107106Z"
+      },
+      "score": 847.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 105.95,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 16,
+          "theorems": 36,
+          "lemmas": 16,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 20.25,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17606",
       "version": 1,
       "title": "Delannoy--Steinhaus triangles over $\\mathbb{Z}/2\\mathbb{Z}$: weight spectrum, balanced triangles, and extremal values",
