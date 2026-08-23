@@ -42446,6 +42446,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.13186",
+      "version": 1,
+      "title": "Quantum determinants in polynomial time",
+      "authors": [
+        "Igor Pak",
+        "Daniel Soskin"
+      ],
+      "categories": {
+        "primary": "math.QA",
+        "secondary": [
+          "cs.DM",
+          "cs.DS",
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T18:38:48Z",
+        "updated": "2026-07-14T18:38:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We give an algebraic branching program of polynomial size which computes Cayley determinant of right quantum matrices. This is a rare example of an efficient computation of a noncommutative determinant, and the first such example for quantum groups. We extend the results to the $q$-Cayley determinant of $q$-right quantum matrices, as well as to their multiparameter generalization. The proofs are entirely combinatorial, as we relate Cayley, Moore and Valiant determinants using bijections/involutions on words. We then employ the celebrated determinant construction of Mahajan and Vinay (SODA'97), to obtain the results.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.13186v1",
+        "pdf": "https://arxiv.org/pdf/2607.13186v1",
+        "source": "https://export.arxiv.org/e-print/2607.13186v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 4,
+        "lemmas": 18,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 3,
+        "displayed_equations": 108,
+        "bibliography_entries": 91,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "yavskyy, Vladimir Retakh and Avi Wigderson, for interesting discussions and helpful remarks. The ﬁrst author (IP) was partially supported by the NSF grant CCF-2302173. Use of AI. During the preparation of this manuscript, the authors used Claude (Anthropic, Claude Opus 4.8) to make numerous experiments in the combinatorics of words, in our search for the desired sign-reversing involution. We also used it to make ﬁgures and proof check the examples. Additionally, we used ChatGPT (O",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:52.602755Z"
+      },
+      "score": 1344.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 168.1,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 27,
+          "theorems": 24,
+          "lemmas": 72,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 6,
+          "displayed_equations": 27,
+          "bibliography_entries": 9.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.13170",
       "version": 2,
       "title": "On Rates Attainable under Random Design: A Negative Answer to a Problem of Robins",
