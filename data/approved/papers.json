@@ -42017,6 +42017,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.12933",
+      "version": 2,
+      "title": "Large sets of mutually orthogonal quantum Latin squares",
+      "authors": [
+        "Simeon Ball",
+        "Robin Simoens"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "quant-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-14T16:05:20Z",
+        "updated": "2026-07-27T07:40:44Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "How large can a set of mutually orthogonal quantum Latin squares (MOQLS) get? We show that a set of n - 2 MOQLS of order n is necessarily classical and construct large non-classical sets of MOQLS of orders that are prime powers, improving both the previously known lower and upper bounds.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.12933v2",
+        "pdf": "https://arxiv.org/pdf/2607.12933v2",
+        "source": "https://export.arxiv.org/e-print/2607.12933v2"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 6,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 21,
+        "bibliography_entries": 43,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file large_sets_of_MOQLS.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nd Universities grant PID2023-147202NB-I00. Robin Simoens is supported by the Research Founda- tion Flanders (FWO) through the grant 11PG724N. We thank Eline Herdies and Leo Storme for helpful discussions towards proving Theorem 5. We used GPT-5.5 Pro by OpenAI to proofread the manuscript. References [1] A. S. Árnadóttir and D. E. Roberson. Group Invariant Quantum Latin Squares, 2025. arXiv:2501.00196. [2] S. Ball and R. Simoens. Thirty-six quantum officers are",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:53:10.913660Z"
+      },
+      "score": 628.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 78.55,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 8,
+          "theorems": 36,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 5.25,
+          "bibliography_entries": 4.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.12895",
       "version": 1,
       "title": "Fano 4-fold quiver moduli from subspace quivers",
