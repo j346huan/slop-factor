@@ -8511,6 +8511,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11405",
+      "version": 1,
+      "title": "Predict-then-Optimize Framework for Public Transport Line Redesign under Fluctuating Traffic Conditions",
+      "authors": [
+        "Zihao Guo",
+        "Andrea Araldo",
+        "Faycal Touzout",
+        "Mounim El-Yacoubi"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T20:10:28Z",
+        "updated": "2026-08-11T20:10:28Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Public Transport (PT) lines are traditionally designed to optimize performance under nominal traffic conditions. In practice, operating conditions frequently deviate from nominal ones, leading to substantial performance deterioration. Existing adaptation mechanisms typically rely on reactive interventions, such as stop-skipping, which are insufficient under large or recurrent traffic fluctuations. In such contexts, incremental adjustments may not suffice. This paper evaluates the potential of deeper structural redesigns to preserve performance. We propose a method to proactively redesign appropriate parts of PT networks under high traffic fluctuations that would otherwise deteriorate operator and user performance. We adopt a predict-then-optimize paradigm in which PT lines are reconfigured based on traffic forecasts using the Non-dominated Sorting Genetic Algorithm III (NSGA-III). To ensure operational feasibility and avoid excessive structural changes, we enforce high Jaccard edge overlap between the original and redesigned networks. To assess prediction inaccuracies, we construct a statistical model of errors from a well-established deep learning predictor, the Diffusion Convolutional Recurrent Neural Network, trained on real-world data. Computational results on Mandl's benchmark and the large-scale Beijing network show that controlled PT line redesign yields substantial user-centric performance gains and operational cost reductions under high traffic fluctuations while limiting topological changes. On the Beijing network under high variability, average travel time improves by up to 25.8% while preserving over 85% line overlap. Unlike stop-skipping baselines, which break connectivity for many OD pairs, our redesign preserves full OD connectivity. These results support a shift from static planning toward continuous and adaptive PT network design.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11405v1",
+        "pdf": "https://arxiv.org/pdf/2608.11405v1",
+        "source": "https://export.arxiv.org/e-print/2608.11405v1"
+      },
+      "structural_counts": {
+        "pages": 36,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 30,
+        "bibliography_entries": 112,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ble in the cited literature. The Beijing network data are derived from third-party sources cited in the paper. The problem instances and source code will be released in a public repository upon acceptance. Declaration of generative AI and AI-assisted technologies in the writing process During the preparation of this work, ChatGPT (GPT-5.1, 2025 release; OpenAI, San Francisco, CA, USA) was used to refine the language of the manuscript and ensure compliance with formatting, grammar, and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 23",
+          "page": 23
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:10:29.344795Z"
+      },
+      "score": 62.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 62.7,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 36,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 7.5,
+          "bibliography_entries": 11.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11198",
       "version": 1,
       "title": "(Non-)coincidence of critical parameters for Poisson Zoos and Loop Soup Percolation on $\\mathbb{Z^d}$, $d > 4$, and $\\mathbb{T}_d$,$ d \\ge 3$",
