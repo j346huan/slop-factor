@@ -41683,6 +41683,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.15894",
+      "version": 1,
+      "title": "The minimum surface area of $k$ unequal boxes tiling a cube: sharp thresholds, a fault-free law, and a reduction to two dimensions",
+      "authors": [
+        "Diego Lago Gómez"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-17T12:09:16Z",
+        "updated": "2026-07-17T12:09:16Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $T(n,k)$ be the minimum total surface area of $k$ axis-aligned boxes with integer sides and pairwise distinct dimension multisets whose union is the cube $[0,n]^3$. We determine the column $k=6$ completely: $T(n,6)=8n^2+2n+12$ for $5\\le n\\le 9$, and $T(n,6)=8n^2+2n+6$ for all $n\\ge 10$, together with the exceptional values $T(3,6)=100$ and $T(4,6)=148$. The threshold $n=10$ equals $1+2+3+4$, the least possible sum of four distinct stick lengths, and the general law holds: for every $k\\ge 4$ and every $n\\ge (k-2)(k-1)/2$, $T(n,k)=8n^2+2n+2(k-3)$, with thresholds at the triangular numbers. Three structural results support and extend these values. First, a fault-free law: the minimum internal interface of a partition of the cube into six boxes with no fault plane is exactly $2n^2+n$ for all $n\\ge 3$ (OEIS A014105), proved by an exact accounting of spanning pieces, floating pieces and cube corners. Second, a reduction theorem: within an explicit range, the three-dimensional problem collapses to a two-dimensional one, $I(n,k)=n^2+W^*(n,k-1)$, where $W^*(n,m)$ is the minimum internal wall of a tiling of the $n\\times n$ square by $m$ rectangles of pairwise distinct dimensions; the key ingredient is an unconditional slab lemma. Third, a doubling law in the middle regime of the 2D problem: $W^*(n,4)=n+4$ for $n=4,5$ and $W^*(n,5)=n+6$ for $4\\le n\\le 9$, proved by finite case trees; via the reduction theorem this gives computer-free proofs of the middle regimes of the columns $k=5$ and $k=6$. The lower bound for the main family does not use the distinctness of the pieces.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.15894v1",
+        "pdf": "https://arxiv.org/pdf/2607.15894v1",
+        "source": "https://export.arxiv.org/e-print/2607.15894v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 5,
+        "lemmas": 9,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 23,
+        "bibliography_entries": 4,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file lago-gomez-cube-tilings.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Iff (3, 8) = 24 = 2n2 + n + 3, because at n = 3 every cheap cut of the column lands on the boundary of the spanning piece S1 and opens a fault. Acknowledgments Parts of the search software and the manuscript preparation were assisted by AI tools; all proofs and certificates were verified by the author. The author thanks the OEIS editors for their careful curation of the related entries. References [1] The OEIS Foundation, The On-Line Encyclopedia of Integer Sequences, entries A3",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:56:28.271577Z"
+      },
+      "score": 200.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 100.15,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 12,
+          "theorems": 30,
+          "lemmas": 36,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 5.75,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.15609",
       "version": 1,
       "title": "A 3-semi-perfect 1-factorization of the six-dimensional hypercube",
