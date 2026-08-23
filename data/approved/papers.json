@@ -8340,6 +8340,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.13278",
+      "version": 1,
+      "title": "Categorification of the genus two DAHA",
+      "authors": [
+        "Semeon Arthamonov",
+        "Ievgen Makedonskyi",
+        "Daniil Sarafannikov"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math-ph",
+          "math.QA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-13T14:14:42Z",
+        "updated": "2026-08-13T14:14:42Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We construct three derived endofunctors on the derived category of graded integrable representations of the current algebra of a flat degeneration of $D(2|1,α)$, and prove that their classes in the Grothendieck group are the genus two Macdonald operators. Computing the graded $\\operatorname{Ext}$ pairing explicitly, we deduce the self-adjointness of the genus two Macdonald operators and the orthogonality of genus $2$ Macdonald polynomials with respect to the certain skew-bilinear form.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.13278v1",
+        "pdf": "https://arxiv.org/pdf/2608.13278v1",
+        "source": "https://export.arxiv.org/e-print/2608.13278v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 6,
+        "lemmas": 15,
+        "propositions": 4,
+        "corollaries": 4,
+        "definitions": 15,
+        "displayed_equations": 186,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "f work on the project. DeepSeek v3.2 and v4, Gemini 3.1 Pro, Kimi K2.6 and K3, and Claude Opus 4.8, Opus 5 and Fable 5 were used as coding assistants in C++ and Mathematica for calculations that resulted in the starting character formulas. Claude Opus 5, Claude Fable 5 and Kimi K3 were used while working on the manuscript, but only to improve the clarity and flow of text that had already been written manually. In particular, the TikZ code for Figure 1 was produced by K3 based on the bla",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:13:20.064424Z"
+      },
+      "score": 890,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 222.5,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 21,
+          "theorems": 36,
+          "lemmas": 60,
+          "propositions": 16,
+          "corollaries": 12,
+          "definitions": 30,
+          "displayed_equations": 46.5,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.13252",
       "version": 1,
       "title": "Covering the ternary cube by binary subcubes",
