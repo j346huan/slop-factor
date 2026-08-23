@@ -9778,6 +9778,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17517",
+      "version": 1,
+      "title": "Asymptotics of the Tchoukaillon array and a conjecture of Beluhov",
+      "authors": [
+        "Shisheng Li"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T08:42:15Z",
+        "updated": "2026-08-18T08:42:15Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "The Tchoukaillon array is an infinite array of the positive integers, arising from a one-row Mancala solitaire, in which each positive integer occurs exactly once. Its zeroth column is the Flavius Josephus sieve and its zeroth row is the sequence of Tchoukaillon numbers; the asymptotics of these two edges are classical results of Andersson and of Broline and Loeb. On the basis of numerical evidence, N. Beluhov conjectured (as relayed by Knuth) that the general entry $T_{i,j}$ satisfies $T_{i,j} \\approx (πi+2j)^2/(4π)$ as $i,j \\to \\infty$. We prove this conjecture. In fact we establish the stronger uniform estimate $T_{i,j} = (πi+2j+2)^2/(4π) + O((i+j+1)^{4/3})$, in which both constants $π$ and $2$ are produced by the array's own recursion through a Wallis product, independently of the two edge theorems. Equivalently, the square root of the entry is asymptotically linear, $\\sqrt{T_{i,j}} = (\\sqrtπ/2)\\, i + (1/\\sqrtπ)(j+1) + O((i+j+1)^{1/3})$, the linear blend of the two edge growth-rates. As corollaries we obtain that the level regions $\\{T_{i,j} \\le V\\}$ are triangles up to a boundary of width $O(V^{1/6})$, and an $O(\\sqrt{M})$ algorithm that locates the row and column of a given integer $M$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17517v1",
+        "pdf": "https://arxiv.org/pdf/2608.17517v1",
+        "source": "https://export.arxiv.org/e-print/2608.17517v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 1,
+        "lemmas": 10,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 71,
+        "bibliography_entries": 6,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file tchoukaillon.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the spacing. A proof of these pointwise laws would be of independent interest. Acknowledgments The author thanks Xicheng Yang for stimulating discussions that helped inspire this work. The large language models ChatGPT (OpenAI) and Claude Code (Anthropic) were used substantially throughout: in drafting and revising the exposition, in designing and running the numerical ex- periments, and as interlocutors whose discussion and suggestions helped sh",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 19",
+          "page": 19
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:37.593676Z"
+      },
+      "score": 722.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 90.35,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 19,
+          "theorems": 6,
+          "lemmas": 40,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 17.75,
+          "bibliography_entries": 0.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17458",
       "version": 1,
       "title": "Finite Time Type I Singularities of the Kähler Ricci Flow",
