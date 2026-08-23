@@ -8340,6 +8340,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.17815",
+      "version": 1,
+      "title": "Second-pole wall periods for Witten zeta functions in the classical families",
+      "authors": [
+        "Jonas Matuzas"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T14:17:21Z",
+        "updated": "2026-08-18T14:17:21Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let Phi be an irreducible reduced crystallographic root system of rank r, and let N be the number of positive coroots. A previous theorem (arXiv:2608.16363, Theorem 3.3) identifies the first pole below 2/h as q_2 = (r-1)/(N-1) and expresses its residue as a sum of periods attached to the simple walls of the dominant chamber. We evaluate that wall-period sum for all four classical families. The identity q_2 (N-1) = r-1 removes the radial variable from every wall integral. The resulting projective integrals reduce to mixed Dotsenko-Fateev chambers in type A_r, to those chambers together with a Selberg endpoint in types B_r and C_r, and to a single chamber family in type D_r. The chamber recurrences give explicit sine weights in types A, B, and C. In type D, a terminating basic-hypergeometric sum at a root of unity reduces to a finite cyclotomic product. We also show that the corresponding exceptional wall restrictions are not reflection arrangements, so this particular reduction does not extend directly to the exceptional types.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.17815v1",
+        "pdf": "https://arxiv.org/pdf/2608.17815v1",
+        "source": "https://export.arxiv.org/e-print/2608.17815v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 5,
+        "lemmas": 1,
+        "propositions": 2,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 85,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file fused_second_residue_v4.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "directly to the exceptional types. Generative-AI disclosure and author responsibility. This work was produced using OpenAI’s ChatGPT 5.6 Pro. The author directed and audited the work throughout. Jonas Matuzas takes full responsibility for the mathematics and the final text. 2020 Mathem",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "substantial_text_generation",
+        "role_label": "Substantial text generation",
+        "multiplier": 7.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:21:50.123410Z"
+      },
+      "score": 550.55,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 78.65,
+        "multiplier": 7,
+        "contributions": {
+          "pages": 14,
+          "theorems": 30,
+          "lemmas": 4,
+          "propositions": 8,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 21.25,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.17686",
       "version": 1,
       "title": "On the p-adic Wirsing problem",
