@@ -8340,6 +8340,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.10992",
+      "version": 1,
+      "title": "Sharpness of the avalanche phase transition in the Bak--Sneppen model",
+      "authors": [
+        "Olivier Hénard"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-11T14:45:25Z",
+        "updated": "2026-08-11T14:45:25Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove sharpness of the avalanche phase transition in the one-dimensional Bak--Sneppen model, for both the one-sided and isotropic update rules. In the one-sided model, the avalanche range is described by a nonlinear self-interacting jump process whose tails satisfy a triangular system. An extremal inequality for decreasing probability masses yields a polynomial lower bound on the range tail at the susceptibility threshold; this bound forces the appearance of infinite avalanches immediately above criticality and hence identifies the susceptibility and infinite-avalanche thresholds. A comparison of avalanche endpoints transfers this equality to the isotropic model. In both models, no infinite avalanche occurs at criticality, while the range has exponential moments at every strictly subcritical level. Combined with the range--duration and stationary-limit results of Meester and Znamenski, this identifies all three avalanche critical thresholds and proves the conjectured stationary product limit in both models.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.10992v1",
+        "pdf": "https://arxiv.org/pdf/2608.10992v1",
+        "source": "https://export.arxiv.org/e-print/2608.10992v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 4,
+        "lemmas": 9,
+        "propositions": 23,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 214,
+        "bibliography_entries": 12,
+        "appendix_pages": 7
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main14-arxiv1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "pendix A implement the Meester– Znamenski range–duration and locking-threshold reduction in a common form. Acknowledgements. The author thanks Linglong Yuan and Nicolas Fournier for helpful early discussions. Disclosure on the use of AI. Generative AI tools, including OpenAI’s ChatGPT (GPT-5.6 Sol), were used during the exploratory stages of this work and in the preparation of the manuscript. In particular, AI-assisted exploration suggested the extremal inequality stated in Lemma 4.2.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:36.792048Z"
+      },
+      "score": 2029.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 253.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 30,
+          "theorems": 24,
+          "lemmas": 36,
+          "propositions": 92,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 53.5,
+          "bibliography_entries": 1.2,
+          "appendix_pages": 14
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.10919",
       "version": 1,
       "title": "Equationless quadratic Chabauty for non-split Cartan modular curves",
