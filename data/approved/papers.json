@@ -45007,6 +45007,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.20669",
+      "version": 2,
+      "title": "Counting, Symmetries and Equivalence Classes of Sudoku Grids",
+      "authors": [
+        "Fernanda Pereira"
+      ],
+      "categories": {
+        "primary": "math.GM",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-22T19:08:29Z",
+        "updated": "2026-07-24T20:40:36Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Sudoku is a widely popular puzzle whose complete grids have been enumerated computationally: there are approximately $6.67 \\times 10^{21}$ of them and, up to symmetry and renaming of digits, $5,472,730,538$ essentially different ones. The classical enumeration reduces the count to $44$ equivalence classes of the first band through a chain of ad hoc reductions, leaving the number $44$ without any apparent structural explanation. We present an alternative derivation of these $44$ classes, in which they arise as isomorphism classes of unordered triples (multisets) of column partitions under relabeling, a single invariant that replaces the original chain of reductions. This invariant makes it possible to apply Burnside's Lemma by hand: we recover $44$ through a closed derivation requiring no computational enumeration.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.20669v2",
+        "pdf": "https://arxiv.org/pdf/2607.20669v2",
+        "source": "https://export.arxiv.org/e-print/2607.20669v2"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 3,
+        "displayed_equations": 31,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file sudoku.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "24 FERNANDA PEREIRA Use of artificial intelligence tools While preparing this work, the author used the artificial intelligence as- sistant Claude (Claude Sonnet 5 model, accessed via claude.ai) for language editing and translation, for assistance in deriving and developing some of the mathematical arguments, and for writing the Python scripts used in the computational verifications",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 24",
+          "page": 24
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:04:49.076070Z"
+      },
+      "score": 614,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 76.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 24,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 6,
+          "displayed_equations": 7.75,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.20407",
       "version": 1,
       "title": "Uncountable Abelian Group C*-algebras Fail the Lifting Property",
