@@ -9717,6 +9717,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.09844",
+      "version": 1,
+      "title": "Grothendieck weights and K-theoretic positivity for matroids",
+      "authors": [
+        "Yiyu Wang"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-10T17:03:35Z",
+        "updated": "2026-08-10T17:03:35Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We introduce a method for studying $K$-theoretic positivity on permutohedral toric varieties through the topology of spaces arising in tropical geometry. The key ingredient is the theory of Grothendieck weights developed by the author. We prove two positivity results using this method. The first result is the positivity of the Euler characteristics of tautological bundles associated with an arbitrary matroid and twisted by a nef line bundle. This gives numerical evidence for a conjectural vanishing theorem. The second result generalizes the external activity complex of Berget--Fink, originally defined for a pair of matroids, to the case of any tuple of matroids with no common loop. We deduce a formula for its graded $K$-polynomial in terms of exterior powers of the dual tautological quotient classes of the matroids. After a change of variables, its coefficients alternate in sign. We also prove the Cohen--Macaulayness of each such complex using the vanishing theorems for combinatorial geometries developed by Eur--Fink--Larson. This proof is new even in the case of a pair of matroids. As an application, we interpret certain Chern numbers of tautological quotient classes as counts of facets, partially answering a question of Berget--Eur--Spink--Tseng.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.09844v1",
+        "pdf": "https://arxiv.org/pdf/2608.09844v1",
+        "source": "https://export.arxiv.org/e-print/2608.09844v1"
+      },
+      "structural_counts": {
+        "pages": 50,
+        "theorems": 6,
+        "lemmas": 18,
+        "propositions": 13,
+        "corollaries": 2,
+        "definitions": 8,
+        "displayed_equations": 408,
+        "bibliography_entries": 26,
+        "appendix_pages": 50
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ct rule stated in Section 3. Acknowledgements. The author would like to thank Eric Katz for helpful discussions and comments on an earlier draft. AI disclosure. The proofs of Lemmas 3.11, 5.7 and 6.5 were completed with the assistance of generative AI. The overall mathematical framework and the central ideas of this paper were developed independently by the author, building on the author’s earlier work [Wan26]. The author has verified all AI-assisted arguments and takes full responsibil",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:09:05.176250Z"
+      },
+      "score": 3492.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 436.6,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 50,
+          "theorems": 36,
+          "lemmas": 72,
+          "propositions": 52,
+          "corollaries": 6,
+          "definitions": 16,
+          "displayed_equations": 102,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 100
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.09787",
       "version": 1,
       "title": "On B-Colorings in Planar Graphs",
