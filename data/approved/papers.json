@@ -41683,6 +41683,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.18146",
+      "version": 1,
+      "title": "The realization graph of every degree sequence has a Hamilton path",
+      "authors": [
+        "Petr Hladík",
+        "Jiří Fink"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-20T16:44:48Z",
+        "updated": "2026-07-20T16:44:48Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Given a degree sequence $d$, the realization graph $\\mathcal{G_F}(d)$ is the graph whose vertices are all labeled realizations of $d$, where two realizations are adjacent if they differ by a single $2$-switch. We prove that $\\mathcal{G_F}(d)$ admits a Hamilton path for every degree sequence $d$. The problem was initiated by Arikati and Peled (1999), who showed that $\\mathcal{G_F}(d)$ contains a Hamilton cycle whenever $d$ has majorization gap of 1. Later, Barrus (2016) and independently Mütze (2023) asked whether a Hamilton path or cycle exists in $\\mathcal{G_F}(d)$ for every degree sequence $d$. As a consequence, we obtain that the interchange graph of $(0,1)$-matrices with prescribed row and column sums has a Hamilton path, thereby answering a question of Brualdi (1980).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.18146v1",
+        "pdf": "https://arxiv.org/pdf/2607.18146v1",
+        "source": "https://export.arxiv.org/e-print/2607.18146v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 4,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 13,
+        "bibliography_entries": 40,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file degree.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "btain a Hamilton path in GF (d). Otherwise, observe that the only realization of G(d) is the complete or empty graph, and thus there trivially exists a Hamilton path in GF (d). Acknowledgment The authors acknowledge the use of large language models for assistance in improving the clarity, grammar, and overall readability of the English text. All technical content, ideas, results, and conclusions presented in this work are the original contributions of the authors. A preliminary v",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T18:58:52.067782Z"
+      },
+      "score": 65.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 65.25,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 14,
+          "theorems": 24,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3.25,
+          "bibliography_entries": 4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.18044",
       "version": 1,
       "title": "A positive square-energy strengthening of Turán's theorem",
