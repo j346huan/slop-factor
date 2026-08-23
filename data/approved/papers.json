@@ -8340,6 +8340,90 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.11990",
+      "version": 1,
+      "title": "On spanning trees whose degrees are congruent to one modulo $\\ell$",
+      "authors": [
+        "Zhidan Yan",
+        "Wei Wang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-12T12:28:07Z",
+        "updated": "2026-08-12T12:28:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "An $\\ell$-congruent spanning tree of a nontrivial connected graph is a spanning tree in which every vertex has degree congruent to one modulo $\\ell$. This notion provides a common generalization of classical spanning trees and odd spanning trees. We show, via a constructive greedy algorithm, that every $n$-vertex graph $G$ satisfying $n\\equiv2\\pmod{\\ell}$ and $δ(G)>\\frac{(\\ell-1)n}{\\ell}$ has an $\\ell$-congruent spanning tree. For the special case of odd spanning trees ($\\ell=2$), our algorithmic approach simplifies the original proof by Zheng and Wu. We also derive formulas for the numbers of $\\ell$-congruent spanning trees in complete graphs and complete bipartite graphs. These formulas specialize to the classical spanning-tree formulas when $\\ell=1$ and to the corresponding odd-spanning-tree formulas when $\\ell=2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.11990v1",
+        "pdf": "https://arxiv.org/pdf/2608.11990v1",
+        "source": "https://export.arxiv.org/e-print/2608.11990v1"
+      },
+      "structural_counts": {
+        "pages": 12,
+        "theorems": 8,
+        "lemmas": 3,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 72,
+        "bibliography_entries": 17,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file manuscript_congruent_trees.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "his paper. Acknowledgments This work is partially supported by the National Natural Science Foundation of China (Grant No. 12001006) and Wuhu Science and Technology Project, China (Grant No. 2024kj015). The authors acknowledge the use of Gemini 3.1 Pro for language polishing and detailed proofreading of the manuscript. References [1] C. Berge, Graphs and Hypergraphs, North-Holland Math. Library, Vol. 6, North- Holland Publishing Co., Amsterdam-London; American Elsevier Publishing",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 11",
+          "page": 11
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:15.112209Z"
+      },
+      "score": 97.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 97.7,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 12,
+          "theorems": 48,
+          "lemmas": 12,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 18,
+          "bibliography_entries": 1.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.11960",
       "version": 1,
       "title": "Conifold Gap Theorem for Topological Recursion",
