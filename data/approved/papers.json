@@ -41683,6 +41683,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.23667",
+      "version": 1,
+      "title": "No Free Lunch in Flow Surrogates under Time-Varying Boundary Conditions: A Two-Regime Study",
+      "authors": [
+        "Georg Winkler",
+        "Martin Stoll"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "cs.LG",
+          "physics.flu-dyn"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-26T14:02:46Z",
+        "updated": "2026-07-26T14:02:46Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A flow surrogate validated on a simple regime is often taken as evidence that the approach will carry to a richer one. We test this assumption on two transient flows under time-varying boundary conditions emulating the process startup: the three-dimensional slurry film in chemical-mechanical planarisation (CMP), a core semiconductor-manufacturing process, and the two-dimensional Karman vortex street (KVS) behind a cylinder. Eight surrogate models are compared on one shared evaluation pipeline, differing in whether they learn the full field or a latent representation, and whether they predict trajectories in one shot or step by step. No single architecture wins both regimes. On the film, a one-shot full-field model reconstructs the process-relevant cumulative wall shear stress to 3.2% relative error. On the wake, a latent autoregressive DeepONet retains 96% of the shedding power that direct and one-shot models damp to almost zero. The deciding axis is the treatment of time. The self-sustained wake requires the phase memory that autoregressive feedback provides, while the boundary-driven film rewards a direct map. Pointwise RMSE picks the wrong model in both regimes, so the evaluation scores five physical questions instead, the field, its structure, invented motion, amplitude, and timing. The trained surrogates answer queries $10^3$ to $10^4$ times faster than the finite-element solver, but the offline cost of the training simulations means they pay off from the first query beyond the training set for CMP and the third for the KVS. The choice of surrogate should follow the dynamical character of the target flow, and its validation should use failure-mode-resolved metrics, since neither the winning architecture nor its validation transfers.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.23667v1",
+        "pdf": "https://arxiv.org/pdf/2607.23667v1",
+        "source": "https://export.arxiv.org/e-print/2607.23667v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 28,
+        "bibliography_entries": 72,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ssisted technologies in direct map that accumulates no rollout error. the writing process Two measurement findings frame this result. A single ag- While preparing this work, the authors used Anthropic’s gregate error inverts the model ranking in both regimes, rating large language model Claude to assist in drafting and revising damped or mirrored dynamics above correct ones, so failure the text and in writing and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:07:12.015121Z"
+      },
+      "score": 166,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 33.2,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 19,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 7,
+          "bibliography_entries": 7.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.23598",
       "version": 1,
       "title": "Nonexistence of universal Fourier summation formulas for the degree below the Hölder threshold $α=1/3$",
