@@ -41768,6 +41768,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00957",
+      "version": 3,
+      "title": "Counterexamples to a conjecture of Hoa on maximal non-Hamiltonian graphs",
+      "authors": [
+        "Xingzhi Zhan"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-02T03:08:02Z",
+        "updated": "2026-08-14T07:46:22Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "A graph G is said to be maximal non-Hamiltonian if G is non-Hamiltonian, but $G+e$ is Hamiltonian for every nonedge $e$ of $G.$ In 1994, Vu Dinh Hoa conjectured that if $C$ is a longest cycle of a maximal non-Hamiltonian graph $G,$ then $G-V(C)$ is a complete graph. We disprove this conjecture by constructing a counterexample of every order $n\\ge 56.$ We also pose several related open problems.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00957v3",
+        "pdf": "https://arxiv.org/pdf/2608.00957v3",
+        "source": "https://export.arxiv.org/e-print/2608.00957v3"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 5,
+        "bibliography_entries": 5,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file hoaz.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ere exist a maximal non-Hamiltonian graph G of order n and a longest cycle C of G such that G − V (C) has exactly k components. Determine f (n). The results of this paper show that f (n) ≥ 2 for every n ≥ 56. Declaration of AI Use ChatGPT was used to assist in developing and checking the constructions and proofs. The author independently veriﬁed all mathematical arguments, wrote the paper, and takes full responsibility for its content. Acknowledgements. This research",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:17:11.201214Z"
+      },
+      "score": 86,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 10.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 9,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 1.25,
+          "bibliography_entries": 0.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00900",
       "version": 1,
       "title": "An explicit construction of two completely independent spanning trees in the four-dimensional dual-cube",
