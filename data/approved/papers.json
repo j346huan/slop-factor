@@ -41683,6 +41683,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.00845",
+      "version": 1,
+      "title": "de Rham theory and locally analytic vectors",
+      "authors": [
+        "Hui Gao",
+        "Gal Porat",
+        "Léo Poyeton"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-08-01T19:52:40Z",
+        "updated": "2026-08-01T19:52:40Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Let $K_\\infty/K$ be a $p$-adic Lie extension of a $p$-adic field $K$. We study the subring of pro-analytic vectors in the de Rham period ring $\\mathbf{B}_{\\mathrm{dR}}^+(K_\\infty)$. We show that the pro-analytic subring admits a Galois-equivariant isomorphism with a formal power series ring $\\widehat{K}_{\\infty}^{\\mathrm{la}} [[t_{K_\\infty}]]$ if and only if $K_\\infty$ satisfies a certain orientability condition, which says that the $\\widehat{K}_\\infty$-level Sen operator admits a Galois-equivariant $\\mathbf{B}_{\\mathrm{dR}}^+$-lift. A key input is the vanishing of higher locally analytic vectors of $\\widehat{K}_\\infty$-representations. As an application, we show that the lifted Sen operator induces regular connections on pro-analytic vectors of $\\mathbf{B}_{\\mathrm{dR}}^+$-representations, and can be used to compute Galois cohomology.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.00845v1",
+        "pdf": "https://arxiv.org/pdf/2608.00845v1",
+        "source": "https://export.arxiv.org/e-print/2608.00845v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 15,
+        "lemmas": 19,
+        "propositions": 9,
+        "corollaries": 6,
+        "definitions": 6,
+        "displayed_equations": 139,
+        "bibliography_entries": 40,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "nd Yupeng Wang for useful discussions and correspondences. Part of this work was first carried out while Gal Porat was visiting the University of Bordeaux (IMB). He would like to thank the institute for the hospitality. We were assisted by ChatGPT 5.5-5.6 Pro for simplifying some arguments and for polishing the article. Hui Gao is partially supported by the National Natural Science Foundation of China under agreement NSFC-12471011. Gal Porat was supported by the European Research Co",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:16:52.542856Z"
+      },
+      "score": 2406,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 300.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 30,
+          "theorems": 90,
+          "lemmas": 76,
+          "propositions": 36,
+          "corollaries": 18,
+          "definitions": 12,
+          "displayed_equations": 34.75,
+          "bibliography_entries": 4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.00802",
       "version": 1,
       "title": "Counterexamples to the Landis conjecture in dimensions three and higher",
