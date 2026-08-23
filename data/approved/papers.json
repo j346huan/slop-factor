@@ -8340,6 +8340,93 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.12280",
+      "version": 1,
+      "title": "Grothendieck's theorem for Bessel sequences",
+      "authors": [
+        "Lukas Liehr",
+        "Mitchell A. Taylor",
+        "Peiyang Yu"
+      ],
+      "categories": {
+        "primary": "math.FA",
+        "secondary": [
+          "math.CA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-12T17:23:03Z",
+        "updated": "2026-08-12T17:23:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We establish a sharp version of Grothendieck's theorem for Bessel sequences. Precisely, given a Bessel sequence $\\{ x_j \\}_{j\\in\\mathbb{N}}$ with Bessel bound $1$ in a Hilbert space, we show that there exists functions $\\{ f_j \\}_{j\\in\\mathbb{N}}$ belonging to the unit ball of $L^\\infty([0,1])$ such that for all $j,k \\in \\mathbb{N}$ one has $$ \\langle x_j,x_k\\rangle = \\int_0^1 f_j(x)\\overline{f_k(x)}\\,dx.$$ As an application, we give an affirmative answer to an extension problem of Olevskii: if $E \\subset [0,1]$ is a Lebesgue measurable set such that $[0,1]\\setminus E$ has positive measure, then every Bessel sequence in $L^2(E)$ with Bessel bound $1$ extends to an orthonormal system in $L^2([0,1])$ that is bounded by the (optimal) constant $λ([0,1]\\setminus E)^{-1/2}$ on $[0,1]\\setminus E$. A formalization of our main result in Lean 4 accompanies the paper.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.12280v1",
+        "pdf": "https://arxiv.org/pdf/2608.12280v1",
+        "source": "https://export.arxiv.org/e-print/2608.12280v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 6,
+        "lemmas": 3,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 84,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ended to a complete uniformly bounded orthonormal system. The completeness aspect is not addressed in the present paper. Usage of Large Language Models. Theorem 2.5 (for the case of real Hilbert spaces) was developed with the assistance of GPT-5.4. Specifically, the result of Ball and Prodromou [3], which was known to the authors, was provided to GPT- 5.4. GPT-5.4 was then guided toward a construction of the functions fj given in (2.1). The resulting functions provided a version of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:11:53.817427Z"
+      },
+      "score": 933,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 93.3,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 15,
+          "theorems": 36,
+          "lemmas": 12,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 21,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.12257",
       "version": 1,
       "title": "Power sums and Siegel-type zero-free regions for L-functions",
