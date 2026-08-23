@@ -41851,6 +41851,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.01332",
+      "version": 1,
+      "title": "Rake-Compress Riccati Recursions for Parallel Scenario-Tree Model Predictive Control",
+      "authors": [
+        "João Sousa-Pinto"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": [
+          "cs.RO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-02T15:52:43Z",
+        "updated": "2026-08-02T15:52:43Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Scenario-tree model predictive control (MPC) represents future information by a rooted tree and optimizes a nonanticipative policy over that tree. Numerical methods for solving the resulting nonlinear program typically compute their search directions through a sequence of branched linear-quadratic regulator (LQR) subproblems. The standard tree Riccati recursion requires linear work but has a dependency chain proportional to tree height. We present an algebraically exact parallel solver based on rake-compress tree contraction. After independent local control condensation, its two operations act on node and edge data that represent conditional quadratic functions. A rake eliminates a leaf and its parent edge, adding their reduced contribution to the parent-node data. A compress eliminates a unary node and replaces its two adjacent edges by one edge, using the same conditional-value composition as parallel Riccati methods on a chain. Together they contract an arbitrary rooted tree to its root; reversing the contraction recovers every Riccati coefficient, state, control, and multiplier. Given a reusable topology plan, a solve with $N$ nodes and fixed state and control dimensions has $O(N)$ arithmetic work and storage and $O(\\log N)$ span, independently of tree height, balance, and maximum out-degree. The formulation allows positive-semidefinite dual regularization, including the unregularized case, and an exact linear-size lifting covers the standard scenario-MPC convention of one control per information node. We prove the contraction identities and equivalence to the Karush-Kuhn-Tucker (KKT) system. Three MIT-licensed JAX packages implement the bidirectional contraction, the dual-regularized LQR solver, and a user-facing primal-dual interior-point solver for tree-structured optimal control.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.01332v1",
+        "pdf": "https://arxiv.org/pdf/2608.01332v1",
+        "source": "https://export.arxiv.org/e-print/2608.01332v1"
+      },
+      "structural_counts": {
+        "pages": 16,
+        "theorems": 4,
+        "lemmas": 5,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 83,
+        "bibliography_entries": 31,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file root.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "EREW model,” in Concurrent Computations: Algorithms, Architecture, and Technology, S. K. Tewksbury, B. W. Dickinson, and S. C. Schwartz, OpenAI Codex, using the GPT-5.6 Sol model, assisted with Eds. New York: Plenum Press, 1988, pp. 139–156. drafting and editing this manuscript and implementing some [23] A. L. Delcher, A. J. Grov",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:18:53.300238Z"
+      },
+      "score": 544.25,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 108.85,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 16,
+          "theorems": 24,
+          "lemmas": 20,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 20.75,
+          "bibliography_entries": 3.1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.01331",
       "version": 1,
       "title": "Freeness of Arrangements with Regular Underlying Matroids",
