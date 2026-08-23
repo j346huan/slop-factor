@@ -8340,6 +8340,92 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.18024",
+      "version": 2,
+      "title": "An equidistribution conjecture for quotient-closed and submodule-closed subcategories",
+      "authors": [
+        "Haruhisa Enomoto"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.CO",
+          "math.RA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-18T17:19:04Z",
+        "updated": "2026-08-20T01:13:57Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We study subcategories of the module category of a finite-dimensional algebra that are closed under quotients or submodules. We propose the quotient--submodule equidistribution conjecture: over a representation-finite algebra, the number of quotient-closed subcategories of size $i$ is equal to that of submodule-closed subcategories of size $i$ for every $i$, where size is the number of indecomposable modules in the subcategory. We prove the following cases of the conjecture: (1) the five smallest and five largest values of $i$, hence all algebras with at most nine indecomposable modules; (2) Nakayama algebras; (3) algebras with radical square zero; and (4) representation-directed algebras. In the last case, we classify quotient-closed subcategories by a lower Bruhat interval in a Coxeter group constructed from the Auslander--Reiten quiver, extending the classification of Oppermann--Reiten--Thomas for Dynkin quivers. We also prove that quotient closure defines a finitary convex geometry and classify the functorially finite quotient-closed subcategories by Gen-minimal modules.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.18024v2",
+        "pdf": "https://arxiv.org/pdf/2608.18024v2",
+        "source": "https://export.arxiv.org/e-print/2608.18024v2"
+      },
+      "structural_counts": {
+        "pages": 61,
+        "theorems": 11,
+        "lemmas": 49,
+        "propositions": 25,
+        "corollaries": 15,
+        "definitions": 23,
+        "displayed_equations": 369,
+        "bibliography_entries": 19,
+        "appendix_pages": 61
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "attempt produced the four families of results stated in Theorem A. A parallel collaboration produced the software used for the computations. On July 15, after computations with the original GAP/QPA had become too slow, the author asked GPT-5.6-Sol to port QPA to Rust and provide a Python interface. GPT-5.6-Sol then worked continuously, day and night, for seven days, from July 15 through July 21. The Rust port was completed on July 19 and the Python interface on July 21, followed",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 60",
+          "page": 60
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:22:23.137431Z"
+      },
+      "score": 7301.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 730.15,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 61,
+          "theorems": 66,
+          "lemmas": 196,
+          "propositions": 100,
+          "corollaries": 45,
+          "definitions": 46,
+          "displayed_equations": 92.25,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 122
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.18006",
       "version": 1,
       "title": "Obstructions to intrinsic perturbation for $A$-hypergeometric series",
