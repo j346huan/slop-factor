@@ -41766,6 +41766,89 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28808",
+      "version": 3,
+      "title": "Spectral Analysis and Redistribution Thresholds for Cut-Cell Finite-Volume Methods",
+      "authors": [
+        "Justo E. Karell"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T20:09:42Z",
+        "updated": "2026-08-10T01:35:07Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "In finite-volume methods on embedded-boundary meshes, arbitrarily small cut cells can produce coefficients that scale as O(alpha^{-1}) when the time step is chosen for the regular grid. For a one-dimensional periodic upwind discretization, we show that the resulting instability is carried by an eigenmode concentrated at the cut cell. Blending the unstabilized update with the volume-weighted state obtained by merging the cut cell with its left neighbor yields the leading redistribution threshold s_0(L)=(L-2)/(L-1) for fixed cut-cell Courant number L>2. We prove that the cell-merging correction aligns with the unstable mode as alpha tends to zero and establish a block-matrix result showing that diverging cut-cell rows generate a finite cluster of unbounded eigenvalues whose invariant subspace approaches the span of the cut-cell coordinates. For MUSCL with a minmod limiter, analysis of the piecewise-linear region containing the localized mode gives s_M(alpha,L)=(L-2)/(L-1)-L(L-2)alpha/[4(L-1)^2]+O(alpha^2), with the SSPRK2 update reaching unit amplification at the same crossing on that branch. Numerical tests show lower error with this reduced redistribution than with the tested published weighting specializations and full two-cell merging. A two-dimensional 45-degree embedded-boundary channel likewise reaches spectral radius at most one with blending parameters below full merging. These results show that full redistribution is not always necessary to control the unstable cut-cell mode, and that using a smaller blending parameter can reduce numerical error in the tested problems.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28808v3",
+        "pdf": "https://arxiv.org/pdf/2607.28808v3",
+        "source": "https://export.arxiv.org/e-print/2607.28808v3"
+      },
+      "structural_counts": {
+        "pages": 51,
+        "theorems": 9,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 5,
+        "definitions": 0,
+        "displayed_equations": 170,
+        "bibliography_entries": 14,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file defect_subspaces_master_ANM_terminology_verified.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "st: none. CRediT author statement. Justo E. Karell: Conceptualization, Method- ology, Formal analysis, Software, Validation, Investigation, Data curation, Visualization, Writing – original draft, Writing – review & editing. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the author used ChatGPT (OpenAI) to assist with numerical code generation, consistency checking, and language editing. The author r",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 49",
+          "page": 49
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:59.732186Z"
+      },
+      "score": 819.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 163.9,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 51,
+          "theorems": 54,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 15,
+          "definitions": 0,
+          "displayed_equations": 42.5,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28785",
       "version": 1,
       "title": "From 12 to 6: Sharpening the Three-Charge Bound in Maxwell's Problem",
