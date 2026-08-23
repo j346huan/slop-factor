@@ -42199,6 +42199,91 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.28235",
+      "version": 1,
+      "title": "R3MG-C: a high-order algebraic-geometric multilevel preconditioner for continuous finite element discretizations",
+      "authors": [
+        "Davide Polverino",
+        "Marco Feder",
+        "Luca Heltai"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-30T14:04:03Z",
+        "updated": "2026-07-30T14:04:03Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "Algebraic multigrid (AMG) methods are robust and efficient black-box preconditioners for linear systems arising from low-order discretizations of elliptic partial differential equations, but their performance often deteriorates for high-order methods. We introduce an algebraic-geometric multilevel preconditioner for continuous lagrangian finite element discretizations. The method automatically constructs prolongation operators and a Galerkin hierarchy using only the coordinates of finite element support points, without requiring a prescribed mesh hierarchy or domain decomposition. The support-point are recursively partitioned by an R-tree algorithm based on axis-aligned bounding boxes, producing a hierarchy of agglomerates. In contrast to classical AMG, which typically uses piecewise-constant aggregate coarse spaces, our method embeds local discontinuous polynomial spaces of degree $p'>0$, defined on the agglomerate boxes, through continuous nodal interpolation. This yields a high-order extension of the Nicolaides coarse space. A two-level analysis quantifies how the coarse polynomial degree offsets the effects of large agglomerates and high-order fine discretizations, under uniform box-regularity, interpolation-stability, and stable-decomposition assumptions. Numerical experiments in two and three dimensions show that the resulting V-cycle, used as a conjugate-gradient preconditioner, maintains stable iteration counts and remains effective in regimes where standard AMG deteriorates.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.28235v1",
+        "pdf": "https://arxiv.org/pdf/2607.28235v1",
+        "source": "https://export.arxiv.org/e-print/2607.28235v1"
+      },
+      "structural_counts": {
+        "pages": 45,
+        "theorems": 3,
+        "lemmas": 6,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 1,
+        "displayed_equations": 98,
+        "bibliography_entries": 50,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Use of AI tools in the writing process During the preparation of this work, the authors used ChatGPT v5.6 in order to improve readability and language. The authors reviewed and edited the content as needed and take full responsibility for the content of t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 42",
+          "page": 42
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T19:14:22.188356Z"
+      },
+      "score": 474,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 118.5,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 45,
+          "theorems": 18,
+          "lemmas": 24,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 2,
+          "displayed_equations": 24.5,
+          "bibliography_entries": 5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.28195",
       "version": 1,
       "title": "The Follow-the-Leader scheme with non-monotone velocity",
