@@ -8679,6 +8679,94 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2608.16136",
+      "version": 1,
+      "title": "A Sharp Diameter-Dependent Lower Bound for the First Nonzero Neumann Eigenvalue of Geodesic Triangles in Space Forms",
+      "authors": [
+        "Shoo Seto",
+        "Guofang Wei",
+        "Yusen Xia"
+      ],
+      "categories": {
+        "primary": "math.DG",
+        "secondary": [
+          "math.AP",
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-08-17T05:44:10Z",
+        "updated": "2026-08-17T05:44:10Z",
+        "approved": "2026-08-23"
+      },
+      "abstract": "We prove a sharp lower bound for the first nonzero Neumann eigenvalue of geodesic triangles of given diameter in two-dimensional space forms. The bound is given by the first positive radial Neumann eigenvalue of an one dimensional model; it is approached by degenerating isosceles triangles. When \\(K>0\\) and \\(D=π/(2\\sqrt K)\\), equality is attained precisely by birectangular triangles. We also prove a hot-spots theorem for non-acute spherical triangles of diameter at most \\(π/2\\), and establish antisymmetry and eigenvalue monotonicity for isosceles spherical triangles of diameter \\(π/2\\).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2608.16136v1",
+        "pdf": "https://arxiv.org/pdf/2608.16136v1",
+        "source": "https://export.arxiv.org/e-print/2608.16136v1"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 5,
+        "lemmas": 10,
+        "propositions": 3,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 299,
+        "bibliography_entries": 40,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "w years ago but stopped. The second author also thanks Chao Li for sharing that Neumann eigenvalues estimates of triangles in sphere is related to the regularity of free boundary minimal surfaces. AI disclosure statement. The authors used OpenAI’s ChatGPT as an assistive tool in the mathematical development and preparation of this manuscript. In particular, ChatGPT helped to formulate the comparison model and the proof strategy for the main eigenvalue estimate. It was also used to explore a",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8.0
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-23T05:19:15.223410Z"
+      },
+      "score": 1526,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 190.75,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 27,
+          "theorems": 30,
+          "lemmas": 40,
+          "propositions": 12,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 74.75,
+          "bibliography_entries": 4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2608.16116",
       "version": 1,
       "title": "New constructions of optimal arrangements of $2d$ lines in $\\mathbb{C}^d$",
