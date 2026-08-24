@@ -8,6 +8,7 @@ import {
   countsAsCompletedScan,
   latestDateFromFeed,
   latestDateFromListing,
+  mergeApprovedRecords,
   prepareApprovalBatch,
 } from "../../admin-worker/src/index.ts";
 
@@ -67,6 +68,27 @@ describe("administrator arXiv availability", () => {
 });
 
 describe("approval publication", () => {
+  it("merges a bulk approval directly into the public collection", () => {
+    const existing = {
+      schema_version: 1,
+      papers: [{ arxiv_id: "2608.00001", version: 1 }],
+    };
+    const replacement = {
+      arxiv_id: "2608.00001",
+      version: 2,
+      dates: { submitted: "2026-08-02" },
+    };
+    const added = {
+      arxiv_id: "2608.00002",
+      version: 1,
+      dates: { submitted: "2026-08-03" },
+    };
+    assert.deepEqual(mergeApprovedRecords(existing, [replacement, added]), {
+      schema_version: 1,
+      papers: [added, replacement],
+    });
+  });
+
   it("stores everything required to retry an approval", () => {
     const approval = {
       candidatePayload: "candidate",
@@ -102,8 +124,14 @@ describe("approval publication", () => {
 
   it("submits imported approvals through one bulk endpoint", () => {
     const application = readFileSync("admin-worker/public/app.js", "utf8");
+    const worker = readFileSync("admin-worker/src/index.ts", "utf8");
     assert.match(application, /api\("\/api\/decisions\/bulk"/);
     assert.match(application, /approvals: approvals\.map/);
+    assert.match(
+      worker,
+      /publishApprovedRecords\(token, env\.PUBLIC_REPOSITORY/,
+    );
+    assert.doesNotMatch(worker, /approve-batch\.yml\/dispatches/);
     assert.doesNotMatch(
       application,
       /candidates\/\$\{item\.candidate\.issueNumber\}\/approve/,

@@ -33,7 +33,15 @@ interface GitHubComment {
 }
 
 interface ApprovedCollection {
-  papers: Array<{ arxiv_id: string; version: number }>;
+  schema_version: number;
+  papers: Array<
+    Record<string, unknown> & { arxiv_id: string; version: number }
+  >;
+}
+
+interface GitHubContent {
+  sha: string;
+  content: string;
 }
 
 interface CandidatePayload {
@@ -357,6 +365,79 @@ export async function prepareApprovalBatch(
   return { records, queued_ids, failures };
 }
 
+export function mergeApprovedRecords(
+  collection: ApprovedCollection,
+  incoming: object[],
+): ApprovedCollection {
+  const records = new Map(
+    collection.papers.map((paper) => [paper.arxiv_id, paper]),
+  );
+  for (const value of incoming) {
+    const record = value as Record<string, unknown> & {
+      arxiv_id?: unknown;
+      version?: unknown;
+    };
+    if (
+      typeof record.arxiv_id !== "string" ||
+      !Number.isInteger(record.version)
+    ) {
+      throw new Error("Approval batch contains an invalid public record");
+    }
+    records.set(
+      record.arxiv_id,
+      record as ApprovedCollection["papers"][number],
+    );
+  }
+  const papers = [...records.values()].sort((left, right) => {
+    const leftDates = left.dates as { submitted?: string } | undefined;
+    const rightDates = right.dates as { submitted?: string } | undefined;
+    return (
+      String(rightDates?.submitted ?? "").localeCompare(
+        String(leftDates?.submitted ?? ""),
+      ) || right.arxiv_id.localeCompare(left.arxiv_id)
+    );
+  });
+  return { schema_version: 1, papers };
+}
+
+async function publishApprovedRecords(
+  token: string,
+  repository: string,
+  records: object[],
+): Promise<void> {
+  const path = "data/approved/papers.json";
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    const file = await github<GitHubContent>(
+      token,
+      `/repos/${repository}/contents/${path}?ref=main`,
+    );
+    const decoded = decoder.decode(
+      Uint8Array.from(atob(file.content.replace(/\s/g, "")), (character) =>
+        character.charCodeAt(0),
+      ),
+    );
+    const collection = JSON.parse(decoded) as ApprovedCollection;
+    const proposed = mergeApprovedRecords(collection, records);
+    try {
+      await github(token, `/repos/${repository}/contents/${path}`, "PUT", {
+        message: `data: publish ${records.length} verified approval${records.length === 1 ? "" : "s"}`,
+        content: standardBase64(`${JSON.stringify(proposed, null, 2)}\n`),
+        sha: file.sha,
+        branch: "main",
+      });
+      return;
+    } catch (error) {
+      if (
+        attempt === 2 ||
+        !(error instanceof Error) ||
+        !error.message.includes("returned 409")
+      ) {
+        throw error;
+      }
+    }
+  }
+}
+
 function fromBase64Url(value: string): Uint8Array {
   const padded = value
     .replaceAll("-", "+")
@@ -642,36 +723,6 @@ export function approvalRequestFromComments(
   return null;
 }
 
-async function dispatchApproval(
-  token: string,
-  env: Env,
-  issueNumber: number,
-  request: ApprovalRequest,
-): Promise<void> {
-  await github<unknown>(
-    token,
-    `/repos/${env.PUBLIC_REPOSITORY}/actions/workflows/approve-candidate.yml/dispatches`,
-    "POST",
-    {
-      ref: "main",
-      inputs: {
-        candidate_repository: env.GITHUB_REPOSITORY,
-        candidate_issue: String(issueNumber),
-        candidate_payload: request.candidatePayload,
-        reviewer: request.reviewer,
-        evidence_index: request.evidenceIndex,
-        classification: request.classification,
-        multiplier: request.multiplier,
-        quotation: request.quotation,
-        location_kind: request.locationKind,
-        location_value: request.locationValue,
-        page: request.page,
-        confirmation: "APPROVE",
-      },
-    },
-  );
-}
-
 function scanIssueBody(session: ScanSession): string {
   return `<!-- slop-factor-scan:${base64Url(
     encoder.encode(JSON.stringify(session)),
@@ -704,7 +755,6 @@ async function ensureScanLabel(token: string, repository: string) {
 function candidateStatus(issue: GitHubIssue): string {
   const names = new Set(issue.labels.map((label) => label.name));
   if (names.has("candidate:approved")) return "approved";
-  if (names.has("candidate:approval-submitted")) return "approval-submitted";
   if (names.has("candidate:rejected")) return "rejected";
   return "pending";
 }
@@ -814,56 +864,15 @@ async function api(
     if (records.length === 0) {
       return json({ accepted: false, approvals: 0, queued_ids, failures });
     }
-    const main = await github<{ object: { sha: string } }>(
-      token,
-      `/repos/${env.PUBLIC_REPOSITORY}/git/ref/heads/main`,
-    );
-    const batchRef = `bulk-approval-${crypto.randomUUID()}`;
-    await github(token, `/repos/${env.PUBLIC_REPOSITORY}/git/refs`, "POST", {
-      ref: `refs/heads/${batchRef}`,
-      sha: main.object.sha,
-    });
-    try {
-      await github(
-        token,
-        `/repos/${env.PUBLIC_REPOSITORY}/contents/private/bulk-approval.json`,
-        "PUT",
-        {
-          message: "data: stage verified approval batch",
-          content: standardBase64(JSON.stringify({ version: 1, records })),
-          branch: batchRef,
-        },
-      );
-      await github<unknown>(
-        token,
-        `/repos/${env.PUBLIC_REPOSITORY}/actions/workflows/approve-batch.yml/dispatches`,
-        "POST",
-        {
-          ref: "main",
-          inputs: { batch_ref: batchRef },
-        },
-      );
-    } catch (error) {
-      try {
-        await github(
-          token,
-          `/repos/${env.PUBLIC_REPOSITORY}/git/refs/heads/${batchRef}`,
-          "DELETE",
-        );
-      } catch {
-        // Preserve the original staging or dispatch error.
-      }
-      throw error;
-    }
+    await publishApprovedRecords(token, env.PUBLIC_REPOSITORY, records);
     return json(
       {
         accepted: true,
         approvals: records.length,
-        queued_ids,
+        approved_ids: queued_ids,
         failures,
-        batch_ref: batchRef,
       },
-      202,
+      200,
     );
   }
 
@@ -1041,7 +1050,7 @@ async function api(
   }
 
   const candidateRoute = pathname.match(
-    /^\/api\/candidates\/(\d+)\/(reject|approve|retry)$/,
+    /^\/api\/candidates\/(\d+)\/(reject|approve)$/,
   );
   if (candidateRoute && request.method === "POST") {
     const issueNumber = Number(candidateRoute[1]);
@@ -1052,31 +1061,6 @@ async function api(
       `/repos/${env.GITHUB_REPOSITORY}/issues/${issueNumber}`,
     );
     const status = candidateStatus(issue);
-
-    if (action === "retry") {
-      if (status !== "approval-submitted") {
-        return json({ error: "Candidate is not awaiting publication" }, 409);
-      }
-      const comments = await githubPages<GitHubComment>(
-        token,
-        `/repos/${env.GITHUB_REPOSITORY}/issues/${issueNumber}/comments?per_page=100`,
-      );
-      const storedRequest = approvalRequestFromComments(comments);
-      if (!storedRequest) {
-        return json(
-          { error: "Original approval data is unavailable; review again" },
-          409,
-        );
-      }
-      await dispatchApproval(token, env, issueNumber, storedRequest);
-      await github(
-        token,
-        `/repos/${env.GITHUB_REPOSITORY}/issues/${issueNumber}/comments`,
-        "POST",
-        { body: "Approval publication retried." },
-      );
-      return json({ accepted: true }, 202);
-    }
 
     if (status !== "pending")
       return json({ error: "Candidate is not pending" }, 409);
@@ -1130,35 +1114,39 @@ async function api(
       ...payload,
       evidence: [payload.evidence[evidenceIndex - 1]],
     };
-    const approvalRequest: ApprovalRequest = {
-      candidatePayload: base64Url(
-        encoder.encode(JSON.stringify(approvalPayload)),
-      ),
-      reviewer: user.login,
-      evidenceIndex: "1",
-      classification,
-      multiplier: String(multiplier),
-      quotation: String(body.quotation ?? ""),
-      locationKind: String(body.locationKind ?? ""),
-      locationValue: String(body.locationValue ?? ""),
-      page,
-    };
-    await github(
-      token,
-      `/repos/${env.GITHUB_REPOSITORY}/issues/${issueNumber}/comments`,
-      "POST",
-      { body: approvalRequestComment(approvalRequest) },
+    const result = await prepareApprovalBatch(
+      [
+        {
+          candidate: approvalPayload,
+          quotation: String(body.quotation ?? ""),
+          locationKind: String(body.locationKind ?? ""),
+          locationValue: String(body.locationValue ?? ""),
+          page: page ? Number(page) : null,
+          classification,
+          multiplier,
+        },
+      ],
+      user.login,
+      new Date(),
     );
-    await dispatchApproval(token, env, issueNumber, approvalRequest);
+    if (!result.records[0]) {
+      return json(
+        { error: result.failures[0]?.error ?? "Approval is invalid" },
+        400,
+      );
+    }
+    await publishApprovedRecords(token, env.PUBLIC_REPOSITORY, result.records);
     await github(
       token,
       `/repos/${env.GITHUB_REPOSITORY}/issues/${issueNumber}`,
       "PATCH",
       {
-        labels: ["paper-candidate", "candidate:approval-submitted"],
+        state: "closed",
+        state_reason: "completed",
+        labels: ["paper-candidate", "candidate:approved"],
       },
     );
-    return json({ accepted: true }, 202);
+    return json({ accepted: true });
   }
 
   return json({ error: "Not found" }, 404);
