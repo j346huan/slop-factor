@@ -68,7 +68,6 @@ const elements = Object.fromEntries(
     "scanned-dates",
     "search",
     "status-filter",
-    "submitted-count",
     "update-front-page",
   ].map((id) => [id, document.getElementById(id)]),
 );
@@ -153,7 +152,7 @@ async function applyDecisionFile(file) {
   }
   const { decisions, skipped, errors } = validatedDecisions(value);
   const failures = [...errors];
-  let queuedApprovals = 0;
+  let approvedCount = 0;
   let rejected = 0;
   let deferred = 0;
   const approvals = decisions.filter((item) => item.decision === "approve");
@@ -175,13 +174,14 @@ async function applyDecisionFile(file) {
           })),
         }),
       });
-      const queuedIds = new Set(result.queued_ids ?? []);
+      const approvedIds = new Set(result.approved_ids ?? []);
       for (const item of approvals) {
-        if (queuedIds.has(item.candidate.candidate_id)) {
-          item.candidate.status = "approval-submitted";
+        if (approvedIds.has(item.candidate.candidate_id)) {
+          item.candidate.status = "approved";
+          state.approvedIds.add(item.candidate.candidate_id);
         }
       }
-      queuedApprovals = result.approvals ?? 0;
+      approvedCount = result.approvals ?? 0;
       failures.push(...(result.failures ?? []));
     } catch (error) {
       const message = error instanceof Error ? error.message : "Request failed";
@@ -211,7 +211,7 @@ async function applyDecisionFile(file) {
       if (rateLimited) {
         deferred = rejections.length - index;
         showNotice(
-          `GitHub temporarily limited writes. Queued ${queuedApprovals} approvals; rejected ${rejected}; ${deferred} rejections deferred. Upload the same file later to resume.`,
+          `GitHub temporarily limited writes. Approved ${approvedCount}; rejected ${rejected}; ${deferred} rejections deferred. Upload the same file later to resume.`,
           "error",
         );
         break;
@@ -225,7 +225,7 @@ async function applyDecisionFile(file) {
   elements["status-filter"].value = "pending";
   renderCandidates();
   renderCandidateCounts();
-  const summary = `Queued ${queuedApprovals} approvals in one batch; rejected ${rejected}; skipped ${skipped.length}; failed ${failures.length}; deferred ${deferred}.`;
+  const summary = `Approved ${approvedCount}; rejected ${rejected}; skipped ${skipped.length}; failed ${failures.length}; deferred ${deferred}.`;
   const details = failures
     .map(
       (failure) =>
@@ -295,25 +295,14 @@ function renderCandidates() {
       text("span", candidate.paper.primary_category),
       text(
         "span",
-        candidate.status === "approval-submitted"
-          ? "publishing"
-          : candidate.status.replaceAll("-", " "),
+        candidate.status.replaceAll("-", " "),
         `status status--${candidate.status}`,
       ),
     );
-    const retrying = candidate.status === "approval-submitted";
-    const button = text(
-      "button",
-      retrying ? "Retry publishing" : "Review",
-      "secondary-button",
-    );
+    const button = text("button", "Review", "secondary-button");
     button.type = "button";
-    button.disabled = !["pending", "approval-submitted"].includes(
-      candidate.status,
-    );
-    button.addEventListener("click", () =>
-      retrying ? retryPublishing(candidate) : openReview(candidate),
-    );
+    button.disabled = candidate.status !== "pending";
+    button.addEventListener("click", () => openReview(candidate));
     article.append(summary, metadata, button);
     elements["candidate-list"].append(article);
   }
@@ -504,11 +493,12 @@ async function submitApproval(event) {
         multiplier: Number(data.get("multiplier")),
       }),
     });
-    state.selected.status = "approval-submitted";
+    state.selected.status = "approved";
+    state.approvedIds.add(state.selected.candidate_id);
     elements["status-filter"].value = "pending";
     elements["review-dialog"].close();
     renderCandidates();
-    showNotice("Publishing approved paper.", "success");
+    showNotice("Paper approved and front page update started.", "success");
     loadCandidates().catch((error) => showNotice(error.message, "error"));
   } catch (error) {
     showNotice(error.message, "error");
@@ -538,27 +528,9 @@ async function rejectCandidate(candidate) {
   }
 }
 
-async function retryPublishing(candidate) {
-  try {
-    await api(`/api/candidates/${candidate.issueNumber}/retry`, {
-      method: "POST",
-      body: "{}",
-    });
-    showNotice("Publication retried.", "success");
-  } catch (error) {
-    showNotice(error.message, "error");
-  }
-}
-
 function renderCandidateCounts() {
-  for (const status of [
-    "pending",
-    "approval-submitted",
-    "rejected",
-    "approved",
-  ]) {
-    const id =
-      status === "approval-submitted" ? "submitted-count" : `${status}-count`;
+  for (const status of ["pending", "rejected", "approved"]) {
+    const id = `${status}-count`;
     elements[id].textContent = String(
       state.candidates.filter((item) => item.status === status).length,
     );

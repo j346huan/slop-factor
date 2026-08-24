@@ -36,6 +36,7 @@ In GitHub, open **Settings → Developer settings → GitHub Apps → New GitHub
 - Callback URL: `https://YOUR-WORKER-URL/auth/callback`
 - Webhook: inactive
 - Actions permission: read and write
+- Contents permission: read and write
 - Issues permission: read and write
 - Metadata permission: read-only
 
