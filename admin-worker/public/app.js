@@ -143,6 +143,59 @@ function validatedDecisions(value) {
   return validateDecisionInput(value, state.candidates, classifications);
 }
 
+function approvalDraft(item) {
+  return {
+    candidate: {
+      candidate_id: item.candidate.candidate_id,
+      paper: item.candidate.paper,
+      analysis: item.candidate.analysis,
+      evidence: [],
+    },
+    quotation: item.quotation,
+    locationKind: item.locationKind,
+    locationValue: item.location,
+    page: item.page,
+    classification: item.classification,
+    multiplier: item.multiplier,
+  };
+}
+
+async function publishApprovalChunk(items) {
+  try {
+    return await api("/api/decisions/bulk", {
+      method: "POST",
+      body: JSON.stringify({ approvals: items.map(approvalDraft) }),
+    });
+  } catch (error) {
+    if (error?.status === 503 && items.length > 1) {
+      const middle = Math.ceil(items.length / 2);
+      const first = await publishApprovalChunk(items.slice(0, middle));
+      const second = await publishApprovalChunk(items.slice(middle));
+      return {
+        approvals: (first.approvals ?? 0) + (second.approvals ?? 0),
+        approved_ids: [
+          ...(first.approved_ids ?? []),
+          ...(second.approved_ids ?? []),
+        ],
+        failures: [...(first.failures ?? []), ...(second.failures ?? [])],
+      };
+    }
+    return {
+      approvals: 0,
+      approved_ids: [],
+      failures: [
+        {
+          arxiv_id:
+            items.length === 1
+              ? items[0].candidate.candidate_id
+              : `${items.length} approval(s)`,
+          error: error instanceof Error ? error.message : "Request failed",
+        },
+      ],
+    };
+  }
+}
+
 async function applyDecisionFile(file) {
   let value;
   try {
@@ -159,41 +212,39 @@ async function applyDecisionFile(file) {
   const rejections = decisions.filter((item) => item.decision === "reject");
 
   if (approvals.length > 0) {
-    try {
-      const result = await api("/api/decisions/bulk", {
-        method: "POST",
-        body: JSON.stringify({
-          approvals: approvals.map((item) => ({
-            candidate: {
-              candidate_id: item.candidate.candidate_id,
-              paper: item.candidate.paper,
-              analysis: item.candidate.analysis,
-              evidence: [],
-            },
-            quotation: item.quotation,
-            locationKind: item.locationKind,
-            locationValue: item.location,
-            page: item.page,
-            classification: item.classification,
-            multiplier: item.multiplier,
-          })),
-        }),
-      });
-      const approvedIds = new Set(result.approved_ids ?? []);
-      for (const item of approvals) {
-        if (approvedIds.has(item.candidate.candidate_id)) {
-          item.candidate.status = "approved";
-          state.approvedIds.add(item.candidate.candidate_id);
+    for (let start = 0; start < approvals.length; start += 20) {
+      const items = approvals.slice(start, start + 20);
+      try {
+        const result = await publishApprovalChunk(items);
+        const approvedIds = new Set(result.approved_ids ?? []);
+        for (const item of items) {
+          if (approvedIds.has(item.candidate.candidate_id)) {
+            item.candidate.status = "approved";
+            state.approvedIds.add(item.candidate.candidate_id);
+          }
         }
+        approvedCount += result.approvals ?? 0;
+        failures.push(...(result.failures ?? []));
+        showNotice(`Approved ${approvedCount} of ${approvals.length}.`, "info");
+      } catch (error) {
+        failures.push({
+          arxiv_id:
+            items.length === 1
+              ? items[0].candidate.candidate_id
+              : `${items.length} approval(s)`,
+          error: error instanceof Error ? error.message : "Request failed",
+        });
       }
-      approvedCount = result.approvals ?? 0;
-      failures.push(...(result.failures ?? []));
-    } catch (error) {
-      const message = error instanceof Error ? error.message : "Request failed";
-      failures.push({
-        arxiv_id: `${approvals.length} approval(s)`,
-        error: message,
-      });
+    }
+    if (approvedCount > 0) {
+      try {
+        await api("/api/site/deploy", { method: "POST", body: "{}" });
+      } catch (error) {
+        failures.push({
+          arxiv_id: "Front page deployment",
+          error: error instanceof Error ? error.message : "Request failed",
+        });
+      }
     }
   }
 

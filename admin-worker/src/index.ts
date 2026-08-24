@@ -403,6 +403,7 @@ async function publishApprovedRecords(
   token: string,
   repository: string,
   records: object[],
+  deferDeployment = false,
 ): Promise<void> {
   const path = "data/approved/papers.json";
   for (let attempt = 0; attempt < 3; attempt += 1) {
@@ -417,7 +418,7 @@ async function publishApprovedRecords(
     const proposed = mergeApprovedRecords(collection, records);
     try {
       await github(token, `/repos/${repository}/contents/${path}`, "PUT", {
-        message: `data: publish ${records.length} verified approval${records.length === 1 ? "" : "s"}`,
+        message: `data: publish ${records.length} verified approval${records.length === 1 ? "" : "s"}${deferDeployment ? " [skip ci]" : ""}`,
         content: standardBase64(`${JSON.stringify(proposed, null, 2)}\n`),
         sha: file.sha,
         branch: "main",
@@ -861,7 +862,7 @@ async function api(
     if (records.length === 0) {
       return json({ accepted: false, approvals: 0, queued_ids, failures });
     }
-    await publishApprovedRecords(token, env.PUBLIC_REPOSITORY, records);
+    await publishApprovedRecords(token, env.PUBLIC_REPOSITORY, records, true);
     return json(
       {
         accepted: true,

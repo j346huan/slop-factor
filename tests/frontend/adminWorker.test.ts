@@ -122,11 +122,14 @@ describe("approval publication", () => {
     assert.doesNotMatch(workflow, /gh workflow run pages\.yml/);
   });
 
-  it("submits imported approvals through one bulk endpoint", () => {
+  it("submits imported approvals in adaptive batches", () => {
     const application = readFileSync("admin-worker/public/app.js", "utf8");
     const worker = readFileSync("admin-worker/src/index.ts", "utf8");
     assert.match(application, /api\("\/api\/decisions\/bulk"/);
-    assert.match(application, /approvals: approvals\.map/);
+    assert.match(application, /approvals: items\.map\(approvalDraft\)/);
+    assert.match(application, /start \+= 20/);
+    assert.match(application, /error\?\.status === 503/);
+    assert.match(application, /publishApprovalChunk\(items\.slice/);
     assert.match(application, /analysis: item\.candidate\.analysis/);
     assert.match(application, /evidence: \[\]/);
     assert.doesNotMatch(application, /candidate: item\.candidate,/);
@@ -136,6 +139,7 @@ describe("approval publication", () => {
     );
     assert.match(worker, /githubRaw\([\s\S]*contents\/\$\{path\}\?ref=main/);
     assert.doesNotMatch(worker, /approve-batch\.yml\/dispatches/);
+    assert.match(worker, /deferDeployment \? " \[skip ci\]"/);
     assert.doesNotMatch(
       application,
       /candidates\/\$\{item\.candidate\.issueNumber\}\/approve/,
