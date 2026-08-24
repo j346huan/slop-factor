@@ -127,6 +127,9 @@ describe("approval publication", () => {
     const worker = readFileSync("admin-worker/src/index.ts", "utf8");
     assert.match(application, /api\("\/api\/decisions\/bulk"/);
     assert.match(application, /approvals: approvals\.map/);
+    assert.match(application, /analysis: item\.candidate\.analysis/);
+    assert.match(application, /evidence: \[\]/);
+    assert.doesNotMatch(application, /candidate: item\.candidate,/);
     assert.match(
       worker,
       /publishApprovedRecords\(token, env\.PUBLIC_REPOSITORY/,
