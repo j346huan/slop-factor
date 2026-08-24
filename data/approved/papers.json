@@ -83612,6 +83612,1713 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.06227",
+      "version": 1,
+      "title": "On exotic Diophantine triples in $\\mathbb{R}[X]$",
+      "authors": [
+        "Ana Jurasić"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-07T12:51:34Z",
+        "updated": "2026-07-07T12:51:34Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Originally, an exotic Diophantine triple is a set $\\{a,b,c\\}$ of distinct nonzero rational numbers for which \\[ a+1,\\quad b+1,\\quad c+1,\\quad ab+1,\\quad ac+1,\\quad bc+1,\\quad abc+1 \\] are all perfect squares. We prove that there is no such triple in $\\mathbb{R}[X]$, with at least one nonconstant element, if none of $a,b,c$ is equal to $1$. Equivalently, under the distinct nonzero convention, every exotic Diophantine triple in $\\mathbb{R}[X]$ with a nonconstant element must contain the element $1$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.06227v1",
+        "pdf": "https://arxiv.org/pdf/2607.06227v1",
+        "source": "https://export.arxiv.org/e-print/2607.06227v1"
+      },
+      "structural_counts": {
+        "pages": 6,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 32,
+        "bibliography_entries": 5,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file exotic_polynomial_triples_arxiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "was supported by the Croatian Science Foundation Grant No. IP-2022-10-5008. A. J. was also supported by the European Union – NextGenerationEU, project number uniri-iz-25-62-ALGEBRA. During the preparation of this work, the author utilized ChatGPT-5.5 Pro to assist with searching for possible exotic triples. The author independently verified, refined, and wrote all mathematical arguments, and takes full responsibility",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 5",
+          "page": 5
+        },
+        "classification": "mathematical_examples_conjectures",
+        "role_label": "Suggesting mathematical examples or conjectures",
+        "multiplier": 6
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 237,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 39.5,
+        "multiplier": 6,
+        "contributions": {
+          "pages": 6,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 8,
+          "bibliography_entries": 0.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.06627",
+      "version": 1,
+      "title": "On the polynomial values represented by quadratic forms",
+      "authors": [
+        "Bogdan Grechuk",
+        "Jamal Agbanwa"
+      ],
+      "categories": {
+        "primary": "math.GM",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-07T11:46:23Z",
+        "updated": "2026-07-07T11:46:23Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Many Diophantine equations can be reduced to the question of whether, for a given non-degenerate quadratic form $F$ and a univariate polynomial $P$ with integer coefficients, $P(x)$ can be represented by $F$ for infinitely many values of $x$. We develop a method for answering this question for certain cubic and quartic polynomials $P$, as well as for certain polynomials of the form $P(x)=R(Q(x))$, where $R(t)$ and $Q(x)$ are polynomials of degree $3$ and $2$, respectively. Applying this method with $F(y,z)=y^2+z^2$, $R(t)=t^3-4$ and $Q(x)=x^2$, we conclude that $x^6-4$ is a sum of two squares infinitely often. In turn, this implies that the equation $y^2+x^3y+z^2+1=0$ has infinitely many integer solutions. Prior to this work, it was the shortest equation for which it was open whether its integer solution set is finite or infinite. We conclude with a list of the new shortest equations whose finiteness problem remains open. All main results of this paper has been formalized in Lean using Aristotle.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.06627v1",
+        "pdf": "https://arxiv.org/pdf/2607.06627v1",
+        "source": "https://export.arxiv.org/e-print/2607.06627v1"
+      },
+      "structural_counts": {
+        "pages": 13,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 66,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file sumsquares.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "r emerged from extended, multi-round inter- actions between the authors and ChatGPT 5.5 Pro. As is often the case in collaborative work, it is difficult to separate the individual contributions precisely. For example, in one of the rounds, ChatGPT produced the first essentially correct proof that equation (2) has infinitely many integer solutions. That proof relied on substantial hints from the authors; at the same time, those hints were themselves influenced by the model’s response",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 3",
+          "page": 3
+        },
+        "classification": "substantial_proof_generation",
+        "role_label": "Substantial proof generation",
+        "multiplier": 10
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 518,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 51.8,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 13,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 16.5,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.06167",
+      "version": 1,
+      "title": "An improved upper bound on the Ruzsa number",
+      "authors": [
+        "Yuchen Ding",
+        "Yu-Chen Sun",
+        "Lilu Zhao"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-07T11:44:33Z",
+        "updated": "2026-07-07T11:44:33Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Let $R_m$ be the least positive integer $r$ such that there exists a set $A\\subseteq \\mathbb{Z}_{m}$ with $A+A=\\mathbb{Z}_m$ for which the number of ordered solutions of $n=x+y$ with $x,y\\in A$ is at most $r$ for every $n\\in \\mathbb{Z}_m$. In this note we prove that $R_m\\leqslant 128$ for every positive integer $m$, improving the previous bound $R_m\\leqslant 192$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.06167v1",
+        "pdf": "https://arxiv.org/pdf/2607.06167v1",
+        "source": "https://export.arxiv.org/e-print/2607.06167v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 3,
+        "lemmas": 8,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 47,
+        "bibliography_entries": 14,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "0 30 7 10 14 4 0 28 8 12 12 4 0 28 Acknowledgments The author acknowledges the use of OpenAI’s ChatGPT during the preparation of this manuscript. This work is supported by the National Key Research and Development Program of China (Grant No. 2021YFA1000700) and the National Natural Science Foundation of China (Grant No. 12471088).",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 164.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 82.15,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 11,
+          "theorems": 18,
+          "lemmas": 32,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 11.75,
+          "bibliography_entries": 1.4,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.06089",
+      "version": 1,
+      "title": "Closed-form fractional radial links for elliptical Mahalanobis discriminant analysis",
+      "authors": [
+        "Serhii Zabolotnii"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": [
+          "stat.ME",
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-07T10:02:33Z",
+        "updated": "2026-07-07T10:02:33Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We study binary classification under shared-generator elliptical class-conditional distributions. The log-likelihood ratio is an additive function of the two squared Mahalanobis radii, with radial link $\\varphi=\\log g$; QDA is recovered only when this link is affine. We derive the Bayes radial-link family from the within-class radius law and estimate it by a finite fractional-power stochastic-polynomial projection instead of tuning a generic spline. The link is identifiable from the radius law, the plug-in estimator is $\\sqrt{n}$-consistent and asymptotically normal under finite-moment regularity conditions, and the induced classifier is asymptotically Bayes-optimal in an iterated sieve limit. The structural bridge, GAM membership, and identity-link/affine-generator dichotomy are verified in Lean 4 without unproven placeholders. Against the global Mahalanobis-GAM of Ghosh et al. (2025), reimplemented with mgcv REML splines at equal input budget, the derived link is never significantly worse on three UCI benchmarks and is decisively better on breast_cancer ($[+0.009,+0.021]$ global, $[+0.109,+0.136]$ global+local). Across six real financial series under temporal-dependence-robust validation, it is never significantly worse than the fitted GAM and is significantly better on three of five heavy-tailed series plus the light-tailed control. Relative to QDA, it improves the heaviest-tailed series (oil $[+0.024,+0.070]$, S&P 500 $[+0.038,+0.126]$, JPY/USD $[+0.009,+0.047]$) and ties elsewhere. A closed-form rate simulation corroborates the $\\sqrt{n}$ rate and the predicted excess-risk dichotomy between QDA's approximation-limited floor and the derived link's vanishing excess risk. The contribution is no significant loss relative to a tuned global GAM without spline smoothing-parameter selection, plus improved accuracy over QDA where generator curvature matters.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.06089v1",
+        "pdf": "https://arxiv.org/pdf/2607.06089v1",
+        "source": "https://export.arxiv.org/e-print/2607.06089v1"
+      },
+      "structural_counts": {
+        "pages": 19,
+        "theorems": 3,
+        "lemmas": 1,
+        "propositions": 2,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 5,
+        "bibliography_entries": 29,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "s (DEXCAUS, DEXJPUS, DEXUSUK, DEXUSEU, DCOILWTICO, SP500). All processing scripts, estimators, gates, the closed-form rate simulation, and the Lean 4 development are released at the repository linked under Reproducibility. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work the author used AI-assisted coding and writing environments, including OpenAI Codex and Anthropic Claude, for language editing, organiza",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 112.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 56.15,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 19,
+          "theorems": 18,
+          "lemmas": 4,
+          "propositions": 8,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 1.25,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05838",
+      "version": 1,
+      "title": "The Pirahã and the cognitive gap in Frege's theorem: Hume's principle without the #",
+      "authors": [
+        "Subrata Pal"
+      ],
+      "categories": {
+        "primary": "math.HO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-07T05:01:42Z",
+        "updated": "2026-07-07T05:01:42Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Frege's theorem proves that Hume's principle, in second-order logic, yields all of arithmetic. Yet the Pirahã people show one-to-one correspondence (equinumerosity) only where pairing can be enacted, with its range extended under local training, and still have no counting or arithmetic. We argue this is not a paradox but a matter of precise localization. Hume's principle includes a cardinality operator # that names cardinals as objects (often modeled as equivalence classes of equinumerous concepts), and what the Pirahã lack is not the relation but this operator. We identify the number-word practice as the cognitive realization of #, which recasts the \"number-as-cognitive-technology\" thesis in formal terms and locates the cognitive boundary at symbolization, not recursion. The identification is generative, not decorative: the reach of # tracks the reach of the token practice that carries it, so across languages and cultures we see a gradient, not a sharp cliff. And number words are not special as words; what # needs is any stable, reusable marker that can preserve exact cardinal identity across absence, rearrangement, delay, or modality shift: a spoken numeral, a scratch on a stick, or a knot in a cord. So the thesis is about having some symbolic token-practice, not about language specifically. It is supported by converging evidence from Nicaraguan homesigners, numerate adults under verbal interference, and cross-linguistic numeral gradients. We make no causal, acquisition, or neural claim; the identification is constitutive.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05838v1",
+        "pdf": "https://arxiv.org/pdf/2607.05838v1",
+        "source": "https://export.arxiv.org/e-print/2607.05838v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 62,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Piraha.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "athematical logic of the paper; to Profes- sor Ganesh Babulal, my neuroscience advisor, for encouraging me to execute the idea into an article. AI disclosure: Drafts of this paper were adversarially reviewed with the assistance of Claude (Anthropic); all ideas and inferences are strictly my own. References Marcia Ascher and Robert Ascher. Code of the Quipu: A Study in Media, Mathematics, and Culture. University of Michigan Press, Ann Arbor, 1981. George Boolos. The consistency of",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 193.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 24.2,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 6.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05835",
+      "version": 2,
+      "title": "Tangent classes of matroids and wonderful compactifications",
+      "authors": [
+        "Ronnie Cheng",
+        "Shurui Liu",
+        "Guoxiong Gao"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "cs.AI",
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-07T04:56:22Z",
+        "updated": "2026-07-08T14:49:25Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "For every loopless matroid $M$ and every Feichtner--Yuzvinsky building set $\\mathcal{G}$ containing the top flat, we construct an integral tangent class $T_{M,\\mathcal{G}}^{\\mathbb{Z}}\\in K_{\\mathbb{Z}}(M,\\mathcal{G})$; in the realizable case it specializes to the class of the tangent bundle of the corresponding wonderful compactification, it recovers the Hilbert series of the Chow ring through Hirzebruch--Riemann--Roch, and it satisfies the expected Chern-alpha lower bounds. This reproduces the tangent class and its key properties studied by the first author in arXiv:2606.22650. The main body of this paper was produced autonomously, without human mathematical guidance, by Danus, an AI mathematical reasoning agent. Danus solved the problem before arXiv:2606.22650 was publicly available, demonstrating the potential of AI agents in mathematical research. We reproduce its output faithfully, adding only editorial comments; the experiment is documented in Appendix B.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05835v2",
+        "pdf": "https://arxiv.org/pdf/2607.05835v2",
+        "source": "https://export.arxiv.org/e-print/2607.05835v2"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 8,
+        "lemmas": 19,
+        "propositions": 25,
+        "corollaries": 3,
+        "definitions": 6,
+        "displayed_equations": 300,
+        "bibliography_entries": 0,
+        "appendix_pages": 33
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "{M, G}))$ (iii) For $k \\leq d$, we have $\\deg_{M,\\G} (c_k(T_{M,\\G}) \\alpha^{d-k}) \\geq \\binom{d+1}{k}$ and prove rigorously that the constructed class satisfies the above properties. Appendix B. Usage of Generative AI Guoxiong Gao and Shurui Liu Except for the abstract and introduction, which were rewritten by the human authors, the main mathematical text, including Sections 4–6, was generated by Danus [Liu+ 26], a m",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 30",
+          "page": 30
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 4190,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 419,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 33,
+          "theorems": 48,
+          "lemmas": 76,
+          "propositions": 100,
+          "corollaries": 9,
+          "definitions": 12,
+          "displayed_equations": 75,
+          "bibliography_entries": 0,
+          "appendix_pages": 66
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05807",
+      "version": 2,
+      "title": "Long Directed Cycles in Vertex-Transitive Digraphs",
+      "authors": [
+        "Bowen Li",
+        "Abhishek Methuku"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-07T04:02:25Z",
+        "updated": "2026-08-19T05:27:45Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "The search for Hamiltonian cycles in vertex-transitive graphs and digraphs is a classical problem at the interface of graph theory and group theory. In the undirected setting, this goes back to the well-known conjectures of Lovász and Thomassen concerning Hamiltonian paths and cycles in connected vertex-transitive graphs. Dating back to Rankin's 1946 work, the directed analogue has an even longer history, linking the search for long cycles to classical group-rearrangement problems. Trotter and Erdős showed in 1978 that connected vertex-transitive digraphs need not be Hamiltonian. In light of this result, Alspach asked in 1981 whether there exist connected vertex-transitive digraphs whose longest directed cycle misses arbitrarily many vertices. This question was only recently resolved by Bucić, Hendrey, Mohar, Steiner and Yepremyan, who constructed connected vertex-transitive digraphs on $n$ vertices whose longest directed cycle omits $(1-o(1))\\log n$ vertices. They conjectured that the number of omitted vertices can grow linearly with $n$, remarking that it would already be interesting to improve their logarithmic lower bound to a polynomial bound. In this paper, we confirm their conjecture in a strong form by constructing infinitely many connected vertex-transitive digraphs on $n$ vertices whose longest directed cycle omits at least $n/12$ vertices. In the same work, Bucić, Hendrey, Mohar, Steiner and Yepremyan also proved that every connected vertex-transitive digraph on $n$ vertices contains a directed cycle of length $Ω(n^{1/3})$, giving the first lower bound for this problem that grows with $n$. We improve this to $Ω(\\sqrt n)$, matching the order of Babai's classical theorem from 1979 for undirected vertex-transitive graphs.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05807v2",
+        "pdf": "https://arxiv.org/pdf/2607.05807v2",
+        "source": "https://export.arxiv.org/e-print/2607.05807v2"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 4,
+        "lemmas": 9,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 3,
+        "displayed_equations": 25,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "infinitely many values of n, namely for all multiples of 12. □ Acknowledgements We are grateful to Matija Bucić and Shoham Letzter for helpful discussions on the Lovász conjecture. OpenAI Codex (GPT-5.6 Sol) was used to assist with proofreading this paper. All mathematical ideas and arguments are entirely due to the authors, who take full responsibility for the content. Refere",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "proofreading_grammar",
+        "role_label": "Proofreading, grammar, or spelling",
+        "multiplier": 1
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 88.15,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 88.15,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 14,
+          "theorems": 24,
+          "lemmas": 36,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 6,
+          "displayed_equations": 6.25,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05781",
+      "version": 2,
+      "title": "Design Principle for Mode-Consistent Galerkin Closure under a Physical Energy Metric for Hyperbolic Systems",
+      "authors": [
+        "Hirofumi Tomita"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "physics.comp-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-07T03:12:16Z",
+        "updated": "2026-07-20T02:06:25Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "This paper derives a design principle for structure-preserving Galerkin formulations of energy-conserving hyperbolic systems. The aim is to reproduce the modal-energy-exchange structure of the continuous system within a resolved finite-mode space. Total energy conservation follows from this structure. We introduce a state-dependent physical-energy metric H and derive the corresponding energy-compatibility identity. In the infinite-mode exact-integration model, the volume contribution has an antisymmetric representation after H-orthogonalization, yielding pairwise modal energy exchange. Interface contributions take the same exchange form. To reproduce this structure in the practical finite-mode system, we combine two constructions: a Galerkin projection coupled with the physical-energy metric that guarantees the H-metric summation-by-parts identity, and an energy-compatibility closure that removes the component of the compatibility action contributing to the scalar energy residual. With a shared numerical energy flux at interfaces, they close the total-energy balance of the finite-mode system while preserving pairwise modal energy exchange. We also compare the practical operator construction with the finite-mode exact-integration reference and obtain an O(h^p+1) defect estimate. Finally, we derive an equivalent form of the resulting equation in the fixed Galerkin basis for direct implementation.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05781v2",
+        "pdf": "https://arxiv.org/pdf/2607.05781v2",
+        "source": "https://export.arxiv.org/e-print/2607.05781v2"
+      },
+      "structural_counts": {
+        "pages": 22,
+        "theorems": 4,
+        "lemmas": 15,
+        "propositions": 9,
+        "corollaries": 1,
+        "definitions": 15,
+        "displayed_equations": 66,
+        "bibliography_entries": 20,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgments. The author acknowledges partial support from JST/JICA SATREPS (Grant No. JPMJSA2109), thanks Drs. Yuta Kawai and Seiya Nishizawa for helpful discussions, and is grateful to his wife and daughter for their encourage- ment. Large language models were used for brainstorming, structural refinement, language editing, and preliminary organization of proof explanations. All mathemati- cal statements, derivations, proofs, technical decisions, and scientific conclusions were verified and",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 21",
+          "page": 21
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 774,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 193.5,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 22,
+          "theorems": 24,
+          "lemmas": 60,
+          "propositions": 36,
+          "corollaries": 3,
+          "definitions": 30,
+          "displayed_equations": 16.5,
+          "bibliography_entries": 2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05767",
+      "version": 1,
+      "title": "Universal Cycles for Affine Planes and 3-Subspaces over Finite Fields",
+      "authors": [
+        "Yu Hsuan Hsieh",
+        "Ming-Hsuan Kang"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-07T02:44:50Z",
+        "updated": "2026-07-07T02:44:50Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We construct universal cycles for affine planes in $\\mathbb F_q^n$ for all prime powers $q$ and all $n\\ge4$, using sliding windows of length three. The construction is local-to-global: explicit local cycles are built on frame configurations, the linear $2$-subspaces are organized by a layered frame decomposition, and the resulting cycles are assembled by gluing along shared directions. The universal cycle obtained has direction set containing all $1$-subspaces. We also extend the construction to universal cycles for $3$-subspaces of $\\mathbb F_q^n$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05767v1",
+        "pdf": "https://arxiv.org/pdf/2607.05767v1",
+        "source": "https://export.arxiv.org/e-print/2607.05767v1"
+      },
+      "structural_counts": {
+        "pages": 40,
+        "theorems": 10,
+        "lemmas": 13,
+        "propositions": 4,
+        "corollaries": 0,
+        "definitions": 8,
+        "displayed_equations": 196,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Acknowledgment. Portions of the exposition were prepared with the as- sistance of ChatGPT. The authors also performed computer-assisted checks of the local frame constructions and gluing procedures for small prime fields and dimensions; these checks were used to detect possible indexing errors and to confirm the behavior of the",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 1170,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 234,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 40,
+          "theorems": 60,
+          "lemmas": 52,
+          "propositions": 16,
+          "corollaries": 0,
+          "definitions": 16,
+          "displayed_equations": 49,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05739",
+      "version": 1,
+      "title": "Integer values of $\\tan(\\arctan 1+\\arctan 2+\\cdots+\\arctan n)$ are rare",
+      "authors": [
+        "Ken Ono"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-07T01:55:06Z",
+        "updated": "2026-07-07T01:55:06Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "For $n\\ge1$, we let $$x_n:=\\tan\\bigl(\\sum_{k=1}^{n}\\arctan k\\bigr).$$ In 2008, Amdeberhan, Medina, and Moll conjectured that $x_n\\not \\in \\mathbb{Z}$ for every $n\\ge5$. This was known for a set of positive integers of density $\\tfrac{120}{817}\\approx0.1469$. We prove that an integer value $x_n=m$ satisfies $|m|\\ge e^{(1/2+o(1))\\,n\\log n}$, which we use to deduce that $$\\#\\{\\,1\\leq n\\le N:x_n\\in\\mathbb{Z}\\,\\}=O(\\log N). $$ In particular, the conjecture holds for a density-one set of $n$. The results in this note were formalized in Lean/Mathlib and produced autonomously by AxiomProver from natural-language statements.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05739v1",
+        "pdf": "https://arxiv.org/pdf/2607.05739v1",
+        "source": "https://export.arxiv.org/e-print/2607.05739v1"
+      },
+      "structural_counts": {
+        "pages": 9,
+        "theorems": 2,
+        "lemmas": 3,
+        "propositions": 2,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 40,
+        "bibliography_entries": 7,
+        "appendix_pages": 2
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "INTEGER VALUES OF tan(arctan 1 + arctan 2 + · · · + arctan n) ARE RARE 9 Declaration of generative AI and AI-assisted technologies in the manuscript preparation process As described in the preceding appendix, AxiomProver was used to produce and formally verify, in Lean, the proofs of the results of this paper. The exposition w",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 9",
+          "page": 9
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 123.4,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 61.7,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 9,
+          "theorems": 12,
+          "lemmas": 12,
+          "propositions": 8,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 10,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 4
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05698",
+      "version": 2,
+      "title": "Game Conductors of Finite Groups: Determinantal Torsion from Structured Payoff Probes",
+      "authors": [
+        "Matthew Fried"
+      ],
+      "categories": {
+        "primary": "math.GR",
+        "secondary": [
+          "cs.GT",
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-06T23:35:18Z",
+        "updated": "2026-07-12T03:57:30Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We attach to a finite group $G$ and a structured payoff probe $φ$ an integer \\emph{payoff-difference lattice} $M_φ(G)$ and its \\emph{conductor} $C_φ(G)$: the primes at which $M_φ(G)$ loses rank modulo $p$. Our main result is an exact computation: for any CA-group the commuting conductor is rad$(b-1)$, where $b$ is the number of maximal abelian subgroups. In particular, conductor primes need not divide $|G|$: the prime $3$ occurs for a $2$-group of order $64$ with $b=7$. The commuting Smith spectrum is an invariant of the isoclinism class and obeys an exact direct-product law, giving ${\\rm C_{comm}}(G\\times H) = {\\rm C_{comm}}(G) \\cup {\\rm C_{comm}}(H)$ unconditionally. A Galois-orbit-trace character probe reads a complementary layer: an index-$2$ subgroup forces $2\\in {\\rm C_{char}}(G)$ while no odd prime is forced, and ${\\rm C_{comm}}(D_{2q}) = \\{q\\}$, ${\\rm C_{char}}(D_{2q}) = \\{2\\}$ for all odd primes $q$. Certified exhaustive computation ($|G|\\le128$ commuting, $|G|\\le64$ character) and a deformation-family analysis support the general program: classify the Smith torsion of the compressed centralizer-type incidence matrix $B_G$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05698v2",
+        "pdf": "https://arxiv.org/pdf/2607.05698v2",
+        "source": "https://export.arxiv.org/e-print/2607.05698v2"
+      },
+      "structural_counts": {
+        "pages": 17,
+        "theorems": 7,
+        "lemmas": 2,
+        "propositions": 8,
+        "corollaries": 4,
+        "definitions": 3,
+        "displayed_equations": 9,
+        "bibliography_entries": 26,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file game_conductors_arxiv_v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ality and accuracy of all content has been confirmed by the author; every theorem was proved and checked by the author, and every computational claim was verified by the author’s own GAP and Python code; (ii) the AI tools used were Claude (Anthropic), models Opus 4.8 and Fable 5, used for adversarial review of proof exposition, suggestions for computational checks, and editorial revision; all computations reported in this paper were performed and verified by the author’s own GAP and P",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 16",
+          "page": 16
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 974.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 121.85,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 17,
+          "theorems": 42,
+          "lemmas": 8,
+          "propositions": 32,
+          "corollaries": 12,
+          "definitions": 6,
+          "displayed_equations": 2.25,
+          "bibliography_entries": 2.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05542",
+      "version": 1,
+      "title": "A measurable equivariant Weierstrass theorem",
+      "authors": [
+        "Konstantin Slutsky",
+        "Mikhail Sodin",
+        "Aron Wennman"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": [
+          "math.DS",
+          "math.LO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-06T18:26:09Z",
+        "updated": "2026-07-06T18:26:09Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "This paper is a prequel to our recent work, \"Equivariant Borel liftings in complex analysis and PDE\" (arXiv:2507.12058). While the results presented here were established in that work in a more general and abstract setting, the purpose of this paper is to provide a direct proof of the equivariant Weierstrass theorem. It states that there exists a Borel map assigning to each non-periodic positive divisor $Λ$ an entire function $F_Λ$ such that the divisor of zeroes of $F_Λ$ is $Λ$ and such that $F_{Λ-w}(z) = F_Λ(z+w)$, $w\\in\\mathbb{C}$. In general, non-periodicity cannot be omitted, and Borel measurability cannot be strengthened to continuity. The two key ingredients are the Runge approximation theorem and the existence of \"Borel toasts\", which are Borel counterparts of Rokhlin towers from ergodic theory. We do not assume prior knowledge of descriptive set theory and have aimed to make the exposition self-contained, aside from several results taken from graduate textbooks.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05542v1",
+        "pdf": "https://arxiv.org/pdf/2607.05542v1",
+        "source": "https://export.arxiv.org/e-print/2607.05542v1"
+      },
+      "structural_counts": {
+        "pages": 33,
+        "theorems": 11,
+        "lemmas": 10,
+        "propositions": 0,
+        "corollaries": 1,
+        "definitions": 3,
+        "displayed_equations": 137,
+        "bibliography_entries": 23,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file prequel-Equivariant.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2 Preliminaries 4 Use of AI tools AI tools were used during the preparation of this paper to aid with proofreading, editing, creating figures, and content critique. All mathematical ideas are due to the authors. Acknowledgement We are grateful to Benjamin Weiss and Oren Yakir for",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 738.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 184.55,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 33,
+          "theorems": 66,
+          "lemmas": 40,
+          "propositions": 0,
+          "corollaries": 3,
+          "definitions": 6,
+          "displayed_equations": 34.25,
+          "bibliography_entries": 2.3,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05538",
+      "version": 1,
+      "title": "Riccati Reductions for Modified Bessel Ratios: Bernstein Positivity, Exact Certificates, and Transfer Obstructions",
+      "authors": [
+        "Domingos S. P. Salazar"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-06T18:18:49Z",
+        "updated": "2026-07-06T18:18:49Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Several open inequalities for ratios and logarithmic derivatives of the modified Bessel functions $I_ν$ of the first kind and $K_ν$ of the second kind reduce to sign questions for quadratic Riccati expressions. We isolate this reduction and use it in two directions. First, for the quotient $W_ν(z)=zI_ν(z)/I_{ν+1}(z)$, the canonical product for $I_{ν+1}$ yields the partial fraction $W_ν(\\sqrt{s})=2(ν+1)+2\\sum_{n\\ge1}s/(s+j_{ν+1,n}^2)$, where $j_{ν+1,n}$ is the $n$-th positive zero of $J_{ν+1}$. Consequently $x\\mapsto W_ν(x^τ)$ is a Bernstein function for $ν>-1$ and $0<τ\\le1/2$, and this positive exponent range is sharp. Second, an exact rational certificate at $(ν,u)=(0,10)$ places $I_1(10)/I_0(10)$ below 0.949. This refutes the log-concavity question of Baricz, Ponnusamy, and Vuorinen for $u\\mapsto \\sqrt{u} I_ν(u)$ and its displayed Riccati reformulations. The same framework completes the monotonicity classification of $K_ν'/K_ν^2$, refutes Baricz--Ponnusamy--Vuorinen Question 7 at $ν=1/2$, and gives an entire counterexample to Baricz's coefficient-ratio complete-monotonicity transfer problem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05538v1",
+        "pdf": "https://arxiv.org/pdf/2607.05538v1",
+        "source": "https://export.arxiv.org/e-print/2607.05538v1"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 2,
+        "lemmas": 4,
+        "propositions": 8,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 127,
+        "bibliography_entries": 34,
+        "appendix_pages": 6
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ceived no speciﬁc fund- ing for this work. No empirical data were used. Every numerical claim reduces to ﬁnite exact rational arithmetic, reproducible from the formulas in Appendix Appendix A. During manuscript preparation, the author used ChatGPT and Codex to support literature triage, organization, language re- vision, and consistency checks; the author reviewed the content, veriﬁed the mathematical claims and cited sources, and takes full responsibility for the manuscript. Refer",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 18",
+          "page": 18
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 512.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 128.15,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 21,
+          "theorems": 12,
+          "lemmas": 16,
+          "propositions": 32,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 31.75,
+          "bibliography_entries": 3.4,
+          "appendix_pages": 12
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05388",
+      "version": 1,
+      "title": "Sharp ratios for low-index Neumann eigenvalues on convex domains",
+      "authors": [
+        "Quanyu Tang",
+        "Haiqi Zhang"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math.SP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-06T17:58:04Z",
+        "updated": "2026-07-06T17:58:04Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Let $Ω\\subset\\mathbb{R}^N$ be a bounded open convex set, and let $0=μ_0(Ω)<μ_1(Ω)\\le μ_2(Ω)\\le\\cdots$ be the Neumann eigenvalues of the Laplacian, repeated according to multiplicity. We prove the sharp bounds $$ μ_2(Ω)\\le 4μ_1(Ω),\\qquad μ_3(Ω)\\le 9μ_1(Ω). $$ The first estimate resolves a problem attributed to Henrot, while the second gives the next sharp case predicted by the one-dimensional model. The constants are optimal in every dimension.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05388v1",
+        "pdf": "https://arxiv.org/pdf/2607.05388v1",
+        "source": "https://export.arxiv.org/e-print/2607.05388v1"
+      },
+      "structural_counts": {
+        "pages": 15,
+        "theorems": 2,
+        "lemmas": 7,
+        "propositions": 3,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 139,
+        "bibliography_entries": 16,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file k2k3_combined_v2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "SHARP NEUMANN EIGENVALUE RATIOS 15 Acknowledgments and AI disclosure During the development and preparation of this work, the authors used a generative AI tool for preliminary, non-authoritative exploratory assistance, including organizational discussion and the consideration of possible approaches. The AI-generated outputs were not treated as mathematical sources, and no argument was includ",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 15",
+          "page": 15
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 206.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 103.35,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 15,
+          "theorems": 12,
+          "lemmas": 28,
+          "propositions": 12,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 34.75,
+          "bibliography_entries": 1.6,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05384",
+      "version": 2,
+      "title": "Well-invertible column subsets of sparse matrices are rare",
+      "authors": [
+        "Han Huang",
+        "Mark Rudelson",
+        "Konstantin Tikhomirov"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "math.FA"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-06T17:56:16Z",
+        "updated": "2026-07-08T16:03:41Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "A random $n\\times k$ matrix $S$ is an \\emph{$(r,α)$-oblivious subspace injection} (OSI) if $\\mathbb{E}\\|S^\\top x\\|_2^2=\\|x\\|_2^2$ for every $x\\in\\mathbb{R}^n$, and for every fixed $r$-dimensional subspace $V\\subset\\mathbb{R}^n$, with probability close to one, one has $α\\|x\\|_2^2\\le\\|S^\\top x\\|_2^2$ for all $x\\in V$. In this work, we show that in the regime $r=Ω(k)$ and $α=Ω(1)$, and under a mild additional structural assumption, no constant-row-sparsity matrix $S$ is OSI, thereby answering, in a strong form, a question raised by Camaño, Epperly, Meyer, and Tropp. We show that the failure of the OSI property for sparse random matrices stems from a general deterministic phenomenon, thereby reducing a probabilistic problem to a non-probabilistic one. This phenomenon is related to the restricted invertibility principle introduced in the seminal work of Bourgain--Tzafriri. Let $(n_k)_{k\\in\\mathbb{N}}$ be a sequence of integers satisfying $\\frac{n_k}{k}\\to\\infty$. For each $k$, let $S^{(k)}$ be a $n_k\\times k$ non-random matrix with $O(1)$ nonzero entries per row, whose nonzero entries have average magnitude $O(1)$, and such that the total number of pairs of rows with supports overlapping at two or more indices is $o({n_k}^2/k)$. We prove that for every constant $\\varepsilon>0$, as $k\\to\\infty$, the overwhelming majority of $k\\times \\lfloor\\varepsilon k\\rfloor$ submatrices of $(S^{(k)})^\\top$ have the smallest singular value $o(1)$. Thus, the well-invertible submatrices whose existence is guaranteed by the Bourgain--Tzafriri theorem are rare. The proof is itself based on probabilistic tools.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05384v2",
+        "pdf": "https://arxiv.org/pdf/2607.05384v2",
+        "source": "https://export.arxiv.org/e-print/2607.05384v2"
+      },
+      "structural_counts": {
+        "pages": 32,
+        "theorems": 3,
+        "lemmas": 10,
+        "propositions": 7,
+        "corollaries": 2,
+        "definitions": 9,
+        "displayed_equations": 241,
+        "bibliography_entries": 29,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main-2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "the matrix theorem. Section 6 applies the result to SparseStack and OSI. We close with open problems. Funding acknowledgement. K.T. was partially supported by NSF grant DMS 2452120. Acknowledgement of AI Assistance. The authors used ChatGPT for language editing, stylistic suggestions, and assistance in developing and checking some proof arguments during the preparation of this manuscript. All mathematical statements, proofs, and final wording were independently reviewed and v",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 1641.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 205.15,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 32,
+          "theorems": 18,
+          "lemmas": 40,
+          "propositions": 28,
+          "corollaries": 6,
+          "definitions": 18,
+          "displayed_equations": 60.25,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05374",
+      "version": 1,
+      "title": "The Minkowski grid has robustly many repeated distances",
+      "authors": [
+        "Sungchul Lee",
+        "Cosmin Pohoata",
+        "Daniel G. Zhu"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "math.MG",
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-06T17:52:52Z",
+        "updated": "2026-07-06T17:52:52Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We show that there exists a constant $δ> 0$ such that for any positive integer $n$ there exists a set of $n$ points $P \\subset \\mathbb{R}^2$ with the following property: for every subset $A \\subseteq P$ of size $|A| \\geq 2$, \\[ \\max_{λ>0} \\#\\{(a,b)\\in A \\times A: a\\ne b,\\ \\lvert a-b\\rvert=λ\\} \\gtrsim \\frac{|A|^2}{n^{1-δ}}.\\] Our result is a vertical amplification of a robust Ramanujan estimate recently established by Croot-Mao-Pohoata-Sheffer-Yip for arbitrary subsets of the ordinary square grid, and is inspired by recent constructions for the Erdős unit distance problem and the Elekes-Rónyai problem. Taking $A=P$, the inequality above gives a distance occurring $n^{1+δ}$ times in $P$; thereby a scaled copy of $P$ is a counterexample for the unit-distance conjecture. In addition, the same inequality shows that (1) all subsets of $P$ of size $\\gtrsim n^{1-δ}$ must contain isosceles triangles, and (2) all subsets of $P$ of size $\\gtrsim n^{1/2-δ}$ must contain repeated distances. These features give polynomially improved estimates for old problems of Erdős. The existence of a set satisfying property (1) confirms a conjecture of Erdős from 1980, whereas the existence of a set with property (2) answers a question of Conlon-Fox-Gasarch-Harris-Ulrich-Zbarsky in the negative.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05374v1",
+        "pdf": "https://arxiv.org/pdf/2607.05374v1",
+        "source": "https://export.arxiv.org/e-print/2607.05374v1"
+      },
+      "structural_counts": {
+        "pages": 8,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 24,
+        "bibliography_entries": 29,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "discussions. We would also like to acknowledge the usage of AI in preparation of this manuscript. The collaboration and present paper started with the first author’s manuscript from [Lee26], who, independently of the other authors, used ChatGPT to discover the existence of a set of n points P in R2 with the property that every subset A ⊆ P of size |A| ≥ n1/2−δ determines a repeated distance. This established that fdist (n) ≲ n1/2−δ . The proof from [Lee26] combined the new local-",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 4",
+          "page": 4
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 439,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 43.9,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 8,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 6,
+          "bibliography_entries": 2.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05305",
+      "version": 2,
+      "title": "Iwasawa invariants of sharp/flat $2$-adic $L$-functions for quadratic twists of elliptic curves",
+      "authors": [
+        "Taiga Adachi"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-06T16:46:44Z",
+        "updated": "2026-08-12T00:05:35Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "The aim of this paper is to study the variation under quadratic twists of the analytic Iwasawa invariants of Sprung's sharp/flat 2-adic $L$-functions for elliptic curves over $\\mathbb{Q}$ with good supersingular reduction at $2$. Under the hypothesis that the $μ$-invariant vanishes, we obtain an explicit formula for the sharp/flat $λ$-invariants. This formula gives a supersingular analogue of Matsuno's formula in the good ordinary case. As an application, we show that the sharp/flat $λ$-invariants can be made arbitrarily large even among quadratic twists by single primes. Moreover, using the method of Hatley-Ray, we obtain an asymptotic lower bound for the number of quadratic twists with a prescribed sharp/flat 2-adic Iwasawa $λ$-invariant.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05305v2",
+        "pdf": "https://arxiv.org/pdf/2607.05305v2",
+        "source": "https://export.arxiv.org/e-print/2607.05305v2"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 12,
+        "lemmas": 9,
+        "propositions": 12,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 196,
+        "bibliography_entries": 39,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file 2-adic_analytic_Ver2.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2 (log X) 3 for each i ∈ {3, 4, 5}. Methods During the preparation of this manuscript, the author used ChatGPT solely as a supple- mentary tool to identify possible inconsistencies. All mathematical arguments and conclu- sions were independently formulated and verified by the author, who takes full responsibility for the content of the manuscript.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 1959.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 244.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 30,
+          "theorems": 72,
+          "lemmas": 36,
+          "propositions": 48,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 49,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05262",
+      "version": 1,
+      "title": "Sharp Circular Sampling and Derivative Period Polynomials",
+      "authors": [
+        "Seokho Jin"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-06T16:09:04Z",
+        "updated": "2026-07-06T16:09:04Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We determine the exact maximal reflected zero region that forces centered binomial samples of a balanced entire function to have all zeros on the unit circle. In degree $d\\ge2$, this region is \\[ Ω_d=\\left\\{a+ib:\\ a^2-\\frac{b^2}{d-1}\\le\\frac d4\\right\\}. \\] The finite theorem is sharp already for a single reflected zero pair, and a phase-preserving canonical-product approximation extends it to balanced entire functions of order at most one. De Bruijn strip contraction and projective Hermite--Kakeya--Obreschkoff theory then give the exact common-zero obstruction, simplicity, strict interlacing of consecutive derivative samples, and a monotone real-pencil root flow. As an application, we prove the derivative-period-polynomial unit-circle theorem for completed $L$-functions of primitive holomorphic newforms, in every derivative order and for arbitrary level and nebentypus. After the standard normalization, every zero of \\[ \\sum_{j=0}^{k-2}\\binom{k-2}{j}Λ^{(m)}(f,j+1)z^j \\] lies on the unit circle for every weight $k\\ge4$, level, nebentypus, and derivative order $m\\ge0$. In particular, this proves the full-polynomial unit-circle conjecture of Diamantis and Rolen in its original level-one setting and extends it to arbitrary level and nebentypus. The same source-side theorem also gives simplicity, strict interlacing, and, for each fixed derivative order, conductor-uniform quantitative localization in the weight aspect.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05262v1",
+        "pdf": "https://arxiv.org/pdf/2607.05262v1",
+        "source": "https://export.arxiv.org/e-print/2607.05262v1"
+      },
+      "structural_counts": {
+        "pages": 34,
+        "theorems": 16,
+        "lemmas": 11,
+        "propositions": 3,
+        "corollaries": 9,
+        "definitions": 0,
+        "displayed_equations": 239,
+        "bibliography_entries": 25,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ypus for every fixed derivative order and to retain enough phase information to compare consecutive orders. Use of AI-assisted tools For transparency, during the preparation of this manuscript the author used OpenAI ChatGPT to discuss possible gaps in arguments, improve exposition, and edit LaTeX and English prose. The tool was not used as a source of mathematical results or as a formal proof verifier. All proofs, computations, statements, and references were",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 33",
+          "page": 33
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 2202,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 275.25,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 34,
+          "theorems": 96,
+          "lemmas": 44,
+          "propositions": 12,
+          "corollaries": 27,
+          "definitions": 0,
+          "displayed_equations": 59.75,
+          "bibliography_entries": 2.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05213",
+      "version": 1,
+      "title": "Integer Coefficient Power Series with Prescribed Zero Sets",
+      "authors": [
+        "Jon Bannon",
+        "David Feldman"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": [
+          "math.AC",
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-06T15:30:10Z",
+        "updated": "2026-07-06T15:30:10Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We prove that a discrete effective divisor on the open unit disk $\\mathbb{D}$ is the zero divisor of a holomorphic function on $\\mathbb{D}$ with integer Taylor coefficients if and only if it is invariant under complex conjugation. The construction uses a one-parameter deformation of the Weierstrass elementary factors in which each modified factor of order $n$ leaves all Taylor coefficients of degree $\\leq n$ unchanged while shifting the coefficient of degree $n+1$ by a controlled affine amount. These modified factors act as elementary jet-correction operators: the triangular structure of the coefficient map permits an inductive rounding scheme compatible with canonical-product convergence. As a consequence, every holomorphic function on $\\mathbb{D}$ differs from one with Gaussian-integer Taylor coefficients by multiplication by a nowhere-vanishing holomorphic factor.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05213v1",
+        "pdf": "https://arxiv.org/pdf/2607.05213v1",
+        "source": "https://export.arxiv.org/e-print/2607.05213v1"
+      },
+      "structural_counts": {
+        "pages": 10,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 5,
+        "corollaries": 1,
+        "definitions": 1,
+        "displayed_equations": 14,
+        "bibliography_entries": 8,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file integer_weierstrass_18.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "associated ring-theoretic consequences, remain to be worked out. Tool and Computational Resource Disclosure This manuscript was drafted and revised with the assistance of Claude (Anthropic; primarily Claude Opus 4.6), a large language model used interactively through Claude Code. Claude contributed to composing and revising portions of the exposi- tion, and produced the accompanying Lean 4 formalization of Theorems 1 and 2 referenced in the footnote on the first page, built u",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 10",
+          "page": 10
+        },
+        "classification": "limited_text_drafting",
+        "role_label": "Drafting limited passages",
+        "multiplier": 5
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 296.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 59.3,
+        "multiplier": 5,
+        "contributions": {
+          "pages": 10,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 20,
+          "corollaries": 3,
+          "definitions": 2,
+          "displayed_equations": 3.5,
+          "bibliography_entries": 0.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.05183",
+      "version": 1,
+      "title": "Adaptive direct search algorithms with relaxable and quantifiable constraints",
+      "authors": [
+        "Charles Audet",
+        "Théo Denorme",
+        "Youssef Diouane",
+        "Sébastien Le Digabel",
+        "Christophe Tribes"
+      ],
+      "categories": {
+        "primary": "math.OC",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-06T15:00:40Z",
+        "updated": "2026-07-06T15:00:40Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "This work introduces ADS-PB, an extension of the Adaptive Direct Search (ADS) framework for solving constrained blackbox optimization problems. With ADS, iterates progress without relying on mesh structures or sufficient decrease conditions on the objective function value. Unlike the extreme barrier approach used in ADS, where only unrelaxable constraints are considered, the proposed method also handles quantifiable and relaxable constraints using a Progressive Barrier (PB) mechanism that exploits both constraint and objective function values. A convergence analysis of the proposed framework under mild assumptions is presented. The performance of the proposed method is assessed using sets of analytical and simulation-based constrained test problems and is compared with state-of-the-art blackbox optimization solvers, including the PB approach within the Mesh Adaptive Direct Search (MADS) framework.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.05183v1",
+        "pdf": "https://arxiv.org/pdf/2607.05183v1",
+        "source": "https://export.arxiv.org/e-print/2607.05183v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 3,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 4,
+        "displayed_equations": 30,
+        "bibliography_entries": 3162,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file ADSPB.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "RGPIN-2026-05340 (Audet), RGPIN-2024-05093 (Diouane) and RGPIN-2024-05086 (Le Digabel). Conflict of interests The authors declare that they have no conflicts of interest. Data availability Not applicable. Use of AI The authors used ChatGPT to assist with figure layout and to improve English formu- lations. ChatGPT was not used in any way for the scientific content. References [1] M.A. Abramson, C. Audet, J.E. Dennis, Jr., and S. Le Digabel. OrthoMADS: A Deterministic MADS",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 20",
+          "page": 20
+        },
+        "classification": "formatting_typesetting",
+        "role_label": "Formatting or typesetting",
+        "multiplier": 1
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:09.244Z"
+      },
+      "score": 372.7,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 372.7,
+        "multiplier": 1,
+        "contributions": {
+          "pages": 23,
+          "theorems": 18,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 8,
+          "displayed_equations": 7.5,
+          "bibliography_entries": 316.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.05027",
       "version": 1,
       "title": "Edge-disjoint Hamilton cycles under a bipartite-hole condition",
