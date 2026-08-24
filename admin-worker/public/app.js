@@ -164,7 +164,12 @@ async function applyDecisionFile(file) {
         method: "POST",
         body: JSON.stringify({
           approvals: approvals.map((item) => ({
-            candidate: item.candidate,
+            candidate: {
+              candidate_id: item.candidate.candidate_id,
+              paper: item.candidate.paper,
+              analysis: item.candidate.analysis,
+              evidence: [],
+            },
             quotation: item.quotation,
             locationKind: item.locationKind,
             locationValue: item.location,
