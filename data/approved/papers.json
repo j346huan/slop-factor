@@ -83612,6 +83612,1710 @@
     },
     {
       "record_version": 1,
+      "arxiv_id": "2607.07920",
+      "version": 1,
+      "title": "Minimal Isometric Embeddings of Graphs into Cayley Graphs of Finite Abelian Groups",
+      "authors": [
+        "Fokam Souop Rigobert",
+        "Bitjoka Laurent"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-08T21:07:08Z",
+        "updated": "2026-07-08T21:07:08Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We study when, and how compactly, a finite connected graph (G) embeds isometrically into a Cayley graph of a finite abelian group. The classical theory of partial cubes answers this for isometric subgraphs of hypercubes through the Djokovic-Winkler relation (θ); we extend the question to the full family of abelian Cayley graphs, whose hosts may carry composite generators and cyclic factors of any order. We introduce an involutive edge relation (\\varphi), defined by two simultaneous distance equalities, which coincides with (θ) exactly on partial cubes and remains informative beyond them, together with an oriented relation (Φ) for non-involutive hosts, where generator classes are constrained to be partial permutations rather than matchings.The central result is a quotient labeling theorem: for any partition of the edge set into candidate generator classes, the most generic consistent vertex labeling is the quotient of the free module on the classes by the lattice of signed cycle-class incidences, computed by the Smith normal form; the binary case is its reduction modulo two. We prove that the finest partition always yields an isometric labeling, that compactifying the resulting universal group is itself an instance of the same quotient construction, and that the whole construction is algorithmic and certifiable. Worked examples include the triangle, the Petersen graph (embedding into the Clebsch graph of order 16), the Pappus graph (a 1024-fold compaction), and the diamond (a non-diagonal fold). Sharp dimension bounds and an exhaustive census of small graphs are developed in a companion paper. 2020 MSC: 05C12, 05C25, 20K01, 05C50",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07920v1",
+        "pdf": "https://arxiv.org/pdf/2607.07920v1",
+        "source": "https://export.arxiv.org/e-print/2607.07920v1"
+      },
+      "structural_counts": {
+        "pages": 43,
+        "theorems": 11,
+        "lemmas": 4,
+        "propositions": 3,
+        "corollaries": 3,
+        "definitions": 5,
+        "displayed_equations": 14,
+        "bibliography_entries": 40,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file paper1_revision_1.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "version. Declaration on the use of AI An AI assistant (Anthropic’s Claude) was used for software development and debugging of the verification pipeline and for language editing. All math- ematical content, directions, and conclusions are the authors’ own; all com- putational claims were verified by the certified",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 37",
+          "page": 37
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 327,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 163.5,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 43,
+          "theorems": 66,
+          "lemmas": 16,
+          "propositions": 12,
+          "corollaries": 9,
+          "definitions": 10,
+          "displayed_equations": 3.5,
+          "bibliography_entries": 4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07910",
+      "version": 1,
+      "title": "The Pseudo-Analytic Charge",
+      "authors": [
+        "Daniel Alayón-Solarz"
+      ],
+      "categories": {
+        "primary": "math.CV",
+        "secondary": [
+          "math.AP"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T20:49:15Z",
+        "updated": "2026-07-08T20:49:15Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "The framed Beltrami--Vekua equation $Φ(w_{\\bar z} - μw_z) + Ψ(\\overline{w_z} - μ\\overline{w_{\\bar z}}) + \\mathfrak{a}w + \\mathfrak{b}\\bar w = \\mathfrak{f}$, with $|μ|<1$ and $|Φ|>|Ψ|$, carries a numerator field $N = Φ\\mathfrak{b} - Ψ\\mathfrak{a} - W_L(Φ,Ψ)$ whose weighted modulus integrates to the pseudo-analytic mass. This paper extracts the integer carried by the same field. When the zero set of $N$ is compactly contained in a bounded simply connected domain, the winding number of $N$ along any enclosing curve -- the pseudo-analytic charge $n \\in \\mathbb{Z}$ -- is invariant under every recombination $w = \\varphi w' + ψ\\bar w'$ of the unknown, every scaling of the equation, and every orientation-preserving $C^1$ change of variables: recombinations multiply $N$ by the positive factor $|\\varphi|^2 - |ψ|^2$, so their invariance is exact, while on multiply connected domains the other two actions fix the component charges only in $\\mathbb{Z}/2\\mathbb{Z}$ and the total charge exactly. The charge is a Brouwer degree: it localizes at the zeros of $N$, vortices which no action of the class creates or destroys; an isolated vortex persists under perturbation of the data precisely when its local charge is non-zero. It involves the Beltrami coefficient only through the $L$-Wronskian of the frame, and is $μ$-independent wherever $W_\\partial(Φ,Ψ) \\equiv 0$ -- in particular at the trivial frame, where $N = \\mathcal{B}$ and the charge is the gauge-invariant winding of the coefficient of the Beltrami--Vekua equation. Mass and charge are independent: every pair in $(0,\\infty)\\times\\mathbb{Z}$ is realized.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07910v1",
+        "pdf": "https://arxiv.org/pdf/2607.07910v1",
+        "source": "https://export.arxiv.org/e-print/2607.07910v1"
+      },
+      "structural_counts": {
+        "pages": 14,
+        "theorems": 2,
+        "lemmas": 2,
+        "propositions": 7,
+        "corollaries": 2,
+        "definitions": 1,
+        "displayed_equations": 25,
+        "bibliography_entries": 7,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file charge.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "to a sphere; whether the exactness of the substitution law — the positive factor D, on which everything here rests — survives the loss of commutativity is precisely the question. Use of Generative AI Tools The author discloses the use of Anthropic’s Claude (Claude Fable 5, accessed through the Claude.ai mobile interface in July 2026) in the preparation of this manuscript. The tool was used as follows: (i) Exploratory dialogue. The organization of the paper — in particular the definition o",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 13",
+          "page": 13
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 153.9,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 76.95,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 14,
+          "theorems": 12,
+          "lemmas": 8,
+          "propositions": 28,
+          "corollaries": 6,
+          "definitions": 2,
+          "displayed_equations": 6.25,
+          "bibliography_entries": 0.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07860",
+      "version": 1,
+      "title": "On the recolorability of $(2K_2, K_4)$-free graphs",
+      "authors": [
+        "Henry Echeverría",
+        "Owen Henderschedt"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-08T18:48:31Z",
+        "updated": "2026-07-08T18:48:31Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Given a graph $G$ and an integer $\\ell>χ(G)$, the reconfiguration graph of the $\\ell$-colorings of $G$ has as its vertices as the proper $\\ell$-colorings of $G$, with an edge between two colorings whenever they differ on exactly one vertex. We say that $G$ is \\emph{recolorable} if this reconfiguration graph is connected for every $\\ell>χ(G)$. Belavadi and Cameron determined which $(F_1,F_2)$-free graphs are recolorable whenever $F_1$ and $F_2$ are graphs on at most four vertices, with the single exception of $(2K_2,K_4)$-free graphs. Gaspers and Huang showed such graphs are $4$-colorable. The $3$-colorable case within this class has also been resolved, leaving the open question of whether every $(2K_2,K_4)$-free graph with chromatic number $4$ is recolorable. In this paper, we provide evidence toward an affirmative answer by establishing recolorability for three subclasses: $(2K_2,K_4,C_5)$-free graphs, $(2K_2,K_4,H_a,H_b)$-free graphs for any distinct $a,b\\in \\{2,3,4\\}$, and $(2K_2,K_4,H_4)$-free graphs containing an induced $W_5$, where $H_i$ denotes the unique $2K_2$-free graph obtained from a $W_5$ by keeping exactly $i$ edges from the universal vertex to the cycle.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07860v1",
+        "pdf": "https://arxiv.org/pdf/2607.07860v1",
+        "source": "https://export.arxiv.org/e-print/2607.07860v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 10,
+        "lemmas": 16,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 57,
+        "bibliography_entries": 18,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "stay funded by ANID Complementary Benefits and directed by Dr. Jessica McDonald at Auburn University. Declaration of use of artificial intelligence During the preparation of this manuscript the authors used OpenAI’s ChatGPT 5.5 Plus and Anthropic’s Claude to assist with editing, grammar, and formatting. The authors verified and reviewed all AI-assisted edits and take full responsibility for all content within this manuscript. References [1] M. Belavadi and K. Cameron. Recolouring some he",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 40",
+          "page": 40
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 724.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 181.05,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 41,
+          "theorems": 60,
+          "lemmas": 64,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 14.25,
+          "bibliography_entries": 1.8,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07837",
+      "version": 1,
+      "title": "On Two Combinatorial Inequalities That Explain the Blimpy Shape of Heady-s and Taily-s Bit Strings",
+      "authors": [
+        "Bruce Levin"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-08T18:17:31Z",
+        "updated": "2026-07-08T18:17:31Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We prove two inequalities introduced in our prior study of the graphical shape of the number of bit strings with a given score under an interesting scoring system. Generating functions are used to establish the inequalities, which in turn imply two of the salient graphical features, uni-modality near the zero score and shape asymmetry for positive versus negative scores. One inequality provides a lower bound on the expected value of a discrete random variable with probabilities proportional to a product of two binomial coefficients. The other inequality states that the expected value with respect to near central binomial coefficients of other binomial coefficients lying on an oblique ray in Pascal's triangle exceeds the expected value along an adjacent parallel ray to its left.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07837v1",
+        "pdf": "https://arxiv.org/pdf/2607.07837v1",
+        "source": "https://export.arxiv.org/e-print/2607.07837v1"
+      },
+      "structural_counts": {
+        "pages": 24,
+        "theorems": 5,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 186,
+        "bibliography_entries": 0,
+        "appendix_pages": 11
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source parsing failed; PDF-text fallbacks were used: Downloaded source is neither a safe tar archive nor recognizable TeX",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "OWLEDGMENT The author would like to thank Cheng-Shiun Leu and Jacob Fink for helpful discussions. DISCLOSURE STATEMENT The author has no conflicts of interest to report. Gemini 3 Flash was used to look up known generating functions and Claude AI was used to cross-check my asymptotic calculations. APPENDIX A We derive formulas (2.6) and (2.7) using the transfer theorems of singularity analysis (Flajolet and Sedgewick, 2009) for generating functions of the form Gα , β ( x) = F",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 14",
+          "page": 14
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 391.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 130.5,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 24,
+          "theorems": 30,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 46.5,
+          "bibliography_entries": 0,
+          "appendix_pages": 22
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07688",
+      "version": 4,
+      "title": "Small Matrices with Large Inverses: Unimodular $4 \\times 4$ Cases",
+      "authors": [
+        "Steven Finch"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": [
+          "cs.DM",
+          "math.NT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T17:47:54Z",
+        "updated": "2026-08-17T12:26:44Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "How close to singularity can an $n \\times n$ unimodular matrix be? For ternary cases as $n$ increases, exact expressions are unlikely, but upon fixing $n=4$ and assessing $(2k+1)$-ary cases as $k$ increases, we make significant progress; similarly for $(k+1)$-ary cases of $4\\times 4$ nonnegative unimodular matrices.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07688v4",
+        "pdf": "https://arxiv.org/pdf/2607.07688v4",
+        "source": "https://export.arxiv.org/e-print/2607.07688v4"
+      },
+      "structural_counts": {
+        "pages": 21,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 102,
+        "bibliography_entries": 10,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file mtrx3.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "were allowed to be zero). It seemed important to restate our conjecture in full generality, removing the zerofree condition. Also, the case k = 1 was empty in [10] but it is meaningful here. 6. Acknowledgements Microsoft Copilot assisted in writing CUDA programs, which opened the door for me to run intensive experimental jobs on Nvidia GPUs. Anthropic Claude Opus 4.8 played a crucial role in turning my conjectures into theorems. The creators of Mathematica, as wel",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 17",
+          "page": 17
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 475,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 47.5,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 21,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 25.5,
+          "bibliography_entries": 1,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07525",
+      "version": 1,
+      "title": "Geometry and topology of the tempered Iwahori-spherical representations of a split semisimple $p$-adic group",
+      "authors": [
+        "Dominic Majda",
+        "Graham A. Niblo",
+        "Roger Plymen",
+        "Nick Wright"
+      ],
+      "categories": {
+        "primary": "math.RT",
+        "secondary": [
+          "math.GR",
+          "math.KT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T15:20:05Z",
+        "updated": "2026-07-08T15:20:05Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Let $\\mathfrak{G}$ be a connected split $p$-adic group of type $B_n$, $C_n$ or $D_n$. Amongst the tempered representations of $\\mathfrak{G}$ a key role is played by the Iwahori-spherical block. We provide a compact Hausdorff model for this space which allows us to compute the $K$-theory ranks for the corresponding $C^*$-algebra. The model, an extended quotient, is stratified by sectors. Underlying the approach of this paper is the interplay between the geometric extended quotient and the spectral extended quotient in the context of the ABPS conjecture. We give geometric descriptions of every sector thus equipping the spectrum with a cellular structure. We classify the geometric structures arising in our model, and specifically discover real projective spaces along with cones and suspensions of these. These examples require a minor modification to our homotopy sector conjecture: we show that Langlands dual sectors are rationally (indeed dyadically) homotopy equivalent in all cases ($A_n, B_n, C_n, D_n, E_6, E_7$ and $E_8$).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07525v1",
+        "pdf": "https://arxiv.org/pdf/2607.07525v1",
+        "source": "https://export.arxiv.org/e-print/2607.07525v1"
+      },
+      "structural_counts": {
+        "pages": 69,
+        "theorems": 4,
+        "lemmas": 5,
+        "propositions": 0,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 101,
+        "bibliography_entries": 15,
+        "appendix_pages": 62
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "C2 ⊕ C0 Total C463 ⊕ C13 C463 ⊕ C13 This table and its LATEX file were generated by Python code produced with assistance by ChatGPT and checked against values from independent Python code written by the authors.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 66",
+          "page": 66
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 539.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 269.75,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 69,
+          "theorems": 24,
+          "lemmas": 20,
+          "propositions": 0,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 25.25,
+          "bibliography_entries": 1.5,
+          "appendix_pages": 124
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07485",
+      "version": 1,
+      "title": "A black-box, multilevel algebraic preconditioning framework for conforming finite elements",
+      "authors": [
+        "O. A. Krzysik",
+        "B. S. Southworth",
+        "G. A. Wimmer"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-08T14:47:56Z",
+        "updated": "2026-07-08T14:47:56Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Recently we introduced the least-squares algebraic-multigrid domain-decomposition (LS-AMG-DD) method as a multilevel, algebraic preconditioner for sparse symmetric positive definite (SPD) matrices that admit a Gram representation \\(A=G^{\\top}G\\) \\cite{southworth2026lsamgdd}. The factor \\(G\\) induces a local symmetric positive semidefinite (SPSD) splitting of \\(A\\) used to define local spectral problems from which an interpolation $P$ is built, and a coarse-level Gram operator induced under Galerkin coarsening, \\(A_c=G_c^\\top G_c\\), for \\(G_c:=GP\\). This paper clarifies when this Gram structure arises, showing that, on a prescribed degree-of-freedom cover \\({\\cal C}\\), a \\({\\cal C}\\)-local Gram representation of $A$ exists if and only if \\(A\\) admits a \\({\\cal C}\\)-local SPSD splitting. We then connect this viewpoint to conforming finite-element discretizations, where bilinear forms are naturally assembled from elementwise SPSD energies and therefore admit element-local Gram representations after choosing local factors (e.g., via algebraic factorizations of element blocks). Taken together, these observations provide an essentially black-box route for applying LS-AMG-DD to conforming finite-element problems. Numerical tests illustrate the robustness of the method on several problems for which classical AMG methods require more than $10^5$ iterations to converge, including high-order discretizations of grad--div in \\(\\hdiv\\), anisotropic hyperdiffusion in $H^2$, and linear elasticity in vector \\(H^1\\). Moreover, in some comparisons with existing AMG methods, LS-AMG-DD produces errors that are 2--5 orders of magnitude smaller, even when all methods are stopped at the same relative residual tolerance.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07485v1",
+        "pdf": "https://arxiv.org/pdf/2607.07485v1",
+        "source": "https://export.arxiv.org/e-print/2607.07485v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 2,
+        "lemmas": 1,
+        "propositions": 1,
+        "corollaries": 0,
+        "definitions": 4,
+        "displayed_equations": 45,
+        "bibliography_entries": 44,
+        "appendix_pages": 1
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file cfem-solvers-paper_strip.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "d with all modes. Future work will focus on complexity control, because the same spectral enrichment that gives robustness can also produce large coarse spaces and significant fill-in on coarser grids. Acknowledgments. The authors used OpenAI’s ChatGPT during the prepa- ration of this manuscript, including for exploratory mathematical discussion, coding,",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 141.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 70.65,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 25,
+          "theorems": 12,
+          "lemmas": 4,
+          "propositions": 4,
+          "corollaries": 0,
+          "definitions": 8,
+          "displayed_equations": 11.25,
+          "bibliography_entries": 4.4,
+          "appendix_pages": 2
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07482",
+      "version": 1,
+      "title": "There is no degree independent Bombieri type inequality for non-homogeneous polynomials",
+      "authors": [
+        "J. M. Aldaz"
+      ],
+      "categories": {
+        "primary": "math.CA",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-08T14:45:14Z",
+        "updated": "2026-07-08T14:45:14Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Bombieri's inequality for polynomials requires that at least one of them be homogeneous. In this note an AI provides a natural example showing that, as stated in the title, there is no degree independent Bombieri type inequality for non-homogeneous polynomials.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07482v1",
+        "pdf": "https://arxiv.org/pdf/2607.07482v1",
+        "source": "https://export.arxiv.org/e-print/2607.07482v1"
+      },
+      "structural_counts": {
+        "pages": 3,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 7,
+        "bibliography_entries": 2,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file Non_BombieriForPolys_ArXiv.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "m→∞ As the main author of this note is Gemini (my contribution having been to check the details and make the presentation suit my taste) this ms. will not be submitted to a journal for publication. Also, I used Gemini because it is the LLM that pops out when I open the Chrome navigator, and so far utilizing it has not cost me any money. But I have no financial interest in Gemini or any other AI. Finally, it seems that thinking first and asking an AI second, at least in this",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 2",
+          "page": 2
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 109.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 10.95,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 3,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 1.75,
+          "bibliography_entries": 0.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07458",
+      "version": 1,
+      "title": "Analytic Spread via Linear Matroids",
+      "authors": [
+        "Stephen Landsittel",
+        "Eran Nevo"
+      ],
+      "categories": {
+        "primary": "math.AC",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T14:26:21Z",
+        "updated": "2026-07-08T14:26:21Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We give a systematic analysis of the analytic spread of the determinantal ideal $J_{G,H}$ arising from a pair of graphs $(G, H)$. We give sharp bounds for this analytic spread, and combinatorial conditions and obstructions for its maximality via a linear matroid. When $H$ is a single edge, $J_{G,H}$ is isomorphic to the binomial edge ideal $J_G$ and its analytic spread is shown to equal the rank of $G$ in Kalai's $2$-hyperconnectivity matroid.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07458v1",
+        "pdf": "https://arxiv.org/pdf/2607.07458v1",
+        "source": "https://export.arxiv.org/e-print/2607.07458v1"
+      },
+      "structural_counts": {
+        "pages": 29,
+        "theorems": 6,
+        "lemmas": 11,
+        "propositions": 4,
+        "corollaries": 7,
+        "definitions": 6,
+        "displayed_equations": 69,
+        "bibliography_entries": 112,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file spread_arxiv_ver__1_.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "rvard, and the first author also thanks the Hebrew University of Jerusalem, for their support during this project. Both authors are partially supported by the Israel Science Foundation grant ISF-687/24. AI use statement. The authors used Gemini Pro during the revision stage of this paper for identifying typos and to double check calculations. All original results, proofs, and mathematical content predate the use of AI assistance. All AI-suggested edits were reviewed and approved by t",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 27",
+          "page": 27
+        },
+        "classification": "computational_support",
+        "role_label": "Computational experiments or data processing",
+        "multiplier": 3
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 559.35,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 186.45,
+        "multiplier": 3,
+        "contributions": {
+          "pages": 29,
+          "theorems": 36,
+          "lemmas": 44,
+          "propositions": 16,
+          "corollaries": 21,
+          "definitions": 12,
+          "displayed_equations": 17.25,
+          "bibliography_entries": 11.2,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07431",
+      "version": 2,
+      "title": "Higher Semiadditive Character Theory",
+      "authors": [
+        "Shaul Ragimov"
+      ],
+      "categories": {
+        "primary": "math.AT",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-08T14:01:13Z",
+        "updated": "2026-08-04T19:41:17Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We introduce and develop the theory of semiadditive characters in the higher semiadditive setting, generalizing both the $T(n)$-local monoidal character and the $K(t)$-local transchromatic character. These are natural transformations compatible with restriction and transfer maps along $π$-finite spaces, with an $(n-t)$-fold $p$-typical free loop space correction built into the target. We show that every $\\infty$-commutative monoid admits a universal $(n-t)$-fold character. This universal character has several strong structural properties: it exhibits blue shift, satisfies higher cyclotomic descent, and is compatible with the semiadditive Fourier transform. We compute it for an arbitrary $K(n)$-local object and show that, for Morava $E$-theory, it recovers the $K(t)$-local transchromatic character. By functoriality, the universal character carries a natural action of the profinite group $\\mathrm{GL}_{n-t}(\\mathbb{Z}_p)$. When $t=0$, the fixed points of this action recover rationalization. As a consequence, we derive an explicit description of $L_{\\mathbb{Q}}(S^A_{K(n)})$ for every $π$-finite space $A$ and compute the ring of rational $K(n)$-local power operations.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07431v2",
+        "pdf": "https://arxiv.org/pdf/2607.07431v2",
+        "source": "https://export.arxiv.org/e-print/2607.07431v2"
+      },
+      "structural_counts": {
+        "pages": 81,
+        "theorems": 6,
+        "lemmas": 38,
+        "propositions": 21,
+        "corollaries": 22,
+        "definitions": 13,
+        "displayed_equations": 584,
+        "bibliography_entries": 130,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "hout. I am also grateful to my academic brother, Shai Keidar, for numerous insightful discussions and for reading earlier drafts of this paper. I thank Beckham Myers, Shay Ben-Moshe, and Lior Yanovski for their comments on previous drafts. LLMs were used to improve the writing. All mathematical content, and any errors, are my own. 2 Higher Semiadditive Characters This section defines and records the basic properties of F -characters that we will use throughout the paper. In",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 12",
+          "page": 12
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 2416,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 604,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 81,
+          "theorems": 36,
+          "lemmas": 152,
+          "propositions": 84,
+          "corollaries": 66,
+          "definitions": 26,
+          "displayed_equations": 146,
+          "bibliography_entries": 13,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07427",
+      "version": 1,
+      "title": "$p$-adic Maass--Shimura operators on $μ$-ordinary Igusa varieties",
+      "authors": [
+        "Andrew Graham",
+        "Pol van Hoften",
+        "Sean Howe"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.AG",
+          "math.RT"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T13:57:35Z",
+        "updated": "2026-07-08T13:57:35Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "For Shimura varieties of Hodge type, we optimally extend algebraic Maass--Shimura differential operators on $p$-integral nearly holomorphic automorphic forms to differential operators on $μ$-ordinary Mantovan Igusa varieties. We then show that the rank one operators can be integrated to an action of an explicit formal group. Via $p$-adic Fourier theory, this provides a $p$-adic interpolation by extending the action of a symmetric algebra of differential operators to the algebra of functions on the Tate module of the dual $p$-divisible group. Passing to the generic fiber, we obtain an action of an explicit algebra of $p$-adic locally analytic functions, and we show that the action of the subalgebra of locally constant functions is equivalent to a natural Hecke action and thus preserves classical forms. In the ordinary case, we further show that the locally analytic action extends to nearly overconvergent automorphic forms. Our results extend, clarify, and recover prior constructions.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07427v1",
+        "pdf": "https://arxiv.org/pdf/2607.07427v1",
+        "source": "https://export.arxiv.org/e-print/2607.07427v1"
+      },
+      "structural_counts": {
+        "pages": 85,
+        "theorems": 8,
+        "lemmas": 26,
+        "propositions": 15,
+        "corollaries": 18,
+        "definitions": 4,
+        "displayed_equations": 663,
+        "bibliography_entries": 79,
+        "appendix_pages": 85
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "fix a nonarchimedean field K (not necessarily spherically complete). Our goal is to compare locally convex inductive limits with condensed inductive limits. A.1.1. Tool and computational resource disclosure. The authors made use of Chat- GPT 5.5 Pro while writing this appendix. More specifically, the counterexamples in Lemmas A.2.2, A.2.7 and the proofs of Lemmas A.1.7 and A.2.5 were initially suggested to us by that model. We take full responsibility for the written argu- ments.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 77",
+          "page": 77
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 7026.5,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 702.65,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 85,
+          "theorems": 48,
+          "lemmas": 104,
+          "propositions": 60,
+          "corollaries": 54,
+          "definitions": 8,
+          "displayed_equations": 165.75,
+          "bibliography_entries": 7.9,
+          "appendix_pages": 170
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07385",
+      "version": 1,
+      "title": "JAX-FVM: A differentiable, entropy-stable finite volume solver on unstructured meshes for compressible flows",
+      "authors": [
+        "Guillaume de Romémont"
+      ],
+      "categories": {
+        "primary": "math.NA",
+        "secondary": [
+          "cs.MS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T13:17:00Z",
+        "updated": "2026-07-08T13:17:00Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We present JAX-FVM, an open-source, fully differentiable finite volume method (FVM) for the two-dimensional compressible Euler and Navier-Stokes equations on unstructured triangular meshes. The solver is written entirely in JAX, so that every operation : mesh connectivity, flux evaluation, slope limiting, and time integration is just-in-time compiled, vectorised, and end-to-end differentiable through automatic differentiation (AD), and runs transparently on CPU or GPU. On the numerical side, JAX-FVM is built around an entropy-conservative Tadmor/Ismail-Roe two-point flux supplemented with entropy-variable Rusanov or Roe dissipation, second-order MUSCL reconstruction of primitive variables with least-squares gradients and Venkatakrishnan limiting, and a family of explicit (RK2-4) and matrix-free implicit (Newton, SDIRK2) time integrators whose Jacobian actions are obtained by AD. The combination of an unstructured-mesh compressible FVM with end-to-end differentiability fills a gap left by existing differentiable CFD frameworks, which are almost exclusively restricted to structured grids or spectral discretisations. We describe the governing equations, the discretisation, the software architecture, and a set of standard verification cases. The code is openly available at https://github.com/guigzair/jax_fvm.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07385v1",
+        "pdf": "https://arxiv.org/pdf/2607.07385v1",
+        "source": "https://export.arxiv.org/e-print/2607.07385v1"
+      },
+      "structural_counts": {
+        "pages": 11,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 12,
+        "bibliography_entries": 39,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file JAX_FVM.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "t on the existing flax/optax dependencies, and completion of the VTK mesh-input path. Acknowledgements This work was carried out at INRIA. A deep thank you to Julien, Anass and Mathias for their support and feedback. Declaration of Generative AI and AI-assisted technologies in the writing process During the preparation of this work the authors used the Claude large language model inside the VSCode IDE to assist in writing code. After using this tool, the authors reviewed and e",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 8",
+          "page": 8
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 35.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 17.9,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 11,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 3,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07355",
+      "version": 1,
+      "title": "Involution-equivariant topological recursion and mirror symmetry for the affine binary dihedral Calabi--Yau threefold",
+      "authors": [
+        "Bohan Fang",
+        "Zhuoming Lan",
+        "Jingxiang Ma"
+      ],
+      "categories": {
+        "primary": "math.AG",
+        "secondary": [
+          "math-ph"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T12:48:47Z",
+        "updated": "2026-07-08T12:48:47Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We prove a closed-string remodeling statement for the affine binary dihedral Calabi--Yau orbifold threefold $\\mathcal X=[\\mathbb C^2/Γ\\times\\mathbb C]$, where $Γ$ is a binary dihedral subgroup of $SU(2)$. This target lies outside the toric setting of the Bouchard--Klemm--Mariño--Pasquetti remodeling conjecture: the toric mirror curve is replaced by the type-$D_l$ logarithmic Toda curve of Brini--Ma--Strachan, and the Chekhov--Eynard--Orantin topological recursion is replaced by the $\\mathbb Z_2$-equivariant topological recursion of Giacchetto--Kramer--Lewański, run in the sign sector of the Toda-curve involution with the Prym kernel as its two-point input. We identify the equivariant orbifold quantum cohomology Frobenius manifold of $\\mathcal X$ with the invariant Jacobian Frobenius structure of the Toda curve, and we prove that the B-model $R$-matrix, defined by regularized stationary phase, equals the A-side normalized canonical Givental--Teleman $R$-matrix on the smooth oscillatory chamber; this equality is anchored at the orbifold point through a semistable degeneration of the Toda curve. Comparing the resulting Givental--Teleman and Dunin-Barkowski--Orantin--Shadrin--Spitz graph sums then identifies, after a parity-twisted leaf substitution, the sign-sector recursion with the descendant Gromov--Witten generating functions of $\\mathcal X$ in the stable range ($2g-2+n>0$ with $n>0$), and identifies the recursion free energies with the equivariant Gromov--Witten free energies of $\\mathcal X$ for $g\\geq2$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07355v1",
+        "pdf": "https://arxiv.org/pdf/2607.07355v1",
+        "source": "https://export.arxiv.org/e-print/2607.07355v1"
+      },
+      "structural_counts": {
+        "pages": 77,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 0,
+        "bibliography_entries": 39,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file preamble.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "ly automatic, except for some initial human input on the setup of the mirror curve, a hint about its degeneration and a general proof strategy. From the generated knowledge graph, with the assistance of a Codex-based writ- ing agent and GPT-5.5 Pro verification, we wrote the main content of this paper block by block (mainly section by section) with extensive human–AI interaction. Afterwards, the authors manually proofread and edited the entire paper for math- ematical correctness",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "substantial_mathematical_content",
+        "role_label": "Substantial mathematical content or result generation",
+        "multiplier": 10
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 809,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 80.9,
+        "multiplier": 10,
+        "contributions": {
+          "pages": 77,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 0,
+          "bibliography_entries": 3.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07344",
+      "version": 2,
+      "title": "Dyadic potential theory and de Rham functions",
+      "authors": [
+        "Nicola Arcozzi"
+      ],
+      "categories": {
+        "primary": "math.AP",
+        "secondary": [
+          "math.DS"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T12:35:16Z",
+        "updated": "2026-07-27T16:24:58Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We study de Rham functional equations driven by two increasing fractional linear transformations. Our main purpose is to relate the singularity theory of the associated solutions to dyadic potential theory on the binary tree. We first prove an existence and uniqueness theorem for increasing, left-continuous solutions in the full range of linear fractional data, and identify the trapping region in parameter space where the solution is continuous. For a large class of parameters we show that the de Rham solution is the normalized cumulative capacitary function of a multiplicative dyadic capacity. This gives a potential-theoretic model for Möbius de Rham systems. We then sharpen Okamura's Hausdorff-dimensional estimates for the singular measure associated with the solution by replacing Hausdorff dimension with dyadic Riesz capacities at the upper endpoint of Okamura's theorem.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07344v2",
+        "pdf": "https://arxiv.org/pdf/2607.07344v2",
+        "source": "https://export.arxiv.org/e-print/2607.07344v2"
+      },
+      "structural_counts": {
+        "pages": 27,
+        "theorems": 7,
+        "lemmas": 6,
+        "propositions": 4,
+        "corollaries": 2,
+        "definitions": 0,
+        "displayed_equations": 260,
+        "bibliography_entries": 19,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "yadic capacities satisfy recursive relations which, under some self-similarity assumptions on the involved weights, lead to a multiplicity of de Rham systems. We will return on some of these in a subsequent article. Methodological note. A generative AI assistant was used during the preparation of this manuscript for routine algebraic manipulations, numerical and symbolic checks, bibliographic and terminological queries, and for drafting preliminary versions of some arguments from proof s",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 6",
+          "page": 6
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 1455.2,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 181.9,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 27,
+          "theorems": 42,
+          "lemmas": 24,
+          "propositions": 16,
+          "corollaries": 6,
+          "definitions": 0,
+          "displayed_equations": 65,
+          "bibliography_entries": 1.9,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07308",
+      "version": 1,
+      "title": "Norm Bounds for Sparse Random Tensors and Spectral Gap of Random Hypergraphs",
+      "authors": [
+        "Kevin Lucca",
+        "Lucas Pesenti"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "cs.DM",
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T11:51:36Z",
+        "updated": "2026-07-08T11:51:36Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Friedman and Wigderson (1995) introduced a notion of second eigenvalue for hypergraphs that generalizes the second eigenvalue of the adjacency matrix of a graph. We show that $r$-uniform Erdős-Rényi hypergraphs on $n$ vertices exhibit a spectral gap as soon as their expected number of hyperedges $m$ satisfies $m \\gg n^{r/2}$. Prior work identified this scale only up to logarithmic factors; removing these factors is the main technical challenge. Our proof overcomes this obstacle through an explicit decomposition of an associated selector process, inspired by a generic decomposition theorem of Talagrand (2021). As a consequence of our techniques, we obtain improved norm bounds for sparse random tensors with independent entries. Finally, under a mild moment equivalence assumption, we extend to tensors a seminal result of Seginer (2000) for random matrices with i.i.d. entries.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07308v1",
+        "pdf": "https://arxiv.org/pdf/2607.07308v1",
+        "source": "https://export.arxiv.org/e-print/2607.07308v1"
+      },
+      "structural_counts": {
+        "pages": 25,
+        "theorems": 7,
+        "lemmas": 14,
+        "propositions": 1,
+        "corollaries": 2,
+        "definitions": 4,
+        "displayed_equations": 115,
+        "bibliography_entries": 34,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file VJ26main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Trevisan for suggesting, several years ago, the problem of determining the spectral gap of Erdős-Rényi hypergraphs. LP’s work on this project was supported by the Swiss National Science Foundation, grant no. 10004947. The authors used AI tools for literature research and to scan the manuscript for typos. All content was written and verified by the authors. 2 Preliminaries Asymptotic notation: We write a ≲ b (resp. a ≳ b) to denote a ⩽ Cb (resp. a ⩾ Cb) for some universal c",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "literature_search",
+        "role_label": "Literature search",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 346.3,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 173.15,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 25,
+          "theorems": 42,
+          "lemmas": 56,
+          "propositions": 4,
+          "corollaries": 6,
+          "definitions": 8,
+          "displayed_equations": 28.75,
+          "bibliography_entries": 3.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07261",
+      "version": 1,
+      "title": "Mathematical models for CAR T immunotherapy and CD19 dynamics in leukemia: a comparative analysis",
+      "authors": [
+        "Salvador Chulián",
+        "Ana Niño-López",
+        "Rocío Picón-González",
+        "María Rosa"
+      ],
+      "categories": {
+        "primary": "math.DS",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-08T10:48:20Z",
+        "updated": "2026-07-08T10:48:20Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Chimeric Antigen Receptor (CAR) T cell therapy has emerged as a successful treatment for relapsed or refractory hematological malignancies, particularly for B cell Acute Lymphoblastic Leukemia (B ALL), where CD19 targeted therapies have achieved high initial remission rates. However, relapse after treatment remains a major clinical challenge, frequently associated with antigen escape mechanisms and the emergence of CD19$^-$ leukemic cells. Understanding the interaction between CAR T cells and antigen expression dynamics is, therefore, essential for improving therapeutic efficacy and long-term patient outcomes. In this work, we develop and comparatively analyze novel mathematical models describing CAR T immunotherapy and CD19 dynamics in leukemia. Our proposed framework combines compartmental ordinary differential equation (ODE) formulations as well as partial differential equation (PDE) systems. Both methods are able to capture the evolution of leukemic populations under immune pressure and, in particular, the models explicitly distinguish between CD19$^+$ and CD19$^-$ leukemic cells and incorporate bidirectional phenotypic transitions regulated by CAR T activity. The developed models provide biologically interpretable and computationally efficient tools for studying treatment response, resistance, and relapse mechanisms in CAR T cell therapy. We compare the ability of the different modeling approaches to reproduce CD19 antigen modulation and CAR T efficacy dynamics. We also propose sensitivity analyses to study the parameters' influence on the models' dynamics. Our work contributes to the mathematical understanding of antigen-driven resistance and offers a basis for future optimization and personalization of CAR T therapeutic strategies in leukemia.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07261v1",
+        "pdf": "https://arxiv.org/pdf/2607.07261v1",
+        "source": "https://export.arxiv.org/e-print/2607.07261v1"
+      },
+      "structural_counts": {
+        "pages": 41,
+        "theorems": 0,
+        "lemmas": 0,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 9,
+        "bibliography_entries": 35,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "so acknowledged. 10. Declaration of generative AI and AI-assisted technologies in the manuscript preparation process During the preparation of this work, the authors used Gemini (powered by Google’s language model, Gemini; https://gemini.google.com/) to im- prove the readability and language of the work. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article. 11. CRediT authorship",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 36",
+          "page": 36
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 187,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 46.75,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 41,
+          "theorems": 0,
+          "lemmas": 0,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 2.25,
+          "bibliography_entries": 3.5,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07256",
+      "version": 1,
+      "title": "Dyck paths on colored lattices",
+      "authors": [
+        "Manjil P. Saikia"
+      ],
+      "categories": {
+        "primary": "math.CO",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-08T10:42:52Z",
+        "updated": "2026-07-08T10:42:52Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Fried recently enumerated Dyck paths having equally many black and white cells below them, for the chessboard coloring (Narayana numbers) and the column-alternating coloring (Fuss--Catalan numbers). We prove a generalization here: for the coloring of columns modulo any $c\\ge2$, the number of Dyck paths of semilength $n$ whose $c$ residue classes carry equal weight is the Raney number $\\Raney_{c+1,r}(m)$, where $n=cm+r-1$.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07256v1",
+        "pdf": "https://arxiv.org/pdf/2607.07256v1",
+        "source": "https://export.arxiv.org/e-print/2607.07256v1"
+      },
+      "structural_counts": {
+        "pages": 5,
+        "theorems": 3,
+        "lemmas": 2,
+        "propositions": 0,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 35,
+        "bibliography_entries": 4,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "2020 Mathematics Subject Classification. 05A15, 05A19. Key words and phrases. Dyck paths, Catalan numbers, Raney numbers, cycle lemma. Claude Opus 4.8 and Claude Sonnet 5 were used to edit the note, and make notations more efficient. The author takes responsibility for all of the mathematical content.",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 1",
+          "page": 1
+        },
+        "classification": "rewriting_existing_text",
+        "role_label": "Rewriting existing author-written text",
+        "multiplier": 4
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 160.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 40.15,
+        "multiplier": 4,
+        "contributions": {
+          "pages": 5,
+          "theorems": 18,
+          "lemmas": 8,
+          "propositions": 0,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 8.75,
+          "bibliography_entries": 0.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.07014",
+      "version": 1,
+      "title": "Local large deviations for linear-region growth in random piecewise-linear networks",
+      "authors": [
+        "Recep Özkan",
+        "Christian Hirsch"
+      ],
+      "categories": {
+        "primary": "math.PR",
+        "secondary": [
+          "stat.ML"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T05:14:19Z",
+        "updated": "2026-07-08T05:14:19Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We study a random compositional model for the growth of affine regions in deep piecewise-linear networks. The model is generated by i.i.d.\\ perturbations of the symmetric height-one tent map, and the main observable is the number \\(N_n\\) of affine pieces after \\(n\\) layers. We prove the existence of a submultiplicative pressure for \\(N_n\\), yielding exponential upper bounds for both tails of \\(n^{-1}\\log N_n\\). The same argument applies to abstract submultiplicative complexity observables and gives higher-dimensional extensions for convex-polytopal affine-cover counts and worst-line affine-piece counts. Since the true branch count has no matching supermultiplicative inequality, lower bounds require a separate certified construction. We introduce a finite-state defect process that records branches whose future splitting can be guaranteed, and use bridge words to obtain constructive upper-tail lower bounds. In a uniformly favorable small-noise regime, this process is governed by a companion matrix whose Perron root tends to \\(2\\), implying eventual exclusion of lower tails below \\(\\log 2-ξ\\).",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.07014v1",
+        "pdf": "https://arxiv.org/pdf/2607.07014v1",
+        "source": "https://export.arxiv.org/e-print/2607.07014v1"
+      },
+      "structural_counts": {
+        "pages": 23,
+        "theorems": 10,
+        "lemmas": 5,
+        "propositions": 5,
+        "corollaries": 0,
+        "definitions": 0,
+        "displayed_equations": 132,
+        "bibliography_entries": 24,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "pdf_fallback",
+        "lemmas": "pdf_fallback",
+        "propositions": "pdf_fallback",
+        "corollaries": "pdf_fallback",
+        "definitions": "pdf_fallback",
+        "displayed_equations": "pdf_fallback",
+        "bibliography_entries": "pdf_fallback",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "arXiv source was unavailable; PDF-text fallbacks were used.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "22 LARGE DEVIATIONS FOR LINEAR REGIONS Declarations Acknowledgements. The authors used OpenAI’s ChatGPT during the preparation of this man- uscript. All mathematical statements, proofs, computations, references, and conclusions were in- dependently checked and verified by the authors, who take full responsibility for the content of the manus",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 22",
+          "page": 22
+        },
+        "classification": "brainstorming_outlining",
+        "role_label": "Brainstorming or outlining",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 316.8,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 158.4,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 23,
+          "theorems": 60,
+          "lemmas": 20,
+          "propositions": 20,
+          "corollaries": 0,
+          "definitions": 0,
+          "displayed_equations": 33,
+          "bibliography_entries": 2.4,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.06944",
+      "version": 1,
+      "title": "$p$-adic Hahn series with sparse support",
+      "authors": [
+        "Shanwen Wang",
+        "Yijun Yuan"
+      ],
+      "categories": {
+        "primary": "math.NT",
+        "secondary": [
+          "math.CO"
+        ]
+      },
+      "dates": {
+        "submitted": "2026-07-08T03:14:19Z",
+        "updated": "2026-07-08T03:14:19Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "Let $p$ be a prime number. We introduce a sparseness condition on the supports of $p$-adic Hahn series, and prove that this condition implies transcendence over $\\breve{\\mathbf Q}_p$, the completed maximal unramified extension of $\\mathbf{Q}_p$. As an application, we prove the order-type conjecture of $\\mathbf{Q}_p$-algebraic $p$-adic Hahn series with bounded support under the condition that the support has only finitely many accumulation points. All results in this paper have been fully formalized in the Lean theorem prover (v 4.31.0), building over Mathlib.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.06944v1",
+        "pdf": "https://arxiv.org/pdf/2607.06944v1",
+        "source": "https://export.arxiv.org/e-print/2607.06944v1"
+      },
+      "structural_counts": {
+        "pages": 30,
+        "theorems": 7,
+        "lemmas": 18,
+        "propositions": 8,
+        "corollaries": 4,
+        "definitions": 9,
+        "displayed_equations": 84,
+        "bibliography_entries": 0,
+        "appendix_pages": 30
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file main.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "{ f : 𝕃_[p] | ∃ f' : HahnSeries ℚ (𝔽ᵃ_[p]), IsAlgebraic 𝔽ᵃ_[p] f' ∧ (exists_canonical_expansion f).choose.val = f'.coeff } := by admit A.2. AI-assisted formalization. — The agentic auto-formalization system Archon, which is based on Claude Opus 4.8 and developed by the AI4Math team at BICMR, Peking University, greatly accelerated our formalization process. By design, once the blueprint or the corresponding informal proof of the project is provided, Archon works fully autonomously",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 28",
+          "page": 28
+        },
+        "classification": "code_assistance",
+        "role_label": "Code generation, completion, or debugging",
+        "multiplier": 2
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 574,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 287,
+        "multiplier": 2,
+        "contributions": {
+          "pages": 30,
+          "theorems": 42,
+          "lemmas": 72,
+          "propositions": 32,
+          "corollaries": 12,
+          "definitions": 18,
+          "displayed_equations": 21,
+          "bibliography_entries": 0,
+          "appendix_pages": 60
+        }
+      }
+    },
+    {
+      "record_version": 1,
+      "arxiv_id": "2607.06874",
+      "version": 1,
+      "title": "Gaussian comparison above the median",
+      "authors": [
+        "Colin B. Fogarty"
+      ],
+      "categories": {
+        "primary": "math.ST",
+        "secondary": []
+      },
+      "dates": {
+        "submitted": "2026-07-08T00:13:20Z",
+        "updated": "2026-07-08T00:13:20Z",
+        "approved": "2026-08-24"
+      },
+      "abstract": "We prove a Gaussian comparison inequality for closed convex sets with reference probability at least 1/2. For centered Gaussian vectors whose covariance matrices are ordered in the Loewner sense, the smaller covariance law assigns at least as much probability as the larger covariance law to every closed convex set with measure at least 1/2 under the larger covariance. This provides a one-sided analogue of Anderson's Theorem for Gaussian measures. As a statistical application, the result justifies one-sided and order-restricted inference using conservative covariance estimators at significance levels below 1/2 for test statistics whose acceptance regions are closed and convex but not necessarily symmetric.",
+      "urls": {
+        "abstract": "https://arxiv.org/abs/2607.06874v1",
+        "pdf": "https://arxiv.org/pdf/2607.06874v1",
+        "source": "https://export.arxiv.org/e-print/2607.06874v1"
+      },
+      "structural_counts": {
+        "pages": 18,
+        "theorems": 1,
+        "lemmas": 0,
+        "propositions": 1,
+        "corollaries": 1,
+        "definitions": 0,
+        "displayed_equations": 24,
+        "bibliography_entries": 497,
+        "appendix_pages": 0
+      },
+      "count_methods": {
+        "pages": "pdf",
+        "theorems": "source",
+        "lemmas": "source",
+        "propositions": "source",
+        "corollaries": "source",
+        "definitions": "source",
+        "displayed_equations": "source",
+        "bibliography_entries": "source",
+        "appendix_pages": "estimated"
+      },
+      "count_notes": [
+        "Source counts use the expanded primary TeX file arxiv_version.tex.",
+        "Appendix pages include the first PDF page with an explicit Appendix heading through the final page."
+      ],
+      "disclosure": {
+        "quotation": "Generative AI and AI-assisted technologies During the preparation of this work, the author used OpenAI’s ChatGPT to help for- mulate the numerical example in §3 and the numerical counterexample to the conjecture of Cohen and Fogarty (2022, §9.1). It was also used to check algebraic and proof details for the author’s proofs of Theorem 1 and Proposi",
+        "location": {
+          "kind": "page",
+          "value": "PDF page 7",
+          "page": 7
+        },
+        "classification": "proof_ideas_steps",
+        "role_label": "Proof ideas or individual proof-step assistance",
+        "multiplier": 8
+      },
+      "verification": {
+        "status": "verified",
+        "reviewer": "j346huan",
+        "verified_at": "2026-08-24T00:34:15.228Z"
+      },
+      "score": 693.6,
+      "score_breakdown": {
+        "formula_version": "1.0",
+        "base_score": 86.7,
+        "multiplier": 8,
+        "contributions": {
+          "pages": 18,
+          "theorems": 6,
+          "lemmas": 0,
+          "propositions": 4,
+          "corollaries": 3,
+          "definitions": 0,
+          "displayed_equations": 6,
+          "bibliography_entries": 49.7,
+          "appendix_pages": 0
+        }
+      }
+    },
+    {
+      "record_version": 1,
       "arxiv_id": "2607.06816",
       "version": 1,
       "title": "Dynamic Driver Allocation Under Latent Demand Regimes: Indexability of a Partially Observed Markov Decision Process",
