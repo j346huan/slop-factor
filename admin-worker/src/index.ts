@@ -41,7 +41,6 @@ interface ApprovedCollection {
 
 interface GitHubContent {
   sha: string;
-  content: string;
 }
 
 interface CandidatePayload {
@@ -407,16 +406,14 @@ async function publishApprovedRecords(
 ): Promise<void> {
   const path = "data/approved/papers.json";
   for (let attempt = 0; attempt < 3; attempt += 1) {
-    const file = await github<GitHubContent>(
-      token,
-      `/repos/${repository}/contents/${path}?ref=main`,
-    );
-    const decoded = decoder.decode(
-      Uint8Array.from(atob(file.content.replace(/\s/g, "")), (character) =>
-        character.charCodeAt(0),
+    const [file, raw] = await Promise.all([
+      github<GitHubContent>(
+        token,
+        `/repos/${repository}/contents/${path}?ref=main`,
       ),
-    );
-    const collection = JSON.parse(decoded) as ApprovedCollection;
+      githubRaw(token, `/repos/${repository}/contents/${path}?ref=main`),
+    ]);
+    const collection = JSON.parse(raw) as ApprovedCollection;
     const proposed = mergeApprovedRecords(collection, records);
     try {
       await github(token, `/repos/${repository}/contents/${path}`, "PUT", {
