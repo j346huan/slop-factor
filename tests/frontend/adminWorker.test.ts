@@ -131,6 +131,7 @@ describe("approval publication", () => {
       worker,
       /publishApprovedRecords\(token, env\.PUBLIC_REPOSITORY/,
     );
+    assert.match(worker, /githubRaw\([\s\S]*contents\/\$\{path\}\?ref=main/);
     assert.doesNotMatch(worker, /approve-batch\.yml\/dispatches/);
     assert.doesNotMatch(
       application,
